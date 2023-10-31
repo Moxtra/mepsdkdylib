@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MEPSDKDylib"
-  s.version      = "2012251810."
+  s.version      = "8.14.4"
   s.summary      = "Dynamic lib for MEPSDK"
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "11.0"
+  s.platform     = :ios, "13.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -117,9 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.vendored_frameworks ='Common/MEPSDK.framework'
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+  s.vendored_frameworks ='Common/MEPSDK.xcframework'
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
