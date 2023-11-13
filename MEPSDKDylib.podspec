@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MEPSDKDylib"
-  s.version      = "8.14.4"
+  s.version      = "8.16.6"
   s.summary      = "Dynamic lib for MEPSDK"
 
   # This description is used to generate tags and improve search results.
