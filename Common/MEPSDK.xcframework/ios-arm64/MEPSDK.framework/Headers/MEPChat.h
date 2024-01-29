@@ -81,6 +81,12 @@ typedef NS_ENUM(NSUInteger, MEPChatType) {
     MEPChatTypeServiceRequest
 };
 
+typedef NS_OPTIONS(NSUInteger, MEPChatTab) {
+    MEPChatTabFiles     = 1 << 0,
+    MEPChatTabActions   = 1 << 1,
+    MEPChatTabAll       = MEPChatTabFiles | MEPChatTabActions
+};
+
 @interface MEPChat : NSObject
 
 @property (nonatomic, copy, readonly) NSString *chatID;

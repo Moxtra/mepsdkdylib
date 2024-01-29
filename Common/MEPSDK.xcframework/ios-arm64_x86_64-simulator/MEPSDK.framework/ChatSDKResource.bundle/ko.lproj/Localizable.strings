@@ -178,7 +178,6 @@
 "%@ ended the meeting." = "%@님이 이 미팅을 종료했습니다.";
 "%@ entered waiting room." = "%@님이 대기실에 들어갔습니다.";
 "%@ files were not attached." = "%@개의 파일이 첨부되지 않았습니다.";
-"%@ finished this To-Do." = "%@이(가) 이 할 일을 완료했습니다.";
 "%@ has been added to your %@ team. Use your team for 1:1 support and services from %@." = "%1$@님이 귀하의 %2$@ 팀에 추가되었습니다. 팀을 사용하여 %3$@의 1:1 지원 및 서비스를 받으십시오.";
 "%@ has been added to your contacts" = "%@님이 귀하의 연락처에 추가되었습니다";
 "%@ has been added to your team." = "%@님이 귀하의 팀에 추가되었습니다.";
@@ -199,7 +198,7 @@
 "%@ is %@ right now and may not be able to respond." = "%1$@님이 현재 %2$@ 상태이며, 응답하지 못할 수 있습니다.";
 "%@ is away right now and may not be able to respond." = "%@이(가) 현재 부재중이어서 응답하지 못할 수 있습니다.";
 "%@ is controlling co-browsing." = "%@님이 협동 브라우징을 제어하고 있습니다.";
-"%@ is currently out of office and will review your message as soon as they return." = "%@은(는) 현재 부재 중이며, 메시지가 돌아오는 대로 메시지를 검토할 것입니다.";
+"%@ is currently out of office." = "%@님은 현재 사무실을 비우고 있습니다.";
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@님은 현재 부재중입니다. 긴급한 문제가 있으면 언제든지 %2$@와 채팅하십시오.";
 "%@ is currently out of office:" = "%@님이 현재 부재중입니다:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@님은 현재 사용 불가 상태이며, 메시지가 반환되는 즉시 검토할 것입니다.";
@@ -317,6 +316,7 @@
 "%@ were added to the workspace" = "%@님이 작업 공간에 추가되었습니다.";
 "%@ were removed from the workspace" = "%@님이 작업 공간에서 삭제되었습니다.";
 "%@ years ago" = "%@년 전";
+"%@'s Flow" = "%@의 플로우";
 "%@'s Meeting" = "%@님의 미팅";
 "%@'s invite for %@ to join \"%@\" is awaiting approval." = "%2$@님을 \"%3$@\"에 가입하도록 하기 위한 %1$@님의 초대가 승인 대기중입니다.";
 "%@'s invite request for %@ to join \"%@\" has been rejected by %@." = "%2$@님을 \"%3$@\"에 가입하도록 하기 위한 %1$@님의 초대가 %4$@에 의해 거부되었습니다.";
@@ -351,6 +351,7 @@
 "1 month ago" = "한달전에";
 "1 request to approve" = "승인 요청 1건";
 "1 year ago" = "1년 전";
+"A majority of assignees must finish this to-do to complete it." = "대다수의 담당자가 이 할 일을 완료해야 합니다.";
 "A maximum of %@ workspaces will be kept in the Timeline. Past this limit, the most inactive workspaces will be automatically archived by the system." = "최대 %@개의 작업 공간이 타임라인에 유지됩니다. 이 제한을 초과하면 가장 비활성인 작업 공간이 시스템에 의해 자동으로 보관됩니다.";
 "A network error occurred." = "네트워크 오류가 발생했습니다.";
 "A network issue prevented us from starting co-browsing. Please try again." = "네트워크 문제로 인해 협동 브라우징을 시작하지 못했습니다. 다시 시도해 주세요.";
@@ -385,6 +386,9 @@
 "Acknowledgement completed." = "인정 완료.";
 "Acknowledgement completed: %@" = "인정 완료: %@";
 "Acknowledgement due now" = "인정 기한은 지금입니다";
+"Acknowledgement due soon" = "곧 인정이 필요합니다";
+"Acknowledgement due today" = "오늘 확인 마감";
+"Acknowledgement overdue (%@)" = "인정이 지연되었습니다 (%@)";
 "Action In Progress" = "작업 진행 중";
 "Action Items" = "조치 항목";
 "Action Needed By" = "조치 필요자";
@@ -415,6 +419,7 @@
 "Add Files" = "파일 추가";
 "Add Guest" = "손님 추가";
 "Add Here" = "여기에 추가";
+"Add Jumio details" = "Jumio 세부사항 추가";
 "Add Members" = "구성원 추가하기";
 "Add New" = "새로 추가";
 "Add New Action" = "새로운 액션 추가";
@@ -438,7 +443,6 @@
 "Add the information below to get started!" = "시작하려면 아래 정보를 추가하십시오!";
 "Add to Contacts" = "연락처에 추가";
 "Add to calendar" = "캘린더에 추가";
-"Add token" = "토큰 추가";
 "Add useful information regarding to your e-sign" = "전자 서명에 대한 유용한 정보 추가";
 "Add useful information regarding your DocuSign" = "DocuSign에 대한 유용한 정보 추가";
 "Add useful information regarding your request" = "요청에 대한 유용한 정보 추가";
@@ -530,6 +534,9 @@
 "Approval completed." = "승인 완료됨.";
 "Approval completed: %@" = "승인 완료됨: %@";
 "Approval due now" = "승인 마감일";
+"Approval due soon" = "곧 승인이 필요합니다";
+"Approval due today" = "오늘 승인 마감";
+"Approval overdue (%@)" = "승인 기한 초과 (%@)";
 "Approve" = "승인";
 "Approve All" = "모두 승인";
 "Approve Pending Request" = "승인 대기 요청";
@@ -552,6 +559,7 @@
 "Are you sure you want to remove this attachment?" = "정말 이 첨부 자료를 삭제하시겠습니까?";
 "Are you sure you want to start the meeting before its scheduled time?" = "정말 예약된 시간 전에 미팅을 시작하시겠습니까?";
 "Arrow" = "화살표";
+"Asia Pacific" = "아시아 태평양";
 "Ask the client to send a message to reactivate this workspace." = "고객에게 이 작업 공간을 다시 활성화하기 위한 메시지를 보내도록 요청합니다.";
 "Assign" = "배정";
 "Assign Client Groups" = "고객 그룹 할당";
@@ -611,6 +619,7 @@
 "By Email" = "이메일 사용";
 "By Phone" = "전화 사용";
 "By SMS" = "SMS별";
+"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "시작을 클릭함으로써 당신은 Jumio가 개인 정보를 수집, 처리 및 공유하는 것에 동의하는 것으로, 이는 생체 인식 데이터를 포함할 수 있으며, 이는 그들의 개인정보 보호 공지에 따른 것입니다.";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "“확인”을 클릭하여 이 승인 요청에 포함된 정보를 읽고 이해했음을 확인하십시오.";
 "By continuing, you are giving consent to be recorded." = "계속하면 녹화하는 데 동의하는 것으로 간주됩니다.";
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "계정을 생성하면 서비스 약관 및 개인 정보 보호 정책에 동의한 것으로 간주됩니다.";
@@ -688,8 +697,11 @@
 "Client Groups" = "고객 그룹";
 "Client Groups (Optional)" = "고객 그룹(선택 사항)";
 "Client Groups can only be created by admin users in the Admin Portal." = "고객 그룹은 관리자 포털에서 관리자 권한을 가진 사용자만 만들 수 있습니다.";
+"Client ID" = "클라이언트 ID";
+"Client ID or Secret is invalid." = "클라이언트 ID 또는 비밀번호가 유효하지 않습니다.";
 "Client Left Workspace" = "작업 공간을 떠난 고객";
 "Client Login" = "고객 로그인";
+"Client Secret" = "클라이언트 비밀번호";
 "Client Unfollowed Account" = "고객이 계정을 팔로우하지 않음";
 "Client accepted invitation" = "고객이 초대를 수락했습니다";
 "Client assigned to you" = "귀하에게 할당된 고객";
@@ -894,6 +906,9 @@
 "DocuSign completed." = "DocuSign이 작성되었습니다.";
 "DocuSign completed: %@" = "DocuSign이 작성되었습니다: %@";
 "DocuSign due now" = "DocuSign 지금 마감";
+"DocuSign due soon" = "곧 DocuSign이 필요합니다";
+"DocuSign due today" = "DocuSign 오늘 마감";
+"DocuSign overdue (%@)" = "DocuSign 기한 초과 (%@)";
 "Document Only" = "문서 전용";
 "Document Sent" = "문서 발송함";
 "Document with Certificate" = "인증서가 있는 문서";
@@ -942,7 +957,9 @@
 "E-Sign completed" = "전자 서명 완료됨";
 "E-Sign completed." = "전자 서명 완료됨.";
 "E-Sign completed: %@" = "전자 서명 완료됨: %@";
-"E-Sign due now" = "전자 서명 만기일";
+"E-Sign due soon" = "곧 E-서명이 필요합니다";
+"E-Sign due today" = "오늘 전자 서명 마감";
+"E-Sign overdue (%@)" = "E-서명 기한 초과 (%@)";
 "EXPIRED" = "만료됨";
 "EXPIRY DATE" = "만료 날짜";
 "Edit" = "편집";
@@ -957,6 +974,7 @@
 "Edit General Availability" = "일반 가용성 변경";
 "Edit Group Assignment" = "그룹 할당 편집";
 "Edit Jumio" = "Jumio 편집";
+"Edit Jumio details" = "Jumio 세부 정보 편집";
 "Edit Label" = "레이블 편집";
 "Edit Link Security" = "링크 보안 편집";
 "Edit Meeting" = "미팅 편집";
@@ -973,7 +991,6 @@
 "Edit Welcome Message" = "환영 메시지 편집";
 "Edit Workspace" = "작업 공간 편집";
 "Edit recurring meeting" = "정기 미팅 편집";
-"Edit token" = "토큰 편집";
 "Edit your filters to see results" = "결과를 표시하기 위한 필터 편집";
 "Editable by..." = "편집자...";
 "Edited" = "편집됨";
@@ -1030,6 +1047,7 @@
 "Error" = "오류";
 "Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@)." = "DocuSign과의 연결 오류입니다. 작성자(%1$@)에게 DocuSign 계정(%2$@)을 다시 연결하도록 요청하십시오.";
 "Error connecting with DocuSign. Please reconnect account (%@) to enable the signatures." = "DocuSign과의 연결 오류입니다. 서명을 활성화하려면 계정(%@)을 다시 연결하십시오.";
+"Europe" = "유럽";
 "Every" = "모든";
 "Every %@ days." = "%1$@낮마다.";
 "Every day." = "매낮.";
@@ -1062,12 +1080,16 @@
 "File Request completed." = "파일 요청 완료됨.";
 "File Request completed: %@" = "파일 요청 완료됨: %@";
 "File Request due now" = "파일 요청 마감일";
+"File Request due soon" = "곧 마감되는 파일 요청";
+"File Request due today" = "오늘 파일 요청 마감";
 "File Request needs your review" = "파일 요청을 검토해야 합니다";
+"File Request overdue (%@)" = "파일 요청 기한 초과 (%@)";
 "File Request ready for review" = "파일 요청 검토 준비 완료";
 "File Request ready for review." = "파일 요청 검토 준비 완료.";
 "File Request ready for review: %@" = "파일 요청 검토 준비 완료: %@";
 "File Request reopened" = "파일 요청 다시 열기";
 "File Reviewer" = "파일 검토자";
+"File Size Exceeded" = "파일 크기 초과";
 "File doesn't exist." = "파일이 없습니다.";
 "File size limit reached (%@)" = "파일 크기 제한에 도달했습니다(%@)";
 "File type unsupported" = "지원되지 않는 파일 형식";
@@ -1084,7 +1106,6 @@
 "Filters" = "필터";
 "Find messages, files, contents, and more by typing above." = "위에 입력하여 메시지, 파일, 내용 등을 찾으십시오.";
 "Finish" = "완료";
-"First Name" = "이름";
 "Fix Perspective" = "원근법 수정";
 "Flow" = "흐름";
 "Flow Template Library" = "플로우 템플릿 라이브러리";
@@ -1118,6 +1139,9 @@
 "Form completed." = "양식이 완료되었습니다.";
 "Form completed: %@" = "양식 완료됨: %@";
 "Form due now" = "지금 양식 마감";
+"Form due soon" = "양식 제출 마감 임박";
+"Form due today" = "오늘 양식 마감";
+"Form overdue (%@)" = "양식 기한 초과 (%@)";
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "각 대상에서 ‘복사 대상…’ 기능을 사용하여 작업 공간 내용을 전달합니다.";
 "Forwarding..." = "전달 중...";
 "Frequency" = "빈도";
@@ -1186,6 +1210,10 @@
 "I'd like to share a file with you: %@" = "파일을 공유하고자 합니다: %@";
 "I'd like to share a video with you. \r\n\r\n<br><br>" = "비디오를 공유하고자 합니다. \r\n\r\n<br><br>";
 "I'd like to share some files with you: %@" = "일부 파일을 공유하고자 합니다: %@";
+"ID Capture and Storage" = "ID 캡처 및 저장";
+"ID Verification" = "ID 확인";
+"ID Verification, Identity Verification, Screening" = "ID 확인, 신원 확인, 검토";
+"ID and Identity Verification" = "ID 및 신원 확인";
 "INVITE SENT" = "초대 발송";
 "Identity Verification" = "신원 확인";
 "Identity Verification assigned to %@" = "신원 확인이 %@에게 할당되었습니다";
@@ -1196,9 +1224,13 @@
 "Identity Verification completed." = "신원 확인이 완료되었습니다.";
 "Identity Verification completed: %@" = "신원 확인이 완료되었습니다: %@";
 "Identity Verification due now" = "현재 신원 확인 기한 지금 완료";
+"Identity Verification due soon" = "곧 신원 확인이 필요합니다";
+"Identity Verification due today" = "현재 신원 확인 기한 오늘 완료";
+"Identity Verification overdue (%@)" = "신원 확인 기한 초과 (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "보안상의 이유로 신원 검증이 일시적으로 해제되었습니다. 나중에 다시 시도해 주세요.";
-"If enabled, all attachments must be opened by the asignee before acknowledging." = "사용 가능으로 설정된 경우, 승인하기 전에 서명인이 모든 첨부 파일을 열어야 합니다.";
-"If enabled, the file reviewer will be required to review files after submission." = "활성화된 경우 파일 검토자는 제출 후 파일을 검토해야 합니다.";
+"If enabled, a file reviewer will be required to review the files that are uploaded." = "활성화된 경우, 파일 리뷰어는 업로드된 파일을 검토해야 합니다.";
+"If enabled, all attachments must be opened by the assignee before acknowledging." = "활성화된 경우, 확인하기 전에 모든 첨부 파일을 담당자가 열어야 합니다.";
+"If enabled, this action can be completed in parallel with the previous action in the flow." = "활성화된 경우, 이 작업은 플로우의 이전 작업과 병렬로 완료될 수 있습니다.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "활성화하면 처음으로 흐름 작업 공간을 열 때마다 흐름 커버 페이지가 표시됩니다.";
 "If removed, they will lose access to this workspace immediately." = "제거하면 즉시 이 작업 공간에 대한 액세스 권한이 사라집니다.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "DocuSign 계정의 연결을 해제하면, 배당인은 이 계정으로 작성된 보류 중인 문서에 액세스하거나 서명할 수 없습니다. 완료된 문서는 이에 영향을 받지 않습니다.";
@@ -1217,6 +1249,7 @@
 "In Progress" = "진행 중";
 "In progress..." = "진행 중...";
 "In the cloud" = "클라우드에서";
+"In: %@" = "에서: %@";
 "Inactive account" = "비활성 계정";
 "Inbox" = "받은 편지함";
 "Inbox from %@" = "%@의 받은 편지함";
@@ -1229,7 +1262,7 @@
 "Incorrect phone number or password" = "잘못된 전화번호 또는 비밀번호";
 "Incorrect verification code. Please try again." = "잘못된 인증 코드입니다. 다시 시도해 주세요.";
 "Info" = "정보";
-"Initials" = "이니셜";
+"Init." = "약어";
 "Insert" = "삽입";
 "Insert Image" = "이미지 삽입";
 "Insert Link" = "링크 삽입";
@@ -1289,13 +1322,13 @@
 "Join my meeting" = "내 미팅에 가입";
 "Join the rest of your team at %@ on %@" = "%2$@의 %1$@에서 나머지 팀에 합류하십시오";
 "Join the rest of your team on the %@ Portal" = "%@ 포털에서 나머지 팀에 합류하십시오";
+"Join workspace" = "작업 공간에 가입하기";
 "Joined" = "가입함";
 "Joining..." = "가입 중...";
 "Jumio" = "Jumio";
 "Jump to Workspace" = "작업 공간으로 이동";
 "Keypad" = "키패드";
 "Last Activity" = "마지막 활동";
-"Last Name" = "성";
 "Last active: %@" = "마지막 기록: %@";
 "Last active: %@d ago" = "마지막 기록: %@일 전";
 "Last active: %@h ago" = "마지막 기록: %@시간 전";
@@ -1310,6 +1343,7 @@
 "Last seen: %@h ago" = "마지막 본 날짜: %@시간 전";
 "Last seen: %@m ago" = "마지막 본 날짜: %@개월 전";
 "Last seen: %@w ago" = "마지막 본 날짜: %@년 전";
+"Learn More" = "더 알아보기";
 "Learn more about what assignees will see" = "피지정자가 보게 될 내용에 대해 자세히 알아보기";
 "Leave" = "나가기";
 "Leave Audio" = "오디오 나가기";
@@ -1369,6 +1403,7 @@
 "Mark as Unread" = "읽지 않음으로 표시";
 "Max %@ characters" = "최대 %1$@자";
 "Max Amount" = "최대 금액";
+"Maximum %@ size exceeded (%@)" = "최대 %1$@ 크기를 초과했습니다 (%2$@)";
 "Maximum members limit reached" = "최대 멤버 수 제한에 도달했습니다";
 "Maximum participants reached. Please try removing some and trying again." = "최대 참가자 수에 도달했습니다. 일부를 삭제한 후 다시 시도하십시오.";
 "Me" = "본인";
@@ -1413,6 +1448,7 @@
 "Member Requests" = "구성원 요청";
 "Member Type" = "구성원 유형";
 "Members" = "구성원";
+"Members have not joined" = "회원이 가입하지 않았습니다";
 "Members only" = "회원 전용";
 "Members(%@)" = "구성원 (%@)";
 "Mentions" = "멘션";
@@ -1523,8 +1559,8 @@
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "일반 시간대를 찾을 수 없습니다. 일부 참가자를 제거하거나, 회의 기간을 조정하거나, 예약 기간을 변경해보십시오.";
 "No meeting" = "미팅 없음";
 "No meetings" = "미팅 없음";
-"No message will be displayed" = "메시지가 표시되지 않습니다";
 "No pending approvals" = "보류 중인 승인 없음";
+"No personalized message will be displayed" = "개인화된 메시지는 표시되지 않습니다";
 "No reminder" = "알림 없음";
 "No transaction matching this search" = "이 검색과 일치하는 거래 없음";
 "No viewers yet" = "아직 뷰어가 없음";
@@ -1562,6 +1598,7 @@
 "Only invited members can access the workspace" = "초대된 회원만이 작업 공간에 접근할 수 있습니다";
 "Only one assignee is required to acknowledge this acknowledgement to complete it." = "이 인정을 완료하려면 한 명의 할당자만 인정해야 합니다.";
 "Only one assignee is required to approve this approval to complete it." = "이 승인을 완료하려면 한 명의 할당자만 승인해야 합니다.";
+"Only one assignee is required to finish this to-do to complete it." = "이 할 일을 완료하기 위해선 단 한 명의 담당자만 필요합니다.";
 "Only participants can view meeting details." = "참가자만 회의 세부사항을 볼 수 있습니다.";
 "Only websites that support https can be loaded in order to ensure a secure connection." = "안전한 연결을 위해 https를 지원하는 웹 사이트만 로드할 수 있습니다.";
 "Only workspace owner can adjust link security" = "링크 보안을 조정할 수 있는 것은 워크스페이스소유자만입니다";
@@ -1576,6 +1613,7 @@
 "Original File" = "원본 파일";
 "Original Size" = "원본 크기";
 "Other Activities" = "기타 활동";
+"Other SSO" = "다른 SSO";
 "Other Settings" = "기타 설정";
 "Out of Office" = "부재 중";
 "Outlook Calendar" = "Outlook 캘린더";
@@ -1637,6 +1675,7 @@
 "Please click below to create your account." = "계정을 생성하려면 아래를 클릭하십시오.";
 "Please click the button below to finish creating your account." = "계정 생성을 완료하려면 아래 버튼을 클릭하십시오.";
 "Please connect your DocuSign account to access templates." = "테플릿에 액세스하려면 DocuSign 계정을 연결하십시오.";
+"Please contact our support team at support.moxo.com." = "support.moxo.com에서 저희 지원팀에 연락해 주세요.";
 "Please contact the administrator of your portal to continue." = "계속하려면 포털 관리자에게 문의하십시오.";
 "Please contact the host and request an invitation to join." = "주최자에 연락하여 가입 초대를 요청하십시오.";
 "Please contact us to receive a new invitation." = "새 초대를 받으려면 당사에 문의하십시오.";
@@ -1776,7 +1815,7 @@
 "Request Sent" = "요청 전송됨";
 "Requests" = "요청";
 "Require Attachment Review" = "첨부 자료 검토 필요";
-"Require Review" = "검토 필요";
+"Require File Review" = "파일 검토 필요";
 "Required Update Available" = "필요한 업데이트 사용 가능";
 "Required field" = "필수 필드";
 "Reschedule" = "일정 변경";
@@ -1858,6 +1897,7 @@
 "Select Bot" = "봇 선택";
 "Select Category" = "범주 선택";
 "Select Conversation" = "대화 선택";
+"Select Data Center" = "데이터 센터 선택";
 "Select Date" = "날짜 선택";
 "Select Download Option" = "다운로드 옵션 선택";
 "Select File" = "선택";
@@ -1869,6 +1909,7 @@
 "Select Tool" = "도구 선택";
 "Select Type" = "유형 선택";
 "Select Users" = "사용자 선택";
+"Select Workflow Type" = "워크플로우 유형 선택";
 "Select Workspace" = "작업 공간 검색";
 "Select Workspaces" = "작업 공간 검색";
 "Select a Date & Time" = "날짜 및 시간 선택";
@@ -1953,6 +1994,7 @@
 "Signup disabled" = "가입 비활성화";
 "Single sign-on" = "싱글 사인온";
 "Skip" = "건너뛰기";
+"Skip Sequential Order" = "순차적 순서 건너뛰기";
 "Skipped" = "건너뛰기";
 "Slide to Cancel" = "취소하려면 슬라이드하십시오";
 "Slide up to cancel" = "취소하려면 위로 슬라이드하십시오";
@@ -1982,6 +2024,7 @@
 "Start Meeting Early?" = "미팅을 일찍 시작합니까?";
 "Start New Search" = "새 검색 시작";
 "Start Record" = "기록 시작";
+"Start Verification" = "인증 시작";
 "Start Workspace" = "작업 공간 시작";
 "Start a new workspace without using a template" = "템플릿을 사용하지 않고 새 작업 공간을 시작하십시오";
 "Start new workspace" = "새 작업공간 시작";
@@ -2058,6 +2101,7 @@
 "Thank you for using %@ meeting." = "%@ 미팅을 \n사용해 주셔서 감사합니다.";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "감사합니다. 모든 사람이 서류에 서명하면 최종 서명본을 보내드리겠습니다.";
 "Thanks for joining!" = "참여해 주셔서 감사합니다!";
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "클라이언트 ID와 클라이언트 비밀번호는 OAuth2 액세스 토큰을 생성하는 데 사용됩니다. Jumio 포털에서 클라이언트 ID와 클라이언트 비밀번호에 접근하세요.";
 "The Meeting has Ended" = "미팅이 종료되었습니다";
 "The URL you've entered is not valid. Please review the URL and try again." = "입력한 URL이 올바르지 않습니다. URL을 검토하고 다시 시도하십시오.";
 "The account associated with %@ is no longer active" = "%@와 연결된 계정은 더 이상 활성화되지 않았습니다";
@@ -2095,7 +2139,6 @@
 "The selected items will be moved under %@." = "선택한 항목이 %@안에서 이동합니다.";
 "The selected person is the owner of the workspace." = "선택된 사람이 워크스페이스의 소유자입니다.";
 "The start time must be before the end time." = "시작 시간은 종료 시간보다 먼저여야 합니다.";
-"The token is invalid." = "토큰이 잘못되었습니다.";
 "There are no active screen share sessions to join." = "가입할 활성 화면 공유 세션이 없습니다.";
 "There are no other members in this workspace." = "이 작업 공간에는 다른 구성원이 없습니다.";
 "There are no results matching the name you’ve provided." = "입력한 이름과 일치하는 결과가 없습니다.";
@@ -2148,6 +2191,7 @@
 "This person is in a client group that was added to this workspace. Assigning this action to them will add them as an individual workspace member." = "해당 사용자는 이 작업 공간에 추가된 고객 그룹에 있습니다. 이 조치를 사용자에게 할당하면 해당 사용자가 개별 작업 공간 구성원으로 추가됩니다.";
 "This person is in a team that was added to this workspace. Assigning this action to them will add them to this workspace as an individual member." = "이 사용자는 이 작업 공간에 추가된 팀에 있습니다. 이 조치를 사용자에게 할당하면 해당 사용자가 개별 구성원으로 이 작업 공간에 추가됩니다.";
 "This person looks new:" = "이 사람은 새로운 것 같습니다:";
+"This portal has been disabled" = "이 포털은 비활성화되었습니다.";
 "This reset password link is no longer valid" = "이 비밀번호 재설정 링크는 더 이상 유효하지 않습니다";
 "This role and any assigned fields will be hidden." = "이 역할과 할당된 필드는 숨겨집니다.";
 "This step has already started and the assignee(s) can review and act on the step while you are editing. Any already completed step progress will be lost." = "이 단계는 이미 시작되었으며 사용자가 편집하는 동안 담당자는 단계를 검토하고 수행할 수 있습니다. 이미 완료된 단계 진행이 모두 손실됩니다.";
@@ -2168,6 +2212,10 @@
 "This will delete all scanned pages. Are you sure you want to leave?" = "스캔한 모든 페이지가 삭제됩니다. 정말 나가시겠습니까?";
 "This will erase annotations made by all participants." = "이로 인해 모든 참가자가 작성한 주석이 지워집니다.";
 "This will stop other's sharing, do you want to continue?" = "다른 사용자의 공유가 중지됩니다. 계속하시겠습니까?";
+"This workflow captures a government-issued ID document and stores the extracted data." = "이 워크플로우는 정부에서 발급한 신분증 문서를 캡처하고 추출된 데이터를 저장합니다.";
+"This workflow verifies a government-issued ID document and returns a) whether that document is valid, and b) data extracted from that document." = "이 워크플로우는 정부에서 발행한 신분증 문서를 검증하고 a) 그 문서가 유효한지, b) 그 문서에서 추출한 데이터를 반환합니다.";
+"This workflow verifies a photo ID document and returns a) whether that document is valid, and b) data extracted from that document. It also compares the user's face with the photo on the ID and performs a liveness check to ensure the person is physically present.\n\nPrerequisites\n - Identity Verification must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Obtain End-User Consent for Biometric Data" = "이 워크플로우는 사진 ID 문서를 검증하고 a) 해당 문서의 유효성 여부와 b) 해당 문서에서 추출한 데이터를 반환합니다. 또한 사용자의 얼굴을 ID의 사진과 비교하고, 실제로 사람이 현장에 있는지 확인하기 위해 생체 인증을 수행합니다.\n\n사전 요구 사항\n - 귀하의 계정에 대한 신원 확인이 활성화되어야 합니다. (활성화를 위해 Jumio 계정 관리자에게 연락하십시오.)\n - 생체 정보 데이터에 대한 최종 사용자 동의를 얻으십시오.";
+"This workflow verifies a photo ID document and returns a) whether that document is valid, and b) data extracted from that document. It also compares the user's face with the photo on the ID and performs a liveness check to ensure the person is physically present. Checks if user is part of any sanctions list using Comply Advantage.\n\nPrerequisites\n - Identity Verification must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Screening must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Screening must be set up for your Customer Portal (see Comply Advantage Portal Setup)\n - Obtain End-User Consent for Biometric Data" = "이 워크플로우는 사진 ID 문서를 검증하고 a) 해당 문서의 유효성 여부와 b) 해당 문서에서 추출된 데이터를 반환합니다. 또한 사용자의 얼굴을 ID의 사진과 비교하고, 실제로 사람이 현장에 있는지 확인하기 위해 생체 인증을 수행합니다. Comply Advantage를 사용하여 사용자가 제재 목록의 일부인지 확인합니다.\n\n사전 요구 사항\n - 귀하의 계정에 대한 신원 확인이 활성화되어야 합니다. (활성화를 위해 Jumio 계정 관리자에게 연락하십시오.)\n - 귀하의 계정에 대한 스크리닝이 활성화되어야 합니다. (활성화를 위해 Jumio 계정 관리자에게 연락하십시오.)\n - 고객 포털에 대한 스크리닝이 설정되어야 합니다 (Comply Advantage 포털 설정 참조)\n - 생체 정보 데이터에 대한 최종 사용자 동의를 얻으십시오.";
 "This workspace has been archived" = "작업 공간이 기록되었습니다.";
 "This workspace has been deactivated, and all members are unable to interact. Only the owner can reactivate it." = "이 작업 공간은 비활성화되었으며 모든 멤버는상호 작용할 수 없습니다. 오직 소유자만이 이를재활성화할 수 있습니다.";
 "This workspace has reached max %@ members, please contact workspace owner." = "이 작업 공간은 최대 %@명의 구성원 수에 도달했습니다. 작업 공간 소유자에게 문의하십시오.";
@@ -2184,6 +2232,9 @@
 "Time Booking completed." = "시간 예약이 완료되었습니다.";
 "Time Booking completed: %@" = "시간 예약 완료: %@";
 "Time Booking due now" = "시간 예약 마감일";
+"Time Booking due soon" = "곧 예약 시간이 도래합니다";
+"Time Booking due today" = "시간 예약 마감일이 오늘입니다";
+"Time Booking overdue (%@)" = "시간 예약 연체 (%@)";
 "Time Zone" = "시간대";
 "Title" = "직책";
 "Title, description, and due date in DocuSign action can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "제목, 설명 및 DocuSign 액션의 만료일을 편집할 수 있습니다. 문서나 배정자를 변경해야 하는 경우 새 DocuSign 액션을 만드십시오.";
@@ -2204,6 +2255,12 @@
 "To use pre-built and shared templates on the mobile app, please ensure that your DocuSign account is connected." = "모바일 앱에서 사전 구축된 템플릿 및 공유 템플릿을 사용하려면 DocuSign 계정이 연결되어 있는지 확인하십시오.";
 "To-Do" = "수행할 일";
 "To-Do assigned to %@" = "수행할 일이 %@에게 할당됨";
+"To-Do assigned to %@ and %@ others" = "%1$@ 및 %2$@명의 다른 사람에게 할당된 To-Do";
+"To-Do assigned to %@ and %@ others." = "%1$@ 및 %2$@명의 다른 사람에게 할 일이 할당되었습니다.";
+"To-Do assigned to %@ and %@ others: %@" = "%1$@와 %2$@명 다른 사람에게 할당된 할 일: %3$@";
+"To-Do assigned to %@ and 1 other" = "%@ 및 1명 다른 사람에게 할당된 To-Do";
+"To-Do assigned to %@ and 1 other." = "%@와 다른 1명에게 할 일이 할당되었습니다.";
+"To-Do assigned to %@ and 1 other: %@" = "%1$@와 다른 1명에게 할당된 할 일: %2$@";
 "To-Do assigned to %@." = "수행할 일이 %@에게 할당됨.";
 "To-Do assigned to %@: %@" = "수행할 일이 %1$@에게 할당됨: %2$@";
 "To-Do assigned to you" = "수행할 일이 귀하에게 할당됨";
@@ -2213,6 +2270,9 @@
 "To-Do completed." = "완료된 할 일.";
 "To-Do completed: %@" = "완료된 할 일: %@";
 "To-Do due now" = "수행할 일 만기일";
+"To-Do due soon" = "곧 마감되는 할 일";
+"To-Do due today" = "수행할 낮 만기낮";
+"To-Do overdue (%@)" = "할 일 기한 초과 (%@)";
 "To-Do reopened" = "수행할 일 다시 시작함";
 "To-Dos" = "수행할 일";
 "Today" = "오늘";
@@ -2252,6 +2312,7 @@
 "Type your reason here." = "여기에 이유를 입력하십시오.";
 "Types" = "유형";
 "URL (required)" = "URL(필수)";
+"US" = "미국";
 "Uh-oh, you aren’t currently online. To complete this task, please connect to the internet." = "오, 이런, 귀하는 현재 온라인 상태가 아닙니다. 이 작업을 완료하려면 인터넷에 연결하십시오.";
 "Un-archive Workspace" = "작업 공간 기록 해제";
 "Unable To Assign" = "할당할 수 없음";
@@ -2314,6 +2375,7 @@
 "Unpin" = "고정 해제";
 "Unpin from Workspace" = "작업 공간에서 고정 해제";
 "Unread" = "읽지 않음";
+"Unsupported file format" = "지원하지 않는 파일 형식";
 "Until %@" = "%@까지";
 "Upcoming Meetings" = "예정 미팅";
 "Upcoming and ongoing" = "예정 및 진행 중";
@@ -2353,6 +2415,7 @@
 "User Name" = "사용자명";
 "User Not In Workspace" = "사용자가 작업 공간에 없음";
 "Users need to be added to your contacts before appearing here." = "사용자가 여기에 나타나려면 연락처에 추가해야 합니다.";
+"Using Single Sign On to securely log you in our collaboration platform." = "단일 로그인을 사용하여 안전하게 우리의 협업 플랫폼에 로그인합니다.";
 "VOID" = "VOID";
 "Validating password..." = "비밀번호 확인 중...";
 "Verification Email Sent" = "확인 이메일 전송됨";
@@ -2370,6 +2433,7 @@
 "View Office Hours" = "업무 시간 보기";
 "View Original Image" = "원본 이미지 보기";
 "View Pages" = "페이지 보기";
+"View Privacy Notice" = "개인정보 보호 공지 보기";
 "View Profile" = "프로필 보기";
 "View QR Code" = "QR 코드 보기";
 "View Terms & Policies" = "약관 및 정책 보기";
@@ -2405,6 +2469,7 @@
 "We couldn't find an active account associated with %@, but we have previously sent invitations to this email address. You can use that email to join %@ portal." = "우리는 %1$@와 연결된 활성 계정을 찾을수 없었지만, 이전에 이 이메일 주소로 초대장을보냈습니다. 이 이메일을 사용하여 %2$@ 포털에 가입할 수 있습니다.";
 "We couldn't update your status, but retrying may solve this issue." = "상태를 업데이트할 수 없지만 다시 시도하면 이 문제가 해결될 수 있습니다.";
 "We couldn’t remove the link preview, but retrying may solve the issue." = "링크 미리 보기를 삭제할 수 없지만 다시 시도하면 문제가 해결될 수 있습니다.";
+"We don't accept %@ files larger than %@." = "%1$@ 파일의 크기가 %2$@보다 큰 경우는 받아들이지 않습니다.";
 "We don't accept files larger than %@ B." = "%@B보다 큰 파일은 사용할 수 없습니다.";
 "We don't accept files larger than %@ KB." = "%@KB보다 큰 파일은 사용할 수 없습니다.";
 "We don't accept files larger than %@ MB." = "%@MB보다 큰 파일은 접수할 수 없습니다.";
@@ -2459,7 +2524,6 @@
 "Who needs to choose the meeting time?" = "누가 회의 시간을 선택해야 합니까?";
 "Who needs to complete this?" = "누가 이것을 완료해야 합니까?";
 "Who needs to fill this form?" = "누가 이 양식을 작성해야 합니까?";
-"Who needs to finish this?" = "이것을 끝내야 할 사람은 누구인가요?";
 "Who needs to sign?" = "누가 서명해야 합니까?";
 "Who needs to work on this?" = "누가 이 일을 해야 합니까?";
 "Who will choose the meeting time?" = "회의 시간은 누가 선택합니까?";
@@ -2467,6 +2531,7 @@
 "Whole File" = "전체 파일";
 "Will Be Added As An Individual Workspace Member" = "개별적인 작업 공간 구성원으로 추가되게 됩니다";
 "Will automatically apply to all new workspaces you join. You can manually override this in the settings menu of each workspace." = "귀하가 가입한 모든 새 작업 공간에 자동으로 적용됩니다. 각 작업 공간의 설정 메뉴에서 수동으로 재정의할 수 있습니다.";
+"Workflow Type" = "워크플로우 유형";
 "Workspace '%@' will be deactivated" = "%@' 작업 공간이 비활성화됩니다";
 "Workspace Deactivated" = "작업 공간 비활성화됨";
 "Workspace Doesn't Exist" = "작업 공간이 존재하지 않음";
@@ -2623,6 +2688,8 @@
 "Your meeting has been scheduled" = "미팅이 예약되었습니다";
 "Your mobile device is not setup for Email" = "모바일 장치가 이메일용으로 설정되지 않았습니다";
 "Your mobile device is not setup for SMS." = "모바일 장치가 SMS용으로 설정되지 않았습니다.";
+"Your org is not configured to use SAML SSO. Please log in with account to continue." = "당신의 조직은 SAML SSO를 사용하도록 설정되어 있지 않습니다. 계속하려면 계정으로 로그인해 주세요.";
+"Your organization allows the following file types to be shared:\n%@." = "당신의 조직은 다음 파일 유형을 공유할 수 있게 허용합니다:\n%@.";
 "Your organization requires this security configuration." = "조직에 이 보안 구성이 필요합니다.";
 "Your password was successfully updated." = "비밀번호가 성공적으로 업데이트되었습니다.";
 "Your portal is no longer active" = "포털이 더 이상 작동되지 않습니다";
@@ -2687,6 +2754,7 @@
 "start chat" = "채팅 시작";
 "the majority of assignees" = "대다수의 할당자";
 "today" = "오늘";
+"value" = "값";
 "via Instant Flow" = "인스턴트 흐름을 통해";
 "via template: %@" = "템플릿을 통해: %@";
 "video" = "영상";

@@ -178,7 +178,6 @@
 "%@ ended the meeting." = "%@ je završio sastanak.";
 "%@ entered waiting room." = "%@ je ušao u čekaonicu.";
 "%@ files were not attached." = "%@ datoteka nije priloženo.";
-"%@ finished this To-Do." = "%@ je završio ovaj zadatak.";
 "%@ has been added to your %@ team. Use your team for 1:1 support and services from %@." = "%1$@ je dodan u vaš tim %2$@. Koristite svoj tim za podršku 1 na 1 i usluge %3$@.";
 "%@ has been added to your contacts" = "%@ je dodan u vaše kontakte";
 "%@ has been added to your team." = "%@ vas je dodao u svoj tim.";
@@ -199,7 +198,7 @@
 "%@ is %@ right now and may not be able to respond." = "%1$@ je trenutno %2$@ te možda neće moći odgovoriti.";
 "%@ is away right now and may not be able to respond." = "%@ je trenutačno odsutan i možda neće moći odgovoriti.";
 "%@ is controlling co-browsing." = "%@ kontrolira zajednički pregled.";
-"%@ is currently out of office and will review your message as soon as they return." = "%@ je trenutačno izvan ureda i pregledat će vaše poruke čim se vrati.";
+"%@ is currently out of office." = "%@ trenutno nije u uredu.";
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@ je trenutačno izvan ureda. Ako imate neki hitan problem, slobodno se obratite %2$@.";
 "%@ is currently out of office:" = "%@ je trenutačno izvan ureda:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ trenutačno nije dostupan i pregledati će vašu poruku čim se vrati.";
@@ -318,6 +317,7 @@
 "%@ were added to the workspace" = "%@ dodani su u radni prostor";
 "%@ were removed from the workspace" = "%@ uklonjeni su iz radnog prostora";
 "%@ years ago" = "Prije %@ godina";
+"%@'s Flow" = "%@-ov tijek";
 "%@'s Meeting" = "Sastanak osobe %@";
 "%@'s invite for %@ to join \"%@\" is awaiting approval." = "Pozivnica %1$@ za korisnika %2$@ da se pridruži \"%3$@\" čeka na odobrenje.";
 "%@'s invite request for %@ to join \"%@\" has been rejected by %@." = "Pozivnica %1$@ za korisnika %2$@ da se pridruži \"%3$@\" je odbijena od strane %4$@.";
@@ -353,6 +353,7 @@
 "1 month ago" = "Prije 1 mjesec";
 "1 request to approve" = "1 zahtjev čeka odobrenje";
 "1 year ago" = "Prije 1 godinu";
+"A majority of assignees must finish this to-do to complete it." = "Većina dodijeljenih osoba mora završiti ovaj zadatak kako bi ga dovršila.";
 "A maximum of %@ workspaces will be kept in the Timeline. Past this limit, the most inactive workspaces will be automatically archived by the system." = "Maksimalno %@ radnih prostora zadržat će se na vremenskoj liniji. Preko ovog ograničenja, sustav će većinu neaktivnih radnih prostora automatski arhivirati.";
 "A network error occurred." = "Došlo je do mrežne pogreške.";
 "A network issue prevented us from starting co-browsing. Please try again." = "Problem s mrežom nas je spriječio da započnemo zajedničko pretraživanje. Molimo pokušajte ponovo.";
@@ -387,6 +388,9 @@
 "Acknowledgement completed." = "Potvrda je završena.";
 "Acknowledgement completed: %@" = "Potvrda je završena: %@";
 "Acknowledgement due now" = "Potvrda koja dospijeva sada";
+"Acknowledgement due soon" = "Priznanje uskoro dospjelo";
+"Acknowledgement due today" = "Rok za potvrdu je danas";
+"Acknowledgement overdue (%@)" = "Priznanje kasni (%@)";
 "Action In Progress" = "Radnja u tijeku";
 "Action Items" = "Stavke akcije";
 "Action Needed By" = "Potrebno je djelovanje";
@@ -417,6 +421,7 @@
 "Add Files" = "Dodajte dokumente";
 "Add Guest" = "Dodajte gosta";
 "Add Here" = "Dodaj ovdje";
+"Add Jumio details" = "Dodajte Jumio detalje";
 "Add Members" = "Dodajte članove";
 "Add New" = "Dodajte novo";
 "Add New Action" = "Dodaj novu radnju";
@@ -440,7 +445,6 @@
 "Add the information below to get started!" = "Dodajte informacije u nastavku da biste započeli!";
 "Add to Contacts" = "Dodajte u kontakte";
 "Add to calendar" = "Dodajte u kalendar";
-"Add token" = "Dodaj token";
 "Add useful information regarding to your e-sign" = "Dodajte korisne informacije koje se tiču vašega e-potpisa";
 "Add useful information regarding your DocuSign" = "Dodajte korisne informacije koje se tiču dokumenta DocuSign";
 "Add useful information regarding your request" = "Dodajte korisne informacije koje se tiču vašega zahtjeva";
@@ -532,6 +536,9 @@
 "Approval completed." = "Odobrenje je završeno.";
 "Approval completed: %@" = "Odobrenje je završeno: %@";
 "Approval due now" = "Odobrenje dospijeva sada";
+"Approval due soon" = "Odobrenje uskoro dospijeva";
+"Approval due today" = "Rok za dozvolu je danas";
+"Approval overdue (%@)" = "Odobrenje kasni (%@)";
 "Approve" = "Odobrite";
 "Approve All" = "Odobrite sve";
 "Approve Pending Request" = "Odobri zahtjev na čekanju";
@@ -554,6 +561,7 @@
 "Are you sure you want to remove this attachment?" = "Želite li doista ukloniti privitak?";
 "Are you sure you want to start the meeting before its scheduled time?" = "Jeste li sigurni da želite započeti sastanak prije zakazanog vremena?";
 "Arrow" = "Strjelica";
+"Asia Pacific" = "Azija Pacifik";
 "Ask the client to send a message to reactivate this workspace." = "Zamolite klijenta da pošalje poruku radi reaktiviranja ovog radnog prostora.";
 "Assign" = "Dodijeli";
 "Assign Client Groups" = "Dodijeli skupine klijenata";
@@ -613,6 +621,7 @@
 "By Email" = "E-poštom";
 "By Phone" = "Telefonom";
 "By SMS" = "Preko SMS-a";
+"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "Klikom na Start pristajete na prikupljanje, obradu i dijeljenje vaših osobnih podataka od strane Jumio, što može uključivati biometrijske podatke, sukladno njegovoj Obavijesti o privatnosti.";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "Klikom na opciju \"potvrdu\", potvrđujem da sam pročitao i razumio podatke koji se nalaze u ovom zahtjevu za potvrdu.";
 "By continuing, you are giving consent to be recorded." = "Kada nastavite, dajete suglasnost za snimanje.";
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "Kreiranjem računa pristajete na naše Opće uvjete korištenja aplikacije i Pravila privatnosti.";
@@ -690,8 +699,11 @@
 "Client Groups" = "Skupine klijenata";
 "Client Groups (Optional)" = "Skupine klijenata (opcionalno)";
 "Client Groups can only be created by admin users in the Admin Portal." = "Skupine klijenata mogu kreirati samo korisnici administratori u Portalu administratora.";
+"Client ID" = "ID klijenta";
+"Client ID or Secret is invalid." = "ID klijenta ili tajna je nevažeća.";
 "Client Left Workspace" = "Klijent je napustio radni prostor";
 "Client Login" = "Prijava klijenta";
+"Client Secret" = "Tajna klijenta";
 "Client Unfollowed Account" = "Klijent više ne prati račun";
 "Client accepted invitation" = "Klijent je prihvatio pozivnicu";
 "Client assigned to you" = "Klijent vam je dodijeljen";
@@ -898,6 +910,9 @@
 "DocuSign completed." = "DocuSign je završen.";
 "DocuSign completed: %@" = "DocuSign je završen: %@";
 "DocuSign due now" = "Rok za DocuSign je sada";
+"DocuSign due soon" = "DocuSign uskoro dospijeva";
+"DocuSign due today" = "Rok za DocuSign je danas";
+"DocuSign overdue (%@)" = "DocuSign kasni (%@)";
 "Document Only" = "Samo dokument";
 "Document Sent" = "Dokument poslan";
 "Document with Certificate" = "Dokument s certifikatom";
@@ -946,7 +961,9 @@
 "E-Sign completed" = "E-potpis je završen";
 "E-Sign completed." = "E-potpis je završen.";
 "E-Sign completed: %@" = "E-potpis je završen: %@";
-"E-Sign due now" = "Rok za e-potpis je sada";
+"E-Sign due soon" = "E-potpis uskoro dospijeva";
+"E-Sign due today" = "Rok za e-potpis je danas";
+"E-Sign overdue (%@)" = "E-potpis kasni (%@)";
 "EXPIRED" = "ISTEKLO";
 "EXPIRY DATE" = "DATUM ISTEKA";
 "Edit" = "UREDITE";
@@ -961,6 +978,7 @@
 "Edit General Availability" = "Uredi opću dostupnost";
 "Edit Group Assignment" = "Uredi zadatak skupine";
 "Edit Jumio" = "Uredi Jumio";
+"Edit Jumio details" = "Uredi Jumio detalje";
 "Edit Label" = "Uredite oznaku";
 "Edit Link Security" = "Uredi sigurnost poveznice";
 "Edit Meeting" = "Uredite sastanak";
@@ -977,7 +995,6 @@
 "Edit Welcome Message" = "Uredi poruku dobrodošlice";
 "Edit Workspace" = "Uredi radni prostor";
 "Edit recurring meeting" = "Uredi sastanak koji se ponavlja";
-"Edit token" = "Uredi token";
 "Edit your filters to see results" = "Uredite filtere kako biste vidjeli rezultate";
 "Editable by..." = "Može uređivati...";
 "Edited" = "Uređeno";
@@ -1034,6 +1051,7 @@
 "Error" = "Greška";
 "Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@)." = "Pogreška prilikom povezivanja sa DocuSign. Upitajte kreatora (%1$@) da ponovno poveže svoj DocuSign nalog (%2$@).";
 "Error connecting with DocuSign. Please reconnect account (%@) to enable the signatures." = "Pogreška prilikom povezivanja sa softverom DocuSign. Ponovno povežite nalog (%@) da biste omogućili potpise.";
+"Europe" = "Europa";
 "Every" = "Svaki";
 "Every %@ days." = "Svakih %1$@ dana.";
 "Every day." = "Svaki dan.";
@@ -1067,12 +1085,16 @@
 "File Request completed." = "Zahtjev za datoteku je završen.";
 "File Request completed: %@" = "Zahtjev za datoteku je završen: %@";
 "File Request due now" = "Zahtjev za datoteku dospijeva sada";
+"File Request due soon" = "Zahtjev za datoteku uskoro dospijeva";
+"File Request due today" = "Rok zahtjeva za datoteku je danas";
 "File Request needs your review" = "Potreban je vaš pregled zahtjeva za datoteku";
+"File Request overdue (%@)" = "Zahtjev za datoteku kasni (%@)";
 "File Request ready for review" = "Zahtjev za datoteku je spreman za pregled";
 "File Request ready for review." = "Zahtjev za datoteku je spreman za pregled.";
 "File Request ready for review: %@" = "Zahtjev za datoteku je spreman za pregled: %@";
 "File Request reopened" = "Zahtjev za datoteku je ponovo otvoren";
 "File Reviewer" = "Preglednik datoteka";
+"File Size Exceeded" = "Veličina datoteke premašena";
 "File doesn't exist." = "Dokument ne postoji.";
 "File size limit reached (%@)" = "Dostignuto je ograničenje veličine datoteke (%@)";
 "File type unsupported" = "Vrsta datoteke nije podržana";
@@ -1089,7 +1111,6 @@
 "Filters" = "Filteri";
 "Find messages, files, contents, and more by typing above." = "Pronađite poruke, datoteke, sadržaj i još toga tako što ćete tipkati iznad.";
 "Finish" = "Završite";
-"First Name" = "Ime";
 "Fix Perspective" = "Ispravite perspektiva";
 "Flow" = "Protok";
 "Flow Template Library" = "Knjižnica predloška protoka";
@@ -1123,6 +1144,9 @@
 "Form completed." = "Obrazac je završen.";
 "Form completed: %@" = "Obrazac je završen: %@";
 "Form due now" = "Rok za obrazac je sada";
+"Form due soon" = "Obrazac uskoro dospijeva";
+"Form due today" = "Rok za obrazac je danas";
+"Form overdue (%@)" = "Obrazac kasni (%@)";
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "Proslijedite sadržaj u vaše radne prostore uporabom funkcije „Kopiraj u...“ na svakom objektu.";
 "Forwarding..." = "Prosljeđivanje...";
 "Frequency" = "Frekvencija";
@@ -1191,6 +1215,10 @@
 "I'd like to share a file with you: %@" = "Želim s vama podijeliti dokument: %@";
 "I'd like to share a video with you. \r\n\r\n<br><br>" = "Želim s vama podijeliti video. \r\n\r\n<br><br>";
 "I'd like to share some files with you: %@" = "Želim s vama podijeliti nekoliko dokumenata: %@";
+"ID Capture and Storage" = "Snimanje i pohrana ID-a";
+"ID Verification" = "Verifikacija identiteta";
+"ID Verification, Identity Verification, Screening" = "Verifikacija identiteta, Provjera identiteta, Provjera";
+"ID and Identity Verification" = "ID i provjera identiteta";
 "INVITE SENT" = "POZIVNICA POSLANA";
 "Identity Verification" = "Potvrda identiteta";
 "Identity Verification assigned to %@" = "Potvrda identiteta je dodijeljena %@";
@@ -1201,9 +1229,13 @@
 "Identity Verification completed." = "Potvrda identiteta je završena.";
 "Identity Verification completed: %@" = "Potvrda identiteta je završena: %@";
 "Identity Verification due now" = "Rok za potvrdu identiteta je sada";
+"Identity Verification due soon" = "Potvrda identiteta uskoro dospijeva";
+"Identity Verification due today" = "Rok za potvrdu identiteta je danas";
+"Identity Verification overdue (%@)" = "Provjera identiteta kasni (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "Verifikacija identiteta je privremeno onemogućena iz sigurnosnih razloga. Molimo pokušajte ponovo kasnije.";
-"If enabled, all attachments must be opened by the asignee before acknowledging." = "Ako se omogući, potpisnik mora otvoriti sve privitke prije potvrde.";
-"If enabled, the file reviewer will be required to review files after submission." = "Ako je omogućeno, recenzent će morati pregledati datoteke nakon podnošenja.";
+"If enabled, a file reviewer will be required to review the files that are uploaded." = "Ako je omogućeno, preglednik datoteka morat će pregledati datoteke koje su prenesene.";
+"If enabled, all attachments must be opened by the assignee before acknowledging." = "Ako je omogućeno, svi prilozi moraju biti otvoreni od strane dodijeljene osobe prije priznavanja.";
+"If enabled, this action can be completed in parallel with the previous action in the flow." = "Ako je omogućeno, ova radnja se može izvršiti paralelno s prethodnom radnjom u tijeku.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Ako je omogućeno, prikazat ćemo naslovnicu protoka svaki put kada otvorite protok radnog prostora prvi put.";
 "If removed, they will lose access to this workspace immediately." = "Ako se uklone, odmah će izgubiti pristup ovom radnom prostoru.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "Ako isključite svoj DocuSign nalog, potpisnici neće moći pristupiti ili potpisati dokumente na čekanju kreirane ovima nalogom. Ovo neće utjecati na završene dokumente.";
@@ -1222,6 +1254,7 @@
 "In Progress" = "U tijeku";
 "In progress..." = "U tijeku...";
 "In the cloud" = "U oblaku";
+"In: %@" = "U: %@";
 "Inactive account" = "Neaktivni nalog";
 "Inbox" = "Dolazno sanduče";
 "Inbox from %@" = "Dolazno sanduče od %@";
@@ -1234,7 +1267,7 @@
 "Incorrect phone number or password" = "Neispravan broj mobitela ili lozinka";
 "Incorrect verification code. Please try again." = "Neispravan potvrdni kod. Pokušajte ponovno.";
 "Info" = "Info";
-"Initials" = "Inicijali";
+"Init." = "Inicijali";
 "Insert" = "Umetnite";
 "Insert Image" = "Umetnite sliku";
 "Insert Link" = "Umetnite poveznicu";
@@ -1294,13 +1327,13 @@
 "Join my meeting" = "Pridružite se mom sastanku";
 "Join the rest of your team at %@ on %@" = "Pridružite se ostatku svog tima u %1$@ na %2$@";
 "Join the rest of your team on the %@ Portal" = "Pridružite se ostatku svog tima na Portalu %@";
+"Join workspace" = "Pridruži se radnom prostoru";
 "Joined" = "Pridružen";
 "Joining..." = "Pridruživanje...";
 "Jumio" = "Jumio";
 "Jump to Workspace" = "Preskoči u radni prostor";
 "Keypad" = "Tipkovnica";
 "Last Activity" = "Posljednja aktivnost";
-"Last Name" = "Prezime";
 "Last active: %@" = "Posljednja aktivnost: %@";
 "Last active: %@d ago" = "Posljednja aktivnost: Prije %@ dana";
 "Last active: %@h ago" = "Posljednja aktivnost: Prije %@ sati";
@@ -1315,6 +1348,7 @@
 "Last seen: %@h ago" = "Zadnji put pregledano: Prije %@ sati";
 "Last seen: %@m ago" = "Zadnji put pregledano: Prije %@ minuta";
 "Last seen: %@w ago" = "Zadnji put pregledano: Prije %@ tjedana";
+"Learn More" = "Saznajte više";
 "Learn more about what assignees will see" = "Otkrijte više o tome što će zastupnici vidjeti";
 "Leave" = "Napustite";
 "Leave Audio" = "Napustite audio";
@@ -1374,6 +1408,7 @@
 "Mark as Unread" = "Označi kao nepročitano";
 "Max %@ characters" = "Maksimalno %1$@ znakova";
 "Max Amount" = "Maksimalan iznos";
+"Maximum %@ size exceeded (%@)" = "Premašena maksimalna veličina %1$@ (%2$@)";
 "Maximum members limit reached" = "Dostignuto je ograničenje broja članova";
 "Maximum participants reached. Please try removing some and trying again." = "Dosegnut je maksimalni broj sudionika. Molimo pokušajte ukloniti neke i pokušajte ponovno.";
 "Me" = "Ja";
@@ -1418,6 +1453,7 @@
 "Member Requests" = "Zahtjevi korisnika";
 "Member Type" = "Vrsta člana";
 "Members" = "Korisnici";
+"Members have not joined" = "Članovi se nisu pridružili";
 "Members only" = "Samo članovi";
 "Members(%@)" = "Korisnici (%@)";
 "Mentions" = "Spominjanja";
@@ -1528,8 +1564,8 @@
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Nisu pronađeni zajednički vremenski termini. Razmislite o uklanjanju nekih sudionika, podešavanju trajanja sastanka ili promjeni intervala zakazivanja.";
 "No meeting" = "Nema sastanka";
 "No meetings" = "Nema sastanaka";
-"No message will be displayed" = "Niti jedna poruka neće biti prikazana";
 "No pending approvals" = "Nema odobrenja na čekanju";
+"No personalized message will be displayed" = "Neće se prikazati personalizirana poruka";
 "No reminder" = "Bez podsjetnika";
 "No transaction matching this search" = "Nema podataka koji odgovaraju ovoj pretrazi";
 "No viewers yet" = "Još uvijek nema gledatelja";
@@ -1567,6 +1603,7 @@
 "Only invited members can access the workspace" = "Samo pozvani članovi mogu pristupiti radnom prostoru";
 "Only one assignee is required to acknowledge this acknowledgement to complete it." = "Potrebno je da samo jedan potpisnik potvrdi ovu potvrdu da se završi.";
 "Only one assignee is required to approve this approval to complete it." = "Potrebno je da samo jedan potpisnik odobri ovo odobrenje da se završi.";
+"Only one assignee is required to finish this to-do to complete it." = "Potreban je samo jedan izvršitelj za završetak ovog zadatka.";
 "Only participants can view meeting details." = "Samo sudionici mogu pregledati detalje o sastanku.";
 "Only websites that support https can be loaded in order to ensure a secure connection." = "Samo stranice koje podržavaju https mogu se učitati da biste osigurali sigurnu vezu.";
 "Only workspace owner can adjust link security" = "Samo vlasnik radnog prostora može podesiti sigurnost poveznice";
@@ -1581,6 +1618,7 @@
 "Original File" = "Izvorni dokument";
 "Original Size" = "Izvorna veličina";
 "Other Activities" = "Ostale aktivnosti";
+"Other SSO" = "Drugi SSO";
 "Other Settings" = "Ostale postavke";
 "Out of Office" = "Izvan ureda";
 "Outlook Calendar" = "Outlook kalendar";
@@ -1642,6 +1680,7 @@
 "Please click below to create your account." = "Molimo kliknite ispod da biste kreirali vaš račun.";
 "Please click the button below to finish creating your account." = "Molimo kliknite dugme ispod da biste završili kreiranje vašeg računa.";
 "Please connect your DocuSign account to access templates." = "Povežite svoj nalog DocuSign za pristup predlošcima.";
+"Please contact our support team at support.moxo.com." = "Molimo kontaktirajte naš tim za podršku na support.moxo.com.";
 "Please contact the administrator of your portal to continue." = "Molimo kontaktirajte administratora svog portala za nastavak.";
 "Please contact the host and request an invitation to join." = "Molimo kontaktirajte domaćina i zahtijevajte pozivnicu za pridruživanje.";
 "Please contact us to receive a new invitation." = "Obratite nam se kako biste primili novu pozivnicu.";
@@ -1781,7 +1820,7 @@
 "Request Sent" = "Zahtjev poslan";
 "Requests" = "Zahtjevi";
 "Require Attachment Review" = "Zahtijevajte pregled privitka";
-"Require Review" = "Zahtijevajte pregled";
+"Require File Review" = "Zahtijeva pregled datoteke";
 "Required Update Available" = "Dostupno je potrebno ažuriranje";
 "Required field" = "Obavezno polje";
 "Reschedule" = "Ponovno zakaži";
@@ -1863,6 +1902,7 @@
 "Select Bot" = "Odaberite bot";
 "Select Category" = "Odaberite kategoriju";
 "Select Conversation" = "Odaberite razgovor";
+"Select Data Center" = "Odaberite podatkovni centar";
 "Select Date" = "Odaberite datum";
 "Select Download Option" = "Odaberi opciju preuzimanja";
 "Select File" = "Odaberite";
@@ -1874,6 +1914,7 @@
 "Select Tool" = "Odaberite alat";
 "Select Type" = "Odaberite tip";
 "Select Users" = "Odaberi korisnike";
+"Select Workflow Type" = "Odaberite vrstu radnog procesa";
 "Select Workspace" = "Odaberi radni prostor";
 "Select Workspaces" = "Odaberi radne prostore";
 "Select a Date & Time" = "Odaberi datum i vrijeme";
@@ -1958,6 +1999,7 @@
 "Signup disabled" = "Registracija nije omogućena";
 "Single sign-on" = "SSO (Single sign-on)";
 "Skip" = "Preskočite";
+"Skip Sequential Order" = "Preskoči sekvencijalni redoslijed";
 "Skipped" = "Preskočeno";
 "Slide to Cancel" = "Povucite u stranu za odustajanje";
 "Slide up to cancel" = "Povucite gore za odustajanje";
@@ -1987,6 +2029,7 @@
 "Start Meeting Early?" = "Započnite sastanak ranije?";
 "Start New Search" = "Pokreni novu pretragu";
 "Start Record" = "Pokrenite snimanje";
+"Start Verification" = "Pokreni Verifikaciju";
 "Start Workspace" = "Pokreni radni prostor";
 "Start a new workspace without using a template" = "Započni novi radni prostor bez uporabe predloška";
 "Start new workspace" = "Započni novi radni prostor";
@@ -2063,6 +2106,7 @@
 "Thank you for using %@ meeting." = "Hvala na korištenju %@ sastanka.";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "Hvala! Poslat ćemo vam konačnu potpisanu kopiju nakon što svi potpišu dokument.";
 "Thanks for joining!" = "Hvala što ste se pridružili!";
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "ID klijenta i tajna klijenta koriste se za generiranje OAuth2 pristupnog tokena. Pristupite svom ID-u klijenta i tajni klijenta putem Jumio portala.";
 "The Meeting has Ended" = "Sastanak je završio";
 "The URL you've entered is not valid. Please review the URL and try again." = "URL koji ste unijeli nije važeći. Pregledajte URL i pokušajte ponovo.";
 "The account associated with %@ is no longer active" = "Nalog povezan sa %@ više nije aktivan";
@@ -2100,7 +2144,6 @@
 "The selected items will be moved under %@." = "Odabrane stavke će biti premještene pod %@.";
 "The selected person is the owner of the workspace." = "Odabrana osoba je vlasnik radnog prostora.";
 "The start time must be before the end time." = "Vrijeme početka mora biti prije vremena završetka.";
-"The token is invalid." = "Token nije važeći.";
 "There are no active screen share sessions to join." = "Ne postoje aktivne sesije dijeljenja zaslona kojima biste se mogli pridružiti.";
 "There are no other members in this workspace." = "Nema drugih članova u ovom radnom prostoru.";
 "There are no results matching the name you’ve provided." = "Nema rezultata koji odgovaraju imenu koji ste naveli.";
@@ -2153,6 +2196,7 @@
 "This person is in a client group that was added to this workspace. Assigning this action to them will add them as an individual workspace member." = "Ova osoba je u skupini klijenata koja je dodana u ovaj radni prostor. Dodjeljivanjem ove radnje ćete ga dodati kao pojedinačnog člana u radnom prostoru.";
 "This person is in a team that was added to this workspace. Assigning this action to them will add them to this workspace as an individual member." = "Ova osoba je u timu koji je dodan u ovaj radni prostor. Dodjeljivanjem ove radnje ćete ga dodati u ovaj radni prostor kao pojedinačnog člana.";
 "This person looks new:" = "Čini se da je ova osoba nova:";
+"This portal has been disabled" = "Ovaj portal je onemogućen";
 "This reset password link is no longer valid" = "Ova poveznica za resetovanje lozinke više nije aktivna";
 "This role and any assigned fields will be hidden." = "Ova uloga i sva dodijeljena polja biti će sakriveni.";
 "This step has already started and the assignee(s) can review and act on the step while you are editing. Any already completed step progress will be lost." = "Ovaj korak je već započeo i potpisnici mogu pregledati i raditi na koraku dok uređujete. Sav već završeni napredak u koraku bit će izgubljen.";
@@ -2173,6 +2217,10 @@
 "This will delete all scanned pages. Are you sure you want to leave?" = "Sve skenirane stranice će biti izbrisane. Jeste li sigurni da želite napustiti?";
 "This will erase annotations made by all participants." = "Ovo će izbrisati napomene koje su ostavili svi sudionici.";
 "This will stop other's sharing, do you want to continue?" = "Ovo će zaustaviti dijeljenje druge strane. Doista želite nastaviti?";
+"This workflow captures a government-issued ID document and stores the extracted data." = "Ovaj radni proces snima dokument s identifikacijom izdan od strane vlade i pohranjuje izvučene podatke.";
+"This workflow verifies a government-issued ID document and returns a) whether that document is valid, and b) data extracted from that document." = "Ovaj radni proces provjerava dokument identiteta izdan od strane vlade i vraća a) je li taj dokument važeći, i b) podatke izvučene iz tog dokumenta.";
+"This workflow verifies a photo ID document and returns a) whether that document is valid, and b) data extracted from that document. It also compares the user's face with the photo on the ID and performs a liveness check to ensure the person is physically present.\n\nPrerequisites\n - Identity Verification must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Obtain End-User Consent for Biometric Data" = "Ovaj radni proces provjerava dokument s fotografijom i vraća a) je li taj dokument valjan i b) podatke izvučene iz tog dokumenta. Također uspoređuje lice korisnika s fotografijom na identifikaciji i provodi provjeru živosti kako bi se osiguralo da je osoba fizički prisutna.\n\nPreduvjeti\n - Verifikacija identiteta mora biti omogućena za vaš račun. (Kontaktirajte svog Jumio menadžera računa za aktivaciju.)\n - Pribavite pristanak krajnjeg korisnika za biometrijske podatke.";
+"This workflow verifies a photo ID document and returns a) whether that document is valid, and b) data extracted from that document. It also compares the user's face with the photo on the ID and performs a liveness check to ensure the person is physically present. Checks if user is part of any sanctions list using Comply Advantage.\n\nPrerequisites\n - Identity Verification must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Screening must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Screening must be set up for your Customer Portal (see Comply Advantage Portal Setup)\n - Obtain End-User Consent for Biometric Data" = "Ovaj radni tijek provjerava dokument s fotografijom za identifikaciju i vraća a) je li taj dokument valjan i b) podatke izvučene iz tog dokumenta. Također uspoređuje lice korisnika s fotografijom na identifikaciji i provodi provjeru živosti kako bi se osiguralo da je osoba fizički prisutna. Provjerava je li korisnik dio bilo kojeg popisa sankcija koristeći Comply Advantage.\n\nPreduvjeti\n - Verifikacija identiteta mora biti omogućena za vaš račun. (Kontaktirajte svog menadžera računa Jumio za aktivaciju.)\n - Screening mora biti omogućen za vaš račun. (Kontaktirajte svog menadžera računa Jumio za aktivaciju.)\n - Screening mora biti postavljen za vaš korisnički portal (vidi postavljanje Comply Advantage Portala)\n - Pribavite pristanak krajnjeg korisnika za biometrijske podatke";
 "This workspace has been archived" = "Ovaj radni prostor je arhiviran";
 "This workspace has been deactivated, and all members are unable to interact. Only the owner can reactivate it." = "Ovaj radni prostor je deaktiviran i nijedan član ne može komunicirati. Može uređivati samo vlasnik.";
 "This workspace has reached max %@ members, please contact workspace owner." = "Ovaj radni prostor dostigao je maksimalno %@ članova, obratite se vlasniku radnog prostora.";
@@ -2189,6 +2237,9 @@
 "Time Booking completed." = "Rezervacija vremena dovršena.";
 "Time Booking completed: %@" = "Rezervacija vremena dovršena: %@";
 "Time Booking due now" = "Rok za rezervaciju vremena je sada";
+"Time Booking due soon" = "Rezervacija vremena uskoro dospijeva";
+"Time Booking due today" = "Rok za rezervaciju vremena je danas";
+"Time Booking overdue (%@)" = "Rezervacija vremena kasni (%@)";
 "Time Zone" = "Vremenska zona";
 "Title" = "Naslov";
 "Title, description, and due date in DocuSign action can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "Naslov, opis i rok u aktivnosti DocuSign se može urediti. Ako je potrebno urediti dokument ili potpisnike, kreirajte novu DocuSign aktivnost.";
@@ -2209,6 +2260,12 @@
 "To use pre-built and shared templates on the mobile app, please ensure that your DocuSign account is connected." = "Za korištenje prethodno ugrađenih i dijeljenih predložaka u mobilnoj aplikaciji, uvjerite se da je DocuSign nalog povezan.";
 "To-Do" = "Zadatak";
 "To-Do assigned to %@" = "Zadatak je dodijeljen %@";
+"To-Do assigned to %@ and %@ others" = "Zadatak dodijeljen %1$@ i %2$@ ostalima";
+"To-Do assigned to %@ and %@ others." = "Zadatak dodijeljen %1$@ i %2$@ ostalima.";
+"To-Do assigned to %@ and %@ others: %@" = "Zadatak dodijeljen %1$@ i %2$@ ostalima: %3$@";
+"To-Do assigned to %@ and 1 other" = "Zadatak dodijeljen %@ i još 1 osobi";
+"To-Do assigned to %@ and 1 other." = "Zadatak dodijeljen %@ i još 1 osobi.";
+"To-Do assigned to %@ and 1 other: %@" = "Zadatak dodijeljen %1$@ i još 1 osobi: %2$@";
 "To-Do assigned to %@." = "Zadatak je dodijeljen %@.";
 "To-Do assigned to %@: %@" = "Zadatak je dodijeljen %1$@: %2$@";
 "To-Do assigned to you" = "Zadatak vam je dodijeljen";
@@ -2218,6 +2275,9 @@
 "To-Do completed." = "Zadatak je završen.";
 "To-Do completed: %@" = "Zadatak je završen: %@";
 "To-Do due now" = "Rok za zadatak sada";
+"To-Do due soon" = "Zadaci uskoro dospijevaju";
+"To-Do due today" = "Zadatak s rokom danas";
+"To-Do overdue (%@)" = "Zakašnjeli zadaci (%@)";
 "To-Do reopened" = "Zadatak je ponovno otvoren";
 "To-Dos" = "Zadaci";
 "Today" = "Danas";
@@ -2257,6 +2317,7 @@
 "Type your reason here." = "Unesite razlog ovdje.";
 "Types" = "Tipovi";
 "URL (required)" = "URL (obavezan)";
+"US" = "SAD";
 "Uh-oh, you aren’t currently online. To complete this task, please connect to the internet." = "Trenutno niste online. Povežite se na internet za dovršetak ovog zadatka.";
 "Un-archive Workspace" = "Ukloni arhiviranje radnog prostora";
 "Unable To Assign" = "Nemoguće dodijeliti";
@@ -2319,6 +2380,7 @@
 "Unpin" = "Otkači";
 "Unpin from Workspace" = "Ukloni oznaku iz radnog prostora";
 "Unread" = "Nepročitano";
+"Unsupported file format" = "Nepodržani format datoteke";
 "Until %@" = "Do %@";
 "Upcoming Meetings" = "Nadolazeći sastanci";
 "Upcoming and ongoing" = "Nadolazeće i u tijeku";
@@ -2358,6 +2420,7 @@
 "User Name" = "Ime korisnika";
 "User Not In Workspace" = "Korisnik nije u radnom prostoru";
 "Users need to be added to your contacts before appearing here." = "Korisnik mora biti dodan vašim kontaktima kako bi bio prikazan ovdje.";
+"Using Single Sign On to securely log you in our collaboration platform." = "Koristeći Jedinstvenu Prijavu za sigurno prijavljivanje na našu platformu za suradnju.";
 "VOID" = "PONIŠTITE";
 "Validating password..." = "Potvrda lozinke u tijeku...";
 "Verification Email Sent" = "Potvrdni e-mail je poslan";
@@ -2375,6 +2438,7 @@
 "View Office Hours" = "Pregled radnih sati";
 "View Original Image" = "Pregledajte izvornu sliku";
 "View Pages" = "Pregledajte stranice";
+"View Privacy Notice" = "Pogledajte obavijest o privatnosti";
 "View Profile" = "Pregledaj profil";
 "View QR Code" = "Pregledajte QR kod";
 "View Terms & Policies" = "Pregledajte Uvjete i Pravila";
@@ -2410,6 +2474,7 @@
 "We couldn't find an active account associated with %@, but we have previously sent invitations to this email address. You can use that email to join %@ portal." = "Nismo mogli pronaći aktivni račun povezan sa %1$@, ali smo prethodno poslali pozivnice na ovu adresu e-pošte. Možete koristiti tu e-poštu za pridruživanje %2$@ portalu.";
 "We couldn't update your status, but retrying may solve this issue." = "Nismo mogli ažurirati vaš status, ali ponovni pokušaj može riješiti ovaj problem.";
 "We couldn’t remove the link preview, but retrying may solve the issue." = "Nismo mogli ukloniti poveznicu za pregled, ali ako ponovno pokušate, možete riješiti problem.";
+"We don't accept %@ files larger than %@." = "Ne prihvaćamo %1$@ datoteke veće od %2$@.";
 "We don't accept files larger than %@ B." = "Ne prihvaćamo datoteke veće od %@ B.";
 "We don't accept files larger than %@ KB." = "Ne prihvaćamo datoteke veće od %@KB.";
 "We don't accept files larger than %@ MB." = "Nažalost, nismo u mogućnosti prihvatiti dokument veći od %@MB.";
@@ -2464,7 +2529,6 @@
 "Who needs to choose the meeting time?" = "Tko treba odabrati vrijeme sastanka?";
 "Who needs to complete this?" = "Tko ovo treba završiti?";
 "Who needs to fill this form?" = "Kome je potreban ovaj obrazac?";
-"Who needs to finish this?" = "Tko ovo treba završiti?";
 "Who needs to sign?" = "Tko mora potpisati?";
 "Who needs to work on this?" = "Tko treba raditi na ovome?";
 "Who will choose the meeting time?" = "Ko bira vrijeme sastanka?";
@@ -2472,6 +2536,7 @@
 "Whole File" = "Cijeli dokument";
 "Will Be Added As An Individual Workspace Member" = "Biti će dodani kao pojedinačni član radnog prostora";
 "Will automatically apply to all new workspaces you join. You can manually override this in the settings menu of each workspace." = "Automatski će se primijeniti na sve nove radne prostore kojima se pridružite. Možete ručno premostiti ovo u meniju za postavke u svakom radnom prostoru.";
+"Workflow Type" = "Vrsta radnog procesa";
 "Workspace '%@' will be deactivated" = "Radni prostor '%@' će biti deaktiviran";
 "Workspace Deactivated" = "Radni prostor je deaktiviran";
 "Workspace Doesn't Exist" = "Radni prostor ne postoji";
@@ -2629,6 +2694,8 @@
 "Your meeting has been scheduled" = "Vaš sastanak je zakazan";
 "Your mobile device is not setup for Email" = "Na vašem mobilnom uređaju ne postavljen e-mail.";
 "Your mobile device is not setup for SMS." = "Na vašem mobilnom uređaju ne postavljen SMS.";
+"Your org is not configured to use SAML SSO. Please log in with account to continue." = "Vaša organizacija nije konfigurirana za korištenje SAML SSO. Molimo prijavite se s računom za nastavak.";
+"Your organization allows the following file types to be shared:\n%@." = "Vaša organizacija dopušta dijeljenje sljedećih vrsta datoteka:\n%@.";
 "Your organization requires this security configuration." = "Vaša organizacija traži ovu sigurnosnu konfiguraciju.";
 "Your password was successfully updated." = "Vaša lozinka je uspješno ažurirana.";
 "Your portal is no longer active" = "Vaš portal više nije aktivan";
@@ -2693,6 +2760,7 @@
 "start chat" = "Započnite razgovor";
 "the majority of assignees" = "većina potpisnika";
 "today" = "Danas";
+"value" = "vrijednost";
 "via Instant Flow" = "preko Trenutačnog protoka";
 "via template: %@" = "preko predloška: %@";
 "video" = "video";

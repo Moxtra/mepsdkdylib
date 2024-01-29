@@ -178,7 +178,6 @@
 "%@ ended the meeting." = "%@ mengakhiri rapat.";
 "%@ entered waiting room." = "%@ memasuki ruang tunggu.";
 "%@ files were not attached." = "%@ file tidak dilampirkan.";
-"%@ finished this To-Do." = "%@ telah menyelesaikan To-Do ini.";
 "%@ has been added to your %@ team. Use your team for 1:1 support and services from %@." = "%1$@ telah ditambahkan ke tim %2$@ Anda. Gunakan tim Anda untuk dukungan 1:1 dan layanan dari %3$@.";
 "%@ has been added to your contacts" = "%@ telah ditambahkan ke kontak Anda";
 "%@ has been added to your team." = "%@ telah ditambahkan ke tim Anda.";
@@ -199,7 +198,7 @@
 "%@ is %@ right now and may not be able to respond." = "%1$@ sedang %2$@ sekarang dan mungkin tidak bisa membalas.";
 "%@ is away right now and may not be able to respond." = "%@ sedang tidak di tempat dan mungkin tidak dapat merespons.";
 "%@ is controlling co-browsing." = "%@ sedang mengontrol co-browsing.";
-"%@ is currently out of office and will review your message as soon as they return." = "%@ saat ini di luar kantor dan akan meninjau pesan Anda segera setelah mereka kembali.";
+"%@ is currently out of office." = "%@ saat ini sedang tidak di kantor.";
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@ sedang tidak di kantor. Jika Anda memiliki masalah yang mendesak, silakan chat dengan %2$@.";
 "%@ is currently out of office:" = "%@ saat ini di luar kantor:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ berikut sedang offline dan akan meninjau pesan Anda segera setelah mereka kembali.";
@@ -318,6 +317,7 @@
 "%@ were added to the workspace" = "%@ sudah ditambahkan ke ruang kerja";
 "%@ were removed from the workspace" = "%@ sudah ditambahkan dari ruang kerja";
 "%@ years ago" = "%@ tahun yang lalu";
+"%@'s Flow" = "Aliran %@";
 "%@'s Meeting" = "Rapat %@";
 "%@'s invite for %@ to join \"%@\" is awaiting approval." = "Undangan %1$@ kepada %2$@ untuk bergabung ke \"%3$@\" menunggu persetujuan.";
 "%@'s invite request for %@ to join \"%@\" has been rejected by %@." = "Permintaan undangan %1$@ kepada %2$@ untuk bergabung ke \"%3$@\" telah ditolak oleh %4$@.";
@@ -353,6 +353,7 @@
 "1 month ago" = "1 bulan yang lalu";
 "1 request to approve" = "1 permintaan untuk disetujui";
 "1 year ago" = "1 tahun yang lalu";
+"A majority of assignees must finish this to-do to complete it." = "Sebagian besar penerima tugas harus menyelesaikan to-do ini untuk menyelesaikannya.";
 "A maximum of %@ workspaces will be kept in the Timeline. Past this limit, the most inactive workspaces will be automatically archived by the system." = "Maksimal %@ ruang kerja akan disimpan di Lini masa. Ruang kerja yang paling tidak aktif akan diarsipkan secara otomatis oleh sistem jika melewati batas ini.";
 "A network error occurred." = "Terjadi kesalahan jaringan.";
 "A network issue prevented us from starting co-browsing. Please try again." = "Terjadi masalah jaringan yang mencegah kami memulai co-browsing. Coba lagi.";
@@ -387,6 +388,9 @@
 "Acknowledgement completed." = "Penerimaan selesai.";
 "Acknowledgement completed: %@" = "Penerimaan selesai: %@";
 "Acknowledgement due now" = "Penerimaan sudah jatuh tempo sekarang";
+"Acknowledgement due soon" = "Pengakuan segera jatuh tempo";
+"Acknowledgement due today" = "Deadline pengesahan hari ini";
+"Acknowledgement overdue (%@)" = "Pengakuan terlambat (%@)";
 "Action In Progress" = "Tindakan Sedang Berlangsung";
 "Action Items" = "Item Tindakan";
 "Action Needed By" = "Tindakan dibutuhkan oleh";
@@ -417,6 +421,7 @@
 "Add Files" = "Tambah file";
 "Add Guest" = "Tambah Tamu";
 "Add Here" = "Tambahkan di sini";
+"Add Jumio details" = "Tambahkan detail Jumio";
 "Add Members" = "Tambah Anggota";
 "Add New" = "Tambah Baru";
 "Add New Action" = "Tambahkan Tindakan Baru";
@@ -440,7 +445,6 @@
 "Add the information below to get started!" = "Tambahkan informasi di bawah ini untuk memulai!";
 "Add to Contacts" = "Tambah ke Kontak";
 "Add to calendar" = "Tambah ke kalender";
-"Add token" = "Tambahkan token";
 "Add useful information regarding to your e-sign" = "Tambah informasi bermanfaat tentang e-sign Anda";
 "Add useful information regarding your DocuSign" = "Tambah informasi berguna tentang DocuSign Anda";
 "Add useful information regarding your request" = "Tambah informasi bermanfaat tentang permintaan Anda";
@@ -532,6 +536,9 @@
 "Approval completed." = "Persetujuan selesai.";
 "Approval completed: %@" = "Persetujuan selesai: %@";
 "Approval due now" = "Persetujuan Sudah Jatuh Tempo Sekarang";
+"Approval due soon" = "Persetujuan segera jatuh tempo";
+"Approval due today" = "Deadline persetujuan hari ini";
+"Approval overdue (%@)" = "Persetujuan terlambat (%@)";
 "Approve" = "Setujui";
 "Approve All" = "Setujui Semua";
 "Approve Pending Request" = "Setujui Permintaan yang Tertunda";
@@ -554,6 +561,7 @@
 "Are you sure you want to remove this attachment?" = "Anda yakin ingin menghapus lampiran ini?";
 "Are you sure you want to start the meeting before its scheduled time?" = "Anda yakin ingin memulai rapat sebelum waktu yan dijadwalkan?";
 "Arrow" = "Tanda panah";
+"Asia Pacific" = "Asia Pasifik";
 "Ask the client to send a message to reactivate this workspace." = "Minta klien untuk mengirim pesan untuk mengaktifkan kembali ruang kerja ini.";
 "Assign" = "Tugaskan";
 "Assign Client Groups" = "Tetapkan Grup Klien";
@@ -613,6 +621,7 @@
 "By Email" = "Melalui Email";
 "By Phone" = "Melalui Ponsel";
 "By SMS" = "Dengan SMS";
+"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "Dengan mengklik Mulai, Anda menyetujui Jumio mengumpulkan, memproses, dan membagikan informasi pribadi Anda, yang mungkin termasuk data biometrik, sesuai dengan Pemberitahuan Privasinya.";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "Dengan mengklik \"Konfirmasi\", saya menyatakan bahwa saya telah membaca dan memahami informasi yang terkandung dalam permintaan penerimaan ini.";
 "By continuing, you are giving consent to be recorded." = "Dengan melanjutkan, Anda memberikan persetujuan untuk direkam.";
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "Dengan membuat akun, Anda menyetujui Syarat Layanan & Kebijakan Privasi kami.";
@@ -690,8 +699,11 @@
 "Client Groups" = "Grup Klien";
 "Client Groups (Optional)" = "Grup Klien (Opsional)";
 "Client Groups can only be created by admin users in the Admin Portal." = "Grup klien hanya dapat dibuat oleh pengguna admin di Portal Admin.";
+"Client ID" = "ID Klien";
+"Client ID or Secret is invalid." = "ID Klien atau Rahasia tidak valid.";
 "Client Left Workspace" = "Klien Keluar dari Ruang Kerja";
 "Client Login" = "Login Klien";
+"Client Secret" = "Rahasia Klien";
 "Client Unfollowed Account" = "Klien Berhenti Mengikuti Akun";
 "Client accepted invitation" = "Klien menerima undangan";
 "Client assigned to you" = "Klien yang Ditetapkan kepada Anda";
@@ -898,6 +910,9 @@
 "DocuSign completed." = "DocuSign diselesaikan.";
 "DocuSign completed: %@" = "DocuSign diselesaikan: %@";
 "DocuSign due now" = "Deadline DocuSign deadline sekarang";
+"DocuSign due soon" = "DocuSign akan segera jatuh tempo";
+"DocuSign due today" = "Deadline DocuSign deadline hari ini";
+"DocuSign overdue (%@)" = "DocuSign terlambat (%@)";
 "Document Only" = "Dokumen Saja";
 "Document Sent" = "Dokumen Terkirim";
 "Document with Certificate" = "Dokumen dengan Sertifikat";
@@ -946,7 +961,9 @@
 "E-Sign completed" = "E-Sign selesai";
 "E-Sign completed." = "E-Sign selesai.";
 "E-Sign completed: %@" = "E-Sign selesai: %@";
-"E-Sign due now" = "E-sign jatuh tempo sekarang";
+"E-Sign due soon" = "E-Sign segera jatuh tempo";
+"E-Sign due today" = "Deadline E-sign hari ini";
+"E-Sign overdue (%@)" = "E-Sign terlambat (%@)";
 "EXPIRED" = "KEDALUWARSA";
 "EXPIRY DATE" = "TANGGAL KEDALUWARSA";
 "Edit" = "Edit";
@@ -961,6 +978,7 @@
 "Edit General Availability" = "Edit Ketersediaan Umum";
 "Edit Group Assignment" = "Edit Penentuan Grup";
 "Edit Jumio" = "Sunting Jumio";
+"Edit Jumio details" = "Edit detail Jumio";
 "Edit Label" = "Edit Label";
 "Edit Link Security" = "Edit Keamanan Tautan";
 "Edit Meeting" = "Edit Rapat";
@@ -977,7 +995,6 @@
 "Edit Welcome Message" = "Edit Pesan Sambutan";
 "Edit Workspace" = "Sunting Ruang Kerja";
 "Edit recurring meeting" = "Edit rapat berulang";
-"Edit token" = "Edit token";
 "Edit your filters to see results" = "Edit filter Anda untuk melihat hasilnya";
 "Editable by..." = "Dapat diedit oleh ...";
 "Edited" = "Diedit";
@@ -1034,6 +1051,7 @@
 "Error" = "Kesalahan";
 "Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@)." = "Kesalahan saat menyambungkan DocuSign. Minta pembuat (%1$@) agar menyambungkan kembali akun DocuSign miliknya (%2$@).";
 "Error connecting with DocuSign. Please reconnect account (%@) to enable the signatures." = "Kesalahan saat menyambungkan DocuSign. Harap sambungkan kembali akun (%@) untuk menggunakan fungsi tanda tangan.";
+"Europe" = "Eropa";
 "Every" = "Setiap";
 "Every %@ days." = "Setiap %1$@ hari.";
 "Every day." = "Setiap hari.";
@@ -1067,12 +1085,16 @@
 "File Request completed." = "Permintaan File selesai.";
 "File Request completed: %@" = "Permintaan File selesai: %@";
 "File Request due now" = "Permintaan File sudah jatuh tempo sekarang";
+"File Request due soon" = "Permintaan File segera jatuh tempo";
+"File Request due today" = "Deadline Permintaan File hari ini";
 "File Request needs your review" = "Permintaan File memerlukan tinjauan Anda";
+"File Request overdue (%@)" = "Permintaan File terlambat (%@)";
 "File Request ready for review" = "Permintaan File siap untuk ditinjau";
 "File Request ready for review." = "Permintaan File siap untuk ditinjau.";
 "File Request ready for review: %@" = "Permintaan File siap untuk ditinjau: %@";
 "File Request reopened" = "Permintaan File dibuka kembali";
 "File Reviewer" = "Peninjau File";
+"File Size Exceeded" = "Ukuran File Melebihi Batas";
 "File doesn't exist." = "File tidak ada.";
 "File size limit reached (%@)" = "Batas ukuran file tercapai (%@)";
 "File type unsupported" = "Tipe file tidak didukung";
@@ -1089,7 +1111,6 @@
 "Filters" = "Filter";
 "Find messages, files, contents, and more by typing above." = "Cari pesan, file, konten, dan lainnya dengan mengetik di atas.";
 "Finish" = "Selesai";
-"First Name" = "Nama Depan";
 "Fix Perspective" = "Perbaiki Perspektif";
 "Flow" = "Aliran";
 "Flow Template Library" = "Pustaka Templat Aliran";
@@ -1123,6 +1144,9 @@
 "Form completed." = "Formulir diisi.";
 "Form completed: %@" = "Formulir diisi: %@";
 "Form due now" = "Deadline Formulir sekarang";
+"Form due soon" = "Formulir segera jatuh tempo";
+"Form due today" = "Deadline formulir hari ini";
+"Form overdue (%@)" = "Formulir terlambat (%@)";
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "Teruskan konten ke ruang kerja Anda menggunakan fitur 'Salin Ke…' di setiap objek.";
 "Forwarding..." = "Meneruskan...";
 "Frequency" = "Frekuensi";
@@ -1191,6 +1215,10 @@
 "I'd like to share a file with you: %@" = "Saya ingin membagikan file dengan Anda: %@";
 "I'd like to share a video with you. \r\n\r\n<br><br>" = "Saya ingin membagikan video dengan Anda. \r\n\r\n<br><br>";
 "I'd like to share some files with you: %@" = "Saya ingin membagikan beberapa file dengan Anda: %@";
+"ID Capture and Storage" = "Penangkapan dan Penyimpanan ID";
+"ID Verification" = "Verifikasi ID";
+"ID Verification, Identity Verification, Screening" = "Verifikasi ID, Verifikasi Identitas, Penyaringan";
+"ID and Identity Verification" = "ID dan Verifikasi Identitas";
 "INVITE SENT" = "UNDANGAN TERKIRIM";
 "Identity Verification" = "Verifikasi Identitas";
 "Identity Verification assigned to %@" = "Verifikasi Identitas yang ditetapkan kepada %@";
@@ -1201,9 +1229,13 @@
 "Identity Verification completed." = "Verifikasi Identitas selesai.";
 "Identity Verification completed: %@" = "Verifikasi Identitas selesai: %@";
 "Identity Verification due now" = "Verifikasi Identitas jatuh tempo sekarang";
+"Identity Verification due soon" = "Verifikasi Identitas segera dibutuhkan";
+"Identity Verification due today" = "Verifikasi Identitas jatuh tempo hari ini";
+"Identity Verification overdue (%@)" = "Verifikasi Identitas terlambat (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "Verifikasi identitas telah dinonaktifkan sementara demi keamanan. Coba lagi nanti.";
-"If enabled, all attachments must be opened by the asignee before acknowledging." = "Jika diaktifkan, semua lampiran harus dibuka oleh penerima sebelum menerima.";
-"If enabled, the file reviewer will be required to review files after submission." = "Jika diaktifkan, peninjau file akan diminta untuk meninjau file setelah pengiriman.";
+"If enabled, a file reviewer will be required to review the files that are uploaded." = "Jika diaktifkan, seorang peninjau file akan diharuskan untuk meninjau file yang diunggah.";
+"If enabled, all attachments must be opened by the assignee before acknowledging." = "Jika diaktifkan, semua lampiran harus dibuka oleh penerima tugas sebelum mengakui.";
+"If enabled, this action can be completed in parallel with the previous action in the flow." = "Jika diaktifkan, tindakan ini dapat diselesaikan secara paralel dengan tindakan sebelumnya dalam alur.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Jika diaktifkan, kami akan menampilkan halaman sampul alur setiap kali Anda membuka ruang kerja alur untuk pertama kalinya.";
 "If removed, they will lose access to this workspace immediately." = "Jika dihapus, mereka akan kehilangan akses ke ruang kerja ini segera.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "Jika Anda memutus akun DocuSign Anda, penerima tugas tidak akan dapat mengakses atau menandatangani dokumen yang tertunda. Dokumen yang sudah diselesaikan tidak akan ikut terdampak.";
@@ -1222,6 +1254,7 @@
 "In Progress" = "Sedang Berlangsung";
 "In progress..." = "Sedang berlangsung...";
 "In the cloud" = "Di awan";
+"In: %@" = "Di: %@";
 "Inactive account" = "Akun tidak aktif";
 "Inbox" = "Kotak Masuk";
 "Inbox from %@" = "Kotak masuk dari %@";
@@ -1234,7 +1267,7 @@
 "Incorrect phone number or password" = "Nomor telepon atau sandi salah";
 "Incorrect verification code. Please try again." = "Kode verifikasi salah. Coba lagi.";
 "Info" = "Info";
-"Initials" = "Inisial";
+"Init." = "Inisial";
 "Insert" = "Sisipkan";
 "Insert Image" = "Sisipkan Gambar";
 "Insert Link" = "Sisipkan Tautan";
@@ -1294,13 +1327,13 @@
 "Join my meeting" = "Bergabung ke rapat saya";
 "Join the rest of your team at %@ on %@" = "Bergabung dengan seluruh tim Anda di %1$@ di %2$@";
 "Join the rest of your team on the %@ Portal" = "Bergabung dengan seluruh tim Anda di Portal %@";
+"Join workspace" = "Bergabung dengan ruang kerja";
 "Joined" = "Bergabung";
 "Joining..." = "Bergabung...";
 "Jumio" = "Jumio";
 "Jump to Workspace" = "Loncat ke Ruang Kerja";
 "Keypad" = "Papan Tombol";
 "Last Activity" = "Aktivitas Terakhir";
-"Last Name" = "Nama Belakang";
 "Last active: %@" = "Terakhir aktif: %@";
 "Last active: %@d ago" = "Terakhir aktif: %@h yang lalu";
 "Last active: %@h ago" = "Terakhir aktif: %@j yang lalu";
@@ -1315,6 +1348,7 @@
 "Last seen: %@h ago" = "Terakhir dilihat: %@ jam yang lalu";
 "Last seen: %@m ago" = "Terakhir dilihat: %@ menit yang lalu";
 "Last seen: %@w ago" = "Terakhir dilihat: %@ minggu yang lalu";
+"Learn More" = "Pelajari Lebih Lanjut";
 "Learn more about what assignees will see" = "Pelajari selengkapnya tentang apa yang akan dilihat oleh penerima tugas";
 "Leave" = "Tinggalkan";
 "Leave Audio" = "Tinggalkan Audio";
@@ -1374,6 +1408,7 @@
 "Mark as Unread" = "Tandai Belum Dibaca";
 "Max %@ characters" = "Maks. %1$@ karakter";
 "Max Amount" = "Jumlah Maks.";
+"Maximum %@ size exceeded (%@)" = "Ukuran maksimum %1$@ telah dilampaui (%2$@)";
 "Maximum members limit reached" = "Batas maksimum anggota telah tercapai";
 "Maximum participants reached. Please try removing some and trying again." = "Peserta maksimum tercapai. Cobalah mengeluarkan beberapa lalu cobalah lagi.";
 "Me" = "Saya";
@@ -1418,6 +1453,7 @@
 "Member Requests" = "Permintaan Anggota";
 "Member Type" = "Jenis Anggota";
 "Members" = "Anggota";
+"Members have not joined" = "Anggota belum bergabung";
 "Members only" = "Hanya untuk anggota";
 "Members(%@)" = "Anggota (%@)";
 "Mentions" = "Mention";
@@ -1528,8 +1564,8 @@
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Slot waktu umum tidak ditemukan. Pertimbangkan untuk menghapus beberapa peserta, menyesuaikan durasi rapat, atau mengubah jendela penjadwalan.";
 "No meeting" = "Tidak ada rapat";
 "No meetings" = "Tidak ada rapat";
-"No message will be displayed" = "Tidak ada pesan yang akan ditampilkan.";
 "No pending approvals" = "Tidak ada persetujuan yang tertunda";
+"No personalized message will be displayed" = "Tidak ada pesan pribadi yang akan ditampilkan";
 "No reminder" = "Tidak ada pengingat";
 "No transaction matching this search" = "Tidak ada transaksi yang cocok dengan pencarian ini";
 "No viewers yet" = "Belum ada pemirsa";
@@ -1567,6 +1603,7 @@
 "Only invited members can access the workspace" = "Hanya anggota yang diundang yang dapat mengakses ruang kerja";
 "Only one assignee is required to acknowledge this acknowledgement to complete it." = "Hanya satu penerima yang dibutuhkan untuk melaporkan penerimaan ini untuk menyelesaikannya";
 "Only one assignee is required to approve this approval to complete it." = "Hanya satu penerima yang dibutuhkan untuk menyetujui persetujuan ini untuk menyelesaikannya";
+"Only one assignee is required to finish this to-do to complete it." = "Hanya satu penerima tugas yang diperlukan untuk menyelesaikan tugas ini hingga selesai.";
 "Only participants can view meeting details." = "Hanya peserta yang dapat melihat rincian rapat.";
 "Only websites that support https can be loaded in order to ensure a secure connection." = "Hanya situs web yang mendukung https yang dapat dimuat untuk memastikan koneksi aman.";
 "Only workspace owner can adjust link security" = "Hanya pemilik ruang kerja yang dapat menyesuaikan keamanan tautan";
@@ -1581,6 +1618,7 @@
 "Original File" = "File Asli";
 "Original Size" = "Ukuran Asli";
 "Other Activities" = "Aktivitas Lain";
+"Other SSO" = "SSO Lainnya";
 "Other Settings" = "Pengaturan Lainnya";
 "Out of Office" = "Di Luar Kantor";
 "Outlook Calendar" = "Kalender Outlook";
@@ -1642,6 +1680,7 @@
 "Please click below to create your account." = "Klik di bawah ini untuk membuat akun Anda.";
 "Please click the button below to finish creating your account." = "Klik tombol di bawah ini untuk menyelesaikan pembuatan akun Anda.";
 "Please connect your DocuSign account to access templates." = "Sambungkan akun DocuSign Anda untuk mengakses template.";
+"Please contact our support team at support.moxo.com." = "Silakan hubungi tim dukungan kami di support.moxo.com.";
 "Please contact the administrator of your portal to continue." = "Hubungi administrator portal Anda untuk melanjutkan.";
 "Please contact the host and request an invitation to join." = "Hubungi host dan minta undangan untuk bergabung.";
 "Please contact us to receive a new invitation." = "Hubungi kami untuk menerima undangan baru.";
@@ -1781,7 +1820,7 @@
 "Request Sent" = "Permintaan Terkirim";
 "Requests" = "Permintaan";
 "Require Attachment Review" = "Wajibkan Tinjauan Lampiran";
-"Require Review" = "Wajibkan Tinjauan";
+"Require File Review" = "Memerlukan Tinjauan File";
 "Required Update Available" = "Pembaruan yang Diperlukan Tersedia";
 "Required field" = "Bidang wajib diisi";
 "Reschedule" = "Jadwalkan ulang";
@@ -1863,6 +1902,7 @@
 "Select Bot" = "Pilih Bot";
 "Select Category" = "Pilih Kategori";
 "Select Conversation" = "Pilih Percakapan";
+"Select Data Center" = "Pilih Pusat Data";
 "Select Date" = "Pilih Tanggal";
 "Select Download Option" = "Pilih Opsi Mengunduh";
 "Select File" = "Pilih";
@@ -1874,6 +1914,7 @@
 "Select Tool" = "Pilih Alat";
 "Select Type" = "Pilih Jenis";
 "Select Users" = "Pilih Pengguna";
+"Select Workflow Type" = "Pilih Jenis Alur Kerja";
 "Select Workspace" = "Pilih Ruang Kerja";
 "Select Workspaces" = "Pilih Ruang-ruang Kerja";
 "Select a Date & Time" = "Pilih Tanggal dan Waktu";
@@ -1958,6 +1999,7 @@
 "Signup disabled" = "Pendaftaran dinonaktifkan";
 "Single sign-on" = "Single sign-on";
 "Skip" = "Lewati";
+"Skip Sequential Order" = "Lewati Urutan Berurutan";
 "Skipped" = "Dilewati";
 "Slide to Cancel" = "Geser untuk Membatalkan";
 "Slide up to cancel" = "Geser ke atas untuk membatalkan";
@@ -1987,6 +2029,7 @@
 "Start Meeting Early?" = "Mulai Rapat Lebih Awal?";
 "Start New Search" = "Mulai Pencarian Baru";
 "Start Record" = "Mulai Rekam";
+"Start Verification" = "Mulai Verifikasi";
 "Start Workspace" = "Mulai Ruang Kerja";
 "Start a new workspace without using a template" = "Mulai ruang kerja baru tanpa menggunakan template";
 "Start new workspace" = "Mulai ruang kerja baru";
@@ -2063,6 +2106,7 @@
 "Thank you for using %@ meeting." = "Terima kasih Anda telah menggunakan \n rapat %@.";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "Terima kasih. Kami akan mengirimi Anda salinan akhir yang ditandatangani setelah semua orang menandatangani dokumen.";
 "Thanks for joining!" = "Terima kasih telah bergabung!";
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "ID Klien dan Rahasia Klien digunakan untuk menghasilkan token akses OAuth2. Akses ID Klien dan Rahasia Klien Anda dari Portal Jumio.";
 "The Meeting has Ended" = "Rapat Telah Berakhir";
 "The URL you've entered is not valid. Please review the URL and try again." = "URL yang Anda masukkan tidak valid. Tinjau URL dan coba lagi.";
 "The account associated with %@ is no longer active" = "Akun yang terkait dengan %@ tidak lagi aktif";
@@ -2100,7 +2144,6 @@
 "The selected items will be moved under %@." = "Item yang dipilih akan dipindahkan pada %@.";
 "The selected person is the owner of the workspace." = "Orang yang dipilih adalah pemilik dari ruang kerja.";
 "The start time must be before the end time." = "Waktu mulai harus sebelum waktu selesai.";
-"The token is invalid." = "Token tidak valid.";
 "There are no active screen share sessions to join." = "Tidak ada sesi berbagi layar yang aktif untuk bergabung.";
 "There are no other members in this workspace." = "Tidak ada anggota lain di ruang kerja ini.";
 "There are no results matching the name you’ve provided." = "Tidak ada hasil yang cocok dengan nama yang telah Anda berikan.";
@@ -2153,6 +2196,7 @@
 "This person is in a client group that was added to this workspace. Assigning this action to them will add them as an individual workspace member." = "Individu ini ada di grup klien yang ditambahkan ke ruang kerja ini. Menetapkan tindakan ini kepada mereka akan menambahkan mereka ke ruang kerja ini sebagai ruang kerja individu.";
 "This person is in a team that was added to this workspace. Assigning this action to them will add them to this workspace as an individual member." = "Individu ini ada di tim yang ditambahkan ke ruang kerja ini. Menetapkan tindakan ini kepada mereka akan menambahkan mereka ke ruang kerja ini sebagai anggota individu.";
 "This person looks new:" = "Orang ini tampak baru:";
+"This portal has been disabled" = "Portal ini telah dinonaktifkan";
 "This reset password link is no longer valid" = "Taitan reset sandi ini tidak berlaku lagi";
 "This role and any assigned fields will be hidden." = "Peran ini dan bidang yang ditugaskan akan disembunyikan.";
 "This step has already started and the assignee(s) can review and act on the step while you are editing. Any already completed step progress will be lost." = "Langkah ini telah dimulai dan penerima tugas dapat meninjau ulang dan menjalankan langkah saat sedang mengedit. Semua progres langkah yang telah selesai akan hilang.";
@@ -2173,6 +2217,10 @@
 "This will delete all scanned pages. Are you sure you want to leave?" = "Ini akan menghapus semua halaman yang dipindai. Anda yakin ingin meninggalkan?";
 "This will erase annotations made by all participants." = "Ini akan menghapus anotasi yang dibuat oleh semua peserta";
 "This will stop other's sharing, do you want to continue?" = "Ini akan menghentikan berbagi dari orang lain, lanjutkan?";
+"This workflow captures a government-issued ID document and stores the extracted data." = "Alur kerja ini menangkap dokumen identitas yang dikeluarkan oleh pemerintah dan menyimpan data yang telah diekstrak.";
+"This workflow verifies a government-issued ID document and returns a) whether that document is valid, and b) data extracted from that document." = "Alur kerja ini memverifikasi dokumen identitas yang dikeluarkan pemerintah dan mengembalikan a) apakah dokumen tersebut valid, dan b) data yang diekstrak dari dokumen tersebut.";
+"This workflow verifies a photo ID document and returns a) whether that document is valid, and b) data extracted from that document. It also compares the user's face with the photo on the ID and performs a liveness check to ensure the person is physically present.\n\nPrerequisites\n - Identity Verification must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Obtain End-User Consent for Biometric Data" = "Alur kerja ini memverifikasi dokumen ID foto dan mengembalikan a) apakah dokumen tersebut valid, dan b) data yang diekstrak dari dokumen tersebut. Ini juga membandingkan wajah pengguna dengan foto di ID dan melakukan pengecekan keberadaan untuk memastikan orang tersebut secara fisik hadir.\n\nPrasyarat\n - Verifikasi Identitas harus diaktifkan untuk akun Anda. (Hubungi manajer akun Jumio Anda untuk aktivasi.)\n - Dapatkan Persetujuan Pengguna Akhir untuk Data Biometrik";
+"This workflow verifies a photo ID document and returns a) whether that document is valid, and b) data extracted from that document. It also compares the user's face with the photo on the ID and performs a liveness check to ensure the person is physically present. Checks if user is part of any sanctions list using Comply Advantage.\n\nPrerequisites\n - Identity Verification must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Screening must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Screening must be set up for your Customer Portal (see Comply Advantage Portal Setup)\n - Obtain End-User Consent for Biometric Data" = "Alur kerja ini memverifikasi dokumen identitas berfoto dan mengembalikan a) apakah dokumen tersebut valid, dan b) data yang diekstrak dari dokumen tersebut. Ini juga membandingkan wajah pengguna dengan foto di ID dan melakukan pengecekan keberadaan untuk memastikan orang tersebut secara fisik hadir. Memeriksa apakah pengguna adalah bagian dari daftar sanksi menggunakan Comply Advantage.\n\nPrasyarat\n - Verifikasi Identitas harus diaktifkan untuk akun Anda. (Hubungi manajer akun Jumio Anda untuk aktivasi.)\n - Penyaringan harus diaktifkan untuk akun Anda. (Hubungi manajer akun Jumio Anda untuk aktivasi.)\n- Penyaringan harus diatur untuk Portal Pelanggan Anda (lihat Pengaturan Portal Comply Advantage)\n - Dapatkan Persetujuan Pengguna Akhir untuk Data Biometrik";
 "This workspace has been archived" = "Ruang kerja ini telah diarsipkan";
 "This workspace has been deactivated, and all members are unable to interact. Only the owner can reactivate it." = "Ruang kerja ini telah dinonaktifkan, dan semua anggota tidak dapat berinteraksi. Hanya pemilik yang dapat mengaktifkannya kembali.";
 "This workspace has reached max %@ members, please contact workspace owner." = "Ruang Kerja ini telah mencapai jumlah maksimum %@ anggota, hubungi pemilik Ruang Kerja.";
@@ -2189,6 +2237,9 @@
 "Time Booking completed." = "Pemesanan Waktu selesai.";
 "Time Booking completed: %@" = "Pemesanan Waktu selesai: %@";
 "Time Booking due now" = "Pemesanan Waktu jatuh tempo sekarang";
+"Time Booking due soon" = "Waktu Pemesanan segera jatuh tempo";
+"Time Booking due today" = "Pemesanan Waktu jatuh tempo hari ini";
+"Time Booking overdue (%@)" = "Pemesanan Waktu terlambat (%@)";
 "Time Zone" = "Zona Waktu";
 "Title" = "Judul";
 "Title, description, and due date in DocuSign action can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "Judul, deskripsi, dan deadline tindakan DocuSign dapat diedit. Jika Anda ingin membuat perubahan pada document atau penerima tugas, silakan buat tindakan DocuSign baru.";
@@ -2209,6 +2260,12 @@
 "To use pre-built and shared templates on the mobile app, please ensure that your DocuSign account is connected." = "Untuk menggunakan template pre-built dan template bersama pada aplikasi seluler, pastikan akun DocuSign Anda terhubung.";
 "To-Do" = "Agenda";
 "To-Do assigned to %@" = "Daftar tugas ditugaskan kepada %@";
+"To-Do assigned to %@ and %@ others" = "Tugas yang ditugaskan kepada %1$@ dan %2$@ orang lain";
+"To-Do assigned to %@ and %@ others." = "To-Do ditugaskan kepada %1$@ dan %2$@ orang lain.";
+"To-Do assigned to %@ and %@ others: %@" = "Tugas yang ditugaskan kepada %1$@ dan %2$@ orang lain: %3$@";
+"To-Do assigned to %@ and 1 other" = "To-Do ditugaskan kepada %@ dan 1 orang lainnya";
+"To-Do assigned to %@ and 1 other." = "To-Do ditugaskan kepada %@ dan 1 orang lainnya.";
+"To-Do assigned to %@ and 1 other: %@" = "Tugas yang ditugaskan kepada %1$@ dan 1 orang lainnya: %2$@";
 "To-Do assigned to %@." = "Daftar tugas ditugaskan kepada %@.";
 "To-Do assigned to %@: %@" = "Daftar tugas ditugaskan kepada %1$@: %2$@";
 "To-Do assigned to you" = "Daftar tugas ditetapkan pada Anda";
@@ -2218,6 +2275,9 @@
 "To-Do completed." = "To-Do selesai.";
 "To-Do completed: %@" = "Tugas selesai: %@";
 "To-Do due now" = "Daftar tugas jatuh tempo sekarang";
+"To-Do due soon" = "Tugas yang harus segera diselesaikan";
+"To-Do due today" = "Agenda jatuh tempo hari ini";
+"To-Do overdue (%@)" = "Tugas yang terlambat (%@)";
 "To-Do reopened" = "Daftar tugas dibuka kembali";
 "To-Dos" = "Agenda";
 "Today" = "Hari ini";
@@ -2257,6 +2317,7 @@
 "Type your reason here." = "Ketik alasan Anda di sini.";
 "Types" = "Jenis";
 "URL (required)" = "URL (wajib diisi)";
+"US" = "ID";
 "Uh-oh, you aren’t currently online. To complete this task, please connect to the internet." = "Waduh, Anda sedang tidak online. Untuk menyelesaikan tugas ini, hubungkan ke internet.";
 "Un-archive Workspace" = "Jangan Arsipkan Ruang Kerja";
 "Unable To Assign" = "Tidak Dapat Menugaskan";
@@ -2319,6 +2380,7 @@
 "Unpin" = "Lepaskan Pin";
 "Unpin from Workspace" = "Lepas sematan dari Ruang Kerja";
 "Unread" = "Belum Dibaca";
+"Unsupported file format" = "Format file tidak didukung";
 "Until %@" = "Hingga %@";
 "Upcoming Meetings" = "Rapat mendatang";
 "Upcoming and ongoing" = "Mendatang dan sedang berlangsung";
@@ -2358,6 +2420,7 @@
 "User Name" = "Nama Pengguna";
 "User Not In Workspace" = "Pengguna Tidak Ada Di Ruang Kerja";
 "Users need to be added to your contacts before appearing here." = "Pengguna harus ditambahkan ke kontak Anda sebelum ditampilkan di sini.";
+"Using Single Sign On to securely log you in our collaboration platform." = "Menggunakan Single Sign On untuk masuk ke platform kolaborasi kami dengan aman.";
 "VOID" = "BATAL";
 "Validating password..." = "Memvalidasi sandi...";
 "Verification Email Sent" = "Email Verifikasi Terkirim";
@@ -2375,6 +2438,7 @@
 "View Office Hours" = "Lihat Jam Kerja";
 "View Original Image" = "Lihat Gambar Asli";
 "View Pages" = "Lihat Halaman";
+"View Privacy Notice" = "Lihat Pemberitahuan Privasi";
 "View Profile" = "Lihat Profil";
 "View QR Code" = "Lihat Kode QR";
 "View Terms & Policies" = "Baca Syarat & Kebijakan";
@@ -2410,6 +2474,7 @@
 "We couldn't find an active account associated with %@, but we have previously sent invitations to this email address. You can use that email to join %@ portal." = "Kami tidak dapat menemukan akun aktif yang terkait dengan %1$@, tetapi kami sebelumnya telah mengirimkan undangan ke alamat email ini. Anda dapat menggunakan email tersebut untuk bergabung dengan %2$@ portal.";
 "We couldn't update your status, but retrying may solve this issue." = "Kami tidak dapat memperbarui status Anda, silakan coba lagi.";
 "We couldn’t remove the link preview, but retrying may solve the issue." = "Kami tidak dapat menghapus pratinjau tautan, tetapi mencoba lagi mungkin menyelesaikan masalah ini.";
+"We don't accept %@ files larger than %@." = "Kami tidak menerima file %1$@ yang lebih besar dari %2$@.";
 "We don't accept files larger than %@ B." = "Kami tidak menerima file lebih besar dari %@ B.";
 "We don't accept files larger than %@ KB." = "Kami tidak menerima file lebih besar dari %@ KB.";
 "We don't accept files larger than %@ MB." = "Kami tidak menerima file lebih besar dari %@ MB.";
@@ -2464,7 +2529,6 @@
 "Who needs to choose the meeting time?" = "Siapa yang perlu memilih waktu rapat?";
 "Who needs to complete this?" = "Siapa yang harus melengkapi ini?";
 "Who needs to fill this form?" = "Siapa yang perlu mengisi formulir ini?";
-"Who needs to finish this?" = "Siapa yang perlu menyelesaikan ini?";
 "Who needs to sign?" = "Siapa yang perlu menandatangani?";
 "Who needs to work on this?" = "Siapa yang perlu mengerjakan ini?";
 "Who will choose the meeting time?" = "Siapa yang akan memilih waktu rapat?";
@@ -2472,6 +2536,7 @@
 "Whole File" = "Seluruh File";
 "Will Be Added As An Individual Workspace Member" = "Akan Ditambahkan Sebagai Anggota Ruang Kerja Perorangan";
 "Will automatically apply to all new workspaces you join. You can manually override this in the settings menu of each workspace." = "Akan secara otomatis berlaku untuk semua ruang kerja baru yang Anda ikuti. Anda dapat menimpanya secara manual di menu pengaturan di setiap ruang kerja.";
+"Workflow Type" = "Jenis Alur Kerja";
 "Workspace '%@' will be deactivated" = "Ruang kerja '%@' akan dinonaktifkan";
 "Workspace Deactivated" = "Ruang Kerja Dinonaktifkan";
 "Workspace Doesn't Exist" = "Ruang Kerja Tidak Ada";
@@ -2629,6 +2694,8 @@
 "Your meeting has been scheduled" = "Rapat Anda telah dijadwalkan";
 "Your mobile device is not setup for Email" = "Perangkat seluler Anda tidak diatur untuk Email";
 "Your mobile device is not setup for SMS." = "Perangkat seluler Anda tidak diatur untuk SMS.";
+"Your org is not configured to use SAML SSO. Please log in with account to continue." = "Organisasi Anda tidak dikonfigurasi untuk menggunakan SAML SSO. Silakan masuk dengan akun untuk melanjutkan.";
+"Your organization allows the following file types to be shared:\n%@." = "Organisasi Anda mengizinkan jenis file berikut untuk dibagikan:\n%@.";
 "Your organization requires this security configuration." = "Organisasi Anda mensyaratkan konfigurasi keamanan ini.";
 "Your password was successfully updated." = "Sandi Anda berhasil diperbarui.";
 "Your portal is no longer active" = "Portal Anda tidak lagi aktif";
@@ -2693,6 +2760,7 @@
 "start chat" = "Mulai Chat";
 "the majority of assignees" = "mayoritas penerima";
 "today" = "Hari ini";
+"value" = "nilai";
 "via Instant Flow" = "via Instant Flow";
 "via template: %@" = "melalui templat: %@";
 "video" = "video";

@@ -178,7 +178,6 @@
 "%@ ended the meeting." = "%@ завърши срещата.";
 "%@ entered waiting room." = "%@ влезе в чакалнята.";
 "%@ files were not attached." = "%@ файлове не бяха прикачени.";
-"%@ finished this To-Do." = "%@ завърши тази задача.";
 "%@ has been added to your %@ team. Use your team for 1:1 support and services from %@." = "%1$@ е добавен към вашия екип на %2$@. Използвайте вашия екип за 1:1 поддръжка и услуги от %3$@.";
 "%@ has been added to your contacts" = "%@ е добавен към вашите контакти";
 "%@ has been added to your team." = "%@ беше добавен към вашия екип.";
@@ -199,7 +198,7 @@
 "%@ is %@ right now and may not be able to respond." = "%1$@ е %2$@ точно сега и може да не успеете да отговорите.";
 "%@ is away right now and may not be able to respond." = "%@ отсъства в момента и може да не е в състояние да отговори.";
 "%@ is controlling co-browsing." = "%@ контролира съвместната навигация.";
-"%@ is currently out of office and will review your message as soon as they return." = "%@ в момента не е в офиса и ще прегледа съобщението ви, когато се върне.";
+"%@ is currently out of office." = "%@ в момента не е в офиса.";
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@ в момента не е в офиса. При възникнали неотложни проблеми, моля разговаряйте с %2$@.";
 "%@ is currently out of office:" = "%@в момента не е в офиса:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ в момента не е на линия и ще види вашето съобщение, когато се върне.";
@@ -318,6 +317,7 @@
 "%@ were added to the workspace" = "%@ беше добавен към работното пространство";
 "%@ were removed from the workspace" = "%@ бяха премахнати от работното пространство";
 "%@ years ago" = "Преди %@ години";
+"%@'s Flow" = "Потокът на %@";
 "%@'s Meeting" = "Среща на %@";
 "%@'s invite for %@ to join \"%@\" is awaiting approval." = "Покана на %1$@ за %2$@ да се присъедини към \"%3$@\" изчаква одобрение.";
 "%@'s invite request for %@ to join \"%@\" has been rejected by %@." = "Заявката за покана на %1$@ за %2$@ да се присъедини към \"%3$@\" е отхвърлена от %4$@.";
@@ -353,6 +353,7 @@
 "1 month ago" = "Преди 1 месец";
 "1 request to approve" = "1 заявка за одобрение";
 "1 year ago" = "Преди 1 година";
+"A majority of assignees must finish this to-do to complete it." = "Повечето от назначените трябва да завършат тази задача, за да я завършат.";
 "A maximum of %@ workspaces will be kept in the Timeline. Past this limit, the most inactive workspaces will be automatically archived by the system." = "Максимум %@ работни пространства ще бъдат запазени във времевата линия. След това ограничение най-неактивните работни пространства ще бъдат автоматично архивирани от системата.";
 "A network error occurred." = "Възникна мрежова грешка.";
 "A network issue prevented us from starting co-browsing. Please try again." = "Проблем с мрежата ни попречи да започнем съвместната навигация. Моля, опитайте отново.";
@@ -387,6 +388,9 @@
 "Acknowledgement completed." = "Потвърждението е завършено.";
 "Acknowledgement completed: %@" = "Потвърждението е завършено: %@";
 "Acknowledgement due now" = "Крайният срок за потвърждението изтича сега";
+"Acknowledgement due soon" = "Признанието трябва да бъде направено скоро";
+"Acknowledgement due today" = "Срокът за потвърждение е днес";
+"Acknowledgement overdue (%@)" = "Признанието е просрочено (%@)";
 "Action In Progress" = "Действие в ход";
 "Action Items" = "Елементи за действие";
 "Action Needed By" = "Необходимо е действие от";
@@ -417,6 +421,7 @@
 "Add Files" = "Добавяне на файлове";
 "Add Guest" = "Добавяне на гост";
 "Add Here" = "Добавете тук";
+"Add Jumio details" = "Добавете детайли за Jumio";
 "Add Members" = "Добавяне на членове";
 "Add New" = "Добавяне на нов";
 "Add New Action" = "Добави ново действие";
@@ -440,7 +445,6 @@
 "Add the information below to get started!" = "Добавете информацията по-долу, за да започнете!";
 "Add to Contacts" = "Добавяне към контакти";
 "Add to calendar" = "Добавяне към календар";
-"Add token" = "Добавете жетон";
 "Add useful information regarding to your e-sign" = "Добавете полезна информация относно вашия електронен подпис";
 "Add useful information regarding your DocuSign" = "Добавете полезна информация, свързана с вашия DocuSign";
 "Add useful information regarding your request" = "Добавете полезна информация, свързана с вашата заявка";
@@ -532,6 +536,9 @@
 "Approval completed." = "Одобрението е завършено.";
 "Approval completed: %@" = "Одобрението е завършено: %@";
 "Approval due now" = "Крайният срок за одобрението изтича сега";
+"Approval due soon" = "Одобрението предстои скоро";
+"Approval due today" = "Срокът за одобрение е днес";
+"Approval overdue (%@)" = "Одобрението е просрочено (%@)";
 "Approve" = "Одобрение";
 "Approve All" = "Одобрение на всички";
 "Approve Pending Request" = "Одобри чакаща заявка";
@@ -554,6 +561,7 @@
 "Are you sure you want to remove this attachment?" = "Наистина ли искате да премахнете този прикачен файл?";
 "Are you sure you want to start the meeting before its scheduled time?" = "Сигурен/а ли сте, че желаете да започнете срещата преди планирания час?";
 "Arrow" = "Стрелка";
+"Asia Pacific" = "Азия и Тихия океан";
 "Ask the client to send a message to reactivate this workspace." = "Помолете клиента да изпрати съобщение за повторно активиране на това работно пространство.";
 "Assign" = "Възлагам";
 "Assign Client Groups" = "Назначаване на клиентски групи";
@@ -613,6 +621,7 @@
 "By Email" = "По имейл";
 "By Phone" = "По телефон";
 "By SMS" = "Посредством SMS";
+"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "С натискането на Старт, вие давате съгласието си Jumio да събира, обработва и споделя вашата лична информация, която може да включва биометрични данни, съгласно неговата Политика за поверителност.";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "С кликването на \"Съгласявам се\", потвърждавам, че съм прочел и разбрал информацията, съдържаща се в тази заявка за потвърждение.";
 "By continuing, you are giving consent to be recorded." = "Продължавайки, вие давате съгласие да бъдете записвани.";
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "Със създаването на акаунт вие се съгласявате с нашите Условията за услуги и Правилата за поверителност.";
@@ -690,8 +699,11 @@
 "Client Groups" = "Клиентски групи";
 "Client Groups (Optional)" = "Групи на клиент (по желание)";
 "Client Groups can only be created by admin users in the Admin Portal." = "Клиентските групи могат да се създават само от администратори в портала за администратори.";
+"Client ID" = "Идентификационен номер на клиента";
+"Client ID or Secret is invalid." = "Идентификационният номер на клиента или секретът е невалиден.";
 "Client Left Workspace" = "Клиент напусна работно пространство";
 "Client Login" = "Вход на потребител";
+"Client Secret" = "Клиентска тайна";
 "Client Unfollowed Account" = "Прекратено следване на акаунт от клиенти";
 "Client accepted invitation" = "Клиентът прие поканата";
 "Client assigned to you" = "Имате задание от клиент";
@@ -898,6 +910,9 @@
 "DocuSign completed." = "DocuSign е завършен.";
 "DocuSign completed: %@" = "DocuSign е завършен: %@";
 "DocuSign due now" = "Крайният срок на DocuSign е сега";
+"DocuSign due soon" = "Скоро изтича срокът за DocuSign";
+"DocuSign due today" = "Крайният срок на DocuSign е днес";
+"DocuSign overdue (%@)" = "Изтекъл срок на DocuSign (%@)";
 "Document Only" = "Само документ";
 "Document Sent" = "Документът е изпратен";
 "Document with Certificate" = "Документ със сертификат";
@@ -946,7 +961,9 @@
 "E-Sign completed" = "Електронният подпис е завършен";
 "E-Sign completed." = "Електронният подпис е завършен.";
 "E-Sign completed: %@" = "Електронният подпис е завършен: %@";
-"E-Sign due now" = "Електронният подпис трябва да бъде извършен сега";
+"E-Sign due soon" = "Електронният подпис е скоро дължим";
+"E-Sign due today" = "Електронният подпис е с краен срок днес";
+"E-Sign overdue (%@)" = "Е-Подпис просрочен (%@)";
 "EXPIRED" = "ИЗТЕКЛО";
 "EXPIRY DATE" = "ДАТА НА ИЗТИЧАНЕ";
 "Edit" = "Редактиране";
@@ -961,6 +978,7 @@
 "Edit General Availability" = "Редактиране на общата наличност";
 "Edit Group Assignment" = "Редактиране на назначение на група";
 "Edit Jumio" = "Редакция на Jumio";
+"Edit Jumio details" = "Редактирайте детайлите на Jumio";
 "Edit Label" = "Редактиране на етикет";
 "Edit Link Security" = "Редактиране на сигурността на връзката";
 "Edit Meeting" = "Редактиране на среща";
@@ -977,7 +995,6 @@
 "Edit Welcome Message" = "Промяна на съобщение при влизане";
 "Edit Workspace" = "Редактирай работното пространство";
 "Edit recurring meeting" = "Редактиране на повтаряща се среща";
-"Edit token" = "Редакция на шаблон";
 "Edit your filters to see results" = "Редактирайте вашите филтри, за да видите резултати";
 "Editable by..." = "Може да се редактира от...";
 "Edited" = "Редактирано";
@@ -1034,6 +1051,7 @@
 "Error" = "Грешка";
 "Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@)." = "Грешка при свързване с DocuSign. Моля, помолете създателя (%1$@) да свърже отново своя профил в DocuSign (%2$@).";
 "Error connecting with DocuSign. Please reconnect account (%@) to enable the signatures." = "Грешка при свързване с DocuSign. Моля, свържете отново профила (%@), за да активирате подписите.";
+"Europe" = "Европа";
 "Every" = "Всеки";
 "Every %@ days." = "На всеки %1$@ дена.";
 "Every day." = "Всеки ден.";
@@ -1067,12 +1085,16 @@
 "File Request completed." = "Заявката за файл е завършена.";
 "File Request completed: %@" = "Заявката за файл е завършена: %@";
 "File Request due now" = "Крайният срок за заявката настъпва сега";
+"File Request due soon" = "Заявка за файл скоро изтича";
+"File Request due today" = "Крайният срок на заявката за файл е днес";
 "File Request needs your review" = "Заявката за файл се нуждае от прегледа ви";
+"File Request overdue (%@)" = "Заявка за файл просрочена (%@)";
 "File Request ready for review" = "Заявката за файл е готова за преглед";
 "File Request ready for review." = "Заявката за файл е готова за преглед.";
 "File Request ready for review: %@" = "Заявката за файл е готова за преглед: %@";
 "File Request reopened" = "Заявката за файл е отворена повторно";
 "File Reviewer" = "Прегледал файла";
+"File Size Exceeded" = "Формулярът скоро изтича";
 "File doesn't exist." = "Файлът не съществува.";
 "File size limit reached (%@)" = "Ограничението за размер на файл е достигнато (%@)";
 "File type unsupported" = "Този тип файл не се поддържа";
@@ -1089,7 +1111,6 @@
 "Filters" = "Филтри";
 "Find messages, files, contents, and more by typing above." = "Намерете съобщения, файлове, съдържание и др. като пишете горе.";
 "Finish" = "Готово";
-"First Name" = "Собствено име";
 "Fix Perspective" = "Коригиране на перспектива";
 "Flow" = "Поток";
 "Flow Template Library" = "Библиотека с шаблони на потока";
@@ -1123,6 +1144,9 @@
 "Form completed." = "Формулярът е завършен.";
 "Form completed: %@" = "Формулярът е завършен: %@";
 "Form due now" = "Крайният срок на формуляра е сега";
+"Form due soon" = "Формулярът скоро изтича";
+"Form due today" = "Крайният срок на формуляра е днес";
+"Form overdue (%@)" = "Формулярът е просрочен (%@)";
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "Препращайте съдържание към вашите работни пространства, като използвате функцията „Копиране в…“ на всеки обект.";
 "Forwarding..." = "Препращане...";
 "Frequency" = "Честота";
@@ -1191,6 +1215,10 @@
 "I'd like to share a file with you: %@" = "Бих искал да споделя файл с вас: %@";
 "I'd like to share a video with you. \r\n\r\n<br><br>" = "Бих искал да споделя видеоклип с вас. \r\n\r\n<br><br>";
 "I'd like to share some files with you: %@" = "Бих искал да споделя някои файлове с вас: %@";
+"ID Capture and Storage" = "Заснемане и съхранение на ID";
+"ID Verification" = "Идентификация на личността";
+"ID Verification, Identity Verification, Screening" = "Идентификация по ID, Проверка на идентичност, Процедура за проверка";
+"ID and Identity Verification" = "ID и верификация на идентичността";
 "INVITE SENT" = "ПОКАНАТА Е ИЗПРАТЕНА";
 "Identity Verification" = "Проверка на самоличността";
 "Identity Verification assigned to %@" = "Проверката на самоличността е възложена на %@";
@@ -1201,9 +1229,13 @@
 "Identity Verification completed." = "Проверката на самоличността е завършена.";
 "Identity Verification completed: %@" = "Проверката на самоличността е завършена: %@";
 "Identity Verification due now" = "Проверката на самоличността предстои сега";
+"Identity Verification due soon" = "Предстои скорошна верификация на идентичността";
+"Identity Verification due today" = "Проверката на самоличността предстои днес";
+"Identity Verification overdue (%@)" = "Просрочена верификация на идентичност (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "Проверката на самоличността е временно деактивирана от съображения за сигурност. Моля, опитайте отново по-късно.";
-"If enabled, all attachments must be opened by the asignee before acknowledging." = "Ако е активирано, всички прикачени файлове трябва да бъдат отворени от пълномощника, преди да се потвърди.";
-"If enabled, the file reviewer will be required to review files after submission." = "Ако е разрешено, рецензентът на файлове ще трябва да прегледа файловете след изпращане.";
+"If enabled, a file reviewer will be required to review the files that are uploaded." = "Ако е активирано, рецензент на файлове ще трябва да прегледа качените файлове.";
+"If enabled, all attachments must be opened by the assignee before acknowledging." = "Ако е активирано, всички прикачени файлове трябва да бъдат отворени от присвоения потребител преди да бъдат потвърдени.";
+"If enabled, this action can be completed in parallel with the previous action in the flow." = "Ако е активирано, това действие може да бъде изпълнено паралелно с предишното действие в потока.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Ако е активирано, ще показваме заглавната страница на потока всеки път, когато отворите работно пространство на потока за първи път.";
 "If removed, they will lose access to this workspace immediately." = "Ако бъдат премахнати, те незабавно ще загубят достъп до това работно пространство.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "Ако прекъснете връзката с вашия профил в DocuSign, получателите няма да имат достъп или да подпишат чакащи документи, създадени с този профил. Попълнените документи няма да бъдат засегнати от това.";
@@ -1222,6 +1254,7 @@
 "In Progress" = "Изпълнява се";
 "In progress..." = "Изпълнява се...";
 "In the cloud" = "В облака";
+"In: %@" = "В: %@";
 "Inactive account" = "Неактивна сметка";
 "Inbox" = "Входяща кутия";
 "Inbox from %@" = "Входяща кутия от %@";
@@ -1234,7 +1267,7 @@
 "Incorrect phone number or password" = "Неправилен телефонен номер или парола";
 "Incorrect verification code. Please try again." = "Грешен код на потвърждение. Моля, опитайте отново.";
 "Info" = "Информация";
-"Initials" = "Инициали";
+"Init." = "Инициали";
 "Insert" = "Вмъкване";
 "Insert Image" = "Вмъкване на изображение";
 "Insert Link" = "Вмъкване на линк";
@@ -1294,13 +1327,13 @@
 "Join my meeting" = "Присъединяване към моята среща";
 "Join the rest of your team at %@ on %@" = "Присъединете се към екипа си от %1$@ на %2$@";
 "Join the rest of your team on the %@ Portal" = "Присъединете се към екипа си в портала на %@";
+"Join workspace" = "Присъединете се към работното пространство";
 "Joined" = "Присъединен";
 "Joining..." = "Присъединяване...";
 "Jumio" = "Jumio";
 "Jump to Workspace" = "Отидете към работно пространство";
 "Keypad" = "Клавиатура";
 "Last Activity" = "Последна дейност";
-"Last Name" = "Фамилно име";
 "Last active: %@" = "Последно активен: %@";
 "Last active: %@d ago" = "Последно активен: преди %@д";
 "Last active: %@h ago" = "Последно активен: преди %@ч";
@@ -1315,6 +1348,7 @@
 "Last seen: %@h ago" = "Последно видян на: %@ часа преди";
 "Last seen: %@m ago" = "Последно видян на: %@ минути преди";
 "Last seen: %@w ago" = "Последно видян на: %@ седмици преди";
+"Learn More" = "Научи Повече";
 "Learn more about what assignees will see" = "Научете повече за това, което приемниците ще видят";
 "Leave" = "Напускане";
 "Leave Audio" = "Изключване на микрофон";
@@ -1374,6 +1408,7 @@
 "Mark as Unread" = "Маркирай като непрочетено";
 "Max %@ characters" = "Максимален брой %1$@ знаци";
 "Max Amount" = "Максимална сума";
+"Maximum %@ size exceeded (%@)" = "Превишен максимален размер %1$@ (%2$@)";
 "Maximum members limit reached" = "Достигнат е максималният лимит на членове";
 "Maximum participants reached. Please try removing some and trying again." = "Достигнат е максималният брой участници. Моля, пробвайте да отстраните няколко и опитайте отново.";
 "Me" = "Аз";
@@ -1418,6 +1453,7 @@
 "Member Requests" = "Заявки за участник";
 "Member Type" = "Вид на член";
 "Members" = "Участници";
+"Members have not joined" = "Членовете не са се присъединили";
 "Members only" = "Само за членове";
 "Members(%@)" = "Участници (%@)";
 "Mentions" = "Споменавания";
@@ -1528,8 +1564,8 @@
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Няма намерени общи времеви интервали. Помислете за премахване на някои участници, коригиране на продължителността на срещата или промяна на прозореца от време.";
 "No meeting" = "Няма среща";
 "No meetings" = "Няма срещи";
-"No message will be displayed" = "Няма да бъде изведено съобщение";
 "No pending approvals" = "Няма изчакващи одобрения";
+"No personalized message will be displayed" = "Няма да бъде показано персонализирано съобщение";
 "No reminder" = "Без напомняне";
 "No transaction matching this search" = "Няма трансакция, която съвпада с това търсене";
 "No viewers yet" = "Все още няма зрители";
@@ -1567,6 +1603,7 @@
 "Only invited members can access the workspace" = "Само поканени членове могат да имат достъп до работното пространство";
 "Only one assignee is required to acknowledge this acknowledgement to complete it." = "Само един назначен трябва да потвърди това потвърждение, за да го завърши.";
 "Only one assignee is required to approve this approval to complete it." = "Само един назначен трябва да одобри това одобрение, за да го завърши.";
+"Only one assignee is required to finish this to-do to complete it." = "Само един изпълнител е необходим, за да завърши тази задача и да я приключи.";
 "Only participants can view meeting details." = "Само участниците могат да виждат подробности за срещата.";
 "Only websites that support https can be loaded in order to ensure a secure connection." = "Само сайтове, поддържащи https, могат да бъдат зареждани, за да се осигури надеждна връзка.";
 "Only workspace owner can adjust link security" = "Само собственикът на работното пространство може да регулира сигурността на връзката";
@@ -1581,6 +1618,7 @@
 "Original File" = "Оригинален файл";
 "Original Size" = "Оригинален размер";
 "Other Activities" = "Други дейности";
+"Other SSO" = "Друг SSO";
 "Other Settings" = "Други настройки";
 "Out of Office" = "Извън офиса";
 "Outlook Calendar" = "Календар на Outlook";
@@ -1642,6 +1680,7 @@
 "Please click below to create your account." = "Моля, щракнете по-долу, за да създадете своя акаунт.";
 "Please click the button below to finish creating your account." = "Моля, щракнете бутона по-долу, за да завършите създаването на вашия акаунт.";
 "Please connect your DocuSign account to access templates." = "Моля, свържете своя профил в DocuSign, за да използвате шаблони.";
+"Please contact our support team at support.moxo.com." = "Моля, свържете се с нашия екип за поддръжка на support.moxo.com.";
 "Please contact the administrator of your portal to continue." = "Моля, свържете се с администратора на портала ви, за да продължите.";
 "Please contact the host and request an invitation to join." = "Моля, свържете се с хоста и поискайте покана за присъединяване.";
 "Please contact us to receive a new invitation." = "Моля, свържете се с нас, за да получите нова покана.";
@@ -1781,7 +1820,7 @@
 "Request Sent" = "Заявката е изпратена";
 "Requests" = "Запросы";
 "Require Attachment Review" = "Изисква се преглед на прикачения файл";
-"Require Review" = "Изисква се преглед";
+"Require File Review" = "Изисква се преглед на файла";
 "Required Update Available" = "Задължителната актуализация е достъпна";
 "Required field" = "Полето е задължително";
 "Reschedule" = "Пренасрочване";
@@ -1863,6 +1902,7 @@
 "Select Bot" = "Избор на бот";
 "Select Category" = "Избор на категория";
 "Select Conversation" = "Избор на разговор";
+"Select Data Center" = "Изберете данни за центъра";
 "Select Date" = "Избор на дата";
 "Select Download Option" = "Избиране на опцията „сваляне“";
 "Select File" = "Изберете";
@@ -1874,6 +1914,7 @@
 "Select Tool" = "Избор на инструмент";
 "Select Type" = "Изберете образци";
 "Select Users" = "Изберете ползватели";
+"Select Workflow Type" = "Изберете тип на работния процес";
 "Select Workspace" = "Изберете работно пространство";
 "Select Workspaces" = "Изберете работни пространства";
 "Select a Date & Time" = "Изберете дата и час";
@@ -1958,6 +1999,7 @@
 "Signup disabled" = "Регистрацията е деактивирана";
 "Single sign-on" = "Единично влизане";
 "Skip" = "Пропускане";
+"Skip Sequential Order" = "Пропусни последователен ред";
 "Skipped" = "Пропуснато";
 "Slide to Cancel" = "Плъзнете за отмяна";
 "Slide up to cancel" = "Плъзнете нагоре за отмяна";
@@ -1987,6 +2029,7 @@
 "Start Meeting Early?" = "Желаете ли да започнете срещата по-рано?";
 "Start New Search" = "Започване на ново търсене";
 "Start Record" = "Начало на записване";
+"Start Verification" = "Стартирайте верификация";
 "Start Workspace" = "Стартирайте работното пространство";
 "Start a new workspace without using a template" = "Стартирайте ново работно пространство без използване на шаблон";
 "Start new workspace" = "Стартирай ново работно пространство";
@@ -2063,6 +2106,7 @@
 "Thank you for using %@ meeting." = "Благодарим ви, че използвахте срещата на \n %@.";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "Благодаря ви. Ще ви изпратим окончателното подписано копие, след като всички подпишат документа.";
 "Thanks for joining!" = "Благодарим ви, че се присъединихте!";
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "Идентификационният номер на клиента и тайният код на клиента се използват за генериране на OAuth2 достъпен токен. Достъпете до идентификационния номер на клиента и тайния код на клиента от портала на Jumio.";
 "The Meeting has Ended" = "Срещата приключи";
 "The URL you've entered is not valid. Please review the URL and try again." = "URL адресът, който сте въвели, е невалиден Моля, прегледайте URL адреса и опитайте отново.";
 "The account associated with %@ is no longer active" = "Профилът, асоцииран с %@, вече не е активен";
@@ -2100,7 +2144,6 @@
 "The selected items will be moved under %@." = "Избраните елементи ще бъдат преместени във %@.";
 "The selected person is the owner of the workspace." = "Избраното лице е собственик на работното пространство.";
 "The start time must be before the end time." = "Времето на стартиране трябва да е преди времето на завършване.";
-"The token is invalid." = "Жетонът не е валиден.";
 "There are no active screen share sessions to join." = "Няма активни сесии за споделяне на екрана за присъединяване.";
 "There are no other members in this workspace." = "В това работно пространство няма други членове.";
 "There are no results matching the name you’ve provided." = "Няма резултати, които съвпадат с предоставеното име.";
@@ -2153,6 +2196,7 @@
 "This person is in a client group that was added to this workspace. Assigning this action to them will add them as an individual workspace member." = "Този човек е в клиентска група, която е добавена към това работно пространство. Назначението на това действие на тях ще ги добави като отделен член на работно пространство.";
 "This person is in a team that was added to this workspace. Assigning this action to them will add them to this workspace as an individual member." = "Този човек е в екип, който беше добавен към това работно пространство. Възлагането на това действие на тях ще ги добави към това работно пространство като отделен член.";
 "This person looks new:" = "Този човек изглежда нов:";
+"This portal has been disabled" = "Този портал е деактивиран";
 "This reset password link is no longer valid" = "Съжаляваме, тази връзка за нулиране на парола вече не е валидна";
 "This role and any assigned fields will be hidden." = "Тази роля и всички зададени полета ще бъдат скрити.";
 "This step has already started and the assignee(s) can review and act on the step while you are editing. Any already completed step progress will be lost." = "Това действие вече е започнало и изпълнителят(ите) могат да прегледат и действат по стъпката, докато редактирате. Всички вече завършени стъпки ще бъдат загубени.";
@@ -2173,6 +2217,10 @@
 "This will delete all scanned pages. Are you sure you want to leave?" = "Това ще изтрие всички сканирани страници. Наистина ли искате да напуснете?";
 "This will erase annotations made by all participants." = "Това действие ще изтрие бележките, направени от всички участници.";
 "This will stop other's sharing, do you want to continue?" = "Това ще спре споделянето на други, искате ли да продължите?";
+"This workflow captures a government-issued ID document and stores the extracted data." = "Този процес заснема документ за самоличност, издаден от държавата, и съхранява извлечените данни.";
+"This workflow verifies a government-issued ID document and returns a) whether that document is valid, and b) data extracted from that document." = "Този процес проверява документ за самоличност, издаден от правителството, и връща а) дали този документ е валиден и б) данни, извлечени от този документ.";
+"This workflow verifies a photo ID document and returns a) whether that document is valid, and b) data extracted from that document. It also compares the user's face with the photo on the ID and performs a liveness check to ensure the person is physically present.\n\nPrerequisites\n - Identity Verification must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Obtain End-User Consent for Biometric Data" = "Този процес проверява документ за снимка на лична карта и връща а) дали този документ е валиден и б) данни, извлечени от този документ. Също така сравнява лицето на потребителя със снимката в личната карта и извършва проверка за живот, за да се увери, че човекът е физически присъстваш.\n\nПредварителни условия\n - Идентификацията на личността трябва да бъде активирана за вашия акаунт. (Свържете се с вашия мениджър на акаунта в Jumio за активация.)\n - Получете съгласие от крайния потребител за биометрични данни.";
+"This workflow verifies a photo ID document and returns a) whether that document is valid, and b) data extracted from that document. It also compares the user's face with the photo on the ID and performs a liveness check to ensure the person is physically present. Checks if user is part of any sanctions list using Comply Advantage.\n\nPrerequisites\n - Identity Verification must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Screening must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Screening must be set up for your Customer Portal (see Comply Advantage Portal Setup)\n - Obtain End-User Consent for Biometric Data" = "Този работен процес проверява документ за снимка и връща а) дали този документ е валиден и б) данни, извлечени от този документ. Също така сравнява лицето на потребителя със снимката в документа за самоличност и извършва проверка за живот, за да се увери, че човекът е физически присъстваш. Проверява дали потребителят е част от какъвто и да е списък със санкции, използвайки Comply Advantage.\n\nПредварителни условия\n - Верификацията на самоличността трябва да бъде активирана за вашия акаунт. (Свържете се с вашия мениджър на акаунта в Jumio за активация.)\n - Скрийнингът трябва да бъде активиран за вашия акаунт. (Свържете се с вашия мениджър на акаунта в Jumio за активация.)\n - Скрийнингът трябва да бъде настроен за вашия Клиентски портал (вижте Настройка на портала Comply Advantage)\n - Получете съгласие от крайния потребител за биометрични данни";
 "This workspace has been archived" = "Това работно пространство е архивирано";
 "This workspace has been deactivated, and all members are unable to interact. Only the owner can reactivate it." = "Това работно пространство е деактивирано и всички членове не могат да взаимодействат. Само собственикът може да го реактивира.";
 "This workspace has reached max %@ members, please contact workspace owner." = "Това работно пространство достигна максимума от %@ членове, моля, свържете се със собственика на работното пространство.";
@@ -2189,6 +2237,9 @@
 "Time Booking completed." = "Резервацията за време е завършена.";
 "Time Booking completed: %@" = "Завършена резервация за време: %@";
 "Time Booking due now" = "Резервацията на време е за сега";
+"Time Booking due soon" = "Скоро е срокът за резервация на време";
+"Time Booking due today" = "Резервация за време днес";
+"Time Booking overdue (%@)" = "Закъснение в резервацията (%@)";
 "Time Zone" = "Часова зона";
 "Title" = "Заглавие";
 "Title, description, and due date in DocuSign action can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "Заглавието, описанието и крайната дата в действието DocuSign могат да се редактират. Ако трябва да промените документа или възложителите, моля, създайте ново действие DocuSign.";
@@ -2209,6 +2260,12 @@
 "To use pre-built and shared templates on the mobile app, please ensure that your DocuSign account is connected." = "За да използвате предварително изградени и споделени шаблони в мобилното приложение, моля, уверете се, че вашият профил в DocuSign е свързан.";
 "To-Do" = "Задача";
 "To-Do assigned to %@" = "Заданието е възложено на %@";
+"To-Do assigned to %@ and %@ others" = "Задача, възложена на %1$@ и на още %2$@ други";
+"To-Do assigned to %@ and %@ others." = "Задача, възложена на %1$@ и на още %2$@ други.";
+"To-Do assigned to %@ and %@ others: %@" = "Задача, възложена на %1$@ и на още %2$@ други: %3$@";
+"To-Do assigned to %@ and 1 other" = "Задача, възложена на %@ и още 1 друг";
+"To-Do assigned to %@ and 1 other." = "Задача, възложена на %@ и още 1 друг.";
+"To-Do assigned to %@ and 1 other: %@" = "Задача, възложена на %1$@ и още 1 друг: %2$@";
 "To-Do assigned to %@." = "Заданието е възложено на %@.";
 "To-Do assigned to %@: %@" = "Заданието е възложено на %1$@: %2$@";
 "To-Do assigned to you" = "Имате задание";
@@ -2218,6 +2275,9 @@
 "To-Do completed." = "Завършен списък със задачи.";
 "To-Do completed: %@" = "Завършено задание: %@";
 "To-Do due now" = "Крайният срок на заданието настъпи";
+"To-Do due soon" = "Предстоящи задачи";
+"To-Do due today" = "Списък със задачи, който трябва да се изпълни днес";
+"To-Do overdue (%@)" = "Просрочени задачи (%@)";
 "To-Do reopened" = "Задачата е отворена отново";
 "To-Dos" = "Задачи";
 "Today" = "Днес";
@@ -2257,6 +2317,7 @@
 "Type your reason here." = "Въведете своята причина тук.";
 "Types" = "Образци";
 "URL (required)" = "URL (задължителен)";
+"US" = "САЩ";
 "Uh-oh, you aren’t currently online. To complete this task, please connect to the internet." = "В момента не сте онлайн. За да завършите тази задача, моля, свържете се към интернет.";
 "Un-archive Workspace" = "Разархивирайте работно пространство";
 "Unable To Assign" = "Неуспешно възлагане на задача";
@@ -2319,6 +2380,7 @@
 "Unpin" = "Премахване на отметка";
 "Unpin from Workspace" = "Откачване от работно пространство";
 "Unread" = "Непрочетени";
+"Unsupported file format" = "Неподдържан формат на файл";
 "Until %@" = "До %@";
 "Upcoming Meetings" = "Предстоящи срещи";
 "Upcoming and ongoing" = "Предстоящи и текущи";
@@ -2358,6 +2420,7 @@
 "User Name" = "Потребителско име";
 "User Not In Workspace" = "Потребителят не е в работно пространство";
 "Users need to be added to your contacts before appearing here." = "Потребителите трябва да бъдат добавени към вашите контакти, преди да се появят тук.";
+"Using Single Sign On to securely log you in our collaboration platform." = "Използване на единично вписване за сигурно влизане в нашата платформа за сътрудничество.";
 "VOID" = "АНУЛИРАНО";
 "Validating password..." = "Валидиране на парола...";
 "Verification Email Sent" = "Изпратен е имейл за потвърждение";
@@ -2375,6 +2438,7 @@
 "View Office Hours" = "Преглед на работното време";
 "View Original Image" = "Преглед на оригиналното изображение";
 "View Pages" = "Преглед на страници";
+"View Privacy Notice" = "Преглед на Известие за Поверителност";
 "View Profile" = "Разглеждане на профила";
 "View QR Code" = "Вижте кода QR";
 "View Terms & Policies" = "Вижте Условия и политики";
@@ -2410,6 +2474,7 @@
 "We couldn't find an active account associated with %@, but we have previously sent invitations to this email address. You can use that email to join %@ portal." = "Не можахме да намерим активен акаунт, свързан с %1$@, но преди това сме изпращали покани на този имейл адрес. Можете да използвате този имейл, за да се присъедините към %2$@ портал.";
 "We couldn't update your status, but retrying may solve this issue." = "Не можем да обновим статуса ви, но ако опитате отново, проблемът може да се реши.";
 "We couldn’t remove the link preview, but retrying may solve the issue." = "Не можахме да премахнем визуализацията на връзката, но чрез повторен опит този проблем може да се реши.";
+"We don't accept %@ files larger than %@." = "Не приемаме %1$@ файлове по-големи от %2$@.";
 "We don't accept files larger than %@ B." = "Не приемаме файлове, по-големи от %@ B.";
 "We don't accept files larger than %@ KB." = "Не приемаме файлове, по-големи от %@ KB.";
 "We don't accept files larger than %@ MB." = "Ние не приемаме файлове, които са по-големи от %@MB.";
@@ -2464,7 +2529,6 @@
 "Who needs to choose the meeting time?" = "Кой трябва да избере часа на срещата?";
 "Who needs to complete this?" = "Кой трябва да завърши това?";
 "Who needs to fill this form?" = "Кой трябва да попълни този формуляр?";
-"Who needs to finish this?" = "Кой трябва да завърши това?";
 "Who needs to sign?" = "Кой трябва да подпише?";
 "Who needs to work on this?" = "Кой трябва да работи над това?";
 "Who will choose the meeting time?" = "Кой ще избере часа на срещата?";
@@ -2472,6 +2536,7 @@
 "Whole File" = "Цял файл";
 "Will Be Added As An Individual Workspace Member" = "Ще бъде добавен като индивидуален член на работното пространство";
 "Will automatically apply to all new workspaces you join. You can manually override this in the settings menu of each workspace." = "Автоматично ще се прилага за всички нови работни пространства, към които се присъедините. Можете ръчно да отмените това в менюто с настройки на всяко работно пространство.";
+"Workflow Type" = "Тип на работния процес";
 "Workspace '%@' will be deactivated" = "Работното пространство '%@' ще бъде деактивирано";
 "Workspace Deactivated" = "Деактивирано работно пространство";
 "Workspace Doesn't Exist" = "Несъществуващо работно пространство";
@@ -2628,6 +2693,8 @@
 "Your meeting has been scheduled" = "Вашата среща е планирана";
 "Your mobile device is not setup for Email" = "Вашето мобилно устройство не е конфигурирано за имейл";
 "Your mobile device is not setup for SMS." = "Вашето мобилно устройство не е конфигурирано за SMS.";
+"Your org is not configured to use SAML SSO. Please log in with account to continue." = "Вашата организация не е конфигурирана да използва SAML SSO. Моля, влезте в профила си, за да продължите.";
+"Your organization allows the following file types to be shared:\n%@." = "Вашата организация позволява споделянето на следните типове файлове:\n%@.";
 "Your organization requires this security configuration." = "Вашата организация изисква тази конфигурация за безопасност.";
 "Your password was successfully updated." = "Вашата парола беше успешно актуализирана.";
 "Your portal is no longer active" = "Порталът ви вече не е активен";
@@ -2692,6 +2759,7 @@
 "start chat" = "Започване на чат";
 "the majority of assignees" = "по-голямата част от цесионерите";
 "today" = "Днес";
+"value" = "стойност";
 "via Instant Flow" = "чрез Незабавен Поток";
 "via template: %@" = "чрез шаблон: %@";
 "video" = "видео";

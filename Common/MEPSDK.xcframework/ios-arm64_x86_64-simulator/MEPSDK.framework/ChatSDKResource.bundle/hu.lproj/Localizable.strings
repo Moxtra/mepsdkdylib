@@ -178,7 +178,6 @@
 "%@ ended the meeting." = "%@ befejezte a találkozót.";
 "%@ entered waiting room." = "%@ belépett a váróterembe.";
 "%@ files were not attached." = "%@ fájl nincs csatolva.";
-"%@ finished this To-Do." = "%@ befejezte ezt a teendőt.";
 "%@ has been added to your %@ team. Use your team for 1:1 support and services from %@." = "%1$@ hozzá lett adva a Te %2$@ csapatodhoz. Használd csapatodat 1:1 támogatáshoz  %3$@ alapján.";
 "%@ has been added to your contacts" = "%@ hozzá lett adva a kontaktjaihoz";
 "%@ has been added to your team." = "%@ hozzá lett adva a csapatodhoz";
@@ -199,7 +198,7 @@
 "%@ is %@ right now and may not be able to respond." = "A %1$@ jelenleg %2$@, és valószínűleg nem tud válaszolni";
 "%@ is away right now and may not be able to respond." = "%@ jelenleg távol van, és előfordulhat, hogy nem tud válaszolni.";
 "%@ is controlling co-browsing." = "%@ vezérli a közös böngészést.";
-"%@ is currently out of office and will review your message as soon as they return." = "%@ jelenleg nincs a számítógépe előtt, amint visszatér, elolvassa üzenetét.";
+"%@ is currently out of office." = "%@ jelenleg nincs az irodában.";
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@ jelenleg nincs az irodában. Ha bármilyen sürgős problémája van, nyugodtan vegye fel a kapcsolatot a %2$@ nevű felhasználóval.";
 "%@ is currently out of office:" = "%@ jelenleg nincs a számítógépénél:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ jelenleg nem elérhető, az üzenetét akkor fogják látni, amikor visszatérnek.";
@@ -318,6 +317,7 @@
 "%@ were added to the workspace" = "%@ hozzá lett adva a munkaterülethez";
 "%@ were removed from the workspace" = "%@ eltávolításra került a munkaterületről";
 "%@ years ago" = "%@ évvel ezelőtt";
+"%@'s Flow" = "%@ Folyamata";
 "%@'s Meeting" = "%@ találkozója";
 "%@'s invite for %@ to join \"%@\" is awaiting approval." = "A (z) %1$@ felhívása a (z) %2$@ számára, hogy csatlakozzon a (z) \"%3$@\" -hez, jóváhagyásra vár.";
 "%@'s invite request for %@ to join \"%@\" has been rejected by %@." = "A (z) %1$@ felhasználónak a (z) %2$@ csatlakozási felhívását a (z) \"%3$@\" csatlakozáshoz a %4$@ elutasította.";
@@ -353,6 +353,7 @@
 "1 month ago" = "1 hónappal ezelőtt";
 "1 request to approve" = "1 jóváhagyási kérelem";
 "1 year ago" = "1 évvel ezelőtt";
+"A majority of assignees must finish this to-do to complete it." = "A feladatok többségét el kell végezniük a hozzárendelteknek a teljesítéshez.";
 "A maximum of %@ workspaces will be kept in the Timeline. Past this limit, the most inactive workspaces will be automatically archived by the system." = "Legfeljebb %@ munkaterület marad meg az idővonalon. Ezen a korláton túl a rendszer automatikusan archiválja a leginaktívabb munkaterületeket.";
 "A network error occurred." = "Hálózati hiba történt.";
 "A network issue prevented us from starting co-browsing. Please try again." = "Egy hálózati probléma megakadályozta, hogy elkezdjük a társas böngészést. Próbálja újra.";
@@ -387,6 +388,9 @@
 "Acknowledgement completed." = "Igazolás teljesítve.";
 "Acknowledgement completed: %@" = "Igazolás teljesítve: %@";
 "Acknowledgement due now" = "Az igazolás most esedékes";
+"Acknowledgement due soon" = "Hamarosan esedékes az elismerés";
+"Acknowledgement due today" = "Ma esedékes igazolás";
+"Acknowledgement overdue (%@)" = "Elismerés lejárt (%@)";
 "Action In Progress" = "Művelet Folyamatban";
 "Action Items" = "Műveleti elemek";
 "Action Needed By" = "Művelet szükséges tőle";
@@ -417,6 +421,7 @@
 "Add Files" = "Fájl hozzáadása";
 "Add Guest" = "Vendég hozzáadása";
 "Add Here" = "Hozzáadása ide";
+"Add Jumio details" = "Adja hozzá a Jumio részleteket";
 "Add Members" = "Tagok hozzáadása";
 "Add New" = "Új hozzáadás";
 "Add New Action" = "Új Művelet Hozzáadása";
@@ -440,7 +445,6 @@
 "Add the information below to get started!" = "Add meg az alábbi infókat a kezdéshez!";
 "Add to Contacts" = "Kapcsolatokhoz hozzáadás";
 "Add to calendar" = "Naptárhoz hozzáadás";
-"Add token" = "Token hozzáadása";
 "Add useful information regarding to your e-sign" = "Hasznos információk hozzáadása az e-signhoz";
 "Add useful information regarding your DocuSign" = "Hasznos információk hozzáadása a DocuSign-jával kapcsolatban";
 "Add useful information regarding your request" = "Hasznos információk hozzáadása a kérelmével kapcsolatban";
@@ -532,6 +536,9 @@
 "Approval completed." = "Jóváhagyás teljesítve.";
 "Approval completed: %@" = "Jóváhagyás teljesítve: %@";
 "Approval due now" = "A jóváhagyás most esedékes";
+"Approval due soon" = "Hamarosan esedékes a jóváhagyás";
+"Approval due today" = "Ma esedékes jóváhagyás";
+"Approval overdue (%@)" = "Jóváhagyás lejárt (%@)";
 "Approve" = "Jóváhagy";
 "Approve All" = "Mindent jóváhagy";
 "Approve Pending Request" = "Jóváhagyja a függőben lévő kérést";
@@ -554,6 +561,7 @@
 "Are you sure you want to remove this attachment?" = "Biztos el akarod távolítani ezt a mellékletet?";
 "Are you sure you want to start the meeting before its scheduled time?" = "Biztosan el szeretné kezdeni a megbeszélést a tervezett idő előtt?";
 "Arrow" = "nyíl";
+"Asia Pacific" = "Ázsiai és csendes-óceáni térség";
 "Ask the client to send a message to reactivate this workspace." = "Kérje meg az ügyfelet, hogy küldjön egy üzenetet a munkaterület reaktiválásához.";
 "Assign" = "Hozzárendelés";
 "Assign Client Groups" = "Ügyfélcsoportok hozzárendelése";
@@ -613,6 +621,7 @@
 "By Email" = "Emaillen";
 "By Phone" = "Telefonon";
 "By SMS" = "SMS-ben";
+"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "A Start gombra kattintva hozzájárul ahhoz, hogy a Jumio gyűjtse, feldolgozza és megossza személyes adatait, amelyek biometrikus adatokat is tartalmazhatnak, a Privacy Notice (Adatvédelmi tájékoztató) szerint.";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "A „Megerősítés” gombra kattintva megerősítem, hogy elolvastam és megértettem az ebben az igazoláskérelemben szereplő információkat.";
 "By continuing, you are giving consent to be recorded." = "Ha folytatja, beleegyezik, hogy felvétel készülhet önről.";
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "A fiók létrehozásával egyertért a Szolgáltatási Feltételekkel és hozzájárul adatai kezeléséhez az Adatvédelmi Irányelveink szerint.";
@@ -690,8 +699,11 @@
 "Client Groups" = "Ügyfélcsoportok";
 "Client Groups (Optional)" = "Ügyfélcsoportok (opcionális)";
 "Client Groups can only be created by admin users in the Admin Portal." = "Az ügyfélcsoportokat csak a rendszergazda portál rendszergazda-felhasználói hozhatják létre.";
+"Client ID" = "Ügyfélazonosító";
+"Client ID or Secret is invalid." = "Az ügyfélazonosító vagy a titok érvénytelen.";
 "Client Left Workspace" = "Az ügyfél elhagyta a munkaterületet";
 "Client Login" = "Ügyfél Belépés";
+"Client Secret" = "Ügyfél titok";
 "Client Unfollowed Account" = "Az ügyfél kikövette a fiókot";
 "Client accepted invitation" = "Az ügyfél elfogadta a meghívást";
 "Client assigned to you" = "Önhöz rendelt ügyfél";
@@ -897,6 +909,9 @@
 "DocuSign completed." = "DocuSign teljesítve.";
 "DocuSign completed: %@" = "DocuSign teljesítve: %@";
 "DocuSign due now" = "DocuSign most esedékes";
+"DocuSign due soon" = "Hamarosan esedékes a DocuSign";
+"DocuSign due today" = "DocuSign ma esedékes";
+"DocuSign overdue (%@)" = "Lejárt DocuSign (%@)";
 "Document Only" = "Csak dokumentum";
 "Document Sent" = "Dokumentum küldés";
 "Document with Certificate" = "Dokumentum tanúsítvánnyal";
@@ -945,7 +960,9 @@
 "E-Sign completed" = "E-Sign teljesítve";
 "E-Sign completed." = "E-Sign teljesítve.";
 "E-Sign completed: %@" = "E-Sign teljesítve: %@";
-"E-Sign due now" = "E-Sign most esedékes";
+"E-Sign due soon" = "Hamarosan esedékes az E-aláírás";
+"E-Sign due today" = "E-Sign ma esedékes";
+"E-Sign overdue (%@)" = "E-aláírás lejárt (%@)";
 "EXPIRED" = "Lejárt";
 "EXPIRY DATE" = "Lejárati dátum";
 "Edit" = "Szerkesztés";
@@ -960,6 +977,7 @@
 "Edit General Availability" = "Általános elérhetőség szerkesztése";
 "Edit Group Assignment" = "Ügyfél hozzárendelésének szerkesztése";
 "Edit Jumio" = "Jumio szerkesztése";
+"Edit Jumio details" = "Jumio adatok szerkesztése";
 "Edit Label" = "Címke szerkesztése";
 "Edit Link Security" = "Szerkesztési Link Biztonság";
 "Edit Meeting" = "Találkozó szerkesztése";
@@ -976,7 +994,6 @@
 "Edit Welcome Message" = "Üdvözlő üzenet szerkesztése";
 "Edit Workspace" = "Munkaterület Szerkesztése";
 "Edit recurring meeting" = "Ismétlődő értekezlet szerkesztése";
-"Edit token" = "Token szerkesztése";
 "Edit your filters to see results" = "Szűrők szerkesztése az eredmények megtekintéséhez";
 "Editable by..." = "Szerkeszthető általa...";
 "Edited" = "Szerkesztett";
@@ -1033,6 +1050,7 @@
 "Error" = "Hiba";
 "Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@)." = "Hiba történt a DocuSign-hoz való csatlakozás során. Kérjük, kérje meg a létrehozót (%1$@), hogy csatlakoztassa újra a DocuSign fiókját (%2$@).";
 "Error connecting with DocuSign. Please reconnect account (%@) to enable the signatures." = "Hiba történt a DocuSign-hoz való csatlakozás során. Az aláírások engedélyezéséhez csatlakoztassa újra a fiókot (%@).";
+"Europe" = "Európa";
 "Every" = "Minden";
 "Every %@ days." = "Minden %1$@ naponként.";
 "Every day." = "Minden nap.";
@@ -1066,12 +1084,16 @@
 "File Request completed." = "Fájlkérés teljesítve.";
 "File Request completed: %@" = "Fájlkérés teljesítve: %@";
 "File Request due now" = "Fájlkérés most esedékes";
+"File Request due soon" = "Hamarosan esedékes fájl kérés";
+"File Request due today" = "Fájlkérés ma esedékes";
 "File Request needs your review" = "A Fájlkérés áttekintésre szorul";
+"File Request overdue (%@)" = "Lejárt fájl kérés (%@)";
 "File Request ready for review" = "A Fájlkérés készen áll az áttekintésre";
 "File Request ready for review." = "A Fájlkérés készen áll az áttekintésre.";
 "File Request ready for review: %@" = "A Fájlkérés készen áll az áttekintésre: %@";
 "File Request reopened" = "Fájlkérés újra nyitva";
 "File Reviewer" = "Fájláttekintő";
+"File Size Exceeded" = "A fájlméret túllépve";
 "File doesn't exist." = "A file nem létezik.";
 "File size limit reached (%@)" = "Fájlméret elérte a korlátot: (%@)";
 "File type unsupported" = "A fájltípus nem támogatott";
@@ -1088,7 +1110,6 @@
 "Filters" = "Szűrők";
 "Find messages, files, contents, and more by typing above." = "Üzenetek, fájlok, tartalmak és egyebek kereséséhez kezdjen gépelni a fenti mezőbe.";
 "Finish" = "Befejez";
-"First Name" = "Keresztnév";
 "Fix Perspective" = "Fix perspektíva";
 "Flow" = "Áramlás";
 "Flow Template Library" = "Áramlássablon Könyvtára";
@@ -1122,6 +1143,9 @@
 "Form completed." = "Az űrlap Letöltve.";
 "Form completed: %@" = "Az űrlap Letöltve: %@";
 "Form due now" = "Az űrlap most esedékes";
+"Form due soon" = "Hamarosan esedékes űrlap";
+"Form due today" = "Az űrlap ma esedékes";
+"Form overdue (%@)" = "Forma határidő lejárt (%@)";
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "A tartalom továbbítása a munkaterületekre a „Másolás ide…” segítségével minden tárgyon.";
 "Forwarding..." = "Továbbítás";
 "Frequency" = "Frekvencia";
@@ -1190,6 +1214,10 @@
 "I'd like to share a file with you: %@" = "Szeretném megosztani veled ezt a fájlt: %@";
 "I'd like to share a video with you. \r\n\r\n<br><br>" = "Szeretném megosztani veled ezt a videót. \r\n\r\n<br><br>";
 "I'd like to share some files with you: %@" = "Szeretnék megosztani néhány fájlt veled : %@";
+"ID Capture and Storage" = "Azonosító Rögzítése és Tárolása";
+"ID Verification" = "Azonosító igazolás";
+"ID Verification, Identity Verification, Screening" = "Azonosító igazolás, Személyazonosság igazolás, Szűrés";
+"ID and Identity Verification" = "Azonosító és Személyazonosság Igazolása";
 "INVITE SENT" = "MEGHÍVÓ ELKÜLDVE";
 "Identity Verification" = "Személyazonosság-ellenőrzés";
 "Identity Verification assigned to %@" = "Személyazonosság-ellenőrzés %@ felhasználóhoz rendelve";
@@ -1200,9 +1228,13 @@
 "Identity Verification completed." = "Személyazonosság-ellenőrzés befejeződött.";
 "Identity Verification completed: %@" = "Személyazonosság-ellenőrzés befejeződött: %@";
 "Identity Verification due now" = "Személyazonosság-ellenőrzés most esedékes";
+"Identity Verification due soon" = "Azonosító igazolás hamarosan esedékes";
+"Identity Verification due today" = "Személyazonosság-ellenőrzés ma esedékes";
+"Identity Verification overdue (%@)" = "Személyazonosság igazolása lejárt (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "A személyazonosság ellenőrzés biztonsági okokból ideiglenesen ki lett kapcsolva. Kérjük, próbálja újra.";
-"If enabled, all attachments must be opened by the asignee before acknowledging." = "Ha engedélyezve van, az igazolás előtt a hozzárendeltnek minden csatolmányt meg kell nyitnia.";
-"If enabled, the file reviewer will be required to review files after submission." = "Ha be van kapcsolva, a fájl áttekintőjének az elküldés után át kell tekintenie a fájlokat.";
+"If enabled, a file reviewer will be required to review the files that are uploaded." = "Ha engedélyezve van, egy fájlellenőrzőnek szükséges áttekintenie a feltöltött fájlokat.";
+"If enabled, all attachments must be opened by the assignee before acknowledging." = "Ha engedélyezve van, minden csatolmányt meg kell nyitnia a feladatot kapónak, mielőtt elismeri.";
+"If enabled, this action can be completed in parallel with the previous action in the flow." = "Ha engedélyezve van, ez a művelet párhuzamosan végezhető el az előző művelettel a folyamatban.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Ha engedélyezve van, akkor minden alkalommal megjelenik az áramlás borító oldala, amikor először nyit meg egy áramlás-munkaterületet.";
 "If removed, they will lose access to this workspace immediately." = "Ha eltávolítják őket, azonnal elveszítik a hozzáférést ehhez a munkaterülethez.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "Ha leválasztja DocuSign fiókját, a hozzárendeltek nem férhetnek hozzá vagy nem írhatnak alá semmilyen, ezzel a fiókkal létrehozott függőben lévő dokumentumot. A kitöltött dokumentumokat ez nem érinti.";
@@ -1221,6 +1253,7 @@
 "In Progress" = "Folyamatban";
 "In progress..." = "Folyamatban…";
 "In the cloud" = "A felhőben";
+"In: %@" = "Itt: %@";
 "Inactive account" = "Inaktív fiók";
 "Inbox" = "Beérkező levelek";
 "Inbox from %@" = "Beérkező levelek innen: %@";
@@ -1233,7 +1266,7 @@
 "Incorrect phone number or password" = "Hibás telefonszám vagy jelszó";
 "Incorrect verification code. Please try again." = "Rossz igazoló kód. Próbája újra";
 "Info" = "Info";
-"Initials" = "Monogram";
+"Init." = "Monogram";
 "Insert" = "Beillesztés";
 "Insert Image" = "Kép beillesztése";
 "Insert Link" = "Hivatkozás beillesztése";
@@ -1293,13 +1326,13 @@
 "Join my meeting" = "Csatlakozás a megbesézlésemhez";
 "Join the rest of your team at %@ on %@" = "Csatlakozás a csapat többi tagjához a(z) %1$@ Portálon itt: %2$@";
 "Join the rest of your team on the %@ Portal" = "Csatlakozás a csapat többi tagjához a(z) %@ Portálon";
+"Join workspace" = "Csatlakozz a munkaterülethez";
 "Joined" = "Csatlakozva";
 "Joining..." = "Csatlakozás…";
 "Jumio" = "Jumio";
 "Jump to Workspace" = "Ugrás a munkaterületre";
 "Keypad" = "Kezelő";
 "Last Activity" = "Legutóbbi tevékenység";
-"Last Name" = "Vezetéknév";
 "Last active: %@" = "Utoljára aktív: %@";
 "Last active: %@d ago" = "Utoljára aktív: %@ nappal ezelőtt";
 "Last active: %@h ago" = "Utoljára aktív: %@ órával ezelőtt";
@@ -1314,6 +1347,7 @@
 "Last seen: %@h ago" = "Utoljára látható: %@ órával ezelőtt";
 "Last seen: %@m ago" = "Utoljára látható: %@ perccel ezelőtt";
 "Last seen: %@w ago" = "Utoljára látható: %@ héttel ezelőtt";
+"Learn More" = "Tudj meg többet";
 "Learn more about what assignees will see" = "Tudjon meg többet arról, hogy mit fognak látni az hozzárendeltek";
 "Leave" = "Kilépés";
 "Leave Audio" = "Audio elhagyása";
@@ -1372,6 +1406,7 @@
 "Mark as Unread" = "Olvasatlannak jelölés";
 "Max %@ characters" = "Maximális %1$@ karakterek";
 "Max Amount" = "Maximális összeg";
+"Maximum %@ size exceeded (%@)" = "A maximális %1$@ méret túllépve (%2$@)";
 "Maximum members limit reached" = "Elértük a maximális tagok limitjét";
 "Maximum participants reached. Please try removing some and trying again." = "Elérte a résztvevők maximális számát. Kérjük, távolítson el néhányat, és próbálkozzon újra.";
 "Me" = "Én";
@@ -1416,6 +1451,7 @@
 "Member Requests" = "Tag kérések";
 "Member Type" = "Tagtípus";
 "Members" = "Tagok";
+"Members have not joined" = "A tagok még nem csatlakoztak";
 "Members only" = "Csak tagoknak";
 "Members(%@)" = "Tagok  (%@)";
 "Mentions" = "Megemlít";
@@ -1526,8 +1562,8 @@
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Nem találhatók közös időrések. Fontolja meg egyes résztvevők eltávolítását, az értekezlet időtartamának módosítását vagy az ütemezési ablak módosítását.";
 "No meeting" = "Nincs találkozó";
 "No meetings" = "Nincsenek találkozók";
-"No message will be displayed" = "Nem jelenik meg üzenet";
 "No pending approvals" = "Nincs függőben lévő jóváhagyás";
+"No personalized message will be displayed" = "Nem jelenik meg személyre szabott üzenet";
 "No reminder" = "Nincs emlékeztető";
 "No transaction matching this search" = "Nincs ehhez a kereséshez megfelelő tranzakció";
 "No viewers yet" = "Még nincsenek megtekintők";
@@ -1565,6 +1601,7 @@
 "Only invited members can access the workspace" = "Csak a meghívott tagok férhetnek hozzá a munkaterülethez";
 "Only one assignee is required to acknowledge this acknowledgement to complete it." = "Csak egy hozzárendeltnek kell igazolnia ezt az igazolást annak teljesítéséhez.";
 "Only one assignee is required to approve this approval to complete it." = "Csak egy hozzárendeltnek kell jóváhagynia ezt a jóváhagyást annak teljesítéséhez.";
+"Only one assignee is required to finish this to-do to complete it." = "Csak egy feladatot ellátó személy szükséges a teendő befejezéséhez.";
 "Only participants can view meeting details." = "Csak a résztvevők tekinthetik meg az értekezlet részleteit.";
 "Only websites that support https can be loaded in order to ensure a secure connection." = "A biztonságos kapcsolat biztosítása érdekében csak https-t támogató weboldalak tölthetők be.";
 "Only workspace owner can adjust link security" = "Csak a munkaterület tulajdonosa módosíthatja a link biztonságát";
@@ -1579,6 +1616,7 @@
 "Original File" = "Eredeti fájl";
 "Original Size" = "Eredeti méret";
 "Other Activities" = "Egyéb tevékenységek";
+"Other SSO" = "Más SSO";
 "Other Settings" = "Egyéb beállítások";
 "Out of Office" = "Irodán kívül";
 "Outlook Calendar" = "Outlook Naptár";
@@ -1640,6 +1678,7 @@
 "Please click below to create your account." = "A fiók létrehozásához kattintson az alábbi elemre.";
 "Please click the button below to finish creating your account." = "A fiók létrehozásának befejezéséhez kattintson az alábbi gombra.";
 "Please connect your DocuSign account to access templates." = "A sablonok eléréséhez csatlakoztassa DocuSign fiókját.";
+"Please contact our support team at support.moxo.com." = "Kérjük, vegye fel a kapcsolatot a támogató csapatunkkal a support.moxo.com címen.";
 "Please contact the administrator of your portal to continue." = "A folytatáshoz lépjen kapcsolatba a portál rendszergazdájával.";
 "Please contact the host and request an invitation to join." = "Kérlek lépj kapcsolatba a házigazdával és kérj meghívót";
 "Please contact us to receive a new invitation." = "Kérjük, újabb meghívóért lépj velünk kapcsolatba.";
@@ -1778,7 +1817,7 @@
 "Request Sent" = "Kérés elküldve";
 "Requests" = "Kérések";
 "Require Attachment Review" = "A Csatolmány Áttekintése Szükséges";
-"Require Review" = "Áttekintése Előírása";
+"Require File Review" = "Szükséges Fájl Felülvizsgálat";
 "Required Update Available" = "Szükséges frissités lehetséges";
 "Required field" = "Kötelező mező";
 "Reschedule" = "Átütemezés";
@@ -1859,6 +1898,7 @@
 "Select Bot" = "Bot választása";
 "Select Category" = "Kategória kiválasztása";
 "Select Conversation" = "Beszélgetés kiválasztása";
+"Select Data Center" = "Válassza ki az adatközpontot";
 "Select Date" = "Dátum kiválasztása";
 "Select Download Option" = "Letöltési lehetőség kiválasztása";
 "Select File" = "Választ";
@@ -1870,6 +1910,7 @@
 "Select Tool" = "Eszköz kiválasztása";
 "Select Type" = "Típus kiválasztása";
 "Select Users" = "Felhasználók kiválasztása";
+"Select Workflow Type" = "Válassza ki a munkafolyamat típusát";
 "Select Workspace" = "Munkaterület kiválasztása";
 "Select Workspaces" = "Munkaterületek kiválasztása";
 "Select a Date & Time" = "Válasszon ki egy dátumot és időt";
@@ -1954,6 +1995,7 @@
 "Signup disabled" = "Regisztráció letiltva";
 "Single sign-on" = "Egyszeri bejelentkezés";
 "Skip" = "Kihagyás";
+"Skip Sequential Order" = "Ugrás sorrendi rendben";
 "Skipped" = "Kihagyva";
 "Slide to Cancel" = "Csúsztassa visszavonáshoz";
 "Slide up to cancel" = "Csúsztassa felfelé a visszavonáshoz";
@@ -1983,6 +2025,7 @@
 "Start Meeting Early?" = "Korábban kezdi a megbeszélést?";
 "Start New Search" = "Új keresés indítása";
 "Start Record" = "Felvétel indítása";
+"Start Verification" = "Kezdje a hitelesítést";
 "Start Workspace" = "Indítsa el a munkaterületet";
 "Start a new workspace without using a template" = "Indítsa el az új munkaterületet sablon használata nélkül";
 "Start new workspace" = "Indíts új munkaterületet";
@@ -2059,6 +2102,7 @@
 "Thank you for using %@ meeting." = "Köszönjük, hogy \n %@ találkozót használtál.";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "Köszönjük. Miután mindenki aláírja a dokumentumot, elküldjük Neked a végleges aláírt példányt.";
 "Thanks for joining!" = "Köszönjök a csatlakozást!";
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "Az Ügyfél ID-t és az Ügyfél Titkot használják egy OAuth2 hozzáférési token generálásához. Férjen hozzá az Ügyfél ID-jéhez és Ügyfél Titkához a Jumio Portálon keresztül.";
 "The Meeting has Ended" = "Az értekezlet véget ért";
 "The URL you've entered is not valid. Please review the URL and try again." = "Az Ön által megadott URL érvénytelen. Kérjük, ellenőrizze az URL-címet és próbálkozzon újra.";
 "The account associated with %@ is no longer active" = "A %@-hez kapcsolódó fiók már nem aktív";
@@ -2096,7 +2140,6 @@
 "The selected items will be moved under %@." = "A kiválasztott elemek a(z) %@ lefűző alá lesznek áthelyezve.";
 "The selected person is the owner of the workspace." = "A kiválasztott személy a munkaterület tulajdonosa.";
 "The start time must be before the end time." = "A kezdési időnek a befejezési idő előtt kell lennie.";
-"The token is invalid." = "A token érvénytelen.";
 "There are no active screen share sessions to join." = "Nincsenek aktív képernyőmegosztási munkamenetek a csatlakozáshoz.";
 "There are no other members in this workspace." = "Ezen a munkaterületen nincsenek más tagok.";
 "There are no results matching the name you’ve provided." = "Nincsenek eredményei az általad megadott névnek";
@@ -2149,6 +2192,7 @@
 "This person is in a client group that was added to this workspace. Assigning this action to them will add them as an individual workspace member." = "Ez a személy egy olyan ügyfélcsoport tagja, amelyet hozzáadtak ehhez a munkaterülethez. A művelet e személyhez rendelése egyéni munkaterülettagként fogja őt hozzáadni.";
 "This person is in a team that was added to this workspace. Assigning this action to them will add them to this workspace as an individual member." = "Ez a személy egy olyan csapat tagja, amelyet hozzáadtak ehhez a munkaterülethez. Ha hozzárendeli ezt a műveletet, akkor egyéni tagként hozzáadja őket ehhez a munkaterülethez.";
 "This person looks new:" = "Ez az ember újnak tűnik:";
+"This portal has been disabled" = "Ez a portál le lett tiltva";
 "This reset password link is no longer valid" = "A jelszóvisszaállító hivatkozás már nem érvényes";
 "This role and any assigned fields will be hidden." = "Ez a szerepkör és a hozzárendelt mezők rejtve maradnak.";
 "This step has already started and the assignee(s) can review and act on the step while you are editing. Any already completed step progress will be lost." = "Ez a lépés már elindult, és a hozzárendeltek áttekinthetik és eljárhatnak a lépéssel kapcsolatban, miközben Ön szerkesztést végez. Minden már befejezett lépés elvész.";
@@ -2169,6 +2213,10 @@
 "This will delete all scanned pages. Are you sure you want to leave?" = "Ezzel az összes beolvasott oldal törlődik. Biztosan ki akarsz lépni?";
 "This will erase annotations made by all participants." = "Ez törli az összes résztvevő által készített jelöléseket.";
 "This will stop other's sharing, do you want to continue?" = "Ez megállítja mások megosztását, biztosan folytatod?";
+"This workflow captures a government-issued ID document and stores the extracted data." = "Ez a munkafolyamat rögzíti a kormány által kiadott személyazonosító dokumentumot és tárolja a kinyert adatokat.";
+"This workflow verifies a government-issued ID document and returns a) whether that document is valid, and b) data extracted from that document." = "Ez a munkafolyamat ellenőrzi egy kormány által kiadott személyazonosító okmányt, és visszaadja a) az okmány érvényességét, és b) az okmányból kinyert adatokat.";
+"This workflow verifies a photo ID document and returns a) whether that document is valid, and b) data extracted from that document. It also compares the user's face with the photo on the ID and performs a liveness check to ensure the person is physically present.\n\nPrerequisites\n - Identity Verification must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Obtain End-User Consent for Biometric Data" = "Ez a munkafolyamat ellenőrzi a fényképes személyazonosító okmányt, és visszaadja a) az okmány érvényességét, és b) az okmányból kinyert adatokat. Össze is hasonlítja a felhasználó arcát az igazolványon lévő fényképpel, és élőben ellenőrzi, hogy a személy fizikailag jelen van-e.\n\nElőfeltételek\n - Az személyazonosság-ellenőrzésnek engedélyezve kell lennie a fiókodban. (Vedd fel a kapcsolatot a Jumio fiók kezelőddel az aktiváláshoz.)\n- Szerezd be a végfelhasználó beleegyezését a biometrikus adatokhoz.";
+"This workflow verifies a photo ID document and returns a) whether that document is valid, and b) data extracted from that document. It also compares the user's face with the photo on the ID and performs a liveness check to ensure the person is physically present. Checks if user is part of any sanctions list using Comply Advantage.\n\nPrerequisites\n - Identity Verification must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Screening must be enabled for your account. (Contact your Jumio account manager for activation.)\n - Screening must be set up for your Customer Portal (see Comply Advantage Portal Setup)\n - Obtain End-User Consent for Biometric Data" = "Ez a munkafolyamat ellenőrzi egy fényképes személyazonosító dokumentumot, és visszaadja a) hogy a dokumentum érvényes-e, és b) a dokumentumból kinyert adatokat. Összehasonlítja a felhasználó arcát az ID-n lévő fényképpel, és élőben ellenőrzi, hogy a személy fizikailag jelen van-e. Ellenőrzi, hogy a felhasználó szerepel-e bármilyen szankciós listán a Comply Advantage segítségével.\n\nElőfeltételek\n - Az azonosításnak engedélyezve kell lennie a fiókodban. (Vedd fel a kapcsolatot a Jumio fiók kezelőddel az aktiváláshoz.)\n - A szűrésnek engedélyezve kell lennie a fiókodban. (Vedd fel a kapcsolatot a Jumio fiók kezelőddel az aktiváláshoz.)\n - A szűrést be kell állítani az ügyfélportálodban (lásd Comply Advantage Portál Beállítás)\n - Szerezd be a végfelhasználó hozzájárulását a biometrikus adatokhoz";
 "This workspace has been archived" = "Ez a munkaterület archiválva van";
 "This workspace has been deactivated, and all members are unable to interact. Only the owner can reactivate it." = "Ez a munkaterület deaktiválva lett, és minden tag képtelen interakcióba lépni. Csak a tulajdonos tudja újraaktiválni.";
 "This workspace has reached max %@ members, please contact workspace owner." = "Ez a munkaterület elérte a maximális számú, %@ tagot. Vegye fel a kapcsolatot a munkaterület tulajdonosával.";
@@ -2185,6 +2233,9 @@
 "Time Booking completed." = "Időpontfoglalás teljesítve.";
 "Time Booking completed: %@" = "Időpontfoglalás teljesítve: %@";
 "Time Booking due now" = "Időpontfoglalás most esedékes";
+"Time Booking due soon" = "Hamarosan esedékes az időfoglalás";
+"Time Booking due today" = "Időpontfoglalás ma esedékes";
+"Time Booking overdue (%@)" = "Időfoglalás lejárt (%@)";
 "Time Zone" = "Időzóna";
 "Title" = "Cím";
 "Title, description, and due date in DocuSign action can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "A DocuSign művelet címe, leírása és határideje szerkeszthető. Ha módosítani szeretné a dokumentumot vagy a hozzárendelteket, hozzon létre egy új DocuSign műveletet.";
@@ -2205,6 +2256,12 @@
 "To use pre-built and shared templates on the mobile app, please ensure that your DocuSign account is connected." = "Ha előre elkészített és megosztott sablonokat szeretne használni a mobilalkalmazásban, győződjön meg róla, hogy a DocuSign fiókja csatlakoztatva van.";
 "To-Do" = "Teendő";
 "To-Do assigned to %@" = "Teendő %@ felhasználóhoz rendelve";
+"To-Do assigned to %@ and %@ others" = "Teendő hozzárendelve %1$@ és %2$@ másik személyhez";
+"To-Do assigned to %@ and %@ others." = "Feladat hozzárendelve %1$@ és %2$@ másik személyhez.";
+"To-Do assigned to %@ and %@ others: %@" = "Feladat hozzárendelve %1$@ és %2$@ más személyhez: %3$@";
+"To-Do assigned to %@ and 1 other" = "Teendő hozzárendelve %@ és még 1 másik személyhez";
+"To-Do assigned to %@ and 1 other." = "Feladat hozzárendelve %@ és még 1 másik személyhez.";
+"To-Do assigned to %@ and 1 other: %@" = "Teendő hozzárendelve %1$@ és még 1 másik személyhez: %2$@";
 "To-Do assigned to %@." = "Teendő %@ felhasználóhoz rendelve.";
 "To-Do assigned to %@: %@" = "Teendő %1$@ felhasználóhoz rendelve: %2$@";
 "To-Do assigned to you" = "Önhöz rendelt teendők";
@@ -2214,6 +2271,9 @@
 "To-Do completed." = "Elvégzett feladatok.";
 "To-Do completed: %@" = "Elvégzett feladat: %@";
 "To-Do due now" = "Azonnali teendő";
+"To-Do due soon" = "Hamarosan esedékes teendők";
+"To-Do due today" = "Ma esedékes teendők";
+"To-Do overdue (%@)" = "Lejárt határidejű teendők (%@)";
 "To-Do reopened" = "Újra megnyitott teendő";
 "To-Dos" = "Teendők";
 "Today" = "Ma";
@@ -2253,6 +2313,7 @@
 "Type your reason here." = "Ok beírása";
 "Types" = "Típusok";
 "URL (required)" = "URL (kötelező)";
+"US" = "USA";
 "Uh-oh, you aren’t currently online. To complete this task, please connect to the internet." = "Ó, ó, jelenleg nem vagy online. A feladat elvégzéséhez kérjük, csatlakozz az internethez.";
 "Un-archive Workspace" = "Munkaterület archiválásának megszüntetése";
 "Unable To Assign" = "Nem lehet hozzárendelni";
@@ -2315,6 +2376,7 @@
 "Unpin" = "Kiválasztásának megszüntetése";
 "Unpin from Workspace" = "Feloldja a rögzítést a munkaterületről";
 "Unread" = "Olvasatlan";
+"Unsupported file format" = "Nem támogatott fájlformátum";
 "Until %@" = "%@-ig";
 "Upcoming Meetings" = "Közelgő találkozók";
 "Upcoming and ongoing" = "Közelgő és folyamatban lévő";
@@ -2354,6 +2416,7 @@
 "User Name" = "Felhasználónév";
 "User Not In Workspace" = "A felhasználó nincs a munkaterületen";
 "Users need to be added to your contacts before appearing here." = "A felhasználókat fel kell venned a névjegyeidbe, mielőtt itt megjelenne.";
+"Using Single Sign On to securely log you in our collaboration platform." = "Egyszeri bejelentkezést használunk a biztonságos belépéshez a közös munka platformunkra.";
 "VOID" = "ÜRES";
 "Validating password..." = "Jelszó érvényesítése ...";
 "Verification Email Sent" = "Megerősítő Email Elküldve";
@@ -2371,6 +2434,7 @@
 "View Office Hours" = "Munkaidő megtekintése";
 "View Original Image" = "Eredeti kép megtekintése";
 "View Pages" = "Oldalak megtekintése";
+"View Privacy Notice" = "Tekintse meg az adatvédelmi értesítést";
 "View Profile" = "Profil megtekintése";
 "View QR Code" = "QR-kód megtekintése";
 "View Terms & Policies" = "Feltételek és irányelvek megtekintése";
@@ -2406,6 +2470,7 @@
 "We couldn't find an active account associated with %@, but we have previously sent invitations to this email address. You can use that email to join %@ portal." = "Nem találtunk aktív fiókot, amely %1$@-hez kapcsolódik, de korábban már küldtünk meghívókat erre az e-mail címre. Ezt az e-mailt használhatja a %2$@ portálhoz való csatlakozáshoz.";
 "We couldn't update your status, but retrying may solve this issue." = "Nem tudtuk frissíteni az állapotát, egy újrapróbálkozás megoldhatja a problémát.";
 "We couldn’t remove the link preview, but retrying may solve the issue." = "A hivatkozás előnézetét nem tudtuk eltávolítani, de újbóli próbálkozással sikerülhet.";
+"We don't accept %@ files larger than %@." = "Nem fogadunk el %1$@ fájlokat, amelyek nagyobbak, mint %2$@.";
 "We don't accept files larger than %@ B." = "Fájl méret korlát: %@ B.";
 "We don't accept files larger than %@ KB." = "Fájl méret korlát: %@ KB.";
 "We don't accept files larger than %@ MB." = "Nem fogadunk el nagyobb fájlokat, mint  %@MB";
@@ -2460,7 +2525,6 @@
 "Who needs to choose the meeting time?" = "Kinek kell megválasztania az értekezlet időpontját?";
 "Who needs to complete this?" = "Kinek kell ezt teljesítenie?";
 "Who needs to fill this form?" = "Kinek kell kitöltenie ezt az űrlapot?";
-"Who needs to finish this?" = "Ki kell ezt befejeznie?";
 "Who needs to sign?" = "Kinek kell aláírnia?";
 "Who needs to work on this?" = "Kinek kell ezen dolgoznia?";
 "Who will choose the meeting time?" = "Ki fogja megválasztani az értekezlet időpontját?";
@@ -2468,6 +2532,7 @@
 "Whole File" = "Egész fájl";
 "Will Be Added As An Individual Workspace Member" = "Egyéni munkaterületi tagként kerül hozzáadásra";
 "Will automatically apply to all new workspaces you join. You can manually override this in the settings menu of each workspace." = "A rendszer automatikusan alkalmazni fogja minden új munkaterületre, amelyhez Ön csatlakozik. Ezt manuálisan felülírhatja az egyes munkaterületek beállítások menüjében.";
+"Workflow Type" = "Munkafolyamat Típusa";
 "Workspace '%@' will be deactivated" = "A '%@' munkaterület deaktiválásra kerül";
 "Workspace Deactivated" = "Munkaterület kikapcsolva";
 "Workspace Doesn't Exist" = "A munkaterület nem létezik";
@@ -2624,6 +2689,8 @@
 "Your meeting has been scheduled" = "Az ülésüket ütemezték";
 "Your mobile device is not setup for Email" = "A mobilkészülék nincs beállítva az e-mailhez";
 "Your mobile device is not setup for SMS." = "A mobilkészülék nincs beállítva az SMS-hez.";
+"Your org is not configured to use SAML SSO. Please log in with account to continue." = "Az Ön szervezete nincs beállítva a SAML SSO használatára. Kérjük, jelentkezzen be fiókjával a folytatáshoz.";
+"Your organization allows the following file types to be shared:\n%@." = "A szervezete a következő fájltípusok megosztását engedélyezi:\n%@.";
 "Your organization requires this security configuration." = "Az Ön szervezete előírja ezt a biztonsági beállítást.";
 "Your password was successfully updated." = "Jelszava sikeresen frissült.";
 "Your portal is no longer active" = "Portálja már nem aktív";
@@ -2688,6 +2755,7 @@
 "start chat" = "Beszélgetés indítása";
 "the majority of assignees" = "a hozzárendeltek többsége";
 "today" = "Ma";
+"value" = "érték";
 "via Instant Flow" = "Azonnali Áramláson keresztül";
 "via template: %@" = "sablonon keresztül: %@";
 "video" = "videó-";
