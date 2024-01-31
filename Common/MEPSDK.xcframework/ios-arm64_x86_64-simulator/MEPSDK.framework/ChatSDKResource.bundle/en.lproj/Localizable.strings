@@ -620,7 +620,7 @@
 "%@ is controlling co-browsing." = "%@ is controlling co-browsing.";
 
 /*  No comment provided by engineer.  */
-"%@ is currently out of office." = "%@ is currently out of office.";
+"%@ is currently out of office and will review your message as soon as they return." = "%@ is currently out of office and will review your message as soon as they return.";
 
 /*  No comment provided by engineer.  */
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@ is currently out of office. If you have any urgent issues, feel free to chat with %2$@.";
@@ -1212,15 +1212,6 @@
 "Acknowledgement due now" = "Acknowledgement due now";
 
 /*  No comment provided by engineer.  */
-"Acknowledgement due soon" = "Acknowledgement due soon";
-
-/*  No comment provided by engineer.  */
-"Acknowledgement due today" = "Acknowledgement due today";
-
-/*  No comment provided by engineer.  */
-"Acknowledgement overdue (%@)" = "Acknowledgement overdue (%@)";
-
-/*  No comment provided by engineer.  */
 "Action In Progress" = "Action In Progress";
 
 /*  No comment provided by engineer.  */
@@ -1661,15 +1652,6 @@
 /*  No comment provided by engineer.  */
 "Approval due now" = "Approval due now";
 
-/*  No comment provided by engineer.  */
-"Approval due soon" = "Approval due soon";
-
-/*  No comment provided by engineer.  */
-"Approval due today" = "Approval due today";
-
-/*  No comment provided by engineer.  */
-"Approval overdue (%@)" = "Approval overdue (%@)";
-
 /*  button  */
 "Approve" = "Approve";
 
@@ -1920,9 +1902,6 @@
 "By SMS" = "By SMS";
 
 /*  No comment provided by engineer.  */
-"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice.";
-
-/*  No comment provided by engineer.  */
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request.";
 
 /*  Record start message tip  */
@@ -2158,6 +2137,9 @@
 
 /*  No comment provided by engineer.  */
 "Client ID" = "Client ID";
+
+/*  No comment provided by engineer.  */
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal.";
 
 /*  No comment provided by engineer.  */
 "Client ID or Secret is invalid." = "Client ID or Secret is invalid.";
@@ -2805,15 +2787,6 @@
 "DocuSign due now" = "DocuSign due now";
 
 /*  No comment provided by engineer.  */
-"DocuSign due soon" = "DocuSign due soon";
-
-/*  No comment provided by engineer.  */
-"DocuSign due today" = "DocuSign due today";
-
-/*  No comment provided by engineer.  */
-"DocuSign overdue (%@)" = "DocuSign overdue (%@)";
-
-/*  No comment provided by engineer.  */
 "Document Only" = "Document Only";
 
 /*  No comment provided by engineer.  */
@@ -2959,13 +2932,7 @@
 "E-Sign completed: %@" = "E-Sign completed: %@";
 
 /*  No comment provided by engineer.  */
-"E-Sign due soon" = "E-Sign due soon";
-
-/*  No comment provided by engineer.  */
-"E-Sign due today" = "E-Sign due today";
-
-/*  No comment provided by engineer.  */
-"E-Sign overdue (%@)" = "E-Sign overdue (%@)";
+"E-Sign due now" = "E-Sign due now";
 
 /*  No comment provided by engineer.  */
 "EXPIRED" = "EXPIRED";
@@ -3338,16 +3305,7 @@
 "File Request due now" = "File Request due now";
 
 /*  No comment provided by engineer.  */
-"File Request due soon" = "File Request due soon";
-
-/*  No comment provided by engineer.  */
-"File Request due today" = "File Request due today";
-
-/*  No comment provided by engineer.  */
 "File Request needs your review" = "File Request needs your review";
-
-/*  No comment provided by engineer.  */
-"File Request overdue (%@)" = "File Request overdue (%@)";
 
 /*  No comment provided by engineer.  */
 "File Request ready for review" = "File Request ready for review";
@@ -3363,9 +3321,6 @@
 
 /*  No comment provided by engineer.  */
 "File Reviewer" = "File Reviewer";
-
-/*  No comment provided by engineer.  */
-"File Size Exceeded" = "File Size Exceeded";
 
 /*  message  */
 "File doesn't exist." = "File doesn't exist.";
@@ -3414,6 +3369,9 @@
 
 /*  Button  */
 "Finish" = "Finish";
+
+/*  No comment provided by engineer.  */
+"First Name" = "First Name";
 
 /*  Adjust camera postion to scanning document better  */
 "Fix Perspective" = "Fix Perspective";
@@ -3513,15 +3471,6 @@
 
 /*  No comment provided by engineer.  */
 "Form due now" = "Form due now";
-
-/*  No comment provided by engineer.  */
-"Form due soon" = "Form due soon";
-
-/*  No comment provided by engineer.  */
-"Form due today" = "Form due today";
-
-/*  No comment provided by engineer.  */
-"Form overdue (%@)" = "Form overdue (%@)";
 
 /*  No comment provided by engineer.  */
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "Forward content to your workspaces using the ‘Copy To…’ feature on each object.";
@@ -3774,25 +3723,13 @@
 "Identity Verification due now" = "Identity Verification due now";
 
 /*  No comment provided by engineer.  */
-"Identity Verification due soon" = "Identity Verification due soon";
-
-/*  No comment provided by engineer.  */
-"Identity Verification due today" = "Identity Verification due today";
-
-/*  No comment provided by engineer.  */
-"Identity Verification overdue (%@)" = "Identity Verification overdue (%@)";
-
-/*  No comment provided by engineer.  */
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "Identity verification has been temporarily disabled for security reasons. Please try again later.";
 
 /*  No comment provided by engineer.  */
-"If enabled, a file reviewer will be required to review the files that are uploaded." = "If enabled, a file reviewer will be required to review the files that are uploaded.";
+"If enabled, all attachments must be opened by the asignee before acknowledging." = "If enabled, all attachments must be opened by the asignee before acknowledging.";
 
 /*  No comment provided by engineer.  */
-"If enabled, all attachments must be opened by the assignee before acknowledging." = "If enabled, all attachments must be opened by the assignee before acknowledging.";
-
-/*  No comment provided by engineer.  */
-"If enabled, this action can be completed in parallel with the previous action in the flow." = "If enabled, this action can be completed in parallel with the previous action in the flow.";
+"If enabled, the file reviewer will be required to review files after submission." = "If enabled, the file reviewer will be required to review files after submission.";
 
 /*  No comment provided by engineer.  */
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time.";
@@ -4072,9 +4009,6 @@
 "Join the rest of your team on the %@ Portal" = "Join the rest of your team on the %@ Portal";
 
 /*  No comment provided by engineer.  */
-"Join workspace" = "Join workspace";
-
-/*  No comment provided by engineer.  */
 "Joined" = "Joined";
 
 /*  No comment provided by engineer.  */
@@ -4091,6 +4025,9 @@
 
 /*  No comment provided by engineer.  */
 "Last Activity" = "Last Activity";
+
+/*  No comment provided by engineer.  */
+"Last Name" = "Last Name";
 
 /*  No comment provided by engineer.  */
 "Last active: %@" = "Last active: %@";
@@ -4162,19 +4099,7 @@
 "Launch Web App due now" = "Launch Web App due now";
 
 /*  No comment provided by engineer.  */
-"Launch Web App due soon" = "Launch Web App due soon";
-
-/*  No comment provided by engineer.  */
-"Launch Web App due today" = "Launch Web App due today";
-
-/*  No comment provided by engineer.  */
-"Launch Web App overdue (%@)" = "Launch Web App overdue (%@)";
-
-/*  No comment provided by engineer.  */
 "Launch Web App ready for review." = "Launch Web App ready for review.";
-
-/*  No comment provided by engineer.  */
-"Learn More" = "Learn More";
 
 /*  No comment provided by engineer.  */
 "Learn more about what assignees will see" = "Learn more about what assignees will see";
@@ -4357,9 +4282,6 @@
 "Max Amount" = "Max Amount";
 
 /*  No comment provided by engineer.  */
-"Maximum %@ size exceeded (%@)" = "Maximum %1$@ size exceeded (%2$@)";
-
-/*  No comment provided by engineer.  */
 "Maximum members limit reached" = "Maximum members limit reached";
 
 /*  No comment provided by engineer.  */
@@ -4490,9 +4412,6 @@
 
 /*  No comment provided by engineer.  */
 "Members" = "Members";
-
-/*  No comment provided by engineer.  */
-"Members have not joined" = "Members have not joined";
 
 /*  No comment provided by engineer.  */
 "Members only" = "Members only";
@@ -4828,10 +4747,10 @@
 "No meetings" = "No meetings";
 
 /*  No comment provided by engineer.  */
-"No pending approvals" = "No pending approvals";
+"No message will be displayed" = "No message will be displayed";
 
 /*  No comment provided by engineer.  */
-"No personalized message will be displayed" = "No personalized message will be displayed";
+"No pending approvals" = "No pending approvals";
 
 /*  No comment provided by engineer.  */
 "No reminder" = "No reminder";
@@ -5602,7 +5521,7 @@
 "Require Attachment Review" = "Require Attachment Review";
 
 /*  No comment provided by engineer.  */
-"Require File Review" = "Require File Review";
+"Require Review" = "Require Review";
 
 /*  No comment provided by engineer.  */
 "Required Update Available" = "Required Update Available";
@@ -6147,9 +6066,6 @@
 "Skip" = "Skip";
 
 /*  No comment provided by engineer.  */
-"Skip Sequential Order" = "Skip Sequential Order";
-
-/*  No comment provided by engineer.  */
 "Skipped" = "Skipped";
 
 /*  No comment provided by engineer.  */
@@ -6236,9 +6152,6 @@
 
 /*  button  */
 "Start Record" = "Start Record";
-
-/*  No comment provided by engineer.  */
-"Start Verification" = "Start Verification";
 
 /*  No comment provided by engineer.  */
 "Start Workspace" = "Start Workspace";
@@ -6468,9 +6381,6 @@
 
 /*  No comment provided by engineer.  */
 "Thanks for joining!" = "Thanks for joining!";
-
-/*  No comment provided by engineer.  */
-"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal.";
 
 /*  No comment provided by engineer.  */
 "The Meeting has Ended" = "The Meeting has Ended";
@@ -6863,15 +6773,6 @@
 "Time Booking due now" = "Time Booking due now";
 
 /*  No comment provided by engineer.  */
-"Time Booking due soon" = "Time Booking due soon";
-
-/*  No comment provided by engineer.  */
-"Time Booking due today" = "Time Booking due today";
-
-/*  No comment provided by engineer.  */
-"Time Booking overdue (%@)" = "Time Booking overdue (%@)";
-
-/*  No comment provided by engineer.  */
 "Time Zone" = "Time Zone";
 
 /*  alert title  */
@@ -6975,15 +6876,6 @@
 
 /*  No comment provided by engineer.  */
 "To-Do due now" = "To-Do due now";
-
-/*  No comment provided by engineer.  */
-"To-Do due soon" = "To-Do due soon";
-
-/*  No comment provided by engineer.  */
-"To-Do due today" = "To-Do due today";
-
-/*  No comment provided by engineer.  */
-"To-Do overdue (%@)" = "To-Do overdue (%@)";
 
 /*  No comment provided by engineer.  */
 "To-Do reopened" = "To-Do reopened";
@@ -7293,9 +7185,6 @@
 "Unread" = "Unread";
 
 /*  No comment provided by engineer.  */
-"Unsupported file format" = "Unsupported file format";
-
-/*  No comment provided by engineer.  */
 "Until %@" = "Until %@";
 
 /*  No comment provided by engineer.  */
@@ -7576,9 +7465,6 @@
 
 /*  No comment provided by engineer.  */
 "We couldn’t remove the link preview, but retrying may solve the issue." = "We couldn’t remove the link preview, but retrying may solve the issue.";
-
-/*  No comment provided by engineer.  */
-"We don't accept %@ files larger than %@." = "We don't accept %1$@ files larger than %2$@.";
 
 /*  message  */
 "We don't accept files larger than %@ B." = "We don't accept files larger than %@ B.";
@@ -8242,9 +8128,6 @@
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "Your org is not configured to use SAML SSO. Please log in with account to continue.";
 
 /*  No comment provided by engineer.  */
-"Your organization allows the following file types to be shared:\n%@." = "Your organization allows the following file types to be shared:\n%@.";
-
-/*  No comment provided by engineer.  */
 "Your organization requires this security configuration." = "Your organization requires this security configuration.";
 
 /*  No comment provided by engineer.  */
@@ -8441,9 +8324,6 @@
 "today" = "today";
 
 /*  No comment provided by engineer.  */
-"value" = "value";
-
-/*  No comment provided by engineer.  */
 "via Instant Flow" = "via Instant Flow";
 
 /*  No comment provided by engineer.  */
@@ -8476,3 +8356,6 @@
 
 /*  No comment provided by engineer.  */
 "“Sorry, I can’t talk right now.”" = "“Sorry, I can’t talk right now.”";
+
+/*  No comment provided by engineer.  */
+"Skip Sequential Order" = "Skip Sequential Order";

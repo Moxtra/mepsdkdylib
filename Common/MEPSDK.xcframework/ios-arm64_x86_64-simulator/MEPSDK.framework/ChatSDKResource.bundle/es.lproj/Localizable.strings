@@ -198,7 +198,7 @@
 "%@ is %@ right now and may not be able to respond." = "%1$@ está %2$@ en este momento y es posible que no pueda responder.";
 "%@ is away right now and may not be able to respond." = "%@ está ausente en este momento y es posible que no pueda responder.";
 "%@ is controlling co-browsing." = "%@ está controlando la conavegación.";
-"%@ is currently out of office." = "%@ está actualmente fuera de la oficina.";
+"%@ is currently out of office and will review your message as soon as they return." = "%@ está actualmente fuera de la oficina y revisará su mensaje tan pronto como regrese.";
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@ está actualmente fuera de la oficina.  Si tiene algún problema urgente, no dude en chatear con %2$@.";
 "%@ is currently out of office:" = "%@ está actualmente fuera de la oficina:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ no está disponible actualmente y revisará su mensaje tan pronto como regrese.";
@@ -388,9 +388,6 @@
 "Acknowledgement completed." = "Confirmación completada.";
 "Acknowledgement completed: %@" = "Confirmación completada: %@";
 "Acknowledgement due now" = "Confirmación pendiente para ahora";
-"Acknowledgement due soon" = "Reconocimiento debido pronto";
-"Acknowledgement due today" = "Acuse de recibo vence hoy";
-"Acknowledgement overdue (%@)" = "Reconocimiento atrasado (%@)";
 "Action In Progress" = "Acción en progreso";
 "Action Items" = "Elementos de acción";
 "Action Needed By" = "Acción requerida por";
@@ -536,9 +533,6 @@
 "Approval completed." = "Aprobación completada.";
 "Approval completed: %@" = "Aprobación completada: %@";
 "Approval due now" = "Aprobación pendiente para ahora";
-"Approval due soon" = "Aprobación pendiente pronto";
-"Approval due today" = "Aprobación vence hoy";
-"Approval overdue (%@)" = "Aprobación vencida (%@)";
 "Approve" = "Aprobar";
 "Approve All" = "Aprobar todo";
 "Approve Pending Request" = "Aprobar solicitud pendiente";
@@ -621,7 +615,6 @@
 "By Email" = "Por correo electrónico";
 "By Phone" = "Por teléfono";
 "By SMS" = "Por SMS";
-"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "Al hacer clic en Iniciar, das tu consentimiento para que Jumio recoja, procese y comparta tu información personal, que puede incluir datos biométricos, de acuerdo con su Aviso de Privacidad.";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "Al hacer clic en \"Confirmar\", confirmo que he leído y comprendido la información contenida en esta solicitud de confirmación.";
 "By continuing, you are giving consent to be recorded." = "Al continuar, usted está dando su consentimiento para que lo graben.";
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "Al crear una cuenta, acepta nuestras condiciones de uso y política de privacidad.";
@@ -700,6 +693,7 @@
 "Client Groups (Optional)" = "Grupos de clientes (opcional)";
 "Client Groups can only be created by admin users in the Admin Portal." = "Los grupos de clientes solo pueden ser creados por usuarios administradores en el Portal de Administración.";
 "Client ID" = "ID del cliente";
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "El ID del cliente y el secreto del cliente se utilizan para generar un token de acceso OAuth2. Acceda a su ID de cliente y secreto de cliente desde el portal de Jumio.";
 "Client ID or Secret is invalid." = "El ID del cliente o el secreto es inválido.";
 "Client Left Workspace" = "El cliente abandonó el espacio de trabajo";
 "Client Login" = "Inicio de sesión de cliente";
@@ -910,9 +904,6 @@
 "DocuSign completed." = "DocuSign completado.";
 "DocuSign completed: %@" = "DocuSign completado: %@";
 "DocuSign due now" = "DocuSign vencido ahora";
-"DocuSign due soon" = "DocuSign vence pronto";
-"DocuSign due today" = "DocuSign vence hoy";
-"DocuSign overdue (%@)" = "DocuSign vencido (%@)";
 "Document Only" = "Solo documento";
 "Document Sent" = "Documento enviado";
 "Document with Certificate" = "Documento con certificado";
@@ -961,9 +952,7 @@
 "E-Sign completed" = "Firma electrónica completada";
 "E-Sign completed." = "Firma electrónica completada.";
 "E-Sign completed: %@" = "Firma electrónica completada: %@";
-"E-Sign due soon" = "Firma electrónica pendiente pronto";
-"E-Sign due today" = "Firma electrónica vence hoy";
-"E-Sign overdue (%@)" = "Firma electrónica atrasada (%@)";
+"E-Sign due now" = "Firma electrónica vencida ahora";
 "EXPIRED" = "VENCIDO";
 "EXPIRY DATE" = "FECHA DE VENCIMIENTO";
 "Edit" = "Editar";
@@ -1085,16 +1074,12 @@
 "File Request completed." = "Solicitud de Archivo completada.";
 "File Request completed: %@" = "Solicitud de Archivo completada: %@";
 "File Request due now" = "Solicitud de Archivo pendiente para ahora";
-"File Request due soon" = "Solicitud de archivo vence pronto";
-"File Request due today" = "Solicitud de archivo vence hoy";
 "File Request needs your review" = "La Solicitud de Archivo requiere su revisión";
-"File Request overdue (%@)" = "Solicitud de archivo vencida (%@)";
 "File Request ready for review" = "Solicitud de Archivo lista para revisión";
 "File Request ready for review." = "Solicitud de Archivo lista para revisión.";
 "File Request ready for review: %@" = "Solicitud de Archivo lista para revisión: %@";
 "File Request reopened" = "Solicitud de Archivo reabierta";
 "File Reviewer" = "Revisor del archivo";
-"File Size Exceeded" = "Tamaño de Archivo Excedido";
 "File doesn't exist." = "El archivo no existe.";
 "File size limit reached (%@)" = "Se ha superado el límite de tamaño de archivo (%@)";
 "File type unsupported" = "Tipo de archivo no compatible";
@@ -1111,6 +1096,7 @@
 "Filters" = "Filtros";
 "Find messages, files, contents, and more by typing above." = "Encuentre mensajes, archivos, contenidos y más al escribir arriba.";
 "Finish" = "Finalizar";
+"First Name" = "Nombre";
 "Fix Perspective" = "Arreglar perspectiva";
 "Flow" = "Flujo";
 "Flow Template Library" = "Biblioteca de plantillas de flujo";
@@ -1144,9 +1130,6 @@
 "Form completed." = "Formulario completado.";
 "Form completed: %@" = "Formulario completado: %@";
 "Form due now" = "Formulario vence ahora";
-"Form due soon" = "Formulario a entregar pronto";
-"Form due today" = "Formulario vence hoy";
-"Form overdue (%@)" = "Formulario vencido (%@)";
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "Reenvíe contenido a sus espacios de trabajo utilizando la función 'Copiar a...' en cada objeto.";
 "Forwarding..." = "Reenviando...";
 "Frequency" = "Frecuencia";
@@ -1229,13 +1212,9 @@
 "Identity Verification completed." = "Verificación de identidad completada.";
 "Identity Verification completed: %@" = "Verificación de identidad completada: %@";
 "Identity Verification due now" = "Verificación de identidad pendiente ahora";
-"Identity Verification due soon" = "Verificación de identidad pendiente pronto";
-"Identity Verification due today" = "Verificación de identidad vence hoy";
-"Identity Verification overdue (%@)" = "Verificación de identidad vencida (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "La verificación de identidad se ha desactivado temporalmente por motivos de seguridad. Inténtelo más tarde.";
-"If enabled, a file reviewer will be required to review the files that are uploaded." = "Si está habilitado, se requerirá que un revisor de archivos revise los archivos que se suban.";
-"If enabled, all attachments must be opened by the assignee before acknowledging." = "Si está habilitado, el asignado debe abrir todos los archivos adjuntos antes de reconocer.";
-"If enabled, this action can be completed in parallel with the previous action in the flow." = "Si está habilitado, esta acción se puede completar en paralelo con la acción anterior en el flujo.";
+"If enabled, all attachments must be opened by the asignee before acknowledging." = "Si se activa, todos los archivos adjuntos deben ser abiertos por el asignado antes de confirmarlos.";
+"If enabled, the file reviewer will be required to review files after submission." = "Si está habilitado, el revisor de archivos deberá revisar los archivos después del envío.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Si está habilitado, mostraremos la portada del flujo cada vez que abra un espacio de trabajo de flujo por primera vez.";
 "If removed, they will lose access to this workspace immediately." = "Si se eliminan, perderán el acceso a este espacio de trabajo inmediatamente.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "Si desconecta su cuenta de DocuSign, los asignados no podrán acceder ni firmar ningún documento pendiente creado con esta cuenta. Los documentos completados no se verán afectados por esto.";
@@ -1327,13 +1306,13 @@
 "Join my meeting" = "Únase a mi reunión";
 "Join the rest of your team at %@ on %@" = "Únase al resto de su equipo en %1$@ en %2$@";
 "Join the rest of your team on the %@ Portal" = "Únase al resto de su equipo en el portal %@";
-"Join workspace" = "Unirse al espacio de trabajo";
 "Joined" = "Se unió";
 "Joining..." = "Uniendo...";
 "Jumio" = "Jumio";
 "Jump to Workspace" = "Saltar al espacio de trabajo";
 "Keypad" = "Teclado";
 "Last Activity" = "Última actividad";
+"Last Name" = "Apellido";
 "Last active: %@" = "Última vez activo: %@";
 "Last active: %@d ago" = "Última vez activo: Hace %@ días";
 "Last active: %@h ago" = "Última vez activo: Hace %@ horas";
@@ -1348,7 +1327,6 @@
 "Last seen: %@h ago" = "Visto por última vez: Hace %@ horas";
 "Last seen: %@m ago" = "Visto por última vez: Hace %@ minutos";
 "Last seen: %@w ago" = "Visto por última vez: Hace %@ semanas";
-"Learn More" = "Aprende Más";
 "Learn more about what assignees will see" = "Más información sobre lo que verán los asignados";
 "Leave" = "Abandonar";
 "Leave Audio" = "Abandonar audio";
@@ -1408,7 +1386,6 @@
 "Mark as Unread" = "Marcar como no leído";
 "Max %@ characters" = "Máx. %1$@ caracteres";
 "Max Amount" = "Cantidad máxima";
-"Maximum %@ size exceeded (%@)" = "Tamaño máximo %1$@ excedido (%2$@)";
 "Maximum members limit reached" = "Se alcanzó el límite máximo de miembros";
 "Maximum participants reached. Please try removing some and trying again." = "Máximo de participantes alcanzado. Intente eliminar algunos y vuelva a intentarlo.";
 "Me" = "Yo";
@@ -1453,7 +1430,6 @@
 "Member Requests" = "Solicitudes de miembro";
 "Member Type" = "Tipo de miembro";
 "Members" = "Miembros";
-"Members have not joined" = "Los miembros no se han unido";
 "Members only" = "Solo miembros";
 "Members(%@)" = "Miembros (%@)";
 "Mentions" = "Menciones";
@@ -1564,8 +1540,8 @@
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "No se encontraron franjas horarias comunes. Considere eliminar a algunos participantes, ajustar la duración de la reunión o cambiar la ventana de programación.";
 "No meeting" = "No hay reunión";
 "No meetings" = "No hay reuniones";
+"No message will be displayed" = "No se mostrará ningún mensaje";
 "No pending approvals" = "No hay aprobaciones pendientes.";
-"No personalized message will be displayed" = "No se mostrará ningún mensaje personalizado";
 "No reminder" = "Sin recordatorio";
 "No transaction matching this search" = "Ninguna transacción que coincida con esta búsqueda";
 "No viewers yet" = "Aún no hay espectadores";
@@ -1820,7 +1796,7 @@
 "Request Sent" = "Solicitud enviada";
 "Requests" = "Solicitudes";
 "Require Attachment Review" = "Requerir revisión de archivos adjuntos";
-"Require File Review" = "Requiere Revisión de Archivo";
+"Require Review" = "Requerir revisión";
 "Required Update Available" = "La actualización requerida está disponible";
 "Required field" = "Campo requerido";
 "Reschedule" = "Reprogramar";
@@ -1999,7 +1975,6 @@
 "Signup disabled" = "Registro deshabilitado";
 "Single sign-on" = "Inicio de sesión único";
 "Skip" = "Omitir";
-"Skip Sequential Order" = "Omitir Orden Secuencial";
 "Skipped" = "Saltar";
 "Slide to Cancel" = "Deslice para cancelar";
 "Slide up to cancel" = "Deslice hacia arriba para cancelar";
@@ -2029,7 +2004,6 @@
 "Start Meeting Early?" = "¿Empezar la reunión temprano?";
 "Start New Search" = "Iniciar nueva búsqueda";
 "Start Record" = "Iniciar grabación";
-"Start Verification" = "Iniciar Verificación";
 "Start Workspace" = "Iniciar espacio de trabajo";
 "Start a new workspace without using a template" = "Iniciar un nuevo espacio de trabajo sin usar una plantilla";
 "Start new workspace" = "Iniciar nuevo espacio de trabajo";
@@ -2106,7 +2080,6 @@
 "Thank you for using %@ meeting." = "Gracias por usar la reunión \n %@.";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "Gracias. Le enviaremos la copia firmada final una vez que todos firmen el documento.";
 "Thanks for joining!" = "¡Gracias por unirse!";
-"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "El ID del cliente y el secreto del cliente se utilizan para generar un token de acceso OAuth2. Acceda a su ID de cliente y secreto de cliente desde el portal de Jumio.";
 "The Meeting has Ended" = "La reunión ha terminado";
 "The URL you've entered is not valid. Please review the URL and try again." = "La URL introducida no es válida. Revise la URL e inténtelo de nuevo.";
 "The account associated with %@ is no longer active" = "La cuenta asociada a %@ ya no está activa";
@@ -2237,9 +2210,6 @@
 "Time Booking completed." = "Reserva de tiempo completada.";
 "Time Booking completed: %@" = "Reserva de tiempo completada: %@";
 "Time Booking due now" = "Reserva de tiempo pendiente ahora";
-"Time Booking due soon" = "Reserva de tiempo vence pronto";
-"Time Booking due today" = "Reserva de tiempo vence hoy";
-"Time Booking overdue (%@)" = "Reserva de tiempo vencida (%@)";
 "Time Zone" = "Zona horaria";
 "Title" = "Título";
 "Title, description, and due date in DocuSign action can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "Se pueden editar el título, la descripción y la fecha de vencimiento en la acción de DocuSign. Si necesita modificar el documento o los asignados, cree una nueva acción de DocuSign.";
@@ -2275,9 +2245,6 @@
 "To-Do completed." = "Tarea pendiente completada.";
 "To-Do completed: %@" = "Tareas pendientes completadas: %@";
 "To-Do due now" = "Tareas pendientes ahora";
-"To-Do due soon" = "Tarea pendiente a vencer pronto";
-"To-Do due today" = "Tareas que se vencen hoy";
-"To-Do overdue (%@)" = "Tarea pendiente vencida (%@)";
 "To-Do reopened" = "Tarea pendiente reabierta";
 "To-Dos" = "Tareas pendientes";
 "Today" = "Hoy";
@@ -2380,7 +2347,6 @@
 "Unpin" = "Desanclar";
 "Unpin from Workspace" = "Desanclar del espacio de trabajo";
 "Unread" = "No leído";
-"Unsupported file format" = "Formato de archivo no soportado";
 "Until %@" = "Hasta %@";
 "Upcoming Meetings" = "Próximas reuniones";
 "Upcoming and ongoing" = "Próximas y en curso";
@@ -2474,7 +2440,6 @@
 "We couldn't find an active account associated with %@, but we have previously sent invitations to this email address. You can use that email to join %@ portal." = "No pudimos encontrar una cuenta activa asociada con %1$@, pero previamente enviamos invitaciones a esta dirección de correo electrónico. Puede utilizar ese correo electrónico para unirse al portal %2$@.";
 "We couldn't update your status, but retrying may solve this issue." = "No hemos podido actualizar tu estado, pero puede volver a intentarlo para resolver este problema.";
 "We couldn’t remove the link preview, but retrying may solve the issue." = "No pudimos eliminar la vista previa del enlace, pero puede resolver el problema si vuelve a intentarlo.";
-"We don't accept %@ files larger than %@." = "No aceptamos archivos %1$@ mayores de %2$@.";
 "We don't accept files larger than %@ B." = "No se permiten archivos superiores a %@ B.";
 "We don't accept files larger than %@ KB." = "No se permiten archivos superiores a %@ KB.";
 "We don't accept files larger than %@ MB." = "No aceptamos archivos más grandes de %@MB.";
@@ -2695,7 +2660,6 @@
 "Your mobile device is not setup for Email" = "Su dispositivo móvil no está configurado para correo electrónico";
 "Your mobile device is not setup for SMS." = "Su dispositivo móvil no está configurado para SMS.";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "Tu organización no está configurada para usar SAML SSO. Por favor, inicia sesión con la cuenta para continuar.";
-"Your organization allows the following file types to be shared:\n%@." = "Su organización permite compartir los siguientes tipos de archivos:\n%@.";
 "Your organization requires this security configuration." = "Su organización requiere esta configuración de seguridad.";
 "Your password was successfully updated." = "Su contraseña fue actualizada con éxito.";
 "Your portal is no longer active" = "Su portal ya no está activo";
@@ -2760,7 +2724,6 @@
 "start chat" = "Iniciar chat";
 "the majority of assignees" = "la mayoría de los cesionarios";
 "today" = "Hoy";
-"value" = "valor";
 "via Instant Flow" = "a través de flujo instantáneo";
 "via template: %@" = "a través de la plantilla: %@";
 "video" = "vídeo";
@@ -2772,3 +2735,4 @@
 "“Can I call you later?”" = "“¿Le puedo llamar más tarde?”";
 "“I’m on my way.”" = "“Estoy en camino.”";
 "“Sorry, I can’t talk right now.”" = "“Lo siento, no puedo hablar ahora.”";
+"Skip Sequential Order" = "Omitir Orden Secuencial";

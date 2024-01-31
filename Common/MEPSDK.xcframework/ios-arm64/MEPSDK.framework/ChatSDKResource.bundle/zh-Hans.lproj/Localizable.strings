@@ -198,7 +198,7 @@
 "%@ is %@ right now and may not be able to respond." = "%1$@处于%2$@状态，可能无法响应。";
 "%@ is away right now and may not be able to respond." = "%@现在不在，可能无法回复。";
 "%@ is controlling co-browsing." = "%@正在控制协同浏览。";
-"%@ is currently out of office." = "%@当前不在办公室。";
+"%@ is currently out of office and will review your message as soon as they return." = "%@目前处于离开办公室状态，他们回来后会尽快查看您的消息。";
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@目前不在办公室。如果您有任何紧急问题，请随时与%2$@聊天。";
 "%@ is currently out of office:" = "%@当前不在办公室：";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@目前无法使用，他们会在他们返回后立即查看您的消息。";
@@ -388,9 +388,6 @@
 "Acknowledgement completed." = "确认书已完成。";
 "Acknowledgement completed: %@" = "确认书已完成：%@";
 "Acknowledgement due now" = "确认书现在到期";
-"Acknowledgement due soon" = "即将到期的确认书";
-"Acknowledgement due today" = "确认书今天到期";
-"Acknowledgement overdue (%@)" = "确认书逾期 (%@)";
 "Action In Progress" = "操作正在进行中";
 "Action Items" = "待操作事项";
 "Action Needed By" = "需要采取行动的是";
@@ -536,9 +533,6 @@
 "Approval completed." = "审批已完成。";
 "Approval completed: %@" = "审批已完成：%@";
 "Approval due now" = "审批现在到期";
-"Approval due soon" = "即将到期的批准";
-"Approval due today" = "审批今天到期";
-"Approval overdue (%@)" = "批准逾期 (%@)";
 "Approve" = "同意";
 "Approve All" = "批准所有申请";
 "Approve Pending Request" = "批准待处理请求";
@@ -621,7 +615,6 @@
 "By Email" = "通过电子邮件";
 "By Phone" = "通过手机号码";
 "By SMS" = "通过短信";
-"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "点击“开始”即表示您同意Jumio根据其隐私通知收集、处理和分享您的个人信息，这可能包括生物识别数据。";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "通过点击“确认”，我确认我已经阅读并理解了这个确认请求所包含的信息。";
 "By continuing, you are giving consent to be recorded." = "继续操作就代表您已同意被记录。";
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "创建账号就意味着您同意服务条款以及隐私条款。";
@@ -700,6 +693,7 @@
 "Client Groups (Optional)" = "客户组（可选）";
 "Client Groups can only be created by admin users in the Admin Portal." = "客户组只能由管理门户中的管理员用户创建。";
 "Client ID" = "客户端ID";
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "客户端ID和客户端密钥用于生成OAuth2访问令牌。从Jumio门户中访问您的客户端ID和客户端密钥。";
 "Client ID or Secret is invalid." = "客户端ID或密钥无效。";
 "Client Left Workspace" = "客户离开工作空间";
 "Client Login" = "客户登录";
@@ -910,9 +904,6 @@
 "DocuSign completed." = "DocuSign已完成。";
 "DocuSign completed: %@" = "DocuSign已完成：%@";
 "DocuSign due now" = "DocuSign现在到期";
-"DocuSign due soon" = "DocuSign即将到期";
-"DocuSign due today" = "DocuSign于今天到期";
-"DocuSign overdue (%@)" = "DocuSign逾期 (%@)";
 "Document Only" = "仅限文件";
 "Document Sent" = "文档已发送";
 "Document with Certificate" = "带签名完成凭证的文件";
@@ -961,9 +952,7 @@
 "E-Sign completed" = "电子签名已完成";
 "E-Sign completed." = "电子签名已完成。";
 "E-Sign completed: %@" = "电子签名已完成：%@";
-"E-Sign due soon" = "电子签名即将到期";
-"E-Sign due today" = "电子签名今天到期";
-"E-Sign overdue (%@)" = "电子签名逾期 (%@)";
+"E-Sign due now" = "电子签名现在到期";
 "EXPIRED" = "已过期";
 "EXPIRY DATE" = "过期日期";
 "Edit" = "编辑";
@@ -1085,16 +1074,12 @@
 "File Request completed." = "文件请求已完成。";
 "File Request completed: %@" = "文件请求已完成：%@";
 "File Request due now" = "文件请求现在到期";
-"File Request due soon" = "文件请求即将到期";
-"File Request due today" = "文件请求今天到期";
 "File Request needs your review" = "文件请求需要您的审核";
-"File Request overdue (%@)" = "文件请求逾期 (%@)";
 "File Request ready for review" = "文件请求可供审核";
 "File Request ready for review." = "文件请求可供审核。";
 "File Request ready for review: %@" = "文件请求可供审核：%@";
 "File Request reopened" = "文件请求重新打开";
 "File Reviewer" = "文件审阅者";
-"File Size Exceeded" = "文件大小超出限制";
 "File doesn't exist." = "文件不存在。";
 "File size limit reached (%@)" = "已达到文件大小限制 (%@)";
 "File type unsupported" = "文件类型不支持";
@@ -1111,6 +1096,7 @@
 "Filters" = "过滤";
 "Find messages, files, contents, and more by typing above." = "通过上方输入的内容来查找消息，文件，内容等。";
 "Finish" = "完成";
+"First Name" = "名";
 "Fix Perspective" = "校准";
 "Flow" = "流程";
 "Flow Template Library" = "流程模板库";
@@ -1144,9 +1130,6 @@
 "Form completed." = "表单已完成。";
 "Form completed: %@" = "表单已完成：%@";
 "Form due now" = "表单现在到期";
-"Form due soon" = "表格即将到期";
-"Form due today" = "表单今天到期";
-"Form overdue (%@)" = "表单逾期 (%@)";
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "使用每个对象上的“复制到...”功能将内容转发到您的工作空间。";
 "Forwarding..." = "转发中…";
 "Frequency" = "频率";
@@ -1229,13 +1212,9 @@
 "Identity Verification completed." = "身份验证完成。";
 "Identity Verification completed: %@" = "身份验证完成：%@";
 "Identity Verification due now" = "身份验证现在到期";
-"Identity Verification due soon" = "身份验证即将到期";
-"Identity Verification due today" = "身份验证于今天到期";
-"Identity Verification overdue (%@)" = "身份验证逾期 (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "出于安全原因，身份验证已被暂时禁用，请稍后再试。";
-"If enabled, a file reviewer will be required to review the files that are uploaded." = "如果启用，将需要文件审查员审查上传的文件。";
-"If enabled, all attachments must be opened by the assignee before acknowledging." = "如果启用，所有附件必须由被经办人在确认之前打开。";
-"If enabled, this action can be completed in parallel with the previous action in the flow." = "如果启用，此操作可以与流程中的前一个操作并行完成。";
+"If enabled, all attachments must be opened by the asignee before acknowledging." = "如果启用，则在确认之前必须由经办人打开所有附件。";
+"If enabled, the file reviewer will be required to review files after submission." = "如果启用，文件审阅者将被要求在提交后审阅文件。";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "如果启用，我们将在您首次打开流程工作空间时显示流程封面。";
 "If removed, they will lose access to this workspace immediately." = "如果删除，他们将立即失去对该工作空间的访问权限。";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "如果您断开您的DocuSign帐户，经办人将无法访问或签署使用此帐户创建的任何待处理文档，已完成的文件不会受此影响。";
@@ -1327,13 +1306,13 @@
 "Join my meeting" = "加入我的会议";
 "Join the rest of your team at %@ on %@" = "通过%2$@加入您%1$@门户上的团队与其他成员一起";
 "Join the rest of your team on the %@ Portal" = "加入您%@门户上的团队与其他成员一起";
-"Join workspace" = "加入工作空间";
 "Joined" = "已加入";
 "Joining..." = "加入中…";
 "Jumio" = "Jumio";
 "Jump to Workspace" = "跳转到工作空间";
 "Keypad" = "辅助键盘";
 "Last Activity" = "上次操作时间";
+"Last Name" = "姓";
 "Last active: %@" = "最后活跃：%@";
 "Last active: %@d ago" = "最后活跃：%@天前";
 "Last active: %@h ago" = "最后活跃：%@小时前";
@@ -1348,7 +1327,6 @@
 "Last seen: %@h ago" = "上次查看：%@小时前";
 "Last seen: %@m ago" = "上次查看：%@分钟前";
 "Last seen: %@w ago" = "上次查看：%@周前";
-"Learn More" = "了解更多";
 "Learn more about what assignees will see" = "详细了解经办人将看到的内容";
 "Leave" = "离开";
 "Leave Audio" = "退出语音";
@@ -1408,7 +1386,6 @@
 "Mark as Unread" = "标记为未读";
 "Max %@ characters" = "最长%1$@字符";
 "Max Amount" = "最高限额";
-"Maximum %@ size exceeded (%@)" = "超过最大%1$@文件大小 (%2$@)";
 "Maximum members limit reached" = "已达到最大成员限制";
 "Maximum participants reached. Please try removing some and trying again." = "已达到最大参与人数，请尝试删除一些并重试。";
 "Me" = "我";
@@ -1453,7 +1430,6 @@
 "Member Requests" = "邀请";
 "Member Type" = "会员类型";
 "Members" = "成员";
-"Members have not joined" = "成员尚未加入";
 "Members only" = "仅限成员";
 "Members(%@)" = "成员（%@）";
 "Mentions" = "提到我";
@@ -1564,8 +1540,8 @@
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "没有找到共同的时间段。考虑删除一些参与者、调整会议持续时间或更改日程安排窗口。";
 "No meeting" = "没有会议";
 "No meetings" = "没有预定会议";
+"No message will be displayed" = "没有消息显示";
 "No pending approvals" = "没有未决的审批";
-"No personalized message will be displayed" = "将不会显示个性化消息";
 "No reminder" = "没有提醒";
 "No transaction matching this search" = "没有商务交易搜索到";
 "No viewers yet" = "还没有浏览者";
@@ -1820,7 +1796,7 @@
 "Request Sent" = "请求发送成功";
 "Requests" = "请求";
 "Require Attachment Review" = "需要审核附件";
-"Require File Review" = "需要文件审查";
+"Require Review" = "需要审核";
 "Required Update Available" = "有更新了";
 "Required field" = "必填项目";
 "Reschedule" = "重新安排";
@@ -1999,7 +1975,6 @@
 "Signup disabled" = "注册禁用";
 "Single sign-on" = "单点登录";
 "Skip" = "跳过";
-"Skip Sequential Order" = "跳过顺序";
 "Skipped" = "跳过";
 "Slide to Cancel" = "划动以取消";
 "Slide up to cancel" = "上滑取消";
@@ -2029,7 +2004,6 @@
 "Start Meeting Early?" = "提前开始会议？";
 "Start New Search" = "开始新搜索";
 "Start Record" = "开始录制";
-"Start Verification" = "开始验证";
 "Start Workspace" = "启动工作空间";
 "Start a new workspace without using a template" = "开始一个新的工作空间，不使用模板";
 "Start new workspace" = "开始新的工作空间";
@@ -2106,7 +2080,6 @@
 "Thank you for using %@ meeting." = "谢谢使用%@会议";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "谢谢。一旦完成签名我们将会发送你最终签名文档。";
 "Thanks for joining!" = "感谢您的加入！";
-"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "客户端ID和客户端密钥用于生成OAuth2访问令牌。从Jumio门户中访问您的客户端ID和客户端密钥。";
 "The Meeting has Ended" = "会议已结束";
 "The URL you've entered is not valid. Please review the URL and try again." = "您输入的URL无效，请检查URL并重试。";
 "The account associated with %@ is no longer active" = "与%@关联的账户已不再活跃";
@@ -2236,10 +2209,7 @@
 "Time Booking completed" = "时间预定已完成";
 "Time Booking completed." = "时间预定已完成。";
 "Time Booking completed: %@" = "时间预定已完成：%@";
-"Time Booking due now" = "时间预定今天到期";
-"Time Booking due soon" = "时间预定即将到期";
-"Time Booking due today" = "时间预定今天到期";
-"Time Booking overdue (%@)" = "时间预定逾期 (%@)";
+"Time Booking due now" = "时间预定当前截止";
 "Time Zone" = "时区";
 "Title" = "标题";
 "Title, description, and due date in DocuSign action can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "可以编辑DocuSign操作中的标题、描述和截止日期。如果您需要修改文档或经办人，请创建一个新的DocuSign操作。";
@@ -2275,9 +2245,6 @@
 "To-Do completed." = "任务已完成。";
 "To-Do completed: %@" = "任务已完成：%@";
 "To-Do due now" = "现在到期的任务";
-"To-Do due soon" = "任务即将到期";
-"To-Do due today" = "任务今天到期";
-"To-Do overdue (%@)" = "任务逾期 (%@)";
 "To-Do reopened" = "重启任务";
 "To-Dos" = "任务";
 "Today" = "今天";
@@ -2380,7 +2347,6 @@
 "Unpin" = "取消Pin";
 "Unpin from Workspace" = "在工作空间中取消Pin";
 "Unread" = "未读";
-"Unsupported file format" = "不支持的文件格式";
 "Until %@" = "直到%@";
 "Upcoming Meetings" = "即将开始的会议";
 "Upcoming and ongoing" = "即将开始或正在处理的";
@@ -2474,7 +2440,6 @@
 "We couldn't find an active account associated with %@, but we have previously sent invitations to this email address. You can use that email to join %@ portal." = "我们找不到与%1$@关联的活动账户，但我们之前已向这个电子邮件地址发送过邀请函。您可以使用该电子邮件加入%2$@个门户。";
 "We couldn't update your status, but retrying may solve this issue." = "我们无法更新你的状态，但重新尝试可能会解决这个问题。";
 "We couldn’t remove the link preview, but retrying may solve the issue." = "我们无法删除链接预览，但重试可能会解决问题。";
-"We don't accept %@ files larger than %@." = "我们不接受大于%2$@的%1$@文件。";
 "We don't accept files larger than %@ B." = "我们不接受大于%@B的文件。";
 "We don't accept files larger than %@ KB." = "我们不接受大于%@KB的文件。";
 "We don't accept files larger than %@ MB." = "上载文件档案大小必须为%@MB以下。";
@@ -2695,7 +2660,6 @@
 "Your mobile device is not setup for Email" = "你的移动设备没有设置邮箱。";
 "Your mobile device is not setup for SMS." = "你的移动设备没有设置短信服务。";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "您的组织未配置使用SAML单点登录，请使用账户登录以继续。";
-"Your organization allows the following file types to be shared:\n%@." = "您的组织允许分享以下文件类型：\n%@。";
 "Your organization requires this security configuration." = "您的企业需要此安全配置。";
 "Your password was successfully updated." = "您的密码修改成功";
 "Your portal is no longer active" = "您的门户不再有效";
@@ -2760,7 +2724,6 @@
 "start chat" = "开始对话";
 "the majority of assignees" = "大多数经办人";
 "today" = "今天";
-"value" = "价值";
 "via Instant Flow" = "通过即时流程";
 "via template: %@" = "通过模板：%@";
 "video" = "视频";
@@ -2772,3 +2735,4 @@
 "“Can I call you later?”" = "“我能晚一点再打给你吗？”";
 "“I’m on my way.”" = "“我正在路上。”";
 "“Sorry, I can’t talk right now.”" = "“抱歉，我现在不方便说话。”";
+"Skip Sequential Order" = "跳过顺序";

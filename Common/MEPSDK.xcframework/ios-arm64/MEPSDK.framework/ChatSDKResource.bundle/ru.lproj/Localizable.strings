@@ -198,7 +198,7 @@
 "%@ is %@ right now and may not be able to respond." = "%1$@ в данный момент %2$@ и может не иметь возможности ответить.";
 "%@ is away right now and may not be able to respond." = "%@ сейчас в отъезде и, возможно, не сможет ответить.";
 "%@ is controlling co-browsing." = "%@ управляет совместным просмотром.";
-"%@ is currently out of office." = "%@ в настоящее время вне офиса.";
+"%@ is currently out of office and will review your message as soon as they return." = "%@ в данный момент нет на месте и увидит ваше сообщение, как только вернется.";
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@ в данный момент нет на месте. Если у вас есть срочные вопросы, обращайтесь в чате к %2$@.";
 "%@ is currently out of office:" = "%@ в данный момент нет на месте:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ в настоящее время не в сети и рассмотрит ваше сообщение, как только вернется.";
@@ -388,9 +388,6 @@
 "Acknowledgement completed." = "Подтверждение выполнено.";
 "Acknowledgement completed: %@" = "Подтверждение выполнено: %@";
 "Acknowledgement due now" = "Подтверждение должно быть выполнено немедленно";
-"Acknowledgement due soon" = "Подтверждение скоро будет нужно";
-"Acknowledgement due today" = "Срок выполнения подтверждения - сегодня";
-"Acknowledgement overdue (%@)" = "Подтверждение просрочено (%@)";
 "Action In Progress" = "Действие выполняется";
 "Action Items" = "Мероприятия по пунктам";
 "Action Needed By" = "Необходимое действие пользователем";
@@ -536,9 +533,6 @@
 "Approval completed." = "Утверждение выполнено.";
 "Approval completed: %@" = "Утверждение выполнено: %@";
 "Approval due now" = "Утверждение должно быть выполнено сейчас";
-"Approval due soon" = "Скоро требуется утверждение";
-"Approval due today" = "Срок выполнения утверждения сегодня";
-"Approval overdue (%@)" = "Одобрение просрочено (%@)";
 "Approve" = "Утвердить";
 "Approve All" = "Утвердить всё";
 "Approve Pending Request" = "Одобрить ожидающий запрос";
@@ -621,7 +615,6 @@
 "By Email" = "По электронной почте";
 "By Phone" = "По телефону";
 "By SMS" = "При помощи SMS";
-"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "Нажимая «Начать», вы соглашаетесь на сбор, обработку и распространение Jumio вашей личной информации, которая может включать биометрические данные, в соответствии с его Уведомлением о конфиденциальности.";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "Нажимая \"Подтвердить\", я подтверждаю, что прочитал и понял информацию, содержащуюся в этом запросе подтверждения.";
 "By continuing, you are giving consent to be recorded." = "Продолжая, вы даете согласие на запись.";
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "Создавая учётную запись, вы соглашаетесь с Условиями предоставления услуг и Политикой персональных данных.";
@@ -700,6 +693,7 @@
 "Client Groups (Optional)" = "Группы клиентов (Необязательно)";
 "Client Groups can only be created by admin users in the Admin Portal." = "Группы клиентов могут быть созданы только пользователями-администраторами на портале администрирования.";
 "Client ID" = "ID клиента";
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "ID клиента и секретный ключ клиента используются для генерации токена доступа OAuth2. Получите свой ID клиента и секретный ключ клиента из портала Jumio.";
 "Client ID or Secret is invalid." = "ID клиента или секрет недействителен.";
 "Client Left Workspace" = "Клиент покинул рабочее место";
 "Client Login" = "Вход для клиентов";
@@ -910,9 +904,6 @@
 "DocuSign completed." = "DocuSign выполнен.";
 "DocuSign completed: %@" = "DocuSign выполнен: %@";
 "DocuSign due now" = "DocuSign должен быть выполнен сейчас";
-"DocuSign due soon" = "Скоро истекает срок DocuSign";
-"DocuSign due today" = "DocuSign должен быть выполнен сейчас";
-"DocuSign overdue (%@)" = "Просроченный DocuSign (%@)";
 "Document Only" = "Только документ";
 "Document Sent" = "Документ отправлен";
 "Document with Certificate" = "Документ с сертификатом";
@@ -961,9 +952,7 @@
 "E-Sign completed" = "Электронная подпись выполнена";
 "E-Sign completed." = "Электронная подпись выполнена.";
 "E-Sign completed: %@" = "Электронная подпись выполнена: %@";
-"E-Sign due soon" = "Скоро истекает срок электронной подписи";
-"E-Sign due today" = "Срок выполнения электронной подписи - сегодня";
-"E-Sign overdue (%@)" = "Электронная подпись просрочена (%@)";
+"E-Sign due now" = "Срок выполнения электронной подписи - сейчас";
 "EXPIRED" = "СРОК ИСТЁК";
 "EXPIRY DATE" = "ДАТА ИСТЕЧЕНИЯ КОНЕЧНОГО СРОКА";
 "Edit" = "Изменить";
@@ -1085,16 +1074,12 @@
 "File Request completed." = "Запрос файла выполнен.";
 "File Request completed: %@" = "Запрос файла выполнен: %@";
 "File Request due now" = "Запрос файла должен быть выполнен сейчас";
-"File Request due soon" = "Запрос файла скоро истекает";
-"File Request due today" = "Срок выполнения запроса файла - сейчас";
 "File Request needs your review" = "Запрос файла нуждается в вашей рассмотрении";
-"File Request overdue (%@)" = "Запрос файла просрочен (%@)";
 "File Request ready for review" = "Запрос файла готов к рассмотрению";
 "File Request ready for review." = "Запрос файла готов к рассмотрению.";
 "File Request ready for review: %@" = "Запрос файла готов к рассмотрению: %@";
 "File Request reopened" = "Запрос файла повторно открыт";
 "File Reviewer" = "Рецензент файлов";
-"File Size Exceeded" = "Превышен размер файла";
 "File doesn't exist." = "Файл не существует.";
 "File size limit reached (%@)" = "Достигнут предельный размер файла (%@)";
 "File type unsupported" = "Тип файла не поддерживается";
@@ -1111,6 +1096,7 @@
 "Filters" = "Фильтры";
 "Find messages, files, contents, and more by typing above." = "Найдите сообщения, файлы, содержимое и прочее, введя текст выше.";
 "Finish" = "Завершить";
+"First Name" = "Имя";
 "Fix Perspective" = "Фиксировать перспективу";
 "Flow" = "Поток";
 "Flow Template Library" = "Библиотека шаблонов потока";
@@ -1144,9 +1130,6 @@
 "Form completed." = "Создание формы выполнено.";
 "Form completed: %@" = "Создание формы выполнено: %@";
 "Form due now" = "Срок заполнения формы - сейчас";
-"Form due soon" = "Форма скоро будет действительна";
-"Form due today" = "Срок заполнения формы - сегодня";
-"Form overdue (%@)" = "Форма просрочена (%@)";
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "Пересылайте контент в свои рабочие места с помощью функции «Копировать в…» по каждому объекту.";
 "Forwarding..." = "Пересылка...";
 "Frequency" = "Частота";
@@ -1229,13 +1212,9 @@
 "Identity Verification completed." = "Проверка личности завершена.";
 "Identity Verification completed: %@" = "Проверка личности завершена: %@";
 "Identity Verification due now" = "Проверка личности должна быть выполнена сейчас";
-"Identity Verification due soon" = "Проверка личности скоро истекает";
-"Identity Verification due today" = "Проверка личности должна быть выполнена сегодня";
-"Identity Verification overdue (%@)" = "Проверка личности просрочена (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "Верификация личности временно заблокирована по соображениям безопасности. Повторите попытку позже.";
-"If enabled, a file reviewer will be required to review the files that are uploaded." = "Если функция активирована, проверяющему файлы будет необходимо рассмотреть загруженные файлы.";
-"If enabled, all attachments must be opened by the assignee before acknowledging." = "Если включено, все вложения должны быть открыты исполнителем перед подтверждением.";
-"If enabled, this action can be completed in parallel with the previous action in the flow." = "Если включено, это действие может быть выполнено параллельно с предыдущим действием в потоке.";
+"If enabled, all attachments must be opened by the asignee before acknowledging." = "Если этот параметр включен, все вложения должны быть открыты назначенным пользователем перед подтверждением.";
+"If enabled, the file reviewer will be required to review files after submission." = "Если эта функция включена, рецензент файла должен будет просмотреть файлы после отправки.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Если этот параметр включен, мы будем отображать обложку потока всякий раз, когда вы впервые открываете потоковое рабочее место.";
 "If removed, they will lose access to this workspace immediately." = "Если удалить, они немедленно потеряют доступ к этому рабочему пространству.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "Если вы отключите свою учетную запись DocuSign, назначенные пользователи не смогут получить доступ или подписать какие-либо документы, созданных с помощью этой учетной записи, рассмотрение которых было отложено. На законченные документы это не повлияет.";
@@ -1327,13 +1306,13 @@
 "Join my meeting" = "Присоединиться к моему собранию";
 "Join the rest of your team at %@ on %@" = "Присоединиться к остальным участникам группы в %1$@ на %2$@";
 "Join the rest of your team on the %@ Portal" = "Присоединиться к остальным участникам группы на портале %@";
-"Join workspace" = "Присоединиться к рабочему пространству";
 "Joined" = "Присоединение выполнено";
 "Joining..." = "Присоединение...";
 "Jumio" = "Jumio";
 "Jump to Workspace" = "Перейти к рабочему месту";
 "Keypad" = "Клавиатура";
 "Last Activity" = "Последнее действие";
+"Last Name" = "Фамилия";
 "Last active: %@" = "Последнее посещение: %@";
 "Last active: %@d ago" = "Последнее посещение: %@д назад";
 "Last active: %@h ago" = "Последнее посещение: %@ч назад";
@@ -1348,7 +1327,6 @@
 "Last seen: %@h ago" = "Последний визит: %@ часов назад";
 "Last seen: %@m ago" = "Последний визит: %@ минут назад";
 "Last seen: %@w ago" = "Последний визит: %@ недель назад";
-"Learn More" = "Узнать больше";
 "Learn more about what assignees will see" = "Узнайте больше о том, что увидят назначенные пользователи";
 "Leave" = "Уйти";
 "Leave Audio" = "Выйти";
@@ -1408,7 +1386,6 @@
 "Mark as Unread" = "Обозначить как \"непрочитаный\"";
 "Max %@ characters" = "Макс. %1$@ символов";
 "Max Amount" = "Макс. количество";
-"Maximum %@ size exceeded (%@)" = "Превышен максимальный размер %1$@ (%2$@)";
 "Maximum members limit reached" = "Достигнут лимит максимального числа участников";
 "Maximum participants reached. Please try removing some and trying again." = "Достигнуто максимальное количество участников. Попробуйте удалить некоторых из них и повторите попытку.";
 "Me" = "Я";
@@ -1453,7 +1430,6 @@
 "Member Requests" = "Запросы членов группы";
 "Member Type" = "Тип члена";
 "Members" = "членов";
-"Members have not joined" = "Участники не присоединились";
 "Members only" = "Только для членов";
 "Members(%@)" = "членов (%@)";
 "Mentions" = "Упоминания";
@@ -1564,8 +1540,8 @@
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Общие временные интервалы не найдены. Рассмотрите возможность удаления некоторых участников, корректировки продолжительности встречи или изменения окна в графике.";
 "No meeting" = "Собрания нет";
 "No meetings" = "Нет собраний";
+"No message will be displayed" = "Сообщение не будет отображено";
 "No pending approvals" = "Нет объектов на рассмотрении";
-"No personalized message will be displayed" = "Персонализированное сообщение не будет отображаться";
 "No reminder" = "Нет напоминаний";
 "No transaction matching this search" = "Нет транзакции, соответствующей запросу";
 "No viewers yet" = "Пока нет абонентов";
@@ -1820,7 +1796,7 @@
 "Request Sent" = "Запрос отправлен";
 "Requests" = "Запросы";
 "Require Attachment Review" = "Требовать проверки вложений";
-"Require File Review" = "Требуется проверка файла";
+"Require Review" = "Требует проверки";
 "Required Update Available" = "Доступно требуемое обновление";
 "Required field" = "Обязательное поле";
 "Reschedule" = "Запланировано повторно";
@@ -1999,7 +1975,6 @@
 "Signup disabled" = "Регистрация отключена";
 "Single sign-on" = "Одиночный вход";
 "Skip" = "Пропустить";
-"Skip Sequential Order" = "Пропустить последовательный порядок";
 "Skipped" = "Пропущено";
 "Slide to Cancel" = "Проведите для отмены";
 "Slide up to cancel" = "Проведите вверх для отмены";
@@ -2029,7 +2004,6 @@
 "Start Meeting Early?" = "Начать встречу раньше?";
 "Start New Search" = "Начать новый поиск";
 "Start Record" = "Начать запись";
-"Start Verification" = "Начать верификацию";
 "Start Workspace" = "Запустить рабочее место";
 "Start a new workspace without using a template" = "Начать новую рабочую область без использования шаблона";
 "Start new workspace" = "Начать новую рабочую область";
@@ -2106,7 +2080,6 @@
 "Thank you for using %@ meeting." = "Благодарим Вас за использование \n собрания %@.";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "Спасибо. Мы пришлём Вам окончательный экземпляр документа после того, как все его подпишут.";
 "Thanks for joining!" = "Благодарим Вас за то, что Вы присоединились!";
-"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "ID клиента и секретный ключ клиента используются для генерации токена доступа OAuth2. Получите свой ID клиента и секретный ключ клиента из портала Jumio.";
 "The Meeting has Ended" = "Собрание закончилось";
 "The URL you've entered is not valid. Please review the URL and try again." = "Введенный URL-адрес недействителен. Проверьте URL и повторите попытку.";
 "The account associated with %@ is no longer active" = "Учетная запись, связанная с %@, больше не активна";
@@ -2237,9 +2210,6 @@
 "Time Booking completed." = "Бронирование времени выполнено";
 "Time Booking completed: %@" = "Бронирование времени выполнено: %@";
 "Time Booking due now" = "Срок действия бронирования времени - сейчас";
-"Time Booking due soon" = "Бронирование времени скоро закончится";
-"Time Booking due today" = "Срок действия бронирования времени - сегодня";
-"Time Booking overdue (%@)" = "Бронирование времени просрочено (%@)";
 "Time Zone" = "Часовой пояс";
 "Title" = "Название";
 "Title, description, and due date in DocuSign action can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "Название, описание и срок выполнения в действии DocuSign можно редактировать. Если вам нужно изменить документ или назначенного пользователя, создайте новое действие DocuSign.";
@@ -2275,9 +2245,6 @@
 "To-Do completed." = "Задача выполнена.";
 "To-Do completed: %@" = "Задача выполнена: %@";
 "To-Do due now" = "Срок выполнения запланированного дела — сейчас";
-"To-Do due soon" = "Скоро срок выполнения задачи";
-"To-Do due today" = "Конечный срок запланированного дела сегодня";
-"To-Do overdue (%@)" = "Просроченные задачи (%@)";
 "To-Do reopened" = "Запланировать открыто повторно";
 "To-Dos" = "Запланированные дела";
 "Today" = "Сегодня";
@@ -2380,7 +2347,6 @@
 "Unpin" = "Открепить";
 "Unpin from Workspace" = "Закрепить от рабочего места";
 "Unread" = "Не прочитано";
-"Unsupported file format" = "Неподдерживаемый формат файла";
 "Until %@" = "До %@";
 "Upcoming Meetings" = "Ближайшие собрания";
 "Upcoming and ongoing" = "Ближайшие и проводящиеся";
@@ -2474,7 +2440,6 @@
 "We couldn't find an active account associated with %@, but we have previously sent invitations to this email address. You can use that email to join %@ portal." = "Мы не смогли найти активный аккаунт, связанный с %1$@, но ранее мы отправляли приглашения на этот адрес электронной почты. Вы можете использовать этот адрес электронной почты, чтобы присоединиться к %2$@ порталу.";
 "We couldn't update your status, but retrying may solve this issue." = "Нам не удалось обновить ваше состояние, но повторная попытка может решить эту проблему.";
 "We couldn’t remove the link preview, but retrying may solve the issue." = "Не удалось удалить предварительный просмотр ссылки, но повторная попытка может решить проблему.";
-"We don't accept %@ files larger than %@." = "Мы не принимаем файлы %1$@ размером больше %2$@.";
 "We don't accept files larger than %@ B." = "Мы не принимаем файлы размером более %@ Б.";
 "We don't accept files larger than %@ KB." = "Мы не принимаем файлы размером более %@ кБ.";
 "We don't accept files larger than %@ MB." = "Мы не принимаем файлы размером больше %@МБ.";
@@ -2694,7 +2659,6 @@
 "Your mobile device is not setup for Email" = "Ваше мобильное устройство не настроено для использования электронной почты";
 "Your mobile device is not setup for SMS." = "Ваше мобильное устройство не настроено для использования SMS.";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "Ваша организация не настроена для использования SAML SSO. Пожалуйста, войдите в систему с помощью учетной записи, чтобы продолжить.";
-"Your organization allows the following file types to be shared:\n%@." = "Ваша организация разрешает обмен следующими типами файлов:\n%@.";
 "Your organization requires this security configuration." = "Вашей организации требуется эта конфигурация безопасности.";
 "Your password was successfully updated." = "Ваш пароль успешно обновлён.";
 "Your portal is no longer active" = "Ваш портал больше не активен";
@@ -2759,7 +2723,6 @@
 "start chat" = "Начать общение в чате";
 "the majority of assignees" = "большинство назначенных пользователей";
 "today" = "Сегодня";
-"value" = "значение";
 "via Instant Flow" = "при помощи мгновенного потока";
 "via template: %@" = "через шаблон: %@";
 "video" = "видео";
@@ -2771,3 +2734,4 @@
 "“Can I call you later?”" = "“Я могу позвонить позже?”";
 "“I’m on my way.”" = "“Я уже в пути.”";
 "“Sorry, I can’t talk right now.”" = "“Извините, я не могу сейчас говорить.”";
+"Skip Sequential Order" = "Пропустить последовательный порядок";

@@ -198,7 +198,7 @@
 "%@ is %@ right now and may not be able to respond." = "%1$@ este %2$@ în acest moment și este posibil să nu poată răspunde.";
 "%@ is away right now and may not be able to respond." = "%@ este plecat acum și este posibil să nu poată răspunde.";
 "%@ is controlling co-browsing." = "%@ controlează navigarea în comun.";
-"%@ is currently out of office." = "%@ este momentan în afara biroului.";
+"%@ is currently out of office and will review your message as soon as they return." = "%@ nu este în prezent la birou și vă va examina mesajul imediat ce se va întoarce.";
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@ nu se află în prezent la birou. Dacă aveți probleme urgente, nu ezitați să discutați cu %2$@.";
 "%@ is currently out of office:" = "%@ nu este în prezent la birou:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ este momentan indisponibil și vă va examina mesajul imediat ce revin.";
@@ -388,9 +388,6 @@
 "Acknowledgement completed." = "Confirmare de primire completată.";
 "Acknowledgement completed: %@" = "Confirmare de primire completată: %@";
 "Acknowledgement due now" = "Confirmare de primire datorată acum";
-"Acknowledgement due soon" = "Recunoaștere datorată în curând";
-"Acknowledgement due today" = "Confirmare scadentă azi";
-"Acknowledgement overdue (%@)" = "Recunoaștere întârziată (%@)";
 "Action In Progress" = "Acțiune în progres";
 "Action Items" = "Elemente acțiune";
 "Action Needed By" = "Acțiune necesară de către";
@@ -536,9 +533,6 @@
 "Approval completed." = "Aprobare finalizată.";
 "Approval completed: %@" = "Aprobare finalizată: %@";
 "Approval due now" = "Aprobarea trebuie făcută acum";
-"Approval due soon" = "Aprobare datorată în curând";
-"Approval due today" = "Confirmare scadentă astăzi";
-"Approval overdue (%@)" = "Aprobare întârziată (%@)";
 "Approve" = "Aprobați";
 "Approve All" = "Aprobați toate";
 "Approve Pending Request" = "Aprobați solicitarea în așteptare";
@@ -621,7 +615,6 @@
 "By Email" = "Prin e-mail";
 "By Phone" = "Telefonic";
 "By SMS" = "Prin SMS";
-"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "Făcând clic pe Start, îți dai acordul ca Jumio să colecteze, să prelucreze și să împărtășească informațiile tale personale, care pot include date biometrice, conform Notificării sale de Confidențialitate.";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "Prin apăsarea butonului \"Confirmați\", Confirmați că am citit și am înțeles informațiile conținute în această cerere de confirmare.";
 "By continuing, you are giving consent to be recorded." = "Continuând, vă dați consimțământul de a fi înregitrat.";
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "Prin crearea unui cont, sunteți de acord cu condițiile noastre de utilizare și politica de confidențialitate.";
@@ -700,6 +693,7 @@
 "Client Groups (Optional)" = "Grupuri de clienți (opțional)";
 "Client Groups can only be created by admin users in the Admin Portal." = "Grupurile de clienți pot fi create numai de către utilizatorii administratori din Portalul de administrare.";
 "Client ID" = "ID Client";
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "ID-ul clientului și Secretul clientului sunt folosite pentru a genera un token de acces OAuth2. Accesați ID-ul clientului și Secretul clientului din Portalul Jumio.";
 "Client ID or Secret is invalid." = "ID-ul clientului sau Secretul este invalid.";
 "Client Left Workspace" = "Clientul a părăsit spațiul de lucru";
 "Client Login" = "Conectare client";
@@ -910,9 +904,6 @@
 "DocuSign completed." = "DocuSign completat.";
 "DocuSign completed: %@" = "DocuSign completat: %@";
 "DocuSign due now" = "DocuSign scadent acum";
-"DocuSign due soon" = "DocuSign datorată în curând";
-"DocuSign due today" = "DocuSign scadent astăzi";
-"DocuSign overdue (%@)" = "DocuSign întârziat (%@)";
 "Document Only" = "Doar document";
 "Document Sent" = "Document trimis";
 "Document with Certificate" = "Document cu certificat";
@@ -961,9 +952,7 @@
 "E-Sign completed" = "Semnătura electronică a fost completată";
 "E-Sign completed." = "Semnătura electronică a fost completată.";
 "E-Sign completed: %@" = "Semnătura electronică a fost completată: %@";
-"E-Sign due soon" = "Semnătura electronică datorată în curând";
-"E-Sign due today" = "Semnătură electronică scadentă astăzi";
-"E-Sign overdue (%@)" = "Semnătura electronică întârziată (%@)";
+"E-Sign due now" = "Semnătură electronică scadentă acum";
 "EXPIRED" = "EXPIRAT";
 "EXPIRY DATE" = "DATĂ EXPIRARE";
 "Edit" = "Editați";
@@ -1085,16 +1074,12 @@
 "File Request completed." = "Cerere de fișier completată.";
 "File Request completed: %@" = "Cerere de fișier completată: %@";
 "File Request due now" = "Cererea de dosar trebuie depusă acum";
-"File Request due soon" = "Cerere de fișier datorată în curând";
-"File Request due today" = "Solicitarea fișierului scadentă astăzi";
 "File Request needs your review" = "Cererea de fișier are nevoie de examinarea dumneavoastră";
-"File Request overdue (%@)" = "Cerere de fișier întârziată (%@)";
 "File Request ready for review" = "Cerere de dosar pregătită pentru examinare";
 "File Request ready for review." = "Cerere de dosar pregătită pentru examinare.";
 "File Request ready for review: %@" = "Cerere de dosar pregătită pentru examinare: %@";
 "File Request reopened" = "Cerere de dosar redeschisă";
 "File Reviewer" = "Revizuitor de fișiere";
-"File Size Exceeded" = "Dimensiunea Fișierului Depășită";
 "File doesn't exist." = "Fișierul nu există.";
 "File size limit reached (%@)" = "A fost atinsă limita de dimensiune a fișierului (%@)";
 "File type unsupported" = "Tip de fișier neacceptat";
@@ -1111,6 +1096,7 @@
 "Filters" = "Filtre";
 "Find messages, files, contents, and more by typing above." = "Găsiți mesaje, fișiere, conținut și multe altele, tastând mai sus.";
 "Finish" = "Terminare";
+"First Name" = "Prenume";
 "Fix Perspective" = "Fixați perspectiva";
 "Flow" = "Flux";
 "Flow Template Library" = "Bibliotecă șabloane de flux";
@@ -1144,9 +1130,6 @@
 "Form completed." = "Formular completat.";
 "Form completed: %@" = "Formular completat: %@";
 "Form due now" = "Formular scadent acum";
-"Form due soon" = "Formularul datorată în curând";
-"Form due today" = "Formular scadent astăzi";
-"Form overdue (%@)" = "Formular întârziat (%@)";
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "Redirecționați conținutul către spațiile de lucru utilizând funcția \"Copy To...\" de pe fiecare obiect.";
 "Forwarding..." = "Se redirecționează...";
 "Frequency" = "Frecvență";
@@ -1229,13 +1212,9 @@
 "Identity Verification completed." = "Verificarea identității a fost finalizată.";
 "Identity Verification completed: %@" = "Verificarea identității a fost finalizată: %@";
 "Identity Verification due now" = "Verificarea identității este scadentă acum";
-"Identity Verification due soon" = "Verificarea identității datorată în curând";
-"Identity Verification due today" = "Verificarea identității este scadentă astăzi";
-"Identity Verification overdue (%@)" = "Verificarea identității întârziată (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "Verificarea identității a fost dezactivată temporar din motive de securitate. Vă rugăm să încercați din nou mai târziu.";
-"If enabled, a file reviewer will be required to review the files that are uploaded." = "Dacă este activată, un revizor de fișiere va fi necesar pentru a revizui fișierele care sunt încărcate.";
-"If enabled, all attachments must be opened by the assignee before acknowledging." = "Dacă este activată, toate atașamentele trebuie deschise de către destinatar înainte de a recunoaște.";
-"If enabled, this action can be completed in parallel with the previous action in the flow." = "Dacă este activată, această acțiune poate fi finalizată în paralel cu acțiunea anterioară din flux.";
+"If enabled, all attachments must be opened by the asignee before acknowledging." = "Dacă este activată, toate atașamentele trebuie să fie deschise de către destinatar înainte de confirmare.";
+"If enabled, the file reviewer will be required to review files after submission." = "Dacă este activată, revizorul fișierului va trebui să examineze fișierele după trimitere.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Dacă este activată, vom afișa pagina de acoperire a fluxului ori de câte ori deschideți un spațiu de lucru de flux pentru prima dată.";
 "If removed, they will lose access to this workspace immediately." = "Dacă sunt eliminați, aceștia își vor pierde imediat accesul la acest spațiu de lucru.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "Dacă vă deconectați contul DocuSign, cesionații nu vor putea să acceseze sau să semneze niciun document în așteptare creat cu acest cont. Documentele completate nu vor fi afectate de aceasta.";
@@ -1327,13 +1306,13 @@
 "Join my meeting" = "Alăturați-vă întâlnirii mele";
 "Join the rest of your team at %@ on %@" = "Alăturați-vă restului echipei dvs. la %1$@ la %2$@";
 "Join the rest of your team on the %@ Portal" = "Alăturați-vă restului echipei dvs. pe Portalul %@";
-"Join workspace" = "Alătură-te spațiului de lucru";
 "Joined" = "Alăturat";
 "Joining..." = "Se alătură...";
 "Jumio" = "Jumio";
 "Jump to Workspace" = "Salt la Spațiul de lucru";
 "Keypad" = "Tastatură";
 "Last Activity" = "Ultima Activitate";
+"Last Name" = "Nume";
 "Last active: %@" = "Ultima data activ: %@";
 "Last active: %@d ago" = "Ultima data activ: acum %@ zile";
 "Last active: %@h ago" = "Ultima data activ: acum %@ ore";
@@ -1348,7 +1327,6 @@
 "Last seen: %@h ago" = "Ultima vizualizare: %@ ore în urmă";
 "Last seen: %@m ago" = "Ultima vizualizare: %@ minute în urmă";
 "Last seen: %@w ago" = "Ultima vizualizare: %@ săptămâni în urmă";
-"Learn More" = "Aflați mai multe";
 "Learn more about what assignees will see" = "Aflați mai multe despre ceea ce vor vedea desemnații";
 "Leave" = "Părăsiți";
 "Leave Audio" = "Părăsiți audio";
@@ -1408,7 +1386,6 @@
 "Mark as Unread" = "Marcați ca necitit";
 "Max %@ characters" = "%1$@ max. caractere";
 "Max Amount" = "Sumă max.";
-"Maximum %@ size exceeded (%@)" = "Dimensiunea maximă %1$@ depășită (%2$@)";
 "Maximum members limit reached" = "A fost atinsă limita maximă de membri";
 "Maximum participants reached. Please try removing some and trying again." = "A fost atins numărul maxim de participanți. Vă rugăm să încercați să eliminați o parte din ele și să încercați din nou.";
 "Me" = "Eu";
@@ -1453,7 +1430,6 @@
 "Member Requests" = "Solicitări membri";
 "Member Type" = "Tip membru";
 "Members" = "Membri";
-"Members have not joined" = "Membrii nu s-au alăturat";
 "Members only" = "Numai membri";
 "Members(%@)" = "Membri (%@)";
 "Mentions" = "Mențiuni";
@@ -1564,8 +1540,8 @@
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Nu s-au găsit intervale orare comune. Luați în considerare eliminarea unor participanți, ajustarea duratei întâlnirii sau modificarea ferestrei de programare.";
 "No meeting" = "Nu există nicio întâlnire";
 "No meetings" = "Nu există nicio întâlnire";
+"No message will be displayed" = "Niciun mesaj nu va fi afișat";
 "No pending approvals" = "Nu există aprobări în așteptare";
-"No personalized message will be displayed" = "Niciun mesaj personalizat nu va fi afișat";
 "No reminder" = "Niciun memento";
 "No transaction matching this search" = "Nu există nicio tranzacție care să corespundă acestei căutări";
 "No viewers yet" = "Niciun vizualizator încă";
@@ -1820,7 +1796,7 @@
 "Request Sent" = "Solicitare trimisă";
 "Requests" = "Solicitări";
 "Require Attachment Review" = "Solicită o revizuire a anexei";
-"Require File Review" = "Necesită Revizuirea Fișierului";
+"Require Review" = "Solicitați revizuirea";
 "Required Update Available" = "Actualizarea necesară este disponibilă";
 "Required field" = "Câmp solicitat";
 "Reschedule" = "Reprogramați";
@@ -1999,7 +1975,6 @@
 "Signup disabled" = "Înregistrare dezactivată";
 "Single sign-on" = "Conectare unică";
 "Skip" = "Ignorare";
-"Skip Sequential Order" = "Sari Peste Ordinea Secvențială";
 "Skipped" = "Sărit";
 "Slide to Cancel" = "Glisați pentru a anula";
 "Slide up to cancel" = "Glisați în sus pentru a anula";
@@ -2029,7 +2004,6 @@
 "Start Meeting Early?" = "Începeți Ședința Devreme?";
 "Start New Search" = "Începeți o căutare nouă";
 "Start Record" = "Începeți să înregistrați";
-"Start Verification" = "Începeți verificarea";
 "Start Workspace" = "Start Workspace";
 "Start a new workspace without using a template" = "Începeți un nou spațiu de lucru fără a utiliza un șablon";
 "Start new workspace" = "Începeți un nou spațiu de lucru";
@@ -2106,7 +2080,6 @@
 "Thank you for using %@ meeting." = "Vă mulțumim că ați utilizat întâlnirea \n %@.";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "Vă mulțumim. Vă vom trimite copia finală semnată după ce toată lumea semnează documentul.";
 "Thanks for joining!" = "Mulțumim că ați venit alături de noi!";
-"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "ID-ul clientului și Secretul clientului sunt folosite pentru a genera un token de acces OAuth2. Accesați ID-ul clientului și Secretul clientului din Portalul Jumio.";
 "The Meeting has Ended" = "Întâlnirea s-a încheiat";
 "The URL you've entered is not valid. Please review the URL and try again." = "URL-ul pe care l-ați introdus nu este valid. Vă rugăm să revizuiți URL-ul și să încercați din nou.";
 "The account associated with %@ is no longer active" = "Contul asociat cu %@ nu mai este activ";
@@ -2237,9 +2210,6 @@
 "Time Booking completed." = "Rezervarea timpului a fost finalizată.";
 "Time Booking completed: %@" = "Rezervarea timpului a fost finalizată: %@";
 "Time Booking due now" = "Rezervarea de timp scade acum";
-"Time Booking due soon" = "Rezervarea timpului datorată în curând";
-"Time Booking due today" = "Rezervarea de timp scadentă acum";
-"Time Booking overdue (%@)" = "Rezervarea timpului întârziată (%@)";
 "Time Zone" = "Fus orar";
 "Title" = "Titlu";
 "Title, description, and due date in DocuSign action can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "Titlul, descrierea și data limită în acțiunea DocuSign pot fi editate. Dacă trebuie să modificați documentul sau cesionații, creați o nouă acțiune DocuSign.";
@@ -2275,9 +2245,6 @@
 "To-Do completed." = "Listă de sarcini finalizată.";
 "To-Do completed: %@" = "Listă de sarcini finalizată: %@";
 "To-Do due now" = "Sarcină scadentă acum";
-"To-Do due soon" = "De făcut datorată în curând";
-"To-Do due today" = "Activități de făcut astăzi";
-"To-Do overdue (%@)" = "De făcut întârziat (%@)";
 "To-Do reopened" = "Sarcină redeschisă";
 "To-Dos" = "Activități de făcut";
 "Today" = "Astăzi";
@@ -2380,7 +2347,6 @@
 "Unpin" = "Anulare Fixare";
 "Unpin from Workspace" = "Unpin from Workspace";
 "Unread" = "Necitit";
-"Unsupported file format" = "Format de fișier nesuportat";
 "Until %@" = "Până la %@";
 "Upcoming Meetings" = "Întâlniri viitoare";
 "Upcoming and ongoing" = "Viitoare și în derulare";
@@ -2474,7 +2440,6 @@
 "We couldn't find an active account associated with %@, but we have previously sent invitations to this email address. You can use that email to join %@ portal." = "Nu am putut găsi un cont activ asociat cu %1$@, dar am trimis anterior invitații la această adresă de e-mail. Puteți folosi acest e-mail pentru a vă alătura %2$@ portal.";
 "We couldn't update your status, but retrying may solve this issue." = "Nu v-am putut actualiza starea, dar reîncercarea poate rezolva această problemă.";
 "We couldn’t remove the link preview, but retrying may solve the issue." = "Nu am putut elimina pre-vizualizarea linkului, dar vă rugăm să încercați din nou.";
-"We don't accept %@ files larger than %@." = "Nu acceptăm fișiere %1$@ mai mari de %2$@.";
 "We don't accept files larger than %@ B." = "Nu acceptăm fișiere mai mari de %@ B.";
 "We don't accept files larger than %@ KB." = "Nu acceptăm fișiere mai mari de %@ KB.";
 "We don't accept files larger than %@ MB." = "Nu acceptăm fișiere mai mari de %@ MB.";
@@ -2695,7 +2660,6 @@
 "Your mobile device is not setup for Email" = "Dispozitivul dvs. mobil nu este configurat pentru e-mail";
 "Your mobile device is not setup for SMS." = "Dispozitivul dvs. mobil nu este configurat pentru SMS.";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "Organizația dvs. nu este configurată pentru a utiliza SAML SSO. Vă rugăm să vă autentificați cu contul pentru a continua.";
-"Your organization allows the following file types to be shared:\n%@." = "Organizația dumneavoastră permite partajarea următoarelor tipuri de fișiere:\n%@.";
 "Your organization requires this security configuration." = "Organizația dumneavoastră necesită această configurație de securitate.";
 "Your password was successfully updated." = "Parola dvs. a fost actualizată cu succes.";
 "Your portal is no longer active" = "Portalul dvs nu mai este activ";
@@ -2760,7 +2724,6 @@
 "start chat" = "Începeți o conversație";
 "the majority of assignees" = "majoritatea cesionarilor";
 "today" = "Astăzi";
-"value" = "valoare";
 "via Instant Flow" = "prin Flux instant";
 "via template: %@" = "prin șablon: %@";
 "video" = "video";
@@ -2772,3 +2735,4 @@
 "“Can I call you later?”" = "“Pot să te sun mai tarziu?”";
 "“I’m on my way.”" = "“Sunt pe drum.”";
 "“Sorry, I can’t talk right now.”" = "“Îmi pare rău, nu pot vorbi acum..”";
+"Skip Sequential Order" = "Sari Peste Ordinea Secvențială";

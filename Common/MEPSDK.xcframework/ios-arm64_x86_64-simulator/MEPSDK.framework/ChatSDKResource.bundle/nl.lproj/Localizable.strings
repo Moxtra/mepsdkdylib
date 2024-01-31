@@ -198,7 +198,7 @@
 "%@ is %@ right now and may not be able to respond." = "%1$@ is %2$@ op dit moment en kan mogelijk niet antwoorden.";
 "%@ is away right now and may not be able to respond." = "%@ is nu weg en kan misschien niet antwoorden.";
 "%@ is controlling co-browsing." = "%@ beheert co-browsing.";
-"%@ is currently out of office." = "%@ is momenteel niet op kantoor.";
+"%@ is currently out of office and will review your message as soon as they return." = "%@ is momenteel niet op kantoor en zal uw bericht beoordelen zodra ze terugkomen.";
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@ is momenteel niet op kantoor. Als u dringende problemen hebt, dan kunt u chatten met %2$@.";
 "%@ is currently out of office:" = "%@ is momenteel niet op kantoor:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ is momenteel onbeschikbaar en zullen uw bericht bekijken zodra ze terug zijn:";
@@ -388,9 +388,6 @@
 "Acknowledgement completed." = "Bevestiging voltooid.";
 "Acknowledgement completed: %@" = "Bevestiging voltooid: %@";
 "Acknowledgement due now" = "Bevestiging nu vereist";
-"Acknowledgement due soon" = "Erkenning binnenkort verschuldigd";
-"Acknowledgement due today" = "Ontvangstbevestiging vervalt vandaag";
-"Acknowledgement overdue (%@)" = "Erkenning te laat (%@)";
 "Action In Progress" = "Actie in uitvoering";
 "Action Items" = "Actiepunten";
 "Action Needed By" = "Actie nodig door";
@@ -536,9 +533,6 @@
 "Approval completed." = "Goedkeuring voltooid.";
 "Approval completed: %@" = "Goedkeuring voltooid: %@";
 "Approval due now" = "Goedkeuring nu vereist";
-"Approval due soon" = "Goedkeuring binnenkort verschuldigd";
-"Approval due today" = "Goedkeuring vereist vandaag";
-"Approval overdue (%@)" = "Goedkeuring te laat (%@)";
 "Approve" = "Goedkeuren";
 "Approve All" = "Alles goedkeuren";
 "Approve Pending Request" = "In behandeling zijnde aanvraag goedkeuren";
@@ -621,7 +615,6 @@
 "By Email" = "Middels e-mail";
 "By Phone" = "Middels telefoon";
 "By SMS" = "Per SMS";
-"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "Door op Start te klikken, stemt u ermee in dat Jumio uw persoonlijke informatie verzamelt, verwerkt en deelt, wat biometrische gegevens kan omvatten, volgens zijn Privacyverklaring.";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "Door op \"Bevestigen\" te klikken, bevestig ik dat ik de informatie in dit bevestigingsverzoek heb gelezen en begrepen.";
 "By continuing, you are giving consent to be recorded." = "Door verder te gaan geeft u toestemming om opgenomen te worden.";
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "Door een account aan te maken gaat u akkoord met onze Gebruiksvoorwaarden & Privacybeleid.";
@@ -700,6 +693,7 @@
 "Client Groups (Optional)" = "Klantgroepen (optioneel)";
 "Client Groups can only be created by admin users in the Admin Portal." = "Klantgroepen kunnen alleen worden aangemaakt door beheerdersgebruikers in het beheerdersportaal.";
 "Client ID" = "Klant ID";
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "De Client ID en Client Secret worden gebruikt om een OAuth2-toegangstoken te genereren. Toegang tot uw Client ID en Client Secret via het Jumio Portal.";
 "Client ID or Secret is invalid." = "Client-ID of geheim is ongeldig.";
 "Client Left Workspace" = "Client Left Workspace";
 "Client Login" = "Client login";
@@ -910,9 +904,6 @@
 "DocuSign completed." = "DocuSign voltooid.";
 "DocuSign completed: %@" = "DocuSign voltooid: %@";
 "DocuSign due now" = "DocuSign vervalt nu";
-"DocuSign due soon" = "DocuSign binnenkort verschuldigd";
-"DocuSign due today" = "DocuSign vervalt vandaag";
-"DocuSign overdue (%@)" = "DocuSign achterstallig (%@)";
 "Document Only" = "Alleen document";
 "Document Sent" = "Document verzonden";
 "Document with Certificate" = "Document met certificaat";
@@ -961,9 +952,7 @@
 "E-Sign completed" = "E-ondertekening voltooid";
 "E-Sign completed." = "E-ondertekening voltooid.";
 "E-Sign completed: %@" = "E-ondertekening voltooid: %@";
-"E-Sign due soon" = "E-Sign binnenkort verschuldigd";
-"E-Sign due today" = "E-ondertekening vervalt vandaag";
-"E-Sign overdue (%@)" = "E-Sign te laat (%@)";
+"E-Sign due now" = "E-ondertekening vervalt nu";
 "EXPIRED" = "VERLOPEN";
 "EXPIRY DATE" = "VERVALDATUM";
 "Edit" = "Bewerken";
@@ -1085,16 +1074,12 @@
 "File Request completed." = "Bestandsaanvraag voltooid.";
 "File Request completed: %@" = "Bestandsaanvraag voltooid: %@";
 "File Request due now" = "Bestandsaanvraag nu vereist";
-"File Request due soon" = "Bestandsverzoek binnenkort verschuldigd";
-"File Request due today" = "Bestandsaanvraag vervalt vandaag";
 "File Request needs your review" = "Bestandsaanvraag vereist uw beoordeling";
-"File Request overdue (%@)" = "Verzoek om bestand te laat (%@)";
 "File Request ready for review" = "Bestandsaanvraag gereed voor beoordeling";
 "File Request ready for review." = "Bestandsaanvraag gereed voor beoordeling.";
 "File Request ready for review: %@" = "Bestandsaanvraag gereed voor beoordeling: %@";
 "File Request reopened" = "Bestandsaanvraag opnieuw geopend";
 "File Reviewer" = "Bestandreviewer";
-"File Size Exceeded" = "Bestandsgrootte Overschreden";
 "File doesn't exist." = "Bestand bestaat niet.";
 "File size limit reached (%@)" = "Bestandsgroottegrenswaarde is bereikt (%@)";
 "File type unsupported" = "Bestandstype niet-ondersteund";
@@ -1111,6 +1096,7 @@
 "Filters" = "Filters";
 "Find messages, files, contents, and more by typing above." = "Zoek berichten, bestanden, inhoud en meer door hierboven in te typen.";
 "Finish" = "Opslaan & indienen";
+"First Name" = "Voornaam";
 "Fix Perspective" = "Herstel perspectief";
 "Flow" = "Stroom";
 "Flow Template Library" = "Stroomsjabloonbibliotheek";
@@ -1144,9 +1130,6 @@
 "Form completed." = "Formulier ingevuld.";
 "Form completed: %@" = "Formulier ingevuld: %@";
 "Form due now" = "Formulier vervalt nu";
-"Form due soon" = "Formulier binnenkort verschuldigd";
-"Form due today" = "Formulier vervalt vandaag";
-"Form overdue (%@)" = "Formulier te laat (%@)";
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "Stuur inhoud door naar uw werkruimten met de functie 'Kopiëren naar... 'van elk object.";
 "Forwarding..." = "Doorsturen...";
 "Frequency" = "Frequentie";
@@ -1229,13 +1212,9 @@
 "Identity Verification completed." = "Identiteitsverificatie voltooid.";
 "Identity Verification completed: %@" = "Identiteitsverificatie voltooid: %@";
 "Identity Verification due now" = "Identiteitsverificatie moet nu worden uitgevoerd";
-"Identity Verification due soon" = "Identiteitsverificatie binnenkort vereist";
-"Identity Verification due today" = "Identiteitsverificatie moet vandaag worden ingediend";
-"Identity Verification overdue (%@)" = "Identiteitsverificatie te laat (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "De identiteitscontrole is om veiligheidsredenen tijdelijk uitgeschakeld. Probeer het later nog eens.";
-"If enabled, a file reviewer will be required to review the files that are uploaded." = "Indien ingeschakeld, zal een bestandsbeoordelaar de geüploade bestanden moeten beoordelen.";
-"If enabled, all attachments must be opened by the assignee before acknowledging." = "Indien ingeschakeld, moeten alle bijlagen worden geopend door de toegewezen persoon voordat deze worden erkend.";
-"If enabled, this action can be completed in parallel with the previous action in the flow." = "Indien ingeschakeld, kan deze actie parallel worden uitgevoerd met de vorige actie in de stroom.";
+"If enabled, all attachments must be opened by the asignee before acknowledging." = "Indien ingeschakeld, moeten alle bijlagen worden geopend door de rechtverkrijgende alvorens te bevestigen.";
+"If enabled, the file reviewer will be required to review files after submission." = "Indien ingeschakeld, moet de bestandsbeoordelaar de bestanden na indiening beoordelen.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Indien ingeschakeld, tonen we het voorblad van de flow wanneer je voor het eerst een flow workspace opent.";
 "If removed, they will lose access to this workspace immediately." = "Als ze worden verwijderd, verliezen ze onmiddellijk de toegang tot deze werkruimte.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "Als u de verbinding met uw DocuSign-account verbreekt, kunnen de begunstigden geen toegang krijgen tot documenten die met deze account zijn gemaakt of deze ondertekenen. Voltooide documenten worden hierdoor niet beïnvloed.";
@@ -1327,13 +1306,13 @@
 "Join my meeting" = "Neem deel aan mijn vergadering";
 "Join the rest of your team at %@ on %@" = "Sluit u aan bij de rest van uw team bij %1$@ op %2$@";
 "Join the rest of your team on the %@ Portal" = "Sluit u aan bij de rest van uw team op het %@ portaal";
-"Join workspace" = "Werkruimte deelnemen";
 "Joined" = "Aangemeld";
 "Joining..." = "Deelnemen...";
 "Jumio" = "Jumio";
 "Jump to Workspace" = "Ga naar de werkruimte";
 "Keypad" = "Toetsenpaneel";
 "Last Activity" = "Laatste activiteit";
+"Last Name" = "Achternaam";
 "Last active: %@" = "Laatst actief: %@";
 "Last active: %@d ago" = "Laatst actief: %@d geleden";
 "Last active: %@h ago" = "Laatst actief: %@u geleden";
@@ -1348,7 +1327,6 @@
 "Last seen: %@h ago" = "Voor het laatst gezien: %@ uur geleden";
 "Last seen: %@m ago" = "Voor het laatst gezien: %@ minuten geleden";
 "Last seen: %@w ago" = "Voor het laatst gezien: %@ weken geleden";
-"Learn More" = "Meer Leren";
 "Learn more about what assignees will see" = "Meer informatie over wat toegewezen personen te zien krijgen";
 "Leave" = "Verlaten";
 "Leave Audio" = "Verlaat audio";
@@ -1408,7 +1386,6 @@
 "Mark as Unread" = "Markeer als niet gelezen";
 "Max %@ characters" = "Max %1$@ tekens";
 "Max Amount" = "Max bedrag";
-"Maximum %@ size exceeded (%@)" = "Maximale %1$@ grootte overschreden (%2$@)";
 "Maximum members limit reached" = "Maximale ledenlimiet bereikt";
 "Maximum participants reached. Please try removing some and trying again." = "Maximum aantal deelnemers bereikt. Probeer er een paar te verwijderen en probeer het opnieuw.";
 "Me" = "Ik";
@@ -1453,7 +1430,6 @@
 "Member Requests" = "Ledenverzoeken";
 "Member Type" = "Soort lid";
 "Members" = "Leden";
-"Members have not joined" = "Leden zijn niet toegetreden";
 "Members only" = "Alleen leden";
 "Members(%@)" = "Leden (%@)";
 "Mentions" = "Vermeldingen";
@@ -1564,8 +1540,8 @@
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Er zijn geen veelgebruikte tijdvakken gevonden. Overweeg enkele deelnemers te verwijderen, de duur van de vergadering aan te passen of het planningsvenster te wijzigen.";
 "No meeting" = "Geen vergadering";
 "No meetings" = "Geen vergaderingen";
+"No message will be displayed" = "Er wordt geen bericht weergegeven";
 "No pending approvals" = "Geen openstaande goedkeuringen";
-"No personalized message will be displayed" = "Er wordt geen gepersonaliseerd bericht weergegeven";
 "No reminder" = "Geen herinnering";
 "No transaction matching this search" = "Er is geen transactie gevonden voor deze zoekopdracht";
 "No viewers yet" = "Nog geen kijkers";
@@ -1820,7 +1796,7 @@
 "Request Sent" = "Verzoek verzonden";
 "Requests" = "Verzoeken";
 "Require Attachment Review" = "Beoordeling van bijlagen vereisen";
-"Require File Review" = "Bestand Review Vereist";
+"Require Review" = "Beoordeling vereisen";
 "Required Update Available" = "Vereiste update beschikbaar";
 "Required field" = "Verplicht veld";
 "Reschedule" = "Verplaats een nieuwe afspraak";
@@ -1999,7 +1975,6 @@
 "Signup disabled" = "Aanmelden uitgeschakeld";
 "Single sign-on" = "Eenmalig aanmelden";
 "Skip" = "Overslaan";
-"Skip Sequential Order" = "Sla opeenvolgende volgorde over";
 "Skipped" = "Overgeslagen";
 "Slide to Cancel" = "Schuif om te annuleren";
 "Slide up to cancel" = "Schuif omhoog om te annuleren";
@@ -2029,7 +2004,6 @@
 "Start Meeting Early?" = "Vergadering vroeg starten?";
 "Start New Search" = "Start nieuwe zoekopdracht";
 "Start Record" = "Start opname";
-"Start Verification" = "Start Verificatie";
 "Start Workspace" = "Workspace starten";
 "Start a new workspace without using a template" = "Start een nieuwe werkruimte zonder een sjabloon te gebruiken";
 "Start new workspace" = "Nieuwe werkruimte starten";
@@ -2106,7 +2080,6 @@
 "Thank you for using %@ meeting." = "Bedankt voor het gebruiken van \n %@ vergadering.";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "Bedankt. We sturen u het definitieve ondertekende exemplaar zodra iedereen het document heeft ondertekend.";
 "Thanks for joining!" = "Bedankt dat u meedoet!";
-"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "De Client ID en Client Secret worden gebruikt om een OAuth2-toegangstoken te genereren. Toegang tot uw Client ID en Client Secret via het Jumio Portal.";
 "The Meeting has Ended" = "De vergadering is afgelopen";
 "The URL you've entered is not valid. Please review the URL and try again." = "De ingevoerde URL is niet geldig. Controleer de URL en probeer het nog eens.";
 "The account associated with %@ is no longer active" = "Het account dat is gekoppeld aan %@ is niet langer actief";
@@ -2237,9 +2210,6 @@
 "Time Booking completed." = "Tijdboeking voltooid.";
 "Time Booking completed: %@" = "Tijdstip waarop de boeking is voltooid: %@";
 "Time Booking due now" = "Tijdstip. Reservering is nu verschuldigd";
-"Time Booking due soon" = "Tijdreservering binnenkort verschuldigd";
-"Time Booking due today" = "Tijdboeking moet vandaag worden betaald";
-"Time Booking overdue (%@)" = "Tijdreservering te laat (%@)";
 "Time Zone" = "Tijdzone";
 "Title" = "Titel";
 "Title, description, and due date in DocuSign action can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "Titel, beschrijving en vervaldatum in DocuSign-actie kunnen worden bewerkt. Als u het document of de begunstigden moet wijzigen, maakt u een nieuwe DocuSign-actie aan.";
@@ -2275,9 +2245,6 @@
 "To-Do completed." = "Taken voltooid.";
 "To-Do completed: %@" = "Taken voltooid: %@";
 "To-Do due now" = "Uitstaande taak die nu moet worden uitgevoerd";
-"To-Do due soon" = "Te doen binnenkort";
-"To-Do due today" = "Uitstaande taken die vandaag vervallen";
-"To-Do overdue (%@)" = "Te laat voor To-Do (%@)";
 "To-Do reopened" = "Uitstaande taak heropend";
 "To-Dos" = "Uitstaande taken";
 "Today" = "Vandaag";
@@ -2380,7 +2347,6 @@
 "Unpin" = "Verwijder pincode";
 "Unpin from Workspace" = "Ontkoppelen vanuit Workspace";
 "Unread" = "Niet gelezen";
-"Unsupported file format" = "Niet-ondersteund bestandsformaat";
 "Until %@" = "Tot %@";
 "Upcoming Meetings" = "Komende vergaderingen";
 "Upcoming and ongoing" = "Komende en lopende";
@@ -2474,7 +2440,6 @@
 "We couldn't find an active account associated with %@, but we have previously sent invitations to this email address. You can use that email to join %@ portal." = "We konden geen actief account vinden dat is gekoppeld aan %1$@, maar we hebben eerder uitnodigingen naar dit e-mailadres gestuurd. U kunt dat e-mailadres gebruiken om lid te worden van de %2$@ portal.";
 "We couldn't update your status, but retrying may solve this issue." = "We konden uw status niet updaten, maar dit kan mogelijk worden opgelost door opnieuw te proberen.";
 "We couldn’t remove the link preview, but retrying may solve the issue." = "We konden het koppelingsvoorbeeld niet verwijderen, maar het probleem kan mogelijk worden opgelost door opnieuw te proberen.";
-"We don't accept %@ files larger than %@." = "We accepteren geen %1$@ bestanden groter dan %2$@.";
 "We don't accept files larger than %@ B." = "Wij accepteren geen bestanden groter dan %@ B.";
 "We don't accept files larger than %@ KB." = "Wij accepteren geen bestanden groter dan %@ KB.";
 "We don't accept files larger than %@ MB." = "Wij accepteren geen bestanden groter dan %@MB.";
@@ -2695,7 +2660,6 @@
 "Your mobile device is not setup for Email" = "Uw mobiele apparaat is niet ingesteld voor e-mail";
 "Your mobile device is not setup for SMS." = "Uw mobiele apparaat is niet ingesteld voor SMS.";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "Uw organisatie is niet geconfigureerd om SAML SSO te gebruiken. Log alstublieft in met uw account om verder te gaan.";
-"Your organization allows the following file types to be shared:\n%@." = "Uw organisatie staat het delen van de volgende bestandstypen toe:\n%@.";
 "Your organization requires this security configuration." = "Uw organisatie vereist deze veiligheidsconfiguratie.";
 "Your password was successfully updated." = "Uw wachtwoord werd met succes geüpdated.";
 "Your portal is no longer active" = "Uw portaal is niet langer actief";
@@ -2760,7 +2724,6 @@
 "start chat" = "Chat starten";
 "the majority of assignees" = "de meerderheid van de cessionarissen";
 "today" = "Vandaag";
-"value" = "waarde";
 "via Instant Flow" = "via Instant Flow";
 "via template: %@" = "via sjabloon: %@";
 "video" = "video";
@@ -2772,3 +2735,4 @@
 "“Can I call you later?”" = "“Kan ik je later terugbellen?”";
 "“I’m on my way.”" = "“Ik ben onderweg.”";
 "“Sorry, I can’t talk right now.”" = "“Sorry, ik kan nu niet praten.”";
+"Skip Sequential Order" = "Sla opeenvolgende volgorde over";

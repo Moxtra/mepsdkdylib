@@ -198,7 +198,7 @@
 "%@ is %@ right now and may not be able to respond." = "%1$@は現在%2$@のため、返信できない場合があります。";
 "%@ is away right now and may not be able to respond." = "%@は現在退席中のため、応答できない可能性があります。";
 "%@ is controlling co-browsing." = "%@が画面同期を制御しています。";
-"%@ is currently out of office." = "%@は現在、オフィスを離れています。";
+"%@ is currently out of office and will review your message as soon as they return." = "%@は現在外出中で、戻り次第メッセージを確認します。";
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@は現在不在です：緊急の問題がある場合は、%2$@と自由にチャットしてください。";
 "%@ is currently out of office:" = "%@は現在外出中です：";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@は現在不在です。あなたのメッセージは戻り次第レビューされます。";
@@ -388,9 +388,6 @@
 "Acknowledgement completed." = "確認が完了しました。";
 "Acknowledgement completed: %@" = "確認が完了しました: %@";
 "Acknowledgement due now" = "確認の期限です";
-"Acknowledgement due soon" = "まもなく確認が必要です";
-"Acknowledgement due today" = "本日が確認の期限です";
-"Acknowledgement overdue (%@)" = "確認期限超過 (%@)";
 "Action In Progress" = "アクションが進行中です";
 "Action Items" = "アクションアイテム";
 "Action Needed By" = "次のユーザーに必要なアクション:";
@@ -536,9 +533,6 @@
 "Approval completed." = "承認が完了しました。";
 "Approval completed: %@" = "承認が完了しました：%@";
 "Approval due now" = "承認の期限です";
-"Approval due soon" = "間もなく承認が必要です";
-"Approval due today" = "今日が承認期限です。";
-"Approval overdue (%@)" = "承認が遅れています (%@)";
 "Approve" = "承認";
 "Approve All" = "全て承認";
 "Approve Pending Request" = "保留中のリクエストを承認する";
@@ -621,7 +615,6 @@
 "By Email" = "メールで";
 "By Phone" = "電話番号で";
 "By SMS" = "SMSで";
-"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "「スタート」をクリックすることで、あなたはJumioがあなたの個人情報を収集、処理、共有することに同意したことになります。これには生体認証データが含まれる場合があります。これは、そのプライバシーポリシーに基づいています。";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "「確認」をクリックまたはタップすると、このステップに記載または添付の内容を理解し、確認したものとみなします。";
 "By continuing, you are giving consent to be recorded." = "続けると、記録されることに同意したものとみなします。";
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "アカウントを作成すると、利用規約とプライバシーポリシーに同意したことになります。";
@@ -700,6 +693,7 @@
 "Client Groups (Optional)" = "クライアントグループ (オプション)";
 "Client Groups can only be created by admin users in the Admin Portal." = "クライアントグループは、管理者ポータルの管理者ユーザーのみが作成できます。";
 "Client ID" = "クライアントID";
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "クライアントIDとクライアントシークレットは、OAuth2のアクセストークンを生成するために使用されます。JumioポータルからクライアントIDとクライアントシークレットにアクセスしてください。";
 "Client ID or Secret is invalid." = "クライアントIDまたはシークレットが無効です。";
 "Client Left Workspace" = "クライアントはワークスペースから退出しました";
 "Client Login" = "クライアントログイン";
@@ -909,9 +903,6 @@
 "DocuSign completed." = "DocuSignが完了しました。";
 "DocuSign completed: %@" = "DocuSignが完了しました: %@";
 "DocuSign due now" = "DocuSignの期限です";
-"DocuSign due soon" = "DocuSignが間もなく期限切れになります";
-"DocuSign due today" = "DocuSignは本日期限です。";
-"DocuSign overdue (%@)" = "DocuSignが期限切れ（%@）";
 "Document Only" = "ドキュメントのみ";
 "Document Sent" = "ドキュメント送信済み";
 "Document with Certificate" = "証明書付きドキュメント";
@@ -960,9 +951,7 @@
 "E-Sign completed" = "署名が完了しました";
 "E-Sign completed." = "署名が完了しました。";
 "E-Sign completed: %@" = "署名完了: %@";
-"E-Sign due soon" = "間もなくE-署名が必要";
-"E-Sign due today" = "本日が署名の期限です";
-"E-Sign overdue (%@)" = "電子署名が期限切れ（%@）";
+"E-Sign due now" = "署名の期限です";
 "EXPIRED" = "期限切れ";
 "EXPIRY DATE" = "有効期限";
 "Edit" = "編集";
@@ -1083,16 +1072,12 @@
 "File Request completed." = "ファイル要求が完了しました。";
 "File Request completed: %@" = "ファイル要求が完了しました: %@";
 "File Request due now" = "ファイル要求の期限です";
-"File Request due soon" = "ファイルリクエストの期限が近づいています";
-"File Request due today" = "ファイル要求の期限が来ました";
 "File Request needs your review" = "ファイル要求を確認する必要があります";
-"File Request overdue (%@)" = "ファイルリクエスト期限超過 (%@)";
 "File Request ready for review" = "ファイル要求をレビューする準備ができました";
 "File Request ready for review." = "ファイル要求をレビューする準備ができました。";
 "File Request ready for review: %@" = "ファイル要求をレビューする準備ができました: %@";
 "File Request reopened" = "ファイル要求が再開しました";
 "File Reviewer" = "ファイルレビュー";
-"File Size Exceeded" = "ファイルサイズ超過";
 "File doesn't exist." = "ファイルが存在しません。";
 "File size limit reached (%@)" = "ファイルサイズは（%@）の上限に達しました";
 "File type unsupported" = "ファイル タイプサポートされてない";
@@ -1109,6 +1094,7 @@
 "Filters" = "フィルター";
 "Find messages, files, contents, and more by typing above." = "上に入力して、メッセージ、ファイル、コンテンツなどを検索します。";
 "Finish" = "終了";
+"First Name" = "名";
 "Fix Perspective" = "範囲を固定";
 "Flow" = "フロー";
 "Flow Template Library" = "フローテンプレートライブラリ";
@@ -1142,9 +1128,6 @@
 "Form completed." = "フォーム記入日．";
 "Form completed: %@" = "フォーム記入日：%@";
 "Form due now" = "フォームの期限です";
-"Form due soon" = "間もなく提出期限";
-"Form due today" = "本日がフォームの期限です";
-"Form overdue (%@)" = "フォームが期限切れ（%@）";
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "各オブジェクトの'複製'機能を使用して、コンテンツをあなたのワークスペースに転送します。";
 "Forwarding..." = "転送中...";
 "Frequency" = "頻度";
@@ -1227,13 +1210,9 @@
 "Identity Verification completed." = "本人確認が完了しました。";
 "Identity Verification completed: %@" = "本人確認が完了しました: %@";
 "Identity Verification due now" = "本人確認の期限です";
-"Identity Verification due soon" = "間もなく身元確認が必要です";
-"Identity Verification due today" = "今日の期限のID確認";
-"Identity Verification overdue (%@)" = "身分証明の期限超過 (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "セキュリティ上の理由により、本人確認は一時的に無効にされました。後でもう一度お試しください。";
-"If enabled, a file reviewer will be required to review the files that are uploaded." = "有効にすると、アップロードされたファイルをレビューするためのファイルレビューアが必要になります。";
-"If enabled, all attachments must be opened by the assignee before acknowledging." = "有効にすると、すべての添付ファイルを担当者が開く必要があります。";
-"If enabled, this action can be completed in parallel with the previous action in the flow." = "有効にすると、このアクションはフローの前のアクションと並行して完了することができます。";
+"If enabled, all attachments must be opened by the asignee before acknowledging." = "有効にすると、受領者がアクションを完了させる前にすべての添付ファイルを開く必要があります。";
+"If enabled, the file reviewer will be required to review files after submission." = "有効にすると、ファイルレビュー担当者は、送信後にファイルを確認する必要があります。";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "有効にすると、フローワークスペースを初めて開くときにフローカバーページが表示されます。";
 "If removed, they will lose access to this workspace immediately." = "削除すると、このワークスペースへのアクセス権は即座に失われます。";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "DocuSignアカウントを切断すると、担当者はこのアカウントで作成された保留中のドキュメントにアクセスしたり、署名することができなくなります。完了したドキュメントは影響ありません。";
@@ -1325,13 +1304,13 @@
 "Join my meeting" = "自分のミーティングに参加";
 "Join the rest of your team at %@ on %@" = "%2$@の%1$@でのチームの他のメンバーに参加する";
 "Join the rest of your team on the %@ Portal" = "%@ポータルでのチームの他のメンバーに参加する";
-"Join workspace" = "ワークスペースに参加する";
 "Joined" = "参加済み";
 "Joining..." = "参加中...";
 "Jumio" = "Jumio";
 "Jump to Workspace" = "ワークスペースへジャンプ";
 "Keypad" = "キーパッド";
 "Last Activity" = "最新の活動";
+"Last Name" = "姓";
 "Last active: %@" = "最新の活動%@";
 "Last active: %@d ago" = "最新の活動%@日前";
 "Last active: %@h ago" = "最新の活動%@時間前";
@@ -1346,7 +1325,6 @@
 "Last seen: %@h ago" = "最後に確認したのは：%@時間前";
 "Last seen: %@m ago" = "最後に確認したのは：%@分前";
 "Last seen: %@w ago" = "最後に確認したのは：%@週前";
-"Learn More" = "もっと学ぶ";
 "Learn more about what assignees will see" = "担当者に表示される内容の詳細については、こちらをご覧ください";
 "Leave" = "終了する";
 "Leave Audio" = "音声を終了する";
@@ -1406,7 +1384,6 @@
 "Mark as Unread" = "未読としてマークする";
 "Max %@ characters" = "最大 %1$@ 文字";
 "Max Amount" = "最大値";
-"Maximum %@ size exceeded (%@)" = "最大 %1$@ サイズを超えました (%2$@)";
 "Maximum members limit reached" = "最大メンバー数に達しました";
 "Maximum participants reached. Please try removing some and trying again." = "最大参加者数に達しました。一部を削除してから再試行してください。";
 "Me" = "私";
@@ -1451,7 +1428,6 @@
 "Member Requests" = "メンバーリクエスト";
 "Member Type" = "メンバーのタイプ";
 "Members" = "メンバー";
-"Members have not joined" = "メンバーは参加していません";
 "Members only" = "メンバーのみ";
 "Members(%@)" = "メンバー（%@）";
 "Mentions" = "メンション";
@@ -1562,8 +1538,8 @@
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "共通の時間枠が見つかりません。参加者の削除、ミーティング時間の調整、または予定枠の変更を検討してください。";
 "No meeting" = "ミーティングはありません";
 "No meetings" = "ミーティングはありません";
+"No message will be displayed" = "メッセージは表示されません";
 "No pending approvals" = "保留中の承認はありません";
-"No personalized message will be displayed" = "パーソナライズされたメッセージは表示されません";
 "No reminder" = "リマインダなし";
 "No transaction matching this search" = "検索条件に一致するトランザクションはありません";
 "No viewers yet" = "まだ視聴者はいません";
@@ -1818,7 +1794,7 @@
 "Request Sent" = "リクエストを送信";
 "Requests" = "リクエスト";
 "Require Attachment Review" = "添付ファイルの確認が必要です";
-"Require File Review" = "ファイルレビューが必要です";
+"Require Review" = "レビューを行う";
 "Required Update Available" = "利用可能な必須のアップデート";
 "Required field" = "必須フィールド";
 "Reschedule" = "予定変更";
@@ -1997,7 +1973,6 @@
 "Signup disabled" = "サインアップ無効";
 "Single sign-on" = "シングル・サインオン";
 "Skip" = "スキップ";
-"Skip Sequential Order" = "順番をスキップ";
 "Skipped" = "スキップ済み";
 "Slide to Cancel" = "スライドしてキャンセル";
 "Slide up to cancel" = "上にスライドしてキャンセル";
@@ -2027,7 +2002,6 @@
 "Start Meeting Early?" = "ミーティングを前倒しで開始しますか？";
 "Start New Search" = "新しい検索を開始";
 "Start Record" = "記録開始";
-"Start Verification" = "確認を開始";
 "Start Workspace" = "ワークスペースを開始します";
 "Start a new workspace without using a template" = "テンプレートを使用せずに新しいワークスペースを開始";
 "Start new workspace" = "新規ワークスペースを開始";
@@ -2104,7 +2078,6 @@
 "Thank you for using %@ meeting." = "%@のミーティングをご利用いただき、有難うございます。";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "有難うございます。全員の署名が完了しましたら、ドキュメントのコピーをお送りします。";
 "Thanks for joining!" = "ご参加いただき、ありがとうございます！";
-"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "クライアントIDとクライアントシークレットは、OAuth2のアクセストークンを生成するために使用されます。JumioポータルからクライアントIDとクライアントシークレットにアクセスしてください。";
 "The Meeting has Ended" = "ミーティングは終了しました";
 "The URL you've entered is not valid. Please review the URL and try again." = "入力したURLは無効です。URLを確認して、再試行してください。";
 "The account associated with %@ is no longer active" = "%@に関連付けられたアカウントは無効になりました";
@@ -2235,9 +2208,6 @@
 "Time Booking completed." = "時間予約が完了しました。";
 "Time Booking completed: %@" = "時間予約が完了しました: %@";
 "Time Booking due now" = "時間予約の期限です";
-"Time Booking due soon" = "時間予約の期限が近づいています";
-"Time Booking due today" = "本日が時間予約の期限です";
-"Time Booking overdue (%@)" = "時間予約が期限切れです (%@)";
 "Time Zone" = "タイムゾーン";
 "Title" = "タイトル";
 "Title, description, and due date in DocuSign action can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "DocuSignアクションのタイトル、説明、期限を編集できます。ドキュメントまたは担当者の変更が必要な場合は、新しいDocuSignアクションを作成してください。";
@@ -2273,9 +2243,6 @@
 "To-Do completed." = "タスクが完了しました。";
 "To-Do completed: %@" = "タスクが完了しました: %@";
 "To-Do due now" = "タスクの期限です";
-"To-Do due soon" = "まもなく期限のTo-Do";
-"To-Do due today" = "今日が期限のタスク";
-"To-Do overdue (%@)" = "期限超過のTo-Do (%@)";
 "To-Do reopened" = "タスクが再開されました";
 "To-Dos" = "タスク";
 "Today" = "今日";
@@ -2378,7 +2345,6 @@
 "Unpin" = "ピン留め削除";
 "Unpin from Workspace" = "ワークスペースからピンを解除";
 "Unread" = "未読";
-"Unsupported file format" = "サポートされていないファイル形式";
 "Until %@" = "%@まで";
 "Upcoming Meetings" = "ミーティング予定";
 "Upcoming and ongoing" = "今後と進行中";
@@ -2472,7 +2438,6 @@
 "We couldn't find an active account associated with %@, but we have previously sent invitations to this email address. You can use that email to join %@ portal." = "%1$@に関連付けられた有効なアカウントが見つかりませんでしたが、以前にこのメールアドレスに招待を送信しています。そのメールを使用して%2$@件のポータルに参加可能です。";
 "We couldn't update your status, but retrying may solve this issue." = "ステータスの更新ができませんが、再試行で問題が解決する可能性があります。";
 "We couldn’t remove the link preview, but retrying may solve the issue." = "リンクプレビューを削除できませんでしたが、再試行するとこの問題が解決する場合があります。";
-"We don't accept %@ files larger than %@." = "私たちは%1$@ファイルを%2$@より大きいものは受け付けていません。";
 "We don't accept files larger than %@ B." = "%@ バイトより大きいサイズのファイルは受け付けられません。";
 "We don't accept files larger than %@ KB." = "%@ KBより大きいサイズのファイルは受け付けられません。";
 "We don't accept files larger than %@ MB." = "%@ MBを超えるファイルは使用できません。";
@@ -2693,7 +2658,6 @@
 "Your mobile device is not setup for Email" = "あなたの携帯デバイスはメールが設定されていません。";
 "Your mobile device is not setup for SMS." = "あなたの携帯デバイスはSMSが設定されていません。";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "お客様の組織はSAML SSOを使用するように設定されていません。続行するにはアカウントでログインしてください。";
-"Your organization allows the following file types to be shared:\n%@." = "あなたの組織は以下のファイルタイプの共有を許可しています:\n%@。";
 "Your organization requires this security configuration." = "組織では、このセキュリティ構成が必要です。";
 "Your password was successfully updated." = "パスワードを更新しました。";
 "Your portal is no longer active" = "あなたのポータルはもはやアクティブではなくなりました";
@@ -2758,7 +2722,6 @@
 "start chat" = "チャット開始";
 "the majority of assignees" = "担当者の過半数";
 "today" = "今日";
-"value" = "値";
 "via Instant Flow" = "インスタントフロー経由で";
 "via template: %@" = "テンプレートを使用します。 %@";
 "video" = "ビデオ";
@@ -2770,3 +2733,4 @@
 "“Can I call you later?”" = "“後ほどこちらからかけていいですか？”";
 "“I’m on my way.”" = "“今向かっています。”";
 "“Sorry, I can’t talk right now.”" = "“すみません。今出ることができません。”";
+"Skip Sequential Order" = "順番をスキップ";

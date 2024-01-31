@@ -198,7 +198,7 @@
 "%@ is %@ right now and may not be able to respond." = "%1$@ е %2$@ точно сега и може да не успеете да отговорите.";
 "%@ is away right now and may not be able to respond." = "%@ отсъства в момента и може да не е в състояние да отговори.";
 "%@ is controlling co-browsing." = "%@ контролира съвместната навигация.";
-"%@ is currently out of office." = "%@ в момента не е в офиса.";
+"%@ is currently out of office and will review your message as soon as they return." = "%@ в момента не е в офиса и ще прегледа съобщението ви, когато се върне.";
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@ в момента не е в офиса. При възникнали неотложни проблеми, моля разговаряйте с %2$@.";
 "%@ is currently out of office:" = "%@в момента не е в офиса:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ в момента не е на линия и ще види вашето съобщение, когато се върне.";
@@ -388,9 +388,6 @@
 "Acknowledgement completed." = "Потвърждението е завършено.";
 "Acknowledgement completed: %@" = "Потвърждението е завършено: %@";
 "Acknowledgement due now" = "Крайният срок за потвърждението изтича сега";
-"Acknowledgement due soon" = "Признанието трябва да бъде направено скоро";
-"Acknowledgement due today" = "Срокът за потвърждение е днес";
-"Acknowledgement overdue (%@)" = "Признанието е просрочено (%@)";
 "Action In Progress" = "Действие в ход";
 "Action Items" = "Елементи за действие";
 "Action Needed By" = "Необходимо е действие от";
@@ -536,9 +533,6 @@
 "Approval completed." = "Одобрението е завършено.";
 "Approval completed: %@" = "Одобрението е завършено: %@";
 "Approval due now" = "Крайният срок за одобрението изтича сега";
-"Approval due soon" = "Одобрението предстои скоро";
-"Approval due today" = "Срокът за одобрение е днес";
-"Approval overdue (%@)" = "Одобрението е просрочено (%@)";
 "Approve" = "Одобрение";
 "Approve All" = "Одобрение на всички";
 "Approve Pending Request" = "Одобри чакаща заявка";
@@ -621,7 +615,6 @@
 "By Email" = "По имейл";
 "By Phone" = "По телефон";
 "By SMS" = "Посредством SMS";
-"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "С натискането на Старт, вие давате съгласието си Jumio да събира, обработва и споделя вашата лична информация, която може да включва биометрични данни, съгласно неговата Политика за поверителност.";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "С кликването на \"Съгласявам се\", потвърждавам, че съм прочел и разбрал информацията, съдържаща се в тази заявка за потвърждение.";
 "By continuing, you are giving consent to be recorded." = "Продължавайки, вие давате съгласие да бъдете записвани.";
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "Със създаването на акаунт вие се съгласявате с нашите Условията за услуги и Правилата за поверителност.";
@@ -700,6 +693,7 @@
 "Client Groups (Optional)" = "Групи на клиент (по желание)";
 "Client Groups can only be created by admin users in the Admin Portal." = "Клиентските групи могат да се създават само от администратори в портала за администратори.";
 "Client ID" = "Идентификационен номер на клиента";
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "Идентификационният номер на клиента и тайният код на клиента се използват за генериране на OAuth2 достъпен токен. Достъпете до идентификационния номер на клиента и тайния код на клиента от портала на Jumio.";
 "Client ID or Secret is invalid." = "Идентификационният номер на клиента или секретът е невалиден.";
 "Client Left Workspace" = "Клиент напусна работно пространство";
 "Client Login" = "Вход на потребител";
@@ -910,9 +904,6 @@
 "DocuSign completed." = "DocuSign е завършен.";
 "DocuSign completed: %@" = "DocuSign е завършен: %@";
 "DocuSign due now" = "Крайният срок на DocuSign е сега";
-"DocuSign due soon" = "Скоро изтича срокът за DocuSign";
-"DocuSign due today" = "Крайният срок на DocuSign е днес";
-"DocuSign overdue (%@)" = "Изтекъл срок на DocuSign (%@)";
 "Document Only" = "Само документ";
 "Document Sent" = "Документът е изпратен";
 "Document with Certificate" = "Документ със сертификат";
@@ -961,9 +952,7 @@
 "E-Sign completed" = "Електронният подпис е завършен";
 "E-Sign completed." = "Електронният подпис е завършен.";
 "E-Sign completed: %@" = "Електронният подпис е завършен: %@";
-"E-Sign due soon" = "Електронният подпис е скоро дължим";
-"E-Sign due today" = "Електронният подпис е с краен срок днес";
-"E-Sign overdue (%@)" = "Е-Подпис просрочен (%@)";
+"E-Sign due now" = "Електронният подпис трябва да бъде извършен сега";
 "EXPIRED" = "ИЗТЕКЛО";
 "EXPIRY DATE" = "ДАТА НА ИЗТИЧАНЕ";
 "Edit" = "Редактиране";
@@ -1085,16 +1074,12 @@
 "File Request completed." = "Заявката за файл е завършена.";
 "File Request completed: %@" = "Заявката за файл е завършена: %@";
 "File Request due now" = "Крайният срок за заявката настъпва сега";
-"File Request due soon" = "Заявка за файл скоро изтича";
-"File Request due today" = "Крайният срок на заявката за файл е днес";
 "File Request needs your review" = "Заявката за файл се нуждае от прегледа ви";
-"File Request overdue (%@)" = "Заявка за файл просрочена (%@)";
 "File Request ready for review" = "Заявката за файл е готова за преглед";
 "File Request ready for review." = "Заявката за файл е готова за преглед.";
 "File Request ready for review: %@" = "Заявката за файл е готова за преглед: %@";
 "File Request reopened" = "Заявката за файл е отворена повторно";
 "File Reviewer" = "Прегледал файла";
-"File Size Exceeded" = "Формулярът скоро изтича";
 "File doesn't exist." = "Файлът не съществува.";
 "File size limit reached (%@)" = "Ограничението за размер на файл е достигнато (%@)";
 "File type unsupported" = "Този тип файл не се поддържа";
@@ -1111,6 +1096,7 @@
 "Filters" = "Филтри";
 "Find messages, files, contents, and more by typing above." = "Намерете съобщения, файлове, съдържание и др. като пишете горе.";
 "Finish" = "Готово";
+"First Name" = "Собствено име";
 "Fix Perspective" = "Коригиране на перспектива";
 "Flow" = "Поток";
 "Flow Template Library" = "Библиотека с шаблони на потока";
@@ -1144,9 +1130,6 @@
 "Form completed." = "Формулярът е завършен.";
 "Form completed: %@" = "Формулярът е завършен: %@";
 "Form due now" = "Крайният срок на формуляра е сега";
-"Form due soon" = "Формулярът скоро изтича";
-"Form due today" = "Крайният срок на формуляра е днес";
-"Form overdue (%@)" = "Формулярът е просрочен (%@)";
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "Препращайте съдържание към вашите работни пространства, като използвате функцията „Копиране в…“ на всеки обект.";
 "Forwarding..." = "Препращане...";
 "Frequency" = "Честота";
@@ -1229,13 +1212,9 @@
 "Identity Verification completed." = "Проверката на самоличността е завършена.";
 "Identity Verification completed: %@" = "Проверката на самоличността е завършена: %@";
 "Identity Verification due now" = "Проверката на самоличността предстои сега";
-"Identity Verification due soon" = "Предстои скорошна верификация на идентичността";
-"Identity Verification due today" = "Проверката на самоличността предстои днес";
-"Identity Verification overdue (%@)" = "Просрочена верификация на идентичност (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "Проверката на самоличността е временно деактивирана от съображения за сигурност. Моля, опитайте отново по-късно.";
-"If enabled, a file reviewer will be required to review the files that are uploaded." = "Ако е активирано, рецензент на файлове ще трябва да прегледа качените файлове.";
-"If enabled, all attachments must be opened by the assignee before acknowledging." = "Ако е активирано, всички прикачени файлове трябва да бъдат отворени от присвоения потребител преди да бъдат потвърдени.";
-"If enabled, this action can be completed in parallel with the previous action in the flow." = "Ако е активирано, това действие може да бъде изпълнено паралелно с предишното действие в потока.";
+"If enabled, all attachments must be opened by the asignee before acknowledging." = "Ако е активирано, всички прикачени файлове трябва да бъдат отворени от пълномощника, преди да се потвърди.";
+"If enabled, the file reviewer will be required to review files after submission." = "Ако е разрешено, рецензентът на файлове ще трябва да прегледа файловете след изпращане.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Ако е активирано, ще показваме заглавната страница на потока всеки път, когато отворите работно пространство на потока за първи път.";
 "If removed, they will lose access to this workspace immediately." = "Ако бъдат премахнати, те незабавно ще загубят достъп до това работно пространство.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "Ако прекъснете връзката с вашия профил в DocuSign, получателите няма да имат достъп или да подпишат чакащи документи, създадени с този профил. Попълнените документи няма да бъдат засегнати от това.";
@@ -1327,13 +1306,13 @@
 "Join my meeting" = "Присъединяване към моята среща";
 "Join the rest of your team at %@ on %@" = "Присъединете се към екипа си от %1$@ на %2$@";
 "Join the rest of your team on the %@ Portal" = "Присъединете се към екипа си в портала на %@";
-"Join workspace" = "Присъединете се към работното пространство";
 "Joined" = "Присъединен";
 "Joining..." = "Присъединяване...";
 "Jumio" = "Jumio";
 "Jump to Workspace" = "Отидете към работно пространство";
 "Keypad" = "Клавиатура";
 "Last Activity" = "Последна дейност";
+"Last Name" = "Фамилно име";
 "Last active: %@" = "Последно активен: %@";
 "Last active: %@d ago" = "Последно активен: преди %@д";
 "Last active: %@h ago" = "Последно активен: преди %@ч";
@@ -1348,7 +1327,6 @@
 "Last seen: %@h ago" = "Последно видян на: %@ часа преди";
 "Last seen: %@m ago" = "Последно видян на: %@ минути преди";
 "Last seen: %@w ago" = "Последно видян на: %@ седмици преди";
-"Learn More" = "Научи Повече";
 "Learn more about what assignees will see" = "Научете повече за това, което приемниците ще видят";
 "Leave" = "Напускане";
 "Leave Audio" = "Изключване на микрофон";
@@ -1408,7 +1386,6 @@
 "Mark as Unread" = "Маркирай като непрочетено";
 "Max %@ characters" = "Максимален брой %1$@ знаци";
 "Max Amount" = "Максимална сума";
-"Maximum %@ size exceeded (%@)" = "Превишен максимален размер %1$@ (%2$@)";
 "Maximum members limit reached" = "Достигнат е максималният лимит на членове";
 "Maximum participants reached. Please try removing some and trying again." = "Достигнат е максималният брой участници. Моля, пробвайте да отстраните няколко и опитайте отново.";
 "Me" = "Аз";
@@ -1453,7 +1430,6 @@
 "Member Requests" = "Заявки за участник";
 "Member Type" = "Вид на член";
 "Members" = "Участници";
-"Members have not joined" = "Членовете не са се присъединили";
 "Members only" = "Само за членове";
 "Members(%@)" = "Участници (%@)";
 "Mentions" = "Споменавания";
@@ -1564,8 +1540,8 @@
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Няма намерени общи времеви интервали. Помислете за премахване на някои участници, коригиране на продължителността на срещата или промяна на прозореца от време.";
 "No meeting" = "Няма среща";
 "No meetings" = "Няма срещи";
+"No message will be displayed" = "Няма да бъде изведено съобщение";
 "No pending approvals" = "Няма изчакващи одобрения";
-"No personalized message will be displayed" = "Няма да бъде показано персонализирано съобщение";
 "No reminder" = "Без напомняне";
 "No transaction matching this search" = "Няма трансакция, която съвпада с това търсене";
 "No viewers yet" = "Все още няма зрители";
@@ -1820,7 +1796,7 @@
 "Request Sent" = "Заявката е изпратена";
 "Requests" = "Запросы";
 "Require Attachment Review" = "Изисква се преглед на прикачения файл";
-"Require File Review" = "Изисква се преглед на файла";
+"Require Review" = "Изисква се преглед";
 "Required Update Available" = "Задължителната актуализация е достъпна";
 "Required field" = "Полето е задължително";
 "Reschedule" = "Пренасрочване";
@@ -1999,7 +1975,6 @@
 "Signup disabled" = "Регистрацията е деактивирана";
 "Single sign-on" = "Единично влизане";
 "Skip" = "Пропускане";
-"Skip Sequential Order" = "Пропусни последователен ред";
 "Skipped" = "Пропуснато";
 "Slide to Cancel" = "Плъзнете за отмяна";
 "Slide up to cancel" = "Плъзнете нагоре за отмяна";
@@ -2029,7 +2004,6 @@
 "Start Meeting Early?" = "Желаете ли да започнете срещата по-рано?";
 "Start New Search" = "Започване на ново търсене";
 "Start Record" = "Начало на записване";
-"Start Verification" = "Стартирайте верификация";
 "Start Workspace" = "Стартирайте работното пространство";
 "Start a new workspace without using a template" = "Стартирайте ново работно пространство без използване на шаблон";
 "Start new workspace" = "Стартирай ново работно пространство";
@@ -2106,7 +2080,6 @@
 "Thank you for using %@ meeting." = "Благодарим ви, че използвахте срещата на \n %@.";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "Благодаря ви. Ще ви изпратим окончателното подписано копие, след като всички подпишат документа.";
 "Thanks for joining!" = "Благодарим ви, че се присъединихте!";
-"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "Идентификационният номер на клиента и тайният код на клиента се използват за генериране на OAuth2 достъпен токен. Достъпете до идентификационния номер на клиента и тайния код на клиента от портала на Jumio.";
 "The Meeting has Ended" = "Срещата приключи";
 "The URL you've entered is not valid. Please review the URL and try again." = "URL адресът, който сте въвели, е невалиден Моля, прегледайте URL адреса и опитайте отново.";
 "The account associated with %@ is no longer active" = "Профилът, асоцииран с %@, вече не е активен";
@@ -2237,9 +2210,6 @@
 "Time Booking completed." = "Резервацията за време е завършена.";
 "Time Booking completed: %@" = "Завършена резервация за време: %@";
 "Time Booking due now" = "Резервацията на време е за сега";
-"Time Booking due soon" = "Скоро е срокът за резервация на време";
-"Time Booking due today" = "Резервация за време днес";
-"Time Booking overdue (%@)" = "Закъснение в резервацията (%@)";
 "Time Zone" = "Часова зона";
 "Title" = "Заглавие";
 "Title, description, and due date in DocuSign action can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "Заглавието, описанието и крайната дата в действието DocuSign могат да се редактират. Ако трябва да промените документа или възложителите, моля, създайте ново действие DocuSign.";
@@ -2275,9 +2245,6 @@
 "To-Do completed." = "Завършен списък със задачи.";
 "To-Do completed: %@" = "Завършено задание: %@";
 "To-Do due now" = "Крайният срок на заданието настъпи";
-"To-Do due soon" = "Предстоящи задачи";
-"To-Do due today" = "Списък със задачи, който трябва да се изпълни днес";
-"To-Do overdue (%@)" = "Просрочени задачи (%@)";
 "To-Do reopened" = "Задачата е отворена отново";
 "To-Dos" = "Задачи";
 "Today" = "Днес";
@@ -2380,7 +2347,6 @@
 "Unpin" = "Премахване на отметка";
 "Unpin from Workspace" = "Откачване от работно пространство";
 "Unread" = "Непрочетени";
-"Unsupported file format" = "Неподдържан формат на файл";
 "Until %@" = "До %@";
 "Upcoming Meetings" = "Предстоящи срещи";
 "Upcoming and ongoing" = "Предстоящи и текущи";
@@ -2474,7 +2440,6 @@
 "We couldn't find an active account associated with %@, but we have previously sent invitations to this email address. You can use that email to join %@ portal." = "Не можахме да намерим активен акаунт, свързан с %1$@, но преди това сме изпращали покани на този имейл адрес. Можете да използвате този имейл, за да се присъедините към %2$@ портал.";
 "We couldn't update your status, but retrying may solve this issue." = "Не можем да обновим статуса ви, но ако опитате отново, проблемът може да се реши.";
 "We couldn’t remove the link preview, but retrying may solve the issue." = "Не можахме да премахнем визуализацията на връзката, но чрез повторен опит този проблем може да се реши.";
-"We don't accept %@ files larger than %@." = "Не приемаме %1$@ файлове по-големи от %2$@.";
 "We don't accept files larger than %@ B." = "Не приемаме файлове, по-големи от %@ B.";
 "We don't accept files larger than %@ KB." = "Не приемаме файлове, по-големи от %@ KB.";
 "We don't accept files larger than %@ MB." = "Ние не приемаме файлове, които са по-големи от %@MB.";
@@ -2694,7 +2659,6 @@
 "Your mobile device is not setup for Email" = "Вашето мобилно устройство не е конфигурирано за имейл";
 "Your mobile device is not setup for SMS." = "Вашето мобилно устройство не е конфигурирано за SMS.";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "Вашата организация не е конфигурирана да използва SAML SSO. Моля, влезте в профила си, за да продължите.";
-"Your organization allows the following file types to be shared:\n%@." = "Вашата организация позволява споделянето на следните типове файлове:\n%@.";
 "Your organization requires this security configuration." = "Вашата организация изисква тази конфигурация за безопасност.";
 "Your password was successfully updated." = "Вашата парола беше успешно актуализирана.";
 "Your portal is no longer active" = "Порталът ви вече не е активен";
@@ -2759,7 +2723,6 @@
 "start chat" = "Започване на чат";
 "the majority of assignees" = "по-голямата част от цесионерите";
 "today" = "Днес";
-"value" = "стойност";
 "via Instant Flow" = "чрез Незабавен Поток";
 "via template: %@" = "чрез шаблон: %@";
 "video" = "видео";
@@ -2771,3 +2734,4 @@
 "“Can I call you later?”" = "“Мога ли да ви се обадя по-късно?”";
 "“I’m on my way.”" = "“Пътувам.”";
 "“Sorry, I can’t talk right now.”" = "“Съжалявам, не мога да говоря в момента.”";
+"Skip Sequential Order" = "Пропусни последователен ред";

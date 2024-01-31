@@ -198,7 +198,7 @@
 "%@ is %@ right now and may not be able to respond." = "%1$@ đang %2$@ ngay lúc này và có thể hồi đáp.";
 "%@ is away right now and may not be able to respond." = "%@ giờ đang đi vắng và có thể không trả lời được.";
 "%@ is controlling co-browsing." = "%@ đang điều khiển phiên duyệt chung.";
-"%@ is currently out of office." = "%@ hiện đang nghỉ làm.";
+"%@ is currently out of office and will review your message as soon as they return." = "%@ hiện không có mặt tại văn phòng và sẽ xem xét tin nhắn của bạn ngay khi họ quay lại.";
 "%@ is currently out of office. If you have any urgent issues, feel free to chat with %@." = "%1$@ hiện không có mặt tại văn phòng. Nếu bạn có bất kỳ vấn đề khẩn cấp nào, vui lòng trò chuyện với %2$@.";
 "%@ is currently out of office:" = "%@ hiện không có mặt tại văn phòng:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ hiện đang không có mặt và sẽ xem tin nhắn của bạn ngay khi họ quay lại.";
@@ -388,9 +388,6 @@
 "Acknowledgement completed." = "Đã hoàn thành lời công nhận.";
 "Acknowledgement completed: %@" = "Đã hoàn thành lời công nhận: %@";
 "Acknowledgement due now" = "Lời công nhận hiện đến hạn";
-"Acknowledgement due soon" = "Sắp đến hạn xác nhận";
-"Acknowledgement due today" = "Lời công nhận đến hạn vào hôm nay";
-"Acknowledgement overdue (%@)" = "Xác nhận quá hạn (%@)";
 "Action In Progress" = "Hành động đang tiến hành";
 "Action Items" = "Mục tác vụ";
 "Action Needed By" = "Có hành động cần thực hiện bởi";
@@ -536,9 +533,6 @@
 "Approval completed." = "Đã hoàn thành lời phê duyệt.";
 "Approval completed: %@" = "Lời phê duyệt đã hoàn thành: %@";
 "Approval due now" = "Lời phê duyệt hiện đến hạn";
-"Approval due soon" = "Sắp đến hạn phê duyệt";
-"Approval due today" = "Lời phê duyệt đến hạn vào hôm nay";
-"Approval overdue (%@)" = "Phê duyệt quá hạn (%@)";
 "Approve" = "Phê duyệt";
 "Approve All" = "Phê duyệt Tất cả";
 "Approve Pending Request" = "Chấp thuận Yêu cầu Đang chờ";
@@ -621,7 +615,6 @@
 "By Email" = "Bằng Email";
 "By Phone" = "Bằng Điện thoại";
 "By SMS" = "Bằng SMS";
-"By clicking Start you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "Bằng cách nhấn vào Start, bạn đồng ý cho Jumio thu thập, xử lý và chia sẻ thông tin cá nhân của bạn, có thể bao gồm dữ liệu sinh trắc học, theo Chính sách Bảo mật của nó.";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained by this acknowledgement request." = "Khi nhấp vào “Xác nhận”, tôi xác nhận rằng tôi đã đọc và hiểu thông tin có trong yêu cầu công nhận này.";
 "By continuing, you are giving consent to be recorded." = "Bằng cách tiếp tục, bạn đồng ý được ghi lại.";
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "Khi tạo tài khoản, bạn đồng ý với Điều khoản Dịch vụ & Chính sách Bảo mật của chúng tôi.";
@@ -700,6 +693,7 @@
 "Client Groups (Optional)" = "Nhóm Khách Hàng (Tùy Chọn)";
 "Client Groups can only be created by admin users in the Admin Portal." = "Chỉ người dùng là quản trị viên mới có thể tạo nhóm khách hàng trong Cổng Quản Trị.";
 "Client ID" = "ID Khách hàng";
+"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "ID Khách hàng và Mật khẩu bí mật Khách hàng được sử dụng để tạo ra một mã thông báo truy cập OAuth2. Truy cập ID Khách hàng và Mật khẩu bí mật Khách hàng từ Cổng thông tin Jumio.";
 "Client ID or Secret is invalid." = "ID khách hàng hoặc Mật khẩu không hợp lệ.";
 "Client Left Workspace" = "Khách Hàng Đã Rời Khỏi Không Gian Làm Việc";
 "Client Login" = "Khách hàng Đăng nhập";
@@ -910,9 +904,6 @@
 "DocuSign completed." = "DocuSign đã hoàn thành.";
 "DocuSign completed: %@" = "DocuSign đã hoàn thành: %@";
 "DocuSign due now" = "DocuSign đã đến hạn";
-"DocuSign due soon" = "Sắp đến hạn ký DocuSign";
-"DocuSign due today" = "DocuSign đến hạn hôm nay";
-"DocuSign overdue (%@)" = "DocuSign quá hạn (%@)";
 "Document Only" = "Chỉ có Tài liệu";
 "Document Sent" = "Tài liệu Đã Gửi";
 "Document with Certificate" = "Tài liệu có Giấy chứng nhận";
@@ -961,9 +952,7 @@
 "E-Sign completed" = "Đã hoàn thành tài liệu ký điện tử";
 "E-Sign completed." = "Đã hoàn thành tài liệu ký điện tử.";
 "E-Sign completed: %@" = "Đã hoàn thành tài liệu ký điện tử: %@";
-"E-Sign due soon" = "Ký điện tử sắp đến hạn";
-"E-Sign due today" = "Tài liệu ký điện tử đến hạn vào hôm nay";
-"E-Sign overdue (%@)" = "Quá hạn ký điện tử (%@)";
+"E-Sign due now" = "Tài liệu ký điện tử đến hạn ngay bây giờ";
 "EXPIRED" = "ĐÃ HẾT HẠN";
 "EXPIRY DATE" = "NGÀY HẾT HẠN";
 "Edit" = "Chỉnh sửa";
@@ -1085,16 +1074,12 @@
 "File Request completed." = "Yêu cầu Tệp đã hoàn thành.";
 "File Request completed: %@" = "Yêu cầu Tệp đã hoàn thành: %@";
 "File Request due now" = "Yêu cầu Tệp hiện đến hạn";
-"File Request due soon" = "Yêu cầu tệp sắp hết hạn";
-"File Request due today" = "Yêu cầu tệp đến hạn vào hôm nay";
 "File Request needs your review" = "Yêu cầu Tệp cần bạn xem xét";
-"File Request overdue (%@)" = "Yêu cầu tệp quá hạn (%@)";
 "File Request ready for review" = "Yêu cầu Tệp sẵn sàng để xem xét";
 "File Request ready for review." = "Yêu cầu Tệp sẵn sàng để xem xét.";
 "File Request ready for review: %@" = "Yêu cầu Tệp sẵn sàng để xem xét: %@";
 "File Request reopened" = "Yêu cầu Tệp được mở lại";
 "File Reviewer" = "Người đánh giá Tệp";
-"File Size Exceeded" = "Kích thước tệp vượt quá";
 "File doesn't exist." = "Tệp tin không tồn tại.";
 "File size limit reached (%@)" = "Đã đạt đến giới hạn kích thước tệp (%@)";
 "File type unsupported" = "Loại tệp không được hỗ trợ";
@@ -1111,6 +1096,7 @@
 "Filters" = "Bộ lọc";
 "Find messages, files, contents, and more by typing above." = "Tìm tin nhắn, tệp tin, nội dung, v.v. bằng cách gõ từ khóa lên đây.";
 "Finish" = "Hoàn thành";
+"First Name" = "Tên";
 "Fix Perspective" = "Cố định Góc nhìn";
 "Flow" = "Luồng";
 "Flow Template Library" = "Thư viện Bản mẫu Luồng";
@@ -1144,9 +1130,6 @@
 "Form completed." = "Đã hoàn thành biểu mẫu.";
 "Form completed: %@" = "Đã hoàn thành biểu mẫu: %@";
 "Form due now" = "Biểu mẫu đến hạn ngay bây giờ";
-"Form due soon" = "Biểu mẫu đến hạn sớm";
-"Form due today" = "Biểu mẫu đến hạn vào hôm nay";
-"Form overdue (%@)" = "Biểu mẫu quá hạn (%@)";
 "Forward content to your workspaces using the ‘Copy To…’ feature on each object." = "Chuyển tiếp nội dung đến các không gian làm việc bằng tính năng 'Sao Chép Tới...' trên mỗi đối tượng.";
 "Forwarding..." = "Đang chuyển tiếp...";
 "Frequency" = "Tần số";
@@ -1229,13 +1212,9 @@
 "Identity Verification completed." = "Đã hoàn tất Quy Trình Xác Minh Danh Tính.";
 "Identity Verification completed: %@" = "Đã hoàn tất Quy Trình Xác Minh Danh Tính: %@";
 "Identity Verification due now" = "Quy Trình Xác Minh Danh Tính hiện đến hạn";
-"Identity Verification due soon" = "Xác minh danh tính sắp đến hạn";
-"Identity Verification due today" = "Quy Trình Xác Minh Danh Tính đến hạn hôm nay";
-"Identity Verification overdue (%@)" = "Xác minh danh tính quá hạn (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "Quá trình xác minh danh tính đã tạm thời bị vô hiệu hóa vì những lý do bảo mật. Vui lòng thử lại sau.";
-"If enabled, a file reviewer will be required to review the files that are uploaded." = "Nếu được kích hoạt, người xem xét tệp sẽ được yêu cầu xem xét các tệp được tải lên.";
-"If enabled, all attachments must be opened by the assignee before acknowledging." = "Nếu được kích hoạt, tất cả các tệp đính kèm phải được người được giao mở trước khi xác nhận.";
-"If enabled, this action can be completed in parallel with the previous action in the flow." = "Nếu được kích hoạt, hành động này có thể được hoàn thành đồng thời với hành động trước đó trong quy trình.";
+"If enabled, all attachments must be opened by the asignee before acknowledging." = "Nếu được bật, người được chỉ định phải mở tất cả các tệp đính kèm trước khi công nhận.";
+"If enabled, the file reviewer will be required to review files after submission." = "Nếu bật, người xem xét tệp sẽ được yêu cầu xem xét tệp sau khi gửi.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Nếu được bật, chúng tôi sẽ hiển thị trang bìa của quy trình mỗi lần đầu bạn mở không gian làm việc theo quy trình.";
 "If removed, they will lose access to this workspace immediately." = "Nếu bị xóa, họ sẽ mất quyền truy cập vào không gian làm việc này ngay lập tức.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "Nếu bạn ngắt kết nối tài khoản DocuSign, những người được chỉ định sẽ không thể truy cập hoặc ký bất kỳ tài liệu đang chờ xử lý nào được tạo bằng tài khoản này. Điều này sẽ không ảnh hưởng đến các tài liệu đã hoàn thành.";
@@ -1327,13 +1306,13 @@
 "Join my meeting" = "Tham gia cuộc họp của tôi";
 "Join the rest of your team at %@ on %@" = "Tham gia cùng nhóm của bạn tại %1$@ trên %2$@";
 "Join the rest of your team on the %@ Portal" = "Tham gia cùng nhóm của bạn trên Cổng thông tin %@";
-"Join workspace" = "Tham gia không gian làm việc";
 "Joined" = "Đã tham gia";
 "Joining..." = "Đang tham gia...";
 "Jumio" = "Jumio";
 "Jump to Workspace" = "Chuyển Đến Không Gian Làm Việc";
 "Keypad" = "Vùng phím";
 "Last Activity" = "Hoạt động gần nhất";
+"Last Name" = "Họ";
 "Last active: %@" = "Lần hoạt động cuối cùng: %@";
 "Last active: %@d ago" = "Lần hoạt động cuối cùng: %@ ngày trước";
 "Last active: %@h ago" = "Lần hoạt động cuối cùng: %@ giờ trước";
@@ -1348,7 +1327,6 @@
 "Last seen: %@h ago" = "Truy cập lần cuối: %@ giờ trước";
 "Last seen: %@m ago" = "Truy cập lần cuối: %@ phút trước";
 "Last seen: %@w ago" = "Truy cập lần cuối: %@ tuần trước";
-"Learn More" = "Tìm hiểu thêm";
 "Learn more about what assignees will see" = "Tìm hiểu thêm về những nội dung sẽ hiển thị cho người phụ trách";
 "Leave" = "Rời khỏi";
 "Leave Audio" = "Tắt âm thanh";
@@ -1408,7 +1386,6 @@
 "Mark as Unread" = "Đánh dấu là chưa đọc";
 "Max %@ characters" = "Tối đa %1$@ ký tự";
 "Max Amount" = "Số lượng Tối đa";
-"Maximum %@ size exceeded (%@)" = "Đã vượt quá kích thước tối đa %1$@ (%2$@)";
 "Maximum members limit reached" = "Đã đạt giới hạn số thành viên tối đa";
 "Maximum participants reached. Please try removing some and trying again." = "Người tham dự tối đa đạt được. Vui lòng thử xóa một số và thử lại.";
 "Me" = "Tôi";
@@ -1453,7 +1430,6 @@
 "Member Requests" = "Yêu cầu Thành viên";
 "Member Type" = "Kiểu Thành Viên";
 "Members" = "Thành viên";
-"Members have not joined" = "Thành viên chưa tham gia";
 "Members only" = "Chỉ dành cho thành viên";
 "Members(%@)" = "Thành viên (%@)";
 "Mentions" = "Lượt đề cập";
@@ -1564,8 +1540,8 @@
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Không tìm thấy khung giờ trống phổ biến nào. Hãy xóa một số người tham gia, điều chỉnh thời lượng cuộc họp hoặc thay đổi phạm vi lịch họp.";
 "No meeting" = "Không có cuộc họp";
 "No meetings" = "Không có cuộc họp";
+"No message will be displayed" = "Sẽ không tin nhắn nào được hiển thị";
 "No pending approvals" = "Không có phê duyệt đang chờ xử lý";
-"No personalized message will be displayed" = "Không có thông điệp cá nhân nào sẽ được hiển thị";
 "No reminder" = "Không có nhắc nhở";
 "No transaction matching this search" = "Không có giao dịch nào khớp với tìm kiếm này";
 "No viewers yet" = "Chưa có người xem";
@@ -1820,7 +1796,7 @@
 "Request Sent" = "Yêu cầu đã được Gửi";
 "Requests" = "Yêu cầu";
 "Require Attachment Review" = "Yêu cầu Đánh giá Tệp đính kèm";
-"Require File Review" = "Yêu cầu Xem lại Tệp";
+"Require Review" = "Yêu cầu xem xét";
 "Required Update Available" = "Có sẵn Cập nhật Bắt buộc";
 "Required field" = "Trường bắt buộc";
 "Reschedule" = "Dời lịch";
@@ -1999,7 +1975,6 @@
 "Signup disabled" = "Đăng ký bị vô hiệu hóa";
 "Single sign-on" = "Đăng nhập một lần";
 "Skip" = "Bỏ qua";
-"Skip Sequential Order" = "Bỏ qua Thứ tự Tuần tự";
 "Skipped" = "Đã bỏ qua";
 "Slide to Cancel" = "Lướt qua để Hủy";
 "Slide up to cancel" = "Lướt lên để hủy";
@@ -2029,7 +2004,6 @@
 "Start Meeting Early?" = "Bắt đầu cuộc họp sớm?";
 "Start New Search" = "Bắt đầu Tìm kiếm Mới";
 "Start Record" = "Bản ghi Bắt đầu";
-"Start Verification" = "Bắt đầu xác minh";
 "Start Workspace" = "Bắt Đầu Không Gian Làm Việc";
 "Start a new workspace without using a template" = "Bắt đầu một không gian làm việc mới mà không sử dụng mẫu";
 "Start new workspace" = "Bắt đầu không gian làm việc mới";
@@ -2106,7 +2080,6 @@
 "Thank you for using %@ meeting." = "Cảm ơn bạn đã sử dụng\ncuộc họp %@.";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "Cảm ơn bạn. Chúng tôi sẽ gửi cho bạn bản sao có chữ ký cuối cùng sau khi mọi người đã ký vào tài liệu.";
 "Thanks for joining!" = "Cảm ơn đã tham gia!";
-"The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "ID Khách hàng và Mật khẩu bí mật Khách hàng được sử dụng để tạo ra một mã thông báo truy cập OAuth2. Truy cập ID Khách hàng và Mật khẩu bí mật Khách hàng từ Cổng thông tin Jumio.";
 "The Meeting has Ended" = "Cuộc họp vừa Kết thúc";
 "The URL you've entered is not valid. Please review the URL and try again." = "URL bạn đã nhập không hợp lệ. Vui lòng xem lại URL và thử lại.";
 "The account associated with %@ is no longer active" = "Tài khoản liên kết với %@ không còn hoạt động";
@@ -2237,9 +2210,6 @@
 "Time Booking completed." = "Lịch Hẹn đã hoàn tất.";
 "Time Booking completed: %@" = "Lịch Hẹn đã hoàn tất: %@";
 "Time Booking due now" = "Lịch Hẹn hiện đến hạn";
-"Time Booking due soon" = "Thời gian đặt chỗ sắp hết hạn";
-"Time Booking due today" = "Lịch Hẹn đến hạn vào hôm nay";
-"Time Booking overdue (%@)" = "Đặt thời gian quá hạn (%@)";
 "Time Zone" = "Múi giờ";
 "Title" = "Tiêu đề";
 "Title, description, and due date in DocuSign action can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "Có thể chỉnh sửa tiêu đề, mô tả và hạn chót trong tác vụ DocuSign. Nếu bạn cần sửa đổi tài liệu hoặc người được chỉ định, vui lòng tạo tác vụ DocuSign mới.";
@@ -2275,9 +2245,6 @@
 "To-Do completed." = "Công việc đã hoàn thành.";
 "To-Do completed: %@" = "Công việc đã hoàn thành: %@";
 "To-Do due now" = "Việc cần làm đến hạn lúc này";
-"To-Do due soon" = "Công việc cần làm sắp hết hạn";
-"To-Do due today" = "Nhiệm vụ đến hạn hôm nay";
-"To-Do overdue (%@)" = "Công việc cần làm quá hạn (%@)";
 "To-Do reopened" = "Đã mở lại việc cần làm";
 "To-Dos" = "Nhiệm vụ";
 "Today" = "Hôm nay";
@@ -2380,7 +2347,6 @@
 "Unpin" = "Gỡ ghim";
 "Unpin from Workspace" = "Bỏ Ghim Khỏi Không Gian Làm Việc";
 "Unread" = "Chưa đọc";
-"Unsupported file format" = "Định dạng tệp không được hỗ trợ";
 "Until %@" = "Cho đến %@";
 "Upcoming Meetings" = "Cuộc họp sắp tới";
 "Upcoming and ongoing" = "Sắp tới và đang diễn ra";
@@ -2474,7 +2440,6 @@
 "We couldn't find an active account associated with %@, but we have previously sent invitations to this email address. You can use that email to join %@ portal." = "Chúng tôi không thể tìm thấy một tài khoản đang hoạt động liên kết với %1$@, nhưng chúng tôi đã từng gửi lời mời đến địa chỉ email này. Bạn có thể sử dụng email đó để tham gia %2$@ cổng thông tin.";
 "We couldn't update your status, but retrying may solve this issue." = "Chúng tôi không thể cập nhật trạng thái của bạn, nhưng bạn có thể thử lại để giải quyết vấn đề này.";
 "We couldn’t remove the link preview, but retrying may solve the issue." = "Chúng tôi không thể xóa bản xem trước liên kết nhưng thử lại có thể giải quyết được sự cố này.";
-"We don't accept %@ files larger than %@." = "Chúng tôi không chấp nhận các tệp %1$@ lớn hơn %2$@.";
 "We don't accept files larger than %@ B." = "Chúng tôi không chấp nhận các tệp tin lớn hơn %@ B.";
 "We don't accept files larger than %@ KB." = "Chúng tôi không chấp nhận các tệp tin lớn hơn %@ KB.";
 "We don't accept files larger than %@ MB." = "Chúng tôi không chấp nhận các tệp tin lớn hơn %@ MB.";
@@ -2695,7 +2660,6 @@
 "Your mobile device is not setup for Email" = "Thiết bị di động của bạn chưa được thiết lập cho Email";
 "Your mobile device is not setup for SMS." = "Thiết bị di động của bạn chưa được thiết lập cho SMS.";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "Tổ chức của bạn không được cấu hình để sử dụng SAML SSO. Vui lòng đăng nhập bằng tài khoản để tiếp tục.";
-"Your organization allows the following file types to be shared:\n%@." = "Tổ chức của bạn cho phép chia sẻ các loại tệp sau:\n%@.";
 "Your organization requires this security configuration." = "Tổ chức của bạn yêu cầu cấu hình bảo mật này.";
 "Your password was successfully updated." = "Mật khẩu của bạn đã được cập nhật thành công.";
 "Your portal is no longer active" = "Cổng thông tin của bạn không còn hoạt động";
@@ -2760,7 +2724,6 @@
 "start chat" = "Bắt đầu Trò chuyện";
 "the majority of assignees" = "đa số người phụ trách";
 "today" = "Hôm nay";
-"value" = "giá trị";
 "via Instant Flow" = "thông qua Luồng tự động";
 "via template: %@" = "qua bản mẫu: %@";
 "video" = "video";
@@ -2772,3 +2735,4 @@
 "“Can I call you later?”" = "“Tôi gọi lại sau nhé?”";
 "“I’m on my way.”" = "“Tôi đang trên đường đến.”";
 "“Sorry, I can’t talk right now.”" = "“Rất tiếc, hiện tại tôi không thể trò chuyện.”";
+"Skip Sequential Order" = "Bỏ qua Thứ tự Tuần tự";

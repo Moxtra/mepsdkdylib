@@ -899,11 +899,6 @@ The default value is nil, which means SDK does not check file types.
 @property (nonatomic, assign) BOOL makeOwnerEnabled;
 
 /**
- Enable/disable chat settings feature. Default is YES
- */
-@property (nonatomic, assign) BOOL chatSettingsEnabled;
-
-/**
  Hide the floating action button from timeline. Default is NO
  */
 @property (nonatomic, assign) BOOL hideFABOnTimeline;
@@ -919,30 +914,9 @@ The default value is nil, which means SDK does not check file types.
 @property (nonatomic, strong) UIColor *actionColorDarkMode;
 
 /**
- Configure the time limit for how long an object can be delete/edit after it has been sent.  The unit of the time limit is milliseconds.
- Default value is '-1'.
- @discussion
- If time set to '1800000' , then message can't be delete/edit after 30 minutes.
- If set to '-1', means to follow time from org settings. (30 minutes by default from org setting)
- '0' means can not be deleted.
- When both org setting and sdk setting been set, the smaller one will take effect.
- */
-@property (nonatomic, assign) NSInteger contentEditInterval;
-
-/**
  Enable/disable add file entry options
  */
 @property (nonatomic, readonly, nonnull) MEPAddFileEntryOptions *addFileEntryOptions;
-
-/**
- Enabled chat tabs, see more in MEPChatTab.
- @discussion if you want to hide some specific tab, please use code like below:
- // Hide file tab
- [MEPFeatureConfig sharedInstance].enabledChatTabs &= ~MEPChatTabFiles;
- // Hide action tab
- [MEPFeatureConfig sharedInstance].enabledChatTabs &= ~MEPChatTabActions;
- */
-@property (nonatomic, assign) MEPChatTab enabledChatTabs;
 
 /**
  If implemeted will trigger when add user button needs render
