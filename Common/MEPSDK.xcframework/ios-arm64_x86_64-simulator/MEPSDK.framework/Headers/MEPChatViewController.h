@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
  Initialize a chat view controller with a specified chat.
  
  @param chat The related chat
- @param chat Index of tab you wish to focus, outbound index will result as 0.
+ @param tabIndex Index of tab you wish to focus, outbound index will result as 0.
  @return Return a newly initialized chat view controller
  */
 - (instancetype)initWithChat:(MEPChat *)chat tab:(NSUInteger)tabIndex;

@@ -7,7 +7,28 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger, MEPMeetFeature)
+{
+    MEPMeetFeatureChat                    = 1 << 0,
+    MEPMeetFeatureScreenShare             = 1 << 1,
+    MEPMeetFeatureFileShare               = 1 << 2,
+    MEPMeetFeatureCoBrowse                = 1 << 3,
+    MEPMeetFeatureInviteParticipants      = 1 << 4,
+    MEPMeetFeatureAll            = MEPMeetFeatureChat | MEPMeetFeatureScreenShare | MEPMeetFeatureFileShare | MEPMeetFeatureCoBrowse | MEPMeetFeatureInviteParticipants
+};
+
 NS_ASSUME_NONNULL_BEGIN
+
+@interface MEPMeetEndState : NSObject
+
+@property (nonatomic, assign) BOOL audioUsed;
+@property (nonatomic, assign) BOOL videoUsed;
+@property (nonatomic, assign) BOOL screenShareUsed;
+@property (nonatomic, assign) BOOL coBrowseUsed;
+@property (nonatomic, assign) BOOL missCall;
+
+@end
+
 @class MEPUser;
 @interface MEPMeet : NSObject
 
@@ -70,6 +91,12 @@ Host of the meet.
 Particiapnts of the meet
  */
 @property (nonatomic, strong, readonly) NSArray<MEPUser *> *participants;
+
+/*
+End state of the meet, only has value when is an ended meet
+Refer MEPMeetEndState for details
+ */
+@property (nonatomic, strong, nullable) MEPMeetEndState *endState;
 
 @end
 

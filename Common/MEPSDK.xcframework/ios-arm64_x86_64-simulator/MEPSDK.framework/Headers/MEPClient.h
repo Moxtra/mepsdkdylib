@@ -9,13 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "MEPUser.h"
 #import "MEPChat.h"
+#import "MEPMeet.h"
 #define MEP_DEPRECATED_WILL_BE_REMOVED_IN_PLEASE_USE(VERSION, METHOD) __attribute__((deprecated("This method has been deprecated and will be removed in Moxtra MEPSDK " VERSION ". Please use `" METHOD "` instead.")))
 
 NS_ASSUME_NONNULL_BEGIN
 @class MEPClient;
 @protocol MEPTimeline;
 @class MEPTransaction;
-@class MEPMeet;
 @class MEPParticipant;
 @class MEPLiveChat;
 @class MEPLeaveMessageData;
@@ -241,10 +241,18 @@ Use this delegate to set custom info for chat content.
 
 /** It will be called when current user sent a message to chat
 @param client The mep sdk client
-@param feedId  Feed been sent, see MEPChatFeed
-@param content  Which chat this message sent to, See MEPChat
+@param feed  Feed been sent, see MEPChatFeed
+@param chat  Which chat this message sent to, See MEPChat
 */
 - (void)client:(MEPClient *)client didSendMessage:(MEPChatFeed *)feed inChat:(MEPChat *)chat;
+
+/** It will be called before user send a message
+@param client The mep sdk client
+@param feed  Feed will be send, see MEPChatFeed
+@param handler A block object which should be called when you decide user can send this the message or not.
+@discussion This completionHandler block is required to be called immediately after your process done.
+ */
+- (void)client:(MEPClient *)client willSendMessage:(MEPChatFeed *)feed handler:(void(^_Nullable)(BOOL sendOrNot))handler;
 @end
 
 
@@ -510,6 +518,18 @@ Invoke Moxtra invite internal flow
  Kills the MEP window
  */
 - (void)dismissMEPWindow;
+
+/**
+ Presents the meet ringer view controller modally.
+ @discussion
+ By default, SDK will show meet ringer automatically when user is linked.
+ But sometimes if meeting started before user linked. SDK not able to present meet ringer automatically.
+ In this case, leverage this function to present it whenever expected as long as:
+ meeting existing,
+ meeting not ended.
+ current user has not joined yet.
+ */
+- (void)showMeetRinger:(NSString *_Nonnull)meetID;
 
 @end
 
@@ -899,9 +919,20 @@ The default value is nil, which means SDK does not check file types.
 @property (nonatomic, assign) BOOL makeOwnerEnabled;
 
 /**
+ Enable/disable chat settings feature. Default is YES
+ */
+@property (nonatomic, assign) BOOL chatSettingsEnabled;
+
+/**
  Hide the floating action button from timeline. Default is NO
  */
 @property (nonatomic, assign) BOOL hideFABOnTimeline;
+
+/**
+ * Disable copy and paste for text. Default is NO.
+ *
+ */
+@property (nonatomic, assign) BOOL disableCopyPaste;
 
 /**
  * Replace with local action color.
@@ -914,9 +945,40 @@ The default value is nil, which means SDK does not check file types.
 @property (nonatomic, strong) UIColor *actionColorDarkMode;
 
 /**
+ Configure the time limit for how long an object can be delete/edit after it has been sent.  The unit of the time limit is milliseconds.
+ Default value is '-1'.
+ @discussion
+ If time set to '1800000' , then message can't be delete/edit after 30 minutes.
+ If set to '-1', means to follow time from org settings. (30 minutes by default from org setting)
+ '0' means can not be deleted.
+ When both org setting and sdk setting been set, the smaller one will take effect.
+ */
+@property (nonatomic, assign) NSInteger contentEditInterval;
+
+/**
  Enable/disable add file entry options
  */
 @property (nonatomic, readonly, nonnull) MEPAddFileEntryOptions *addFileEntryOptions;
+
+/**
+ Enabled chat tabs, see more in MEPChatTab.
+ @discussion if you want to hide some specific tab, please use code like below:
+ // Hide file tab
+ [MEPFeatureConfig sharedInstance].enabledChatTabs &= ~MEPChatTabFiles;
+ // Hide action tab
+ [MEPFeatureConfig sharedInstance].enabledChatTabs &= ~MEPChatTabActions;
+ */
+@property (nonatomic, assign) MEPChatTab enabledChatTabs;
+
+/**
+ Enabled meet features, see more in MEPMeetFeature. Defaults is MEPMeetFeatureAll.
+ @discussion if you want to disable specific feature, please use code like below:
+ // Disable meeting chat
+ [MEPFeatureConfig sharedInstance].enabledMeetFeatures &= ~MEPMeetFeatureChat;
+ // Disable meeting file share
+ [MEPFeatureConfig sharedInstance].enabledMeetFeatures &= ~MEPMeetFeatureFileShare;
+ */
+@property (nonatomic, assign) MEPMeetFeature enabledMeetFeatures;
 
 /**
  If implemeted will trigger when add user button needs render
