@@ -2,6 +2,7 @@
 "%@" = "%@";
 "%@ %@" = "%1$@ %2$@";
 "%@ 's clip" = "Video isječak korisnika %@";
+"%@ (%@) has requested to join" = "%1$@ (%2$@) je zatražio/la pridruživanje";
 "%@ (Host)" = "%@ (Domaćin)";
 "%@ (Presenter)" = "%@ (Predstavljač)";
 "%@ Account Logged Out" = "%@ račun je odjavljen";
@@ -9,6 +10,7 @@
 "%@ Action Items" = "%@ Stavke za pokretanje";
 "%@ Approver" = "%@ odobravatelj";
 "%@ Approvers" = "%@ odobravatelja";
+"%@ Assignee" = "%@ Izvršitelj";
 "%@ Assignees" = "%@ zastupnika";
 "%@ Client" = "%@ Klijent";
 "%@ Clients" = "%@ klijenata";
@@ -44,6 +46,7 @@
 "%@ Steps" = "%@ koraka";
 "%@ Total" = "Ukupno %@";
 "%@ Users" = "%@ Korisnika";
+"%@ Viewer" = "%@ gledatelj";
 "%@ Viewers" = "%@ gledatelja";
 "%@ Week" = "%@ tjedana";
 "%@ Weeks" = "%@ tjedana";
@@ -230,6 +233,8 @@
 "%@ is away right now and may not be able to respond." = "%@ je trenutačno odsutan i možda neće moći odgovoriti.";
 "%@ is controlling co-browsing." = "%@ kontrolira zajednički pregled.";
 "%@ is currently out of office:" = "%@ je trenutačno izvan ureda:";
+"%@ is currently out of the office." = "%@ trenutno nije u uredu.";
+"%@ is currently out of the office. If you have any urgent issues, feel free to chat with %@." = "%1$@ trenutno je izvan ureda. Ako imate hitnih pitanja, slobodno se obratite %2$@.";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ trenutačno nije dostupan i pregledati će vašu poruku čim se vrati.";
 "%@ is inviting you to a workspace.\r\n\r\nTopic: %@\r\n\r\nOpen the workspace with the share link:\r\n%@" = "%1$@ poziva vas u radni prostor.\r\n\r\nTema: %2$@\r\n\r\nOtvori radni prostor poveznicom za dijeljenje:\r\n%3$@";
 "%@ is muted" = "%@ ima ugašen mikrofon";
@@ -345,6 +350,9 @@
 "%@ weeks" = "%@ tjedana";
 "%@ were added to the workspace" = "%@ dodani su u radni prostor";
 "%@ were removed from the workspace" = "%@ uklonjeni su iz radnog prostora";
+"%@ will receive a copy by email" = "%@ će primiti kopiju putem e-pošte";
+"%@ will receive a copy by email." = "%@ će primiti kopiju putem e-pošte.";
+"%@ will receive a copy by email: %@" = "%1$@ će primiti kopiju putem e-pošte: %2$@";
 "%@ years ago" = "Prije %@ godina";
 "%@'s Flow" = "%@-ov tijek";
 "%@'s Meeting" = "Sastanak osobe %@";
@@ -360,6 +368,7 @@
 "(Me)" = "(Ja)";
 "+ Add" = "+ Dodajte";
 "+ Add Guest" = "+ Dodajte gosta";
+"+ Add a new one" = "+ Dodaj novu";
 "+ INVITE" = "+ POZOVITE";
 "+ Invite" = "+ Pozovite";
 "+%@ more" = "+%@ više";
@@ -400,6 +409,7 @@
 "Account Deleted" = "Račun je obrisan";
 "Account Settings" = "Postavke računa";
 "Account Verification" = "Potvrda računa";
+"Account reconnected" = "Račun ponovno povezan";
 "Acknowledge" = "Potvrdi";
 "Acknowledged" = "Potvrđeno";
 "Acknowledgement" = "Potvrda";
@@ -631,6 +641,7 @@
 "Authentication" = "Autentifikacija";
 "Authentication Expired" = "Autentifikacija je istekla";
 "Auto" = "Auto";
+"Auto save..." = "Automatsko spremanje...";
 "AutoNavi Maps" = "AutoNavi mape";
 "Automatically Record Meeting" = "Automatsko snimanje sastanka";
 "Automatically archived due to inactivity" = "Automatski arhivirano zbog neaktivnosti";
@@ -979,6 +990,7 @@
 "Don’t see your portal?" = "Ne vidite vaš portal?";
 "Download %@ failed, please try again." = "Preuzimanje %@ neuspješno, molimo pokušajte ponovo.";
 "Drag & Drop to Assign Fields" = "Povucite i ispustite za dodjelu polja";
+"Drive your external projects to completion with clear actions and milestones, tailored to each project's needs." = "Dovedite svoje vanjske projekte do završetka s jasnim radnjama i ključnim točkama, prilagođenima potrebama svakog projekta.";
 "Dropdown List" = "Padajući popis";
 "Due" = "Rok";
 "Due %@ %@" = "Rok %1$@ %2$@";
@@ -1107,6 +1119,9 @@
 "Error" = "Greška";
 "Error connecting with %@. Please ask the creator (%@) to reconnect their %@ account (%@)." = "Pogreška pri povezivanju s %1$@. Molimo pitajte kreatora (%2$@) da ponovno poveže svoj %3$@ račun (%4$@).";
 "Error connecting with %@. Please reconnect the account (%@) to enable the action." = "Pogreška pri povezivanju s %1$@. Ponovno povežite račun (%2$@) kako biste omogućili radnju.";
+"Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@), then try again." = "Pogreška pri povezivanju s DocuSign. Molimo pitajte kreatora (%1$@) da ponovno poveže svoj DocuSign račun (%2$@), a zatim pokušajte ponovno.";
+"Error connecting with DocuSign. Please contact the flow owner (%@)." = "Pogreška pri povezivanju s DocuSign. Molimo kontaktirajte vlasnika toka (%@).";
+"Error connecting with DocuSign. Please reconnect your account (%@) and try again." = "Pogreška pri povezivanju s DocuSign. Molimo ponovno povežite svoj račun (%@) i pokušajte ponovno.";
 "Europe" = "Europa";
 "Every" = "Svaki";
 "Every %@ days." = "Svakih %1$@ dana.";
@@ -1224,6 +1239,7 @@
 "Get connected with us." = "Povežite se s nama.";
 "Get direct access to %@ and %@’s services on mobile." = "Dobijte izravan pristup uslugama %1$@ i %2$@ na mobilnom uređaju.";
 "Get started" = "Započni";
+"Get started with 40+ industry templates used by thousands of businesses." = "Započnite s više od 40 industrijskih predložaka koje koriste tisuće poduzeća.";
 "Give external users an option to add this person to your workspaces if they need support while you’re out of office." = "Dajte vanjskom korisniku opciju za dodavanje ove osobe u vaše radne prostore ako im je potrebna potpora dok ste izvan ureda.";
 "Gmail" = "Gmail";
 "Go Back" = "Vratite se";
@@ -1256,7 +1272,7 @@
 "Host Video On" = "Uključen video kanal domaćina";
 "Hosted by %@" = "Domaćin %1$@";
 "I Agree" = "Slažem se";
-"I agree that the above is the legally biding electronic representation of my signature and initials. By continuing, I am confirming my identity above and my intention to sign this document electronically." = "Slažem se da se iznad nalazi pravno obvezujući elektronički prikaz mog potpisa i inicijala. Nastavljajući potvrđujem svoj identitet iznad i svoju namjeru da elektronički potpišem ovaj dokument.";
+"I agree that the above is the legally binding electronic representation of my signature and initials. By continuing, I am confirming my identity as stated above and my intention to sign this document electronically." = "Slažem se da je gore navedeno pravno obvezujuća elektronička reprezentacija mog potpisa i inicijala. Nastavkom potvrđujem svoj identitet kako je gore navedeno i svoju namjeru da elektronički potpišem ovaj dokument.";
 "I have started a Zoom meeting as below link, please click to join: %@" = "Započeo sam Zoom sastanak preko poveznice niže, kliknite za pridruživanje: %@";
 "I would like to invite you to join this flow workspace." = "Želim vas pozvati da se pridružite ovom protoku radnog prostora.";
 "I would like to share a Meeting link with you: %@" = "Želim s vama podijeliti poveznicu na sastanak: %@";
@@ -1291,6 +1307,7 @@
 "Identity Verification overdue (%@)" = "Provjera identiteta kasni (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "Verifikacija identiteta je privremeno onemogućena iz sigurnosnih razloga. Molimo pokušajte ponovo kasnije.";
 "If enabled, a file reviewer will be required to review the files that are uploaded." = "Ako je omogućeno, preglednik datoteka morat će pregledati datoteke koje su prenesene.";
+"If enabled, the assignee must open all attachments before acknowledging." = "Ako je omogućeno, zastupnik mora otvoriti sve privitke prije potvrđivanja.";
 "If enabled, this action can be completed in parallel with the previous action in the flow." = "Ako je omogućeno, ova radnja se može izvršiti paralelno s prethodnom radnjom u tijeku.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Ako je omogućeno, prikazat ćemo naslovnicu protoka svaki put kada otvorite protok radnog prostora prvi put.";
 "If removed, they will lose access to this workspace immediately." = "Ako se uklone, odmah će izgubiti pristup ovom radnom prostoru.";
@@ -1465,6 +1482,7 @@
 "Max %@ characters" = "Maksimalno %1$@ znakova";
 "Max Amount" = "Maksimalan iznos";
 "Maximum %@ size exceeded (%@)" = "Premašena maksimalna veličina %1$@ (%2$@)";
+"Maximum member limit reached" = "Dosegnuto maksimalno ograničenje članova";
 "Maximum participants reached. Please try removing some and trying again." = "Dosegnut je maksimalni broj sudionika. Molimo pokušajte ukloniti neke i pokušajte ponovno.";
 "Me" = "Ja";
 "Meet Now" = "Sada se pridružite sastanku";
@@ -1560,6 +1578,7 @@
 "Name your to-do" = "Dajte ime svom zadatku";
 "Name your workspace" = "Dajte naziv svom radnom prostoru";
 "Need help on something shared here?" = "Potrebna vam je pomoć u svezi s nečim što je ovdje podijeljeno?";
+"Needs to sign" = "Potrebno potpisati";
 "Network error" = "Greška na mreži";
 "Never" = "Nikad";
 "New" = "Novo";
@@ -1663,6 +1682,8 @@
 "Only one assignee is required to approve this approval to complete it." = "Potrebno je da samo jedan potpisnik odobri ovo odobrenje da se završi.";
 "Only one assignee is required to finish this to-do to complete it." = "Potreban je samo jedan izvršitelj za završetak ovog zadatka.";
 "Only participants can view meeting details." = "Samo sudionici mogu pregledati detalje o sastanku.";
+"Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "Samo naslov, opis i rok u %1$@ radnjama mogu se uređivati. Ako trebate promijeniti zastupnike ili ažurirati bilo koje druge detalje, molimo stvorite novu %2$@ radnju.";
+"Only the workspace owner can adjust link security" = "Samo vlasnik radnog prostora može prilagoditi sigurnost poveznice";
 "Only websites that support https can be loaded in order to ensure a secure connection." = "Samo stranice koje podržavaju https mogu se učitati da biste osigurali sigurnu vezu.";
 "Open" = "Otvorite";
 "Open %@ and log in to continue." = "Otvorite %@ i prijavite se da biste nastavili.";
@@ -1794,6 +1815,7 @@
 "Private meeting" = "Privatni sastanak";
 "Process canceled" = "Procesiranje otkazano";
 "Process completed" = "Procesiranje dovršeno";
+"Processed successfully" = "Uspješno obrađeno";
 "Processing transactions…" = "Procesiranje transakcije...";
 "Processing..." = "Procesiranje...";
 "Profile" = "Profil";
@@ -1822,6 +1844,8 @@
 "Reassign to" = "Ponovno dodijeli za";
 "Reassigned" = "Ponovno dodijeljeno";
 "Receive emails about new activity when you’re not online and don’t have notifications enabled." = "Dobivajte e-poštu o novoj aktivnosti kada niste na mreži i kada obavijesti nisu omogućene.";
+"Received" = "Primljeno";
+"Receives a copy" = "Prima kopiju";
 "Recents" = "Nedavno";
 "Reconnect" = "Ponovno poveži";
 "Reconnecting..." = "Ponovno spajanje...";
@@ -1897,10 +1921,11 @@
 "Reset Filters" = "Resetujte filtre";
 "Response" = "Odgovori";
 "Restart" = "Ponovo pokreni";
+"Restart Meeting" = "Ponovno pokreni sastanak";
 "Resume Record" = "Nastavite snimku";
-"Retart Meeting" = "Ponovno pokrenite sastanak";
 "Retrieve Your Portal URL" = "Povratite svoj URL portala";
 "Retry" = "Pokušajte ponovo";
+"Retrying..." = "Ponovni pokušaj...";
 "Review" = "Pregled";
 "Review & Acknowledge" = "Pregled i potvrda";
 "Review & Confirm" = "Pregled i potvrđivanje";
@@ -1953,6 +1978,7 @@
 "Screen is sharing" = "Ekran se dijeli.";
 "Screenshot sent" = "Snimka zaslona je poslana";
 "Seamlessly guide buyers through a step-by-step order approval workflow." = "Bešavno vodite kupce kroz korak-po-korak radni tijek odobrenja narudžbe.";
+"Seamlessly guide buyers, vendors, and partners through a step-by-step order approval workflow." = "Bešavno vodite kupce, dobavljače i partnere kroz korak-po-korak radni tijek odobrenja narudžbe.";
 "Search" = "Pretražite";
 "Search Groups & Topics" = "Pretraži grupe i teme";
 "Search Results" = "Rezultat pretraživanja";
@@ -1993,6 +2019,7 @@
 "Select a Date & Time" = "Odaberi datum i vrijeme";
 "Select a Sample Workspace" = "Odaberite uzorak radnog prostora";
 "Select action type" = "Odaberi vrstu radnje";
+"Select additional actions you want to include in the process." = "Odaberite dodatne radnje koje želite uključiti u proces.";
 "Select the role assignment (optional):" = "Odaberite dodjelu uloge (opcionalno):";
 "Select the user type:" = "Odaberite tip korisnika:";
 "Selected" = "Odabrano";
@@ -2153,6 +2180,7 @@
 "Tabs" = "Kartice";
 "Take Photo" = "Uslikajte";
 "Tap + to schedule a meeting." = "Dodirnite + kako biste zakazali sastanak";
+"Tap Continue to join the workspace." = "Dodirnite Nastavi za pridruživanje radnom prostoru.";
 "Tap and hold to leave comment" = "Dodirnite i zadržite kako biste ostavili komentar";
 "Tap and hold to record." = "Dodirnite i zadržite kako biste snimili.";
 "Tap on the meeting you'd like to join" = "Dodirnite na sastanak kojem se želite pridružiti";
@@ -2217,6 +2245,7 @@
 "The selected items will be added to %@." = "Odabrane stavke biti će dodane u %@.";
 "The selected items will be moved to %@." = "Odabrane stavke će biti premještene u %@.";
 "The selected items will be moved under %@." = "Odabrane stavke će biti premještene pod %@.";
+"The selected person is the owner of the workspace." = "Odabrana osoba je vlasnik radnog prostora.";
 "The start time must be before the end time." = "Vrijeme početka mora biti prije vremena završetka.";
 "There are no active screen share sessions to join." = "Ne postoje aktivne sesije dijeljenja zaslona kojima biste se mogli pridružiti.";
 "There are no other members in this workspace." = "Nema drugih članova u ovom radnom prostoru.";
@@ -2248,6 +2277,7 @@
 "This and Following Meetings" = "Ovaj i sljedeći sastanci";
 "This content may have been deleted or otherwise removed." = "Ovaj sadržaj je možda obrisan ili uklonjen na neki drugi način.";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "Ovaj dokument sadrži polja. Želite li automatski dodati i nekome dodijeliti ova polja?";
+"This envelope is still being processed by DocuSign. Please try again in a moment." = "Ova omotnica se još uvijek obrađuje od strane DocuSign-a. Molimo pokušajte ponovno za trenutak.";
 "This file has been deleted." = "Ovaj dokument je izbrisan.";
 "This file has been deleted. It's not available anymore." = "Ovaj dokument je izbrisan. Više nije dostupan.";
 "This flow was finished and you can no longer make modifications." = "Ovaj protok je završen i više ne možete praviti izmjene.";
@@ -2259,6 +2289,7 @@
 "This may have happened because you did not finish creating up your account earlier." = "Ovo se vjerojatno desilo jer niste ranije završili kreiranje vašeg računa.";
 "This may take a while. In the meantime, please don’t close the app." = "Ovo može potrajati neko vrijeme. U međuvremenu, molimo vas ne zatvarajte aplikaciju.";
 "This meeting exceeds maximum number of participants." = "Ovaj sastanak premašuje maksimalni broj sudionika.";
+"This meeting has been locked. Please try again later." = "Ovaj sastanak je zaključan. Molimo pokušajte ponovno kasnije.";
 "This meeting was deleted by the host." = "Ovaj sastanak je obrisao domaćin.";
 "This meeting was likely canceled by the host." = "Ovaj sastanak je vjerojatno otkazao domaćin.";
 "This meeting was scheduled via an external calendar (e.g. Google Calendar, Outlook, etc.). Any changes made here will not be reflected in that calendar." = "Ovaj je sastanak zakazan putem vanjskog kalendara (npr. Google kalendar, Outlook, itd.). Bilo koje izmjene napravljene ovdje očitovat će se u tom kalendaru.";
@@ -2282,7 +2313,8 @@
 "This to-do can only be completed by internal users." = "Ovaj zadatak mogu završiti samo interni korisnici.";
 "This transaction has been deleted." = "Ova transakcija će biti obrisana.";
 "This user does not have the permission to sign files." = "Ovaj korisnik nema odobrenje za potpisivanje datoteka.";
-"This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact with your org admin." = "Ovaj korisnik je deaktiviran i možda neće imati mogućnost prijaviti se na svoj nalog. Da biste ponovno aktivirali nalog ovog korisnika, obratite se administratoru svoje organizacije.";
+"This user has been deactivated and may not be able to log into their account. To reactivate this user's account, please contact your org admin." = "Ovaj korisnik je deaktiviran i možda neće moći pristupiti svom nalogu. Da biste ponovno aktivirali nalog ovog korisnika, molimo kontaktirajte administratora vaše organizacije.";
+"This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact your org admin." = "Ovaj korisnik je deaktiviran i možda neće moći pristupiti svom nalogu. Da biste ponovno aktivirali nalog ovog korisnika, molimo kontaktirajte administratora vaše organizacije.";
 "This user has been deactivated, please contact your administrator." = "Ovaj korisnik je deaktiviran, molimo kontaktirajte svog administratora.";
 "This was due on %@" = "Ovome je bio rok %@";
 "This was likely caused by a temporary network issue. Please try again." = "Ovo je vjerojatno prouzročio privremeni problem na mreži. Molimo pokušajte ponovo.";
@@ -2564,6 +2596,7 @@
 "We were not able to complete your search." = "Nismo uspjeli završiti vašu pretragu.";
 "We were unable to connect with your %@." = "Nismo se uspjeli povezati s vašim %@.";
 "We were unable to disconnect with your %@." = "Nismo se uspjeli isključiti iz vašeg %@.";
+"We were unable to process your request." = "Nismo mogli obraditi vaš zahtjev.";
 "We were unable to process your request. Please double check your DocuSign account and try again." = "Nismo mogli obraditi vaš zahtjev. Provjerite vaš DocuSign nalog i pokušajte ponovno.";
 "We were unable to process your request. Please double check your Zoom account and try again." = "Nismo mogli obraditi vaš zahtjev. Provjerite vaš Zoom nalog i pokušajte ponovno.";
 "We were unable to read or recognize this QR code. Please try again." = "Nismo uspjeli pročitati ili prepoznati ovaj QR kod. Molimo, pokušajte ponovo.";
@@ -2591,11 +2624,13 @@
 "Welcome Message" = "Poruka dobrodošlice";
 "Welcome back to %@. Please log in to continue." = "Dobrodošli natrag u %@. Prijavite se za nastavak.";
 "Welcome back. Please log in to continue." = "Dobro došli natrag. Molimo prijavite se da biste nastavili.";
+"Welcome message for invitees" = "Poruka dobrodošlice za pozvane";
 "Welcome to %@‘s Onboarding Portal!" = "Dobrodošli na portal za uključivanje %@!";
 "Welcome to %@’s Client Portal!" = "Dobrodošli na klijentski portal %@!";
 "Welcome to %@’s Order Approval Portal!" = "Dobrodošli na portal za odobrenje narudžbi %@!";
 "Welcome to %@’s Service Portal!" = "Dobrodošli na servisni portal %@!";
 "Welcome! Thank you for accepting my invitation and joining our platform. Feel free to reach out to me any time for assistance." = "Dobrodošli! Hvala što ste prihvatili moj poziv i pridružili se našoj platformi. Slobodno mi se obratite za pomoć u bilo kojem trenutku.";
+"Welcome! We have designed this workspace to seamlessly take you through each step of our onboarding process. If you have any questions, please do not hesitate to reach out here. We look forward to working with you. Let's get started!" = "Dobrodošli! Dizajnirali smo ovaj radni prostor kako bismo vas bez problema vodili kroz svaki korak našeg procesa uključivanja. Ako imate bilo kakvih pitanja, nemojte se ustručavati javiti ovdje. Radujemo se suradnji s vama. Krenimo!";
 "We’ll email you a magic code for password-free log in. Or you can" = "Čarobni kod ćemo vam poslati e-poštom za prijavu bez lozinke. Ili možete";
 "We’ll send a verification code using one of the options below:" = "Poslat ćemo vam kod za verifikaciju pomoću neke od opcija niže:";
 "We’ll send out an email or SMS invitation to notify the assignees." = "Poslat ćemo pozivnicu e-porukom ili SMS-om da bismo obavijestili zastupnike.";
@@ -2678,6 +2713,7 @@
 "You are unable to reopen requests once marked as complete. Are you sure you want to continue?" = "Nećete moći ponovo otvoriti zahtjeve kada ih označite kao završene. Sigurno želite nastaviti?";
 "You are viewing screen sharing." = "Gledate dijeljenje ekrana.";
 "You are viewing the presenter's screen now." = "Upravo gledate ekran predstavljača.";
+"You can add up to %@ participants. Internal users can set their booking availability times under their profile page." = "Možete dodati do %@ sudionika. Interni korisnici mogu postaviti svoje dostupne termine za rezervaciju na svojoj stranici profila.";
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "Možete dodati do %@ sudionika. Interni korisnici mogu podesiti dostupnost termina za rezervaciju na stranici svog profila.";
 "You can customize your default welcome message in settings." = "Zadanu poruku dobrodošlice možete prilagoditi u postavkama.";
 "You can leave a message, or cancel your request and try later." = "Možete ostaviti poruku ili otkazati zahtjev i pokušati kasnije.";
@@ -2744,6 +2780,7 @@
 "You will lose all the changes made to this document." = "Izgubiti ćete sve izmjene koje ste radili u ovom dokumentu.";
 "You will need to be invited by a member to join again." = "Korisnik vas mora pozvati kako biste se ponovo pridružili.";
 "You will not be able to make changes after that." = "Nakon ovoga više nećete moći raditi izmjene.";
+"You will receive a copy by email" = "Primit ćete kopiju e-poštom.";
 "You won't be able to recover it once confirmed." = "Nećete moći oporaviti ukoliko potvrdite.";
 "You'll be added as the assignee for unassigned roles" = "Bit ćete dodani kao zastupnik za nedodijeljene uloge";
 "You'll need to update this application before continuing." = "Prije nastavka je potrebno ažurirati ovu aplikaciju.";
@@ -2812,6 +2849,7 @@
 "day" = "dan";
 "days" = "dani";
 "decline" = "odbiti";
+"e.g. Acme" = "npr. Acme";
 "e.g: Due in 3 Days" = "npr. rok za 3 dana";
 "got it" = "razumijem";
 "hide" = "sakrijte";

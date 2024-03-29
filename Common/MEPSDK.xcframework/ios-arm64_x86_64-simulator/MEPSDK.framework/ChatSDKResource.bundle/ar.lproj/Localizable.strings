@@ -2,6 +2,7 @@
 "%@" = "%@";
 "%@ %@" = "%1$@ %2$@";
 "%@ 's clip" = "مقطع %@";
+"%@ (%@) has requested to join" = "%1$@ (%2$@) قد طلب الانضمام";
 "%@ (Host)" = "%@ (مضيف)";
 "%@ (Presenter)" = "%@ (العارض)";
 "%@ Account Logged Out" = "%@ تم تسجيل الخروج من حساب";
@@ -9,6 +10,7 @@
 "%@ Action Items" = "%@ من عناصر الإجراء";
 "%@ Approver" = "%@ قائم بالاعتماد";
 "%@ Approvers" = "%@ قائمين بالاعتماد";
+"%@ Assignee" = "%@ معين";
 "%@ Assignees" = "المعينين %@";
 "%@ Client" = "%@ عميل";
 "%@ Clients" = "%@ من العملاء";
@@ -44,6 +46,7 @@
 "%@ Steps" = "%@ من الخطوات";
 "%@ Total" = "%@ الإجمالي";
 "%@ Users" = "%@ من المستخدمين";
+"%@ Viewer" = "%@ مشاهد";
 "%@ Viewers" = "%@ من المشاهدين";
 "%@ Week" = "%@ أسبوع";
 "%@ Weeks" = "%@ من الأسابيع";
@@ -230,6 +233,8 @@
 "%@ is away right now and may not be able to respond." = "%@ غير متواجد حالياً وقد لا يتمكن من الرد.";
 "%@ is controlling co-browsing." = "يتحكم %@ في التصفح المشترك.";
 "%@ is currently out of office:" = "%@ خارج المكتب حاليًا:";
+"%@ is currently out of the office." = "%@ خارج المكتب حاليًا.";
+"%@ is currently out of the office. If you have any urgent issues, feel free to chat with %@." = "%1$@ غير موجود في المكتب حاليًا. إذا كانت لديك أي مشكلات عاجلة، لا تتردد في الدردشة مع %2$@.";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ غير موجود حاليًا وسيراجع رسالتك بمجرد عودته.";
 "%@ is inviting you to a workspace.\r\n\r\nTopic: %@\r\n\r\nOpen the workspace with the share link:\r\n%@" = "%1$@ يدعوك إلى مساحة عمل.\r\n\r\nالموضوع: r%2$@\n\r\n\افتح مساحة العمل باستخدام رابط المشاركة: r\n\%3$@";
 "%@ is muted" = "تم كتم صوت %@";
@@ -344,6 +349,9 @@
 "%@ weeks" = "%@ من الأسابيع";
 "%@ were added to the workspace" = "تمت إضافة %@ إلى مساحة العمل";
 "%@ were removed from the workspace" = "تمت إزالة %@ من مساحة العمل";
+"%@ will receive a copy by email" = "%@ سيتلقى نسخة عبر البريد الإلكتروني";
+"%@ will receive a copy by email." = "%@ سيتلقى نسخة عبر البريد الإلكتروني.";
+"%@ will receive a copy by email: %@" = "%1$@ سيتلقى نسخة عبر البريد الإلكتروني: %2$@";
 "%@ years ago" = "%@ من السنين مضت";
 "%@'s Flow" = "تدفق %@";
 "%@'s Meeting" = "اجتماع %@";
@@ -358,6 +366,7 @@
 "(Host, Presenter)" = "(المضيف، العارض)";
 "(Me)" = "(أنا)";
 "+ Add" = "+ إضافة";
+"+ Add a new one" = "+ أضف واحدة جديدة";
 "+ INVITE" = "+ دعوة";
 "+ Invite" = "+ دعوة";
 "+%@ more" = "+%@ المزيد";
@@ -398,6 +407,7 @@
 "Account Deleted" = "تم حذف الحساب";
 "Account Settings" = "إعدادات الحساب";
 "Account Verification" = "التحقق من الحساب";
+"Account reconnected" = "تم إعادة الاتصال بالحساب";
 "Acknowledge" = "يقر";
 "Acknowledged" = "تم الإقرار";
 "Acknowledgement" = "إقرار";
@@ -629,6 +639,7 @@
 "Authentication" = "المصادقة";
 "Authentication Expired" = "انتهت صلاحية المصادقة";
 "Auto" = "تلقائي";
+"Auto save..." = "حفظ تلقائي...";
 "AutoNavi Maps" = "خرائط AutoNavi";
 "Automatically Record Meeting" = "تسجيل الاجتماع تلقائيًا";
 "Automatically archived due to inactivity" = "تتم الأرشفة تلقائيًا بسبب عدم النشاط";
@@ -975,6 +986,7 @@
 "Don’t see your portal?" = "لا ترى بوابتك؟";
 "Download %@ failed, please try again." = "فشل تحميل %@، الرجاء المحاولة مرة أخرى.";
 "Drag & Drop to Assign Fields" = "قم بالسحب والإسقاط لتعيين الحقول";
+"Drive your external projects to completion with clear actions and milestones, tailored to each project's needs." = "قد مشاريعك الخارجية نحو الإنجاز بإجراءات ومعالم واضحة، مُصممة خصيصًا لتلبية احتياجات كل مشروع.";
 "Dropdown List" = "القائمة المنسدلة";
 "Due" = "الاستحقاق";
 "Due %@ %@" = "استحقاق %1$@ %2$@";
@@ -1103,6 +1115,9 @@
 "Error" = "خطأ";
 "Error connecting with %@. Please ask the creator (%@) to reconnect their %@ account (%@)." = "خطأ في الاتصال مع %1$@. يرجى طلب من الخالق (%2$@) إعادة توصيل حساب %3$@ الخاص به (%4$@).";
 "Error connecting with %@. Please reconnect the account (%@) to enable the action." = "خطأ في الاتصال بـ %1$@. يرجى إعادة الاتصال بالحساب (%2$@) لتمكين الإجراء.";
+"Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@), then try again." = "خطأ في الاتصال بـ DocuSign. يرجى طلب من الخالق (%1$@) إعادة توصيل حساب DocuSign الخاص بهم (%2$@)، ثم حاول مرة أخرى.";
+"Error connecting with DocuSign. Please contact the flow owner (%@)." = "خطأ في الاتصال بـ DocuSign. يرجى التواصل مع مالك العملية (%@).";
+"Error connecting with DocuSign. Please reconnect your account (%@) and try again." = "خطأ في الاتصال بـ DocuSign. يرجى إعادة الاتصال بحسابك (%@) وحاول مرة أخرى.";
 "Europe" = "أوروبا";
 "Every" = "كل";
 "Every %@ days." = "كل %1$@ يوم.";
@@ -1219,6 +1234,7 @@
 "Get connected with us." = "تواصل معنا.";
 "Get direct access to %@ and %@’s services on mobile." = "يمكنك الوصول مباشرةً إلى %1$@ وخدمات %2$@ على الهاتف المحمول.";
 "Get started" = "بدء التشغيل";
+"Get started with 40+ industry templates used by thousands of businesses." = "ابدأ باستخدام أكثر من 40 قالبًا خاصًا بالصناعة يستخدمها آلاف الأعمال.";
 "Give external users an option to add this person to your workspaces if they need support while you’re out of office." = "امنح المستخدمين الخارجيين الخيار لإضافة هذا الشخص إلى محادثاتك إذا احتاجوا إلى الدعم أثناء تواجدك خارج المكتب.";
 "Gmail" = "Gmail";
 "Go Back" = "عودة";
@@ -1251,7 +1267,7 @@
 "Host Video On" = "تشغيل الفيديو المضيف";
 "Hosted by %@" = "اسم المضيف %1$@";
 "I Agree" = "موافق";
-"I agree that the above is the legally biding electronic representation of my signature and initials. By continuing, I am confirming my identity above and my intention to sign this document electronically." = "أقر أن ما سبق تعهد إلكتروني قانوني ملزم بموجب توقيعي وكتابة الحروف الأولى من الاسم. بالمتابعة، أؤكد هويتي أعلاه وقصدي توقيع هذا المستند إلكترونيًا.";
+"I agree that the above is the legally binding electronic representation of my signature and initials. By continuing, I am confirming my identity as stated above and my intention to sign this document electronically." = "أوافق على أن ما ورد أعلاه هو التمثيل الإلكتروني الملزم قانونًا لتوقيعي وأحرفي الأولى. من خلال الاستمرار، أنا أؤكد هويتي كما ذُكر أعلاه ونيتي لتوقيع هذا الوثيقة إلكترونيًا.";
 "I have started a Zoom meeting as below link, please click to join: %@" = "لقد بدأت اجتماع Zoom على النحو التالي الرابط، يرجى النقر للانضمام: %@";
 "I would like to invite you to join this flow workspace." = "أود أن أدعوكم للانضمام إلى مساحة عمل التدفق هذه.";
 "I would like to share a Meeting link with you: %@" = "أرغب في مشاركة رابط الاجتماع معك: %@";
@@ -1286,6 +1302,7 @@
 "Identity Verification overdue (%@)" = "تأخر التحقق من الهوية (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "تم تعطيل التحقق من الهوية مؤقتًا لأسباب أمنية. يرجى المحاولة مرة أخرى.";
 "If enabled, a file reviewer will be required to review the files that are uploaded." = "إذا تم تمكينه، سيتعين على مراجع الملفات مراجعة الملفات التي تم تحميلها.";
+"If enabled, the assignee must open all attachments before acknowledging." = "إذا تم تفعيلها، يجب على المكلف فتح جميع المرفقات قبل الإقرار.";
 "If enabled, this action can be completed in parallel with the previous action in the flow." = "إذا تم تمكينها، يمكن إتمام هذا الإجراء بالتوازي مع الإجراء السابق في التدفق.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "في حالة التمكين، سنعرض صفحة غلاف التدفق عند تفتح تدفق محادثة لأول مرة.";
 "If removed, they will lose access to this workspace immediately." = "إذا تمت إزالته، فسيفقدون الوصول إلى مساحة العمل هذه على الفور.";
@@ -1460,6 +1477,7 @@
 "Max %@ characters" = "الحد الأقصى %1$@ من الرموز";
 "Max Amount" = "الحد الأقصى للمبلغ";
 "Maximum %@ size exceeded (%@)" = "تم تجاوز الحد الأقصى لحجم %1$@ (%2$@)";
+"Maximum member limit reached" = "تم الوصول إلى الحد الأقصى لعدد الأعضاء";
 "Maximum participants reached. Please try removing some and trying again." = "تم الوصول إلى الحد الأقصى من المشاركين. يرجى إزالة البعض والمحاولة مرة أخرى.";
 "Me" = "أنا";
 "Meet Now" = "اجتماع الآن";
@@ -1555,6 +1573,7 @@
 "Name your to-do" = "اختر اسم لمهمتك";
 "Name your workspace" = "مساحة العمل الخاصة بك";
 "Need help on something shared here?" = "بحاجة الى مساعدة في شيء مشترك هنا؟";
+"Needs to sign" = "يحتاج إلى التوقيع";
 "Network error" = "خطأ في الشبكة";
 "Never" = "أبدًا";
 "New" = "جديد";
@@ -1658,6 +1677,8 @@
 "Only one assignee is required to approve this approval to complete it." = "مطلوب معين واحد فقط للموافقة على هذه الموافقة لإكمالها.";
 "Only one assignee is required to finish this to-do to complete it." = "مطلوب موظف واحد فقط لإنهاء هذه المهمة لإكمالها.";
 "Only participants can view meeting details." = "يمكن للمشاركين فقط عرض تفاصيل الاجتماع.";
+"Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "يمكن تعديل العنوان والوصف وتاريخ الانتهاء في إجراءات %1$@ فقط. إذا كنت بحاجة إلى تعديل المعينين أو تحديث أي تفاصيل أخرى، يرجى إنشاء إجراء %2$@ جديد.";
+"Only the workspace owner can adjust link security" = "فقط صاحب مساحة العمل يمكنه ضبط أمان الرابط";
 "Only websites that support https can be loaded in order to ensure a secure connection." = "يمكن تنزيل مواقع الويب التي تدعم https فقط لضمان اتصال آمن.";
 "Open" = "افتح";
 "Open %@ and log in to continue." = "افتح %@ وسجِّل الدخول للمتابعة.";
@@ -1789,6 +1810,7 @@
 "Private meeting" = "اجتماع خاص";
 "Process canceled" = "تم إلغاء العملية";
 "Process completed" = "تم إكمال المعالجة";
+"Processed successfully" = "تمت المعالجة بنجاح";
 "Processing transactions…" = "جارٍ معالجة المعاملات…";
 "Processing..." = "جارٍ المعالجة...";
 "Profile" = "الملف التعريفي";
@@ -1817,6 +1839,8 @@
 "Reassign to" = "إعادة تعيين إلى";
 "Reassigned" = "تم إعادة تعيين";
 "Receive emails about new activity when you’re not online and don’t have notifications enabled." = "تلقي رسائل بريد إلكتروني حول النشاط الجديد عندما لا تكون متصلًا بالإنترنت ولم يتم تمكين الإشعارات.";
+"Received" = "تم الاستلام";
+"Receives a copy" = "يتلقى نسخة";
 "Recents" = "الأحدث";
 "Reconnect" = "إعادة الاتصال";
 "Reconnecting..." = "جارٍ إعادة الاتصال…";
@@ -1892,10 +1916,11 @@
 "Reset Filters" = "إعادة ضبط الفلاتر";
 "Response" = "الإستجابة";
 "Restart" = "إعادة التشغيل";
+"Restart Meeting" = "إعادة تشغيل الاجتماع";
 "Resume Record" = "استمرار التسجيل";
-"Retart Meeting" = "إعادة بدء الاجتماع";
 "Retrieve Your Portal URL" = "استرداد عنوان URL الخاص بالبوابة";
 "Retry" = "إعادة المحاولة";
+"Retrying..." = "إعادة المحاولة...";
 "Review" = "المراجعة";
 "Review & Acknowledge" = "المراجعة والإقرار";
 "Review & Confirm" = "المراجعة والتأكيد";
@@ -1948,6 +1973,7 @@
 "Screen is sharing" = "يجري مشاركة الشاشة";
 "Screenshot sent" = "تم إرسال لقطة الشاشة";
 "Seamlessly guide buyers through a step-by-step order approval workflow." = "قم بتوجيه المشترين بسلاسة من خلال سير عمل متعدد الخطوات للموافقة على الطلب.";
+"Seamlessly guide buyers, vendors, and partners through a step-by-step order approval workflow." = "قم بتوجيه المشترين والبائعين والشركاء بسلاسة من خلال سير عمل متعدد الخطوات للموافقة على الطلب.";
 "Search" = "بحث";
 "Search Groups & Topics" = "البحث في المجموعات والموضوعات";
 "Search Results" = "نتائج البحث";
@@ -1988,6 +2014,7 @@
 "Select a Date & Time" = "اختر تاريخ ووقت";
 "Select a Sample Workspace" = "اختر مساحة عمل نموذجية";
 "Select action type" = "تحديد نوع الإجراء";
+"Select additional actions you want to include in the process." = "حدد إجراءات إضافية ترغب في تضمينها في العملية.";
 "Select the role assignment (optional):" = "حدد تعيين الدور (اختياري):";
 "Select the user type:" = "تحديد نوع المستخدم:";
 "Selected" = "تم التحديد";
@@ -2148,6 +2175,7 @@
 "Tabs" = "علامات تبويب";
 "Take Photo" = "التقاط صورة";
 "Tap + to schedule a meeting." = "اضغط + لجدولة اجتماع.";
+"Tap Continue to join the workspace." = "اضغط على متابعة للانضمام إلى مساحة العمل.";
 "Tap and hold to leave comment" = "اضغط واستمر في الضغط لترك تعليق";
 "Tap and hold to record." = "اضغط واستمر للتسجيل.";
 "Tap on the meeting you'd like to join" = "اضغط على الاجتماع الذي ترغب في الانضمام إليه";
@@ -2212,6 +2240,7 @@
 "The selected items will be added to %@." = "ستتم إضافة العناصر المحددة إلى %@.";
 "The selected items will be moved to %@." = "سيتم نقل العناصر المحددة إلى %@.";
 "The selected items will be moved under %@." = "سيتم نقل العناصر المحددة باسم %@.";
+"The selected person is the owner of the workspace." = "الشخص المحدد هو مالك مساحة العمل.";
 "The start time must be before the end time." = "يجب أن يكون وقت البدء قبل وقت الانتهاء.";
 "There are no active screen share sessions to join." = "لا توجد جلسات مشاركة شاشة نشطة للانضمام إليها.";
 "There are no other members in this workspace." = "لا يوجد أعضاء آخرون في مساحة العمل هذه.";
@@ -2243,6 +2272,7 @@
 "This and Following Meetings" = "هذا الاجتماع وما يليه";
 "This content may have been deleted or otherwise removed." = "ربما تم حذف هذا المحتوى أو إزالته بطريقة أخرى.";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "يحتوي هذا المستند على حقول. هل ترغب في إضافة هذه الحقول وتعيينها تلقائيًا لشخص ما؟";
+"This envelope is still being processed by DocuSign. Please try again in a moment." = "لا يزال يتم معالجة هذا الظرف بواسطة DocuSign. يرجى المحاولة مرة أخرى بعد لحظة.";
 "This file has been deleted." = "تم حذف هذا الملف.";
 "This file has been deleted. It's not available anymore." = "تم حذف هذا الملف. لم يعد متاحًا.";
 "This flow was finished and you can no longer make modifications." = "تم الانتهاء من هذا التدفق ولم يعد بإمكانك إجراء المزيد من التعديلات.";
@@ -2254,6 +2284,7 @@
 "This may have happened because you did not finish creating up your account earlier." = "ربما حدث هذا لأنك لم تنهي إنشاء حسابك في وقتٍ سابق.";
 "This may take a while. In the meantime, please don’t close the app." = "هذا قد يستغرق بعض الوقت. في غضون ذلك، يرجى عدم إغلاق التطبيق.";
 "This meeting exceeds maximum number of participants." = "يتجاوز هذا الاجتماع الحد الأقصى لعدد المشاركين.";
+"This meeting has been locked. Please try again later." = "تم قفل هذا الاجتماع. الرجاء المحاولة مرة أخرى لاحقًا.";
 "This meeting was deleted by the host." = "حذف المضيف هذا الاجتماع.";
 "This meeting was likely canceled by the host." = "يُحتمل أن يكون الاجتماع قد تم إلغائه من قبل المضيف.";
 "This meeting was scheduled via an external calendar (e.g. Google Calendar, Outlook, etc.). Any changes made here will not be reflected in that calendar." = "تمت جدولة هذا الاجتماع من خلال التقويم الخارجي (مثل تقويم Google وOutlook وما إلى ذلك). لن تنعكس أي تغييرات يتم إجراؤها هنا في هذا التقويم.";
@@ -2277,7 +2308,8 @@
 "This to-do can only be completed by internal users." = "يُمكن للمستخدمين الداخليين فقط إكمال هذه المهمة.";
 "This transaction has been deleted." = "تم حذف هذه المعاملة.";
 "This user does not have the permission to sign files." = "هذا المستخدم ليس لديه إذن لتوقيع الملفات.";
-"This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact with your org admin." = "تم إلغاء تنشيط هذا المستخدم وقد لا يكون لديه القدرة على تسجيل الدخول إلى الحساب. لإعادة تفعيل حساب هذا المستخدم، يرجى الاتصال بمسؤول مؤسستك.";
+"This user has been deactivated and may not be able to log into their account. To reactivate this user's account, please contact your org admin." = "تم إلغاء تنشيط هذا المستخدم وقد لا يتمكن من تسجيل الدخول إلى حسابه. لإعادة تفعيل حساب هذا المستخدم، يرجى التواصل مع مدير المنظمة الخاص بك.";
+"This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact your org admin." = "تم إلغاء تنشيط هذا المستخدم وقد لا يتمكن من تسجيل الدخول إلى حسابه. لإعادة تفعيل حساب هذا المستخدم، يرجى التواصل مع مدير المنظمة الخاص بك.";
 "This user has been deactivated, please contact your administrator." = "تم إلغاء تنشيط هذا المستخدم، يرجى الاتصال بمدير النظام.";
 "This was due on %@" = "كان هذا مستحقًا في %@";
 "This was likely caused by a temporary network issue. Please try again." = "من المحتمل أن يكون ذلك بسبب مشكلة مؤقتة في الشبكة. يرجى المحاولة مرة أخرى.";
@@ -2559,6 +2591,7 @@
 "We were not able to complete your search." = "لم نتمكن من استكمال عملية بحثك.";
 "We were unable to connect with your %@." = "تعذَّر علينا التواصل مع %@.";
 "We were unable to disconnect with your %@." = "تعذَّر علينا قطع الاتصال مع %@.";
+"We were unable to process your request." = "لم نتمكن من معالجة طلبك.";
 "We were unable to process your request. Please double check your DocuSign account and try again." = "لم نتمكن من معالجة طلبك. الرجاء إعادة التحقق من حساب DocuSign الخاص بك والمحاولة مرة أخرى.";
 "We were unable to process your request. Please double check your Zoom account and try again." = "لم نتمكن من معالجة طلبك. يرجى التحقق مرة أخرى من حساب Zoom والمحاولة مرة أخرى.";
 "We were unable to read or recognize this QR code. Please try again." = "لم نتمكن من قراءة رمز QR هذا أو التعرف عليه. يرجى المحاولة مرة أخرى.";
@@ -2586,11 +2619,13 @@
 "Welcome Message" = "رسالة الترحيب";
 "Welcome back to %@. Please log in to continue." = "مرحبًا بك مرة أخرى في %@. الرجاء تسجيل الدخول للاستمرار.";
 "Welcome back. Please log in to continue." = "مرحبًا بعودتك. الرجاء تسجيل الدخول للاستمرار.";
+"Welcome message for invitees" = "رسالة ترحيب للمدعوين";
 "Welcome to %@‘s Onboarding Portal!" = "مرحباً بك في بوابة إعداد %@!";
 "Welcome to %@’s Client Portal!" = "مرحباً بك في بوابة العملاء الخاصة بـ %@!";
 "Welcome to %@’s Order Approval Portal!" = "مرحباً بك في بوابة الموافقة على الطلبات الخاصة بـ %@!";
 "Welcome to %@’s Service Portal!" = "مرحباً بك في بوابة الخدمات الخاصة بـ %@!";
 "Welcome! Thank you for accepting my invitation and joining our platform. Feel free to reach out to me any time for assistance." = "مرحبًا! شكرًا لقبولك دعوتي والانضمام إلى منصتنا. لا تتردد في التواصل معي في أي وقت للمساعدة.";
+"Welcome! We have designed this workspace to seamlessly take you through each step of our onboarding process. If you have any questions, please do not hesitate to reach out here. We look forward to working with you. Let's get started!" = "مرحباً! لقد صممنا هذه المساحة العمل لتأخذك بسلاسة خلال كل خطوة في عملية الإعداد الخاصة بنا. إذا كان لديك أي أسئلة، فلا تتردد في التواصل معنا هنا. نتطلع إلى العمل معك. لنبدأ!";
 "We’ll email you a magic code for password-free log in. Or you can" = "سنرسل إليك عبر البريد الإلكتروني رمزًا سحريًا لتسجيل الدخول بدون كلمة مرور. أو يمكنك";
 "We’ll send a verification code using one of the options below:" = "سنرسل رمز تحقق باستخدام أحد الخيارات أدناه:";
 "We’ll send out an email or SMS invitation to notify the assignees." = "سنرسل دعوة عبر البريد الإلكتروني أو SMS لإشعار المعينين.";
@@ -2673,6 +2708,7 @@
 "You are unable to reopen requests once marked as complete. Are you sure you want to continue?" = "لا يمكنك إعادة فتح الطلبات بمجرد وضع علامة مكتمل عليها. هل أنت متأكد بأنك تريد المتابعة؟";
 "You are viewing screen sharing." = "أنت تعرض مشاركة الشاشة.";
 "You are viewing the presenter's screen now." = "أنت تشاهد شاشة مقدم العرض الآن.";
+"You can add up to %@ participants. Internal users can set their booking availability times under their profile page." = "يمكنك إضافة ما يصل إلى %@ مشاركين. يمكن للمستخدمين الداخليين تحديد أوقات توفرهم للحجز تحت صفحة ملفهم الشخصي.";
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "يمكنك إضافة ما يصل إلى %@ مشاركين. يمكن للمستخدمين الداخليين تعيين وقت إتاحتهم لحجز الوقت ضمن صفحة ملفهم الشخصي.";
 "You can customize your default welcome message in settings." = "يمكنك تخصيص رسالة الترحيب الافتراضية الخاصة بك في الإعدادات.";
 "You can leave a message, or cancel your request and try later." = "يمكنك ترك رسالة، أو إلغاء طلبك والمحاولة لاحقًا.";
@@ -2738,6 +2774,7 @@
 "You will lose all the changes made to this document." = "ستفقد جميع التغييرات التي تم إجراؤها على هذا المستند.";
 "You will need to be invited by a member to join again." = "ستحتاج إلى دعوة من أحد الأعضاء للانضمام مرة أخرى.";
 "You will not be able to make changes after that." = "لن تتمكن من إجراء تغييرات بعد ذلك.";
+"You will receive a copy by email" = "ستتلقى نسخة عبر البريد الإلكتروني.";
 "You won't be able to recover it once confirmed." = "لن تتمكن من استعادتها بمجرد التأكيد.";
 "You'll be added as the assignee for unassigned roles" = "ستتم إضافتك كمكلف بالأدوار غير المعينة";
 "You'll need to update this application before continuing." = "ستحتاج إلى تحديث هذا التطبيق قبل الاستمرار.";
@@ -2806,6 +2843,7 @@
 "day" = "يوم";
 "days" = "أيام";
 "decline" = "رفض";
+"e.g. Acme" = "على سبيل المثال، Acme";
 "e.g: Due in 3 Days" = "على سبيل المثال، مستحق خلال 3 أيام";
 "got it" = "فهمت";
 "hide" = "إخفاء";

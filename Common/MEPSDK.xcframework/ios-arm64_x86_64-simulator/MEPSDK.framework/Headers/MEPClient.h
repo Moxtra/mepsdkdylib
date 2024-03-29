@@ -821,6 +821,11 @@ fetch meet with meetID
 @property (nonatomic, assign) BOOL enableContact;
 
 /**
+ Enable/disable more option, default is YES
+ */
+@property (nonatomic, assign) BOOL enableMore;
+
+/**
 An array of file extensions that are acceptable e.g ["pdf", "png", "txt"]
 The default value is nil, which means SDK does not check file types.
 */
@@ -933,6 +938,11 @@ The default value is nil, which means SDK does not check file types.
  *
  */
 @property (nonatomic, assign) BOOL disableCopyPaste;
+
+/**
+ * Enable/disable chat archive feature. Default is NO.
+ */
+@property (nonatomic, assign) BOOL disableArchiveChat;
 
 /**
  * Replace with local action color.

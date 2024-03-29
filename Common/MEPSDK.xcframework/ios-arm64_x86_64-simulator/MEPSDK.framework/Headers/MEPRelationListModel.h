@@ -17,6 +17,22 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) NSArray<MEPRelation *> *__nullable relations;
 
+/**
+* Get relation object from unique id
+* @param uniqueId Relation user's uniqueId
+* @param handler A block object to be executed when the action completes
+*/
+- (void)relationWithUniqueId:(NSString *)uniqueId
+           completionHandler:(void(^__nullable)(NSError *__nullable errorOrNil, MEPRelation *__nullable relation))handler;
+
+/**
+* Get relation object from email
+* @param uniqueId Relation user's email
+* @param handler A block object to be executed when the action completes
+*/
+- (void)relationWithEmail:(NSString *)email
+        completionHandler:(void(^__nullable)(NSError *__nullable errorOrNil, MEPRelation *__nullable relation))handler;
+
 @end
 
 @protocol MEPRelationListModelDelegate<NSObject>

@@ -2,6 +2,7 @@
 "%@" = "%@";
 "%@ %@" = "%1$@ %2$@";
 "%@ 's clip" = "Clipul %@";
+"%@ (%@) has requested to join" = "%1$@ (%2$@) a solicitat să se alăture";
 "%@ (Host)" = "%@ (Gazdă)";
 "%@ (Presenter)" = "%@ (Prezentator)";
 "%@ Account Logged Out" = "%@ Cont deconectat";
@@ -9,6 +10,7 @@
 "%@ Action Items" = "%@ Elemente de Acțiune";
 "%@ Approver" = "%@ aprobator";
 "%@ Approvers" = "%@ aprobatori";
+"%@ Assignee" = "%@ Responsabil";
 "%@ Assignees" = "%@ reprezentanți";
 "%@ Client" = "%@ Client";
 "%@ Clients" = "%@ Clients";
@@ -44,6 +46,7 @@
 "%@ Steps" = "%@ Pași";
 "%@ Total" = "%@ Total";
 "%@ Users" = "%@ Utilizatori";
+"%@ Viewer" = "%@ Spectator";
 "%@ Viewers" = "%@ vizualizatori";
 "%@ Week" = "%@ săptămâna";
 "%@ Weeks" = "%@ săptămâni";
@@ -230,6 +233,8 @@
 "%@ is away right now and may not be able to respond." = "%@ este plecat acum și este posibil să nu poată răspunde.";
 "%@ is controlling co-browsing." = "%@ controlează navigarea în comun.";
 "%@ is currently out of office:" = "%@ nu este în prezent la birou:";
+"%@ is currently out of the office." = "%@ este în prezent în afara biroului.";
+"%@ is currently out of the office. If you have any urgent issues, feel free to chat with %@." = "%1$@ este în prezent în afara biroului. Dacă aveți probleme urgente, nu ezitați să discutați cu %2$@.";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ este momentan indisponibil și vă va examina mesajul imediat ce revin.";
 "%@ is inviting you to a workspace.\r\n\r\nTopic: %@\r\n\r\nOpen the workspace with the share link:\r\n%@" = "%1$@ vă invită la un spațiu de lucru.\r\n\r\nSubiect: %2$@\n\nDeschideți spațiul de lucru cu linkul de distribuire:\r\n%3$@";
 "%@ is muted" = "%@ are sunetul dezactivat";
@@ -345,6 +350,9 @@
 "%@ weeks" = "%@ săptămâni";
 "%@ were added to the workspace" = "%@ a fost adăugat în spațiul de lucru";
 "%@ were removed from the workspace" = "%@ a fost eliminat din spațiul de lucru";
+"%@ will receive a copy by email" = "%@ va primi o copie prin email";
+"%@ will receive a copy by email." = "%@ va primi o copie prin email.";
+"%@ will receive a copy by email: %@" = "%1$@ va primi o copie prin email: %2$@";
 "%@ years ago" = "%@ ani în urmă";
 "%@'s Flow" = "Fluxul lui %@";
 "%@'s Meeting" = "Întâlnirea %@";
@@ -360,6 +368,7 @@
 "(Me)" = "(Eu)";
 "+ Add" = "+ Adăugare";
 "+ Add Guest" = "+ Adăugare oaspete";
+"+ Add a new one" = "+ Adăugați unul nou";
 "+ INVITE" = "+ INVITAȚIE";
 "+ Invite" = "+ Invitați";
 "+%@ more" = "+%@ mai mult";
@@ -400,6 +409,7 @@
 "Account Deleted" = "Cont șters";
 "Account Settings" = "Setările contului";
 "Account Verification" = "Verificare cont";
+"Account reconnected" = "Cont reconectat";
 "Acknowledge" = "Recunoașteți";
 "Acknowledged" = "Recunoscută";
 "Acknowledgement" = "Recunoaștere";
@@ -631,6 +641,7 @@
 "Authentication" = "Autentificare";
 "Authentication Expired" = "Autentificare expirată";
 "Auto" = "Automat";
+"Auto save..." = "Salvare automată...";
 "AutoNavi Maps" = "Hărți AutoNavi";
 "Automatically Record Meeting" = "Înregistrați automat întâlnirea";
 "Automatically archived due to inactivity" = "Arhivate automat din cauza inactivității";
@@ -979,6 +990,7 @@
 "Don’t see your portal?" = "Nu vă vedeți portalul?";
 "Download %@ failed, please try again." = "Descărcarea %@ a eșuat, vă rugăm să încercați din nou.";
 "Drag & Drop to Assign Fields" = "Trageți și plasați pentru alocarea de câmpuri";
+"Drive your external projects to completion with clear actions and milestones, tailored to each project's needs." = "Conduceți proiectele externe spre finalizare cu acțiuni clare și jaloane, adaptate nevoilor fiecărui proiect.";
 "Dropdown List" = "Lista verticală";
 "Due" = "Scadent";
 "Due %@ %@" = "Scadent %1$@ %2$@";
@@ -1107,6 +1119,9 @@
 "Error" = "Eroare";
 "Error connecting with %@. Please ask the creator (%@) to reconnect their %@ account (%@)." = "Eroare la conectarea cu %1$@. Vă rugăm să solicitați creatorului (%2$@) să reconecteze contul lor %3$@ (%4$@).";
 "Error connecting with %@. Please reconnect the account (%@) to enable the action." = "Eroare la conectarea cu %1$@. Vă rugăm să reconectați contul (%2$@) pentru a activa acțiunea.";
+"Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@), then try again." = "Eroare la conectarea cu DocuSign. Vă rugăm să solicitați creatorului (%1$@) să reconecteze contul lor DocuSign (%2$@), apoi încercați din nou.";
+"Error connecting with DocuSign. Please contact the flow owner (%@)." = "Eroare la conectarea cu DocuSign. Vă rugăm să contactați proprietarul fluxului (%@).";
+"Error connecting with DocuSign. Please reconnect your account (%@) and try again." = "Eroare la conectarea cu DocuSign. Vă rugăm să reconectați contul dvs. (%@) și să încercați din nou.";
 "Europe" = "Europa";
 "Every" = "Fiecare";
 "Every %@ days." = "O dată la %1$@ zile.";
@@ -1224,6 +1239,7 @@
 "Get connected with us." = "Intrați în legătură cu noi.";
 "Get direct access to %@ and %@’s services on mobile." = "Obțineți acces direct la serviciile %1$@ și %2$@ pe mobil.";
 "Get started" = "Începeți";
+"Get started with 40+ industry templates used by thousands of businesses." = "Începeți cu peste 40 de șabloane specifice industriei, utilizate de mii de afaceri.";
 "Give external users an option to add this person to your workspaces if they need support while you’re out of office." = "Oferiți utilizatorilor externi opțiunea de a adăuga această persoană la spațiile de lucru dacă au nevoie de asistență în timp ce dvs. nu sunteți la birou.";
 "Gmail" = "Gmail";
 "Go Back" = "Reveniți";
@@ -1256,7 +1272,7 @@
 "Host Video On" = "Video gazdă pornit";
 "Hosted by %@" = "Găzduit de %1$@";
 "I Agree" = "Sunt de acord";
-"I agree that the above is the legally biding electronic representation of my signature and initials. By continuing, I am confirming my identity above and my intention to sign this document electronically." = "Confirm că mai sus se află reprezentarea legală a semnăturii mele electronice și a inițialelor mele. Continuând, confirm identitatea mea mai sus și intenția de a semna acest document electronic.";
+"I agree that the above is the legally binding electronic representation of my signature and initials. By continuing, I am confirming my identity as stated above and my intention to sign this document electronically." = "Sunt de acord că cele de mai sus reprezintă reprezentarea electronică legal obligatorie a semnăturii și inițialelor mele. Continuând, îmi confirm identitatea așa cum este menționată mai sus și intenția mea de a semna acest document electronic.";
 "I have started a Zoom meeting as below link, please click to join: %@" = "Am început o întâlnire Zoom ca linkul de mai jos, vă rugăm să faceți clic pentru a vă alătura: %@";
 "I would like to invite you to join this flow workspace." = "Aș dori să vă invit să vă alăturați acestui spațiu de lucru de flux.";
 "I would like to share a Meeting link with you: %@" = "Aș dori să partajez cu dvs. un link de întâlnire: %@";
@@ -1291,6 +1307,7 @@
 "Identity Verification overdue (%@)" = "Verificarea identității întârziată (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "Verificarea identității a fost dezactivată temporar din motive de securitate. Vă rugăm să încercați din nou mai târziu.";
 "If enabled, a file reviewer will be required to review the files that are uploaded." = "Dacă este activată, un revizor de fișiere va fi necesar pentru a revizui fișierele care sunt încărcate.";
+"If enabled, the assignee must open all attachments before acknowledging." = "Dacă este activată, persoana desemnată trebuie să deschidă toate atașamentele înainte de a recunoaște.";
 "If enabled, this action can be completed in parallel with the previous action in the flow." = "Dacă este activată, această acțiune poate fi finalizată în paralel cu acțiunea anterioară din flux.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Dacă este activată, vom afișa pagina de acoperire a fluxului ori de câte ori deschideți un spațiu de lucru de flux pentru prima dată.";
 "If removed, they will lose access to this workspace immediately." = "Dacă sunt eliminați, aceștia își vor pierde imediat accesul la acest spațiu de lucru.";
@@ -1465,6 +1482,7 @@
 "Max %@ characters" = "%1$@ max. caractere";
 "Max Amount" = "Sumă max.";
 "Maximum %@ size exceeded (%@)" = "Dimensiunea maximă %1$@ depășită (%2$@)";
+"Maximum member limit reached" = "Limită maximă de membri atinsă";
 "Maximum participants reached. Please try removing some and trying again." = "A fost atins numărul maxim de participanți. Vă rugăm să încercați să eliminați o parte din ele și să încercați din nou.";
 "Me" = "Eu";
 "Meet Now" = "Întâlnire acum";
@@ -1560,6 +1578,7 @@
 "Name your to-do" = "Numele listei dvs de sarcini";
 "Name your workspace" = "Numiți spațiul de lucru";
 "Need help on something shared here?" = "Aveți nevoie de ajutor sau de ceva împărtășit aici?";
+"Needs to sign" = "Necesită să semneze";
 "Network error" = "Eroare de rețea";
 "Never" = "Niciodată";
 "New" = "Nou";
@@ -1663,6 +1682,8 @@
 "Only one assignee is required to approve this approval to complete it." = "Numai un singur cesionar este obligat să aprobe această aprobare pentru a o completa.";
 "Only one assignee is required to finish this to-do to complete it." = "Este necesar doar un responsabil pentru a finaliza această sarcină.";
 "Only participants can view meeting details." = "Numai participanții pot vedea detaliile întâlnirii.";
+"Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "Doar titlul, descrierea și data limită în acțiunile %1$@ pot fi editate. Dacă trebuie să modificați persoanele desemnate sau să actualizați alte detalii, vă rugăm să creați o nouă acțiune %2$@.";
+"Only the workspace owner can adjust link security" = "Doar proprietarul spațiului de lucru poate ajusta securitatea linkului";
 "Only websites that support https can be loaded in order to ensure a secure connection." = "Doar site-urile care acceptă „https” pot fi încărcate pentru o conexiune sigură.";
 "Open" = "Deschidere";
 "Open %@ and log in to continue." = "Deschideți %@ și conectați-vă pentru a continua.";
@@ -1794,6 +1815,7 @@
 "Private meeting" = "Întâlnire privată";
 "Process canceled" = "Procesul a fost anulat";
 "Process completed" = "Procedura este finalizată";
+"Processed successfully" = "Procesat cu succes";
 "Processing transactions…" = "Se procesează tranzacțiile...";
 "Processing..." = "Se procesează….";
 "Profile" = "Profil";
@@ -1822,6 +1844,8 @@
 "Reassign to" = "Reatribuiți către";
 "Reassigned" = "Reatribuit";
 "Receive emails about new activity when you’re not online and don’t have notifications enabled." = "Primiți e-mailuri despre activitate nouă atunci când nu sunteți online și nu aveți notificările activate.";
+"Received" = "Primit";
+"Receives a copy" = "Primește o copie";
 "Recents" = "Recente";
 "Reconnect" = "Reconectați-vă";
 "Reconnecting..." = "Se reconectează...";
@@ -1897,10 +1921,11 @@
 "Reset Filters" = "Resetați filtrele";
 "Response" = "Răspuns";
 "Restart" = "Repornire";
+"Restart Meeting" = "Reporniți ședința";
 "Resume Record" = "Reluare înregistrare";
-"Retart Meeting" = "Reîncepeți ședința";
 "Retrieve Your Portal URL" = "Recuperați adresa URL a Portalului dvs.";
 "Retry" = "Reîncercare";
+"Retrying..." = "Se reîncearcă...";
 "Review" = "Revizuire";
 "Review & Acknowledge" = "Revizuire și recunoaștere";
 "Review & Confirm" = "Revizuire și confirmare";
@@ -1953,6 +1978,7 @@
 "Screen is sharing" = "Ecranul este partajat";
 "Screenshot sent" = "Captură ecran trimisă";
 "Seamlessly guide buyers through a step-by-step order approval workflow." = "Ghidare fără probleme a cumpărătorilor printr-un flux de lucru de aprobare a comenzilor pas cu pas.";
+"Seamlessly guide buyers, vendors, and partners through a step-by-step order approval workflow." = "Ghidare fără probleme a cumpărătorilor, furnizorilor și partenerilor printr-un flux de lucru de aprobare a comenzilor pas cu pas.";
 "Search" = "Căutare";
 "Search Groups & Topics" = "Căutați grupuri și subiecte";
 "Search Results" = "rezultate ale căutării";
@@ -1993,6 +2019,7 @@
 "Select a Date & Time" = "Selectați o dată și o oră";
 "Select a Sample Workspace" = "Selectați un Spațiu de Lucru Exemplu";
 "Select action type" = "Selectați tipul acțiunii";
+"Select additional actions you want to include in the process." = "Selectați acțiuni suplimentare pe care doriți să le includeți în proces.";
 "Select the role assignment (optional):" = "Selectați atribuirea rolului (opțional):";
 "Select the user type:" = "Selectați tipul de utilizator:";
 "Selected" = "Selectat";
@@ -2153,6 +2180,7 @@
 "Tabs" = "File";
 "Take Photo" = "Faceți o fotografie";
 "Tap + to schedule a meeting." = "Atingeți + pentru a programa o întâlnire.";
+"Tap Continue to join the workspace." = "Atingeți Continuare pentru a vă alătura spațiului de lucru.";
 "Tap and hold to leave comment" = "Atingeți și mențineți apăsat pentru a lăsa un comentariu";
 "Tap and hold to record." = "Atingeți și mențineți apăsat pentru a înregistra.";
 "Tap on the meeting you'd like to join" = "Atingeți întâlnirea la care doriți să vă alăturați";
@@ -2217,6 +2245,7 @@
 "The selected items will be added to %@." = "Articolele selectate vor fi adăugate la %@.";
 "The selected items will be moved to %@." = "Articolele selectate vor fi mutate în %@.";
 "The selected items will be moved under %@." = "Articolele selectate vor fi mutate sub %@.";
+"The selected person is the owner of the workspace." = "Persoana selectată este proprietarul spațiului de lucru.";
 "The start time must be before the end time." = "Ora de începere trebuie să fie anterioară orei de încheiere.";
 "There are no active screen share sessions to join." = "Nu există sesiuni cu partajare a ecranului active pentru a vă alătura.";
 "There are no other members in this workspace." = "Nu există alți membri în acest spațiu de lucru.";
@@ -2248,6 +2277,7 @@
 "This and Following Meetings" = "Aceasta și următoarele întâlniri";
 "This content may have been deleted or otherwise removed." = "Este posibil ca acest conținut să fi fost șters sau eliminat.";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "Acest document conține câmpuri. Doriți să adăugați și să atribuiți automat aceste câmpuri cuiva?";
+"This envelope is still being processed by DocuSign. Please try again in a moment." = "Acest plic este încă procesat de DocuSign. Vă rugăm să încercați din nou într-un moment.";
 "This file has been deleted." = "Acest fișier a fost șters.";
 "This file has been deleted. It's not available anymore." = "Acest fișier a fost șters. Nu mai este disponibil.";
 "This flow was finished and you can no longer make modifications." = "Acest flux s-a încheiat și nu mai puteți face modificări.";
@@ -2259,6 +2289,7 @@
 "This may have happened because you did not finish creating up your account earlier." = "Este posibil ca acest lucru să se fi întâmplat pentru că nu ați finalizat crearea contului dvs. mai devreme.";
 "This may take a while. In the meantime, please don’t close the app." = "Acest lucru poate dura ceva timp. Între timp, nu închideți aplicația.";
 "This meeting exceeds maximum number of participants." = "Această ședință depășește numărul maxim de participanți.";
+"This meeting has been locked. Please try again later." = "Această ședință a fost blocată. Vă rugăm să încercați din nou mai târziu.";
 "This meeting was deleted by the host." = "Această întâlnire a fost ștearsă de gazdă.";
 "This meeting was likely canceled by the host." = "Această întâlnire a fost probabil anulată de gazdă.";
 "This meeting was scheduled via an external calendar (e.g. Google Calendar, Outlook, etc.). Any changes made here will not be reflected in that calendar." = "Această întâlnire a fost programată prin intermediul unui calendar extern (de exemplu, Google Calendar, Outlook etc.). Orice modificare efectuată aici nu se va reflecta în acel calendar.";
@@ -2282,7 +2313,8 @@
 "This to-do can only be completed by internal users." = "Această listă de rezolvat poate fi completată doar de utilizatori interni.";
 "This transaction has been deleted." = "Această tranzacție a fost ștearsă.";
 "This user does not have the permission to sign files." = "Acest utilizator nu are permisiunea de a semna fișiere.";
-"This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact with your org admin." = "Acest utilizator a fost dezactivat și este posibil să nu aibă posibilitatea de a se conecta la cont. Pentru a reactiva contul acestui utilizator, contactați administratorul organizației dvs.";
+"This user has been deactivated and may not be able to log into their account. To reactivate this user's account, please contact your org admin." = "Acest utilizator a fost dezactivat și este posibil să nu se poată conecta la contul său. Pentru a reactiva contul acestui utilizator, vă rugăm să contactați administratorul organizației dumneavoastră.";
+"This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact your org admin." = "Acest utilizator a fost dezactivat și este posibil să nu se poată conecta la contul său. Pentru a reactiva contul acestui utilizator, vă rugăm să contactați administratorul organizației dumneavoastră.";
 "This user has been deactivated, please contact your administrator." = "Acest utilizator a fost dezactivat, vă rugăm să contactați administratorul.";
 "This was due on %@" = "Aceasta era scadentă la %@.";
 "This was likely caused by a temporary network issue. Please try again." = "Acest lucru a fost provocat probabil de o problemă temporară de rețea. Încercați din nou.";
@@ -2564,6 +2596,7 @@
 "We were not able to complete your search." = "Nu am putut finaliza căutarea dvs.";
 "We were unable to connect with your %@." = "Nu am putut să ne conectăm cu %@ dvs.";
 "We were unable to disconnect with your %@." = "Nu am putut să ne deconectăm de la %@ dvs.";
+"We were unable to process your request." = "Nu am putut procesa cererea dvs.";
 "We were unable to process your request. Please double check your DocuSign account and try again." = "Nu am putut procesa solicitarea dvs. Vă rugăm să verificați din nou contul dvs. DocuSign și să încercați din nou.";
 "We were unable to process your request. Please double check your Zoom account and try again." = "Nu am putut procesa solicitarea dvs. Vă rugăm să verificați din nou contul dvs. Zoom și să încercați din nou.";
 "We were unable to read or recognize this QR code. Please try again." = "Nu am putut citi sau recunoaște acest cod QR. Încercați din nou.";
@@ -2591,11 +2624,13 @@
 "Welcome Message" = "Mesaj de bun venit";
 "Welcome back to %@. Please log in to continue." = "Bine ați revenit la %@. Conectați-vă pentru a continua.";
 "Welcome back. Please log in to continue." = "Bine ați revenit. Vă rugăm să vă conectați pentru a continua.";
+"Welcome message for invitees" = "Mesaj de bun venit pentru invitați";
 "Welcome to %@‘s Onboarding Portal!" = "Bine ați venit la Portalul de Integrare al %@!";
 "Welcome to %@’s Client Portal!" = "Bine ați venit la Portalul Clientului %@!";
 "Welcome to %@’s Order Approval Portal!" = "Bine ați venit la portalul de aprobare a comenzilor %@!";
 "Welcome to %@’s Service Portal!" = "Bine ați venit la Portalul de Servicii al %@!";
 "Welcome! Thank you for accepting my invitation and joining our platform. Feel free to reach out to me any time for assistance." = "Bine ați venit! Vă mulțumesc pentru că ați acceptat invitația mea și v-ați alăturat platformei noastre. Mă puteți contacta oricând pentru asistență.";
+"Welcome! We have designed this workspace to seamlessly take you through each step of our onboarding process. If you have any questions, please do not hesitate to reach out here. We look forward to working with you. Let's get started!" = "Bine ați venit! Am proiectat acest spațiu de lucru pentru a vă ghida fără probleme prin fiecare etapă a fluxului nostru de integrare. Dacă aveți întrebări, nu ezitați să ne contactați aici. Abia așteptăm să lucrăm cu dumneavoastră. Să începem!";
 "We’ll email you a magic code for password-free log in. Or you can" = "Vă vom trimite prin e-mail un cod magic pentru o autentificare fără parolă. Sau puteți";
 "We’ll send a verification code using one of the options below:" = "Vom trimite un cod de verificare folosind una dintre opțiunile de mai jos:";
 "We’ll send out an email or SMS invitation to notify the assignees." = "Vom trimite o invitație prin e-mail sau prin SMS pentru a-i anunța pe cei cesionați.";
@@ -2678,6 +2713,7 @@
 "You are unable to reopen requests once marked as complete. Are you sure you want to continue?" = "Nu puteți redeschide solicitările odată marcate ca fiind finalizate. Sigur doriți să continuați?";
 "You are viewing screen sharing." = "Vizualizați partajarea ecranului.";
 "You are viewing the presenter's screen now." = "Acum vizualizați ecranul prezentatorului.";
+"You can add up to %@ participants. Internal users can set their booking availability times under their profile page." = "Puteți adăuga până la %@ participanți. Utilizatorii interni își pot seta orele disponibile pentru rezervări în pagina lor de profil.";
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "Puteți adăuga până la %@ participanți. Utilizatorii interni își pot seta disponibilitatea rezervării de timp în pagina de profil.";
 "You can customize your default welcome message in settings." = "Puteți personaliza mesajul dvs. de bun venit implicit în setări.";
 "You can leave a message, or cancel your request and try later." = "Puteți lăsa un mesaj sau puteți anula solicitarea și încerca mai târziu.";
@@ -2744,6 +2780,7 @@
 "You will lose all the changes made to this document." = "Veți pierde toate modificările aduse acestui document.";
 "You will need to be invited by a member to join again." = "Va trebui să fiți invitat de către un membru să vă alăturați din nou.";
 "You will not be able to make changes after that." = "Nu veți putea face modificări după aceea.";
+"You will receive a copy by email" = "Veți primi o copie prin e-mail.";
 "You won't be able to recover it once confirmed." = "Nu veți putea să-l recuperați odată confirmat.";
 "You'll be added as the assignee for unassigned roles" = "Veți fi adăugat ca persoană desemnată pentru rolurile neatribuite.";
 "You'll need to update this application before continuing." = "Va trebui să actualizați această aplicație înainte de a continua.";
@@ -2812,6 +2849,7 @@
 "day" = "zi";
 "days" = "zile";
 "decline" = "refuzare";
+"e.g. Acme" = "de ex. Acme";
 "e.g: Due in 3 Days" = "e.g. Cu termen de predare în 3 zile";
 "got it" = "am înțeles";
 "hide" = "ascundeți";

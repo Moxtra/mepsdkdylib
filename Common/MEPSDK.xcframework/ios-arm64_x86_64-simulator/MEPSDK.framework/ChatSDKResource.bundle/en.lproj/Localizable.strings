@@ -1097,13 +1097,13 @@
 "%@ were removed from the workspace" = "%@ were removed from the workspace";
 
 /*  No comment provided by engineer.  */
-"%@ will receive a copy by e-mail" = "%@ will receive a copy by e-mail";
+"%@ will receive a copy by email" = "%@ will receive a copy by email";
 
 /*  No comment provided by engineer.  */
-"%@ will receive a copy by e-mail." = "%@ will receive a copy by e-mail.";
+"%@ will receive a copy by email." = "%@ will receive a copy by email.";
 
 /*  No comment provided by engineer.  */
-"%@ will receive a copy by e-mail: %@" = "%1$@ will receive a copy by e-mail: %2$@";
+"%@ will receive a copy by email: %@" = "%1$@ will receive a copy by email: %2$@";
 
 /*  No comment provided by engineer.  */
 "%@ years ago" = "%@ years ago";
@@ -3439,13 +3439,13 @@
 "Error connecting with %@. Please reconnect the account (%@) to enable the action." = "Error connecting with %1$@. Please reconnect the account (%2$@) to enable the action.";
 
 /*  No comment provided by engineer.  */
-"Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@) and then retry." = "Error connecting with DocuSign. Please ask the creator (%1$@) to reconnect their DocuSign account (%2$@) and then retry.";
+"Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@), then try again." = "Error connecting with DocuSign. Please ask the creator (%1$@) to reconnect their DocuSign account (%2$@), then try again.";
 
 /*  No comment provided by engineer.  */
-"Error connecting with DocuSign. Please contact the flow owner (name)." = "Error connecting with DocuSign. Please contact the flow owner (name).";
+"Error connecting with DocuSign. Please contact the flow owner (%@)." = "Error connecting with DocuSign. Please contact the flow owner (%@).";
 
 /*  No comment provided by engineer.  */
-"Error connecting with DocuSign. Please reconnect your account (%@) and then retry." = "Error connecting with DocuSign. Please reconnect your account (%@) and then retry.";
+"Error connecting with DocuSign. Please reconnect your account (%@) and try again." = "Error connecting with DocuSign. Please reconnect your account (%@) and try again.";
 
 /*  No comment provided by engineer.  */
 "Europe" = "Europe";
@@ -3903,7 +3903,7 @@
 "I Agree" = "I Agree";
 
 /*  No comment provided by engineer.  */
-"I agree that the above is the legally biding electronic representation of my signature and initials. By continuing, I am confirming my identity above and my intention to sign this document electronically." = "I agree that the above is the legally biding electronic representation of my signature and initials. By continuing, I am confirming my identity above and my intention to sign this document electronically.";
+"I agree that the above is the legally binding electronic representation of my signature and initials. By continuing, I am confirming my identity as stated above and my intention to sign this document electronically." = "I agree that the above is the legally binding electronic representation of my signature and initials. By continuing, I am confirming my identity as stated above and my intention to sign this document electronically.";
 
 /*  No comment provided by engineer.  */
 "I have started a Zoom meeting as below link, please click to join: %@" = "I have started a Zoom meeting as below link, please click to join: %@";
@@ -5183,6 +5183,9 @@
 "Only participants can view meeting details." = "Only participants can view meeting details.";
 
 /*  No comment provided by engineer.  */
+"Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "Only the title, description, and due date in %1$@ actions can be edited. If you need to modify assignees or update any other details, please create a new %2$@ action.";
+
+/*  No comment provided by engineer.  */
 "Only the workspace owner can adjust link security" = "Only the workspace owner can adjust link security";
 
 /*  message  */
@@ -5903,10 +5906,10 @@
 "Restart" = "Restart";
 
 /*  No comment provided by engineer.  */
-"Resume Record" = "Resume Record";
+"Restart Meeting" = "Restart Meeting";
 
 /*  No comment provided by engineer.  */
-"Retart Meeting" = "Retart Meeting";
+"Resume Record" = "Resume Record";
 
 /*  No comment provided by engineer.  */
 "Retrieve Your Portal URL" = "Retrieve Your Portal URL";
@@ -6885,13 +6888,10 @@
 "The selected items will be moved under %@." = "The selected items will be moved under %@.";
 
 /*  No comment provided by engineer.  */
-"The selected member is the owner of the workspace." = "The selected member is the owner of the workspace.";
+"The selected person is the owner of the workspace." = "The selected person is the owner of the workspace.";
 
 /*  No comment provided by engineer.  */
 "The start time must be before the end time." = "The start time must be before the end time.";
-
-/*  No comment provided by engineer.  */
-"The title, description, and due date in %@ action can be edited. If you need to modify assignees or update details beyond this, please create a new %@ action." = "Title, description, and due date in %1$@ action can be edited. If you need to modify assignees or update details beyond this, please create a new %2$@ action.";
 
 /*  No screen share to join  */
 "There are no active screen share sessions to join." = "There are no active screen share sessions to join.";
@@ -7020,6 +7020,9 @@
 "This meeting exceeds maximum number of participants." = "This meeting exceeds maximum number of participants.";
 
 /*  No comment provided by engineer.  */
+"This meeting has been locked. Please try again later." = "This meeting has been locked. Please try again later.";
+
+/*  No comment provided by engineer.  */
 "This meeting was deleted by the host." = "This meeting was deleted by the host.";
 
 /*  No comment provided by engineer.  */
@@ -7092,7 +7095,7 @@
 "This user has been deactivated and may not be able to log into their account. To reactivate this user's account, please contact your org admin." = "This user has been deactivated and may not be able to log into their account. To reactivate this user's account, please contact your org admin.";
 
 /*  No comment provided by engineer.  */
-"This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact with your org admin." = "This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact with your org admin.";
+"This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact your org admin." = "This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact your org admin.";
 
 /*  No comment provided by engineer.  */
 "This user has been deactivated, please contact your administrator." = "This user has been deactivated, please contact your administrator.";
@@ -8045,6 +8048,9 @@
 "Welcome! Thank you for accepting my invitation and joining our platform. Feel free to reach out to me any time for assistance." = "Welcome! Thank you for accepting my invitation and joining our platform. Feel free to reach out to me any time for assistance.";
 
 /*  No comment provided by engineer.  */
+"Welcome! We have designed this workspace to seamlessly take you through each step of our onboarding process. If you have any questions, please do not hesitate to reach out here. We look forward to working with you. Let's get started!" = "Welcome! We have designed this workspace to seamlessly take you through each step of our onboarding process. If you have any questions, please do not hesitate to reach out here. We look forward to working with you. Let's get started!";
+
+/*  No comment provided by engineer.  */
 "We’ll email you a magic code for password-free log in. Or you can" = "We’ll email you a magic code for password-free log in. Or you can";
 
 /*  No comment provided by engineer.  */
@@ -8492,7 +8498,7 @@
 "You will not be able to make changes after that." = "You will not be able to make changes after that.";
 
 /*  No comment provided by engineer.  */
-"You will receive a copy by e-mail" = "You will receive a copy by e-mail";
+"You will receive a copy by email" = "You will receive a copy by email";
 
 /*  No comment provided by engineer.  */
 "You won't be able to recover it once confirmed." = "You won't be able to recover it once confirmed.";
@@ -8791,6 +8797,9 @@
 
 /*  No comment provided by engineer.  */
 "start chat" = "start chat";
+
+/*  No comment provided by engineer.  */
+"test 001" = "test 001";
 
 /*  No comment provided by engineer.  */
 "the majority of assignees" = "the majority of assignees";

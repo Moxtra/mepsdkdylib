@@ -2,6 +2,7 @@
 "%@" = "%@";
 "%@ %@" = "%1$@ %2$@";
 "%@ 's clip" = "%@的屏幕錄製";
+"%@ (%@) has requested to join" = "%1$@ (%2$@) 請求加入";
 "%@ (Host)" = "%@（主持人）";
 "%@ (Presenter)" = "%@（主講人）";
 "%@ Account Logged Out" = "%@帳戶已退出登錄";
@@ -9,6 +10,7 @@
 "%@ Action Items" = "%@個待操作事項";
 "%@ Approver" = "%@批准人";
 "%@ Approvers" = "%@批准人";
+"%@ Assignee" = "%@個經辦人";
 "%@ Assignees" = "%@個經辦人";
 "%@ Client" = "%@個客戶";
 "%@ Clients" = "%@個客戶";
@@ -44,6 +46,7 @@
 "%@ Steps" = "%@步";
 "%@ Total" = "總共%@";
 "%@ Users" = "%@個用戶";
+"%@ Viewer" = "%@查看者";
 "%@ Viewers" = "%@個瀏覽者";
 "%@ Week" = "%@週";
 "%@ Weeks" = "%@週";
@@ -230,6 +233,8 @@
 "%@ is away right now and may not be able to respond." = "%@現在不在，可能無法回复。";
 "%@ is controlling co-browsing." = "%@正在控制協同瀏覽。";
 "%@ is currently out of office:" = "%@當前不在辦公室：";
+"%@ is currently out of the office." = "%@當前不在辦公室。";
+"%@ is currently out of the office. If you have any urgent issues, feel free to chat with %@." = "%1$@目前不在辦公室。如果您有任何緊急問題，歡迎隨時與%2$@聊天。";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@目前無法使用，他們會在他們返回後立即查看您的消息。";
 "%@ is inviting you to a workspace.\r\n\r\nTopic: %@\r\n\r\nOpen the workspace with the share link:\r\n%@" = "%1$@正在邀請您加入工作空間。 \r\n\r\n主題：%2$@\r\n\r\n使用共享鏈接打開工作空間：\r\n%3$@";
 "%@ is muted" = "%@被靜音";
@@ -345,6 +350,9 @@
 "%@ weeks" = "%@週";
 "%@ were added to the workspace" = "%@已添加到工作空間";
 "%@ were removed from the workspace" = "%@已從工作空間中刪除";
+"%@ will receive a copy by email" = "%@將通過電子郵件接收一份副本";
+"%@ will receive a copy by email." = "%@將通過電子郵件接收副本。";
+"%@ will receive a copy by email: %@" = "%1$@將通過電子郵件接收一份副本：%2$@";
 "%@ years ago" = "%@年前";
 "%@'s Flow" = "%@的流程";
 "%@'s Meeting" = "%@的會議";
@@ -360,6 +368,7 @@
 "(Me)" = "（我）";
 "+ Add" = "+ 添加";
 "+ Add Guest" = "+ 添加臨時客人";
+"+ Add a new one" = "+添加新的";
 "+ INVITE" = "+ 邀請";
 "+ Invite" = "+ 邀請";
 "+%@ more" = "+%@個更多";
@@ -400,6 +409,7 @@
 "Account Deleted" = "帳戶已刪除";
 "Account Settings" = "帳號";
 "Account Verification" = "帳戶驗證";
+"Account reconnected" = "賬戶已重新連接";
 "Acknowledge" = "確認";
 "Acknowledged" = "已確認";
 "Acknowledgement" = "確認書";
@@ -631,6 +641,7 @@
 "Authentication" = "認證";
 "Authentication Expired" = "身份驗證已過期";
 "Auto" = "自動";
+"Auto save..." = "自動保存...";
 "AutoNavi Maps" = "高德地圖";
 "Automatically Record Meeting" = "自動錄製會議";
 "Automatically archived due to inactivity" = "由於不活躍而自動存檔";
@@ -979,6 +990,7 @@
 "Don’t see your portal?" = "沒有看到您的門戶？";
 "Download %@ failed, please try again." = "下載%@失敗, 請重試。";
 "Drag & Drop to Assign Fields" = "拖放簽名字段";
+"Drive your external projects to completion with clear actions and milestones, tailored to each project's needs." = "使用清晰的行動和里程碑，根據每個項目的需求量身定制，驅動您的外部項目完成。";
 "Dropdown List" = "下拉列表";
 "Due" = "到期";
 "Due %@ %@" = "到期 %1$@ %2$@";
@@ -1081,7 +1093,7 @@
 "Ended %@" = "已結束%@";
 "Ending Meeting..." = "正在結束會議…";
 "Ends" = "結束";
-"Enter" = "輸入";
+"Enter" = "進入";
 "Enter Current Password" = "輸入當前密碼";
 "Enter Folder Name" = "輸入文件夾名";
 "Enter Name or Email" = "輸入名字或郵箱";
@@ -1107,6 +1119,9 @@
 "Error" = "錯誤";
 "Error connecting with %@. Please ask the creator (%@) to reconnect their %@ account (%@)." = "連接%1$@時出錯，請要求創建者(%2$@)重新連接他們的%3$@賬戶(%4$@)。";
 "Error connecting with %@. Please reconnect the account (%@) to enable the action." = "連接%1$@時出錯，請重新連接賬戶(%2$@)以啟用此操作。";
+"Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@), then try again." = "連接DocuSign時出錯，請要求創建者（%1$@）重新連接他們的DocuSign賬戶（%2$@），然後重試。";
+"Error connecting with DocuSign. Please contact the flow owner (%@)." = "連接DocuSign時出錯，請聯繫流程所有者（%@）。";
+"Error connecting with DocuSign. Please reconnect your account (%@) and try again." = "連接DocuSign時出錯，請重新連接您的賬戶（%@），然後重試。";
 "Europe" = "歐洲";
 "Every" = "每";
 "Every %@ days." = "每%1$@天";
@@ -1224,6 +1239,7 @@
 "Get connected with us." = "與我們聯繫。";
 "Get direct access to %@ and %@’s services on mobile." = "在移動設備上直接與%1$@對話並且訪問%2$@提供的服務";
 "Get started" = "開始使用";
+"Get started with 40+ industry templates used by thousands of businesses." = "開始使用40多個行業模板，這些模板已被數千家企業所使用。";
 "Give external users an option to add this person to your workspaces if they need support while you’re out of office." = "如果外部用戶在您不在辦公室時需要支持，則可以選擇將此人添加到您的工作空間。";
 "Gmail" = "Gmail";
 "Go Back" = "返回";
@@ -1256,7 +1272,7 @@
 "Host Video On" = "打開主持人視頻";
 "Hosted by %@" = "主持人：%1$@";
 "I Agree" = "我同意";
-"I agree that the above is the legally biding electronic representation of my signature and initials. By continuing, I am confirming my identity above and my intention to sign this document electronically." = "我同意上述內容是我的簽名和縮寫的合法電子表述。通過繼續，我確認我的上述身份和我打算以電子方式簽署這份文件。";
+"I agree that the above is the legally binding electronic representation of my signature and initials. By continuing, I am confirming my identity as stated above and my intention to sign this document electronically." = "我同意上述是我簽名和姓名首字母的法律約束力電子表示。繼續操作，我確認我上述的身份和我對電子簽署此文件的意圖。";
 "I have started a Zoom meeting as below link, please click to join: %@" = "我已經通過以下鏈接開始了Zoom會議，請點擊加入：%@";
 "I would like to invite you to join this flow workspace." = "我想邀請您加入這個流程工作空間。";
 "I would like to share a Meeting link with you: %@" = "分享給你一個會議鏈接：%@";
@@ -1291,6 +1307,7 @@
 "Identity Verification overdue (%@)" = "身份驗證逾期 (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "出於安全原因，身份驗證已被暫時禁用，請稍後再試。";
 "If enabled, a file reviewer will be required to review the files that are uploaded." = "如果啟用，將需要文件審查員審查上傳的文件。";
+"If enabled, the assignee must open all attachments before acknowledging." = "如果啟用，經辦人必須在確認前打開所有附件。";
 "If enabled, this action can be completed in parallel with the previous action in the flow." = "如果啟用，此操作可以與流程中的前一個操作並行完成。";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "如果啟用，我們將在您首次打開流程工作空間時顯示流程封面。";
 "If removed, they will lose access to this workspace immediately." = "如果刪除，他們將立即失去對該工作空間的訪問權限。";
@@ -1465,6 +1482,7 @@
 "Max %@ characters" = "最長%1$@字符";
 "Max Amount" = "最高限額";
 "Maximum %@ size exceeded (%@)" = "超過最大%1$@文件大小 (%2$@)";
+"Maximum member limit reached" = "已達到最大成員限制";
 "Maximum participants reached. Please try removing some and trying again." = "已達到最大參與人數，請嘗試刪除一些並重試。";
 "Me" = "我";
 "Meet Now" = "發起會議";
@@ -1560,6 +1578,7 @@
 "Name your to-do" = "命名您的任務";
 "Name your workspace" = "為您的工作空間命名";
 "Need help on something shared here?" = "對於在這里分享的內容您需要幫助嗎？";
+"Needs to sign" = "需要簽名";
 "Network error" = "網絡錯誤。";
 "Never" = "永不";
 "New" = "新建";
@@ -1663,6 +1682,8 @@
 "Only one assignee is required to approve this approval to complete it." = "僅需一名經辦人來批准此審批即可完成。";
 "Only one assignee is required to finish this to-do to complete it." = "只需要一個經辦人完成此任務即可完成它。";
 "Only participants can view meeting details." = "只有參與者才能查看會議詳細信息。";
+"Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "僅可編輯%1$@操作中的標題、描述和截止日期。如果您需要修改經辦人或更新任何其他詳細信息，請創建新的%2$@操作。";
+"Only the workspace owner can adjust link security" = "只有工作空間的所有者才能調整鏈接安全性";
 "Only websites that support https can be loaded in order to ensure a secure connection." = "只能加載支持 https 的網站，以確保安全連接。";
 "Open" = "打開";
 "Open %@ and log in to continue." = "打開%@並登錄以繼續。";
@@ -1794,6 +1815,7 @@
 "Private meeting" = "私密會議";
 "Process canceled" = "流程取消";
 "Process completed" = "流程完成";
+"Processed successfully" = "處理成功";
 "Processing transactions…" = "業務處理中…";
 "Processing..." = "處理中...";
 "Profile" = "個人資料";
@@ -1822,6 +1844,8 @@
 "Reassign to" = "重新分配給";
 "Reassigned" = "已重新分配";
 "Receive emails about new activity when you’re not online and don’t have notifications enabled." = "當您不在線且未啟用通知時，會收到有關新動態的電子郵件。";
+"Received" = "已收到";
+"Receives a copy" = "接收副本";
 "Recents" = "近期";
 "Reconnect" = "重新連接";
 "Reconnecting..." = "重連…";
@@ -1897,10 +1921,11 @@
 "Reset Filters" = "重置過濾器";
 "Response" = "回覆";
 "Restart" = "重新開始";
+"Restart Meeting" = "重新開始會議";
 "Resume Record" = "繼續錄製";
-"Retart Meeting" = "重新開始會議";
 "Retrieve Your Portal URL" = "找回您的門戶URL";
 "Retry" = "重試";
+"Retrying..." = "正在重試...";
 "Review" = "審核";
 "Review & Acknowledge" = "審核和確認";
 "Review & Confirm" = "審核和確認";
@@ -1953,6 +1978,7 @@
 "Screen is sharing" = "屏幕分享中";
 "Screenshot sent" = "屏幕快照已發送";
 "Seamlessly guide buyers through a step-by-step order approval workflow." = "無縫引導買家通過逐步的訂單審批流程。";
+"Seamlessly guide buyers, vendors, and partners through a step-by-step order approval workflow." = "無縫引導買家、供應商和合作夥伴通過逐步的訂單審批流程。";
 "Search" = "查找";
 "Search Groups & Topics" = "搜索組和主題";
 "Search Results" = "搜索結果";
@@ -1993,6 +2019,7 @@
 "Select a Date & Time" = "選擇日期和時間";
 "Select a Sample Workspace" = "選擇一個樣本工作空間";
 "Select action type" = "選擇操作類型";
+"Select additional actions you want to include in the process." = "選擇您想要包含在流程中的額外操作。";
 "Select the role assignment (optional):" = "選擇角色分配（可選）：";
 "Select the user type:" = "選擇用戶類型:";
 "Selected" = "選擇";
@@ -2153,6 +2180,7 @@
 "Tabs" = "列表頁";
 "Take Photo" = "拍照";
 "Tap + to schedule a meeting." = "點擊+號安排會議";
+"Tap Continue to join the workspace." = "點擊“繼續”以加入工作空間。";
 "Tap and hold to leave comment" = "長按添加位置評論。";
 "Tap and hold to record." = "長按開始錄製";
 "Tap on the meeting you'd like to join" = "點擊加會";
@@ -2217,6 +2245,7 @@
 "The selected items will be added to %@." = "所選項目將被添加到%@中。";
 "The selected items will be moved to %@." = "所選項目將被移至%@。";
 "The selected items will be moved under %@." = "所選項目將移至%@下。";
+"The selected person is the owner of the workspace." = "所選人員是該工作空間的所有者。";
 "The start time must be before the end time." = "開始時間必須早於結束時間。";
 "There are no active screen share sessions to join." = "你想加入的屏幕分享不存在了";
 "There are no other members in this workspace." = "此工作空間中沒有其他成員。";
@@ -2248,6 +2277,7 @@
 "This and Following Meetings" = "這次及以後的會議";
 "This content may have been deleted or otherwise removed." = "此內容可能已被刪除或以其他方式刪除。";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "此文檔包含字段。是否要自動添加這些字段並將其分配給某人？";
+"This envelope is still being processed by DocuSign. Please try again in a moment." = "此信封仍在由DocuSign處理中。請稍後再試。";
 "This file has been deleted." = "該文件已經被刪除。";
 "This file has been deleted. It's not available anymore." = "該文件已經被刪除，不再有效。";
 "This flow was finished and you can no longer make modifications." = "此流程已完成，您無法再進行修改。";
@@ -2259,6 +2289,7 @@
 "This may have happened because you did not finish creating up your account earlier." = "發生這種情況的原因可能是您尚未完成帳戶的創建。";
 "This may take a while. In the meantime, please don’t close the app." = "這可能需要一段時間。與此同時，請不要關閉應用程序。";
 "This meeting exceeds maximum number of participants." = "該會議超過了最大參加人數限制。";
+"This meeting has been locked. Please try again later." = "此會議已被鎖定，請稍後再試。";
 "This meeting was deleted by the host." = "該會議已被主持人刪除。";
 "This meeting was likely canceled by the host." = "會議發起人可能已經取消了此會議";
 "This meeting was scheduled via an external calendar (e.g. Google Calendar, Outlook, etc.). Any changes made here will not be reflected in that calendar." = "此會議是通過外部日曆（例如 Google 日曆、Outlook 等）安排的。此處所做的任何更改都不會反映在該日曆中。";
@@ -2282,7 +2313,8 @@
 "This to-do can only be completed by internal users." = "此任務只能由內部用戶完成。";
 "This transaction has been deleted." = "該交易已被刪除。";
 "This user does not have the permission to sign files." = "此用戶沒有簽署文件的權限。";
-"This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact with your org admin." = "此用戶已被停用，可能無法登錄賬戶。要重新激活此用戶的賬戶，請聯繫您的組織管理員。";
+"This user has been deactivated and may not be able to log into their account. To reactivate this user's account, please contact your org admin." = "此用戶已被停用，可能無法登錄其賬戶。要重新激活此用戶的賬戶，請聯繫您的組織管理員。";
+"This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact your org admin." = "此用戶已被停用，可能無法登錄其賬戶。要重新激活此用戶的賬戶，請聯繫您的組織管理員。";
 "This user has been deactivated, please contact your administrator." = "該用戶已被停用，請聯繫您的管理員。";
 "This was due on %@" = "%@到期";
 "This was likely caused by a temporary network issue. Please try again." = "這可能是由於臨時網絡問題引起的。請重試。";
@@ -2564,6 +2596,7 @@
 "We were not able to complete your search." = "我們無法完成您的搜索。";
 "We were unable to connect with your %@." = "我們無法與您的%@連接。";
 "We were unable to disconnect with your %@." = "我們無法斷開與您的%@的連接。";
+"We were unable to process your request." = "我們無法處理您的請求。";
 "We were unable to process your request. Please double check your DocuSign account and try again." = "我們無法處理您的請求。請仔細檢查您的DocuSign帳戶，然後重試。";
 "We were unable to process your request. Please double check your Zoom account and try again." = "我們無法處理您的請求。請仔細檢查您的Zoom帳戶，然後重試。";
 "We were unable to read or recognize this QR code. Please try again." = "我們無法讀取或識別此二維碼。請重試。";
@@ -2591,11 +2624,13 @@
 "Welcome Message" = "歡迎信息";
 "Welcome back to %@. Please log in to continue." = "歡迎您來到%@。請登錄以繼續。";
 "Welcome back. Please log in to continue." = "歡迎回來，請登錄訪問更多內容。";
+"Welcome message for invitees" = "邀請者的歡迎信息";
 "Welcome to %@‘s Onboarding Portal!" = "歡迎來到%@的入職門戶網站！";
 "Welcome to %@’s Client Portal!" = "歡迎來到%@的客戶門戶！";
 "Welcome to %@’s Order Approval Portal!" = "歡迎來到%@的訂單審批門戶！";
 "Welcome to %@’s Service Portal!" = "歡迎來到%@的服務門戶！";
 "Welcome! Thank you for accepting my invitation and joining our platform. Feel free to reach out to me any time for assistance." = "非常歡迎！感謝接受我的邀請加入我們的平台。歡迎任何時候聯繫我。";
+"Welcome! We have designed this workspace to seamlessly take you through each step of our onboarding process. If you have any questions, please do not hesitate to reach out here. We look forward to working with you. Let's get started!" = "歡迎！我們已經設計了這個工作空間，以便無縫地引導您完成我們的入職流程。如果您有任何問題，請不要猶豫在這裡提出。我們期待與您合作。讓我們開始吧！";
 "We’ll email you a magic code for password-free log in. Or you can" = "我們將向您發送一個無需密碼登錄的魔法代碼。或者您可以";
 "We’ll send a verification code using one of the options below:" = "我們將使用以下選項之一發送驗證碼：";
 "We’ll send out an email or SMS invitation to notify the assignees." = "我們將發送電子郵件或短信邀請通知經辦人。";
@@ -2678,6 +2713,7 @@
 "You are unable to reopen requests once marked as complete. Are you sure you want to continue?" = "標記為完成後，您將無法重新打開請求。你確定你要繼續嗎？";
 "You are viewing screen sharing." = "你在收看屏幕分享。";
 "You are viewing the presenter's screen now." = "主講人屏幕分享中。";
+"You can add up to %@ participants. Internal users can set their booking availability times under their profile page." = "您可以添加多達%@名參與者。內部用戶可以在他們的個人資料頁面下設置他們的預訂可用時間。";
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "您可以添加多達%@個參與者。內部用戶可以在個人資料頁面設置他們的時間預定可用性。";
 "You can customize your default welcome message in settings." = "您可以在應用的設置中定制默認的客戶歡迎信息";
 "You can leave a message, or cancel your request and try later." = "您可以留言，或取消您的請求，稍後再試。";
@@ -2744,6 +2780,7 @@
 "You will lose all the changes made to this document." = "您將放棄對該文件的所有修改。";
 "You will need to be invited by a member to join again." = "您將需要會員邀請才能再次加入";
 "You will not be able to make changes after that." = "之後無法修改。";
+"You will receive a copy by email" = "您將通過電子郵件收到一份副本";
 "You won't be able to recover it once confirmed." = "一旦確認，您將無法恢復";
 "You'll be added as the assignee for unassigned roles" = "您將被添加為未分配角色的經辦人。";
 "You'll need to update this application before continuing." = "您需要升級應用才能繼續。";
@@ -2812,6 +2849,7 @@
 "day" = "天";
 "days" = "天";
 "decline" = "拒絕";
+"e.g. Acme" = "例如: 阿克米";
 "e.g: Due in 3 Days" = "例如3天內到期";
 "got it" = "明白";
 "hide" = "隱藏";

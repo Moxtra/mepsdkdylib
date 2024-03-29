@@ -2,6 +2,7 @@
 "%@" = "%@";
 "%@ %@" = "%1$@ %2$@";
 "%@ 's clip" = "%@님의 클립";
+"%@ (%@) has requested to join" = "%1$@ (%2$@)이(가) 가입을 요청했습니다.";
 "%@ (Host)" = "%@ (사회자)";
 "%@ (Presenter)" = "%@ (발표자)";
 "%@ Account Logged Out" = "%@ 계정 로그아웃됨";
@@ -9,6 +10,7 @@
 "%@ Action Items" = "%@개의 액션 아이템";
 "%@ Approver" = "%@ 승인자";
 "%@ Approvers" = "%@ 승인자들";
+"%@ Assignee" = "%@명의 담당자";
 "%@ Assignees" = "%@명의 피지정자";
 "%@ Client" = "%@ 고객";
 "%@ Clients" = "%@명 고객";
@@ -44,6 +46,7 @@
 "%@ Steps" = "%@개 단계";
 "%@ Total" = "%@ 총";
 "%@ Users" = "%@명의 사용자";
+"%@ Viewer" = "%@명의 뷰어";
 "%@ Viewers" = "%@명의 뷰어";
 "%@ Week" = "%@주";
 "%@ Weeks" = "%@개 주들";
@@ -230,6 +233,8 @@
 "%@ is away right now and may not be able to respond." = "%@이(가) 현재 부재중이어서 응답하지 못할 수 있습니다.";
 "%@ is controlling co-browsing." = "%@님이 협동 브라우징을 제어하고 있습니다.";
 "%@ is currently out of office:" = "%@님이 현재 부재중입니다:";
+"%@ is currently out of the office." = "%@님은 현재 사무실을 비우셨습니다.";
+"%@ is currently out of the office. If you have any urgent issues, feel free to chat with %@." = "%1$@님은 현재 사무실을 비우셨습니다. 급한 문제가 있으시면 %2$@님과 대화해 주시기 바랍니다.";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@님은 현재 사용 불가 상태이며, 메시지가 반환되는 즉시 검토할 것입니다.";
 "%@ is inviting you to a workspace.\r\n\r\nTopic: %@\r\n\r\nOpen the workspace with the share link:\r\n%@" = "%1$@님이 귀하를 작업 공간에 초대하셨습니다.\r\n\r\n주제: %2$@\r\n\r\n공유 링크를 사용하여 작업 공간을 여십시오:\r\n%3$@";
 "%@ is muted" = "%@님이 음소거됨";
@@ -344,6 +349,9 @@
 "%@ weeks" = "%@개 주들";
 "%@ were added to the workspace" = "%@님이 작업 공간에 추가되었습니다.";
 "%@ were removed from the workspace" = "%@님이 작업 공간에서 삭제되었습니다.";
+"%@ will receive a copy by email" = "%@(으)로 이메일 사본이 전송됩니다.";
+"%@ will receive a copy by email." = "%@(이)가 이메일로 사본을 받게 됩니다.";
+"%@ will receive a copy by email: %@" = "%1$@이(가) 이메일로 사본을 받게 됩니다: %2$@";
 "%@ years ago" = "%@년 전";
 "%@'s Flow" = "%@의 플로우";
 "%@'s Meeting" = "%@님의 미팅";
@@ -358,6 +366,7 @@
 "(Host, Presenter)" = "(주최자, 발표자)";
 "(Me)" = "(나)";
 "+ Add" = "+ 추가";
+"+ Add a new one" = "+ 새로운 것을 추가하세요";
 "+ INVITE" = "+ 초대";
 "+ Invite" = "+ 초대";
 "+%@ more" = "+%@ 이상";
@@ -398,6 +407,7 @@
 "Account Deleted" = "계정 삭제됨";
 "Account Settings" = "계정 설정";
 "Account Verification" = "계정 확인";
+"Account reconnected" = "계정이 다시 연결되었습니다";
 "Acknowledge" = "인정하기";
 "Acknowledged" = "인정함";
 "Acknowledgement" = "인정";
@@ -629,6 +639,7 @@
 "Authentication" = "인증";
 "Authentication Expired" = "인증 만료";
 "Auto" = "자동";
+"Auto save..." = "자동 저장 중...";
 "AutoNavi Maps" = "AutoNavi 맵";
 "Automatically Record Meeting" = "미팅 자동 기록";
 "Automatically archived due to inactivity" = "비활성화되면 자동으로 보관됩니다";
@@ -975,6 +986,7 @@
 "Don’t see your portal?" = "포털이 보이지 않습니까?";
 "Download %@ failed, please try again." = "%@ 다운로드에 실패했습니다. 다시 시도하십시오.";
 "Drag & Drop to Assign Fields" = "끌어 당겨 내려놓아 필드를 할당";
+"Drive your external projects to completion with clear actions and milestones, tailored to each project's needs." = "각 프로젝트의 필요에 맞춤화된 명확한 액션과 마일스톤으로 외부 프로젝트를 완성으로 이끄십시오.";
 "Dropdown List" = "드롭 다운 목록";
 "Due" = "기한";
 "Due %@ %@" = "기한 %1$@ %2$@";
@@ -1103,6 +1115,9 @@
 "Error" = "오류";
 "Error connecting with %@. Please ask the creator (%@) to reconnect their %@ account (%@)." = "%1$@와 연결하는 중 오류가 발생했습니다. 생성자(%2$@)에게 %3$@ 계정(%4$@)을 다시 연결하도록 요청하십시오.";
 "Error connecting with %@. Please reconnect the account (%@) to enable the action." = "%1$@와 연결하는 중 오류가 발생했습니다. 이 작업을 활성화하려면 계정(%2$@)을 다시 연결해 주세요.";
+"Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@), then try again." = "DocuSign과 연결하는 중 오류가 발생했습니다. 생성자(%1$@)에게 DocuSign 계정(%2$@)을 다시 연결하도록 요청한 후, 다시 시도해 주세요.";
+"Error connecting with DocuSign. Please contact the flow owner (%@)." = "DocuSign과 연결하는 중 오류가 발생했습니다. 플로우 소유자(%@)에게 연락해 주세요.";
+"Error connecting with DocuSign. Please reconnect your account (%@) and try again." = "DocuSign과 연결하는 중 오류가 발생했습니다. 계정(%@)을 다시 연결하고 시도해 주세요.";
 "Europe" = "유럽";
 "Every" = "모든";
 "Every %@ days." = "%1$@낮마다.";
@@ -1219,6 +1234,7 @@
 "Get connected with us." = "우리와 연결하십시오.";
 "Get direct access to %@ and %@’s services on mobile." = "모바일에서 %1$@ 및 %2$@의 서비스에 직접 접근하십시오.";
 "Get started" = "시작하기";
+"Get started with 40+ industry templates used by thousands of businesses." = "수천 개의 비즈니스에서 사용하는 40개 이상의 업계 템플릿으로 시작하세요.";
 "Give external users an option to add this person to your workspaces if they need support while you’re out of office." = "귀하가 부재 중일 때 지원이 필요한 경우 외부 사용자에게 작업 공간에 이 사용자를 추가할 수 있는 옵션을 제공합니다.";
 "Gmail" = "Gmail";
 "Go Back" = "뒤로가기";
@@ -1251,7 +1267,7 @@
 "Host Video On" = "주최자 비디오 켜기";
 "Hosted by %@" = "%1$@이 주최함";
 "I Agree" = "동의합니다";
-"I agree that the above is the legally biding electronic representation of my signature and initials. By continuing, I am confirming my identity above and my intention to sign this document electronically." = "위의 내용이 제 서명과 이니셜에 대해 법적으로 구속력이 있는 전자적 표현이라는 것에 동의합니다. 계속함으로써 본인은 위의 제 신분과 이 문서에 전자적으로 서명할 의사를 확인힙니다.";
+"I agree that the above is the legally binding electronic representation of my signature and initials. By continuing, I am confirming my identity as stated above and my intention to sign this document electronically." = "위의 내용이 나의 서명 및 이니셜의 법적으로 구속력 있는 전자적 표현임에 동의합니다. 계속함으로써, 저는 위에 명시된 대로 제 신원을 확인하고 이 문서에 전자적으로 서명할 의사를 확인합니다.";
 "I have started a Zoom meeting as below link, please click to join: %@" = "아래 링크와 같이 Zoom 미팅을 시작했습니다. 참여하려면 클릭하십시오: %@";
 "I would like to invite you to join this flow workspace." = "귀하를 이 흐름 작업 공간에 초대하고 싶습니다.";
 "I would like to share a Meeting link with you: %@" = "미팅 링크를 공유하고자 합니다: %@";
@@ -1286,6 +1302,7 @@
 "Identity Verification overdue (%@)" = "신원 확인 기한 초과 (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "보안상의 이유로 신원 검증이 일시적으로 해제되었습니다. 나중에 다시 시도해 주세요.";
 "If enabled, a file reviewer will be required to review the files that are uploaded." = "활성화된 경우, 파일 리뷰어는 업로드된 파일을 검토해야 합니다.";
+"If enabled, the assignee must open all attachments before acknowledging." = "활성화되면, 담당자는 확인하기 전에 모든 첨부 파일을 열어야 합니다.";
 "If enabled, this action can be completed in parallel with the previous action in the flow." = "활성화된 경우, 이 작업은 플로우의 이전 작업과 병렬로 완료될 수 있습니다.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "활성화하면 처음으로 흐름 작업 공간을 열 때마다 흐름 커버 페이지가 표시됩니다.";
 "If removed, they will lose access to this workspace immediately." = "제거하면 즉시 이 작업 공간에 대한 액세스 권한이 사라집니다.";
@@ -1460,6 +1477,7 @@
 "Max %@ characters" = "최대 %1$@자";
 "Max Amount" = "최대 금액";
 "Maximum %@ size exceeded (%@)" = "최대 %1$@ 크기를 초과했습니다 (%2$@)";
+"Maximum member limit reached" = "최대 멤버 한도에 도달했습니다";
 "Maximum participants reached. Please try removing some and trying again." = "최대 참가자 수에 도달했습니다. 일부를 삭제한 후 다시 시도하십시오.";
 "Me" = "본인";
 "Meet Now" = "지금 미팅하기";
@@ -1555,6 +1573,7 @@
 "Name your to-do" = "수행할 일 이름 지정";
 "Name your workspace" = "작업 공간 이름 지정";
 "Need help on something shared here?" = "여기서 공유한 내용에 대해 도움이 필요하십니까?";
+"Needs to sign" = "서명이 필요합니다";
 "Network error" = "네트워크 오류";
 "Never" = "없음";
 "New" = "신규";
@@ -1658,6 +1677,8 @@
 "Only one assignee is required to approve this approval to complete it." = "이 승인을 완료하려면 한 명의 할당자만 승인해야 합니다.";
 "Only one assignee is required to finish this to-do to complete it." = "이 할 일을 완료하기 위해선 단 한 명의 담당자만 필요합니다.";
 "Only participants can view meeting details." = "참가자만 회의 세부사항을 볼 수 있습니다.";
+"Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "%1$@ 작업에서는 제목, 설명, 마감일만 편집할 수 있습니다. 담당자를 수정하거나 다른 세부 사항을 업데이트해야 하는 경우, 새로운 %2$@ 작업을 생성해 주세요.";
+"Only the workspace owner can adjust link security" = "워크스페이스 소유자만 링크 보안을 조정할 수 있습니다";
 "Only websites that support https can be loaded in order to ensure a secure connection." = "안전한 연결을 위해 https를 지원하는 웹 사이트만 로드할 수 있습니다.";
 "Open" = "열기";
 "Open %@ and log in to continue." = "계속하려면 %@을 열고 로그인하십시오.";
@@ -1789,6 +1810,7 @@
 "Private meeting" = "개별 미팅";
 "Process canceled" = "처리 취소됨";
 "Process completed" = "처리 완료됨";
+"Processed successfully" = "성공적으로 처리되었습니다";
 "Processing transactions…" = "트랜잭선 처리 중...";
 "Processing..." = "처리 중...";
 "Profile" = "프로필";
@@ -1817,6 +1839,8 @@
 "Reassign to" = "다음으로 재할당";
 "Reassigned" = "재할당됨";
 "Receive emails about new activity when you’re not online and don’t have notifications enabled." = "온라인 상태가 아니고 알림이 작동되지 않은 경우 새 활동에 대한 이메일을 수신합니다.";
+"Received" = "수신됨";
+"Receives a copy" = "사본을 받습니다";
 "Recents" = "최근";
 "Reconnect" = "재연결";
 "Reconnecting..." = "재연결 중...";
@@ -1892,10 +1916,11 @@
 "Reset Filters" = "필터 초기화";
 "Response" = "응답";
 "Restart" = "다시 시작";
+"Restart Meeting" = "회의 재시작";
 "Resume Record" = "기록 재개";
-"Retart Meeting" = "회의 다시 시작";
 "Retrieve Your Portal URL" = "포털 URL 검색";
 "Retry" = "재시도";
+"Retrying..." = "재시도 중...";
 "Review" = "검토";
 "Review & Acknowledge" = "검토 및 승인하기";
 "Review & Confirm" = "검토 및 확인하기";
@@ -1948,6 +1973,7 @@
 "Screen is sharing" = "화면 공유 중";
 "Screenshot sent" = "스크린샷 전송함";
 "Seamlessly guide buyers through a step-by-step order approval workflow." = "구매자를 단계별 주문 승인 워크플로우를 통해 원활하게 안내합니다.";
+"Seamlessly guide buyers, vendors, and partners through a step-by-step order approval workflow." = "구매자, 공급업체 및 파트너를 단계별 주문 승인 워크플로우를 통해 원활하게 안내합니다.";
 "Search" = "검색";
 "Search Groups & Topics" = "그룹 및 주제 검색";
 "Search Results" = "검색 결과";
@@ -1988,6 +2014,7 @@
 "Select a Date & Time" = "날짜 및 시간 선택";
 "Select a Sample Workspace" = "샘플 작업 공간 선택";
 "Select action type" = "작업 유형 선택";
+"Select additional actions you want to include in the process." = "프로세스에 포함시키고 싶은 추가적인 동작을 선택하세요.";
 "Select the role assignment (optional):" = "역할 배정 선택 (선택 사항):";
 "Select the user type:" = "사용자 유형을 선택하십시오:";
 "Selected" = "선택됨";
@@ -2148,6 +2175,7 @@
 "Tabs" = "탭";
 "Take Photo" = "사진 찍기";
 "Tap + to schedule a meeting." = "+를 눌러 미팅을 예약합니다.";
+"Tap Continue to join the workspace." = "작업 공간에 가입하려면 계속을 탭하세요.";
 "Tap and hold to leave comment" = "코멘트를 남기려면 길게 누르십시오";
 "Tap and hold to record." = "녹화하려면 길게 누르십시오.";
 "Tap on the meeting you'd like to join" = "가입하려는 미팅을 누르십시오";
@@ -2212,6 +2240,7 @@
 "The selected items will be added to %@." = "선택한 항목이 %@에 추가됩니다.";
 "The selected items will be moved to %@." = "선택한 항목이 %@으로 이동합니다.";
 "The selected items will be moved under %@." = "선택한 항목이 %@안에서 이동합니다.";
+"The selected person is the owner of the workspace." = "선택된 사람이 워크스페이스의 소유자입니다.";
 "The start time must be before the end time." = "시작 시간은 종료 시간보다 먼저여야 합니다.";
 "There are no active screen share sessions to join." = "가입할 활성 화면 공유 세션이 없습니다.";
 "There are no other members in this workspace." = "이 작업 공간에는 다른 구성원이 없습니다.";
@@ -2243,6 +2272,7 @@
 "This and Following Meetings" = "현재 및 후속 미팅";
 "This content may have been deleted or otherwise removed." = "내용이 삭제되었거나 다른 방식으로 제거되었을 수 있습니다.";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "이 문서에는 필드가 포함되어 있습니다. 상기 필드를 다른 사용자에게 자동으로 추가하고 할당하시겠습니까?";
+"This envelope is still being processed by DocuSign. Please try again in a moment." = "이 봉투는 아직 DocuSign에서 처리 중입니다. 잠시 후에 다시 시도해 주세요.";
 "This file has been deleted." = "이 파일은 삭제되었습니다.";
 "This file has been deleted. It's not available anymore." = "이 파일은 삭제되었습니다. 더 이상 사용할 수 없습니다.";
 "This flow was finished and you can no longer make modifications." = "이 흐름은 완료되었으며 더 이상 수정할 수 없습니다.";
@@ -2254,6 +2284,7 @@
 "This may have happened because you did not finish creating up your account earlier." = "이 문제는 계정 작성을 더 일찍 완료하지 않았기 때문에 발생했을 수 있습니다.";
 "This may take a while. In the meantime, please don’t close the app." = "시간이 좀 걸릴 수 있습니다. 그동안 앱을 종료하지 마십시오.";
 "This meeting exceeds maximum number of participants." = "이 미팅은 최대 참가자 수를 초과합니다.";
+"This meeting has been locked. Please try again later." = "이 회의는 잠겼습니다. 나중에 다시 시도해 주세요.";
 "This meeting was deleted by the host." = "이 미팅은 주최자에 의해 취소되었습니다.";
 "This meeting was likely canceled by the host." = "이 미팅은 주최자에 의해 취소되었을 가능성이 있습니다.";
 "This meeting was scheduled via an external calendar (e.g. Google Calendar, Outlook, etc.). Any changes made here will not be reflected in that calendar." = "이 미팅은 외부 캘린더(예: Google Calendar, Outlook 등)를 통해 예약되었습니다. 여기서 변경한 내용은 해당 캘린더에 반영되지 않습니다.";
@@ -2277,7 +2308,8 @@
 "This to-do can only be completed by internal users." = "이 수행할 일는 내부 사용자만 할 수 있습니다.";
 "This transaction has been deleted." = "이 거래는 삭제되었습니다.";
 "This user does not have the permission to sign files." = "이 사용자는 파일에 서명할 권한이 없습니다.";
-"This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact with your org admin." = "이 사용자는 비활성화되어 계정에 로그인 할 수없을 수 있습니다. 이 사용자의 계정을 재활성화하려면 귀하의 조직 관리자에게 연락하십시오.";
+"This user has been deactivated and may not be able to log into their account. To reactivate this user's account, please contact your org admin." = "이 사용자는 비활성화되었으며 계정에 로그인할 수 없을 수 있습니다. 이 사용자의 계정을 재활성화하려면 조직 관리자에게 연락하십시오.";
+"This user has been deactivated and may not have the ability to log into the account. To reactivate this user's account, please contact your org admin." = "이 사용자는 비활성화되었으며 계정에 로그인할 수 없을 수 있습니다. 이 사용자의 계정을 재활성화하려면 조직 관리자에게 연락하십시오.";
 "This user has been deactivated, please contact your administrator." = "이 사용자는 미작동되었습니다. 관리자에게 문의하십시오.";
 "This was due on %@" = "이것은 %@이 마감일입니다";
 "This was likely caused by a temporary network issue. Please try again." = "이 문제는 일시적인 네트워크 문제로 인해 발생했을 수 있습니다. 다시 시도해 주세요.";
@@ -2559,6 +2591,7 @@
 "We were not able to complete your search." = "검색을 완료할 수 없습니다.";
 "We were unable to connect with your %@." = "귀하의 %@에 연결할 수 없습니다.";
 "We were unable to disconnect with your %@." = "귀하의 %@와 연결을 해제할 수 없습니다.";
+"We were unable to process your request." = "요청을 처리할 수 없었습니다.";
 "We were unable to process your request. Please double check your DocuSign account and try again." = "요청을 처리할 수 없습니다. DocuSign 계정을 확인하고 다시 시도하십시오.";
 "We were unable to process your request. Please double check your Zoom account and try again." = "요청을 처리할 수 없습니다. Zoom 계정을 확인하고 다시 시도하십시오.";
 "We were unable to read or recognize this QR code. Please try again." = "이 QR 코드를 읽거나 인식할 수 없습니다. 다시 시도해 주세요.";
@@ -2586,11 +2619,13 @@
 "Welcome Message" = "환영 메시지";
 "Welcome back to %@. Please log in to continue." = "%@에 다시 오신 것을 환영합니다. 계속하려면 로그인하십시오.";
 "Welcome back. Please log in to continue." = "다시 돌아오신 것을 환영합니다. 계속하려면 로그인하십시오.";
+"Welcome message for invitees" = "초대받은 분들을 위한 환영 메시지";
 "Welcome to %@‘s Onboarding Portal!" = "%@의 온보딩 포털에 오신 것을 환영합니다!";
 "Welcome to %@’s Client Portal!" = "%@의 클라이언트 포털에 오신 것을 환영합니다!";
 "Welcome to %@’s Order Approval Portal!" = "%@의 주문 승인 포털에 오신 것을 환영합니다!";
 "Welcome to %@’s Service Portal!" = "%@의 서비스 포털에 오신 것을 환영합니다!";
 "Welcome! Thank you for accepting my invitation and joining our platform. Feel free to reach out to me any time for assistance." = "환영합니다! 제 초대를 수락하고 저희 플랫폼에 참여해 주셔서 감사합니다. 도움이 필요하면 언제든지 연락해 주십시오.";
+"Welcome! We have designed this workspace to seamlessly take you through each step of our onboarding process. If you have any questions, please do not hesitate to reach out here. We look forward to working with you. Let's get started!" = "환영합니다! 우리는 이 작업 공간을 설계하여 온보딩 흐름의 각 단계를 원활하게 진행할 수 있도록 했습니다. 질문이 있으시다면 언제든지 여기로 연락주시기 바랍니다. 우리는 당신과 함께 일하는 것을 기대하고 있습니다. 시작해봅시다!";
 "We’ll email you a magic code for password-free log in. Or you can" = "비밀번호 없이 로그인 할 수 있는 마법 코드를 이메일로 보내드립니다. 또는 직접 로그인하실 수도 있습니다.";
 "We’ll send a verification code using one of the options below:" = "아래 옵션 중 하나를 사용하여 검증 코드를 보냅니다:";
 "We’ll send out an email or SMS invitation to notify the assignees." = "이메일이나 SMS 초대를 보내어 피지정자에게 알립니다.";
@@ -2673,6 +2708,7 @@
 "You are unable to reopen requests once marked as complete. Are you sure you want to continue?" = "완료로 표시된 요청은 다시 열 수 없습니다. 정말 계속하시겠습니까?";
 "You are viewing screen sharing." = "화면 공유를 보고 있습니다.";
 "You are viewing the presenter's screen now." = "지금 발표자의 화면을 보고 있습니다.";
+"You can add up to %@ participants. Internal users can set their booking availability times under their profile page." = "최대 %@명의 참가자를 추가할 수 있습니다. 내부 사용자는 프로필 페이지에서 예약 가능 시간을 설정할 수 있습니다.";
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "참가자를 %@명까지 추가할 수 있습니다. 내부 사용자는 프로필 페이지에서 시간 예약 가능 여부를 설정할 수 있습니다.";
 "You can customize your default welcome message in settings." = "설정에서 기본 환영 메시지를 사용자 정의할 수 있습니다.";
 "You can leave a message, or cancel your request and try later." = "메시지를 남기거나 요청을 취소하고 나중에 시도할 수 있습니다.";
@@ -2738,6 +2774,7 @@
 "You will lose all the changes made to this document." = "문서에 대한 모든 변경 사항이 손실됩니다.";
 "You will need to be invited by a member to join again." = "다시 가입하려면 구성원의 초대를 받아야 합니다.";
 "You will not be able to make changes after that." = "그 이후에는 변경할 수 없습니다.";
+"You will receive a copy by email" = "이메일로 사본을 받게 됩니다.";
 "You won't be able to recover it once confirmed." = "확인되면 복구할 수 없습니다.";
 "You'll be added as the assignee for unassigned roles" = "당신은 배정되지 않은 역할에 대한 담당자로 추가될 것입니다.";
 "You'll need to update this application before continuing." = "계속하기 전에 이 애플리케이션을 업데이트해야 합니다.";
@@ -2806,6 +2843,7 @@
 "day" = "낮";
 "days" = "낮";
 "decline" = "거부";
+"e.g. Acme" = "예: 액미";
 "e.g: Due in 3 Days" = "예: 3낮 후 만기";
 "got it" = "알겠습니다";
 "hide" = "숨기기";

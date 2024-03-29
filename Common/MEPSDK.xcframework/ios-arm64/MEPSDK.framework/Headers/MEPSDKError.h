@@ -43,6 +43,7 @@ typedef NS_ENUM(NSUInteger, MEPSDKErrorCode) {
     MEPIncorrectMeetPasswordError,
     MEPAnotherMeetInProgressError,
     MEPInvalidParamError,
-	MEPFeedNoFoundInFlowError
+	MEPFeedNoFoundInFlowError,
+    MEPMeetLockedError
 };
 
