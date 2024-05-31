@@ -826,6 +826,11 @@ fetch meet with meetID
 @property (nonatomic, assign) BOOL enableMore;
 
 /**
+ Enable/disable camera, default is YES.
+ */
+@property (nonatomic, assign) BOOL enableCamera;
+
+/**
 An array of file extensions that are acceptable e.g ["pdf", "png", "txt"]
 The default value is nil, which means SDK does not check file types.
 */
