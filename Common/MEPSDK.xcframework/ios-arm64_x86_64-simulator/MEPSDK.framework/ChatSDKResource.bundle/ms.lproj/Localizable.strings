@@ -12,6 +12,7 @@
 "%@ Approvers" = "%@ Pelulus";
 "%@ Assignee" = "%@ Penerima Tugasan";
 "%@ Assignees" = "%@ Penerima Tugasan";
+"%@ Bots" = "%@ Bot";
 "%@ Client" = "%@ Pelanggan";
 "%@ Clients" = "%@ Pelanggan";
 "%@ Content Updated" = "%@ Kandungan Dikemas Kini";
@@ -20,7 +21,6 @@
 "%@ File" = "%@ Fail";
 "%@ File Size Reached" = "%1$@ Saiz Fail Dicapai";
 "%@ Guests" = "%@ Tetamu";
-"%@ Integrations" = "%@ Integrasi";
 "%@ Meeting" = "Mesyuarat %@";
 "%@ Meetings Started" = "%@ Mesyuarat Dimulakan";
 "%@ Member" = "%@ Ahli";
@@ -72,6 +72,7 @@
 "%@ added an annotation." = "%@ menambahkan anotasi.";
 "%@ added an attachment: %@" = "%1$@ menambah satu lampiran: %2$@";
 "%@ added bot %@" = "%1$@ menambahkan bot %2$@";
+"%@ added the bots %@" = "%1$@ telah menambah bot %2$@";
 "%@ added this %@." = "%1$@ telah menambah %2$@ ini.";
 "%@ added this Acknowledgement." = "%@ menambah Pengakuan ini.";
 "%@ added this Approval." = "%@ menambah Kelulusan ini.";
@@ -273,6 +274,7 @@
 "%@ removed %@" = "%1$@ dikeluarkan %2$@";
 "%@ removed %@ actions" = "%1$@ telah menghapus %2$@ tindakan";
 "%@ removed an attachment: %@" = "%1$@ mengeluarkan lampiran %2$@";
+"%@ removed bot %@" = "%1$@ bot dikeluarkan %2$@";
 "%@ removed by %@" = "%1$@ dialih keluar oleh %2$@";
 "%@ removed the assignee" = "%@ dikeluarkan penerima tugas";
 "%@ removed the assignee." = "%@ dikeluarkan penerima tugas.";
@@ -287,9 +289,25 @@
 "%@ reopen a transaction" = "%@ membuka semula transaksi";
 "%@ reopened a File Request" = "%@ membuka semula Permintaan Fail";
 "%@ reopened a File Request: %@" = "%1$@ membuka semula Permintaan Fail: %2$@";
+"%@ reopened a Form" = "%@ telah membuka semula Borang";
+"%@ reopened a Form: %@" = "%1$@ telah membuka semula Borang: %2$@";
+"%@ reopened a Time Booking" = "%@ membuka semula Tempahan Masa";
 "%@ reopened a To-Do" = "%@ membuka semula untuk dilakukan";
 "%@ reopened a To-Do: %@" = "%1$@ membuka semula Untuk Dilakukan: %2$@";
+"%@ reopened a meeting: %@" = "%1$@ telah membuka semula mesyuarat: %2$@";
+"%@ reopened a transaction" = "%@ telah membuka semula transaksi";
+"%@ reopened an Acknowledgement" = "%@ membuka semula Pengakuan";
+"%@ reopened an Acknowledgement: %@" = "%1$@ telah membuka semula Pengakuan: %2$@";
+"%@ reopened an Approval" = "%@ membuka semula Kelulusan";
+"%@ reopened an Approval: %@" = "%1$@ telah membuka semula Kelulusan: %2$@";
+"%@ reopened an E-Sign" = "%@ membuka semula E-Tandatangan";
+"%@ reopened an E-Sign: %@" = "%1$@ telah membuka semula E-Tandatangan: %2$@";
+"%@ reopened this Acknowledgement." = "%@ telah membuka semula Pengakuan ini.";
+"%@ reopened this Approval." = "%@ telah membuka semula Kelulusan ini.";
+"%@ reopened this E-Sign." = "%@ telah membuka semula E-Tandatangan ini.";
 "%@ reopened this File Request." = "%@ membuka semula Permintaan Fail.";
+"%@ reopened this Form." = "%@ telah membuka semula Borang ini.";
+"%@ reopened this Time Booking." = "%@ telah membuka semula Tempahan Masa ini.";
 "%@ reopened this To-Do." = "%@ membuka semula ini untuk dilakukan.";
 "%@ reopened this to-do." = "%@ membuka semula ini untuk dilakukan.";
 "%@ requested to join the workspace" = "%@ meminta untuk menyertai ruang kerja";
@@ -299,7 +317,7 @@
 "%@ reviewed a File Request" = "%@ menyemak Permintaan Fail";
 "%@ reviewed a File Request: %@" = "%1$@ menyemak Permintaan Fail: %2$@";
 "%@ reviewed this File Request." = "%@ menyemak Permintaan Fail.";
-"%@ scheduled meeting: %@" = "%1$@ mesyuarat yang dijadualkan %2$@.";
+"%@ scheduled a meeting: %@" = "%1$@ telah menjadualkan mesyuarat: %2$@";
 "%@ selected" = "%@ dipilih";
 "%@ set a due date: %@" = "%1$@ menetapkan tarikh akhir: %2$@";
 "%@ shared a clip" = "%@ berkongsi klip";
@@ -379,8 +397,8 @@
 "0 matching results" = "0 keputusan yang sepadan";
 "0 results in current page" = "0 keputusan di halaman semasa";
 "1 Assignee" = "1 Penerima Tugasan";
+"1 Bot" = "1 Bot";
 "1 Guest" = "1 Tetamu";
-"1 Integration" = "1 Penyepaduan";
 "1 Member" = "1 Ahli";
 "1 Page Remaining" = "1 Halaman Lebihan";
 "1 Pending Request" = "1 Permintaan Tertunda";
@@ -392,10 +410,8 @@
 "1 request to approve" = "1 permintaan untuk diluluskan";
 "1 year ago" = "1 tahun yang lalu";
 "A majority of assignees must finish this to-do to complete it." = "Majoriti penerima tugas mesti menyelesaikan tugasan ini untuk melengkapkannya.";
-"A maximum of %@ workspaces will be kept in the Timeline. Past this limit, the most inactive workspaces will be automatically archived by the system." = "Maksimum %@ ruang kerja akan disimpan dalam Garis Masa. Melepasi had ini, ruang kerja yang paling tidak aktif akan diarkibkan secara automatik oleh sistem.";
 "A network error occurred." = "Ralat rangkaian berlaku.";
 "A network issue prevented us from starting co-browsing. Please try again." = "Masalah rangkaian menghalang kami untuk memulakan menyemak imbas bersama Sila cuba lagi.";
-"A phone number is required to create a workspace on WhatsApp." = "Nombor telefon diperlukan untuk membuat ruang kerja di WhatsApp.";
 "A user with this email address already exists with a different name:" = "Pengguna dengan alamat e-mel ini sudah wujud dengan nama yang berbeza:";
 "A user with this phone number already exists with a different name:" = "Pengguna dengan nombor telefon ini sudah wujud dengan nama yang berbeza:";
 "Accept" = "Terima";
@@ -406,6 +422,7 @@
 "Access denied" = "Akses dinafikan";
 "Access your Portal URL by entering the verification code we just sent to %@" = "Akses URL Portal anda dengan memasukkan kod pengesahan yang baru kami kirimkan ke %@";
 "Account" = "Akaun";
+"Account Creation Failed" = "Penciptaan Akaun Gagal";
 "Account Deleted" = "Akaun Dipadamkan";
 "Account Settings" = "Tetapan Akaun";
 "Account Verification" = "Pengesahan akaun";
@@ -456,6 +473,7 @@
 "Add Assignee" = "Tambah Penerima tugas";
 "Add Attachment" = "Tambah lampiran";
 "Add Backup User" = "Tambah Pengguna Sandaran";
+"Add Bots" = "Tambah Bot";
 "Add Calendar" = "Tambah Kalendar";
 "Add Clients" = "Tambah Pelanggan";
 "Add Comments" = "Tambah Komen";
@@ -500,10 +518,12 @@
 "Add useful information regarding your DocuSign" = "Tambah maklumat berguna berkaitan DocuSign";
 "Add useful information regarding your request" = "Tambah maklumat berguna berkaitan permohonan anda";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "Tambahkan penonton pada ruang kerja ini untuk menyertakan orang yang belum diberikan tindakan dalam aliran ini.";
+"Added" = "Ditambah";
 "Added Successfully" = "Berjaya ditambahkan";
 "Added a checklist %@" = "Menambah senarai semak %@";
 "Added on %@" = "Ditambahkan pada %@";
 "Adding Failed" = "Menambah Gagal";
+"Adding bots to your workspace can help address client inquiries." = "Menambah bot ke ruang kerja anda dapat membantu menangani pertanyaan pelanggan.";
 "Adding fields..." = "Menambah medan...";
 "Adding..." = "Menambah...";
 "Additional Options" = "Pilihan Tambahan";
@@ -526,10 +546,11 @@
 "All Transactions" = "Semua Transaksi";
 "All actions waiting for others to act on will appear here." = "Semua tindakan menunggu orang lain bertindak akan dipaparkan di sini.";
 "All actions waiting for you to act on will appear here." = "Semua tindakan menunggu tindakan anda akan dipaparkan di sini.";
+"All actions were completed." = "Semua tindakan telah selesai.";
+"All bookmarked items will appear here." = "Semua item yang telah dibookmark akan muncul di sini.";
 "All comments and other activity on this file will also be deleted." = "Semua komen dan aktiviti lain pada fail ini juga akan dipadamkan";
 "All completed actions will appear here." = "Semua tindakan yang diselesaikan akan dipaparkan di sini.";
 "All participants have declined the invitation." = "Semua peserta telah menolak jemputan.";
-"All pinned items will appear here." = "Semua item yang ditampalkan akan muncul di sini.";
 "All recurring meetings will be deleted." = "Semua mesyuarat berulang akan dihapuskan.";
 "All the replies to this comment will be deleted as well." = "Semua jawapan untuk komen ini akan dipadamkan.";
 "All updates on clients, actions, and other account info will appear here." = "Semua kemaskini berkaitan pelanggan, tindakan dan lain-lain maklumat akaun akan dipaparkan di sini.";
@@ -538,7 +559,6 @@
 "Allows anyone with the link to join as an internal user." = "Membenarkan sesiapa sahaja yang mempunyai pautan untuk menyertai sebagai pengguna dalaman.";
 "Allows you to email content directly into this workspace." = "Membolehkan anda menghantar e-mel kandungan terus ke ruang kerja ini.";
 "Alphabetically" = "Mengikut abjad";
-"Already have an account" = "Sudah ada akaun";
 "Already have an account?" = "Sudah mempunyai akaun?";
 "Already invited maximum number of people for a meeting." = "Sudah menjemput jumlah maksimum orang untuk mesyuarat.";
 "Already invited maximum number of people for a meeting. %@" = "Sudah menjemput jumlah maksimum orang untuk mesyuarat. %@";
@@ -546,7 +566,6 @@
 "Amount" = "Amaun";
 "An Update Is Required" = "Kemas kini Diperlukan";
 "An agent will respond when one is available." = "Sila tinggalkan sebarang mesej di bawah.";
-"An email address is required to create a workspace on WeChat and WhatsApp." = "Alamat e-mel diperlukan untuk membuat ruang kerja di WeChat dan WhatsApp.";
 "An external user with access to invited workspaces only." = "Pengguna luaran yang hanya boleh mengakses ruang kerja yang dijemput sahaja.";
 "An internal user with privileges to manage and create new workspaces in your portal." = "Pengguna dalaman dengan keistimewaan untuk mengurus dan mencipta ruang kerja baru di portal anda.";
 "An update is available for this application. You'll need to update once you are connected to Wifi." = "Kemas kini tersedia untuk aplikasi ini. Anda perlu mengemas kini setelah anda disambungkan ke Wifi.";
@@ -560,7 +579,6 @@
 "Any User" = "Mana-mana Pengguna";
 "Any Workspace" = "Mana-mana Ruang Kerja";
 "Any additional information we can use to help you." = "Sebarang maklumat tambahan yang boleh kami gunakan untuk membantu anda.";
-"Any unassigned action will be automatically assigned to you. You can always modify the assignees after creating the action." = "Sebarang tindakan yang tidak ditugaskan akan secara automatik ditugaskan kepada anda. Anda sentiasa boleh mengubah penugasan selepas membuat tindakan.";
 "Any unsaved changes on the webpage will be lost." = "Sebarang perubahan yang tidak disimpan di laman web akan hilang.";
 "Anyone" = "Sesiapa sahaja";
 "Anyone with meeting link will need to be approved by host to join" = "Sesiapa sahaja yang mempunyai pautan mesyuarat perlu diluluskan oleh hos untuk menyertai";
@@ -597,10 +615,14 @@
 "Archive" = "Arkib";
 "Archive %@ Workspaces?" = "Arkibkan %@ Ruang kerja?";
 "Archive Workspace" = "Arkibkan Ruang Kerja";
+"Archive workspace for all members" = "Arkibkan ruang kerja untuk semua ahli";
+"Archive workspace for everyone" = "Arkibkan ruang kerja untuk semua";
+"Archive workspace for myself" = "Arkibkan ruang kerja untuk diri saya";
+"Archive workspace for yourself" = "Arkibkan ruang kerja untuk diri sendiri";
 "Archived" = "Diarkibkan";
 "Archived Workspaces" = "Ruang Kerja Arkib";
-"Archiving allows you to hide any workspace from your timeline. It will not archive for other members and will automatically un-archive after new activity.\n\nYou can find your archived workspaces on the account page." = "Pengarkiban membolehkan anda menyembunyikan sebarang ruang kerja daripada garis masa anda. Ia tidak akan mengarkibkan untuk ahli lain dan akan menyahrkibkan secara automatik selepas aktiviti baharu.\n\nAnda boleh mencari ruang kerja anda yang diarkibkan pada halaman akaun.";
-"Archiving allows you to hide any workspace from your timeline. It will not be archived for other members or impact any content in the workspace. It will automatically un-archive after new activity.\n\nYou can find your archived workspaces on the account page." = "Pengarkiban membolehkan anda menyembunyikan sebarang ruang kerja dari garis masa anda. Ia tidak akan diarkibkan untuk ahli lain atau memberi kesan kepada sebarang kandungan dalam ruang kerja. Ia akan secara automatik menyahtarkib selepas aktiviti baru.\n\nAnda boleh mencari ruang kerja yang telah diarkibkan anda di halaman akaun.";
+"Archiving allows you to hide workspaces from your timeline. If any new activity occurs in the workspace, it will automatically unarchive." = "Pengarkiban membolehkan anda menyembunyikan ruang kerja dari garis masa anda. Jika terdapat sebarang aktiviti baru dalam ruang kerja tersebut, ia akan secara automatik dinyaharkibkan.";
+"Are You Sure You Want to End the Live Chat?" = "Adakah anda pasti ingin mengakhiri sembang langsung?";
 "Are You Sure You Want to Log Out?" = "Adakah Anda Pasti Mahu Log Keluar?";
 "Are You Sure You Want to Log Out? " = "Adakah Anda Pasti Mahu Log Keluar?";
 "Are You Sure?" = "Anda pasti?";
@@ -610,7 +632,9 @@
 "Are you sure you want to discard your changes?" = "Adakah anda pasti mahu membuang perubahan anda?";
 "Are you sure you want to disconnect?" = "Adakah anda pasti anda ingin memutuskan sambungan?";
 "Are you sure you want to leave? All changes will be lost." = "Adakah anda pasti mahu pergi? Semua perubahan akan hilang.";
+"Are you sure you want to remove \"%@\" from this workspace?" = "Adakah anda pasti ingin membuang \"%@\" dari ruang kerja ini?";
 "Are you sure you want to remove this attachment?" = "Adakah anda pasti mahu mengeluarkan lampiran ini?";
+"Are you sure you want to remove “%@” from this workspace?" = "Adakah anda pasti ingin membuang “%@” dari ruang kerja ini?";
 "Are you sure you want to start the meeting before its scheduled time?" = "Adakah anda pasti mahu memulakan mesyuarat sebelum masa yang dijadualkan?";
 "Arrow" = "Anak panah";
 "Asia Pacific" = "Asia Pasifik";
@@ -643,9 +667,8 @@
 "Auto" = "Auto";
 "Auto save..." = "Simpanan automatik...";
 "AutoNavi Maps" = "Peta AutoNavi";
+"Automatically Archive" = "Arkib Secara Automatik";
 "Automatically Record Meeting" = "Merakam Mesyuarat secara automatik";
-"Automatically archived due to inactivity" = "Diarkibkan secara automatik kerana tidak aktif";
-"Automatically archived due to inactivity. Tap to learn more." = "Diarahkan secara automatik kerana tidak aktif. Ketuk untuk ketahui lebih lanjut.";
 "Automatically block off unavailable time when you have conflicts in your calendar(s)." = "Menyekat masa yang tidak tersedia secara automatik apabila anda mempunyai konflik dalam kalendar anda.";
 "Availability" = "Ketersediaan";
 "Availability time range needs to be at least 1hr" = "Julat masa ketersediaan perlu sekurang-kurangnya 1 jam";
@@ -665,6 +688,12 @@
 "Blank Workspace" = "Ruang Kerja Kosong";
 "Blur" = "Kabur";
 "Booked" = "Ditempah";
+"Bookmark" = "Tanda buku";
+"Bookmark added." = "Penanda buku ditambah.";
+"Bookmark removed." = "Penanda buku dibuang.";
+"Bookmarks" = "Tanda buku";
+"Bot" = "Bot";
+"Bot Deactivated" = "Bot Dinyahaktifkan";
 "Bots" = "Bot";
 "Bring to front" = "Bawa ke hadapan";
 "Bubbles & Tags" = "Gelembung & Tag";
@@ -834,7 +863,6 @@
 "Copied successfully!" = "Berjaya disalin!";
 "Copy" = "Salin";
 "Copy Address" = "Salin Alamat";
-"Copy Invitation" = "Salin Jemputan";
 "Copy Invite Link" = "Salin Pautan Jemputan";
 "Copy Link" = "Salin Pautan";
 "Copy Meeting Link" = "Salin Pautan Mesyuarat";
@@ -936,6 +964,7 @@
 "Do You Want To Remove %@?" = "Adakah Anda Mahu Mengalih Keluar %@?";
 "Do you want to add this person to the workspace and assign this action to them?" = "Adakah anda mahu menambahkan orang ini pada ruang kerja dan menetapkan tindakan ini kepada mereka?";
 "Do you want to allow \"%@\" to use Touch ID?" = "Adakah anda mahu membenarkan \"%@\" menggunakan ID Sentuh?";
+"Do you want to archive this workspace?" = "Adakah anda ingin mengarkibkan ruang kerja ini?";
 "Do you want to confirm?" = "Adakah anda mahu mengesahkan?";
 "Do you want to delete '%@' from this workspace? This cannot be undone." = "Adakah anda mahu memadamkan '%@' daripada ruang kerja ini? Perkara ini tidak boleh diubah.";
 "Do you want to delete the file?" = "Adakah anda mahu memadam fail?";
@@ -947,7 +976,6 @@
 "Do you want to leave the meeting?" = "Adakah anda mahu meninggalkan mesyuarat?";
 "Do you want to leave?" = "Adakah anda mahu pergi?";
 "Do you want to remove %@ from meeting?" = "Adakah anda mahu membuang %@ dari mesyuarat?";
-"Do you want to remove %@?" = "Adakah anda mahu membuang %1$@?";
 "Do you want to remove '%@' from this workspace? This cannot be undone." = "Adakah anda mahu mengalih keluar '%@' daripada ruang kerja ini? Perkara ini tidak boleh diubah.";
 "Do you want to save files shared during the meeting?" = "Adakah anda ingin menyimpan fail yang dikongsi semasa mesyuarat?";
 "Do you want to start a workspace with %@?" = "Adakah anda mahu memulakan ruang kerja dengan %@?";
@@ -1024,6 +1052,7 @@
 "E-Sign completed" = "E-Tanda selesai";
 "E-Sign completed." = "E-Tanda selesai.";
 "E-Sign completed: %@" = "E-Tanda selesai: %@";
+"E-Sign due now" = "E-tanda perlu dibayar sekarang";
 "E-Sign due soon" = "E-Tandatangan perlu segera";
 "E-Sign due today" = "E-Tandatangan tamat tempoh hari ini";
 "E-Sign overdue (%@)" = "Tandatangan Elektronik lewat tempoh (%@)";
@@ -1310,7 +1339,6 @@
 "If enabled, the assignee must open all attachments before acknowledging." = "Jika diaktifkan, penerima tugas harus membuka semua lampiran sebelum mengakui.";
 "If enabled, this action can be completed in parallel with the previous action in the flow." = "Jika diaktifkan, tindakan ini boleh dilakukan secara serentak dengan tindakan sebelumnya dalam aliran.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Jika didayakan, kami akan memaparkan halaman muka depan aliran apabila anda membuka ruang kerja aliran untuk kali pertama.";
-"If removed, they will lose access to this workspace immediately." = "Jika dibuang, mereka akan kehilangan akses ke ruang kerja ini dengan segera.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be impacted by this." = "Jika anda memutuskan sambungan akaun DocuSign anda, penerima tugasan tidak akan dapat mengakses atau menandatangani sebarang dokumen yang belum selesai dicipta dengan akaun ini. Dokumen yang telah lengkap tidak akan terjejas oleh perkara ini.";
 "If you disconnect, we will not be able to check your availability on this calendar anymore." = "Jika anda terputus sambungan, kami tidak dapat lagi menyemak ketersediaan anda pada kalendar ini.";
 "If you go back, any changes you’ve made on this page will be lost. Are you sure you want to go back?" = "Jika anda pergi kembali, sebarang perubahan yang dibuat pada halaman ini akan hilang. Adakah anda pasti anda mahu pergi kembali?";
@@ -1354,6 +1382,7 @@
 "Internal Only" = "Dalaman Sahaja";
 "Internal User" = "Pengguna Dalaman";
 "Internal Users" = "Pengguna Dalaman";
+"Internal user only" = "Hanya untuk pengguna dalaman";
 "Invalid Link" = "Pautan Tidak Sah";
 "Invalid QR Code" = "Kod QR Tidak Sah";
 "Invalid Time" = "Masa Tidak Sah";
@@ -1390,7 +1419,6 @@
 "Job Title" = "Tajuk Pekerjaan";
 "Join" = "Sertai";
 "Join %@ on %@" = "Sertai %1$@ berkaitan %2$@";
-"Join %@ on Moxo" = "Sertai %@ di Moxo";
 "Join %@ on the %@ Portal" = "Sertai %1$@ di Portal %2$@";
 "Join Meet failed. Please check Meet ID and try again." = "Gagal sertai Meet. Sila periksa ID Meet dan cuba lagi.";
 "Join Meeting" = "Sertai Mesyuarat";
@@ -1436,6 +1464,8 @@
 "Leave us a message!" = "Tinggalkan mesej kepada kami!";
 "Leaving Meeting..." = "Tinggalkan Mesyuarat...";
 "Left" = "Meninggalkan";
+"Let's fill out your profile so people can easily find and connect with you on the app." = "Mari lengkapkan profil anda supaya orang dapat dengan mudah mencari dan berhubung dengan anda di aplikasi.";
+"Let's finish setting up your profile!" = "Mari kita selesaikan penyediaan profil anda!";
 "Library" = "Perpustakaan";
 "Line" = "Talian";
 "Link Copied" = "Pautan Disalin";
@@ -1528,7 +1558,6 @@
 "Members" = "Ahli";
 "Members have not joined" = "Ahli belum menyertai";
 "Members only" = "Ahli sahaja";
-"Members(%@)" = "Ahli (%@)";
 "Mentions" = "Sebutan";
 "Mentions and assigned Actions" = "Sebutan dan Tindakan yang ditugaskan";
 "Message" = "Mesej";
@@ -1597,6 +1626,7 @@
 "New Messages" = "Mesej-mesej Baharu";
 "New One-on-One Workspace" = "Ruang Kerja Satu-satu-Satu Baharu";
 "New Password" = "Kata laluan Baharu";
+"New Social Workspace" = "Ruang Kerja Sosial Baru";
 "New Status" = "Status Baharu";
 "New Time Booking" = "Tempahan Masa Baharu";
 "New To-Do" = "Baharu Untuk Dilakukan";
@@ -1607,6 +1637,8 @@
 "No Actions" = "Tiada Tindakan";
 "No Actions Yet" = "Masih Tiada Tindakan";
 "No Archived Workspaces" = "Tiada Ruang Kerja Terarkib";
+"No Bookmarks" = "Tiada Penanda Buku";
+"No Bots Yet" = "Belum Ada Bot";
 "No Client Groups" = "Tiada Kumpulan Pelanggan";
 "No Clients" = "Tiada Pelanggan";
 "No Contacts" = "Tiada Kenalan";
@@ -1622,7 +1654,6 @@
 "No Participants In Meeting" = "Tiada Peserta Dalam Mesyuarat";
 "No Pending Actions" = "Tiada Tindakan Tertangguh";
 "No Pending Invites" = "Tiada Jemputan Belum Selesai";
-"No Pins" = "Tiada Tampalan";
 "No Portals Found" = "Tiada Portal Dijumpai";
 "No Response" = "Tiada Respon";
 "No Results" = "Tiada Keputusan";
@@ -1659,7 +1690,7 @@
 "Nothing waiting!" = "Tiada yang menunggu!";
 "Notifications" = "Pemberitahuan";
 "Now" = "Sekarang";
-"OK" = "OKEY";
+"OK" = "OK";
 "OR" = "ATAU";
 "Off" = "Mati";
 "Office Hours" = "Waktu Pejabat";
@@ -1677,6 +1708,8 @@
 "Ongoing" = "Sedang berjalan";
 "Only 30 days of history is available" = "Hanya 30 hari sejarah yang ada";
 "Only admins can invite new internal users." = "Hanya pentadbir boleh menjemput pengguna dalaman baru.";
+"Only client accounts with a phone number can connect via WhatsApp." = "Hanya akaun klien dengan nombor telefon boleh menyambung melalui WhatsApp.";
+"Only client accounts with an email address can connect via WeChat or WhatsApp." = "Hanya akaun klien yang mempunyai alamat emel boleh menyambung melalui WeChat atau WhatsApp.";
 "Only invited members can access the workspace" = "Hanya ahli yang dijemput sahaja boleh mengakses ruang kerja";
 "Only one assignee is required to acknowledge this acknowledgement to complete it." = "Hanya seorang penerima tugas diperlukan untuk mengakui pengakuan ini untuk melengkapkannya.";
 "Only one assignee is required to approve this approval to complete it." = "Hanya seorang penerima tugas diperlukan untuk meluluskan kelulusan ini untuk melengkapkannya.";
@@ -1693,6 +1726,7 @@
 "Open In..." = "Buka Dalam...";
 "Open in Safari" = "Buka di Safari";
 "Operation Failed" = "Operasi gagal";
+"Options..." = "Pilihan...";
 "Order Approval" = "Persetujuan Pesanan";
 "Order Approval for {Vendor Name}" = "Persetujuan Pesanan untuk {Nama Vendor}";
 "Original File" = "Fail Asal";
@@ -1742,14 +1776,10 @@
 "Phone number successfully updated." = "Nombor telefon berjaya dikemas kini.";
 "Photos" = "Foto";
 "Pick member" = "Pilih ahli";
-"Pin" = "Tampalkan";
 "Pin User" = "Tampalkan Pengguna";
 "Pin User Globally" = "Tampalkan Pengguna di Seluruh Dunia";
-"Pin to Workspace" = "Sematkan ke Ruang Kerja";
+"Pin to Timeline" = "Pasang ke Garis Masa";
 "Pinned By Presenter" = "Dipinkan Oleh Penyampai";
-"Pinned item added" = "Item yang ditampal telah ditambahkan";
-"Pinned item removed" = "Item yang ditampal telah dikeluarkan";
-"Pins" = "Tampal";
 "Placeholder Name" = "Nama Tempat Kosong";
 "Play" = "Main";
 "Please <a href='{{href}}'>leave a message</a> or try again during office hours." = "Sila <a href='{{href}}'>tinggalkan mesej</a> atau cuba semula semasa waktu pejabat.";
@@ -1761,7 +1791,6 @@
 "Please click below to create your account." = "Sila klik di bawah untuk membuat akaun anda.";
 "Please click the button below to finish creating your account." = "Sila klik butang di bawah untuk menyelesaikan pembuatan akaun anda.";
 "Please connect your DocuSign account to access templates." = "Sila sambungkan akaun DocuSign anda untuk mengakses templat.";
-"Please contact our support team at support.moxo.com." = "Sila hubungi pasukan sokongan kami di support.moxo.com.";
 "Please contact the administrator of your portal to continue." = "Sila hubungi pentadbir portal anda untuk meneruskan.";
 "Please contact the host and request an invitation to join." = "Sila hubungi hos dan minta jemputan untuk menyertai.";
 "Please contact us to receive a new invitation." = "Sila hubungi kami untuk menerima jemputan baharu.";
@@ -1797,6 +1826,7 @@
 "Portal cannot be accessed" = "Portal tidak dapat diakses";
 "Portal successfully created!" = "Portal berjaya dicipta!";
 "Posted by %@" = "Dihantar oleh %@";
+"Prefer a password-free login? You can" = "Lebih suka log masuk tanpa kata laluan? Anda boleh";
 "Prepare to get your business in the flow." = "Bersedia untuk memasukkan bisnes anda dalam aliran.";
 "Preparing..." = "Bersiap sedia...";
 "Presenter" = "Penyampai";
@@ -1874,11 +1904,12 @@
 "Reminder will occour %@ before." = "Peringatan akan berlaku %@ sebelum.";
 "Reminder: %@" = "Peringatan: %@";
 "Remove" = "Keluarkan";
-"Remove %@ From This Workspace?" = "Buang %@ Dari Ruang Kerja Ini?";
 "Remove %@?" = "Keluarkan %@?";
+"Remove Bookmark" = "Keluarkan Tanda Buku";
 "Remove From Workspace" = "Buang Dari Ruang Kerja";
 "Remove Link Preview" = "Keluarkan Pratonton Pautan";
 "Remove Step" = "Keluarkan Langkah";
+"Removed" = "Dikeluarkan";
 "Removed By Host" = "Dikeluarkan Oleh Hos";
 "Removed the assignee" = "Pemegang tugas dikeluarkan";
 "Removed the assignee %@" = "Keluarkan pemegang tugas %@";
@@ -1887,12 +1918,14 @@
 "Rename Folder" = "Namakan semula Folder";
 "Rename Workspace" = "Namakan semula Ruang Kerja";
 "Reopen" = "Buka semula";
+"Reopen Action" = "Buka Semula Tindakan";
 "Reopen E-Sign?" = "Buka semula E-Tandatangan?";
 "Reopen File Request?" = "Buka semula Permintaan Fail?";
 "Reopen file request?" = "Buka semula Permintaan Fail?";
 "Reopen it to enable replies." = "Buka semula untuk dayakan balasan.";
 "Reopened %@" = "%@ dibuka semula";
 "Reopened on %@" = "Dibuka semula pada %@";
+"Reopening this action will require assignees to review it again, while preserving previous data. Any associated automations will also run again." = "Membuka semula tindakan ini akan memerlukan penerima tugas untuk mengkaji semula, sambil mengekalkan data sebelumnya. Sebarang automasi yang berkaitan juga akan dijalankan semula.";
 "Repeat" = "Ulang";
 "Repeat every %@ days." = "Ulang setiap %@ hari.";
 "Repeat every %@ weeks on %@." = "Ulang setiap %1$@ minggu pada %2$@.";
@@ -2000,6 +2033,8 @@
 "Select Assignees" = "Pilih Penerima Tugas";
 "Select Bot" = "Pilih Bot";
 "Select Category" = "Pilih Kategori";
+"Select Channel" = "Pilih Saluran";
+"Select Client" = "Pilih Pelanggan";
 "Select Conversation" = "Pilih Perbualan";
 "Select Data Center" = "Pilih Pusat Data";
 "Select Date" = "Pilih Tarikh";
@@ -2048,7 +2083,9 @@
 "Session Expired" = "Sesi Tamat";
 "Session expired" = "Sesi tamat";
 "Set" = "Set";
+"Set Automatically" = "Tetapkan Secara Automatik";
 "Set Currency To Continue" = "Setkan Mata Wang Untuk Teruskan";
+"Set Days" = "Tetapkan Hari";
 "Set a minimum amount of time between available time booking slots." = "Tetapkan jumlah masa minimum antara slot tempahan masa yang tersedia.";
 "Set a new password" = "Tetapkan kata laluan baharu";
 "Set date and time for reminder" = "Tetapkan tarikh dan masa untuk peringatan";
@@ -2134,7 +2171,6 @@
 "Start Verification" = "Mulakan Pengesahan";
 "Start Workspace" = "Mulakan Ruang Kerja";
 "Start a new workspace without using a template" = "Mulakan ruang kerja baru tanpa menggunakan templat";
-"Start new workspace" = "Mulakan ruang kerja baru";
 "Started %@" = "Bermula %@";
 "Starting..." = "Bermula...";
 "Starts" = "Mula";
@@ -2195,6 +2231,7 @@
 "Tap to add caption..." = "Ketik untuk tambah tajuk...";
 "Tap to get the control of the sharing screen." = "Ketik untuk mendapatkan kawalan skrin perkongsian.";
 "Tap to learn more" = "Ketik untuk mengetahui lebih lagi";
+"Tap to load more" = "Ketuk untuk memuat lebih";
 "Tap to view" = "Ketuk untuk melihat";
 "Teams" = "Pasukan";
 "Tell us what you need" = "Beritahu kami apa yang anda perlukan";
@@ -2206,7 +2243,7 @@
 "Text Color" = "Warna Teks";
 "Text Outline" = "Rangka Teks";
 "Text Tag" = "Tag Teks";
-"Thank you for using %@ meeting." = "Terima kasih kerana menggunakan \n %@ mesyuarat.";
+"Thank you for using %@ Meeting." = "Terima kasih kerana menggunakan Mesyuarat %@.";
 "Thank you. We will send you the final signed copy once everyone signs the document." = "Terima kasih. Kami akan menghantar salinan terakhir yang tandatangan setelah semua orang tandatangan dokumen tersebut.";
 "Thanks for joining!" = "Terima kasih kerana menyertai!";
 "The Client ID and Client Secret are used to generate an OAuth2 access token. Access your Client ID and Client Secret from the Jumio Portal." = "ID Pelanggan dan Rahsia Pelanggan digunakan untuk menjana token akses OAuth2. Akses ID Pelanggan dan Rahsia Pelanggan anda dari Portal Jumio.";
@@ -2217,7 +2254,6 @@
 "The account associated with the phone number is no longer active." = "Akaun yang dikaitkan dengan nombor telefon tidak lagi aktif.";
 "The account associated with this email address is no longer active." = "Akaun yang dikaitkan dengan alamat e-mel ini tidak lagi aktif.";
 "The account associated with this phone number is no longer active." = "Akaun yang dikaitkan dengan nombor telefon ini tidak lagi aktif.";
-"The assignee needs to resubmit files if you reopen this file request." = "Penerima tugasan perlu menyerahkan semula fail jika anda membuka semula permintaan fail ini.";
 "The assignee will need to to re-submit files if reopened." = "Penerima serah hak perlu menyerahkan semula fail jika dibuka semula.";
 "The assignee(s) will need to sign again if reopened." = "Penerima serah hak perlu menandatangani semula jika dibuka semula.";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "Fail tidak dapat dimuat naik kerana tidak memenuhi syarat keselamatan. Sila periksa fail anda dan cuba lagi.";
@@ -2245,8 +2281,9 @@
 "The selected items will be added to %@." = "Item yang dipilih akan ditambahkan ke %@.";
 "The selected items will be moved to %@." = "Item yang dipilih akan dipindahkan ke %@.";
 "The selected items will be moved under %@." = "Item yang dipilih akan dipindahkan di bawah %@.";
-"The selected person is the owner of the workspace." = "Orang yang dipilih adalah pemilik ruang kerja.";
+"The selected member is the owner of the workspace." = "Ahli yang dipilih adalah pemilik ruang kerja.";
 "The start time must be before the end time." = "Masa mula mesti sebelum masa tamat.";
+"The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "Ruang kerja akan diarkib secara automatik untuk semua ahli setelah semua tindakan selesai dan tempoh ketidakaktifan berikut telah dicapai.";
 "There are no active screen share sessions to join." = "Tidak ada sesi perkongsian skrin aktif untuk disertai.";
 "There are no other members in this workspace." = "Tiada ahli lain dalam ruang kerja ini.";
 "There are no results matching the name you’ve provided." = "Tiada hasil yang sepadan dengan nama yang anda berikan.";
@@ -2277,6 +2314,8 @@
 "This and Following Meetings" = "Ini dan Mesyuarat Berikut";
 "This content may have been deleted or otherwise removed." = "Kandungan ini mungkin telah dipadamkan atau dikeluarkan";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "Dokumen ini mengandungi medan. Adakah anda mahu menambah dan menetapkan medan-medan ini kepada seseorang secara automatik?";
+"This email does not match the predefined email." = "Emel ini tidak sepadan dengan emel yang telah ditetapkan.";
+"This email is already associated with another account." = "Emel ini sudah dikaitkan dengan akaun lain.";
 "This envelope is still being processed by DocuSign. Please try again in a moment." = "Sampul ini masih diproses oleh DocuSign. Sila cuba lagi sebentar lagi.";
 "This file has been deleted." = "Fail ini telah dipadamkan.";
 "This file has been deleted. It's not available anymore." = "Fail ini telah dipadamkan. Ia tidak tersedia lagi.";
@@ -2301,7 +2340,6 @@
 "This person is in a client group that was added to this workspace. Assigning this action to them will add them as an individual workspace member." = "Orang ini berada dalam kumpulan pelanggan yang telah ditambahkan pada ruang kerja ini. Menugaskan tindakan ini kepada mereka akan menambahkan mereka sebagai ahli ruang kerja individu.";
 "This person is in a team that was added to this workspace. Assigning this action to them will add them to this workspace as an individual member." = "Orang ini berada dalam pasukan yang telah ditambahkan pada ruang kerja ini. Menugaskan tindakan ini kepada mereka akan menambahkan mereka pada ruang kerja ini sebagai ahli individu.";
 "This person looks new:" = "Orang ini kelihatan baru:";
-"This portal has been disabled" = "Portal ini telah dilumpuhkan";
 "This reset password link is no longer valid" = "Pautan kata laluan tetapkan semula ini tidak lagi sah";
 "This role and any assigned fields will be hidden." = "Peranan ini dan mana-mana medan yang ditugaskan akan disembunyikan.";
 "This role cannot be the assignee for an integration action." = "Peranan ini tidak boleh menjadi penerima tugas untuk tindakan integrasi.";
@@ -2408,6 +2446,7 @@
 "Transactions (%@)" = "Transaksi (%@)";
 "Transactions History" = "Sejarah Transaksi";
 "Transfer Ownership" = "Pindah milik";
+"Trial expired. Please contact your org administrator." = "Tempoh percubaan telah tamat. Sila hubungi pentadbir organisasi anda.";
 "Trust" = "Percaya";
 "Trust This Device" = "Percayakan Peranti Ini";
 "Trust This Device?" = "Percayakan peranti ini?";
@@ -2427,7 +2466,6 @@
 "URL (required)" = "URL (diperlukan)";
 "US" = "AS";
 "Uh-oh, you aren’t currently online. To complete this task, please connect to the internet." = "Uh-oh, anda tiada dalam talian. Untuk menyelesaikan tugas ini, sila sambungkan ke internet.";
-"Un-archive Workspace" = "Nyahrkibkan Ruang Kerja";
 "Unable To Assign" = "Tidak Boleh Memberi Tugas";
 "Unable To Delete" = "Tidak dapat memadam";
 "Unable To Edit" = "Tidak Dapat Mengedit";
@@ -2478,6 +2516,9 @@
 "Unable to start this Flow Workspace because it exceeds the member limit set by your organization." = "Tidak dapat memulakan Ruang Kerja Aliran ini kerana ia melebihi had ahli yang ditetapkan oleh organisasi anda.";
 "Unable to upload the file %@. Please try again." = "Tidak dapat muat naik fail %@. Sila cuba lagi.";
 "Unarchive" = "Nyaharkib";
+"Unarchive Workspace" = "Nyaharkibat Ruang Kerja";
+"Unarchive workspace for all" = "Nyaharkib ruang kerja untuk semua";
+"Unarchive workspace for yourself" = "Nyaharkibkan ruang kerja untuk diri sendiri";
 "Unassigned" = "Tidak ditugaskan";
 "Unavailable" = "Tidak tersedia";
 "Uncheck" = "Nyahsemak";
@@ -2486,8 +2527,6 @@
 "Unlock Meeting Access" = "Buka kunci Mesyuarat";
 "Unlock the power of external project workspaces." = "Buka kuasa ruang kerja projek luaran.";
 "Unmute" = "Tidak bisu";
-"Unpin" = "Tanggalkan";
-"Unpin from Workspace" = "Nyahsemat daripada Ruang Kerja";
 "Unread" = "Belum dibaca";
 "Unsupported file format" = "Format fail tidak disokong";
 "Until %@" = "Sehingga %@";
@@ -2511,6 +2550,7 @@
 "Use" = "Guna";
 "Use %@ or more characters" = "Gunakan %@ atau lebih aksara";
 "Use 1 or more character" = "Gunakan 1 atau lebih aksara";
+"Use Single Sign-On to securely log in to your portal." = "Gunakan Single Sign-On untuk log masuk ke portal anda dengan selamat.";
 "Use Touch ID to access your account without entering your password." = "Gunakan ID Sentuh untuk mengakses akaun anda tanpa memasukkan kata laluan anda.";
 "Use at least %@ lowercase letters" = "Gunakan sekurang-kurangnya %@ huruf kecil";
 "Use at least %@ numbers (e.g. 1234)" = "Gunakan sekurang-kurangnya %@ nombor (cth. 1234)";
@@ -2529,7 +2569,6 @@
 "User Name" = "Nama Pengguna";
 "User Not In Workspace" = "Pengguna Tiada Dalam Ruang Kerja";
 "Users need to be added to your contacts before appearing here." = "Pengguna perlu ditambahkan ke kenalan anda sebelum muncul di sini.";
-"Using Single Sign On to securely log you in our collaboration platform." = "Menggunakan Single Sign On untuk log masuk anda dengan selamat di platform kerjasama kami.";
 "VOID" = "BATAL";
 "Validating password..." = "Mengesahkan kata laluan...";
 "Verification Email Sent" = "E-mel Pengesahan Dihantar";
@@ -2540,6 +2579,7 @@
 "View" = "Lihat";
 "View All" = "Lihat Semua";
 "View All Thumbnail" = "Lihat Semua Imej Kecil";
+"View Archived Workspaces" = "Lihat Ruang Kerja yang Diarkibkan";
 "View Completed" = "Paparan Diselesaikan";
 "View Details" = "Lihat Butiran";
 "View File" = "Lihat Fail";
@@ -2631,14 +2671,15 @@
 "Welcome to %@’s Service Portal!" = "Selamat datang ke Portal Perkhidmatan %@!";
 "Welcome! Thank you for accepting my invitation and joining our platform. Feel free to reach out to me any time for assistance." = "Selamat datang! Terima kasih kerana menerima jemputan saya dan menyertai platform kami. Jangan ragu-ragu untuk menghubungi saya bila-bila masa untuk mendapatkan bantuan.";
 "Welcome! We have designed this workspace to seamlessly take you through each step of our onboarding process. If you have any questions, please do not hesitate to reach out here. We look forward to working with you. Let's get started!" = "Selamat datang! Kami telah merancang ruang kerja ini untuk membawa anda melalui setiap langkah dalam aliran pendaftaran kami dengan lancar. Jika anda mempunyai sebarang pertanyaan, jangan ragu untuk menghubungi kami di sini. Kami menantikan untuk bekerja dengan anda. Mari kita mula!";
+"Welcome, %@!" = "Selamat datang, %@!";
 "We’ll email you a magic code for password-free log in. Or you can" = "Kami akan menghantar anda kod ajaib melalui emel untuk log masuk tanpa kata laluan. Atau anda boleh";
 "We’ll send a verification code using one of the options below:" = "Kami akan menghantar kod pengesahan menggunakan salah satu pilihan di bawah:";
 "We’ll send out an email or SMS invitation to notify the assignees." = "Kami akan hantar e-mel atau jemputan SMS untuk beritahu penerima tugasan.";
+"We’ll send you a magic code for a password-free login. Or you can" = "Kami akan menghantar anda kod ajaib untuk log masuk tanpa kata laluan. Atau anda boleh";
 "We’ve collected all the files shared across your channels so you can get an overview." = "Kami telah mengumpulkan semua fail yang telah dikongsi di seluruh saluran anda supaya anda mendapatkan gambaran keseluruhan.";
 "What can my assignees expect?" = "Apakah yang boleh dijangkakan oleh penerima tugasan saya?";
 "WhatsApp" = "WhatsApp";
 "What’s the name of your company or team?" = "Apakah nama syarikat atau pasukan anda?";
-"What’s your name?" = "Apakah nama anda?";
 "When people mention you, you’ll see it here." = "Apabila orang menyebut anda, anda akan melihatnya di sini.";
 "When things are assigned to you and need action, you’ll see them here." = "Apabila perkara diberikan kepada anda dan memerlukan tindakan, anda akan melihatnya di sini.";
 "Whiteboard" = "Papan putih";
@@ -2666,7 +2707,6 @@
 "Workspace Name" = "Nama Ruang Kerja";
 "Workspace Name (Required)" = "Nama Ruang Kerja (Diperlukan)";
 "Workspace Owner" = "Pemilik Ruang Kerja";
-"Workspace Template" = "Templat Ruang Kerja";
 "Workspace Templates" = "Templat Ruang Kerja";
 "Workspace Timed Out" = "Ruang Kerja Tamat Masa";
 "Workspace Title" = "Tajuk Ruang Kerja";
@@ -2675,11 +2715,9 @@
 "Workspace archived" = "Ruang kerja diarkibkan";
 "Workspace has been deactivated" = "Ruang kerja telah dinyahaktifkan";
 "Workspace transferred to you" = "Ruang kerja dipindahkan kepada anda";
-"Workspace: %@" = "Ruang Kerja: %@";
 "Workspaces" = "Ruang kerja";
 "Workspaces archived" = "Ruang kerja diarkibkan";
 "Workspaces you are a part of will appear here." = "Ruang kerja yang anda sertai akan muncul di sini.";
-"Workspaces you're involved in will appear here." = "Ruang kerja yang anda sertai akan dipaparkan di sini.";
 "Would you like to dial into meeting automatically?" = "Adakah anda ingin dail ke mesyuarat secara automatik?";
 "Would you like to log out and try with another account?" = "Adakah anda ingin log keluar dan mencuba dengan akaun lain?";
 "Would you like to send log to our developer?" = "Adakah anda ingin menghantar log kepada pembangun kami?";
@@ -2696,7 +2734,6 @@
 "You Are Already Logged In" = "Anda Sudah Log Masuk";
 "You Cannot Remove Yourself From The Workspace" = "Anda Tidak Boleh Mengalih Keluar Diri Anda Daripada Ruang Kerja";
 "You already have an account" = "Anda sudah mempunyai akaun";
-"You archived this workspace" = "Anda mengarkibkan ruang kerja ini";
 "You are about to call %@ back. Do you want to go ahead?" = "Anda akan menghubungi %@ kembali. Adakah anda mahu teruskan?";
 "You are about to make a call." = "Anda akan membuat panggilan.";
 "You are connected with our live support!" = "Anda berhubung dengan sokongan secara langsung kami!";
@@ -2716,8 +2753,10 @@
 "You can add up to %@ participants. Internal users can set their booking availability times under their profile page." = "Anda boleh menambah sehingga %@ peserta. Pengguna dalaman boleh menetapkan masa ketersediaan tempahan mereka di bawah halaman profil mereka.";
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "Anda boleh tambah sehingga %@ peserta. Pengguna dalaman boleh menetapkan ketersediaan permohonan mesyuarat mereka di bawah halaman profil mereka.";
 "You can customize your default welcome message in settings." = "Anda boleh menyesuaikan mesej selamat datang lalai dalam tetapan.";
+"You can find your archived workspaces on your account page under the profile tab." = "Anda boleh mencari ruang kerja yang telah diarkibkan di halaman akaun anda di bawah tab profil.";
 "You can leave a message, or cancel your request and try later." = "Anda boleh meninggalkan mesej atau membatalkan permintaan anda dan cuba lagi kemudian.";
 "You can not set overlapping hours. Please, adjust the periods before saving." = "Anda tidak boleh menetapkan waktu bertindih. Sila selaraskan tempoh sebelum menyimpan.";
+"You can only pin up to %@ workspaces." = "Anda hanya boleh mengepin sehingga %@ ruang kerja.";
 "You can only send messages when all users are in the workspace." = "Anda hanya boleh menghantar mesej apabila semua pengguna berada di ruang kerja.";
 "You can still join later by opening the meeting in your dashboard or the workspace it was started in." = "Anda masih boleh menyertai kemudian dengan membuka mesyuarat dalam papan pemuka anda atau ruang kerja tempat ia dimulakan.";
 "You can turn on/off the cover page on the profile settings." = "Anda boleh hidupkan/matikan halaman muka depan pada tetapan profil.";
@@ -2736,7 +2775,6 @@
 "You cannot pick a time in the past." = "Anda tidak boleh pilih masa pada masa lalu.";
 "You cannot start sharing while another participant is sharing." = "Anda tidak boleh mula berkongsi semasa peserta lain berkongsi.";
 "You cannot undo this action." = "Anda tidak boleh membatalkan tindakan ini.";
-"You currently aren’t involved in any workspaces with us." = "Anda kini tidak terlibat dalam sebarang ruang kerja bersama kami.";
 "You declined to sign this document." = "Anda telah menolak untuk menandatangani dokumen ini.";
 "You do not have permission to edit this note." = "Anda tidak mempunyai kebenaran untuk mengedit nota ini.";
 "You don't have an account on %@ yet" = "Anda belum lagi mempunyai akaun untuk %@";
@@ -2782,7 +2820,6 @@
 "You will not be able to make changes after that." = "Anda tidak akan dapat membuat perubahan selepas itu.";
 "You will receive a copy by email" = "Anda akan menerima salinan melalui emel.";
 "You won't be able to recover it once confirmed." = "Anda tidak akan dapat memulihkannya selepas disahkan.";
-"You'll be added as the assignee for unassigned roles" = "Anda akan ditambahkan sebagai penerima tugas untuk peranan yang tidak ditugaskan";
 "You'll need to update this application before continuing." = "Anda perlu mengemas kini aplikasi ini sebelum meneruskan.";
 "You're all clear!" = "Anda semua jelas!";
 "You're done" = "Anda sudah selesai";
@@ -2828,9 +2865,9 @@
 "You’ll be notified after each person signs." = "Anda akan diberitahu setelah setiap orang menandatangani.";
 "You’re All Done!" = "Anda Telah Selesai!";
 "You’re Up To Date!" = "Anda telah Dikemas Kini!";
-"You’re accepting an invitation sent to %@" = "Anda menerima jemputan yang dihantar kepada %@";
 "You’re already assigned to this client and can find them in your contacts." = "Anda telah pun ditugaskan kepada pelanggan ini dan boleh mencari mereka dalam kenalan anda.";
 "You’re already signed in" = "Anda sudah log masuk";
+"You’ve already added all of the bots." = "Anda sudah menambah semua bot.";
 "You’ve already added the maximum number of action steps. (%@/200)" = "Anda telah menambahkan bilangan langkah tindakan maksimum. (%@/200)";
 "You’ve already added the maximum number of assignees. (15/15)" = "Anda telah menambahkan bilangan maksimum penerima tugas. (15/15)";
 "You’ve already added this user as a viewer." = "Anda telah menambah pengguna ini sebagai penonton.";
@@ -2864,6 +2901,8 @@
 "in: " = "dalam:";
 "in: %@" = "dalam: %@";
 "location" = "lokasi";
+"log in manually instead." = "log masuk secara manual sebaliknya.";
+"log in with a magic code instead." = "log masuk dengan kod ajaib sebaliknya.";
 "log in with password instead." = "log masuk dengan kata laluan sebaliknya.";
 "member" = "ahli";
 "min" = "min";

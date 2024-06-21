@@ -83,6 +83,11 @@ Agenda of the meet.
 @property (nonatomic, strong, readonly, nullable) NSDate *scheduledEndTime;
 
 /**
+ If the scheduled meeting accepted by current user.
+ */
+@property (nonatomic, assign, readonly, getter = isAccepted) BOOL accepted;
+
+/**
 Host of the meet.
 */
 @property (nonatomic, strong) MEPUser *host;

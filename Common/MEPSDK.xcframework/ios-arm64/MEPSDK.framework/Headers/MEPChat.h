@@ -7,6 +7,14 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSInteger, MEPFileOperation)
+{
+    MEPFileOperationRotatePage             = 1 << 0,
+    MEPFileOperationRenameFile             = 1 << 1,
+    MEPFileOperationRearrangePage          = 1 << 2,
+    MEPFileOperationAll           = MEPFileOperationRotatePage | MEPFileOperationRenameFile | MEPFileOperationRearrangePage
+};
+
 @class MEPUser;
 NS_ASSUME_NONNULL_BEGIN
 
@@ -70,6 +78,7 @@ typedef NS_ENUM(NSUInteger, MEPChatContentType) {
 - MEPChatTypeWhatsApp: WhatsApp channel
 - MEPChatTypeLiveChat: ACD Live chat
 - MEPChatTypeServiceRequest: Service request chat
+- MEPChatTypeFlowChat: Flow chat.
 */
 typedef NS_ENUM(NSUInteger, MEPChatType) {
     MEPChatTypeGroupChat,
@@ -78,7 +87,8 @@ typedef NS_ENUM(NSUInteger, MEPChatType) {
     MEPChatTypeWeChat,
     MEPChatTypeWhatsApp,
     MEPChatTypeLiveChat,
-    MEPChatTypeServiceRequest
+    MEPChatTypeServiceRequest,
+    MEPChatTypeFlowChat
 };
 
 typedef NS_OPTIONS(NSUInteger, MEPChatTab) {
