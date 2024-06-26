@@ -253,19 +253,6 @@ Use this delegate to set custom info for chat content.
 @discussion This completionHandler block is required to be called immediately after your process done.
  */
 - (void)client:(MEPClient *)client willSendMessage:(MEPChatFeed *)feed handler:(void(^_Nullable)(BOOL sendOrNot))handler;
-
-/** It will be called when user accepted a scheduled meeting
-@param client The mep sdk client
-@param meet  The accepted meeting
- */
-- (void)client:(MEPClient *)client didAcceptScheduledMeet:(MEPMeet *)meet;
-
-/** It will be called when user accepted a scheduled meeting
-@param client The mep sdk client
-@param meet  The declined meeting
- */
-- (void)client:(MEPClient *)client didDeclineScheduledMeet:(MEPMeet *)meet;
-
 @end
 
 
@@ -1007,16 +994,6 @@ The default value is nil, which means SDK does not check file types.
  [MEPFeatureConfig sharedInstance].enabledMeetFeatures &= ~MEPMeetFeatureFileShare;
  */
 @property (nonatomic, assign) MEPMeetFeature enabledMeetFeatures;
-
-/**
- Enabled file operations, see more in MEPFileOperation. Defaults is MEPMeetFeatureAll.
- @discussion if you want to disable specific feature, please use code like below:
- // Disable page rotate
- [MEPFeatureConfig sharedInstance].enabledFileOperations &= ~MEPFileOperationRotatePage;
- // Disable file rename
- [MEPFeatureConfig sharedInstance].enabledFileOperations &= ~MEPFileOperationRenameFile;
- */
-@property (nonatomic, assign) MEPFileOperation enabledFileOperations;
 
 /**
  If implemeted will trigger when add user button needs render
