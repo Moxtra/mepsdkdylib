@@ -445,8 +445,10 @@
 "Acknowledgement due soon" = "الاعتراف المقرر قريب";
 "Acknowledgement due today" = "إقرار مستحق اليوم";
 "Acknowledgement overdue (%@)" = "تأخر الاعتراف (%@)";
+"Action Cannot Be Deleted" = "لا يمكن حذف الإجراء";
 "Action In Progress" = "جارٍ تقدم الإجراء";
 "Action Items" = "عناصر الإجراء";
+"Action Limit Reached" = "تم الوصول إلى حد الإجراء";
 "Action Needed By" = "الإجراء المطلوب من";
 "Action Required" = "إجراء مطلوب";
 "Action Updated" = "تم تحديث الإجراء";
@@ -457,6 +459,7 @@
 "Action not started" = "لم يبدأ الإجراء";
 "Action overdue (%@)" = "الإجراء متأخر (%@)";
 "Action required from @%@" = "مطلوب إجراء من @%1$@";
+"Action skipped" = "تم تخطي الإجراء";
 "Action will be due in %@." = "يحين موعد استحقاق الإجراء في %@.";
 "Actions" = "الإجراءات";
 "Actions Reassigned" = "تمت إعادة تعيين الإجراءات";
@@ -469,6 +472,7 @@
 "Add Annotation" = "إضافة تعليق توضيحي";
 "Add Another Portal" = "إضافة بوابة أخرى";
 "Add Assignee" = "إضافة معين";
+"Add Assignees" = "إضافة المعينين";
 "Add Attachment" = "إضافة مرفق";
 "Add Backup User" = "إضافة مستخدم دعم";
 "Add Bots" = "أضف برامج آلية";
@@ -490,7 +494,6 @@
 "Add Role" = "إضافة دور";
 "Add Roles" = "أضف الأدوار";
 "Add Signers" = "إضافة موقّعين";
-"Add Subject" = "إضافة موضوع";
 "Add User" = "إضافة مستخدم";
 "Add Viewers" = "إضافة مشاهدين";
 "Add Viewers (Optional)" = "إضافة مشاهدين (اختياري)";
@@ -498,7 +501,7 @@
 "Add a Role" = "أضف دور";
 "Add a To-Do" = "إضافة مهمة";
 "Add a To-Do Item" = "إضافة عنصر مهمة";
-"Add a brief description to your workspace" = "إضافة وصف موجز إلى مساحة العمل الخاصة بك";
+"Add a brief description for all workspace members to see" = "أضف وصفًا موجزًا ليشاهده جميع أعضاء مساحة العمل";
 "Add a role" = "أضف دور";
 "Add description" = "إضافة وصف";
 "Add files" = "إضافة ملفات";
@@ -545,6 +548,7 @@
 "All actions waiting for others to act on will appear here." = "ستظهر هنا جميع الإجراءات التي تنتظر إجراء من آخرين.";
 "All actions waiting for you to act on will appear here." = "ستظهر هنا جميع الإجراءات التي تنتظر إجراء من طرفك.";
 "All actions were completed." = "تم إكمال جميع الإجراءات.";
+"All assignees can work together to fill out this form. Once one assignee submits the form, it will be completed." = "جميع المعينين يمكنهم العمل معًا لملء هذا النموذج. بمجرد تقديم أحد المعينين للنموذج، سيتم إكماله.";
 "All bookmarked items will appear here." = "سيظهر هنا جميع العناصر المحفوظة.";
 "All comments and other activity on this file will also be deleted." = "سيتم أيضًا حذف جميع التعليقات والأنشطة الأخرى الموجودة على هذا الملف";
 "All completed actions will appear here." = "ستظهر جميع الإجراءات المكتملة هنا.";
@@ -564,6 +568,7 @@
 "Amount" = "المبلغ";
 "An Update Is Required" = "مطلوب تحديث";
 "An agent will respond when one is available." = "الرجاء ترك أي رسائل أدناه.";
+"An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace." = "تم تنفيذ مسار بديل بالفعل. تم تخطي %@ هذا الآن، لذا لا يمكن حفظ تغييراتك. سيتم توجيهك مرة أخرى إلى مساحة العمل.";
 "An external user with access to invited workspaces only." = "مستخدم خارجي يمكنه الوصول إلى مساحات العمل المدعوة فقط.";
 "An internal user with privileges to manage and create new workspaces in your portal." = "مستخدم داخلي لديه الصلاحيات لإدارة وإنشاء مساحات عمل جديدة في بوابتك.";
 "An update is available for this application. You'll need to update once you are connected to Wifi." = "يتوفر تحديث لهذا التطبيق. ستحتاج إلى التحديث بمجرد اتصالك بشبكة Wifi.";
@@ -630,7 +635,6 @@
 "Are you sure you want to discard your changes?" = "هل أنت متأكد أنك تريد إلغاء التغييرات الخاصة بك؟";
 "Are you sure you want to disconnect?" = "هل تريد بالتأكيد قطع الاتصال؟";
 "Are you sure you want to leave? All changes will be lost." = "هل أنت متأكد من أنك تريد المغادرة؟ ستُفقد كل التغييرات.";
-"Are you sure you want to remove \"%@\" from this workspace?" = "هل أنت متأكد أنك تريد إزالة \"%@\" من مساحة العمل هذه؟";
 "Are you sure you want to remove this attachment?" = "هل أنت متأكد أنت تريد إزالة هذا المرفق؟";
 "Are you sure you want to remove “%@” from this workspace?" = "هل أنت متأكد أنك تريد إزالة \"%@\" من مساحة العمل هذه؟";
 "Are you sure you want to start the meeting before its scheduled time?" = "هل أنت متأكد أنك تريد بدء الاجتماع قبل موعده المحدد؟";
@@ -655,6 +659,7 @@
 "Assignee Options" = "خيارات المعين";
 "Assignees" = "المعين إليهم";
 "Assignees will start collaborating on your flow after signing up if they don’t have an account yet." = "سيبدأ المعينون في التعاون في التدفق الخاص بك بعد التسجيل إذا لم يكن لديهم حساب حتى الآن.";
+"At least one action in the main flow is necessary to support an alternative branch." = "من الضروري وجود إجراء واحد على الأقل في التدفق الرئيسي لدعم فرع بديل.";
 "At least one field you added has not been filled. Please fill or remove the field(s) before finishing." = "لم يتم ملء حقل واحد على الأقل قمت بإضافته. يرجى ملء أو إزالة الحقل (الحقول) قبل الانتهاء.";
 "Attachment Limit Reached" = "تم بلوغ حد المُرفق";
 "Attachments" = "المرفقات";
@@ -764,6 +769,7 @@
 "Choose a time to reschedule" = "اختر وقتًا لإعادة الجدولة";
 "Choose application" = "اختيار التطبيق";
 "Choose from Library" = "اختيار من المكتبة";
+"Choose how many assignees are required to upload a file for completion." = "اختر عدد المعينين المطلوبين لرفع ملف لإكمال العملية.";
 "Choose how many assignees must acknowledge this acknowledgement to complete it." = "اختر عدد المعينين الذين يجب عليهم الإقرار بهذا الإقرار لإكماله.";
 "Choose how many assignees must approve this approval to complete it." = "اختر عدد المعينين الذين يجب أن يوافقوا على هذه الموافقة لإكمالها.";
 "Choose how many assignees must finish this to-do to complete it." = "اختر عدد المعينين الذين يجب عليهم إنهاء هذا الواجب لإكماله.";
@@ -1088,7 +1094,6 @@
 "Edit your filters to see results" = "تحرير عوامل التصفية الخاصة بك لعرض النتائج";
 "Editable by..." = "قابل للتحرير بواسطة…";
 "Edited" = "تم التحرير";
-"Editing Controls" = "تحرير عناصر التحكم";
 "Editing of this To-Do was locked by internal users." = "قفل المستخدمون الداخليون تحرير هذه المهمة.";
 "Editor" = "أداة التعديل";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "توجيه العملاء الجدد بكفاءة من خلال عملية تأهيل مبسطة متعددة الخطوات.";
@@ -1173,6 +1178,12 @@
 "File Info" = "معلومات الملف";
 "File Request" = "طلب ملف";
 "File Request assigned to %@" = "تم تعيين طلب الملف إلى %@";
+"File Request assigned to %@ and %@ other users" = "طلب ملف مُعين لـ %1$@ و %2$@ مستخدمين آخرين";
+"File Request assigned to %@ and %@ other users." = "طلب ملف مُعين لـ %1$@ و %2$@ مستخدمين آخرين.";
+"File Request assigned to %@ and %@ other users: %@" = "طلب الملف مُعين إلى %1$@ و%2$@ مستخدمين آخرين: %3$@";
+"File Request assigned to %@ and one other user" = "طلب ملف مُعين لـ %@ ومستخدم آخر واحد";
+"File Request assigned to %@ and one other user." = "طلب ملف مُعين لـ %@ ومستخدم آخر واحد.";
+"File Request assigned to %@ and one other user: %@" = "طلب الملف مُعين إلى %1$@ ومستخدم آخر: %2$@";
 "File Request assigned to %@." = "تم تعيين طلب الملف إلى %@.";
 "File Request assigned to %@: %@" = "تم تعيين طلب الملف إلى %1$@: %2$@";
 "File Request assigned to you" = "تم تعيين طلب الملف إليك";
@@ -1189,8 +1200,10 @@
 "File Request ready for review: %@" = "طلب الملف جاهز للمراجعة: %@";
 "File Request reopened" = "تم إعادة فتح طلب الملف";
 "File Reviewer" = "مُراجع الملف";
+"File Reviewers" = "مراجعو الملفات";
 "File Size Exceeded" = "تجاوز حجم الملف";
 "File doesn't exist." = "الملف غير موجود.";
+"File sharing permissions are restricted to %@ formats." = "أذونات مشاركة الملفات مقصورة على صيغ %@.";
 "File size limit reached (%@)" = "تم بلوغ حد حجم الملف (%@)";
 "File type unsupported" = "نوع الملف غير مدعوم";
 "File upload failed. Please try again." = "فشل رفع الملف. يرجى المحاولة مرة أخرى.";
@@ -1209,7 +1222,6 @@
 "Finish setting up your first workspace" = "الانتهاء من إعداد مساحة العمل الأولى الخاصة بك";
 "Fix Perspective" = "إصلاح منظور";
 "Flow" = "التدفق";
-"Flow Template Library" = "مكتبة قالب التدفق";
 "Flow Templates" = "قوالب التدفق";
 "Flow Workspace" = "مساحة عمل التدفق";
 "Flow Workspace transferred to you" = "تم نقل مساحة عمل التدفق إليك";
@@ -1230,8 +1242,14 @@
 "Forgot your password?" = "هل نسيت كلمة المرور؟";
 "Form" = "نموذج";
 "Form Preview" = "معاينة النموذج";
-"Form Responses" = "ردود النموذج";
+"Form Response" = "استجابة النموذج";
 "Form assigned to %@" = "تم تعيين نموذج إلى %@";
+"Form assigned to %@ and %@ other users" = "نموذج مُعين لـ %1$@ و %2$@ مستخدمين آخرين";
+"Form assigned to %@ and %@ other users." = "تم تعيين النموذج لـ %1$@ و %2$@ مستخدمين آخرين.";
+"Form assigned to %@ and %@ other users: %@" = "نموذج مُعين لـ %1$@ و %2$@ مستخدمين آخرين: %3$@";
+"Form assigned to %@ and one other user" = "النموذج مُعين إلى %@ ومستخدم آخر واحد";
+"Form assigned to %@ and one other user." = "النموذج مُعين لـ %@ ومستخدم آخر واحد.";
+"Form assigned to %@ and one other user: %@" = "تم تعيين النموذج لـ %1$@ ومستخدم آخر واحد: %2$@";
 "Form assigned to %@." = "تم تعيين نموذج إلى %@.";
 "Form assigned to %@: %@" = "تم تعيين نموذج إلى %1$@: %2$@";
 "Form assigned to you" = "تم تعيين النموذج إليك";
@@ -1709,6 +1727,7 @@
 "Only one assignee is required to acknowledge this acknowledgement to complete it." = "مطلوب معين واحد فقط للإقرار بهذا الإقرار لإكماله.";
 "Only one assignee is required to approve this approval to complete it." = "مطلوب معين واحد فقط للموافقة على هذه الموافقة لإكمالها.";
 "Only one assignee is required to finish this to-do to complete it." = "مطلوب موظف واحد فقط لإنهاء هذه المهمة لإكمالها.";
+"Only one assignee is required to upload files for completion." = "مطلوب موظف واحد فقط لرفع الملفات لإكمال العملية.";
 "Only participants can view meeting details." = "يمكن للمشاركين فقط عرض تفاصيل الاجتماع.";
 "Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "يمكن تعديل العنوان والوصف وتاريخ الانتهاء في إجراءات %1$@ فقط. إذا كنت بحاجة إلى تعديل المعينين أو تحديث أي تفاصيل أخرى، يرجى إنشاء إجراء %2$@ جديد.";
 "Only the workspace owner can adjust link security" = "فقط صاحب مساحة العمل يمكنه ضبط أمان الرابط";
@@ -1963,6 +1982,7 @@
 "Review DocuSign Details" = "مراجعة تفاصيل DocuSign";
 "Review E-Sign Details" = "مراجعة تفاصيل التوقيع الإلكتروني";
 "Review Now" = "مراجعة الآن";
+"Review Progress" = "مراجعة التقدم";
 "Review Submissions" = "راجع عمليات الإرسال";
 "Review the following attachments to confirm this acknowledgement." = "راجع المرفقات التالية لتأكيد هذا الإقرار.";
 "Role" = "دور";
@@ -2179,7 +2199,6 @@
 "Step Details" = "تفاصيل الخطوة";
 "Step Details (Step %@)" = "تفاصيل الخطوة (الخطوة %@)";
 "Step In Progress" = "الخطوة قيد التقدم";
-"Step Limit Reached" = "تم بلوغ حد الخطوة";
 "Step Removed" = "تم إزالة الخطوة";
 "Step edited" = "تم تعديل الخطوة";
 "Stop Co-Browsing" = "وقف التصفح المشترك";
@@ -2195,7 +2214,7 @@
 "Submitted by %@" = "أرسله %@";
 "Submitted by %@ (You)" = "قدمه المستخدم %@ (أنت)";
 "Submitted on %@" = "تم الإرسال في %@";
-"Submitted responses will show here." = "ستعرض الردود المرسلة هنا.";
+"The submitted response will be displayed here." = "سيتم عرض الرد المقدم هنا.";
 "Successfully Switched" = "تم التبديل بنجاح";
 "Successfully connected with %@!" = "تم التواصل مع %@ بنجاح!";
 "Sunday" = "الأحد";
@@ -2271,6 +2290,7 @@
 "The operation did not complete successfully: %@" = "لم تكتمل العملية بنجاح: %@";
 "The person who will submit the required files." = "الشخص الذي سيرسل الملفات المطلوبة.";
 "The person who will verify and approve the submitted files." = "الشخص الذي سيتحقق من الملفات المرسلة ويوافق عليها.";
+"The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "الشخص الذي سيتحقق ويوافق على الملفات المقدمة. يمكنك دعوة عدة مراجعين. سيتم إكمال الإجراء بمجرد تأكيد أي مراجع للملفات.";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "ستنتهي صلاحية الرابط السابق. لن يتمكن الأشخاص الذين لديهم الرابط منتهي الصلاحية من استخدامه للانضمام إلى المنصة.";
 "The selected items will be added to %@ in %@." = "ستتم إضافة العناصر المحددة إلى %1$@ في %2$@.";
 "The selected items will be added to %@." = "ستتم إضافة العناصر المحددة إلى %@.";
@@ -2294,9 +2314,10 @@
 "They will not archive for other members and will automatically un-archived after new activity." = "لن تتم الأرشفة للأعضاء الآخرين وسيتم إلغاء الأرشفة تلقائيًا بعد بدء نشاط جديد.";
 "They will see the flow cover page with basic details about the flow and your welcome message." = "سيرون صفحة غلاف التدفق مع التفاصيل الأساسية عن التدفق ورسالة الترحيب الخاصة بك.";
 "Things like statements, reports, invoices, etc. created by the org are sent to these inboxes." = "ترسل أشياء مثل البيانات والتقارير والفواتير وما إلى ذلك التي أنشأتها المؤسسة إلى صناديق البريد هذه.";
-"This %@ was already completed or deleted while you were editing and changes can not be saved. You will be directed back to the workspace." = "لقد تم بالفعل إنهاء %@ هذا أثناء قيامك بالتعديل ولم يعد بالإمكان عمل تغييرات. سيتم توجيهك مرة أخرى إلى مساحة العمل.";
+"This %@ has been completed or deleted, so your changes cannot be saved. You’ll be directed back to the workspace." = "تم إكمال أو حذف %@ هذا، لذا لا يمكن حفظ تغييراتك. سيتم توجيهك مرة أخرى إلى مساحة العمل.";
 "This %@ was already finished by the assignee and it can no longer be deleted." = "لقد تم بالفعل إنهاء %@ هذا بواسطة المسند إليه ولم يعد بالإمكان حذفه.";
 "This %@ was already finished by the assignee and it can no longer be removed. " = "لقد تم بالفعل إنهاء %@ هذا بواسطة المسند إليه ولم يعد بالإمكان إزالته.";
+"This %@ was skipped. Please review the flow." = "تم تخطي %@ هذا. يرجى مراجعة التدفق.";
 "This Meeting" = "هذا الاجتماع";
 "This To-Do can not support multiple assignees. To add more assignees, please create a brand new To-Do." = "لا يمكن أن يدعم هذا \"الواجب\" العديد من المعينين. لإضافة المزيد من المعينين، يرجى إنشاء مهمة جديدة تمامًا.";
 "This Will End Your Current Meeting" = "سيؤدي هذا إلى إنهاء اجتماعك الحالي";
@@ -2304,8 +2325,10 @@
 "This action cannot be undone" = "لا يمكن التراجع عن هذا الإجراء";
 "This action cannot be undone." = "لا يمكن التراجع عن هذا الإجراء.";
 "This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost." = "لقد بدأ هذا الإجراء بالفعل ويمكن للمسند إليه (المسند إليهم) مراجعة الخطوة والعمل عليها أثناء قيامك بإجراء التعديلات. سيتم فقد أي خطوات مكتملة بالفعل.";
+"This action has been completed. You will be directed back to the workspace." = "تم إكمال هذا الإجراء. سيتم توجيهك إلى مساحة العمل مرة أخرى.";
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "تم حذف هذا الإجراء ولم يعد إجراؤك مطلوبًا. سيتم توجيهك مرة أخرى إلى مساحة العمل.";
 "This action has been updated. Please review the details again before taking action. You will be directed back to the workspace." = "لقد تم تحديث هذا الإجراء. يرجى مراجعة التفاصيل مرة أخرى قبل اتخاذ أي إجراء. سيتم توجيهك مرة أخرى إلى مساحة العمل.";
+"This action will be completed once any file reviewer confirms." = "سيتم إكمال هذا الإجراء بمجرد تأكيد أي مراجع للملفات.";
 "This and Following Meetings" = "هذا الاجتماع وما يليه";
 "This content may have been deleted or otherwise removed." = "ربما تم حذف هذا المحتوى أو إزالته بطريقة أخرى.";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "يحتوي هذا المستند على حقول. هل ترغب في إضافة هذه الحقول وتعيينها تلقائيًا لشخص ما؟";
@@ -2509,10 +2532,11 @@
 "Unable to share your screen while co-browsing." = "غير قادر على مشاركة شاشتك أثناء التصفح المشترك.";
 "Unable to start the meeting. Another meeting is in progress." = "غير قادر على بدء الاجتماع. اجتماع آخر قيد التقدم.";
 "Unable to start this Flow Workspace because it exceeds the member limit set by your organization." = "غير قادر على بدء تدفق المحادثة هذه لأنها تتجاوز حد الأعضاء المحدد من قبل منظمتك.";
+"Unable to upload files" = "غير قادر على تحميل الملفات";
 "Unable to upload the file %@. Please try again." = "غير قادر على رفع الملف %@. يرجى المحاولة مرة أخرى.";
 "Unarchive" = "إلغاء الارشفة";
 "Unarchive Workspace" = "إلغاء أرشفة مساحة العمل";
-"Unarchive workspace for all" = "إلغاء أرشفة مساحة العمل للجميع";
+"Unarchive workspace for everyone" = "إلغاء أرشفة مساحة العمل للجميع";
 "Unarchive workspace for yourself" = "إلغاء أرشفة مساحة العمل لنفسك";
 "Unassigned" = "غير مخصص";
 "Unavailable" = "غير متوفر";
@@ -2538,10 +2562,12 @@
 "Updated title %@" = "تم تحديث لقب %@";
 "Upgrade" = "الترقية";
 "Upload Files" = "رفع الملفات";
+"Upload Progress" = "تقدم الرفع";
 "Upload failed" = "فشل الرفع";
 "Uploaded by" = "تم الرفع بواسطة";
 "Uploaded by %@" = "تم الرفع بواسطة %@";
 "Uploader" = "القائم بالرفع";
+"Uploaders" = "المرسلون";
 "Use" = "استخدم";
 "Use %@ or more characters" = "استخدم %@ أو أكثر من الأحرف";
 "Use 1 or more character" = "استخدم رمز 1 أو أكثر";
@@ -2609,6 +2635,7 @@
 "Waiting on Your Input" = "في انتظار المدخلات الخاصة بك";
 "Waiting on your input" = "في انتظار المُدخل الخاصة بك";
 "Waiting to Review" = "في انتظار المراجعة";
+"Waiting to upload" = "في انتظار التحميل";
 "Want to use Moxo for another business?" = "هل تريد استخدام Moxo لعمل آخر؟";
 "Warning" = "تحذير";
 "We are currently closed." = "المكتب مغلق حاليًا.";
@@ -2684,7 +2711,9 @@
 "Who needs to choose the meeting time?" = "من يحتاج إلى اختيار وقت الاجتماع؟";
 "Who needs to complete this?" = "من يحتاج لإكمال هذا؟";
 "Who needs to fill this form?" = "من يحتاج لملء هذا النموذج؟";
+"Who needs to review this?" = "من يحتاج إلى مراجعة هذا؟";
 "Who needs to sign?" = "من يحتاج التوقيع؟";
+"Who needs to upload this?" = "من يحتاج إلى رفع هذا؟";
 "Who needs to work on this?" = "من يحتاج للعمل على هذا؟";
 "Who will choose the meeting time?" = "من سيختار وقت الاجتماع؟";
 "Who will take action in this flow?" = "من سيتخذ إجراء في هذا التدفق؟";
@@ -2702,7 +2731,6 @@
 "Workspace Name" = "اسم مساحة العمل";
 "Workspace Name (Required)" = "اسم مساحة العمل (مطلوب)";
 "Workspace Owner" = "مالك مساحة العمل";
-"Workspace Templates" = "قوالب مساحة العمل";
 "Workspace Timed Out" = "انتهت مهلة مساحة العمل";
 "Workspace Title" = "عنوان مساحة العمل";
 "Workspace Type" = "نوع مساحة العمل";
@@ -2747,8 +2775,10 @@
 "You are viewing the presenter's screen now." = "أنت تشاهد شاشة مقدم العرض الآن.";
 "You can add up to %@ participants. Internal users can set their booking availability times under their profile page." = "يمكنك إضافة ما يصل إلى %@ مشاركين. يمكن للمستخدمين الداخليين تحديد أوقات توفرهم للحجز تحت صفحة ملفهم الشخصي.";
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "يمكنك إضافة ما يصل إلى %@ مشاركين. يمكن للمستخدمين الداخليين تعيين وقت إتاحتهم لحجز الوقت ضمن صفحة ملفهم الشخصي.";
+"You can assign multiple roles to fill out this form together. Once one assignee submits the form, it will be marked as completed." = "يمكنك تعيين أدوار متعددة لملء هذا النموذج معًا. بمجرد أن يقوم أحد المعينين بتقديم النموذج، سيتم تحديده على أنه مكتمل.";
 "You can customize your default welcome message in settings." = "يمكنك تخصيص رسالة الترحيب الافتراضية الخاصة بك في الإعدادات.";
 "You can find your archived workspaces on your account page under the profile tab." = "يمكنك العثور على مساحات العمل المؤرشفة الخاصة بك في صفحة حسابك تحت علامة التبويب الخاصة بالملف الشخصي.";
+"You can invite multiple assignees, but only one is required to complete it." = "يمكنك دعوة عدة معينين، لكن يكفي واحد فقط لإكمالها.";
 "You can leave a message, or cancel your request and try later." = "يمكنك ترك رسالة، أو إلغاء طلبك والمحاولة لاحقًا.";
 "You can not set overlapping hours. Please, adjust the periods before saving." = "لا يمكنك تعيين ساعات متداخلة. يرجى تعديل الفترات قبل الحفظ.";
 "You can only pin up to %@ workspaces." = "يمكنك تثبيت ما يصل إلى %@ مساحات عمل.";
@@ -2770,6 +2800,7 @@
 "You cannot pick a time in the past." = "لا يمكنك اختيار وقت في الماضي.";
 "You cannot start sharing while another participant is sharing." = "لا يمكنك بدء المشاركة أثناء المشاركة بواسطة مشارك آخر.";
 "You cannot undo this action." = "لا يمكنك التراجع عن هذا الإجراء.";
+"You currently aren’t involved in any workspaces with us." = "أنت لا تشارك حاليًا في أي مساحات عمل معنا.";
 "You declined to sign this document." = "لقد رفضت التوقيع على هذه الوثيقة.";
 "You do not have permission to edit this note." = "أنت لا تمتلك الإذن لتعديل هذه الملاحظة.";
 "You don't have an account on %@ yet" = "ليس لديك حساب على %@ بعد";
@@ -2820,6 +2851,7 @@
 "You're done!" = "انتهيت!";
 "You're logged in as %@" = "لقد قمت بتسجيل الدخول باعتبارك %@";
 "You've already added all of your contacts" = "لقد أضفت بالفعل كافة جهات الاتصال الخاصة بك";
+"You've already added the maximum number of actions. (%@/200)" = "لقد أضفت بالفعل العدد الأقصى من الإجراءات. (%@/200)";
 "YouTube" = "YouTube";
 "Your Feed" = "خلاصتك";
 "Your Flows" = "تدفقاتك";
@@ -2846,7 +2878,6 @@
 "Your mobile device is not setup for Email" = "لم يتم إعداد هاتفك المحمول للبريد الإلكتروني";
 "Your mobile device is not setup for SMS." = "لم يتم إعداد هاتفك المحمول لرسائل SMS.";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "منظمتك غير مكونة لاستخدام SAML SSO. يرجى تسجيل الدخول باستخدام الحساب للمتابعة.";
-"Your organization allows the following file types to be shared:\n%@." = "منظمتك تسمح بمشاركة أنواع الملفات التالية:\n%@.";
 "Your organization requires this security configuration." = "تتطلب منظمتك تهيئة الأمان بهذه الطريقة.";
 "Your password was successfully updated." = "تم تحديث كلمة المرور الخاصة بك بنجاح.";
 "Your portal is no longer active" = "لم تعد البوابة الخاصة بك نشطة";
@@ -2862,8 +2893,7 @@
 "You’re already assigned to this client and can find them in your contacts." = "لقد تم تعيينك بالفعل لهذا العميل ويمكنك العثور عليه في جهات الاتصال الخاصة بك.";
 "You’re already signed in" = "لقد سجلتَ الدخول بالفعل";
 "You’ve already added all of the bots." = "لقد قمت بالفعل بإضافة جميع البرامج الآلية.";
-"You’ve already added the maximum number of action steps. (%@/200)" = "لقد أضفت أقصى عدد من خطوات الإجراء.(%@/200)";
-"You’ve already added the maximum number of assignees. (15/15)" = "لقد أضفت أقصى عدد من المعينين. (15/15)";
+"You’ve already added the maximum number of assignees." = "لقد أضفت بالفعل العدد الأقصى من المعينين.";
 "You’ve already added this user as a viewer." = "لقد أضفت بالفعل هذا المستخدم كمشاهد.";
 "You’ve already added this user as an assignee." = "لقد أضفت بالفعل هذا المستخدم كمعين.";
 "You’ve already attached the maximum number of files. (50/50)" = "أرفقت بالفعل الحد الأقصى من عدد الملفات. (50/50)";

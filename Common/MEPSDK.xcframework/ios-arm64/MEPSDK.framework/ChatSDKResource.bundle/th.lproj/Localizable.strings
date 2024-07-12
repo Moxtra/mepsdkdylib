@@ -447,8 +447,10 @@
 "Acknowledgement due soon" = "การยอมรับที่ครบกำหนดเร็วๆนี้";
 "Acknowledgement due today" = "การตอบรับจะครบกำหนดวันนี้";
 "Acknowledgement overdue (%@)" = "การยืนยันล่าช้า (%@)";
+"Action Cannot Be Deleted" = "ไม่สามารถลบการดำเนินการได้";
 "Action In Progress" = "อยู่ระหว่างดำเนินการ";
 "Action Items" = "รายการที่ดำเนินการ";
+"Action Limit Reached" = "ถึงขีดจำกัดการดำเนินการแล้ว";
 "Action Needed By" = "การดำเนินการที่จำเป็นโดย";
 "Action Required" = "สิ่งที่ต้องดำเนินการ";
 "Action Updated" = "อัปเดตการดำเนินการแล้ว";
@@ -459,6 +461,7 @@
 "Action not started" = "การดำเนินการยังไม่เริ่มต้น";
 "Action overdue (%@)" = "การดำเนินการเกินกำหนด (%@)";
 "Action required from @%@" = "สิ่งที่ต้องดำเนินการจาก @%1$@";
+"Action skipped" = "ข้ามการดำเนินการ";
 "Action will be due in %@." = "การดำเนินการจะครบกำหนดใน %@";
 "Actions" = "การดำเนินการ";
 "Actions Reassigned" = "มอบหมายการดำเนินการใหม่แล้ว";
@@ -471,6 +474,7 @@
 "Add Annotation" = "เพิ่มคำอธิบายประกอบ";
 "Add Another Portal" = "เพิ่มพอร์ทัลอื่นๆ";
 "Add Assignee" = "เพิ่มผู้ได้รับมอบหมาย";
+"Add Assignees" = "เพิ่มผู้รับมอบหมาย";
 "Add Attachment" = "เพิ่มไฟล์แนบ";
 "Add Backup User" = "เพิ่มผู้ใช้สำรอง";
 "Add Bots" = "เพิ่มบอท";
@@ -492,7 +496,6 @@
 "Add Role" = "เพิ่มบทบาท";
 "Add Roles" = "เพิ่มบทบาท";
 "Add Signers" = "เพิ่มผู้ลงนาม";
-"Add Subject" = "เพิ่มหัวเรื่อง";
 "Add User" = "เพิ่มผู้ใช้";
 "Add Viewers" = "เพิ่มผู้ชมดู";
 "Add Viewers (Optional)" = "เพิ่มผู้ชม (ไม่บังคับ)";
@@ -500,7 +503,7 @@
 "Add a Role" = "เพิ่มบทบาท";
 "Add a To-Do" = "เพิ่มสิ่งที่ต้องทำ";
 "Add a To-Do Item" = "เพิ่มรายการสิ่งที่ต้องทำ";
-"Add a brief description to your workspace" = "เพิ่มคำอธิบายสั้น ๆ ให้กับพื้นที่ทำงานของคุณ";
+"Add a brief description for all workspace members to see" = "เพิ่มคำอธิบายสั้นๆ ให้สมาชิกในพื้นที่ทำงานทุกคนเห็น";
 "Add a role" = "เพิ่มบทบาท";
 "Add description" = "เพิ่มคำอธิบาย";
 "Add files" = "เพิ่มไฟล์";
@@ -547,6 +550,7 @@
 "All actions waiting for others to act on will appear here." = "การดำเนินการทั้งหมดที่รอให้ผู้อื่นดำเนินการจะปรากฏขึ้นที่นี่";
 "All actions waiting for you to act on will appear here." = "การดำเนินการทั้งหมดที่รอให้คุณดำเนินการจะปรากฏขึ้นที่นี่";
 "All actions were completed." = "การดำเนินการทั้งหมดเสร็จสิ้นแล้ว.";
+"All assignees can work together to fill out this form. Once one assignee submits the form, it will be completed." = "ผู้รับมอบหมายทุกคนสามารถร่วมมือกันเพื่อกรอกแบบฟอร์มนี้ได้ หากมีผู้รับมอบหมายคนใดคนหนึ่งส่งแบบฟอร์มเข้ามา งานนี้จะถือว่าเสร็จสิ้น";
 "All bookmarked items will appear here." = "รายการที่คุณบุ๊กมาร์กทั้งหมดจะปรากฏที่นี่";
 "All comments and other activity on this file will also be deleted." = "ความคิดเห็นและกิจกรรมอื่น ๆ ทั้งหมดบนไฟล์นี้จะถูกลบด้วย";
 "All completed actions will appear here." = "การดำเนินการที่เสร็จสิ้นทั้งหมดจะปรากฏขึ้นที่นี่";
@@ -566,6 +570,7 @@
 "Amount" = "จำนวน";
 "An Update Is Required" = "จำเป็นต้องอัปเดต";
 "An agent will respond when one is available." = "โปรดฝากข้อความไว้ด้านล่าง";
+"An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace." = "เส้นทางเลือกได้ถูกดำเนินการไปแล้ว %@ นี้จึงถูกข้ามไป ดังนั้นการเปลี่ยนแปลงของคุณจะไม่สามารถบันทึกได้ คุณจะถูกนำกลับไปยังพื้นที่ทำงาน.";
 "An external user with access to invited workspaces only." = "ผู้ใช้ภายนอกที่สามารถเข้าถึงพื้นที่ทำงานที่ได้รับการเชิญเท่านั้น";
 "An internal user with privileges to manage and create new workspaces in your portal." = "ผู้ใช้ภายในที่มีสิทธิ์ในการจัดการและสร้างพื้นที่ทำงานใหม่ในพอร์ทัลของคุณ.";
 "An update is available for this application. You'll need to update once you are connected to Wifi." = "การอัปเดตพร้อมใช้งานสำหรับแอปพลิเคชันนี้ คุณจำเป็นต้องทำการอัปเดตเมื่อคุณเชื่อมต่อกับ Wifi";
@@ -632,7 +637,6 @@
 "Are you sure you want to discard your changes?" = "คุณแน่ใจหรือว่าต้องการละทิ้งการเปลี่ยนแปลงของคุณ?";
 "Are you sure you want to disconnect?" = "คุณแน่ใจหรือว่าคุณต้องการยกเลิกการเชื่อมต่อ?";
 "Are you sure you want to leave? All changes will be lost." = "คุณแน่ใจหรือว่าต้องการออก? การเปลี่ยนแปลงทั้งหมดจะสูญหาย";
-"Are you sure you want to remove \"%@\" from this workspace?" = "คุณแน่ใจหรือไม่ว่าต้องการลบ \"%@\" ออกจากพื้นที่ทำงานนี้?";
 "Are you sure you want to remove this attachment?" = "คุณแน่ใจหรือว่าต้องการลบไฟล์แนบนี้ออก?";
 "Are you sure you want to remove “%@” from this workspace?" = "คุณแน่ใจหรือไม่ว่าต้องการลบ “%@” ออกจากพื้นที่ทำงานนี้?";
 "Are you sure you want to start the meeting before its scheduled time?" = "คุณแน่ใจหรือว่าคุณต้องการเริ่มการประชุมก่อนกำหนดการ?";
@@ -657,6 +661,7 @@
 "Assignee Options" = "ตัวเลือกผู้ได้รับมอบหมายแล้ว";
 "Assignees" = "ผู้รับมอบหมาย";
 "Assignees will start collaborating on your flow after signing up if they don’t have an account yet." = "ผู้รับมอบหมายจะเริ่มทำงานร่วมกันบนโฟลว์ของคุณหลังจากทำการลงชื่อสมัครใช้ หากพวกเขายังไม่มีบัญชี";
+"At least one action in the main flow is necessary to support an alternative branch." = "อย่างน้อยหนึ่งการดำเนินการในกระบวนการหลักจำเป็นต้องมีเพื่อรองรับสาขาทางเลือก.";
 "At least one field you added has not been filled. Please fill or remove the field(s) before finishing." = "ไม่ได้กรอกข้อมูลอย่างน้อยหนึ่งฟิลด์ที่คุณเพิ่ม โปรดกรอกหรือลบฟิลด์ออกก่อนดำเนินการให้เสร็จสิ้น";
 "Attachment Limit Reached" = "ถึงขีดจำกัดของไฟล์แนบแล้ว";
 "Attachments" = "ไฟล์แนบ";
@@ -766,6 +771,7 @@
 "Choose a time to reschedule" = "เลือกเวลาเพื่อทำกำหนดการใหม่";
 "Choose application" = "เลือกแอปพลิเคชัน";
 "Choose from Library" = "เลือกจากคลัง";
+"Choose how many assignees are required to upload a file for completion." = "เลือกจำนวนผู้รับมอบหมายที่ต้องอัปโหลดไฟล์เพื่อให้งานเสร็จสมบูรณ์";
 "Choose how many assignees must acknowledge this acknowledgement to complete it." = "เลือกจำนวนผู้ได้รับมอบหมายที่ต้องรับทราบการรับทราบนี้เพื่อดำเนินการให้เสร็จสิ้น";
 "Choose how many assignees must approve this approval to complete it." = "เลือกจำนวนผู้รับมอบหมายที่ต้องอนุมัติการอนุมัตินี้จึงจะเสร็จสมบูรณ์";
 "Choose how many assignees must finish this to-do to complete it." = "เลือกว่าผู้รับมอบหมายคนใดคนหนึ่งต้องทำงานนี้เสร็จเพื่อที่จะเสร็จสิ้นมัน";
@@ -1092,7 +1098,6 @@
 "Edit your filters to see results" = "แก้ไขตัวกรองของคุณเพื่อดูผลลัพธ์";
 "Editable by..." = "แก้ไขได้โดย...";
 "Edited" = "แก้ไขแล้ว";
-"Editing Controls" = "การควบคุมการแก้ไข";
 "Editing of this To-Do was locked by internal users." = "การแก้ไขสิ่งที่ต้องทำนี้ถูกล็อกโดยผู้ใช้ภายใน";
 "Editor" = "ผู้แก้ไข";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "แนะนำลูกค้าใหม่อย่างมีประสิทธิภาพผ่านกระบวนการต้อนรับหลายขั้นตอนที่รวดเร็ว";
@@ -1178,6 +1183,12 @@
 "File Info" = "ข้อมูลไฟล์";
 "File Request" = "คำขอไฟล์";
 "File Request assigned to %@" = "มอบหมายคำขอไฟล์ให้กับ %@ แล้ว";
+"File Request assigned to %@ and %@ other users" = "คำขอไฟล์ได้รับมอบหมายให้กับ %1$@ และอีก %2$@ ผู้ใช้งาน";
+"File Request assigned to %@ and %@ other users." = "คำขอไฟล์ได้รับมอบหมายให้ %1$@ และอีก %2$@ ผู้ใช้งาน";
+"File Request assigned to %@ and %@ other users: %@" = "คำขอไฟล์ที่ได้รับมอบหมายให้ %1$@ และผู้ใช้อีก %2$@ คน: %3$@";
+"File Request assigned to %@ and one other user" = "คำขอไฟล์ได้รับมอบหมายให้ %@ และผู้ใช้อีกหนึ่งคน";
+"File Request assigned to %@ and one other user." = "คำขอไฟล์ได้รับมอบหมายให้ %@ และผู้ใช้อีกหนึ่งคน.";
+"File Request assigned to %@ and one other user: %@" = "คำขอไฟล์ได้รับมอบหมายให้ %1$@ และผู้ใช้อีกหนึ่งคน: %2$@";
 "File Request assigned to %@." = "มอบหมายคำขอไฟล์ให้กับ %@ แล้ว";
 "File Request assigned to %@: %@" = "มอบหมายคำขอไฟล์ให้กับ %1$@ แล้ว: %2$@";
 "File Request assigned to you" = "มอบหมายคำขอไฟล์ให้กับคุณแล้ว";
@@ -1194,8 +1205,10 @@
 "File Request ready for review: %@" = "คำขอไฟล์พร้อมให้ตรวจทานแล้ว: %@";
 "File Request reopened" = "เปิดคำขอไฟล์ใหม่";
 "File Reviewer" = "ผู้ตรวจสอบไฟล์";
+"File Reviewers" = "ผู้ตรวจสอบไฟล์";
 "File Size Exceeded" = "ขนาดไฟล์เกินที่กำหนด";
 "File doesn't exist." = "ไม่มีไฟล์นี้อยู่";
+"File sharing permissions are restricted to %@ formats." = "การอนุญาตในการแชร์ไฟล์ถูกจำกัดเฉพาะรูปแบบ %@ เท่านั้น";
 "File size limit reached (%@)" = "ขนาดไฟล์ (%@) ถึงขีดจำกัดแล้ว";
 "File type unsupported" = "ไม่รองรับประเภทไฟล์";
 "File upload failed. Please try again." = "การอัปโหลดไฟล์ล้มเหลว โปรดลองอีกครั้ง";
@@ -1214,7 +1227,6 @@
 "Finish setting up your first workspace" = "การตั้งค่าพื้นที่ทำงานแรกของคุณเสร็จสิ้น";
 "Fix Perspective" = "แก้ไขมุมมอง";
 "Flow" = "โฟลว์";
-"Flow Template Library" = "ห้องสมุดเทมเพลตโฟลว์";
 "Flow Templates" = "แผ่นแบบโฟลว์";
 "Flow Workspace" = "พื้นที่ทำงานตามโฟลว์";
 "Flow Workspace transferred to you" = "ถ่ายโอนพื้นที่ทำงานตามโฟลว์ให้คุณแล้ว";
@@ -1235,8 +1247,14 @@
 "Forgot your password?" = "ลืมรหัสผ่านของคุณ?";
 "Form" = "แบบฟอร์ม";
 "Form Preview" = "ดูตัวอย่างแบบฟอร์ม";
-"Form Responses" = "การตอบกลับแบบฟอร์ม";
+"Form Response" = "การตอบกลับแบบฟอร์ม";
 "Form assigned to %@" = "แบบฟอร์มที่ถูกมอบหมายให้กับ %@";
+"Form assigned to %@ and %@ other users" = "แบบฟอร์มได้รับมอบหมายให้ %1$@ และอีก %2$@ ผู้ใช้งาน";
+"Form assigned to %@ and %@ other users." = "แบบฟอร์มได้รับมอบหมายให้ %1$@ และอีก %2$@ ผู้ใช้งาน";
+"Form assigned to %@ and %@ other users: %@" = "แบบฟอร์มที่ได้รับมอบหมายให้ %1$@ และอีก %2$@ ผู้ใช้: %3$@";
+"Form assigned to %@ and one other user" = "แบบฟอร์มได้รับมอบหมายให้ %@ และผู้ใช้อีกหนึ่งคน";
+"Form assigned to %@ and one other user." = "แบบฟอร์มได้รับมอบหมายให้ %@ และผู้ใช้อีกหนึ่งคน.";
+"Form assigned to %@ and one other user: %@" = "แบบฟอร์มที่ได้รับมอบหมายให้ %1$@ และผู้ใช้อีกหนึ่งคน: %2$@";
 "Form assigned to %@." = "แบบฟอร์มที่ถูกมอบหมายให้กับ %@";
 "Form assigned to %@: %@" = "แบบฟอร์มที่ถูกมอบหมายให้กับ %1$@: %2$@";
 "Form assigned to you" = "แบบฟอร์มที่ถูกมอบหมายให้กับคุณ";
@@ -1714,6 +1732,7 @@
 "Only one assignee is required to acknowledge this acknowledgement to complete it." = "ผู้ได้รับมอบหมายเพียงคนเดียวเท่านั้นที่ต้องรับทราบการรับทราบนี้เพื่อดำเนินการให้เสร็จสิ้น";
 "Only one assignee is required to approve this approval to complete it." = "ผู้ได้รับมอบหมายเพียงคนเดียวเท่านั้นที่ต้องรับทราบการรับทราบนี้เพื่อดำเนินการให้เสร็จสิ้น";
 "Only one assignee is required to finish this to-do to complete it." = "ต้องการผู้รับมอบหมายเพียงคนเดียวเพื่อทำงานนี้ให้เสร็จสิ้น";
+"Only one assignee is required to upload files for completion." = "ต้องการผู้รับมอบหมายเพียงคนเดียวในการอัปโหลดไฟล์เพื่อให้เสร็จสมบูรณ์";
 "Only participants can view meeting details." = "ผู้เข้าร่วมเท่านั้นที่สามารถดูรายละเอียดการประชุมได้";
 "Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "เฉพาะชื่อเรื่อง, คำอธิบาย, และวันที่ครบกำหนดในการดำเนินการ %1$@ สามารถแก้ไขได้ หากคุณต้องการแก้ไขผู้รับมอบหมายหรืออัปเดตรายละเอียดอื่นๆ กรุณาสร้างการดำเนินการ %2$@ ใหม่";
 "Only the workspace owner can adjust link security" = "เฉพาะเจ้าของพื้นที่ทำงานเท่านั้นที่สามารถปรับความปลอดภัยของลิงค์";
@@ -1968,6 +1987,7 @@
 "Review DocuSign Details" = "ตรวจสอบรายละเอียด DocuSign";
 "Review E-Sign Details" = "ตรวจทานรายละเอียดลายเซ็นอิเล็กทรอนิกส์";
 "Review Now" = "รีวิวตอนนี้";
+"Review Progress" = "ตรวจสอบความคืบหน้า";
 "Review Submissions" = "ตรวจทานการส่ง";
 "Review the following attachments to confirm this acknowledgement." = "ตรวจสอบไฟล์แนบดังต่อไปนี้เพื่อยืนยันการตอบรับนี้";
 "Role" = "บทบาท";
@@ -2184,7 +2204,6 @@
 "Step Details" = "รายละเอียดขั้นตอน";
 "Step Details (Step %@)" = "รายละเอียดขั้นตอน (ขั้นตอนที่ %@)";
 "Step In Progress" = "ขั้นตอนอยู่ระหว่างดำเนินการ";
-"Step Limit Reached" = "ถึงขีดจำกัดขั้นตอนแล้ว";
 "Step Removed" = "ลบขั้นตอนออกแล้ว";
 "Step edited" = "แก้ไขขั้นตอนแล้ว";
 "Stop Co-Browsing" = "หยุดการเรียกดูร่วมกัน";
@@ -2200,7 +2219,7 @@
 "Submitted by %@" = "ส่งแล้วโดย %@";
 "Submitted by %@ (You)" = "ส่งแล้วโดย %@ (คุณ)";
 "Submitted on %@" = "ส่งแล้วเมื่อ %@";
-"Submitted responses will show here." = "การตอบกลับที่ส่งจะแสดงที่นี่";
+"The submitted response will be displayed here." = "คำตอบที่ส่งจะแสดงที่นี่";
 "Successfully Switched" = "สลับสำเร็จแล้ว";
 "Successfully connected with %@!" = "เชื่อมต่อกับ %@ สำเร็จแล้ว!";
 "Sunday" = "วันอาทิตย์";
@@ -2276,6 +2295,7 @@
 "The operation did not complete successfully: %@" = "การดำเนินการไม่สำเร็จ: %@";
 "The person who will submit the required files." = "ผู้ที่จะส่งไฟล์ที่กำหนดไว้";
 "The person who will verify and approve the submitted files." = "ผู้ที่จะตรวจสอบยืนยันและอนุมัติไฟล์ที่ส่งมา";
+"The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "บุคคลที่จะตรวจสอบและอนุมัติไฟล์ที่ส่งมา คุณสามารถเชิญผู้ตรวจสอบหลายคน การดำเนินการจะเสร็จสิ้นเมื่อมีผู้ตรวจสอบไฟล์คนใดคนหนึ่งยืนยัน";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "ลิงก์ก่อนหน้านี้จะหมดอายุ ใครก็ตามที่มีลิงก์หมดอายุจะไม่สามารถใช้ลิงก์นี้เพื่อเข้าร่วมแพลตฟอร์มได้";
 "The selected items will be added to %@ in %@." = "รายการที่เลือกจะถูกเพิ่มไปยัง %1$@ ใน %2$@";
 "The selected items will be added to %@." = "รายการที่เลือกจะถูกเพิ่มใน %@";
@@ -2299,9 +2319,10 @@
 "They will not archive for other members and will automatically un-archived after new activity." = "ซึ่งจะไม่เก็บถาวรสำหรับสมาชิกคนอื่นๆ และจะยกเลิกการเก็บถาวรโดยอัตโนมัติหลังจากกิจกรรมใหม่";
 "They will see the flow cover page with basic details about the flow and your welcome message." = "พวกเขาจะเห็นหน้าปกโฟลว์พร้อมรายละเอียดพื้นฐานเกี่ยวกับโฟลว์และข้อความต้อนรับของคุณ";
 "Things like statements, reports, invoices, etc. created by the org are sent to these inboxes." = "จะมีการส่งรายการต่างๆ เช่น ใบแจ้งยอด, รายงาน, ใบแจ้งหนี้ ฯลฯ ที่องค์กรสร้างขึ้นไปยังกล่องจดหมายเหล่านี้";
-"This %@ was already completed or deleted while you were editing and changes can not be saved. You will be directed back to the workspace." = "%@ นี้ดำเนินการเสร็จสิ้นแล้วหรือถูกลบขณะที่คุณกำลังแก้ไขและจะบันทึกการเปลี่ยนแปลงไม่ได้ คุณจะถูกนำกลับไปที่พื้นที่ทำงาน";
+"This %@ has been completed or deleted, so your changes cannot be saved. You’ll be directed back to the workspace." = "%@ นี้ได้ถูกเสร็จสิ้นหรือถูกลบไปแล้ว ดังนั้นการเปลี่ยนแปลงของคุณจะไม่สามารถบันทึกได้ คุณจะถูกนำกลับไปยังพื้นที่ทำงาน.";
 "This %@ was already finished by the assignee and it can no longer be deleted." = "%@ นี้ดำเนินการเสร็จสิ้นแล้วโดยผู้โอน และจะลบไม่ได้อีก";
 "This %@ was already finished by the assignee and it can no longer be removed. " = "%@ นี้ดำเนินการเสร็จสิ้นแล้วโดยผู้โอน และจะลบไม่ได้อีก";
+"This %@ was skipped. Please review the flow." = "%@ นี้ถูกข้ามไป โปรดตรวจสอบโฟลว์.";
 "This Meeting" = "การประชุมครั้งนี้";
 "This To-Do can not support multiple assignees. To add more assignees, please create a brand new To-Do." = "งานนี้ไม่สามารถสนับสนุนการมอบหมายให้หลายคนได้ หากต้องการเพิ่มผู้รับมอบหมายกรุณาสร้างงานใหม่";
 "This Will End Your Current Meeting" = "การดำเนินการนี้จะทำให้การประชุมปัจจุบันของคุณสิ้นสุดลง";
@@ -2309,8 +2330,10 @@
 "This action cannot be undone" = "การดำเนินการนี้ไม่สามารถยกเลิกได้";
 "This action cannot be undone." = "การดำเนินการนี้ไม่สามารถยกเลิกได้";
 "This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost." = "การดำเนินการนี้ได้เริ่มต้นขึ้นแล้ว และผู้โอนสามารถตรวจทานและดำเนินการตามขั้นตอนได้ขณะที่คุณกำลังแก้ไข ความคืบหน้าใดๆ ที่ดำเนินการเสร็จสิ้นจะสูญหาย";
+"This action has been completed. You will be directed back to the workspace." = "การดำเนินการนี้เสร็จสิ้นแล้ว คุณจะถูกนำกลับไปยังพื้นที่ทำงาน.";
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "การดำเนินการนี้ถูกลบไปแล้วและคุณไม่จำเป็นต้องดำเนินการๆ อีก คุณจะถูกนำกลับไปที่พื้นที่ทำงาน";
 "This action has been updated. Please review the details again before taking action. You will be directed back to the workspace." = "อัปเดตการดำเนินการนี้แล้ว โปรดตรวจทานรายละเอียดอีกครั้งก่อนที่จะดำเนินการต่อ คุณจะถูกนำกลับไปที่พื้นที่ทำงาน";
+"This action will be completed once any file reviewer confirms." = "การดำเนินการนี้จะเสร็จสิ้นเมื่อผู้ตรวจสอบไฟล์ยืนยันแล้ว";
 "This and Following Meetings" = "การประชุมครั้งนี้และหลังจากนั้น";
 "This content may have been deleted or otherwise removed." = "เนื้อหานี้อาจถูกลบหรือถูกลบออก";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "เอกสารนี้มีฟิลด์ให้กรอก คุณต้องการเพิ่มและมอบหมายฟิลด์เหล่านี้ให้กับใครบางคนโดยอัตโนมัติหรือไม่?";
@@ -2514,10 +2537,11 @@
 "Unable to share your screen while co-browsing." = "ไม่สามารถแบ่งปันหน้าจอของคุณขณะเรียกใช้ร่วมกันได้";
 "Unable to start the meeting. Another meeting is in progress." = "ไม่สามารถเริ่มการประชุมได้ กำลังดำเนินการประชุมอื่นอยู่";
 "Unable to start this Flow Workspace because it exceeds the member limit set by your organization." = "ไม่สามารถเริ่มพื้นที่ทำงานตามโฟลว์นี้ได้เนื่องจากเกินขีดจำกัดสมาชิกที่องค์กรของคุณกำหนดไว้แล้ว";
+"Unable to upload files" = "ไม่สามารถอัปโหลดไฟล์ได้";
 "Unable to upload the file %@. Please try again." = "ไม่สามารถอัปโหลดไฟล์ %@ โปรดลองอีกครั้ง";
 "Unarchive" = "ยกเลิกการเก็บถาวร";
 "Unarchive Workspace" = "เปิดเอกสารทำงานที่ถูกบันทึกไว้";
-"Unarchive workspace for all" = "ยกเลิกการเก็บถาวรพื้นที่ทำงานสำหรับทุกคน";
+"Unarchive workspace for everyone" = "ยกเลิกการเก็บถาวรพื้นที่ทำงานสำหรับทุกคน";
 "Unarchive workspace for yourself" = "เปิดพื้นที่ทำงานนี้สำหรับตัวคุณเอง";
 "Unassigned" = "ยกเลิกการมอบหมายแล้ว";
 "Unavailable" = "ไม่พร้อมใช้งาน";
@@ -2543,10 +2567,12 @@
 "Updated title %@" = "ตำแหน่ง %@ ที่ปรับปรุง";
 "Upgrade" = "อัปเกรด";
 "Upload Files" = "อัปโหลดไฟล์";
+"Upload Progress" = "ความคืบหน้าในการอัปโหลด";
 "Upload failed" = "การอัปโหลดล้มเหลว";
 "Uploaded by" = "อัปโหลดโดย";
 "Uploaded by %@" = "อัปโหลดโดย %@";
 "Uploader" = "อัปโหลด";
+"Uploaders" = "ผู้อัปโหลด";
 "Use" = "ใช้";
 "Use %@ or more characters" = "ใช้อักขระ %@ ตัวขึ้นไป";
 "Use 1 or more character" = "ใช้ 1 อักขระขึ้นไป";
@@ -2614,6 +2640,7 @@
 "Waiting on Your Input" = "กำลังรอการป้อนข้อมูลของคุณ";
 "Waiting on your input" = "กำลังรอข้อมูลป้อนเข้าจากคุณ";
 "Waiting to Review" = "กำลังรอให้ตรวจทาน";
+"Waiting to upload" = "กำลังรอการอัปโหลด";
 "Want to use Moxo for another business?" = "ต้องการใช้ Moxo สำหรับธุรกิจอื่นหรือไม่?";
 "Warning" = "คำเตือน";
 "We are currently closed." = "ขณะนี้เราปิดให้บริการ";
@@ -2689,7 +2716,9 @@
 "Who needs to choose the meeting time?" = "มีใครบ้างที่จำเป็นต้องเลือกเวลาประชุม?";
 "Who needs to complete this?" = "ใครจำเป็นต้องทำขั้นตอนนี้ให้เสร็จสมบูรณ์?";
 "Who needs to fill this form?" = "มีใครบ้างที่ต้องกรอกแบบฟอร์มนี้?";
+"Who needs to review this?" = "ใครต้องทบทวนสิ่งนี้?";
 "Who needs to sign?" = "ใครบ้างที่ต้องลงนาม?";
+"Who needs to upload this?" = "ใครต้องอัปโหลดสิ่งนี้?";
 "Who needs to work on this?" = "ใครต้องการทำงานนี้?";
 "Who will choose the meeting time?" = "ใครจะเป็นคนเลือกเวลาการประชุม?";
 "Who will take action in this flow?" = "ใครจะเป็นผู้ลงมือดำเนินการในโฟลว์นี้?";
@@ -2707,7 +2736,6 @@
 "Workspace Name" = "ชื่อพื้นที่ทำงาน";
 "Workspace Name (Required)" = "ชื่อพื้นที่ทำงาน (ต้องระบุ)";
 "Workspace Owner" = "เจ้าของพื้นที่ทำงาน";
-"Workspace Templates" = "แม่แบบพื้นที่ทำงาน";
 "Workspace Timed Out" = "พื้นที่ทำงานหมดเวลาแล้ว";
 "Workspace Title" = "ชื่อพื้นที่ทำงาน";
 "Workspace Type" = "ประเภทของพื้นที่ทำงาน";
@@ -2752,8 +2780,10 @@
 "You are viewing the presenter's screen now." = "คุณกำลังดูหน้าจอของผู้นำเสนอในตอนนี้";
 "You can add up to %@ participants. Internal users can set their booking availability times under their profile page." = "คุณสามารถเพิ่มผู้เข้าร่วมได้ถึง %@ คน ผู้ใช้ภายในสามารถตั้งเวลาที่พร้อมจองได้ในหน้าโปรไฟล์ของตนเอง";
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "คุณสามารถเพิ่มผู้เข้าร่วมได้สูงสุด %@ คน ผู้ใช้ภายในสามารถตั้งค่าความพร้อมทำงานในการจองเวลาได้ที่หน้าโปรไฟล์ของตน";
+"You can assign multiple roles to fill out this form together. Once one assignee submits the form, it will be marked as completed." = "คุณสามารถมอบหมายบทบาทหลายๆ บทให้กรอกแบบฟอร์มนี้ร่วมกันได้ หากมีผู้รับมอบหมายคนใดคนหนึ่งส่งแบบฟอร์มแล้ว มันจะถูกทำเครื่องหมายว่าเสร็จสิ้นแล้ว";
 "You can customize your default welcome message in settings." = "คุณสามารถปรับแต่งข้อความต้อนรับเริ่มต้นได้ในการตั้งค่า";
 "You can find your archived workspaces on your account page under the profile tab." = "คุณสามารถค้นหาพื้นที่ทำงานที่คุณเก็บถาวรไว้ในหน้าบัญชีของคุณ ภายใต้แท็บโปรไฟล์";
+"You can invite multiple assignees, but only one is required to complete it." = "คุณสามารถเชิญผู้รับมอบหมายหลายคน แต่ต้องการเพียงคนเดียวเพื่อทำให้งานนี้เสร็จสิ้น";
 "You can leave a message, or cancel your request and try later." = "คุณสามารถฝากข้อความ หรือยกเลิกคำขอแล้วลองอีกครั้งในภายหลัง";
 "You can not set overlapping hours. Please, adjust the periods before saving." = "คุณไม่สามารถตั้งเวลาทับซ้อนกันได้ โปรดปรับระยะเวลาก่อนทำการบันทึก";
 "You can only pin up to %@ workspaces." = "คุณสามารถปักหมุดพื้นที่ทำงานได้สูงสุด %@ แห่งเท่านั้น";
@@ -2775,6 +2805,7 @@
 "You cannot pick a time in the past." = "คุณเลือกเวลาในอดีตไม่ได้";
 "You cannot start sharing while another participant is sharing." = "คุณไม่สามารถเริ่มการแบ่งปันได้ขณะที่ผู้เข้าร่วมคนอื่นกำลังแบ่งปันอยู่";
 "You cannot undo this action." = "คุณเลิกทำการดำเนินการนี้ไม่ได้";
+"You currently aren’t involved in any workspaces with us." = "คุณยังไม่มีส่วนร่วมในพื้นที่ทำงานใด ๆ กับเราในขณะนี้";
 "You declined to sign this document." = "คุณปฏิเสธที่จะลงนามในเอกสารฉบับนี้แล้ว";
 "You do not have permission to edit this note." = "คุณไม่มีสิทธิเข้าถึงเพื่อแก้ไขบันทึกนี้";
 "You don't have an account on %@ yet" = "คุณยังไม่มีบัญชีบน %@";
@@ -2826,6 +2857,7 @@
 "You're done!" = "คุณทำเสร็จแล้ว!";
 "You're logged in as %@" = "คุณเข้าสู่ระบบด้วย %@";
 "You've already added all of your contacts" = "คุณได้เพิ่มรายชื่อผู้ติดต่อของคุณทั้งหมดเรียบร้อยแล้ว";
+"You've already added the maximum number of actions. (%@/200)" = "คุณได้เพิ่มจำนวนการดำเนินการสูงสุดแล้ว (%@/200)";
 "YouTube" = "YouTube";
 "Your Feed" = "ฟีดของคุณ";
 "Your Flows" = "โฟลว์ของคุณ";
@@ -2852,7 +2884,6 @@
 "Your mobile device is not setup for Email" = "อุปกรณ์เคลื่อนที่ของคุณไม่ได้ตั้งค่าไว้สำหรับอีเมล";
 "Your mobile device is not setup for SMS." = "อุปกรณ์เคลื่อนที่ของคุณไม่ได้ตั้งค่าไว้สำหรับ SMS";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "องค์กรของคุณไม่ได้ตั้งค่าให้ใช้ SAML SSO กรุณาเข้าสู่ระบบด้วยบัญชีเพื่อดำเนินการต่อ";
-"Your organization allows the following file types to be shared:\n%@." = "องค์กรของคุณอนุญาตให้แบ่งปันไฟล์ประเภทต่อไปนี้:\n%@.";
 "Your organization requires this security configuration." = "องค์กรของคุณกำหนดให้ต้องทำการกำหนดค่าการรักษาความปลอดภัยนี้";
 "Your password was successfully updated." = "อัปเดตรหัสผ่านของคุณสำเร็จแล้ว";
 "Your portal is no longer active" = "พอร์ทัลของคุณไม่สามารถเข้าใช้ได้อีก";
@@ -2868,8 +2899,7 @@
 "You’re already assigned to this client and can find them in your contacts." = "คุณได้ถูกมอบหมายให้กับลูกค้ารายนี้เรียบร้อยแล้วและสามารถค้นหาได้ในรายชื่อผู้ติดต่อของคุณ";
 "You’re already signed in" = "คุณเข้าสู่ระบบอยู่แล้ว";
 "You’ve already added all of the bots." = "คุณได้เพิ่มบอททั้งหมดแล้ว";
-"You’ve already added the maximum number of action steps. (%@/200)" = "คุณได้เพิ่มขั้นตอนการดำเนินการครบจำนวนสูงสุดเรียบร้อยแล้ว (%@/200)";
-"You’ve already added the maximum number of assignees. (15/15)" = "คุณได้เพิ่มผู้ได้รับมอบหมายครบจำนวนสูงสุดเรียบร้อยแล้ว (15/15)";
+"You’ve already added the maximum number of assignees." = "คุณได้เพิ่มผู้รับมอบหมายสูงสุดที่กำหนดไว้แล้ว";
 "You’ve already added this user as a viewer." = "คุณได้เพิ่มผู้ใช้งานรายนี้เป็นผู้ชมเรียบร้อยแล้ว";
 "You’ve already added this user as an assignee." = "คุณได้เพิ่มผู้ใช้งานรายนี้เป็นผู้รับมอบหมายเรียบร้อยแล้ว";
 "You’ve already attached the maximum number of files. (50/50)" = "คุณได้แนบไฟล์ครบจำนวนสูงสุดเรียบร้อยแล้ว (50/50)";

@@ -188,6 +188,9 @@
 "%@ added a Launch Web App" = "%@ added a Launch Web App";
 
 /*  No comment provided by engineer.  */
+"%@ added a Lunch Web App" = "%@ added a Lunch Web App";
+
+/*  No comment provided by engineer.  */
 "%@ added a Time Booking" = "%@ added a Time Booking";
 
 /*  No comment provided by engineer.  */
@@ -1397,11 +1400,17 @@
 /*  No comment provided by engineer.  */
 "Acknowledgement overdue (%@)" = "Acknowledgement overdue (%@)";
 
+/*  title  */
+"Action Cannot Be Deleted" = "Action Cannot Be Deleted";
+
 /*  No comment provided by engineer.  */
 "Action In Progress" = "Action In Progress";
 
 /*  No comment provided by engineer.  */
 "Action Items" = "Action Items";
+
+/*  title  */
+"Action Limit Reached" = "Action Limit Reached";
 
 /*  No comment provided by engineer.  */
 "Action Needed By" = "Action Needed By";
@@ -1432,6 +1441,9 @@
 
 /*  No comment provided by engineer.  */
 "Action required from @%@" = "Action required from @%1$@ ";
+
+/*  No comment provided by engineer.  */
+"Action skipped" = "Action skipped";
 
 /*  No comment provided by engineer.  */
 "Action will be due in %@." = "Action will be due in %@.";
@@ -1470,6 +1482,9 @@
 
 /*  No comment provided by engineer.  */
 "Add Assignee" = "Add Assignee";
+
+/*  No comment provided by engineer.  */
+"Add Assignees" = "Add Assignees";
 
 /*  No comment provided by engineer.  */
 "Add Attachment" = "Add Attachment";
@@ -1535,9 +1550,6 @@
 "Add Signers" = "Add Signers";
 
 /*  No comment provided by engineer.  */
-"Add Subject" = "Add Subject";
-
-/*  No comment provided by engineer.  */
 "Add User" = "Add User";
 
 /*  No comment provided by engineer.  */
@@ -1559,7 +1571,7 @@
 "Add a To-Do Item" = "Add a To-Do Item";
 
 /*  No comment provided by engineer.  */
-"Add a brief description to your workspace" = "Add a brief description to your workspace";
+"Add a brief description for all workspace members to see" = "Add a brief description for all workspace members to see";
 
 /*  No comment provided by engineer.  */
 "Add a role" = "Add a role";
@@ -1700,6 +1712,9 @@
 "All actions were completed." = "All actions were completed.";
 
 /*  No comment provided by engineer.  */
+"All assignees can work together to fill out this form. Once one assignee submits the form, it will be completed." = "All assignees can work together to fill out this form. Once one assignee submits the form, it will be completed.";
+
+/*  No comment provided by engineer.  */
 "All bookmarked items will appear here." = "All bookmarked items will appear here.";
 
 /*  confirm
@@ -1756,6 +1771,9 @@
 
 /*  No comment provided by engineer.  */
 "An agent will respond when one is available." = "Please leave any messages below.";
+
+/*  No comment provided by engineer.  */
+"An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace." = "An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace.";
 
 /*  No comment provided by engineer.  */
 "An external user with access to invited workspaces only." = "An external user with access to invited workspaces only.";
@@ -1957,9 +1975,6 @@
 "Are you sure you want to leave? All changes will be lost." = "Are you sure you want to leave? All changes will be lost.";
 
 /*  No comment provided by engineer.  */
-"Are you sure you want to remove \"%@\" from this workspace?" = "Are you sure you want to remove \"%@\" from this workspace?";
-
-/*  No comment provided by engineer.  */
 "Are you sure you want to remove this attachment?" = "Are you sure you want to remove this attachment?";
 
 /*  No comment provided by engineer.  */
@@ -2031,6 +2046,9 @@
 
 /*  No comment provided by engineer.  */
 "Assignees will start collaborating on your flow after signing up if they don’t have an account yet." = "Assignees will start collaborating on your flow after signing up if they don’t have an account yet.";
+
+/*  No comment provided by engineer.  */
+"At least one action in the main flow is necessary to support an alternative branch." = "At least one action in the main flow is necessary to support an alternative branch.";
 
 /*  message  */
 "At least one field you added has not been filled. Please fill or remove the field(s) before finishing." = "At least one field you added has not been filled. Please fill or remove the field(s) before finishing.";
@@ -2362,6 +2380,9 @@
 
 /*  No comment provided by engineer.  */
 "Choose from Library" = "Choose from Library";
+
+/*  No comment provided by engineer.  */
+"Choose how many assignees are required to upload a file for completion." = "Choose how many assignees are required to upload a file for completion.";
 
 /*  No comment provided by engineer.  */
 "Choose how many assignees must acknowledge this acknowledgement to complete it." = "Choose how many assignees must acknowledge this acknowledgement to complete it.";
@@ -3362,9 +3383,6 @@
 "Edited" = "Edited";
 
 /*  No comment provided by engineer.  */
-"Editing Controls" = "Editing Controls";
-
-/*  No comment provided by engineer.  */
 "Editing of this To-Do was locked by internal users." = "Editing of this To-Do was locked by internal users.";
 
 /*  sub title  */
@@ -3623,6 +3641,24 @@
 "File Request assigned to %@" = "File Request assigned to %@";
 
 /*  No comment provided by engineer.  */
+"File Request assigned to %@ and %@ other users" = "File Request assigned to %1$@ and %2$@ other users";
+
+/*  No comment provided by engineer.  */
+"File Request assigned to %@ and %@ other users." = "File Request assigned to %1$@ and %2$@ other users.";
+
+/*  No comment provided by engineer.  */
+"File Request assigned to %@ and %@ other users: %@" = "File Request assigned to %1$@ and %2$@ other users: %3$@";
+
+/*  No comment provided by engineer.  */
+"File Request assigned to %@ and one other user" = "File Request assigned to %@ and one other user";
+
+/*  No comment provided by engineer.  */
+"File Request assigned to %@ and one other user." = "File Request assigned to %@ and one other user.";
+
+/*  No comment provided by engineer.  */
+"File Request assigned to %@ and one other user: %@" = "File Request assigned to %1$@ and one other user: %2$@";
+
+/*  No comment provided by engineer.  */
 "File Request assigned to %@." = "File Request assigned to %@.";
 
 /*  No comment provided by engineer.  */
@@ -3671,10 +3707,16 @@
 "File Reviewer" = "File Reviewer";
 
 /*  No comment provided by engineer.  */
+"File Reviewers" = "File Reviewers";
+
+/*  No comment provided by engineer.  */
 "File Size Exceeded" = "File Size Exceeded";
 
 /*  message  */
 "File doesn't exist." = "File doesn't exist.";
+
+/*  No comment provided by engineer.  */
+"File sharing permissions are restricted to %@ formats." = "File sharing permissions are restricted to %@ formats.";
 
 /*  No comment provided by engineer.  */
 "File size limit reached (%@)" = "File size limit reached (%@)";
@@ -3729,9 +3771,6 @@
 
 /*  No comment provided by engineer.  */
 "Flow" = "Flow";
-
-/*  No comment provided by engineer.  */
-"Flow Template Library" = "Flow Template Library";
 
 /*  No comment provided by engineer.  */
 "Flow Templates" = "Flow Templates";
@@ -3794,10 +3833,28 @@
 "Form Preview" = "Form Preview";
 
 /*  No comment provided by engineer.  */
-"Form Responses" = "Form Responses";
+"Form Response" = "Form Response";
 
 /*  No comment provided by engineer.  */
 "Form assigned to %@" = "Form assigned to %@";
+
+/*  No comment provided by engineer.  */
+"Form assigned to %@ and %@ other users" = "Form assigned to %1$@ and %2$@ other users";
+
+/*  No comment provided by engineer.  */
+"Form assigned to %@ and %@ other users." = "Form assigned to %1$@ and %2$@ other users.";
+
+/*  No comment provided by engineer.  */
+"Form assigned to %@ and %@ other users: %@" = "Form assigned to %1$@ and %2$@ other users: %3$@";
+
+/*  No comment provided by engineer.  */
+"Form assigned to %@ and one other user" = "Form assigned to %@ and one other user";
+
+/*  No comment provided by engineer.  */
+"Form assigned to %@ and one other user." = "Form assigned to %@ and one other user.";
+
+/*  No comment provided by engineer.  */
+"Form assigned to %@ and one other user: %@" = "Form assigned to %1$@ and one other user: %2$@";
 
 /*  No comment provided by engineer.  */
 "Form assigned to %@." = "Form assigned to %@.";
@@ -3844,7 +3901,7 @@
 /*  No comment provided by engineer.  */
 "From %@" = "From %@";
 
-/*  No comment provided by engineer.  */
+/*  Full Name  */
 "Full Name" = "Full Name";
 
 /*  No comment provided by engineer.  */
@@ -5285,6 +5342,9 @@
 "Only one assignee is required to finish this to-do to complete it." = "Only one assignee is required to finish this to-do to complete it.";
 
 /*  No comment provided by engineer.  */
+"Only one assignee is required to upload files for completion." = "Only one assignee is required to upload files for completion.";
+
+/*  No comment provided by engineer.  */
 "Only participants can view meeting details." = "Only participants can view meeting details.";
 
 /*  No comment provided by engineer.  */
@@ -6053,6 +6113,9 @@
 "Review Now" = "Review Now";
 
 /*  No comment provided by engineer.  */
+"Review Progress" = "Review Progress";
+
+/*  No comment provided by engineer.  */
 "Review Submissions" = "Review Submissions";
 
 /*  No comment provided by engineer.  */
@@ -6710,9 +6773,6 @@
 /*  No comment provided by engineer.  */
 "Step In Progress" = "Step In Progress";
 
-/*  title  */
-"Step Limit Reached" = "Step Limit Reached";
-
 /*  No comment provided by engineer.  */
 "Step Removed" = "Step Removed";
 
@@ -6759,7 +6819,7 @@
 "Submitted on %@" = "Submitted on %@";
 
 /*  No comment provided by engineer.  */
-"Submitted responses will show here." = "Submitted responses will show here.";
+"The submitted response will be displayed here." = "The submitted response will be displayed here.";
 
 /*  No comment provided by engineer.  */
 "Successfully Switched" = "Successfully Switched";
@@ -6987,6 +7047,9 @@
 "The person who will verify and approve the submitted files." = "The person who will verify and approve the submitted files.";
 
 /*  No comment provided by engineer.  */
+"The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms.";
+
+/*  No comment provided by engineer.  */
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "The previous link will expire. People with the expired link will be unable to use it to join the platform.";
 
 /*  No comment provided by engineer.  */
@@ -7056,13 +7119,16 @@
 "Things like statements, reports, invoices, etc. created by the org are sent to these inboxes." = "Things like statements, reports, invoices, etc. created by the org are sent to these inboxes.";
 
 /*  No comment provided by engineer.  */
-"This %@ was already completed or deleted while you were editing and changes can not be saved. You will be directed back to the workspace." = "This %@ was already completed or deleted while you were editing and changes can not be saved. You will be directed back to the workspace.";
+"This %@ has been completed or deleted, so your changes cannot be saved. You’ll be directed back to the workspace." = "This %@ has been completed or deleted, so your changes cannot be saved. You’ll be directed back to the workspace.";
 
 /*  No comment provided by engineer.  */
 "This %@ was already finished by the assignee and it can no longer be deleted." = "This %@ was already finished by the assignee and it can no longer be deleted.";
 
 /*  No comment provided by engineer.  */
 "This %@ was already finished by the assignee and it can no longer be removed. " = "This %@ was already finished by the assignee and it can no longer be removed. ";
+
+/*  No comment provided by engineer.  */
+"This %@ was skipped. Please review the flow." = "This %@ was skipped. Please review the flow.";
 
 /*  No comment provided by engineer.  */
 "This Meeting" = "This Meeting";
@@ -7086,10 +7152,16 @@
 "This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost." = "This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost.";
 
 /*  No comment provided by engineer.  */
+"This action has been completed. You will be directed back to the workspace." = "This action has been completed. You will be directed back to the workspace.";
+
+/*  No comment provided by engineer.  */
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "This action has been deleted and your action is no longer required. You will be directed back to the workspace.";
 
 /*  No comment provided by engineer.  */
 "This action has been updated. Please review the details again before taking action. You will be directed back to the workspace." = "This action has been updated. Please review the details again before taking action. You will be directed back to the workspace.";
+
+/*  No comment provided by engineer.  */
+"This action will be completed once any file reviewer confirms." = "This action will be completed once any file reviewer confirms.";
 
 /*  No comment provided by engineer.  */
 "This and Following Meetings" = "This and Following Meetings";
@@ -7700,6 +7772,9 @@
 /*  No comment provided by engineer.  */
 "Unable to start this Flow Workspace because it exceeds the member limit set by your organization." = "Unable to start this Flow Workspace because it exceeds the member limit set by your organization.";
 
+/*  No comment provided by engineer.  */
+"Unable to upload files" = "Unable to upload files";
+
 /*  message  */
 "Unable to upload the file %@. Please try again." = "Unable to upload the file %@. Please try again.";
 
@@ -7710,7 +7785,7 @@
 "Unarchive Workspace" = "Unarchive Workspace";
 
 /*  No comment provided by engineer.  */
-"Unarchive workspace for all" = "Unarchive workspace for all";
+"Unarchive workspace for everyone" = "Unarchive workspace for everyone";
 
 /*  No comment provided by engineer.  */
 "Unarchive workspace for yourself" = "Unarchive workspace for yourself";
@@ -7790,6 +7865,9 @@
 "Upload Files" = "Upload Files";
 
 /*  No comment provided by engineer.  */
+"Upload Progress" = "Upload Progress";
+
+/*  No comment provided by engineer.  */
 "Upload failed" = "Upload failed";
 
 /*  No comment provided by engineer.  */
@@ -7800,6 +7878,9 @@
 
 /*  No comment provided by engineer.  */
 "Uploader" = "Uploader";
+
+/*  No comment provided by engineer.  */
+"Uploaders" = "Uploaders";
 
 /*  button  */
 "Use" = "Use";
@@ -8003,6 +8084,9 @@
 
 /*  No comment provided by engineer.  */
 "Waiting to Review" = "Waiting to Review";
+
+/*  No comment provided by engineer.  */
+"Waiting to upload" = "Waiting to upload";
 
 /*  No comment provided by engineer.  */
 "Want to use Moxo for another business?" = "Want to use Moxo for another business?";
@@ -8231,7 +8315,13 @@
 "Who needs to fill this form?" = "Who needs to fill this form?";
 
 /*  No comment provided by engineer.  */
+"Who needs to review this?" = "Who needs to review this?";
+
+/*  No comment provided by engineer.  */
 "Who needs to sign?" = "Who needs to sign?";
+
+/*  No comment provided by engineer.  */
+"Who needs to upload this?" = "Who needs to upload this?";
 
 /*  No comment provided by engineer.  */
 "Who needs to work on this?" = "Who needs to work on this?";
@@ -8283,9 +8373,6 @@
 
 /*  No comment provided by engineer.  */
 "Workspace Owner" = "Workspace Owner";
-
-/*  No comment provided by engineer.  */
-"Workspace Templates" = "Workspace Templates";
 
 /*  No comment provided by engineer.  */
 "Workspace Timed Out" = "Workspace Timed Out";
@@ -8420,10 +8507,16 @@
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "You can add up to %@ participants. Internal users can set their time booking availability under their profile page.";
 
 /*  No comment provided by engineer.  */
+"You can assign multiple roles to fill out this form together. Once one assignee submits the form, it will be marked as completed." = "You can assign multiple roles to fill out this form together. Once one assignee submits the form, it will be marked as completed.";
+
+/*  No comment provided by engineer.  */
 "You can customize your default welcome message in settings." = "You can customize your default welcome message in settings.";
 
 /*  No comment provided by engineer.  */
 "You can find your archived workspaces on your account page under the profile tab." = "You can find your archived workspaces on your account page under the profile tab.";
+
+/*  No comment provided by engineer.  */
+"You can invite multiple assignees, but only one is required to complete it." = "You can invite multiple assignees, but only one is required to complete it.";
 
 /*  No comment provided by engineer.  */
 "You can leave a message, or cancel your request and try later." = "You can leave a message, or cancel your request and try later.";
@@ -8644,6 +8737,9 @@
 /*  No comment provided by engineer.  */
 "You've already added all of your contacts" = "You've already added all of your contacts";
 
+/*  message  */
+"You've already added the maximum number of actions. (%@/200)" = "You've already added the maximum number of actions. (%@/200)";
+
 /*  No comment provided by engineer.  */
 "YouTube" = "YouTube";
 
@@ -8723,9 +8819,6 @@
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "Your org is not configured to use SAML SSO. Please log in with account to continue.";
 
 /*  No comment provided by engineer.  */
-"Your organization allows the following file types to be shared:\n%@." = "Your organization allows the following file types to be shared:\n%@.";
-
-/*  No comment provided by engineer.  */
 "Your organization requires this security configuration." = "Your organization requires this security configuration.";
 
 /*  No comment provided by engineer.  */
@@ -8770,11 +8863,8 @@
 /*  No comment provided by engineer.  */
 "You’ve already added all of the bots." = "You’ve already added all of the bots.";
 
-/*  message  */
-"You’ve already added the maximum number of action steps. (%@/200)" = "You’ve already added the maximum number of action steps. (%@/200)";
-
 /*  No comment provided by engineer.  */
-"You’ve already added the maximum number of assignees. (15/15)" = "You’ve already added the maximum number of assignees. (15/15)";
+"You’ve already added the maximum number of assignees." = "You’ve already added the maximum number of assignees.";
 
 /*  No comment provided by engineer.  */
 "You’ve already added this user as a viewer." = "You’ve already added this user as a viewer.";

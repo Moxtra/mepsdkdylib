@@ -445,8 +445,10 @@
 "Acknowledgement due soon" = "곧 인정이 필요합니다";
 "Acknowledgement due today" = "오늘 확인 마감";
 "Acknowledgement overdue (%@)" = "인정이 지연되었습니다 (%@)";
+"Action Cannot Be Deleted" = "작업을 삭제할 수 없습니다.";
 "Action In Progress" = "작업 진행 중";
 "Action Items" = "조치 항목";
+"Action Limit Reached" = "조치 한도 도달";
 "Action Needed By" = "조치 필요자";
 "Action Required" = "조치가 필요함";
 "Action Updated" = "작업 업데이트됨";
@@ -457,6 +459,7 @@
 "Action not started" = "작업이 시작되지 않았습니다";
 "Action overdue (%@)" = "행동 기한 초과 (%@)";
 "Action required from @%@" = "@%1$@가 요청한 조치";
+"Action skipped" = "작업 건너뛰기";
 "Action will be due in %@." = "조치는 %@에 마감됩니다.";
 "Actions" = "작업들";
 "Actions Reassigned" = "조치가 재할당되었습니다.";
@@ -469,6 +472,7 @@
 "Add Annotation" = "주석 추가";
 "Add Another Portal" = "다른 포털 추가";
 "Add Assignee" = "할당자 추가";
+"Add Assignees" = "담당자 추가";
 "Add Attachment" = "첨부 자료 추가";
 "Add Backup User" = "백업 사용자 추가";
 "Add Bots" = "봇 추가";
@@ -490,7 +494,6 @@
 "Add Role" = "직무 추가";
 "Add Roles" = "역할 추가";
 "Add Signers" = "서명자 추가";
-"Add Subject" = "제목 추가";
 "Add User" = "사용자 추가";
 "Add Viewers" = "뷰어 추가";
 "Add Viewers (Optional)" = "뷰어 추가(선택사항)";
@@ -498,7 +501,7 @@
 "Add a Role" = "역할 추가";
 "Add a To-Do" = "수행할 일 추가";
 "Add a To-Do Item" = "수행할 일 항목 추가";
-"Add a brief description to your workspace" = "작업 공간에 간단한 설명을 추가하십시오";
+"Add a brief description for all workspace members to see" = "모든 작업 공간 멤버가 볼 수 있는 간단한 설명을 추가하십시오";
 "Add a role" = "역할 추가";
 "Add description" = "설명 추가";
 "Add files" = "파일 추가";
@@ -545,6 +548,7 @@
 "All actions waiting for others to act on will appear here." = "다른 사용자가 수행하기를 기다리는 모든 조치가 여기에 표시됩니다.";
 "All actions waiting for you to act on will appear here." = "귀하께서 수행하기를 기다리는 모든 조치가 여기에 표시됩니다.";
 "All actions were completed." = "모든 작업이 완료되었습니다.";
+"All assignees can work together to fill out this form. Once one assignee submits the form, it will be completed." = "모든 담당자가 함께 이 양식을 작성할 수 있습니다. 한 명의 담당자가 양식을 제출하면, 그것으로 완료됩니다.";
 "All bookmarked items will appear here." = "북마크한 모든 항목이 여기에 표시됩니다.";
 "All comments and other activity on this file will also be deleted." = "이 파일의 모든 코멘트 및 기타 활동도 삭제됩니다";
 "All completed actions will appear here." = "완료된 모든 조치가 여기에 나타납니다.";
@@ -564,6 +568,7 @@
 "Amount" = "금액";
 "An Update Is Required" = "업데이트가 필요합니다";
 "An agent will respond when one is available." = "아래에 메시지를 남겨 주십시오.";
+"An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace." = "대체 경로가 이미 실행되었습니다. 이 %@는 건너뛰어졌으므로 변경 사항을 저장할 수 없습니다. 워크스페이스로 돌아갑니다.";
 "An external user with access to invited workspaces only." = "초대된 작업 공간에만 접근할 수 있는 외부 사용자.";
 "An internal user with privileges to manage and create new workspaces in your portal." = "포털에서 새로운 작업 공간을 관리하고 생성할 권한이 있는 내부 사용자.";
 "An update is available for this application. You'll need to update once you are connected to Wifi." = "이 애플리케이션에 대한 업데이트를 사용할 수 있습니다. 와이파이에 연결되면 업데이트해야 합니다.";
@@ -630,7 +635,6 @@
 "Are you sure you want to discard your changes?" = "정말 변경 내용을 취소하시겠습니까?";
 "Are you sure you want to disconnect?" = "정말 연결을 해제하시겠습니까?";
 "Are you sure you want to leave? All changes will be lost." = "정말 나가시겠습니까? 모든 변경 사항이 손실됩니다.";
-"Are you sure you want to remove \"%@\" from this workspace?" = "이 작업 공간에서 \"%@\"을(를) 정말로 제거하시겠습니까?";
 "Are you sure you want to remove this attachment?" = "정말 이 첨부 자료를 삭제하시겠습니까?";
 "Are you sure you want to remove “%@” from this workspace?" = "이 작업 공간에서 “%@”을(를) 정말로 제거하시겠습니까?";
 "Are you sure you want to start the meeting before its scheduled time?" = "정말 예약된 시간 전에 미팅을 시작하시겠습니까?";
@@ -655,6 +659,7 @@
 "Assignee Options" = "할당자 옵션";
 "Assignees" = "피지정자";
 "Assignees will start collaborating on your flow after signing up if they don’t have an account yet." = "피지정자는 계정이 없으면 가입한 다음 사용자의 흐름에 대한 협업을 시작합니다.";
+"At least one action in the main flow is necessary to support an alternative branch." = "대체 분기를 지원하기 위해 메인 플로우에는 최소한 하나의 액션이 필요합니다.";
 "At least one field you added has not been filled. Please fill or remove the field(s) before finishing." = "추가한 필드 중 하나 이상이 채워지지 않았습니다. 완료하기 전에 필드를 채우거나 제거하십시오.";
 "Attachment Limit Reached" = "첨부 자료 제한에 도달했습니다";
 "Attachments" = "첨부 자료";
@@ -764,6 +769,7 @@
 "Choose a time to reschedule" = "다시 예약할 시간 선택";
 "Choose application" = "애플리케이션 선택";
 "Choose from Library" = "라이브러리에서 선택하기";
+"Choose how many assignees are required to upload a file for completion." = "완료를 위해 파일을 업로드해야 하는 담당자 수를 선택하십시오.";
 "Choose how many assignees must acknowledge this acknowledgement to complete it." = "승인을 완료하기 위해 인정을 승인해야 하는 할당자 수를 선택합니다.";
 "Choose how many assignees must approve this approval to complete it." = "승인을 완료하기 위해 승인을 승인해야 하는 할당자 수를 선택합니다.";
 "Choose how many assignees must finish this to-do to complete it." = "이 할 일을 완료하기 위해 몇 명의 담당자가 완료해야 하는지 선택하십시오.";
@@ -1088,7 +1094,6 @@
 "Edit your filters to see results" = "결과를 표시하기 위한 필터 편집";
 "Editable by..." = "편집자...";
 "Edited" = "편집됨";
-"Editing Controls" = "제어 기능 편집";
 "Editing of this To-Do was locked by internal users." = "내부 사용자에 의해 이 수행할 일의 편집이 잠겼습니다.";
 "Editor" = "편집기";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "효율적으로 새로운 클라이언트를 간소화된 다단계 온보딩 프로세스를 통해 안내합니다.";
@@ -1173,6 +1178,12 @@
 "File Info" = "파일 정보";
 "File Request" = "파일 요청";
 "File Request assigned to %@" = "파일 요청이 %@님에게 할당되었습니다";
+"File Request assigned to %@ and %@ other users" = "파일 요청이 %1$@ 및 %2$@명의 다른 사용자에게 할당되었습니다.";
+"File Request assigned to %@ and %@ other users." = "파일 요청이 %1$@ 및 %2$@명의 다른 사용자에게 할당되었습니다.";
+"File Request assigned to %@ and %@ other users: %@" = "%3$@ 파일 요청이 %1$@와 %2$@명의 다른 사용자에게 할당됨";
+"File Request assigned to %@ and one other user" = "파일 요청이 %@ 및 다른 한 명의 사용자에게 할당되었습니다.";
+"File Request assigned to %@ and one other user." = "파일 요청이 %@ 및 다른 한 명의 사용자에게 할당되었습니다.";
+"File Request assigned to %@ and one other user: %@" = "%1$@와 다른 한 명의 사용자에게 할당된 파일 요청: %2$@";
 "File Request assigned to %@." = "파일 요청이 %@님에게 할당되었습니다.";
 "File Request assigned to %@: %@" = "파일 요청이 %1$@님에게 할당되었습니다: %2$@";
 "File Request assigned to you" = "파일 요청이 할당되었습니다";
@@ -1189,8 +1200,10 @@
 "File Request ready for review: %@" = "파일 요청 검토 준비 완료: %@";
 "File Request reopened" = "파일 요청 다시 열기";
 "File Reviewer" = "파일 검토자";
+"File Reviewers" = "파일 검토자들";
 "File Size Exceeded" = "파일 크기 초과";
 "File doesn't exist." = "파일이 없습니다.";
+"File sharing permissions are restricted to %@ formats." = "파일 공유 권한은 %@ 형식으로 제한됩니다.";
 "File size limit reached (%@)" = "파일 크기 제한에 도달했습니다(%@)";
 "File type unsupported" = "지원되지 않는 파일 형식";
 "File upload failed. Please try again." = "파일 업로드에 실패했습니다. 다시 시도해 주세요.";
@@ -1209,7 +1222,6 @@
 "Finish setting up your first workspace" = "첫 번째 작업 공간 설정을 완료하세요";
 "Fix Perspective" = "원근법 수정";
 "Flow" = "흐름";
-"Flow Template Library" = "플로우 템플릿 라이브러리";
 "Flow Templates" = "흐름 템플릿";
 "Flow Workspace" = "흐름 작업 공간";
 "Flow Workspace transferred to you" = "귀하에게 전달된 흐름 작업 공간";
@@ -1230,8 +1242,14 @@
 "Forgot your password?" = "비밀번호를 잊으셨습니까?";
 "Form" = "양식";
 "Form Preview" = "양식 미리 보기";
-"Form Responses" = "양식 응답";
+"Form Response" = "양식 응답";
 "Form assigned to %@" = "%@ 에게 할당된 양식";
+"Form assigned to %@ and %@ other users" = "양식이 %1$@와 다른 %2$@명의 사용자에게 할당되었습니다.";
+"Form assigned to %@ and %@ other users." = "양식이 %1$@ 및 %2$@명의 다른 사용자에게 할당되었습니다.";
+"Form assigned to %@ and %@ other users: %@" = "양식이 %1$@와 %2$@명의 다른 사용자에게 할당됨: %3$@";
+"Form assigned to %@ and one other user" = "양식이 %@와 다른 한 명의 사용자에게 할당되었습니다.";
+"Form assigned to %@ and one other user." = "양식이 %@와 다른 한 명의 사용자에게 할당되었습니다.";
+"Form assigned to %@ and one other user: %@" = "양식이 %1$@와 다른 한 명의 사용자에게 할당됨: %2$@";
 "Form assigned to %@." = "%@ 에게 양식이 할당되었습니다.";
 "Form assigned to %@: %@" = "%1$@ 에게 할당된 양식: %2$@";
 "Form assigned to you" = "할당된 양식";
@@ -1709,6 +1727,7 @@
 "Only one assignee is required to acknowledge this acknowledgement to complete it." = "이 인정을 완료하려면 한 명의 할당자만 인정해야 합니다.";
 "Only one assignee is required to approve this approval to complete it." = "이 승인을 완료하려면 한 명의 할당자만 승인해야 합니다.";
 "Only one assignee is required to finish this to-do to complete it." = "이 할 일을 완료하기 위해선 단 한 명의 담당자만 필요합니다.";
+"Only one assignee is required to upload files for completion." = "파일을 업로드하기 위해 단 한 명의 담당자만 필요합니다.";
 "Only participants can view meeting details." = "참가자만 회의 세부사항을 볼 수 있습니다.";
 "Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "%1$@ 작업에서는 제목, 설명, 마감일만 편집할 수 있습니다. 담당자를 수정하거나 다른 세부 사항을 업데이트해야 하는 경우, 새로운 %2$@ 작업을 생성해 주세요.";
 "Only the workspace owner can adjust link security" = "워크스페이스 소유자만 링크 보안을 조정할 수 있습니다";
@@ -1963,6 +1982,7 @@
 "Review DocuSign Details" = "DocuSign 세부 정보 검토";
 "Review E-Sign Details" = "전자 서명 세부사항 검토";
 "Review Now" = "지금 검토하기";
+"Review Progress" = "진행 상황 검토";
 "Review Submissions" = "제출 검토";
 "Review the following attachments to confirm this acknowledgement." = "다음 첨부 자료를 검토하여 이 인정을 확인하십시오.";
 "Role" = "직무";
@@ -2179,7 +2199,6 @@
 "Step Details" = "단계 세부 정보";
 "Step Details (Step %@)" = "단계 세부 정보(%@ 단계)";
 "Step In Progress" = "단계 진행 중";
-"Step Limit Reached" = "단계 제한에 도달함";
 "Step Removed" = "단계 제거됨";
 "Step edited" = "단계 편집됨";
 "Stop Co-Browsing" = "협동 브라우징 중지";
@@ -2195,7 +2214,7 @@
 "Submitted by %@" = "%@님이 제출함";
 "Submitted by %@ (You)" = "%@ (귀하)가 제출";
 "Submitted on %@" = "%@일에 제출함";
-"Submitted responses will show here." = "제출한 응답은 여기에 표시됩니다.";
+"The submitted response will be displayed here." = "제출된 응답이 여기에 표시됩니다.";
 "Successfully Switched" = "성공적으로 전환되었습니다.";
 "Successfully connected with %@!" = "%@님과 성공적으로 연결되었습니다!";
 "Sunday" = "일요일";
@@ -2271,6 +2290,7 @@
 "The operation did not complete successfully: %@" = "조작이 성공적으로 완료되지 않았습니다: %@";
 "The person who will submit the required files." = "요청한 파일을 제출할 담당자.";
 "The person who will verify and approve the submitted files." = "제출된 파일을 확인하고 승인할 담당자.";
+"The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "제출된 파일을 검증하고 승인할 사람입니다. 여러 리뷰어를 초대할 수 있습니다. 어떤 파일 리뷰어라도 확인하면 작업이 완료됩니다.";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "이전 링크가 만료됩니다. 링크가 만료된 사람들은 플랫폼에 가입하는 데 링크를 사용할 수 없습니다.";
 "The selected items will be added to %@ in %@." = "선택한 항목이 %2$@의 %1$@에 추가됩니다.";
 "The selected items will be added to %@." = "선택한 항목이 %@에 추가됩니다.";
@@ -2294,9 +2314,10 @@
 "They will not archive for other members and will automatically un-archived after new activity." = "다른 회원에 대해선느 보관하지 않고 새 활동 후 자동으로 보관 취소됩니다.";
 "They will see the flow cover page with basic details about the flow and your welcome message." = "흐름에 대한 기본 세부 정보와 시작 메시지에 대한 흐름 커버 페이지를 볼 수 있습니다.";
 "Things like statements, reports, invoices, etc. created by the org are sent to these inboxes." = "조직이 작성한 명세서, 보고서, 송장 등과 같은 항목이 해당 받은 편지함으로 전송됩니다.";
-"This %@ was already completed or deleted while you were editing and changes can not be saved. You will be directed back to the workspace." = "이 %@은 사용자가 편집하는동안 담당자가 이미 완료했거나 삭제되었으며 변경 사항을 저장할 수 없습니다. 작업 공간으로 다시 이동합니다.";
+"This %@ has been completed or deleted, so your changes cannot be saved. You’ll be directed back to the workspace." = "이 %@는 완료되었거나 삭제되어 변경 사항을 저장할 수 없습니다. 워크스페이스로 돌아갑니다.";
 "This %@ was already finished by the assignee and it can no longer be deleted." = "이 %@은(는) 담당자가 이미 완료했으며 더 이상 삭제할 수 없습니다.";
 "This %@ was already finished by the assignee and it can no longer be removed. " = "이 %@은(는) 담당자가 이미 완료했으며 더 이상 제거할 수 없습니다.";
+"This %@ was skipped. Please review the flow." = "이 %@는 건너뛰어졌습니다. 흐름을 검토해 주세요.";
 "This Meeting" = "본 미팅";
 "This To-Do can not support multiple assignees. To add more assignees, please create a brand new To-Do." = "이 할 일은 여러 담당자를 지원하지 않습니다. 더많은 담당자를 추가하려면 새로운 할 일을 생성해 주세요.";
 "This Will End Your Current Meeting" = "이로 인해 현재 미팅이 종료됩니다";
@@ -2304,8 +2325,10 @@
 "This action cannot be undone" = "이 조치는 취소할 수 없습니다";
 "This action cannot be undone." = "이 조치는 취소할 수 없습니다.";
 "This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost." = "이 작업은 이미 시작되었으며 사용자가 편집하는 동안 담당자는 단계를 검토하고 수행할 수 있습니다. 이미 완료된 진행이 모두 손실됩니다.";
+"This action has been completed. You will be directed back to the workspace." = "이 작업이 완료되었습니다. 작업 공간으로 돌아갑니다.";
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "이 작업은 삭제되었으며 더 이상 작업이 필요하지 않습니다. 작업 공간으로 다시 이동합니다.";
 "This action has been updated. Please review the details again before taking action. You will be directed back to the workspace." = "이 작업이 업데이트되었습니다. 조치를 취하기 전에 세부 정보를 다시 검토하십시오. 작업 공간으로 다시 이동합니다.";
+"This action will be completed once any file reviewer confirms." = "이 조치는 파일 리뷰어 중 한 명이 확인하면 완료됩니다.";
 "This and Following Meetings" = "현재 및 후속 미팅";
 "This content may have been deleted or otherwise removed." = "내용이 삭제되었거나 다른 방식으로 제거되었을 수 있습니다.";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "이 문서에는 필드가 포함되어 있습니다. 상기 필드를 다른 사용자에게 자동으로 추가하고 할당하시겠습니까?";
@@ -2509,10 +2532,11 @@
 "Unable to share your screen while co-browsing." = "협동 브라우징 중에는 화면을 공유할 수 없습니다.";
 "Unable to start the meeting. Another meeting is in progress." = "미팅에 시작할 수 없습니다. 다른 미팅이 진행 중입니다.";
 "Unable to start this Flow Workspace because it exceeds the member limit set by your organization." = "조직에서 설정한 구성원 제한을 초과했기 때문에 이 흐름 작업 공간을 시작할 수 없습니다.";
+"Unable to upload files" = "파일을 업로드할 수 없습니다";
 "Unable to upload the file %@. Please try again." = "파일 %@을 업로드할 수 없습니다. 다시 시도해 주세요.";
 "Unarchive" = "압축 해제";
 "Unarchive Workspace" = "워크스페이스의 보관 해제";
-"Unarchive workspace for all" = "모두를 위해 작업 공간의 보관 해제";
+"Unarchive workspace for everyone" = "모두를 위해 작업 공간의 보관 해제";
 "Unarchive workspace for yourself" = "자신을 위해 워크스페이스의 보관을 해제하세요.";
 "Unassigned" = "미지정";
 "Unavailable" = "이용불가";
@@ -2538,10 +2562,12 @@
 "Updated title %@" = "제목 %@ 업데이트됨";
 "Upgrade" = "업그레이드";
 "Upload Files" = "파일 업로드";
+"Upload Progress" = "업로드 진행 상황";
 "Upload failed" = "업로드 실패함";
 "Uploaded by" = "업로드 담당자";
 "Uploaded by %@" = "%@가 업로드함";
 "Uploader" = "업로더";
+"Uploaders" = "업로더들";
 "Use" = "사용";
 "Use %@ or more characters" = "%@자 이상 사용";
 "Use 1 or more character" = "하나 이상의 문자 사용";
@@ -2609,6 +2635,7 @@
 "Waiting on Your Input" = "입력 대기 중";
 "Waiting on your input" = "입력 대기 중";
 "Waiting to Review" = "검토 대기 중";
+"Waiting to upload" = "업로드 대기 중";
 "Want to use Moxo for another business?" = "다른 비즈니스를 위해 Moxo를 사용하고 싶으신가요?";
 "Warning" = "경고";
 "We are currently closed." = "현재 업무 시간이 아닙니다.";
@@ -2684,7 +2711,9 @@
 "Who needs to choose the meeting time?" = "누가 회의 시간을 선택해야 합니까?";
 "Who needs to complete this?" = "누가 이것을 완료해야 합니까?";
 "Who needs to fill this form?" = "누가 이 양식을 작성해야 합니까?";
+"Who needs to review this?" = "이것을 검토해야 할 사람은 누구인가요?";
 "Who needs to sign?" = "누가 서명해야 합니까?";
+"Who needs to upload this?" = "이것을 업로드해야 할 사람은 누구인가요?";
 "Who needs to work on this?" = "누가 이 일을 해야 합니까?";
 "Who will choose the meeting time?" = "회의 시간은 누가 선택합니까?";
 "Who will take action in this flow?" = "이 흐름에서 누가 조치를 취하게 됩니까?";
@@ -2702,7 +2731,6 @@
 "Workspace Name" = "작업 공간 이름";
 "Workspace Name (Required)" = "작업 공간 이름(필수)";
 "Workspace Owner" = "작업 공간 소유자";
-"Workspace Templates" = "작업 공간 템플릿";
 "Workspace Timed Out" = "작업 공간 시간 초과";
 "Workspace Title" = "작업 공간 제목";
 "Workspace Type" = "작업 공간 유형";
@@ -2747,8 +2775,10 @@
 "You are viewing the presenter's screen now." = "지금 발표자의 화면을 보고 있습니다.";
 "You can add up to %@ participants. Internal users can set their booking availability times under their profile page." = "최대 %@명의 참가자를 추가할 수 있습니다. 내부 사용자는 프로필 페이지에서 예약 가능 시간을 설정할 수 있습니다.";
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "참가자를 %@명까지 추가할 수 있습니다. 내부 사용자는 프로필 페이지에서 시간 예약 가능 여부를 설정할 수 있습니다.";
+"You can assign multiple roles to fill out this form together. Once one assignee submits the form, it will be marked as completed." = "여러 역할을 지정하여 이 양식을 함께 작성할 수 있습니다. 한 명의 담당자가 양식을 제출하면 완료로 표시됩니다.";
 "You can customize your default welcome message in settings." = "설정에서 기본 환영 메시지를 사용자 정의할 수 있습니다.";
 "You can find your archived workspaces on your account page under the profile tab." = "프로필 탭 아래에 있는 계정 페이지에서 보관된 워크스페이스를 찾을 수 있습니다.";
+"You can invite multiple assignees, but only one is required to complete it." = "여러 담당자를 초대할 수 있지만, 완료를 위해 한 명만 필요합니다.";
 "You can leave a message, or cancel your request and try later." = "메시지를 남기거나 요청을 취소하고 나중에 시도할 수 있습니다.";
 "You can not set overlapping hours. Please, adjust the periods before saving." = "중복되는 시간은 설정할 수 없습니다. 저장하기 전에 기간을 조정하십시오.";
 "You can only pin up to %@ workspaces." = "최대 %@개의 작업 공간을 고정할 수 있습니다.";
@@ -2770,6 +2800,7 @@
 "You cannot pick a time in the past." = "지나간 시간을 선택할 수 없습니다.";
 "You cannot start sharing while another participant is sharing." = "다른 참가자가 공유하는 동안에는 공유를 시작할 수 없습니다.";
 "You cannot undo this action." = "귀하는 이 조치를 취소할 수 없습니다.";
+"You currently aren’t involved in any workspaces with us." = "현재 저희와 함께 참여 중인 작업 공간이 없습니다.";
 "You declined to sign this document." = "이 문서에 서명하기를 거부했습니다.";
 "You do not have permission to edit this note." = "귀하는 이 노트를 편집할 수 있는 권한이 없습니다.";
 "You don't have an account on %@ yet" = "%@에 대한 계정이 아직 없습니다";
@@ -2820,6 +2851,7 @@
 "You're done!" = "모두 완료했습니다!";
 "You're logged in as %@" = "%@로 로그인했습니다.";
 "You've already added all of your contacts" = "귀하는 이미 모든 연락처를 추가했습니다";
+"You've already added the maximum number of actions. (%@/200)" = "이미 최대 작업 수를 추가하셨습니다. (%@/200)";
 "YouTube" = "YouTube";
 "Your Feed" = "사용자의 피드";
 "Your Flows" = "귀하의 흐름";
@@ -2846,7 +2878,6 @@
 "Your mobile device is not setup for Email" = "모바일 장치가 이메일용으로 설정되지 않았습니다";
 "Your mobile device is not setup for SMS." = "모바일 장치가 SMS용으로 설정되지 않았습니다.";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "당신의 조직은 SAML SSO를 사용하도록 설정되어 있지 않습니다. 계속하려면 계정으로 로그인해 주세요.";
-"Your organization allows the following file types to be shared:\n%@." = "당신의 조직은 다음 파일 유형을 공유할 수 있게 허용합니다:\n%@.";
 "Your organization requires this security configuration." = "조직에 이 보안 구성이 필요합니다.";
 "Your password was successfully updated." = "비밀번호가 성공적으로 업데이트되었습니다.";
 "Your portal is no longer active" = "포털이 더 이상 작동되지 않습니다";
@@ -2862,8 +2893,7 @@
 "You’re already assigned to this client and can find them in your contacts." = "귀하는 이미 이 고객에 할당되어 있으며 연락처에서 해당 고객을 찾을 수 있습니다.";
 "You’re already signed in" = "당신은 이미 로그인되어 있습니다";
 "You’ve already added all of the bots." = "모든 봇을 이미 추가하셨습니다.";
-"You’ve already added the maximum number of action steps. (%@/200)" = "귀하는 최대 조치 단계 수를 이미 추가했습니다. (%@/200)";
-"You’ve already added the maximum number of assignees. (15/15)" = "귀하는 최대 할당자 수를 이미 추가했습니다. (15/15)";
+"You’ve already added the maximum number of assignees." = "이미 최대 수의 담당자를 추가했습니다.";
 "You’ve already added this user as a viewer." = "이 사용자를 이미 뷰어로 추가했습니다.";
 "You’ve already added this user as an assignee." = "이 사용자를 이미 피지정자로 추가했습니다.";
 "You’ve already attached the maximum number of files. (50/50)" = "최대 파일 수를 이미 첨부했습니다. (50/50)";
@@ -2880,7 +2910,7 @@
 "day" = "낮";
 "days" = "낮";
 "decline" = "거부";
-"e.g. Acme" = "예: 액미";
+"e.g. Acme" = "예: Acme";
 "e.g: Due in 3 Days" = "예: 3낮 후 만기";
 "got it" = "알겠습니다";
 "hide" = "숨기기";

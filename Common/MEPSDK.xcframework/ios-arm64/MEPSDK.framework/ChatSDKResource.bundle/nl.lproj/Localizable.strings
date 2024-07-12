@@ -447,8 +447,10 @@
 "Acknowledgement due soon" = "Erkenning binnenkort verschuldigd";
 "Acknowledgement due today" = "Ontvangstbevestiging vervalt vandaag";
 "Acknowledgement overdue (%@)" = "Erkenning te laat (%@)";
+"Action Cannot Be Deleted" = "Actie kan niet worden verwijderd";
 "Action In Progress" = "Actie in uitvoering";
 "Action Items" = "Actiepunten";
+"Action Limit Reached" = "Actielimiet Bereikt";
 "Action Needed By" = "Actie nodig door";
 "Action Required" = "Actie Vereist";
 "Action Updated" = "Actie bijgewerkt";
@@ -459,6 +461,7 @@
 "Action not started" = "Actie niet gestart";
 "Action overdue (%@)" = "Actie te laat (%@)";
 "Action required from @%@" = "Actie vereist van @%1$@";
+"Action skipped" = "Actie overgeslagen";
 "Action will be due in %@." = "Actie zal plaatsvinden over %@.";
 "Actions" = "Acties";
 "Actions Reassigned" = "Opnieuw toegewezen acties";
@@ -471,6 +474,7 @@
 "Add Annotation" = "Voeg annotatie toe";
 "Add Another Portal" = "Voeg nog een portaal toe";
 "Add Assignee" = "Toegewezen persoon toevoegen";
+"Add Assignees" = "Toegewezen personen toevoegen";
 "Add Attachment" = "Voeg bijlage toe";
 "Add Backup User" = "Backup gebruiker toevoegen";
 "Add Bots" = "Bots Toevoegen";
@@ -492,7 +496,6 @@
 "Add Role" = "Voeg Rol toe";
 "Add Roles" = "Rollen Toevoegen";
 "Add Signers" = "Ondertekenaars toevoegen";
-"Add Subject" = "Voeg onderwerp toe";
 "Add User" = "Voeg gebruiker toe";
 "Add Viewers" = "Voeg Kijkers toe";
 "Add Viewers (Optional)" = "Voeg Kijkers toe (Optioneel)";
@@ -500,7 +503,7 @@
 "Add a Role" = "Voeg een Rol toe";
 "Add a To-Do" = "Voeg een uitstaande taak toe";
 "Add a To-Do Item" = "Voeg een onderwerp van een uitstaande taak toe";
-"Add a brief description to your workspace" = "Voeg een korte beschrijving toe aan uw werkruimte";
+"Add a brief description for all workspace members to see" = "Voeg een korte beschrijving toe die voor alle werkruimteleden zichtbaar is";
 "Add a role" = "Voeg een rol toe";
 "Add description" = "Voeg beschrijving toe";
 "Add files" = "Voeg bestanden toe";
@@ -547,6 +550,7 @@
 "All actions waiting for others to act on will appear here." = "Alle acties die op acties van anderen wachten verschijnen hier.";
 "All actions waiting for you to act on will appear here." = "Alle acties die op acties van u wachten verschijnen hier.";
 "All actions were completed." = "Alle acties zijn voltooid.";
+"All assignees can work together to fill out this form. Once one assignee submits the form, it will be completed." = "Alle toegewezen personen kunnen samenwerken om dit formulier in te vullen. Zodra één toegewezen persoon het formulier indient, zal het voltooid zijn.";
 "All bookmarked items will appear here." = "Alle bladwijzers verschijnen hier.";
 "All comments and other activity on this file will also be deleted." = "Alle opmerkingen en andere activiteiten in dit bestand worden ook verwijderd";
 "All completed actions will appear here." = "Alle voltooide acties verschijnen hier.";
@@ -566,6 +570,7 @@
 "Amount" = "Bedrag";
 "An Update Is Required" = "Er is een update vereist";
 "An agent will respond when one is available." = "Laat hieronder eventuele berichten achter.";
+"An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace." = "Een alternatief pad is al uitgevoerd. Deze %@ is nu overgeslagen, dus uw wijzigingen kunnen niet worden opgeslagen. U wordt teruggeleid naar de werkruimte.";
 "An external user with access to invited workspaces only." = "Een externe gebruiker die alleen toegang heeft tot de uitgenodigde werkruimtes.";
 "An internal user with privileges to manage and create new workspaces in your portal." = "Een interne gebruiker met rechten om nieuwe werkruimtes te beheren en te creëren in uw portaal.";
 "An update is available for this application. You'll need to update once you are connected to Wifi." = "Er is een update beschikbaar voor deze applicatie. U moet updaten zodra u bent verbonden met WiFi.";
@@ -632,7 +637,6 @@
 "Are you sure you want to discard your changes?" = "Weet u zeker dat u uw wijzigingen wilt verwijderen?";
 "Are you sure you want to disconnect?" = "Weet u zeker dat u de verbinding wilt verbreken?";
 "Are you sure you want to leave? All changes will be lost." = "Weet u zeker dat u wilt annuleren? Alle wijzigingen gaan verloren.";
-"Are you sure you want to remove \"%@\" from this workspace?" = "Weet je zeker dat je \"%@\" uit deze werkruimte wilt verwijderen?";
 "Are you sure you want to remove this attachment?" = "Weet u zeker dat u deze bijlage wilt verwijderen?";
 "Are you sure you want to remove “%@” from this workspace?" = "Weet je zeker dat je “%@” uit deze werkruimte wilt verwijderen?";
 "Are you sure you want to start the meeting before its scheduled time?" = "Weet u zeker dat u de vergadering wilt starten vóór de geplande tijd?";
@@ -657,6 +661,7 @@
 "Assignee Options" = "Opdrachtnemer opties";
 "Assignees" = "Rechthebbenden";
 "Assignees will start collaborating on your flow after signing up if they don’t have an account yet." = "Toegewezen personen zullen beginnen samen te werken aan uw stroom nadat ze zich hebben aangemeld als ze nog geen account hebben.";
+"At least one action in the main flow is necessary to support an alternative branch." = "Ten minste één actie in de hoofdstroom is noodzakelijk om een alternatieve vertakking te ondersteunen.";
 "At least one field you added has not been filled. Please fill or remove the field(s) before finishing." = "Ten minste één door u toegevoegd veld is niet ingevuld. Vul of verwijder het (de) veld(en) voordat u klaar bent.";
 "Attachment Limit Reached" = "Bijlagengrenswaarde bereikt";
 "Attachments" = "Bijlagen";
@@ -766,6 +771,7 @@
 "Choose a time to reschedule" = "Kies een tijdstip om een nieuwe afspraak te maken";
 "Choose application" = "Kies applicatie";
 "Choose from Library" = "Kies uit bibliotheek";
+"Choose how many assignees are required to upload a file for completion." = "Kies hoeveel toegewezen personen een bestand moeten uploaden voor voltooiing.";
 "Choose how many assignees must acknowledge this acknowledgement to complete it." = "Kies hoeveel rechtverkrijgenden deze bevestiging moeten bevestigen om deze te voltooien.";
 "Choose how many assignees must approve this approval to complete it." = "Kies hoeveel rechtverkrijgenden deze goedkeuring moeten goedkeuren om deze te voltooien.";
 "Choose how many assignees must finish this to-do to complete it." = "Kies hoeveel toegewezen personen deze taak moeten voltooien om deze te voltooien.";
@@ -1092,7 +1098,6 @@
 "Edit your filters to see results" = "Bewerk uw filters om resultaten te zien";
 "Editable by..." = "Bewerkbaar door...";
 "Edited" = "Bewerkt";
-"Editing Controls" = "Controles aan het Bewerken";
 "Editing of this To-Do was locked by internal users." = "Bewerking van deze to-do is afgesloten door interne gebruikers.";
 "Editor" = "Tekstverwerker";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "Leid nieuwe klanten efficiënt door een gestroomlijnd onboardingproces dat uit meerdere stappen bestaat.";
@@ -1178,6 +1183,12 @@
 "File Info" = "Algemeen";
 "File Request" = "Bestandsaanvraag";
 "File Request assigned to %@" = "Bestandverzoek toegewezen aan %@";
+"File Request assigned to %@ and %@ other users" = "Bestandsaanvraag toegewezen aan %1$@ en %2$@ andere gebruikers";
+"File Request assigned to %@ and %@ other users." = "Bestandsaanvraag toegewezen aan %1$@ en %2$@ andere gebruikers.";
+"File Request assigned to %@ and %@ other users: %@" = "Bestandsaanvraag toegewezen aan %1$@ en %2$@ andere gebruikers: %3$@";
+"File Request assigned to %@ and one other user" = "Bestandsaanvraag toegewezen aan %@ en nog een andere gebruiker";
+"File Request assigned to %@ and one other user." = "Bestandsaanvraag toegewezen aan %@ en nog één andere gebruiker.";
+"File Request assigned to %@ and one other user: %@" = "Bestandsaanvraag toegewezen aan %1$@ en nog een andere gebruiker: %2$@";
 "File Request assigned to %@." = "Bestandverzoek toegewezen aan %@.";
 "File Request assigned to %@: %@" = "Bestandverzoek toegewezen aan %1$@: %2$@";
 "File Request assigned to you" = "Aan u toegewezen bestandverzoek";
@@ -1194,8 +1205,10 @@
 "File Request ready for review: %@" = "Bestandsaanvraag gereed voor beoordeling: %@";
 "File Request reopened" = "Bestandsaanvraag opnieuw geopend";
 "File Reviewer" = "Bestandreviewer";
+"File Reviewers" = "Bestandsbeoordelaars";
 "File Size Exceeded" = "Bestandsgrootte Overschreden";
 "File doesn't exist." = "Bestand bestaat niet.";
+"File sharing permissions are restricted to %@ formats." = "Bestandsdelingsrechten zijn beperkt tot %@ formaten.";
 "File size limit reached (%@)" = "Bestandsgroottegrenswaarde is bereikt (%@)";
 "File type unsupported" = "Bestandstype niet-ondersteund";
 "File upload failed. Please try again." = "Bestand uploaden is mislukt. Probeer het opnieuw.";
@@ -1214,7 +1227,6 @@
 "Finish setting up your first workspace" = "Voltooi het instellen van uw eerste werkruimte";
 "Fix Perspective" = "Herstel perspectief";
 "Flow" = "Stroom";
-"Flow Template Library" = "Stroomsjabloonbibliotheek";
 "Flow Templates" = "Stroomsjablonen";
 "Flow Workspace" = "Flow werkruimte";
 "Flow Workspace transferred to you" = "Flow Workspace is aan jou overgedragen";
@@ -1235,8 +1247,14 @@
 "Forgot your password?" = "Wachtwoord vergeten?";
 "Form" = "Formulier";
 "Form Preview" = "Formulier voorbeeld";
-"Form Responses" = "Formulier reacties";
+"Form Response" = "Formulierreactie";
 "Form assigned to %@" = "Formulier toegewezen aan %@";
+"Form assigned to %@ and %@ other users" = "Formulier toegewezen aan %1$@ en %2$@ andere gebruikers";
+"Form assigned to %@ and %@ other users." = "Formulier toegewezen aan %1$@ en %2$@ andere gebruikers.";
+"Form assigned to %@ and %@ other users: %@" = "Formulier toegewezen aan %1$@ en %2$@ andere gebruikers: %3$@";
+"Form assigned to %@ and one other user" = "Formulier toegewezen aan %@ en nog één andere gebruiker";
+"Form assigned to %@ and one other user." = "Formulier toegewezen aan %@ en nog één andere gebruiker.";
+"Form assigned to %@ and one other user: %@" = "Formulier toegewezen aan %1$@ en nog een andere gebruiker: %2$@";
 "Form assigned to %@." = "Formulier toegewezen aan %@.";
 "Form assigned to %@: %@" = "Formulier toegewezen aan %1$@: %2$@";
 "Form assigned to you" = "Aan u toegewezen formulier";
@@ -1714,6 +1732,7 @@
 "Only one assignee is required to acknowledge this acknowledgement to complete it." = "Slechts één rechtverkrijgende hoeft deze bevestiging te bevestigen om deze te voltooien.";
 "Only one assignee is required to approve this approval to complete it." = "Slechts één rechtverkrijgende hoeft deze goedkeuring goed te keuren om deze te voltooien.";
 "Only one assignee is required to finish this to-do to complete it." = "Er is slechts één toegewezen persoon nodig om deze taak te voltooien.";
+"Only one assignee is required to upload files for completion." = "Er is slechts één toegewezen persoon nodig om bestanden te uploaden voor voltooiing.";
 "Only participants can view meeting details." = "Alleen deelnemers kunnen de details van de vergadering bekijken.";
 "Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "Alleen de titel, beschrijving en vervaldatum in %1$@ acties kunnen worden bewerkt. Als u de toegewezen personen moet wijzigen of andere details wilt bijwerken, maak dan een nieuwe %2$@ actie aan.";
 "Only the workspace owner can adjust link security" = "Alleen de eigenaar van de werkruimte kan de linkbeveiliging aanpassen";
@@ -1968,6 +1987,7 @@
 "Review DocuSign Details" = "DocuSign-details bekijken";
 "Review E-Sign Details" = "Beoordeel gegevens E-ondertekening";
 "Review Now" = "Nu beoordelen";
+"Review Progress" = "Voortgang Beoordelen";
 "Review Submissions" = "Inzendingen beoordelen";
 "Review the following attachments to confirm this acknowledgement." = "Beoordeel de volgende bijlagen om deze bevestiging te bevestigen.";
 "Role" = "Functie";
@@ -2184,7 +2204,6 @@
 "Step Details" = "Stapdetails";
 "Step Details (Step %@)" = "Stapdetails (Step %@)";
 "Step In Progress" = "Stap in uitvoering";
-"Step Limit Reached" = "Staplimiet bereikt";
 "Step Removed" = "Stap verwijderd";
 "Step edited" = "Stap bewerkt";
 "Stop Co-Browsing" = "Co-browsen stoppen";
@@ -2200,7 +2219,7 @@
 "Submitted by %@" = "Ingediend door %@";
 "Submitted by %@ (You)" = "Ingediend door %@ (U)";
 "Submitted on %@" = "Ingediend op %@";
-"Submitted responses will show here." = "Ingediende reacties worden hier weergegeven.";
+"The submitted response will be displayed here." = "De ingediende reactie wordt hier weergegeven.";
 "Successfully Switched" = "Succesvol overgestapt";
 "Successfully connected with %@!" = "Verbinden met %@ gelukt!";
 "Sunday" = "Zondag";
@@ -2276,6 +2295,7 @@
 "The operation did not complete successfully: %@" = "De bewerking is niet geheel voltooid: %@";
 "The person who will submit the required files." = "De persoon die de vereiste bestanden zal indienen.";
 "The person who will verify and approve the submitted files." = "De persoon die de ingediende bestanden zal controleren en goedkeuren.";
+"The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "De persoon die de ingediende bestanden zal verifiëren en goedkeuren. U kunt meerdere beoordelaars uitnodigen. De actie wordt voltooid zodra een van de beoordelaars bevestigt.";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "De vorige link verloopt. Mensen met de verlopen link kunnen deze niet gebruiken om lid te worden van het platform.";
 "The selected items will be added to %@ in %@." = "De geselecteerde items worden toegevoegd aan %1$@ in %2$@.";
 "The selected items will be added to %@." = "De geselecteerde items worden toegevoegd aan %@.";
@@ -2299,9 +2319,10 @@
 "They will not archive for other members and will automatically un-archived after new activity." = "Ze worden niet gearchiveerd voor andere leden en worden automatisch gedearchiveerd na een nieuwe activiteit.";
 "They will see the flow cover page with basic details about the flow and your welcome message." = "Zij zien de voorpagina van de stroom met de basisdetails over de stroom en uw welkomstboodschap.";
 "Things like statements, reports, invoices, etc. created by the org are sent to these inboxes." = "Zaken als verklaringen, rapporten, facturen, etc. die door de organisatie zijn gemaakt, worden naar deze postvakken-in gestuurd.";
-"This %@ was already completed or deleted while you were editing and changes can not be saved. You will be directed back to the workspace." = "Deze %@ werd reeds voltooid of verwijderd terwijl u aan het bewerken was en wijzigingen kunnen niet worden opgeslagen. Je wordt teruggeleid naar de werkruimte.";
+"This %@ has been completed or deleted, so your changes cannot be saved. You’ll be directed back to the workspace." = "Deze %@ is voltooid of verwijderd, dus uw wijzigingen kunnen niet worden opgeslagen. U wordt teruggeleid naar de werkruimte.";
 "This %@ was already finished by the assignee and it can no longer be deleted." = "Deze %@ werd al voltooid door de gevolmachtigde en kan niet meer verwijderd worden.";
 "This %@ was already finished by the assignee and it can no longer be removed. " = "Deze %@ werd al voltooid door de gevolmachtigde en kan niet meer verwijderd worden.";
+"This %@ was skipped. Please review the flow." = "Deze %@ is overgeslagen. Bekijk de stroom alstublieft.";
 "This Meeting" = "Deze vergadering";
 "This To-Do can not support multiple assignees. To add more assignees, please create a brand new To-Do." = "Deze taak kan niet meerdere toegewezen personen ondersteunen. Als u meer toegewezen personen wilt toevoegen, maakt u een geheel nieuwe taak aan.";
 "This Will End Your Current Meeting" = "Hierdoor wordt uw huidige vergadering beëindigd";
@@ -2309,8 +2330,10 @@
 "This action cannot be undone" = "Deze actie kan niet ongedaan worden gemaakt";
 "This action cannot be undone." = "Deze actie kan niet ongedaan worden gemaakt.";
 "This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost." = "Deze actie is al begonnen en de gevolmachtigde(n) kunnen de stap beoordelen en uitvoeren terwijl u aan het bewerken bent. Alle reeds voltooide voortgang gaat verloren.";
+"This action has been completed. You will be directed back to the workspace." = "Deze actie is voltooid. U wordt teruggeleid naar de werkruimte.";
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "Deze actie is verwijderd en uw actie is niet langer vereist. Je wordt teruggeleid naar de werkruimte.";
 "This action has been updated. Please review the details again before taking action. You will be directed back to the workspace." = "Deze actie is bijgewerkt. Controleer alstublieft de details nogmaals voordat u actie onderneemt. Je wordt teruggeleid naar de werkruimte.";
+"This action will be completed once any file reviewer confirms." = "Deze actie wordt voltooid zodra een bestandsbeoordelaar bevestigt.";
 "This and Following Meetings" = "Deze en volgende vergaderingen";
 "This content may have been deleted or otherwise removed." = "Deze content is mogelijk verwijderd of op een of andere manier verwijderd.";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "Dit document bevat velden. Wil je deze velden automatisch aan iemand toevoegen en toewijzen?";
@@ -2514,10 +2537,11 @@
 "Unable to share your screen while co-browsing." = "Kan uw scherm niet delen tijdens het co-browsen.";
 "Unable to start the meeting. Another meeting is in progress." = "Kan de vergadering niet starten. Er is een andere vergadering bezig.";
 "Unable to start this Flow Workspace because it exceeds the member limit set by your organization." = "Kan deze Flow Workspace niet starten omdat deze de ledenlimiet overschrijdt die door je organisatie is ingesteld.";
+"Unable to upload files" = "Niet in staat om bestanden te uploaden";
 "Unable to upload the file %@. Please try again." = "Kan het bestand %@ niet uploaden. Probeer het opnieuw.";
 "Unarchive" = "Uit het archief halen";
 "Unarchive Workspace" = "Werkruimte uit het archief halen";
-"Unarchive workspace for all" = "Werkruimte voor iedereen uit het archief halen";
+"Unarchive workspace for everyone" = "Werkruimte voor iedereen uit het archief halen";
 "Unarchive workspace for yourself" = "Haal de werkruimte uit het archief voor jezelf";
 "Unassigned" = "Toewijzing ongedaan gemaakt";
 "Unavailable" = "Niet beschikbaar";
@@ -2543,10 +2567,12 @@
 "Updated title %@" = "Bijgewerkte titel %@";
 "Upgrade" = "Upgrade";
 "Upload Files" = "Bestanden Uploaden";
+"Upload Progress" = "Voortgang van uploaden";
 "Upload failed" = "Uploaden mislukt";
 "Uploaded by" = "Geüpload door";
 "Uploaded by %@" = "Geüpload door %@";
 "Uploader" = "Uploader";
+"Uploaders" = "Uploaders";
 "Use" = "Gebruik";
 "Use %@ or more characters" = "Gebruik %@ of meer tekens";
 "Use 1 or more character" = "Gebruik 1 of meer tekens";
@@ -2614,6 +2640,7 @@
 "Waiting on Your Input" = "Wachten op uw invoer";
 "Waiting on your input" = "Wachten op uw input";
 "Waiting to Review" = "Wachten op beoordeling";
+"Waiting to upload" = "Wachten om te uploaden";
 "Want to use Moxo for another business?" = "Wilt u Moxo gebruiken voor een ander bedrijf?";
 "Warning" = "Waarschuwing";
 "We are currently closed." = "We zijn momenteel gesloten.";
@@ -2689,7 +2716,9 @@
 "Who needs to choose the meeting time?" = "Wie moet het tijdstip van de vergadering kiezen?";
 "Who needs to complete this?" = "Wie moet dit voltooien?";
 "Who needs to fill this form?" = "Wie moet dit formulier invullen?";
+"Who needs to review this?" = "Wie moet dit beoordelen?";
 "Who needs to sign?" = "Wie moet ondertekenen?";
+"Who needs to upload this?" = "Wie moet dit uploaden?";
 "Who needs to work on this?" = "Wie moet hieraan werken?";
 "Who will choose the meeting time?" = "Wie kiest de vergadertijd?";
 "Who will take action in this flow?" = "Wie zal actie ondernemen in deze stroom?";
@@ -2707,7 +2736,6 @@
 "Workspace Name" = "Naam van de werkruimte";
 "Workspace Name (Required)" = "Naam van de werkruimte (vereist)";
 "Workspace Owner" = "Eigenaar van de werkruimte";
-"Workspace Templates" = "Sjablonen voor werkruimte";
 "Workspace Timed Out" = "Er is een time-out opgetreden op de werkruimte";
 "Workspace Title" = "Titel werkruimte";
 "Workspace Type" = "Soort werkruimte";
@@ -2752,8 +2780,10 @@
 "You are viewing the presenter's screen now." = "U bekijkt nu het scherm van de presentator.";
 "You can add up to %@ participants. Internal users can set their booking availability times under their profile page." = "U kunt tot %@ deelnemers toevoegen. Interne gebruikers kunnen hun beschikbaarheidstijden voor boekingen instellen op hun profielpagina.";
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "Je kunt maximaal %@ deelnemers toevoegen. Interne gebruikers kunnen de beschikbaarheid van hun tijdboeking instellen op hun profielpagina.";
+"You can assign multiple roles to fill out this form together. Once one assignee submits the form, it will be marked as completed." = "U kunt meerdere rollen toewijzen om dit formulier samen in te vullen. Zodra één toegewezen persoon het formulier indient, wordt het gemarkeerd als voltooid.";
 "You can customize your default welcome message in settings." = "U kunt uw standaard welkomstbericht aanpassen in de instellingen.";
 "You can find your archived workspaces on your account page under the profile tab." = "Je kunt je gearchiveerde werkruimtes vinden op je accountpagina onder het tabblad profiel.";
+"You can invite multiple assignees, but only one is required to complete it." = "Je kunt meerdere toegewezen personen uitnodigen, maar slechts één is nodig om het te voltooien.";
 "You can leave a message, or cancel your request and try later." = "U kunt een bericht achterlaten, of uw aanvraag annuleren en het later opnieuw proberen.";
 "You can not set overlapping hours. Please, adjust the periods before saving." = "Je kunt geen overlappende uren instellen. Pas de periodes aan voordat u gaat opslaan.";
 "You can only pin up to %@ workspaces." = "U kunt maximaal %@ werkruimten vastpinnen.";
@@ -2775,6 +2805,7 @@
 "You cannot pick a time in the past." = "Je kunt geen tijdstip in het verleden kiezen.";
 "You cannot start sharing while another participant is sharing." = "U kunt niet beginnen met delen terwijl een andere deelnemer deelt.";
 "You cannot undo this action." = "U kunt deze actie niet ongedaan maken.";
+"You currently aren’t involved in any workspaces with us." = "U bent momenteel niet betrokken bij een werkplek bij ons.";
 "You declined to sign this document." = "U weigerde dit document te ondertekenen.";
 "You do not have permission to edit this note." = "U bent geen toestemming om deze opmerking te bewerken.";
 "You don't have an account on %@ yet" = "U hebt nog geen account op %@";
@@ -2826,6 +2857,7 @@
 "You're done!" = "U bent klaar!";
 "You're logged in as %@" = "U bent ingelogd als %@";
 "You've already added all of your contacts" = "U hebt al uw contacten reeds toegevoegd";
+"You've already added the maximum number of actions. (%@/200)" = "Je hebt al het maximale aantal acties toegevoegd. (%@/200)";
 "YouTube" = "YouTube";
 "Your Feed" = "Uw feed";
 "Your Flows" = "Uw Stromen";
@@ -2852,7 +2884,6 @@
 "Your mobile device is not setup for Email" = "Uw mobiele apparaat is niet ingesteld voor e-mail";
 "Your mobile device is not setup for SMS." = "Uw mobiele apparaat is niet ingesteld voor SMS.";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "Uw organisatie is niet geconfigureerd om SAML SSO te gebruiken. Log alstublieft in met uw account om verder te gaan.";
-"Your organization allows the following file types to be shared:\n%@." = "Uw organisatie staat het delen van de volgende bestandstypen toe:\n%@.";
 "Your organization requires this security configuration." = "Uw organisatie vereist deze veiligheidsconfiguratie.";
 "Your password was successfully updated." = "Uw wachtwoord werd met succes geüpdated.";
 "Your portal is no longer active" = "Uw portaal is niet langer actief";
@@ -2868,8 +2899,7 @@
 "You’re already assigned to this client and can find them in your contacts." = "U bent al aan deze cliënt toegewezen en kunt hem of haar vinden in uw contacten.";
 "You’re already signed in" = "Je bent al ingelogd";
 "You’ve already added all of the bots." = "Je hebt al alle bots toegevoegd.";
-"You’ve already added the maximum number of action steps. (%@/200)" = "U hebt reeds het maximum aantal actiestappen toegevoegd. (%@/200)";
-"You’ve already added the maximum number of assignees. (15/15)" = "Je hebt al het maximale aantal cessionarissen toegevoegd. (15/15)";
+"You’ve already added the maximum number of assignees." = "U heeft al het maximale aantal toegewezen personen toegevoegd.";
 "You’ve already added this user as a viewer." = "U hebt deze gebruiker al toegevoegd als kijker.";
 "You’ve already added this user as an assignee." = "U hebt deze gebruiker al toegevoegd als toegewezen persoon.";
 "You’ve already attached the maximum number of files. (50/50)" = "U hebt reeds het maximum aantal bestanden bijgevoegd. (50/50)";

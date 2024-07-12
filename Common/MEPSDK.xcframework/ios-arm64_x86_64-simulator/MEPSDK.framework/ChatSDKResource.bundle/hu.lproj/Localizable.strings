@@ -447,8 +447,10 @@
 "Acknowledgement due soon" = "Hamarosan esedékes az elismerés";
 "Acknowledgement due today" = "Ma esedékes igazolás";
 "Acknowledgement overdue (%@)" = "Elismerés lejárt (%@)";
+"Action Cannot Be Deleted" = "A művelet nem törölhető.";
 "Action In Progress" = "Művelet Folyamatban";
 "Action Items" = "Műveleti elemek";
+"Action Limit Reached" = "Akciólimit elérve";
 "Action Needed By" = "Művelet szükséges tőle";
 "Action Required" = "Beavatkozás szükséges";
 "Action Updated" = "Művelet Frissítve";
@@ -459,6 +461,7 @@
 "Action not started" = "A művelet nem indult el";
 "Action overdue (%@)" = "Cselekvés lejárt (%@)";
 "Action required from @%@" = "Beavatkozás szükséges @%1$@";
+"Action skipped" = "Művelet kihagyva";
 "Action will be due in %@." = "A művelet %@ múlva esedékes.";
 "Actions" = "Műveletek";
 "Actions Reassigned" = "Újra hozzárendelt Műveletek";
@@ -471,6 +474,7 @@
 "Add Annotation" = "Adj hozzá kommentárt";
 "Add Another Portal" = "Adj hozzá egy másik portált";
 "Add Assignee" = "Hozzárendelt hozzáadása";
+"Add Assignees" = "Felelősök Hozzáadása";
 "Add Attachment" = "Melléklet hozzáadása";
 "Add Backup User" = "Helyettesítő felhasználó hozzáadása";
 "Add Bots" = "Botok hozzáadása";
@@ -492,7 +496,6 @@
 "Add Role" = "Szerepkör hozzáadása";
 "Add Roles" = "Szerepek hozzáadása";
 "Add Signers" = "Aláírók Hozzáadása";
-"Add Subject" = "Tárgy hozzáadása";
 "Add User" = "Felhasználó hozzáadása";
 "Add Viewers" = "Megtekintők Hozzáadása";
 "Add Viewers (Optional)" = "Megtekintők Hozzáadása (opcionális)";
@@ -500,7 +503,7 @@
 "Add a Role" = "Szerep hozzáadása";
 "Add a To-Do" = "Egy tennivaló hozzáadása";
 "Add a To-Do Item" = "Egy teendő hozzáadása";
-"Add a brief description to your workspace" = "Adjon rövid leírást a munkaterületéhez";
+"Add a brief description for all workspace members to see" = "Adjon hozzá rövid leírást, amit minden munkaterület-tag láthat";
 "Add a role" = "Szerep hozzáadása";
 "Add description" = "Megjegyzés hozzáadása";
 "Add files" = "Fájl hozzáadása";
@@ -547,6 +550,7 @@
 "All actions waiting for others to act on will appear here." = "A mások által elvégzendő minden művelet itt fog megjelenni.";
 "All actions waiting for you to act on will appear here." = "Az Ön által elvégzendő minden művelet itt fog megjelenni.";
 "All actions were completed." = "Minden művelet elvégezve.";
+"All assignees can work together to fill out this form. Once one assignee submits the form, it will be completed." = "Minden hozzárendelt személy együtt dolgozhat az űrlap kitöltésén. Amint egyikük beküldi az űrlapot, az teljesítettnek számít.";
 "All bookmarked items will appear here." = "Az összes könyvjelzővel megjelölt elem itt fog megjelenni.";
 "All comments and other activity on this file will also be deleted." = "A fájllal kapcsolatos összes megjegyzés és egyéb tevékenység szintén törlődik";
 "All completed actions will appear here." = "Minden elvégzett művelet itt fog megjelenni.";
@@ -566,6 +570,7 @@
 "Amount" = "Összeg";
 "An Update Is Required" = "Frissítés szükséges";
 "An agent will respond when one is available." = "Kérjük, hagyjon üzenetet lent.";
+"An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace." = "Egy alternatív útvonal már végrehajtásra került. Ez a %@ most kihagyásra került, így a változtatások nem menthetők el. Vissza lesz irányítva a munkaterületre.";
 "An external user with access to invited workspaces only." = "Egy külső felhasználó, aki csak a meghívott munkaterületekhez férhet hozzá.";
 "An internal user with privileges to manage and create new workspaces in your portal." = "Egy belső felhasználó, aki jogosultsággal rendelkezik új munkaterületek kezelésére és létrehozására a portálon.";
 "An update is available for this application. You'll need to update once you are connected to Wifi." = "Lehetséges frissítés ehhez az alk.-hoz. Frissítened kell, amint wifi közelben vagy";
@@ -632,7 +637,6 @@
 "Are you sure you want to discard your changes?" = "Biztos elveted a változásokat?";
 "Are you sure you want to disconnect?" = "Biztosan bontja a kapcsolatot?";
 "Are you sure you want to leave? All changes will be lost." = "Biztosan elhagyod? Minden változtatás el fog veszni.";
-"Are you sure you want to remove \"%@\" from this workspace?" = "Biztosan el szeretné távolítani \"%@\"-t ettől a munkaterülettől?";
 "Are you sure you want to remove this attachment?" = "Biztos el akarod távolítani ezt a mellékletet?";
 "Are you sure you want to remove “%@” from this workspace?" = "Biztosan el szeretné távolítani „%@”-t ettől a munkaterülettől?";
 "Are you sure you want to start the meeting before its scheduled time?" = "Biztosan el szeretné kezdeni a megbeszélést a tervezett idő előtt?";
@@ -657,6 +661,7 @@
 "Assignee Options" = "Hozzárendelt Lehetőségek";
 "Assignees" = "Engedményesek";
 "Assignees will start collaborating on your flow after signing up if they don’t have an account yet." = "A hozzárendeltek megkezdik az együttműködést az Ön áramlásában a regisztráció után, amennyiben még nincs fiókjuk.";
+"At least one action in the main flow is necessary to support an alternative branch." = "A fő folyamatban legalább egy művelet szükséges az alternatív ág támogatásához.";
 "At least one field you added has not been filled. Please fill or remove the field(s) before finishing." = "Legalább egy hozzáadott mező nincs kitöltve. Kérjük, a befejezés előtt töltse ki vagy távolítsa el a mező(ke)t.";
 "Attachment Limit Reached" = "Elérte a Csatolmányra vonatkozó Korlátot";
 "Attachments" = "Mellékletek";
@@ -766,6 +771,7 @@
 "Choose a time to reschedule" = "Válasszon időpontot az átütemezéshez";
 "Choose application" = "Válassz alkalmazást";
 "Choose from Library" = "Válassz a könyvtárból";
+"Choose how many assignees are required to upload a file for completion." = "Válassza ki, hány hozzárendelt személynek kell fájlt feltöltenie a feladat befejezéséhez.";
 "Choose how many assignees must acknowledge this acknowledgement to complete it." = "Válassza ki, hogy hány hozzárendeltnek kell igazolnia ezt az igazolást annak teljesítéséhez.";
 "Choose how many assignees must approve this approval to complete it." = "Válassza ki, hogy hány hozzárendeltnek kell jóváhagynia ezt a jóváhagyást annak teljesítéséhez.";
 "Choose how many assignees must finish this to-do to complete it." = "Válassza ki, hány feladatot kell befejeznie ennek a teendőnek a teljesítéséhez.";
@@ -1091,7 +1097,6 @@
 "Edit your filters to see results" = "Szűrők szerkesztése az eredmények megtekintéséhez";
 "Editable by..." = "Szerkeszthető általa...";
 "Edited" = "Szerkesztett";
-"Editing Controls" = "Vezérlőelemek szerkesztése";
 "Editing of this To-Do was locked by internal users." = "Ennek a teendőnek a szerkesztését a belső felhasználók zárolták.";
 "Editor" = "Szerkesztő";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "Hatékonyan irányítsa az új ügyfeleket egy egyszerűsített, több lépéses bevezető folyamaton keresztül.";
@@ -1177,6 +1182,12 @@
 "File Info" = "File infó";
 "File Request" = "Fájlkérés";
 "File Request assigned to %@" = "Fájlkérés %@ felhasználóhoz rendelve";
+"File Request assigned to %@ and %@ other users" = "Fájlkérés hozzárendelve %1$@ és %2$@ másik felhasználóhoz.";
+"File Request assigned to %@ and %@ other users." = "Fájlkérés hozzárendelve %1$@ és %2$@ másik felhasználóhoz.";
+"File Request assigned to %@ and %@ other users: %@" = "Fájlkérés hozzárendelve %1$@ és %2$@ további felhasználóhoz: %3$@";
+"File Request assigned to %@ and one other user" = "Fájlkérés hozzárendelve %@ és még egy másik felhasználóhoz";
+"File Request assigned to %@ and one other user." = "Fájlkérés hozzárendelve %@ és még egy másik felhasználóhoz.";
+"File Request assigned to %@ and one other user: %@" = "Fájlkérés hozzárendelve %1$@ és még egy másik felhasználóhoz: %2$@";
 "File Request assigned to %@." = "Fájlkérés %@ felhasználóhoz rendelve.";
 "File Request assigned to %@: %@" = "Fájlkérés %1$@ felhasználóhoz rendelve: %2$@";
 "File Request assigned to you" = "Fájlkérés Önhöz rendelve";
@@ -1193,8 +1204,10 @@
 "File Request ready for review: %@" = "A Fájlkérés készen áll az áttekintésre: %@";
 "File Request reopened" = "Fájlkérés újra nyitva";
 "File Reviewer" = "Fájláttekintő";
+"File Reviewers" = "Fájl Ellenőrök";
 "File Size Exceeded" = "A fájlméret túllépve";
 "File doesn't exist." = "A file nem létezik.";
+"File sharing permissions are restricted to %@ formats." = "A fájlmegosztási jogosultságok korlátozódnak a %@ formátumokra.";
 "File size limit reached (%@)" = "Fájlméret elérte a korlátot: (%@)";
 "File type unsupported" = "A fájltípus nem támogatott";
 "File upload failed. Please try again." = "A file feltöltése sikertelen. Kérlek próbáld újra.";
@@ -1213,7 +1226,6 @@
 "Finish setting up your first workspace" = "Fejezze be az első munkaterület beállítását";
 "Fix Perspective" = "Fix perspektíva";
 "Flow" = "Áramlás";
-"Flow Template Library" = "Áramlássablon Könyvtára";
 "Flow Templates" = "Áramlássablonok";
 "Flow Workspace" = "Áramlás-munkaterület";
 "Flow Workspace transferred to you" = "Az áramlás-munkaterület át lett ruházva Önre";
@@ -1234,8 +1246,14 @@
 "Forgot your password?" = "Elfelejtetted a jelszavad?";
 "Form" = "Űrlap";
 "Form Preview" = "Űrlap előnézete";
-"Form Responses" = "Űrlap válaszai";
+"Form Response" = "Űrlap válasz";
 "Form assigned to %@" = "Űrlap %@ felhasználóhoz rendelve";
+"Form assigned to %@ and %@ other users" = "Űrlap hozzárendelve %1$@ és %2$@ további felhasználóhoz.";
+"Form assigned to %@ and %@ other users." = "Űrlap hozzárendelve %1$@ és %2$@ további felhasználóhoz.";
+"Form assigned to %@ and %@ other users: %@" = "Űrlap hozzárendelve %1$@ és %2$@ más felhasználóhoz: %3$@";
+"Form assigned to %@ and one other user" = "Űrlap hozzárendelve %@ és még egy másik felhasználóhoz.";
+"Form assigned to %@ and one other user." = "Űrlap hozzárendelve %@ és még egy másik felhasználóhoz.";
+"Form assigned to %@ and one other user: %@" = "Űrlap hozzárendelve %1$@ és még egy másik felhasználóhoz: %2$@";
 "Form assigned to %@." = "Űrlap %@ felhasználóhoz rendelve";
 "Form assigned to %@: %@" = "Űrlap %1$@ felhasználóhoz rendelve %2$@";
 "Form assigned to you" = "Önhöz rendelt űrlap";
@@ -1712,6 +1730,7 @@
 "Only one assignee is required to acknowledge this acknowledgement to complete it." = "Csak egy hozzárendeltnek kell igazolnia ezt az igazolást annak teljesítéséhez.";
 "Only one assignee is required to approve this approval to complete it." = "Csak egy hozzárendeltnek kell jóváhagynia ezt a jóváhagyást annak teljesítéséhez.";
 "Only one assignee is required to finish this to-do to complete it." = "Csak egy feladatot ellátó személy szükséges a teendő befejezéséhez.";
+"Only one assignee is required to upload files for completion." = "Csak egy feladatot ellátó személy szükséges a fájlok feltöltéséhez a befejezéshez.";
 "Only participants can view meeting details." = "Csak a résztvevők tekinthetik meg az értekezlet részleteit.";
 "Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "Csak a cím, leírás és határidő szerkeszthető a %1$@ műveletekben. Ha módosítani kell a hozzárendeléseket vagy frissíteni bármely más részletet, kérjük, hozzon létre egy új %2$@ műveletet.";
 "Only the workspace owner can adjust link security" = "Csak a munkaterület tulajdonosa állíthatja be a link biztonságát";
@@ -1965,6 +1984,7 @@
 "Review DocuSign Details" = "DocuSign Adatok áttekintése";
 "Review E-Sign Details" = "E-Sign Részletek Áttekintése";
 "Review Now" = "Áttekintés most";
+"Review Progress" = "Haladás Felülvizsgálata";
 "Review Submissions" = "Beküldések Áttekintése";
 "Review the following attachments to confirm this acknowledgement." = "Ennek az igazolásnak a megerősítéséhez tekintse át az alábbi csatolmányokat.";
 "Role" = "Szerep";
@@ -2180,7 +2200,6 @@
 "Step Details" = "Lépés Részletei";
 "Step Details (Step %@)" = "Lépés Részletei (%@ Lépés)";
 "Step In Progress" = "Lépés Folyamatban";
-"Step Limit Reached" = "Elérte a Lépésre vonatkozó Korlátot";
 "Step Removed" = "Lépés Eltávolítva";
 "Step edited" = "Lépés szerkesztve";
 "Stop Co-Browsing" = "Társas böngészés leállítása";
@@ -2196,7 +2215,7 @@
 "Submitted by %@" = "Benyújtotta %@";
 "Submitted by %@ (You)" = "Beküldő: %@ (Te)";
 "Submitted on %@" = "Beküldve %@";
-"Submitted responses will show here." = "A beküldött válaszok itt jelennek meg.";
+"The submitted response will be displayed here." = "A beküldött válasz itt jelenik meg.";
 "Successfully Switched" = "Sikeresen váltott";
 "Successfully connected with %@!" = "Sikeresen csatlakozott %@-val/vel!";
 "Sunday" = "Vasárnap";
@@ -2272,6 +2291,7 @@
 "The operation did not complete successfully: %@" = "A művelet nem fejeződött be sikeresen: %@";
 "The person who will submit the required files." = "Az a személy, aki elküldi a szükséges fájlokat.";
 "The person who will verify and approve the submitted files." = "Az a személy, aki ellenőrzi és jóváhagyja az elküldött fájlokat.";
+"The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "Az a személy, aki ellenőrzi és jóváhagyja a benyújtott fájlokat. Meghívhat több ellenőrzőt is. A művelet akkor tekinthető befejezettnek, amikor bármelyik fájl ellenőrző megerősíti.";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "Az előző hivatkozás le fog járni. A lejárt hivatkozással rendelkező személyek nem tudják a hivatkozást használni a platformhoz való csatlakozáshoz.";
 "The selected items will be added to %@ in %@." = "A rendszer hozzáadja a kiválasztott elemeket a(z) %2$@ iratgyűjtő %1$@ mappájához.";
 "The selected items will be added to %@." = "A rendszer hozzáadja a kiválasztott elemeket a(z) %@ iratgyűjtőhoz.";
@@ -2295,9 +2315,10 @@
 "They will not archive for other members and will automatically un-archived after new activity." = "A többi tag számára nem lesznek archiválva, és az új tevékenység után automatikusan megszűnik az archiválás.";
 "They will see the flow cover page with basic details about the flow and your welcome message." = "Látni fogják az áramlás borító oldalát, az áramlással kapcsolatos alapvető részletekkel és az üdvözlő üzenettel.";
 "Things like statements, reports, invoices, etc. created by the org are sent to these inboxes." = "A szervezet által létrehozott dolgok, például nyilatkozatok, jelentések, számlák... stb. ezekbe a postaládákba küldődnek.";
-"This %@ was already completed or deleted while you were editing and changes can not be saved. You will be directed back to the workspace." = "Ezt a(z) %@ műveletet már befejezték és törölték, miközben Ön szerkesztette, és módosítások már nem menthetők. A rendszer visszairányítja Önt a munkaterülethez.";
+"This %@ has been completed or deleted, so your changes cannot be saved. You’ll be directed back to the workspace." = "Ez a %@ befejeződött vagy törölve lett, így a változtatások nem menthetők el. Vissza lesz irányítva a munkaterületre.";
 "This %@ was already finished by the assignee and it can no longer be deleted." = "Ezt a(z) %@ műveletet már befejezte a hozzárendelt, és a továbbiakban nem törölhető.";
 "This %@ was already finished by the assignee and it can no longer be removed. " = "Ezt a(z) %@ műveletet már befejezte a hozzárendelt, és a továbbiakban nem távolítható el.";
+"This %@ was skipped. Please review the flow." = "Ez a %@ ki lett hagyva. Kérjük, tekintse át a folyamatot.";
 "This Meeting" = "Ez az értekezlet";
 "This To-Do can not support multiple assignees. To add more assignees, please create a brand new To-Do." = "Ez a teendőlista nem támogatja a több hozzárendelést. További hozzárendelések hozzáadásához kérjük, hozzon létre egy teljesen új teendőlistát.";
 "This Will End Your Current Meeting" = "Ezzel véget ér az aktuális értekezlet";
@@ -2305,8 +2326,10 @@
 "This action cannot be undone" = "Ez a művelet nem visszavonható";
 "This action cannot be undone." = "Ez a művelet nem visszavonható.";
 "This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost." = "Ez a művelet már elindult, és a hozzárendeltek áttekinthetik és eljárhatnak a lépéssel kapcsolatban, miközben Ön szerkesztést végez. Minden már befejezett folyamat elvész.";
+"This action has been completed. You will be directed back to the workspace." = "Ez a művelet befejeződött. Vissza lesz irányítva a munkaterületre.";
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "Ez a művelet törölve lett, és az Ön részéről már nincs szükség műveletre. A rendszer visszairányítja Önt a munkaterülethez.";
 "This action has been updated. Please review the details again before taking action. You will be directed back to the workspace." = "Ez a művelet frissítve lett. Kérjük, a művelet megkezdése előtt tekintse át újra a részleteket. A rendszer visszairányítja Önt a munkaterülethez.";
+"This action will be completed once any file reviewer confirms." = "Ez a művelet befejeződik, amint bármely fájlellenőrző megerősíti.";
 "This and Following Meetings" = "Ez és az azt követő értekezletek";
 "This content may have been deleted or otherwise removed." = "Ez a tartalom esetleg törölve lett vagy más módon el lett távolítva.";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "Ez a dokumentum mezőket tartalmaz. Szeretné automatikusan hozzáadni és hozzárendelni ezeket a mezőket valakihez?";
@@ -2510,10 +2533,11 @@
 "Unable to share your screen while co-browsing." = "A képernyőmegosztás nem lehetséges társas böngészés közben.";
 "Unable to start the meeting. Another meeting is in progress." = "A találkozó nem indítható el. Kérjük próbál meg később.";
 "Unable to start this Flow Workspace because it exceeds the member limit set by your organization." = "Nem lehet elindítani ezt az áramlás-munkaterületet, mert meghaladja a szervezet által beállított tagsági korlátot.";
+"Unable to upload files" = "Nem sikerült fájlokat feltölteni";
 "Unable to upload the file %@. Please try again." = "A következő fájl nem tölthető fel: %@. Kérlek próbáld újra.";
 "Unarchive" = "Archiválás visszavonása";
 "Unarchive Workspace" = "Archívumtól való munkaterület visszaállítása";
-"Unarchive workspace for all" = "Munkaterület archiválásának visszavonása mindenkinek";
+"Unarchive workspace for everyone" = "Munkaterület archiválásának visszavonása mindenki számára";
 "Unarchive workspace for yourself" = "Archívumból való munkaterület visszaállítása saját magának";
 "Unassigned" = "Nincs hozzárendelve";
 "Unavailable" = "Nem elérhető";
@@ -2539,10 +2563,12 @@
 "Updated title %@" = "Frissített cím: %@";
 "Upgrade" = "Frissítés";
 "Upload Files" = "Fájlok feltöltése";
+"Upload Progress" = "Feltöltési folyamat";
 "Upload failed" = "Feltöltés sikertelen";
 "Uploaded by" = "Feltöltötte";
 "Uploaded by %@" = "Feltöltötte: %@";
 "Uploader" = "Feltöltő";
+"Uploaders" = "Feltöltők";
 "Use" = "Használat";
 "Use %@ or more characters" = "Használj %@ vagy több karaktert";
 "Use 1 or more character" = "Használjon legalább egy karaktert";
@@ -2610,6 +2636,7 @@
 "Waiting on Your Input" = "Várakozás az Ön információjára";
 "Waiting on your input" = "Várakozás a beadásra";
 "Waiting to Review" = "Várakozás az Áttekintésre";
+"Waiting to upload" = "Várakozás a feltöltésre";
 "Want to use Moxo for another business?" = "Szeretnéd a Moxot egy másik vállalkozáshoz használni?";
 "Warning" = "Figyelem";
 "We are currently closed." = "Jelenleg zárva vagyunk.";
@@ -2685,7 +2712,9 @@
 "Who needs to choose the meeting time?" = "Kinek kell megválasztania az értekezlet időpontját?";
 "Who needs to complete this?" = "Kinek kell ezt teljesítenie?";
 "Who needs to fill this form?" = "Kinek kell kitöltenie ezt az űrlapot?";
+"Who needs to review this?" = "Ki kell ezt átnéznie?";
 "Who needs to sign?" = "Kinek kell aláírnia?";
+"Who needs to upload this?" = "Ki kell feltöltenie ezt?";
 "Who needs to work on this?" = "Kinek kell ezen dolgoznia?";
 "Who will choose the meeting time?" = "Ki fogja megválasztani az értekezlet időpontját?";
 "Who will take action in this flow?" = "Ki fog cselekedni ebben az áramlásban?";
@@ -2703,7 +2732,6 @@
 "Workspace Name" = "Munkaterület neve";
 "Workspace Name (Required)" = "Munkaterület neve (kötelező)";
 "Workspace Owner" = "Munkaterület tulajdonosa";
-"Workspace Templates" = "Munkaterület Sablonok";
 "Workspace Timed Out" = "Munkaterületre vonatkozó idő túllépve";
 "Workspace Title" = "Munkaterület címe";
 "Workspace Type" = "Munkaterület-típus";
@@ -2748,8 +2776,10 @@
 "You are viewing the presenter's screen now." = "Most az előadó képernyőjét nézed.";
 "You can add up to %@ participants. Internal users can set their booking availability times under their profile page." = "Legfeljebb %@ résztvevőt adhat hozzá. A belső felhasználók beállíthatják foglalhatósági idejüket a profiloldalukon.";
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "Legfeljebb %@ résztvevőt adhat hozzá. A belső felhasználók a profiloldalukon állíthatják be az időpontfoglalási elérhetőségüket.";
+"You can assign multiple roles to fill out this form together. Once one assignee submits the form, it will be marked as completed." = "Több szerepet is hozzárendelhet ehhez az űrlaphoz, hogy együtt töltsék ki. Amint egy feladatot ellátó személy beküldi az űrlapot, azt teljesítettként jelölik meg.";
 "You can customize your default welcome message in settings." = "Módosíthatod az alapértelmezett üdvözlő üzenetet a beállításoknál";
 "You can find your archived workspaces on your account page under the profile tab." = "Archivált munkaterületeit a fiók oldalán, a profil fül alatt találja meg.";
+"You can invite multiple assignees, but only one is required to complete it." = "Meghívhat több hozzárendeltet is, de a teljesítéshez csak egy személy szükséges.";
 "You can leave a message, or cancel your request and try later." = "Hagyjon üzenetet, vagy törölje a kérést, és próbálja meg később.";
 "You can not set overlapping hours. Please, adjust the periods before saving." = "Nem lehet egymást átfedő időszakokat beállítani. Mentés előtt állítsa be az időszakokat.";
 "You can only pin up to %@ workspaces." = "Csak %@ munkaterületet tud kitűzni.";
@@ -2771,6 +2801,7 @@
 "You cannot pick a time in the past." = "Múltbeli időt nem választhat.";
 "You cannot start sharing while another participant is sharing." = "Nem kezdheted el a megosztást, míg egy másik résztvevő megoszt.";
 "You cannot undo this action." = "Ezt a műveletet nem vonhatja vissza.";
+"You currently aren’t involved in any workspaces with us." = "Jelenleg nem vesz részt semmilyen munkaterületen velünk.";
 "You declined to sign this document." = "Elutasítottad a dokumentum aláírását";
 "You do not have permission to edit this note." = "Nincs jogosultsága ezt a jegyzetet szerkeszteni.";
 "You don't have an account on %@ yet" = "Nincs még fiókja itt: %@";
@@ -2821,6 +2852,7 @@
 "You're done!" = "Végeztél";
 "You're logged in as %@" = "%@ címen van bejelentkezve";
 "You've already added all of your contacts" = "Már hozzáadta az összes kapcsolatát";
+"You've already added the maximum number of actions. (%@/200)" = "Már hozzáadtad a maximális számú műveletet. (%@/200)";
 "YouTube" = "YouTube";
 "Your Feed" = "Az Ön hírfolyama";
 "Your Flows" = "Az Ön Áramlásai";
@@ -2847,7 +2879,6 @@
 "Your mobile device is not setup for Email" = "A mobilkészülék nincs beállítva az e-mailhez";
 "Your mobile device is not setup for SMS." = "A mobilkészülék nincs beállítva az SMS-hez.";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "Az Ön szervezete nincs beállítva a SAML SSO használatára. Kérjük, jelentkezzen be fiókjával a folytatáshoz.";
-"Your organization allows the following file types to be shared:\n%@." = "A szervezete a következő fájltípusok megosztását engedélyezi:\n%@.";
 "Your organization requires this security configuration." = "Az Ön szervezete előírja ezt a biztonsági beállítást.";
 "Your password was successfully updated." = "Jelszava sikeresen frissült.";
 "Your portal is no longer active" = "Portálja már nem aktív";
@@ -2863,8 +2894,7 @@
 "You’re already assigned to this client and can find them in your contacts." = "Ön már hozzá van rendelve ehhez az ügyfélhez, és megtalálja őt a kapcsolatok között.";
 "You’re already signed in" = "Már be vagy jelentkezve";
 "You’ve already added all of the bots." = "Már hozzáadtál minden botot.";
-"You’ve already added the maximum number of action steps. (%@/200)" = "Már hozzáadta a maximális számú műveleti lépést. (%@/200)";
-"You’ve already added the maximum number of assignees. (15/15)" = "Már hozzáadta a maximális számú hozzárendeltet. (15/15)";
+"You’ve already added the maximum number of assignees." = "Már hozzáadta a hozzárendelések maximális számát.";
 "You’ve already added this user as a viewer." = "Már hozzáadta ezt a felhasználót megtekintőként.";
 "You’ve already added this user as an assignee." = "Már hozzáadta ezt a felhasználót hozzárendeltként.";
 "You’ve already attached the maximum number of files. (50/50)" = "Már maximális számú fájlt csatolt. (50/50)";

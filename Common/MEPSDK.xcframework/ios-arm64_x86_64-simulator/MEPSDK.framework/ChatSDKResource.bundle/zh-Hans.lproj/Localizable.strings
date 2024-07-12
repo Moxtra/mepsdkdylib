@@ -447,8 +447,10 @@
 "Acknowledgement due soon" = "即将到期的确认书";
 "Acknowledgement due today" = "确认书今天到期";
 "Acknowledgement overdue (%@)" = "确认书逾期 (%@)";
+"Action Cannot Be Deleted" = "操作无法删除";
 "Action In Progress" = "操作正在进行中";
 "Action Items" = "待操作事项";
+"Action Limit Reached" = "操作限制已达到";
 "Action Needed By" = "需要采取行动的是";
 "Action Required" = "等待处理";
 "Action Updated" = "操作已更新";
@@ -459,6 +461,7 @@
 "Action not started" = "操作未开始";
 "Action overdue (%@)" = "操作逾期 (%@)";
 "Action required from @%@" = "需要@%1$@处理操作";
+"Action skipped" = "操作已跳过";
 "Action will be due in %@." = "操作将于%@后到期。";
 "Actions" = "操作";
 "Actions Reassigned" = "操作重新分配";
@@ -471,6 +474,7 @@
 "Add Annotation" = "添加标注";
 "Add Another Portal" = "添加另一个门户";
 "Add Assignee" = "添加经办人";
+"Add Assignees" = "添加经办人";
 "Add Attachment" = "添加附件";
 "Add Backup User" = "添加备份用户";
 "Add Bots" = "添加机器人";
@@ -492,7 +496,6 @@
 "Add Role" = "添加角色";
 "Add Roles" = "添加角色";
 "Add Signers" = "添加签名者";
-"Add Subject" = "添加主题";
 "Add User" = "添加用户";
 "Add Viewers" = "添加浏览者";
 "Add Viewers (Optional)" = "添加浏览者（可选）";
@@ -500,7 +503,7 @@
 "Add a Role" = "添加角色";
 "Add a To-Do" = "添加新任务";
 "Add a To-Do Item" = "添加一个新任务";
-"Add a brief description to your workspace" = "为您的工作空间添加简要描述";
+"Add a brief description for all workspace members to see" = "添加简短描述供所有工作空间成员查看";
 "Add a role" = "添加角色";
 "Add description" = "设置描述信息";
 "Add files" = "添加文件";
@@ -547,6 +550,7 @@
 "All actions waiting for others to act on will appear here." = "所有等待其他人执行的操作都会出现在这里。";
 "All actions waiting for you to act on will appear here." = "所有等待您执行的操作都将显示在此处。";
 "All actions were completed." = "所有操作已完成。";
+"All assignees can work together to fill out this form. Once one assignee submits the form, it will be completed." = "所有经办人可以共同填写此表单。一旦有一个经办人提交了表单，它就算完成了。";
 "All bookmarked items will appear here." = "所有已加入书签的项目将显示在这里。";
 "All comments and other activity on this file will also be deleted." = "所有的评论和其他的关于该文件的记录都会被删除";
 "All completed actions will appear here." = "所有已完成的操作都将显示在此处。";
@@ -566,6 +570,7 @@
 "Amount" = "数额";
 "An Update Is Required" = "需要升级您的应用";
 "An agent will respond when one is available." = "请在下面留言。";
+"An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace." = "已执行了一个备选路径。这个%@已被跳过，因此您的更改无法保存。系统将引导您返回工作空间。";
 "An external user with access to invited workspaces only." = "只能访问受邀工作空间的外部用户。";
 "An internal user with privileges to manage and create new workspaces in your portal." = "具有在门户中管理和创建新工作空间的权限的内部用户。";
 "An update is available for this application. You'll need to update once you are connected to Wifi." = "发现有更新。一旦您连接到Wifi，您将需要更新应用。";
@@ -632,7 +637,6 @@
 "Are you sure you want to discard your changes?" = "您确定要放弃所做的更改吗？";
 "Are you sure you want to disconnect?" = "您确定要断开连接吗？";
 "Are you sure you want to leave? All changes will be lost." = "您确定要离开吗？之前完成部分将被取消。";
-"Are you sure you want to remove \"%@\" from this workspace?" = "您确定要将“%@”从这个工作空间中移除吗？";
 "Are you sure you want to remove this attachment?" = "确定要删除附件么？";
 "Are you sure you want to remove “%@” from this workspace?" = "您确定要将“%@”从这个工作空间中移除吗？";
 "Are you sure you want to start the meeting before its scheduled time?" = "您确定要在预定时间之前开始会议吗？";
@@ -657,6 +661,7 @@
 "Assignee Options" = "经办人选项";
 "Assignees" = "经办人";
 "Assignees will start collaborating on your flow after signing up if they don’t have an account yet." = "如果经办人还没有帐户，他们将在注册后开始协作处理您的流程。";
+"At least one action in the main flow is necessary to support an alternative branch." = "主流程中至少需要一个操作来支持一个备选分支。";
 "At least one field you added has not been filled. Please fill or remove the field(s) before finishing." = "至少有一个你添加的字段没有被填写，请在结束前填写或删除该字段。";
 "Attachment Limit Reached" = "已达到附件数量限制";
 "Attachments" = "附件";
@@ -766,6 +771,7 @@
 "Choose a time to reschedule" = "选择重新安排的时间";
 "Choose application" = "选择地图应用";
 "Choose from Library" = "从相册选择";
+"Choose how many assignees are required to upload a file for completion." = "选择需要多少经办人上传文件以完成任务。";
 "Choose how many assignees must acknowledge this acknowledgement to complete it." = "选择有多少经办人必须确认此确认书才能完成。";
 "Choose how many assignees must approve this approval to complete it." = "选择有多少经办人必须批准此审批才能完成。";
 "Choose how many assignees must finish this to-do to complete it." = "选择需要完成此任务的经办人数量。";
@@ -1092,7 +1098,6 @@
 "Edit your filters to see results" = "编辑过滤器看结果";
 "Editable by..." = "可编辑...";
 "Edited" = "被编辑过";
-"Editing Controls" = "编辑控制权限";
 "Editing of this To-Do was locked by internal users." = "此任务的编辑权限已被内部用户锁定。";
 "Editor" = "编辑";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "通过简化的多步骤引导新客户，高效完成入职流程。";
@@ -1178,6 +1183,12 @@
 "File Info" = "文件信息";
 "File Request" = "文件请求";
 "File Request assigned to %@" = "分配给%@的文件请求";
+"File Request assigned to %@ and %@ other users" = "文件请求已分配给%1$@和其他%2$@位用户";
+"File Request assigned to %@ and %@ other users." = "文件请求已分配给%1$@和其他%2$@位用户。";
+"File Request assigned to %@ and %@ other users: %@" = "文件请求分配给%1$@和其他%2$@位用户：%3$@";
+"File Request assigned to %@ and one other user" = "文件请求已分配给%@和另一位用户";
+"File Request assigned to %@ and one other user." = "文件请求已分配给%@和另一位用户。";
+"File Request assigned to %@ and one other user: %@" = "文件请求分配给%1$@和另一位用户：%2$@";
 "File Request assigned to %@." = "分配给%@的文件请求。";
 "File Request assigned to %@: %@" = "分配给%1$@的文件请求：%2$@";
 "File Request assigned to you" = "分配给您的文件请求";
@@ -1194,8 +1205,10 @@
 "File Request ready for review: %@" = "文件请求可供审核：%@";
 "File Request reopened" = "文件请求重新打开";
 "File Reviewer" = "文件审阅者";
+"File Reviewers" = "文件审查员";
 "File Size Exceeded" = "文件大小超出限制";
 "File doesn't exist." = "文件不存在。";
+"File sharing permissions are restricted to %@ formats." = "文件共享权限仅限于%@格式。";
 "File size limit reached (%@)" = "已达到文件大小限制 (%@)";
 "File type unsupported" = "文件类型不支持";
 "File upload failed. Please try again." = "上传文件失败，请重新上传。";
@@ -1214,7 +1227,6 @@
 "Finish setting up your first workspace" = "完成设置您的第一个工作空间";
 "Fix Perspective" = "校准";
 "Flow" = "流程";
-"Flow Template Library" = "流程模板库";
 "Flow Templates" = "流模板";
 "Flow Workspace" = "流程工作空间";
 "Flow Workspace transferred to you" = "流程工作空间转移给您";
@@ -1235,8 +1247,14 @@
 "Forgot your password?" = "忘记密码？";
 "Form" = "表单";
 "Form Preview" = "表单预览";
-"Form Responses" = "表单回复";
+"Form Response" = "表单回复";
 "Form assigned to %@" = "分配给%@的表单";
+"Form assigned to %@ and %@ other users" = "表单分配给%1$@和其他%2$@个用户";
+"Form assigned to %@ and %@ other users." = "表单已分配给%1$@和其他%2$@位用户。";
+"Form assigned to %@ and %@ other users: %@" = "表单分配给%1$@和其他%2$@位用户：%3$@";
+"Form assigned to %@ and one other user" = "表单已分配给%@和另一位用户";
+"Form assigned to %@ and one other user." = "表单已分配给%@和另一位用户。";
+"Form assigned to %@ and one other user: %@" = "表单已分配给%1$@和另一位用户：%2$@";
 "Form assigned to %@." = "分配给%@的表单。";
 "Form assigned to %@: %@" = "分配给%1$@的表单：%2$@";
 "Form assigned to you" = "分配给您的表单";
@@ -1714,6 +1732,7 @@
 "Only one assignee is required to acknowledge this acknowledgement to complete it." = "仅需一名经办人确认此确认书即可完成。";
 "Only one assignee is required to approve this approval to complete it." = "仅需一名经办人来批准此审批即可完成。";
 "Only one assignee is required to finish this to-do to complete it." = "只需要一个经办人完成此任务即可完成它。";
+"Only one assignee is required to upload files for completion." = "只需一个经办人上传文件即可完成。";
 "Only participants can view meeting details." = "只有参与者才能查看会议详细信息。";
 "Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "仅可编辑%1$@操作中的标题、描述和截止日期。如果您需要修改经办人或更新任何其他详细信息，请创建新的%2$@操作。";
 "Only the workspace owner can adjust link security" = "只有工作空间的所有者才能调整链接安全性";
@@ -1968,6 +1987,7 @@
 "Review DocuSign Details" = "查看DocuSign详细信息";
 "Review E-Sign Details" = "查看电子签名详细信息";
 "Review Now" = "即刻审核";
+"Review Progress" = "审查进度";
 "Review Submissions" = "审核提交的资料";
 "Review the following attachments to confirm this acknowledgement." = "查看以下附件以确认此确认书。";
 "Role" = "角色";
@@ -2184,7 +2204,6 @@
 "Step Details" = "步骤详情";
 "Step Details (Step %@)" = "步骤详情（步骤 %@）";
 "Step In Progress" = "步骤正在进行中";
-"Step Limit Reached" = "达到步数限制";
 "Step Removed" = "步骤已删除";
 "Step edited" = "步骤已编辑";
 "Stop Co-Browsing" = "停止协同浏览";
@@ -2200,7 +2219,7 @@
 "Submitted by %@" = "提交用户是 %@";
 "Submitted by %@ (You)" = "由%@（您）提交";
 "Submitted on %@" = "提交于 %@";
-"Submitted responses will show here." = "提交的回复将显示在这里。";
+"The submitted response will be displayed here." = "提交的回应将在此显示。";
 "Successfully Switched" = "成功切换";
 "Successfully connected with %@!" = "成功的与%@建立联系!";
 "Sunday" = "周日";
@@ -2276,6 +2295,7 @@
 "The operation did not complete successfully: %@" = "这个操作没有完全成功： %@";
 "The person who will submit the required files." = "提交所需文件的人。";
 "The person who will verify and approve the submitted files." = "验证和批准所提交文件的人。";
+"The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "将验证并批准提交文件的人。您可以邀请多个审查员。任何文件审查员确认后，操作即为完成。";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "之前的链接将会失效。使用失效链接将无法成功加入平台。";
 "The selected items will be added to %@ in %@." = "所选项目将被添加到%2$@的%1$@中。";
 "The selected items will be added to %@." = "所选项目将被添加到%@中。";
@@ -2299,9 +2319,10 @@
 "They will not archive for other members and will automatically un-archived after new activity." = "他们不会为其他成员存档，并且会在新活动后自动取消存档。";
 "They will see the flow cover page with basic details about the flow and your welcome message." = "他们将看到流程封面页，其中包含有关流程的基本详细信息和您的欢迎信息。";
 "Things like statements, reports, invoices, etc. created by the org are sent to these inboxes." = "公司创建的报表，报告，发票等内容将发送到这些收件箱。";
-"This %@ was already completed or deleted while you were editing and changes can not be saved. You will be directed back to the workspace." = "此%@在您编辑时已完成或已删除，更改无法保存，您将被引导回工作空间。";
+"This %@ has been completed or deleted, so your changes cannot be saved. You’ll be directed back to the workspace." = "此%@已完成或已删除，因此无法保存您的更改。系统将引导您返回工作空间。";
 "This %@ was already finished by the assignee and it can no longer be deleted." = "此%@已由经办人完成，无法再删除。";
 "This %@ was already finished by the assignee and it can no longer be removed. " = "此%@已由经办人完成，无法再删除。";
+"This %@ was skipped. Please review the flow." = "此%@已跳过。请检查流程。";
 "This Meeting" = "这次会议";
 "This To-Do can not support multiple assignees. To add more assignees, please create a brand new To-Do." = "此任务不支持多个经办人。要添加更多经办人，请创建一个全新的任务。";
 "This Will End Your Current Meeting" = "这将结束您当前的会议";
@@ -2309,8 +2330,10 @@
 "This action cannot be undone" = "这个操作不能撤销";
 "This action cannot be undone." = "这个操作不能撤销。";
 "This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost." = "此操作已经开始，经办人可以在您编辑时查看和执行步骤。任何已经完成的进度都将丢失。";
+"This action has been completed. You will be directed back to the workspace." = "此操作已完成。您将被引导回到工作空间。";
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "此操作已删除，不再需要您的操作，您将被引导回工作空间。";
 "This action has been updated. Please review the details again before taking action. You will be directed back to the workspace." = "此操作已更新，请在采取行动之前再次查看详细信息，您将被引导回工作空间。";
+"This action will be completed once any file reviewer confirms." = "一旦任何文件审查员确认，此操作将完成。";
 "This and Following Meetings" = "这次及以后的会议";
 "This content may have been deleted or otherwise removed." = "此内容可能已被删除或以其他方式删除。";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "此文档包含字段。是否要自动添加这些字段并将其分配给某人？";
@@ -2514,10 +2537,11 @@
 "Unable to share your screen while co-browsing." = "协同浏览时无法共享屏幕。";
 "Unable to start the meeting. Another meeting is in progress." = "无法启动会议，因为有另一个会议正在进行中。";
 "Unable to start this Flow Workspace because it exceeds the member limit set by your organization." = "无法启动此流程工作空间，因为它超出了您的组织设置的成员限制。";
+"Unable to upload files" = "无法上传文件";
 "Unable to upload the file %@. Please try again." = "不能上传文件%@。 请再试。";
 "Unarchive" = "取消存档";
 "Unarchive Workspace" = "取消存档工作空间";
-"Unarchive workspace for all" = "为所有人取消存档工作空间";
+"Unarchive workspace for everyone" = "为所有人取消存档工作空间";
 "Unarchive workspace for yourself" = "为自己取消归档工作空间";
 "Unassigned" = "未分配";
 "Unavailable" = "不可用";
@@ -2543,10 +2567,12 @@
 "Updated title %@" = "更新主题%@";
 "Upgrade" = "升级";
 "Upload Files" = "上传文件";
+"Upload Progress" = "上传进度";
 "Upload failed" = "上传失败";
 "Uploaded by" = "上传的：";
 "Uploaded by %@" = "%@上传的";
 "Uploader" = "上传者";
+"Uploaders" = "上传者";
 "Use" = "使用";
 "Use %@ or more characters" = "至少使用%@字符";
 "Use 1 or more character" = "使用一个或多个字符";
@@ -2614,6 +2640,7 @@
 "Waiting on Your Input" = "等待您的输入";
 "Waiting on your input" = "等待您的输入";
 "Waiting to Review" = "等待审核";
+"Waiting to upload" = "等待上传";
 "Want to use Moxo for another business?" = "想要为另一家企业使用Moxo吗？";
 "Warning" = "警告";
 "We are currently closed." = "我们当前已休息。";
@@ -2689,7 +2716,9 @@
 "Who needs to choose the meeting time?" = "谁需要选择会议时间？";
 "Who needs to complete this?" = "谁需要完成这项工作？";
 "Who needs to fill this form?" = "谁需要填写此表单？";
+"Who needs to review this?" = "谁需要审查这个？";
 "Who needs to sign?" = "谁需要签名？";
+"Who needs to upload this?" = "谁需要上传这个？";
 "Who needs to work on this?" = "谁需要为此工作？";
 "Who will choose the meeting time?" = "谁将选择会议时间？";
 "Who will take action in this flow?" = "谁将在此流程中进行操作？";
@@ -2707,7 +2736,6 @@
 "Workspace Name" = "工作空间名称";
 "Workspace Name (Required)" = "工作空间名称（必填）";
 "Workspace Owner" = "工作空间所有者";
-"Workspace Templates" = "工作空间模板";
 "Workspace Timed Out" = "工作空间超时";
 "Workspace Title" = "工作空间标题";
 "Workspace Type" = "工作空间类型";
@@ -2752,8 +2780,10 @@
 "You are viewing the presenter's screen now." = "主讲人屏幕分享中。";
 "You can add up to %@ participants. Internal users can set their booking availability times under their profile page." = "您可以添加多达%@名参与者。内部用户可以在他们的个人资料页面下设置他们的预订可用时间。";
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "您可以添加多达%@个参与者。内部用户可以在个人资料页面设置他们的时间预定可用性。";
+"You can assign multiple roles to fill out this form together. Once one assignee submits the form, it will be marked as completed." = "您可以指派多个角色共同填写此表单。一旦有一个经办人提交了表单，它将被标记为已完成。";
 "You can customize your default welcome message in settings." = "您可以在应用的设置中定制默认的客户欢迎信息";
 "You can find your archived workspaces on your account page under the profile tab." = "您可以在账户页面的个人资料标签下找到您的已归档工作空间。";
+"You can invite multiple assignees, but only one is required to complete it." = "您可以邀请多个经办人，但只需一个人完成即可。";
 "You can leave a message, or cancel your request and try later." = "您可以留言，或取消您的请求，稍后再试。";
 "You can not set overlapping hours. Please, adjust the periods before saving." = "您不能设置重叠的时间，请在保存前调整时间段。";
 "You can only pin up to %@ workspaces." = "您最多只能固定%@个工作空间。";
@@ -2775,6 +2805,7 @@
 "You cannot pick a time in the past." = "您无法选择过去的时间。";
 "You cannot start sharing while another participant is sharing." = "对不起，其他与会者正在分享屏幕或者文档，暂时无法启动你分享。";
 "You cannot undo this action." = "您无法撤消此操作。";
+"You currently aren’t involved in any workspaces with us." = "您目前没有参与任何工作空间。";
 "You declined to sign this document." = "你拒绝签署这个文件。";
 "You do not have permission to edit this note." = "您无权编辑此笔记。";
 "You don't have an account on %@ yet" = "您还没有%@的帐户";
@@ -2826,6 +2857,7 @@
 "You're done!" = "您已完成！";
 "You're logged in as %@" = "您以%@身份登录";
 "You've already added all of your contacts" = "您已添加所有联系人";
+"You've already added the maximum number of actions. (%@/200)" = "您已添加的操作数量已达到上限。(%@/200)";
 "YouTube" = "YouTube";
 "Your Feed" = "您的信息流";
 "Your Flows" = "你的流程";
@@ -2852,7 +2884,6 @@
 "Your mobile device is not setup for Email" = "你的移动设备没有设置邮箱。";
 "Your mobile device is not setup for SMS." = "你的移动设备没有设置短信服务。";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "您的组织未配置使用SAML单点登录，请使用账户登录以继续。";
-"Your organization allows the following file types to be shared:\n%@." = "您的组织允许分享以下文件类型：\n%@。";
 "Your organization requires this security configuration." = "您的企业需要此安全配置。";
 "Your password was successfully updated." = "您的密码修改成功";
 "Your portal is no longer active" = "您的门户不再有效";
@@ -2868,8 +2899,7 @@
 "You’re already assigned to this client and can find them in your contacts." = "您已被分配到此客户，可以在您的联系人中找到他们。";
 "You’re already signed in" = "您已经登录。";
 "You’ve already added all of the bots." = "您已添加所有机器人。";
-"You’ve already added the maximum number of action steps. (%@/200)" = "您已经添加了最大数量的操作步骤。(%@/200)";
-"You’ve already added the maximum number of assignees. (15/15)" = "您已经添加了最大数量的经办人。 (15/15)";
+"You’ve already added the maximum number of assignees." = "您已添加了最大数量的经办人。";
 "You’ve already added this user as a viewer." = "您已将此用户添加为查看者";
 "You’ve already added this user as an assignee." = "您已将此用户添加为经办人";
 "You’ve already attached the maximum number of files. (50/50)" = "您已经附加了最大数量的文件。 (50/50)";
@@ -2886,7 +2916,7 @@
 "day" = "天";
 "days" = "天";
 "decline" = "拒绝";
-"e.g. Acme" = "例如: 阿克米";
+"e.g. Acme" = "例如: Acme";
 "e.g: Due in 3 Days" = "例如3天内到期";
 "got it" = "明白";
 "hide" = "隐藏";

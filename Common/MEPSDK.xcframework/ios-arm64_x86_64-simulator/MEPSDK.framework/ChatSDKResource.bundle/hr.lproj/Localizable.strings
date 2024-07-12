@@ -447,8 +447,10 @@
 "Acknowledgement due soon" = "Priznanje uskoro dospjelo";
 "Acknowledgement due today" = "Rok za potvrdu je danas";
 "Acknowledgement overdue (%@)" = "Priznanje kasni (%@)";
+"Action Cannot Be Deleted" = "Radnja se ne može izbrisati.";
 "Action In Progress" = "Radnja u tijeku";
 "Action Items" = "Stavke akcije";
+"Action Limit Reached" = "Dosegnuto ograničenje radnji";
 "Action Needed By" = "Potrebno je djelovanje";
 "Action Required" = "Potrebna je radnja";
 "Action Updated" = "Radnja je ažurirana";
@@ -459,6 +461,7 @@
 "Action not started" = "Radnja nije započeta";
 "Action overdue (%@)" = "Akcija kasni (%@)";
 "Action required from @%@" = "Radnja je potrebna od strane @%1$@";
+"Action skipped" = "Radnja preskočena";
 "Action will be due in %@." = "Radnja ima rok do %@.";
 "Actions" = "Radnje";
 "Actions Reassigned" = "Radnje su ponovno dodijeljene";
@@ -471,6 +474,7 @@
 "Add Annotation" = "Dodajte bilješku";
 "Add Another Portal" = "Dodaj drugi portal";
 "Add Assignee" = "Dodaj potpisnika";
+"Add Assignees" = "Dodajte izvršitelje";
 "Add Attachment" = "Dodajte privitak";
 "Add Backup User" = "Dodajte rezervnog korisnika";
 "Add Bots" = "Dodaj botove";
@@ -492,7 +496,6 @@
 "Add Role" = "Dodajte ulogu";
 "Add Roles" = "Dodaj uloge";
 "Add Signers" = "Dodaj potpisnike";
-"Add Subject" = "Unesite predmet";
 "Add User" = "Dodajte korisnika";
 "Add Viewers" = "Dodajte gledatelje";
 "Add Viewers (Optional)" = "Dodajte gledatelje (opcionalno)";
@@ -500,7 +503,7 @@
 "Add a Role" = "Dodaj ulogu";
 "Add a To-Do" = "Dodajte zadatak";
 "Add a To-Do Item" = "Dodajte zadatak";
-"Add a brief description to your workspace" = "Dodaj kratki opis svojeg radnog prostora";
+"Add a brief description for all workspace members to see" = "Dodajte kratki opis vidljiv svim članovima radnog prostora";
 "Add a role" = "Dodaj ulogu";
 "Add description" = "Unesite opis";
 "Add files" = "Dodajte dokumente";
@@ -547,6 +550,7 @@
 "All actions waiting for others to act on will appear here." = "Sve radnje koje čekaju da ih drugi izvrše će se pojaviti ovdje.";
 "All actions waiting for you to act on will appear here." = "Sve radnje koje čekaju da ih vi izvršite će se pojaviti ovdje.";
 "All actions were completed." = "Sve radnje su završene.";
+"All assignees can work together to fill out this form. Once one assignee submits the form, it will be completed." = "Svi izvršitelji mogu zajedno raditi na ispunjavanju ovog obrasca. Čim jedan izvršitelj pošalje obrazac, on će biti dovršen.";
 "All bookmarked items will appear here." = "Sve stavke koje ste označili kao favorite pojavit će se ovdje.";
 "All comments and other activity on this file will also be deleted." = "Svi komentari i ostale aktivnosti na ovom dokumentu će također biti izbrisane";
 "All completed actions will appear here." = "Sve završene radnje će se pojaviti ovdje.";
@@ -566,6 +570,7 @@
 "Amount" = "Iznos";
 "An Update Is Required" = "Potrebno je ažuriranje";
 "An agent will respond when one is available." = "Ostavite bilo kakvu poruku ispod.";
+"An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace." = "Alternativni put je već izvršen. Ovaj %@ je sada preskočen, stoga vaše promjene ne mogu biti spremljene. Bit ćete preusmjereni natrag na radni prostor.";
 "An external user with access to invited workspaces only." = "Vanjski korisnik koji može pristupiti samo pozvanim radnim prostorima.";
 "An internal user with privileges to manage and create new workspaces in your portal." = "Unutarnji korisnik s privilegijama za upravljanje i stvaranje novih radnih prostora na vašem portalu.";
 "An update is available for this application. You'll need to update once you are connected to Wifi." = "Ažuriranje je dostupno za ovu aplikaciju. Morat ćete ažurirati nakon što ste spojeni na WiFi.";
@@ -632,7 +637,6 @@
 "Are you sure you want to discard your changes?" = "Želite li doista odbaciti svoje promjene?";
 "Are you sure you want to disconnect?" = "Jeste li sigurni da se želite isključiti?";
 "Are you sure you want to leave? All changes will be lost." = "Jeste li sigurni da želite izaći? Sve promjene će biti izgubljene.";
-"Are you sure you want to remove \"%@\" from this workspace?" = "Jeste li sigurni da želite ukloniti \"%@\" iz ovog radnog prostora?";
 "Are you sure you want to remove this attachment?" = "Želite li doista ukloniti privitak?";
 "Are you sure you want to remove “%@” from this workspace?" = "Jeste li sigurni da želite ukloniti “%@” iz ovog radnog prostora?";
 "Are you sure you want to start the meeting before its scheduled time?" = "Jeste li sigurni da želite započeti sastanak prije zakazanog vremena?";
@@ -657,6 +661,7 @@
 "Assignee Options" = "Opcije za potpisnike";
 "Assignees" = "Osobe kojima je dodijeljeno";
 "Assignees will start collaborating on your flow after signing up if they don’t have an account yet." = "Zastupnici će početi surađivati u vašem protoku nakon prijave ako još uvijek nemaju račun.";
+"At least one action in the main flow is necessary to support an alternative branch." = "U glavnom protoku potrebna je barem jedna radnja kako bi se podržala alternativna grana.";
 "At least one field you added has not been filled. Please fill or remove the field(s) before finishing." = "Barem jedno polje koje ste dodali nije popunjeno. Popunite ili uklonite polje prije završetka.";
 "Attachment Limit Reached" = "Dostignuto je ograničenje za privitke";
 "Attachments" = "Privitci";
@@ -766,6 +771,7 @@
 "Choose a time to reschedule" = "Odaberite vrijeme za ponovno zakazivanje";
 "Choose application" = "Odaberite aplikaciju";
 "Choose from Library" = "Odaberite iz knjižnice";
+"Choose how many assignees are required to upload a file for completion." = "Odaberite koliko je zastupnika potrebno za otpremanje datoteke za dovršetak.";
 "Choose how many assignees must acknowledge this acknowledgement to complete it." = "Odaberite koliko potpisnika mora potvrditi ovu potvrdu da bi je završilo.";
 "Choose how many assignees must approve this approval to complete it." = "Odaberite koliko potpisnika mora odobriti ovo odobrenje da bi ga završilo.";
 "Choose how many assignees must finish this to-do to complete it." = "Odaberite koliko potpisnika mora završiti ovaj zadatak da bi ga završilo.";
@@ -1092,7 +1098,6 @@
 "Edit your filters to see results" = "Uredite filtere kako biste vidjeli rezultate";
 "Editable by..." = "Može uređivati...";
 "Edited" = "Uređeno";
-"Editing Controls" = "Kontrole za uređivanje";
 "Editing of this To-Do was locked by internal users." = "Uređivanje ovog zadatka zaključali su interni korisnici.";
 "Editor" = "Urednik";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "Nove klijente učinkovito vodite kroz unapređenje procesa uključivanja u više koraka.";
@@ -1178,6 +1183,12 @@
 "File Info" = "Info o dokumentu";
 "File Request" = "Zahtjev za datoteku";
 "File Request assigned to %@" = "Zahtjev za datoteku dodijeljen je %@";
+"File Request assigned to %@ and %@ other users" = "Zahtjev za datoteku dodijeljen %1$@ i %2$@ drugim korisnicima.";
+"File Request assigned to %@ and %@ other users." = "Zahtjev za datoteku dodijeljen %1$@ i %2$@ drugim korisnicima.";
+"File Request assigned to %@ and %@ other users: %@" = "Zahtjev za datoteku dodijeljen %1$@ i %2$@ drugim korisnicima: %3$@";
+"File Request assigned to %@ and one other user" = "Zahtjev za datoteku dodijeljen %@ i još jednom korisniku";
+"File Request assigned to %@ and one other user." = "Zahtjev za datoteku dodijeljen %@ i još jednom korisniku.";
+"File Request assigned to %@ and one other user: %@" = "Zahtjev za datoteku dodijeljen %1$@ i još jednom korisniku: %2$@";
 "File Request assigned to %@." = "Zahtjev za datoteku dodijeljen je %@.";
 "File Request assigned to %@: %@" = "Zahtjev za datoteku dodijeljen je %1$@: %2$@";
 "File Request assigned to you" = "Zahtjev za datoteku dodijeljen je vama";
@@ -1194,8 +1205,10 @@
 "File Request ready for review: %@" = "Zahtjev za datoteku je spreman za pregled: %@";
 "File Request reopened" = "Zahtjev za datoteku je ponovo otvoren";
 "File Reviewer" = "Preglednik datoteka";
+"File Reviewers" = "Preglednici datoteka";
 "File Size Exceeded" = "Veličina datoteke premašena";
 "File doesn't exist." = "Dokument ne postoji.";
+"File sharing permissions are restricted to %@ formats." = "Dozvole za dijeljenje datoteka ograničene su na formate %@.";
 "File size limit reached (%@)" = "Dostignuto je ograničenje veličine datoteke (%@)";
 "File type unsupported" = "Vrsta datoteke nije podržana";
 "File upload failed. Please try again." = "Dodavanje dokumenta nije uspjelo. Molimo, pokušajte ponovo.";
@@ -1214,7 +1227,6 @@
 "Finish setting up your first workspace" = "Završi podešavanje prvog radnog prostora";
 "Fix Perspective" = "Ispravite perspektiva";
 "Flow" = "Protok";
-"Flow Template Library" = "Knjižnica predloška protoka";
 "Flow Templates" = "Predlošci protoka";
 "Flow Workspace" = "Protok radnog prostora";
 "Flow Workspace transferred to you" = "Protok radnog prostora vam je poslan";
@@ -1235,8 +1247,14 @@
 "Forgot your password?" = "Zaboravili ste lozinku?";
 "Form" = "Obrazac";
 "Form Preview" = "Pregled obrasca";
-"Form Responses" = "Odgovori na obrazac";
+"Form Response" = "Odgovor na obrazac";
 "Form assigned to %@" = "Obrazac je dodijeljen %@";
+"Form assigned to %@ and %@ other users" = "Obrazac dodijeljen %1$@ i %2$@ drugim korisnicima";
+"Form assigned to %@ and %@ other users." = "Obrazac dodijeljen %1$@ i %2$@ drugim korisnicima.";
+"Form assigned to %@ and %@ other users: %@" = "Obrazac dodijeljen %1$@ i %2$@ drugim korisnicima: %3$@";
+"Form assigned to %@ and one other user" = "Obrazac dodijeljen %@ i još jednom korisniku";
+"Form assigned to %@ and one other user." = "Obrazac dodijeljen %@ i još jednom korisniku.";
+"Form assigned to %@ and one other user: %@" = "Obrazac dodijeljen %1$@ i još jednom korisniku: %2$@";
 "Form assigned to %@." = "Obrazac je dodijeljen %@.";
 "Form assigned to %@: %@" = "Obrazac je dodijeljen %1$@: %2$@";
 "Form assigned to you" = "Obrazac vam je dodijeljen";
@@ -1714,6 +1732,7 @@
 "Only one assignee is required to acknowledge this acknowledgement to complete it." = "Potrebno je da samo jedan potpisnik potvrdi ovu potvrdu da se završi.";
 "Only one assignee is required to approve this approval to complete it." = "Potrebno je da samo jedan potpisnik odobri ovo odobrenje da se završi.";
 "Only one assignee is required to finish this to-do to complete it." = "Potreban je samo jedan izvršitelj za završetak ovog zadatka.";
+"Only one assignee is required to upload files for completion." = "Potreban je samo jedan izvršitelj za otpremanje datoteka za dovršetak.";
 "Only participants can view meeting details." = "Samo sudionici mogu pregledati detalje o sastanku.";
 "Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "Samo naslov, opis i rok u %1$@ radnjama mogu se uređivati. Ako trebate promijeniti zastupnike ili ažurirati bilo koje druge detalje, molimo stvorite novu %2$@ radnju.";
 "Only the workspace owner can adjust link security" = "Samo vlasnik radnog prostora može prilagoditi sigurnost poveznice";
@@ -1968,6 +1987,7 @@
 "Review DocuSign Details" = "Pregledaj DocuSign detalje";
 "Review E-Sign Details" = "Pregledaj detalje e-potpisa";
 "Review Now" = "Pregledajte sad";
+"Review Progress" = "Pregledaj napredak";
 "Review Submissions" = "Pregled prijava";
 "Review the following attachments to confirm this acknowledgement." = "Pregledajte sljedeće privitke da biste potvrdili ovu potvrdu.";
 "Role" = "Rola";
@@ -2184,7 +2204,6 @@
 "Step Details" = "Detalji koraka";
 "Step Details (Step %@)" = "Detalji koraka (Korak %@)";
 "Step In Progress" = "Korak je u tijeku";
-"Step Limit Reached" = "Dostignut je limit u broju koraka";
 "Step Removed" = "Korak je uklonjen";
 "Step edited" = "Korak je uređen";
 "Stop Co-Browsing" = "Zaustavi zajedničko pretraživanje";
@@ -2200,7 +2219,7 @@
 "Submitted by %@" = "Predano od strane %@";
 "Submitted by %@ (You)" = "Proslijedio %@ (Vi)";
 "Submitted on %@" = "Predano na dan %@";
-"Submitted responses will show here." = "Proslijeđeni odgovori bit će prikazani ovdje.";
+"The submitted response will be displayed here." = "Predani odgovor bit će prikazan ovdje.";
 "Successfully Switched" = "Uspješno promijenjeno";
 "Successfully connected with %@!" = "Uspješno ste spojeni sa %@!";
 "Sunday" = "Nedjelja";
@@ -2276,6 +2295,7 @@
 "The operation did not complete successfully: %@" = "Akcija nije uspješno okončana: %@";
 "The person who will submit the required files." = "Osoba koja će proslijediti potrebne datoteke.";
 "The person who will verify and approve the submitted files." = "Osoba koja će provjeriti i odobriti proslijeđene datoteke.";
+"The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "Osoba koja će provjeriti i odobriti predane datoteke. Možete pozvati više preglednika. Radnja će biti dovršena čim bilo koji preglednik datoteka potvrdi.";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "Prethodna poveznica će isteći. Ljudi s poveznicom koja je istekla neće je moći koristiti za pridruživanje na platformu.";
 "The selected items will be added to %@ in %@." = "Odabrane stavke biti će dodane u %1$@ u %2$@.";
 "The selected items will be added to %@." = "Odabrane stavke biti će dodane u %@.";
@@ -2299,9 +2319,10 @@
 "They will not archive for other members and will automatically un-archived after new activity." = "Neće arhivirati za ostale članove i automatski će ukloniti arhiviranje nakon nove aktivnosti.";
 "They will see the flow cover page with basic details about the flow and your welcome message." = "Vidjet će naslovnu stranicu protoka sa osnovnim detaljima o protoku i vašu poruku dobrodošlice.";
 "Things like statements, reports, invoices, etc. created by the org are sent to these inboxes." = "Stvari poput izjava, izviješća, faktura itd. koje su kreirale organizacije šalju se u ove prijemne sandučiće.";
-"This %@ was already completed or deleted while you were editing and changes can not be saved. You will be directed back to the workspace." = "Ova radnja %@ je već završena ili obrisana dok ste uređivali i više ne možete sačuvati promjene. Bit ćete usmjereni natrag u radni prostor.";
+"This %@ has been completed or deleted, so your changes cannot be saved. You’ll be directed back to the workspace." = "Ovaj %@ je završen ili izbrisan, stoga vaše promjene ne mogu biti spremljene. Bit ćete preusmjereni natrag na radni prostor.";
 "This %@ was already finished by the assignee and it can no longer be deleted." = "Ovu radnju %@ je već završio potpisnik i više se ne može obrisati.";
 "This %@ was already finished by the assignee and it can no longer be removed. " = "Ovu radnju %@ je već završio potpisnik i više se ne može ukloniti.";
+"This %@ was skipped. Please review the flow." = "Ovaj %@ je preskočen. Molimo pregledajte protok.";
 "This Meeting" = "Ovaj sastanak";
 "This To-Do can not support multiple assignees. To add more assignees, please create a brand new To-Do." = "Ovaj zadatak ne može podržati više zastupnika. Da biste dodali više zastupnika, kreirajte potpuno novi zadatak.";
 "This Will End Your Current Meeting" = "Ovo će završiti vaš trenutačni sastanak";
@@ -2309,8 +2330,10 @@
 "This action cannot be undone" = "Ova radnja ne može biti poništena";
 "This action cannot be undone." = "Ova radnja ne može biti poništena.";
 "This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost." = "Ova radnja je već započela i potpisnici mogu pregledati i raditi na koraku dok uređujete. Sav već završeni napredak bit će izgubljen.";
+"This action has been completed. You will be directed back to the workspace." = "Ova radnja je završena. Bit ćete preusmjereni natrag na radni prostor.";
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "Ova radnja je obrisana i vaša radnja više nije potrebna. Bit ćete usmjereni natrag u radni prostor.";
 "This action has been updated. Please review the details again before taking action. You will be directed back to the workspace." = "Ova radnja je ažurirana. Ponovo pregledajte detalje prije poduzimanja radnje. Bit ćete usmjereni natrag u radni prostor.";
+"This action will be completed once any file reviewer confirms." = "Ova će radnja biti dovršena čim bilo koji preglednik datoteka potvrdi.";
 "This and Following Meetings" = "Ovaj i sljedeći sastanci";
 "This content may have been deleted or otherwise removed." = "Ovaj sadržaj je možda obrisan ili uklonjen na neki drugi način.";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "Ovaj dokument sadrži polja. Želite li automatski dodati i nekome dodijeliti ova polja?";
@@ -2514,10 +2537,11 @@
 "Unable to share your screen while co-browsing." = "Nemoguće dijeljenje ekrana dok se zajednički pretražuje.";
 "Unable to start the meeting. Another meeting is in progress." = "Trenutno nije moguće pokretanje sastanka. Drugi sastanak je u tijeku.";
 "Unable to start this Flow Workspace because it exceeds the member limit set by your organization." = "Nije moguće započeti ovaj protok radnog prostora jer premašuje ograničenje članova koje je postavila vaša organizacija.";
+"Unable to upload files" = "Nije moguće učitati datoteke";
 "Unable to upload the file %@. Please try again." = "Nije moguće dodati dokument %@. Molimo, pokušajte ponovo.";
 "Unarchive" = "Poništi arhiviranje";
 "Unarchive Workspace" = "Poništi arhiviranje radnog prostora";
-"Unarchive workspace for all" = "Poništi arhiviranje radnog prostora za sve";
+"Unarchive workspace for everyone" = "Poništi arhiviranje radnog prostora za sve";
 "Unarchive workspace for yourself" = "Poništi arhiviranje radnog prostora za sebe";
 "Unassigned" = "Nedodijeljeno";
 "Unavailable" = "Nedostupno";
@@ -2543,10 +2567,12 @@
 "Updated title %@" = "Naslov %@ je ažuriran";
 "Upgrade" = "Nadogradnja";
 "Upload Files" = "Učitaj datoteke";
+"Upload Progress" = "Napredak prijenosa";
 "Upload failed" = "Učitavanje nije uspjelo";
 "Uploaded by" = "Učitao";
 "Uploaded by %@" = "Učitao %@";
 "Uploader" = "Postavitelj";
+"Uploaders" = "Otpremači";
 "Use" = "Koristite";
 "Use %@ or more characters" = "Koristite %@ ili više znakova";
 "Use 1 or more character" = "Koristite 1 ili više znakova";
@@ -2614,6 +2640,7 @@
 "Waiting on Your Input" = "Čekanje vašeg unosa";
 "Waiting on your input" = "Čeka vaš unos";
 "Waiting to Review" = "Čekanje na pregled";
+"Waiting to upload" = "Čeka se učitavanje";
 "Want to use Moxo for another business?" = "Želite koristiti Moxo za drugo poslovanje?";
 "Warning" = "Upozorenje";
 "We are currently closed." = "Trenutačno smo zatvoreni.";
@@ -2689,7 +2716,9 @@
 "Who needs to choose the meeting time?" = "Tko treba odabrati vrijeme sastanka?";
 "Who needs to complete this?" = "Tko ovo treba završiti?";
 "Who needs to fill this form?" = "Kome je potreban ovaj obrazac?";
+"Who needs to review this?" = "Tko ovo treba pregledati?";
 "Who needs to sign?" = "Tko mora potpisati?";
+"Who needs to upload this?" = "Tko treba ovo prenijeti?";
 "Who needs to work on this?" = "Tko treba raditi na ovome?";
 "Who will choose the meeting time?" = "Ko bira vrijeme sastanka?";
 "Who will take action in this flow?" = "Tko će poduzeti radnju u ovom protoku?";
@@ -2707,7 +2736,6 @@
 "Workspace Name" = "Naziv radnog prostora";
 "Workspace Name (Required)" = "Naziv radnog prostora (obavezno)";
 "Workspace Owner" = "Vlasnik radnog prostora";
-"Workspace Templates" = "Predlošci radnog prostora";
 "Workspace Timed Out" = "Vrijeme radnog prostora je isteklo";
 "Workspace Title" = "Naziv radnog prostora";
 "Workspace Type" = "Vrsta radnog prostora";
@@ -2752,8 +2780,10 @@
 "You are viewing the presenter's screen now." = "Upravo gledate ekran predstavljača.";
 "You can add up to %@ participants. Internal users can set their booking availability times under their profile page." = "Možete dodati do %@ sudionika. Interni korisnici mogu postaviti svoje dostupne termine za rezervaciju na svojoj stranici profila.";
 "You can add up to %@ participants. Internal users can set their time booking availability under their profile page." = "Možete dodati do %@ sudionika. Interni korisnici mogu podesiti dostupnost termina za rezervaciju na stranici svog profila.";
+"You can assign multiple roles to fill out this form together. Once one assignee submits the form, it will be marked as completed." = "Možete dodijeliti više uloga za zajedničko popunjavanje ovog obrasca. Kada jedan izvršitelj pošalje obrazac, bit će označen kao dovršen.";
 "You can customize your default welcome message in settings." = "Zadanu poruku dobrodošlice možete prilagoditi u postavkama.";
 "You can find your archived workspaces on your account page under the profile tab." = "Svoje arhivirane radne prostore možete pronaći na stranici svog računa pod karticom profila.";
+"You can invite multiple assignees, but only one is required to complete it." = "Možete pozvati više izvršitelja, ali samo je jedan potreban za dovršetak.";
 "You can leave a message, or cancel your request and try later." = "Možete ostaviti poruku ili otkazati zahtjev i pokušati kasnije.";
 "You can not set overlapping hours. Please, adjust the periods before saving." = "Ne možete podesiti sate koji se preklapaju. Podesite periode prije čuvanja.";
 "You can only pin up to %@ workspaces." = "Možete zakvačiti najviše %@ radnih prostora.";
@@ -2775,6 +2805,7 @@
 "You cannot pick a time in the past." = "Ne možete odabrati vrijeme u prošlosti.";
 "You cannot start sharing while another participant is sharing." = "Nije moguće započeti dijeljenje dok drugi sudionik dijeli.";
 "You cannot undo this action." = "Ovu radnju ne možete poništiti.";
+"You currently aren’t involved in any workspaces with us." = "Trenutačno niste uključeni ni u kakve radne prostore s nama.";
 "You declined to sign this document." = "Odbili ste potpisati ovaj dokument.";
 "You do not have permission to edit this note." = "Nemate dopuštenje za uređivanje ove bilješke.";
 "You don't have an account on %@ yet" = "Još uvijek nemate nalog na %@";
@@ -2826,6 +2857,7 @@
 "You're done!" = "Završili ste!";
 "You're logged in as %@" = "Prijavljeni ste kao %@";
 "You've already added all of your contacts" = "Već ste dodali sve svoje kontakte";
+"You've already added the maximum number of actions. (%@/200)" = "Već ste dodali maksimalan broj radnji. (%@/200)";
 "YouTube" = "YouTube";
 "Your Feed" = "Vaš prijenos";
 "Your Flows" = "Vaši protoci";
@@ -2852,7 +2884,6 @@
 "Your mobile device is not setup for Email" = "Na vašem mobilnom uređaju ne postavljen e-mail.";
 "Your mobile device is not setup for SMS." = "Na vašem mobilnom uređaju ne postavljen SMS.";
 "Your org is not configured to use SAML SSO. Please log in with account to continue." = "Vaša organizacija nije konfigurirana za korištenje SAML SSO. Molimo prijavite se s računom za nastavak.";
-"Your organization allows the following file types to be shared:\n%@." = "Vaša organizacija dopušta dijeljenje sljedećih vrsta datoteka:\n%@.";
 "Your organization requires this security configuration." = "Vaša organizacija traži ovu sigurnosnu konfiguraciju.";
 "Your password was successfully updated." = "Vaša lozinka je uspješno ažurirana.";
 "Your portal is no longer active" = "Vaš portal više nije aktivan";
@@ -2868,8 +2899,7 @@
 "You’re already assigned to this client and can find them in your contacts." = "Već ste dodijeljeni ovom klijentu i možete ga vidjeti u svojim kontaktima.";
 "You’re already signed in" = "Već ste prijavljeni";
 "You’ve already added all of the bots." = "Već ste dodali sve botove.";
-"You’ve already added the maximum number of action steps. (%@/200)" = "Već ste dodali maksimalni broj radnih koraka. (%@/200)";
-"You’ve already added the maximum number of assignees. (15/15)" = "Već ste dodali maksimalni broj potpisnika. (15/15)";
+"You’ve already added the maximum number of assignees." = "Već ste dodali maksimalan broj zastupnika.";
 "You’ve already added this user as a viewer." = "Ovog korisnika ste već dodali kao gledatelja.";
 "You’ve already added this user as an assignee." = "Ovog korisnika ste već dodali kao zastupnika.";
 "You’ve already attached the maximum number of files. (50/50)" = "Već ste priložili maksimalni broj datoteka. (50/50)";
