@@ -45,6 +45,11 @@ typedef NS_ENUM(NSUInteger, MEPUserStatus) {
 @property (nonatomic, strong, readonly, nullable) NSString *title;
 
 /**
+ If the user is current logged in user
+ */
+@property (nonatomic, assign, readonly) BOOL isMyself;
+
+/**
  Status of this user.
  */
 @property (nonatomic, assign, readonly) MEPUserStatus userStatus;
