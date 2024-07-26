@@ -15,20 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MEPRelationListModel : NSObject
 @property (nonatomic, weak) id<MEPRelationListModelDelegate> __nullable delegate;
 
-/**
- Return an array containing all relations.
- @discussion From 9.1, server will only return relation chats in limited count(2000 by default) for better performence.
- Should the index of a relation's chats exceed this threshold, its chat data will not be available
- you can contact server admin to change the cap.
- Or you can use new API fetchRelationsWithCompletionHandler get complete data.
- */
-@property (nonatomic, strong) NSArray<MEPRelation *> *__nullable relations MEP_DEPRECATED_WILL_BE_REMOVED_IN_PLEASE_USE("", "fetchRelationsWithCompletionHandler");;
-
-/**
- Fetch complete relation data
- * @param handler A block object to be executed when the action completes
- */
-- (void)fetchRelationsWithCompletionHandler:(void(^__nullable)(NSError *__nullable errorOrNil, NSArray<MEPRelation *> *relations))handler;
+@property (nonatomic, strong) NSArray<MEPRelation *> *__nullable relations;
 
 /**
 * Get relation object from unique id
