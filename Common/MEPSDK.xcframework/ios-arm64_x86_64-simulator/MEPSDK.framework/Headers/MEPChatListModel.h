@@ -12,26 +12,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 @interface MEPChatListModel : NSObject
-/**
- Whether there is more chats not loaded.
- */
-@property (nonatomic, assign) BOOL hasMoreChats;
 @property (nonatomic, weak) id<MEPChatListModelDelegate> delegate;
 /**
 Return an array containing all chats.
-@discussion From 9.1, server will only return chats in limited count(2000 by default) for better performence,
-you can contact server admin to change the cap
-Or you can use new API hasMoreChats and fetchMoreChats to load more chats at once.
 */
 - (NSArray<MEPChat *> *)chats;
-
-/**
- Fetch more chats from server to local cache.
- @param pageSize Number of chats to be fetched
- @param completionHandler A block object to be executed when the action completes, return errorOrNil if something went wrong.
- */
-- (void)fetchMoreChats:(NSInteger)pageSize
-        withCompletion:(void(^ _Nullable)(NSError * _Nullable errorOrNil, NSArray <MEPChat *> * _Nullable chats))completionHandler;
 @end
 
 @protocol MEPChatListModelDelegate<NSObject>
