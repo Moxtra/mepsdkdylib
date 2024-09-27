@@ -17,8 +17,6 @@
 "%@ Content Updated" = "تم تحديث محتوى %@";
 "%@ Day" = "%@ يوم";
 "%@ Days" = "%@ من الأيام";
-"%@ Deactivated" = "%@ تم إلغاء تنشيط";
-"%@ Deleted" = "تم حذف %@";
 "%@ File" = "ملف %@";
 "%@ File Size Reached" = "تم الوصول إلى حجم ملف %1$@";
 "%@ Guests" = "%@ من الضيوف";
@@ -133,7 +131,6 @@
 "%@ changed %@'s role to editor." = "قام %1$@ بتغيير دور %2$@ إلى محرر.";
 "%@ changed %@'s role to viewer." = "قام %1$@ بتغيير دور %2$@ إلى مشاهد.";
 "%@ changed %@'s role." = "قام %1$@ بتغيير دور %2$@.";
-"%@ common available times found, excluding the client group or team. " = "تم العثور على %@ أوقات متاحة مشتركة، باستثناء مجموعة العميل أو الفريق.";
 "%@ common available times found." = "تم العثور على %@ من الأوقات المتاحة الشائعة.";
 "%@ completed" = "%@ تم الانتهاء منه";
 "%@ completed a %@" = "%1$@ أكمل %2$@";
@@ -242,7 +239,6 @@
 "%@ is currently out of the office. If you have any urgent issues, feel free to chat with %@." = "%1$@ غير موجود في المكتب حاليًا. إذا كانت لديك أي مشكلات عاجلة، لا تتردد في الدردشة مع %2$@.";
 "%@ is currently out of the office:" = "%@ خارج المكتب حاليًا:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ غير موجود حاليًا وسيراجع رسالتك بمجرد عودته.";
-"%@ is currently unavailable:" = "%@ غير متوفر حاليًا:";
 "%@ is inviting you to a workspace.\r\n\r\nTopic: %@\r\n\r\nOpen the workspace with the share link:\r\n%@" = "%1$@ يدعوك إلى مساحة عمل.\r\n\r\nالموضوع: r%2$@\n\r\n\افتح مساحة العمل باستخدام رابط المشاركة: r\n\%3$@";
 "%@ is muted" = "تم كتم صوت %@";
 "%@ is now the presenter." = "%@ أصبح المقدم الآن.";
@@ -413,7 +409,6 @@
 "1 month ago" = "1 شهر مضى";
 "1 request to approve" = "طلب 1 للموافقة";
 "1 year ago" = "1 سنة مضت";
-"A maximum of %@ stamps are supported. Please delete an existing stamp to add a new one." = "الحد الأقصى المدعوم هو %@ طوابع. يرجى حذف طابع موجود لإضافة طابع جديد.";
 "A network error occurred." = "حدث خطأ في الشبكة.";
 "A network issue prevented us from starting co-browsing. Please try again." = "مشكلة في الشبكة منعتنا من بدء التصفح المشترك. يرجى المحاولة مرة أخرى.";
 "A user with this email address already exists under a different name:" = "مستخدم بهذا العنوان البريد الإلكتروني موجود بالفعل تحت اسم مختلف:";
@@ -495,7 +490,6 @@
 "Add Members" = "إضافة أعضاء";
 "Add New" = "إضافة جديد";
 "Add New Action" = "إضافة اجراء جديد";
-"Add New Stamp" = "أضف طابعًا جديدًا";
 "Add Password" = "إضافة كلمة مرور";
 "Add Role" = "إضافة دور";
 "Add Roles" = "أضف الأدوار";
@@ -682,14 +676,8 @@
 "Background Color" = "لون الخلفية";
 "Backup User" = "مستخدم دعم";
 "Baidu Maps" = "Baidu Maps";
-"Because certain actions do not allow a client group to be assigned, you can’t reassign to this group." = "نظرًا لأن بعض الإجراءات لا تسمح بتعيين مجموعة عملاء، فلا يمكنك إعادة التعيين إلى هذه المجموعة.";
-"Because certain actions do not allow a client group to be assigned, you can’t select one for this role." = "نظرًا لأن بعض الإجراءات لا تسمح بتعيين مجموعة عملاء، فلا يمكنك اختيار واحدة لهذا الدور.";
-"Because certain actions do not allow a team to be assigned, you can’t reassign to this team." = "نظرًا لأن بعض الإجراءات لا تسمح بتعيين فريق، فلا يمكنك إعادة التعيين إلى هذا الفريق.";
-"Because certain actions do not allow a team to be assigned, you can’t select a team for this role." = "نظرًا لأن بعض الإجراءات لا تسمح بتعيين فريق، فلا يمكنك اختيار فريق لهذا الدور.";
 "Before leaving, please reassign your pending actions to another person." = "قبل المغادرة، يرجى إعادة تعيين الإجراءات المعلقة إلى شخص آخر.";
-"Before leaving, please reassign your pending actions to someone else." = "قبل المغادرة، يرجى إعادة تعيين إجراءاتك المعلقة لشخص آخر.";
 "Before removing, please reassign their pending actions to another person." = "قبل الإزالة، يرجى إعادة تعيين إجراءاتهم المعلقة إلى شخص آخر.";
-"Before removing, please reassign their pending actions to someone else." = "قبل الإزالة، يرجى إعادة تعيين الإجراءات المعلقة لشخص آخر.";
 "Below are the previous invitations sent to this email address." = "فيما يلي الدعوات السابقة المرسلة إلى عنوان البريد الإلكتروني هذا.";
 "Beneficiary" = "المستفيد";
 "Blank Workspace" = "مساحة عمل فارغة";
@@ -717,7 +705,6 @@
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "من خلال إنشاء حساب، فإنك توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا.";
 "By tapping “Start”, you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "بالنقر على \"بدء\"، أنت توافق على قيام Jumio بجمع ومعالجة ومشاركة معلوماتك الشخصية، والتي قد تشمل بيانات بيومترية، وفقًا لإشعار الخصوصية الخاص بها.";
 "By trusting this device, you can skip this verification step for the next 30 days." = "بالثقة في هذا الجهاز، يمكنك تخطي خطوة التحقق هذه لمدة 30 يومًا القادمة.";
-"By using this feature, I agree that I am authorized to use the uploaded image and that it complies with all relevant laws and regulations." = "من خلال استخدام هذه الميزة، أوافق على أنني مخول لاستخدام الصورة المُحملة وأنها تتوافق مع جميع القوانين واللوائح ذات الصلة.";
 "CANCEL REQUEST" = "إلغاء الطلب";
 "CANCELED" = "تم الإلغاء";
 "Calendar" = "التقويم";
@@ -767,7 +754,6 @@
 "Checkbox" = "مربع تأشير";
 "Checking participants' availability..." = "جارٍ التحقق من توفر المشاركين...";
 "Choose File Name" = "اختيار اسم الملف";
-"Choose Image" = "اختر صورة";
 "Choose Type" = "اختر النوع";
 "Choose a data center" = "اختر مركز بيانات";
 "Choose a date..." = "اختر تاريخ…";
@@ -789,7 +775,6 @@
 "Client" = "العميل";
 "Client Assigned to You" = "العميل المعين لك";
 "Client Blocked Account" = "حساب العميل المحظور";
-"Client Group" = "مجموعة العملاء";
 "Client Groups" = "مجموعات العملاء";
 "Client Groups (Optional)" = "مجموعات العملاء (اختياري)";
 "Client ID" = "معرف العميل";
@@ -1192,6 +1177,7 @@
 "File Request ready for review." = "طلب الملف جاهز للمراجعة.";
 "File Request ready for review: %@" = "طلب الملف جاهز للمراجعة: %@";
 "File Request reopened" = "تم إعادة فتح طلب الملف";
+"File Reviewer" = "مُراجع الملف";
 "File Reviewers" = "مراجعو الملفات";
 "File Size Exceeded" = "تجاوز حجم الملف";
 "File doesn't exist." = "الملف غير موجود.";
@@ -1706,8 +1692,6 @@
 "Only admin users can create Client Groups in the Admin Portal." = "فقط المستخدمون المدراء يمكنهم إنشاء مجموعات العملاء في بوابة المدير.";
 "Only admins can invite new internal users." = "يمكن للمسؤولين فقط دعوة مستخدمين داخليين جدد.";
 "Only client accounts with a phone number can connect via WhatsApp." = "فقط حسابات العملاء التي تمتلك رقم هاتف يمكنها الاتصال عبر واتساب.";
-"Only client accounts with an email address can connect via LINE, WeChat, or WhatsApp." = "فقط حسابات العملاء التي تمتلك عنوان بريد إلكتروني يمكن أن تتصل عبر LINE، WeChat، أو WhatsApp.";
-"Only client accounts with an email address can connect via LINE." = "فقط حسابات العملاء التي لديها عنوان بريد إلكتروني يمكن أن تتصل عبر LINE.";
 "Only client accounts with an email address can connect via WeChat or WhatsApp." = "فقط حسابات العملاء التي لديها عنوان بريد إلكتروني يمكنها الاتصال عبر WeChat أو WhatsApp.";
 "Only invited members can access the workspace" = "يمكن للأعضاء المدعوين فقط الوصول إلى مساحة العمل";
 "Only one assignee is required to acknowledge this to complete it." = "مطلوب موظف واحد فقط للاعتراف بهذا لإكماله.";
@@ -1867,9 +1851,9 @@
 "Read More" = "إقرأ المزيد";
 "Ready to connect" = "جاهز للاتصال";
 "Rearrange Pages" = "إعادة ترتيب الصفحات";
-"Reason to Contact (Optional)" = "سبب الاتصال (اختياري)";
 "Reassign" = "إعادة تعيين";
 "Reassign Actions" = "إعادة تعيين الإجراءات";
+"Reassign to" = "إعادة تعيين إلى";
 "Reassigned" = "تم إعادة تعيين";
 "Receive emails about new activity when you’re not online and don’t have notifications enabled." = "تلقي رسائل بريد إلكتروني حول النشاط الجديد عندما لا تكون متصلًا بالإنترنت ولم يتم تمكين الإشعارات.";
 "Received" = "تم الاستلام";
@@ -2043,7 +2027,6 @@
 "Select Items" = "تحديد العناصر";
 "Select Members" = "تحديد أعضاء";
 "Select Signers" = "تحديد الموقعين";
-"Select Stamp" = "اختر الطابع";
 "Select Template" = "تحديد نموذج";
 "Select Tool" = "تحديد أداة";
 "Select Type" = "تحديد نوع";
@@ -2065,7 +2048,6 @@
 "Send Message" = "إرسال رسالة";
 "Send New Verification Code" = "إرسال رمز تحقق جديد";
 "Send Notifications For" = "إرسال إشعارات لـ";
-"Send Request" = "إرسال طلب";
 "Send SMS" = "إرسال SMS";
 "Send To" = "إرسال إلى";
 "Send Verification Email" = "إرسال رسالة بريد إلكتروني للتحقق";
@@ -2160,8 +2142,6 @@
 "Special Hours" = "ساعات خاصة";
 "Speech Bubble" = "فقاعة الحديث";
 "Speech Bubbles" = "فقاعات الحديث";
-"Stamp" = "طابع";
-"Stamp Name" = "اسم الختم";
 "Standard" = "قياسي";
 "Start" = "بدء";
 "Start Co-Browsing" = "بدء التصفح المشترك";
@@ -2232,7 +2212,6 @@
 "Tap to learn more" = "انقر هنا لمعرفة المزيد";
 "Tap to load more" = "اضغط لتحميل المزيد";
 "Tap to view" = "اضغط للعرض";
-"Team" = "الفريق";
 "Teams" = "الفرق";
 "Tell us what you need" = "أخبرنا بما تريد";
 "Tell us what you’re looking for so we can connect you with the right team." = "أخبرنا بما تبحث عنه حتى نتمكن من توصيلك بالفريق المناسب.";
@@ -2261,7 +2240,6 @@
 "The account associated with this phone number is no longer active." = "لم يعد الحساب المرتبط برقم الهاتف هذا نشطًا.";
 "The assignee(s) will need to sign again if reopened." = "سيحتاج المسند إليه (المسند إليهم) إلى التوقيع مرة أخرى في حالة إعادة الفتح.";
 "The code is no longer valid. Please request a new code to continue." = "الرمز لم يعد صالحًا. يرجى طلب رمز جديد للمتابعة.";
-"The date will be recorded in [%@] format" = "سيتم تسجيل التاريخ بتنسيق [%@]";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "لا يمكن رفع الملف لأنه لا يفي بمتطلبات الأمان. الرجاء التحقق من الشبكة والمحاولة مرة أخرى.";
 "The flow workspace creator must be a member of the workspace. You will be automatically added to this workspace as a viewer." = "يجب أن يكون مُنشئ مساحة عمل التدفق عضوًا في مساحة العمل. سيتم إضافتك تلقائيًا إلى هذه المساحة كمشاهد.";
 "The following users are currently unavailable and will review your message as soon as they return: %@." = "المستخدمون التاليون غير موجودين حاليا وسيراجعون رسالتك فور عودتهم: %@.";
@@ -2290,6 +2268,7 @@
 "The old password does not match." = "كلمة المرور القديمة غير متطابقة.";
 "The operation did not complete successfully: %@" = "لم تكتمل العملية بنجاح: %@";
 "The person who will submit the required files." = "الشخص الذي سيرسل الملفات المطلوبة.";
+"The person who will verify and approve the submitted files." = "الشخص الذي سيتحقق من الملفات المرسلة ويوافق عليها.";
 "The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "الشخص الذي سيتحقق ويوافق على الملفات المقدمة. يمكنك دعوة عدة مراجعين. سيتم إكمال الإجراء بمجرد تأكيد أي مراجع للملفات.";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "ستنتهي صلاحية الرابط السابق. لن يتمكن الأشخاص الذين لديهم الرابط منتهي الصلاحية من استخدامه للانضمام إلى المنصة.";
 "The recording could not be processed. Please check your internet connection." = "لم يتم معالجة التسجيل. يرجى التحقق من اتصالك بالإنترنت.";
@@ -2336,7 +2315,6 @@
 "This email does not match the predefined email." = "هذا البريد الإلكتروني لا يتطابق مع البريد الإلكتروني المحدد مسبقًا.";
 "This email is already associated with another account." = "هذا البريد الإلكتروني مرتبط بالفعل بحساب آخر.";
 "This envelope is still being processed by DocuSign. Please try again in a moment." = "لا يزال يتم معالجة هذا الظرف بواسطة DocuSign. يرجى المحاولة مرة أخرى بعد لحظة.";
-"This file exceeds the maximum size (%@MB)." = "هذا الملف يتجاوز الحجم الأقصى (%@ ميغابايت).";
 "This file has been deleted." = "تم حذف هذا الملف.";
 "This file has been deleted. It is no longer available." = "تم حذف هذا الملف. لم يعد متاحًا.";
 "This flow has been completed and you can no longer make modifications." = "لقد تم إكمال هذا التدفق ولا يمكنك إجراء تعديلات بعد الآن.";
@@ -2378,7 +2356,6 @@
 "This will automatically apply to all new workspaces you join. You can manually override this in the settings menu of each workspace." = "سيتم تطبيق هذا تلقائيًا على جميع مساحات العمل الجديدة التي تنضم إليها. يمكنك تجاوز هذا يدويًا في قائمة الإعدادات لكل مساحة عمل.";
 "This will be displayed on your profile as your status in place of “Available” or “Busy”." = "سيتم عرض هذا في ملف التعريف الخاص بك كحالتك في مكان \"متاح\" أو \"مشغول\".";
 "This will be shown on your profile and when people message you." = "سيظهر هذا في ملفك التعريفي وعندما يراسلك الآخرون.";
-"This will be shown on your profile." = "سيتم عرض هذا على ملفك الشخصي.";
 "This will be the name of your portal - choose a name that people will recognize." = "هذا سيكون اسم بوابتك - اختر اسمًا يتعرف عليه الناس.";
 "This will delete all scanned pages. Are you sure you want to leave?" = "سيؤدي هذا إلى حذف جميع الصفحات الممسوحة ضوئيًا. هل أنت متأكد من أنك تريد المغادرة؟";
 "This will erase annotations made by all participants." = "سيؤدي هذا إلى مسح التعليقات التوضيحية التي قدمها جميع المشاركين.";
@@ -2391,7 +2368,6 @@
 "This workspace has been deactivated" = "تم إلغاء تنشيط مساحة العمل هذه";
 "This workspace has been deactivated, and all members are unable to interact. Only the owner can reactivate it." = "تم إلغاء تنشيط مساحة العمل هذه، وجميع الأعضاء غير قادرين على التفاعل. يمكن للمالك فقط إعادة تنشيطه.";
 "This workspace has reached the maximum of %@ members. Please contact the workspace owner." = "لقد وصلت مساحة العمل هذه إلى الحد الأقصى لعدد %@ من الأعضاء. يرجى التواصل مع مالك مساحة العمل.";
-"This workspace has timed out. Please provide a reason, and a request will be sent to clients to reactivate it." = "لقد انتهت مدة صلاحية مساحة العمل هذه. يرجى تقديم سبب، وسيتم إرسال طلب إلى العملاء لإعادة تنشيطها.";
 "This workspace was likely deleted by the owner." = "من المحتمل أن يكون المالك قد حذف مساحة العمل هذه.";
 "Thursday" = "الخميس";
 "Time Booking" = "حجز وقت";
@@ -2497,7 +2473,6 @@
 "Unable to Invite" = "غير قادر على دعوة";
 "Unable to Join" = "غير قادر على الانضمام";
 "Unable to Load" = "غير قادر على التحميل";
-"Unable to Reassign" = "غير قادر على إعادة التعيين";
 "Unable to Remove" = "غير قادر على الإزالة";
 "Unable to Remove Link Preview" = "غير قادر على إزالة معاينة الرابط";
 "Unable to Save Changes" = "غير قادر على حفظ التغييرات";
@@ -2505,7 +2480,6 @@
 "Unable to Set Status" = "غير قادر على تعيين حالة";
 "Unable to Share" = "غير قادر على المشاركة";
 "Unable to Start" = "تعذر البدء";
-"Unable to Upload" = "غير قادر على التحميل";
 "Unable to Use Face ID" = "غير قادر على استخدام معرف الوجه";
 "Unable to access with account %@" = "غير قادر على الوصول بواسطة الحساب %@";
 "Unable to add" = "غير قادر على إضافة";
@@ -2570,6 +2544,7 @@
 "Upload failed" = "فشل الرفع";
 "Uploaded by" = "تم الرفع بواسطة";
 "Uploaded by %@" = "تم الرفع بواسطة %@";
+"Uploader" = "القائم بالرفع";
 "Uploaders" = "المرسلون";
 "Uploading Attachments" = "جاري تحميل المرفقات";
 "Uploading attachments" = "جاري تحميل المرفقات";
@@ -2588,7 +2563,6 @@
 "Use email address instead" = "استخدم عنوان البريد الإلكتروني بدلًا من ذلك";
 "Use one or more characters" = "استخدم حرفًا واحدًا أو أكثر";
 "Use phone number instead" = "استخدم رقم الهاتف بدلًا من ذلك";
-"User" = "المستخدم";
 "User Already Exists" = "المستخدم متوفر بالفعل";
 "User Deactivated" = "تم تعطيل المستخدم";
 "User Deleted" = "تم حذف المستخدم";
@@ -2622,7 +2596,6 @@
 "View office hours" = "عرض ساعات العمل";
 "View transaction history" = "عرض سجل المعاملات";
 "Viewer" = "مشاهد";
-"Viewers" = "المشاهدون";
 "Viewers (%@)" = "(%@) من المشاهدين";
 "Virtual Backgrounds" = "الخلفيات الافتراضية";
 "Voice Message" = "رسالة صوتية";
@@ -2720,6 +2693,8 @@
 "Who needs to review this?" = "من يحتاج إلى مراجعة هذا؟";
 "Who needs to sign?" = "من يحتاج التوقيع؟";
 "Who needs to upload this?" = "من يحتاج إلى رفع هذا؟";
+"Who needs to work on this?" = "من يحتاج للعمل على هذا؟";
+"Who will choose the meeting time?" = "من سيختار وقت الاجتماع؟";
 "Who will take action in this flow?" = "من سيتخذ إجراء في هذا التدفق؟";
 "Whole File" = "المستند بالكامل";
 "Will Be Added as an Individual Workspace Member" = "سيتم إضافته كعضو فردي في مساحة العمل";
@@ -2766,7 +2741,6 @@
 "You are controlling the co-browsing session." = "أنت تتحكم في جلسة التصفح المشترك.";
 "You are controlling the shared screen." = "أنت تتحكم في الشاشة المشتركة.";
 "You are currently not a part of any workspaces." = "أنت حاليًا لست جزءًا من أي مساحات عمل.";
-"You are currently not part of any workspaces." = "أنت حاليًا لست جزءًا من أي مساحات عمل.";
 "You are logged in as %@" = "لقد قمت بتسجيل الدخول باسم %@";
 "You are now a manager" = "أنت الآن مدير";
 "You are sharing your screen now." = "أنت تشارك شاشتك الآن.";
@@ -2892,10 +2866,6 @@
 "You’re already signed in" = "لقد سجلتَ الدخول بالفعل";
 "You’ve already added all of the bots." = "لقد قمت بالفعل بإضافة جميع البرامج الآلية.";
 "You’ve already added the maximum number of assignees." = "لقد أضفت بالفعل العدد الأقصى من المعينين.";
-"You’ve already added this client group as a viewer." = "لقد قمت بالفعل بإضافة مجموعة العميل هذه كمشاهد.";
-"You’ve already added this client group as an assignee." = "لقد قمت بالفعل بإضافة مجموعة العميل هذه كمكلف.";
-"You’ve already added this team as a viewer." = "لقد قمت بالفعل بإضافة هذا الفريق كمشاهد.";
-"You’ve already added this team as an assignee." = "لقد قمت بالفعل بإضافة هذا الفريق كمعين.";
 "You’ve already added this user as a viewer." = "لقد أضفت بالفعل هذا المستخدم كمشاهد.";
 "You’ve already added this user as an assignee." = "لقد أضفت بالفعل هذا المستخدم كمعين.";
 "You’ve already attached the maximum number of files. (50/50)" = "أرفقت بالفعل الحد الأقصى من عدد الملفات. (50/50)";
@@ -2914,7 +2884,6 @@
 "decline" = "رفض";
 "e.g. Acme" = "على سبيل المثال، Acme";
 "e.g. Due in 3 Days" = "على سبيل المثال، مستحق خلال 3 أيام";
-"e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "على سبيل المثال، استحقاق KYC قريباً، فرصة استثمارية جديدة، مراجعة المحفظة،...";
 "got it" = "فهمت";
 "hour" = "ساعة";
 "hours" = "ساعات";
