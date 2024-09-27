@@ -17,6 +17,8 @@
 "%@ Content Updated" = "อัปเดตเนื้อหา %@ แล้ว";
 "%@ Day" = "%@ วัน";
 "%@ Days" = "%@ วัน";
+"%@ Deactivated" = "%@ ถูกปิดใช้งาน";
+"%@ Deleted" = "%@ ถูกลบแล้ว";
 "%@ File" = "%@ ไฟล์";
 "%@ File Size Reached" = "ไฟล์ %1$@ มีขนาดถึงแล้ว";
 "%@ Guests" = "%@ ผู้มาเยือน";
@@ -131,6 +133,7 @@
 "%@ changed %@'s role to editor." = "%1$@ เปลี่ยนบทบาทของ %2$@ เป็นบรรณาธิการ";
 "%@ changed %@'s role to viewer." = "%1$@ เปลี่ยนบทบาทของ %2$@ เป็นผู้ดู";
 "%@ changed %@'s role." = "%1$@ เปลี่ยนบทบาทของ %2$@ แล้ว";
+"%@ common available times found, excluding the client group or team. " = "พบเวลาที่สามารถใช้งานได้ทั่วไป %@ ครั้ง ยกเว้นกลุ่มลูกค้าหรือทีม";
 "%@ common available times found." = "พบเวลาว่างทั่วไป %@ รายการ";
 "%@ completed" = "%@ เสร็จสิ้น";
 "%@ completed a %@" = "%1$@ ได้ทำ %2$@ เสร็จแล้ว";
@@ -239,6 +242,7 @@
 "%@ is currently out of the office. If you have any urgent issues, feel free to chat with %@." = "%1$@ ไม่อยู่ในสำนักงานในขณะนี้ หากคุณมีปัญหาด่วนที่ต้องการความช่วยเหลือ สามารถแชทกับ %2$@ ได้เลย";
 "%@ is currently out of the office:" = "%@ ไม่อยู่ในสำนักงานในขณะนี้:";
 "%@ is currently unavailable and will review your message as soon as they return." = "ขณะนี้ %@ ต่อไปนี้กำลังออฟไลน์อยู่ และจะตรวจสอบข้อความของคุณทันทีที่กลับมาออนไลน์:";
+"%@ is currently unavailable:" = "%@ ไม่สามารถใช้งานได้ในขณะนี้:";
 "%@ is inviting you to a workspace.\r\n\r\nTopic: %@\r\n\r\nOpen the workspace with the share link:\r\n%@" = "%1$@ กำลังเชิญคุณเข้าสู่พื้นที่ทำงาน\r\n\r\nหัวข้อ: %2$@\r\n\r\nเปิดพื้นที่ทำงานด้วยแชร์ลิงก์:\r\n%3$@";
 "%@ is muted" = "%@ ถูกปิดเสียง";
 "%@ is now the presenter." = "%@ เป็นผู้นำเสนอในตอนนี้.";
@@ -411,6 +415,7 @@
 "1 month ago" = "1 เดือนที่แล้ว";
 "1 request to approve" = "1 คำขอเพื่ออนุมัติ";
 "1 year ago" = "1 ปีที่ผ่านมา";
+"A maximum of %@ stamps are supported. Please delete an existing stamp to add a new one." = "รองรับตราประทับได้สูงสุด %@ ตรา กรุณาลบตราประทับที่มีอยู่เพื่อเพิ่มตราประทับใหม่";
 "A network error occurred." = "เกิดข้อผิดพลาดของเครือข่าย";
 "A network issue prevented us from starting co-browsing. Please try again." = "ปัญหาเครือข่ายทำให้เราไม่สามารถเริ่มการเรียกดูร่วมกันได้ โปรดลองอีกครั้ง";
 "A user with this email address already exists under a different name:" = "มีผู้ใช้ที่ใช้อีเมลนี้อยู่แล้วภายใต้ชื่อที่แตกต่างกัน:";
@@ -492,6 +497,7 @@
 "Add Members" = "เพิ่มสมาชิก";
 "Add New" = "เพิ่มใหม่";
 "Add New Action" = "เพิ่มการดำเนินการใหม่";
+"Add New Stamp" = "เพิ่มตราประทับใหม่";
 "Add Password" = "เพิ่มรหัสผ่าน";
 "Add Role" = "เพิ่มบทบาท";
 "Add Roles" = "เพิ่มบทบาท";
@@ -678,8 +684,14 @@
 "Background Color" = "สีพื้นหลัง";
 "Backup User" = "ผู้ใช้สำรอง";
 "Baidu Maps" = "แผนที่ Baidu";
+"Because certain actions do not allow a client group to be assigned, you can’t reassign to this group." = "เนื่องจากการดำเนินการบางอย่างไม่อนุญาตให้กำหนดกลุ่มลูกค้า คุณจึงไม่สามารถมอบหมายใหม่ให้กับกลุ่มนี้ได้";
+"Because certain actions do not allow a client group to be assigned, you can’t select one for this role." = "เนื่องจากการดำเนินการบางอย่างไม่อนุญาตให้กลุ่มลูกค้าถูกกำหนด คุณจึงไม่สามารถเลือกกลุ่มลูกค้าสำหรับบทบาทนี้ได้";
+"Because certain actions do not allow a team to be assigned, you can’t reassign to this team." = "เนื่องจากการดำเนินการบางอย่างไม่อนุญาตให้มอบหมายให้กับทีม คุณจึงไม่สามารถมอบหมายใหม่ให้กับทีมนี้ได้";
+"Because certain actions do not allow a team to be assigned, you can’t select a team for this role." = "เนื่องจากการดำเนินการบางอย่างไม่อนุญาตให้มีการมอบหมายทีม คุณจึงไม่สามารถเลือกทีมสำหรับบทบาทนี้ได้";
 "Before leaving, please reassign your pending actions to another person." = "ก่อนที่จะออก โปรดมอบหมายการดำเนินการที่รอดำเนินการของคุณใหม่ให้กับบุคคลอื่น";
+"Before leaving, please reassign your pending actions to someone else." = "ก่อนออกไป, โปรดมอบหมายการดำเนินการที่ค้างอยู่ของคุณให้กับบุคคลอื่น";
 "Before removing, please reassign their pending actions to another person." = "ก่อนที่จะลบออก โปรดมอบหมายการดำเนินการที่รอดำเนินการของตนใหม่ให้กับบุคคลอื่น";
+"Before removing, please reassign their pending actions to someone else." = "ก่อนที่จะลบ โปรดมอบหมายการดำเนินการที่รอดำเนินการให้กับบุคคลอื่นก่อน.";
 "Below are the previous invitations sent to this email address." = "ด้านล่างนี้คือคำเชิญที่ส่งไปยังที่อยู่อีเมลนี้ก่อนหน้านี้";
 "Beneficiary" = "ผู้รับผลประโยชน์";
 "Blank Workspace" = "พื้นที่ทำงานว่างเปล่า";
@@ -707,6 +719,7 @@
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "ในการสร้างบัญชีแสดงว่าคุณยอมรับเงื่อนไขและข้อกำหนดในการใช้บริการและนโยบายความเป็นส่วนตัวของเรา";
 "By tapping “Start”, you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "โดยการแตะ \"เริ่ม\" คุณยินยอมให้ Jumio เก็บรวบรวม, ประมวลผล, และแบ่งปันข้อมูลส่วนบุคคลของคุณ ซึ่งอาจรวมถึงข้อมูลชีวภาพ ตามที่ระบุไว้ในแจ้งเตือนความเป็นส่วนตัวของเรา";
 "By trusting this device, you can skip this verification step for the next 30 days." = "ด้วยการเชื่อถืออุปกรณ์นี้ คุณสามารถข้ามขั้นตอนการตรวจสอบนี้ได้ในอีก 30 วันข้างหน้า";
+"By using this feature, I agree that I am authorized to use the uploaded image and that it complies with all relevant laws and regulations." = "โดยการใช้ฟีเจอร์นี้ ฉันยอมรับว่าฉันมีสิทธิ์ที่จะใช้ภาพที่อัปโหลดและว่ามันปฏิบัติตามกฎหมายและระเบียบที่เกี่ยวข้องทั้งหมด";
 "CANCEL REQUEST" = "ยกเลิกคำขอ";
 "CANCELED" = "ยกเลิกแล้ว";
 "Calendar" = "ปฏิทิน";
@@ -756,6 +769,7 @@
 "Checkbox" = "ช่องทำเครื่องหมาย";
 "Checking participants' availability..." = "กำลังตรวจสอบความพร้อมทำงานของผู้เข้าร่วม...";
 "Choose File Name" = "เลือกชื่อไฟล์";
+"Choose Image" = "เลือกรูปภาพ";
 "Choose Type" = "เลือกประเภท";
 "Choose a data center" = "เลือกศูนย์ข้อมูล";
 "Choose a date..." = "เลือกวันที่...";
@@ -777,6 +791,7 @@
 "Client" = "ลูกค้า";
 "Client Assigned to You" = "ลูกค้าที่มอบหมายให้คุณ";
 "Client Blocked Account" = "บัญชีที่ถูกปิดกั้นของลูกค้า";
+"Client Group" = "กลุ่มลูกค้า";
 "Client Groups" = "กลุ่มลูกค้า";
 "Client Groups (Optional)" = "กลุ่มลูกค้า (ไม่บังคับ)";
 "Client ID" = "รหัสลูกค้า";
@@ -1183,7 +1198,6 @@
 "File Request ready for review." = "คำขอไฟล์พร้อมให้ตรวจทานแล้ว";
 "File Request ready for review: %@" = "คำขอไฟล์พร้อมให้ตรวจทานแล้ว: %@";
 "File Request reopened" = "เปิดคำขอไฟล์ใหม่";
-"File Reviewer" = "ผู้ตรวจสอบไฟล์";
 "File Reviewers" = "ผู้ตรวจสอบไฟล์";
 "File Size Exceeded" = "ขนาดไฟล์เกินที่กำหนด";
 "File doesn't exist." = "ไม่มีไฟล์นี้อยู่";
@@ -1698,6 +1712,8 @@
 "Only admin users can create Client Groups in the Admin Portal." = "เฉพาะผู้ใช้ที่เป็นผู้ดูแลระบบเท่านั้นที่สามารถสร้างกลุ่มลูกค้าในพอร์ทัลผู้ดูแลระบบได้.";
 "Only admins can invite new internal users." = "เฉพาะผู้ดูแลระบบเท่านั้นที่สามารถเชิญผู้ใช้ภายในใหม่";
 "Only client accounts with a phone number can connect via WhatsApp." = "เฉพาะบัญชีลูกค้าที่มีหมายเลขโทรศัพท์สามารถเชื่อมต่อผ่าน WhatsApp ได้";
+"Only client accounts with an email address can connect via LINE, WeChat, or WhatsApp." = "เฉพาะบัญชีลูกค้าที่มีที่อยู่อีเมลเท่านั้นที่สามารถเชื่อมต่อผ่าน LINE, WeChat, หรือ WhatsApp ได้.";
+"Only client accounts with an email address can connect via LINE." = "เฉพาะบัญชีลูกค้าที่มีที่อยู่อีเมลเท่านั้นที่สามารถเชื่อมต่อผ่าน LINE ได้";
 "Only client accounts with an email address can connect via WeChat or WhatsApp." = "เฉพาะบัญชีลูกค้าที่มีที่อยู่อีเมลเท่านั้นที่สามารถเชื่อมต่อผ่าน WeChat หรือ WhatsApp ได้.";
 "Only invited members can access the workspace" = "เฉพาะสมาชิกที่ได้รับเชิญเท่านั้นที่สามารถเข้าถึงพื้นที่ทำงาน";
 "Only one assignee is required to acknowledge this to complete it." = "ต้องการผู้รับมอบหมายเพียงคนเดียวเพื่อยืนยันการทำงานนี้ให้เสร็จสิ้น";
@@ -1857,9 +1873,9 @@
 "Read More" = "อ่านเพิ่มเติม";
 "Ready to connect" = "พร้อมที่จะเชื่อมต่อ";
 "Rearrange Pages" = "จัดเรียงหน้าใหม่";
+"Reason to Contact (Optional)" = "เหตุผลในการติดต่อ (ไม่บังคับ)";
 "Reassign" = "กำหนดใหม่";
 "Reassign Actions" = "การมอบหมายการดำเนินการใหม่";
-"Reassign to" = "มอบหมายใหม่ให้กับ";
 "Reassigned" = "มอบหมายใหม่แล้ว";
 "Receive emails about new activity when you’re not online and don’t have notifications enabled." = "รับอีเมลเกี่ยวกับกิจกรรมใหม่เมื่อคุณไม่ได้ออนไลน์และไม่ได้เปิดใช้งานการแจ้งเตือน";
 "Received" = "ได้รับแล้ว";
@@ -2033,6 +2049,7 @@
 "Select Items" = "เลือกรายการ";
 "Select Members" = "เลือกสมาชิก";
 "Select Signers" = "เลือกผู้ลงนาม";
+"Select Stamp" = "เลือกตราประทับ";
 "Select Template" = "เลือกแผ่นแบบโฟลว์";
 "Select Tool" = "เลือกเครื่องมือ";
 "Select Type" = "เลือกชนิด";
@@ -2054,6 +2071,7 @@
 "Send Message" = "ส่งข้อความ";
 "Send New Verification Code" = "ส่งรหัสการตรวจสอบยืนยันใหม่";
 "Send Notifications For" = "ส่งการแจ้งเตือนให้กับ";
+"Send Request" = "ส่งคำขอ";
 "Send SMS" = "ส่ง SMS";
 "Send To" = "ส่งถึง";
 "Send Verification Email" = "ส่งอีเมลการตรวจสอบยืนยัน";
@@ -2148,6 +2166,8 @@
 "Special Hours" = "เวลาทำการพิเศษ";
 "Speech Bubble" = "ช่องคำพูด";
 "Speech Bubbles" = "ช่องคำพูด";
+"Stamp" = "ตราประทับ";
+"Stamp Name" = "ชื่อตราประทับ";
 "Standard" = "มาตรฐาน";
 "Start" = "เริ่มต้น";
 "Start Co-Browsing" = "เริ่มการเรียกดูร่วมกัน";
@@ -2218,6 +2238,7 @@
 "Tap to learn more" = "แตะเพื่อเรียนรู้เพิ่มเติม";
 "Tap to load more" = "แตะเพื่อโหลดเพิ่มเติม";
 "Tap to view" = "แตะเพื่อดู";
+"Team" = "ทีม";
 "Teams" = "ทีม";
 "Tell us what you need" = "บอกสิ่งที่คุณต้องการ";
 "Tell us what you’re looking for so we can connect you with the right team." = "บอกเราว่าคุณกำลังมองหาอะไรเพื่อให้เราเชื่อมโยงคุณกับทีมที่เหมาะสม";
@@ -2246,6 +2267,7 @@
 "The account associated with this phone number is no longer active." = "บัญชีที่เชื่อมโยงกับหมายเลขโทรศัพท์นี้ไม่สามารถใช้งานได้อีกต่อไป";
 "The assignee(s) will need to sign again if reopened." = "ผู้โอนจะต้องลงนามอีกครั้งหากเปิดใหม่";
 "The code is no longer valid. Please request a new code to continue." = "รหัสนี้ไม่สามารถใช้งานได้อีกต่อไป กรุณาขอรหัสใหม่เพื่อดำเนินการต่อ";
+"The date will be recorded in [%@] format" = "วันที่จะถูกบันทึกในรูปแบบ [%@]";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "ไม่สามารถอัปโหลดไฟล์ได้เนื่องจากไม่เป็นไปตามข้อกำหนดด้านการรักษาความปลอดภัย โปรดตรวจสอบไฟล์ของคุณแล้วลองอีกครั้ง";
 "The flow workspace creator must be a member of the workspace. You will be automatically added to this workspace as a viewer." = "ผู้สร้างพื้นที่ทำงานของ Flow ต้องเป็นสมาชิกของพื้นที่ทำงานนั้น คุณจะถูกเพิ่มเข้าไปในพื้นที่ทำงานนี้โดยอัตโนมัติในฐานะผู้ชม.";
 "The following users are currently unavailable and will review your message as soon as they return: %@." = "ขณะนี้ผู้ใช้ต่อไปนี้กำลังออฟไลน์อยู่ และจะตรวจสอบข้อความของคุณทันทีที่กลับมาออนไลน์: %@";
@@ -2274,7 +2296,6 @@
 "The old password does not match." = "รหัสผ่านเก่าไม่ตรงกัน";
 "The operation did not complete successfully: %@" = "การดำเนินการไม่สำเร็จ: %@";
 "The person who will submit the required files." = "ผู้ที่จะส่งไฟล์ที่กำหนดไว้";
-"The person who will verify and approve the submitted files." = "ผู้ที่จะตรวจสอบยืนยันและอนุมัติไฟล์ที่ส่งมา";
 "The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "บุคคลที่จะตรวจสอบและอนุมัติไฟล์ที่ส่งมา คุณสามารถเชิญผู้ตรวจสอบหลายคน การดำเนินการจะเสร็จสิ้นเมื่อมีผู้ตรวจสอบไฟล์คนใดคนหนึ่งยืนยัน";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "ลิงก์ก่อนหน้านี้จะหมดอายุ ใครก็ตามที่มีลิงก์หมดอายุจะไม่สามารถใช้ลิงก์นี้เพื่อเข้าร่วมแพลตฟอร์มได้";
 "The recording could not be processed. Please check your internet connection." = "ไม่สามารถประมวลผลการบันทึกได้ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ";
@@ -2321,6 +2342,7 @@
 "This email does not match the predefined email." = "อีเมลนี้ไม่ตรงกับอีเมลที่กำหนดไว้ล่วงหน้า";
 "This email is already associated with another account." = "อีเมลนี้ถูกใช้ไปกับบัญชีอื่นแล้ว";
 "This envelope is still being processed by DocuSign. Please try again in a moment." = "ซองจดหมายนี้ยังอยู่ระหว่างการดำเนินการโดย DocuSign กรุณาลองอีกครั้งในอีกสักครู่";
+"This file exceeds the maximum size (%@MB)." = "ไฟล์นี้มีขนาดเกินสูงสุด (%@MB).";
 "This file has been deleted." = "ลบไฟล์นี้แล้ว";
 "This file has been deleted. It is no longer available." = "ไฟล์นี้ถูกลบแล้ว ไม่สามารถใช้งานได้อีกต่อไป";
 "This flow has been completed and you can no longer make modifications." = "การไหลนี้เสร็จสิ้นแล้วและคุณไม่สามารถทำการแก้ไขได้อีกต่อไป.";
@@ -2362,6 +2384,7 @@
 "This will automatically apply to all new workspaces you join. You can manually override this in the settings menu of each workspace." = "สิ่งนี้จะถูกนำไปใช้อัตโนมัติกับพื้นที่ทำงานใหม่ทุกแห่งที่คุณเข้าร่วม คุณสามารถเปลี่ยนแปลงนี้ด้วยตนเองได้ในเมนูการตั้งค่าของแต่ละพื้นที่ทำงาน.";
 "This will be displayed on your profile as your status in place of “Available” or “Busy”." = "ซึ่งจะแสดงบนโพรไฟล์ของคุณเป็นสถานะว่า \"ว่าง\" หรือ \"ไม่ว่าง\"";
 "This will be shown on your profile and when people message you." = "ซึ่งจะแสดงบนโปรไฟล์ของคุณและเมื่อมีคนส่งข้อความถึงคุณ";
+"This will be shown on your profile." = "สิ่งนี้จะถูกแสดงในโปรไฟล์ของคุณ";
 "This will be the name of your portal - choose a name that people will recognize." = "นี่จะเป็นชื่อของพอร์ทัลของคุณ - เลือกชื่อที่ผู้คนจะรู้จัก";
 "This will delete all scanned pages. Are you sure you want to leave?" = "การดำเนินการนี้จะลบหน้าเพจที่สแกนทั้งหมด คุณแน่ใจหรือว่าต้องการออก?";
 "This will erase annotations made by all participants." = "การดำเนินการนี้จะลบคำอธิบายประกอบที่สร้างโดยผู้เข้าร่วมทั้งหมด";
@@ -2374,6 +2397,7 @@
 "This workspace has been deactivated" = "พื้นที่ทำงานนี้ถูกปิดใช้งานแล้ว";
 "This workspace has been deactivated, and all members are unable to interact. Only the owner can reactivate it." = "พื้นที่ทำงานนี้ถูกปิดใช้งานแล้ว และสมาชิกทั้งหมดไม่สามารถทำงานร่วมกันได้ เฉพาะเจ้าของเท่านั้นที่สามารถเปิดใช้งานอีกครั้งได้";
 "This workspace has reached the maximum of %@ members. Please contact the workspace owner." = "พื้นที่ทำงานนี้มีสมาชิกครบจำนวนสูงสุดที่ %@ คนแล้ว กรุณาติดต่อเจ้าของพื้นที่ทำงาน";
+"This workspace has timed out. Please provide a reason, and a request will be sent to clients to reactivate it." = "พื้นที่ทำงานนี้หมดเวลาแล้ว กรุณาให้เหตุผลและคำขอจะถูกส่งไปยังลูกค้าเพื่อขอเปิดใช้งานอีกครั้ง";
 "This workspace was likely deleted by the owner." = "เจ้าของพื้นที่ทำงานนี้น่าจะเป็นผู้ลบ";
 "Thursday" = "วันพฤหัสบดี";
 "Time Booking" = "การจองเวลา";
@@ -2479,6 +2503,7 @@
 "Unable to Invite" = "ไม่สามารถเชิญชวนได้";
 "Unable to Join" = "ไม่สามารถเข้าร่วมได้";
 "Unable to Load" = "ไม่สามารถโหลดได้";
+"Unable to Reassign" = "ไม่สามารถมอบหมายใหม่ได้";
 "Unable to Remove" = "ไม่สามารถลบได้";
 "Unable to Remove Link Preview" = "ไม่สามารถลบการดูตัวอย่างลิงก์ออกได้";
 "Unable to Save Changes" = "ไม่สามารถบันทึกการเปลี่ยนแปลงได้";
@@ -2486,6 +2511,7 @@
 "Unable to Set Status" = "ไม่สามารถตั้งค่าสถานะได้";
 "Unable to Share" = "ไม่สามารถแบ่งปัน";
 "Unable to Start" = "ไม่สามารถเริ่มได้";
+"Unable to Upload" = "ไม่สามารถอัปโหลดได้";
 "Unable to Use Face ID" = "ไม่สามารถใช้ Face ID ได้";
 "Unable to access with account %@" = "ไม่สามารถเข้าถึงด้วยบัญชี %@";
 "Unable to add" = "ไม่สามารถเพิ่มได้";
@@ -2550,7 +2576,6 @@
 "Upload failed" = "การอัปโหลดล้มเหลว";
 "Uploaded by" = "อัปโหลดโดย";
 "Uploaded by %@" = "อัปโหลดโดย %@";
-"Uploader" = "อัปโหลด";
 "Uploaders" = "ผู้อัปโหลด";
 "Uploading Attachments" = "กำลังอัปโหลดไฟล์แนบ";
 "Uploading attachments" = "กำลังอัปโหลดไฟล์แนบ";
@@ -2569,6 +2594,7 @@
 "Use email address instead" = "ใช้ที่อยู่อีเมลนี้แทน";
 "Use one or more characters" = "ใช้ตัวอักษรหนึ่งตัวขึ้นไป";
 "Use phone number instead" = "ใช้หมายเลขโทรศัพท์นี้แทน";
+"User" = "ผู้ใช้";
 "User Already Exists" = "มีผู้ใช้อยู่แล้ว";
 "User Deactivated" = "ปิดใช้งานผู้ใช้แล้ว";
 "User Deleted" = "ลบผู้ใช้แล้ว";
@@ -2602,6 +2628,7 @@
 "View office hours" = "ดูเวลาทำการ";
 "View transaction history" = "ดูประวัติการทำธุรกรรม";
 "Viewer" = "ผู้ดู";
+"Viewers" = "ผู้ชม";
 "Viewers (%@)" = "ผู้ดู (%@) คน";
 "Virtual Backgrounds" = "พื้นหลังเสมือน";
 "Voice Message" = "ข้อความเสียง";
@@ -2699,8 +2726,6 @@
 "Who needs to review this?" = "ใครต้องทบทวนสิ่งนี้?";
 "Who needs to sign?" = "ใครบ้างที่ต้องลงนาม?";
 "Who needs to upload this?" = "ใครต้องอัปโหลดสิ่งนี้?";
-"Who needs to work on this?" = "ใครต้องการทำงานนี้?";
-"Who will choose the meeting time?" = "ใครจะเป็นคนเลือกเวลาการประชุม?";
 "Who will take action in this flow?" = "ใครจะเป็นผู้ลงมือดำเนินการในโฟลว์นี้?";
 "Whole File" = "ไฟล์ทั้งหมด";
 "Will Be Added as an Individual Workspace Member" = "จะถูกเพิ่มเป็นสมาชิกพื้นที่ทำงานแบบ개인";
@@ -2747,6 +2772,7 @@
 "You are controlling the co-browsing session." = "คุณกำลังควบคุมการเซสชันการเรียกดูร่วมกัน";
 "You are controlling the shared screen." = "คุณกำลังควบคุมหน้าจอที่แชร์";
 "You are currently not a part of any workspaces." = "คุณยังไม่ได้เป็นส่วนหนึ่งของพื้นที่ทำงานใด ๆ ในขณะนี้";
+"You are currently not part of any workspaces." = "คุณยังไม่ได้เป็นส่วนหนึ่งของพื้นที่ทำงานใด ๆ ในขณะนี้";
 "You are logged in as %@" = "คุณเข้าสู่ระบบด้วย %@";
 "You are now a manager" = "คุณเป็นผู้จัดการแล้วตอนนี้";
 "You are sharing your screen now." = "คุณกำลังแบ่งปันหน้าจอของคุณตอนนี้";
@@ -2872,6 +2898,10 @@
 "You’re already signed in" = "คุณเข้าสู่ระบบอยู่แล้ว";
 "You’ve already added all of the bots." = "คุณได้เพิ่มบอททั้งหมดแล้ว";
 "You’ve already added the maximum number of assignees." = "คุณได้เพิ่มผู้รับมอบหมายสูงสุดที่กำหนดไว้แล้ว";
+"You’ve already added this client group as a viewer." = "คุณได้เพิ่มกลุ่มลูกค้านี้เป็นผู้ชมแล้ว";
+"You’ve already added this client group as an assignee." = "คุณได้เพิ่มกลุ่มลูกค้านี้เป็นผู้รับมอบหมายแล้ว";
+"You’ve already added this team as a viewer." = "คุณได้เพิ่มทีมนี้เป็นผู้ชมแล้ว";
+"You’ve already added this team as an assignee." = "คุณได้เพิ่มทีมนี้เป็นผู้รับมอบหมายแล้ว";
 "You’ve already added this user as a viewer." = "คุณได้เพิ่มผู้ใช้งานรายนี้เป็นผู้ชมเรียบร้อยแล้ว";
 "You’ve already added this user as an assignee." = "คุณได้เพิ่มผู้ใช้งานรายนี้เป็นผู้รับมอบหมายเรียบร้อยแล้ว";
 "You’ve already attached the maximum number of files. (50/50)" = "คุณได้แนบไฟล์ครบจำนวนสูงสุดเรียบร้อยแล้ว (50/50)";
@@ -2890,6 +2920,7 @@
 "decline" = "ปฏิเสธ";
 "e.g. Acme" = "เช่น Acme";
 "e.g. Due in 3 Days" = "เช่น ครบกำหนดใน 3 วัน เป็นต้น";
+"e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "เช่น การตรวจสอบ KYC ใกล้ครบกำหนด, โอกาสการลงทุนใหม่, การทบทวนพอร์ตการลงทุน,...";
 "got it" = "เข้าใจแล้ว";
 "hour" = "ชั่วโมง";
 "hours" = "ชั่วโมง";

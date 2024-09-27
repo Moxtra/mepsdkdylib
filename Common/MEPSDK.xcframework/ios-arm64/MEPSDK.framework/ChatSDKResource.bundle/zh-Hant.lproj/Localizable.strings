@@ -17,6 +17,8 @@
 "%@ Content Updated" = "%@內容已更新";
 "%@ Day" = "%@天";
 "%@ Days" = "%@天";
+"%@ Deactivated" = "%@已停用";
+"%@ Deleted" = "%@已刪除";
 "%@ File" = "%@文件";
 "%@ File Size Reached" = "已達到%1$@文件大小";
 "%@ Guests" = "%@位臨時客人";
@@ -131,6 +133,7 @@
 "%@ changed %@'s role to editor." = "%1$@改變了%2$@的角色成編輯。";
 "%@ changed %@'s role to viewer." = "%1$@改變了%2$@的角色成可讀。";
 "%@ changed %@'s role." = "%1$@更改了%2$@的角色。";
+"%@ common available times found, excluding the client group or team. " = "找到%@個常見的可用時間，不包括客戶組或團隊。";
 "%@ common available times found." = "找到%@個常用可用時間。";
 "%@ completed" = "%@已完成";
 "%@ completed a %@" = "%1$@完成了%2$@";
@@ -239,6 +242,7 @@
 "%@ is currently out of the office. If you have any urgent issues, feel free to chat with %@." = "%1$@目前不在辦公室。如果您有任何緊急問題，歡迎隨時與%2$@聊天。";
 "%@ is currently out of the office:" = "%@目前不在辦公室：";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@目前無法使用，他們會在他們返回後立即查看您的消息。";
+"%@ is currently unavailable:" = "%@目前無法使用：";
 "%@ is inviting you to a workspace.\r\n\r\nTopic: %@\r\n\r\nOpen the workspace with the share link:\r\n%@" = "%1$@正在邀請您加入工作空間。 \r\n\r\n主題：%2$@\r\n\r\n使用共享鏈接打開工作空間：\r\n%3$@";
 "%@ is muted" = "%@被靜音";
 "%@ is now the presenter." = "%@現在是主持人。";
@@ -411,6 +415,7 @@
 "1 month ago" = "一個月前";
 "1 request to approve" = "一個請求待批准";
 "1 year ago" = "一年前";
+"A maximum of %@ stamps are supported. Please delete an existing stamp to add a new one." = "最多支持%@個印章。請刪除現有印章以添加新印章。";
 "A network error occurred." = "網絡錯誤。";
 "A network issue prevented us from starting co-browsing. Please try again." = "網絡問題使我們無法開始協同瀏覽。請再試一次。";
 "A user with this email address already exists under a different name:" = "使用此電子郵件地址的用戶已經以不同名字存在：";
@@ -492,6 +497,7 @@
 "Add Members" = "添加成員";
 "Add New" = "新建";
 "Add New Action" = "添加新操作";
+"Add New Stamp" = "添加新印章";
 "Add Password" = "添加密碼";
 "Add Role" = "添加角色";
 "Add Roles" = "添加角色";
@@ -678,8 +684,14 @@
 "Background Color" = "背景色";
 "Backup User" = "備份用戶";
 "Baidu Maps" = "百度地圖";
+"Because certain actions do not allow a client group to be assigned, you can’t reassign to this group." = "由於某些操作不允許分配給客戶組，您無法重新分配給這個組。";
+"Because certain actions do not allow a client group to be assigned, you can’t select one for this role." = "由於某些操作不允許分配客戶組，因此您無法為此角色選擇客戶組。";
+"Because certain actions do not allow a team to be assigned, you can’t reassign to this team." = "由於某些操作不允許分配給團隊，因此您無法重新分配給此團隊。";
+"Because certain actions do not allow a team to be assigned, you can’t select a team for this role." = "由於某些操作不允許分配團隊，因此您無法為此角色選擇團隊。";
 "Before leaving, please reassign your pending actions to another person." = "離開之前，請將您的待處理操作重新分配給其他人。";
+"Before leaving, please reassign your pending actions to someone else." = "離開前，請將您待處理的操作重新分配給其他人。";
 "Before removing, please reassign their pending actions to another person." = "在刪除之前，請將他們的待處理操作重新分配給其他人。";
+"Before removing, please reassign their pending actions to someone else." = "在移除之前，請將他們的待處理操作重新分配給其他人。";
 "Below are the previous invitations sent to this email address." = "以下是之前發送到此電子郵件地址的邀請。";
 "Beneficiary" = "受益人";
 "Blank Workspace" = "空白工作空間";
@@ -707,6 +719,7 @@
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "創建賬號就意味著您同意服務條款以及隱私條款。";
 "By tapping “Start”, you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "點擊“開始”，即表示您同意Jumio根據其隱私聲明收集、處理和分享您的個人信息，其中可能包括生物識別數據。";
 "By trusting this device, you can skip this verification step for the next 30 days." = "信任此設備後，您可以在接下來的30天內跳過這個驗證步驟。";
+"By using this feature, I agree that I am authorized to use the uploaded image and that it complies with all relevant laws and regulations." = "使用此功能，我同意我有權使用上傳的圖像，並且它符合所有相關法律和規定。";
 "CANCEL REQUEST" = "取消請求";
 "CANCELED" = "已取消";
 "Calendar" = "日程";
@@ -756,6 +769,7 @@
 "Checkbox" = "複選框";
 "Checking participants' availability..." = "正在檢查參與者的可用性...";
 "Choose File Name" = "選擇文件名";
+"Choose Image" = "選擇圖片";
 "Choose Type" = "選擇類型";
 "Choose a data center" = "選擇數據中心";
 "Choose a date..." = "選擇日期...";
@@ -777,6 +791,7 @@
 "Client" = "客戶";
 "Client Assigned to You" = "分配給您的客戶";
 "Client Blocked Account" = "客戶屏蔽了我們的賬號";
+"Client Group" = "客戶群組";
 "Client Groups" = "客戶組";
 "Client Groups (Optional)" = "客戶組（可選）";
 "Client ID" = "客戶端ID";
@@ -1183,7 +1198,6 @@
 "File Request ready for review." = "文件請求可供審核。";
 "File Request ready for review: %@" = "文件請求可供審核：%@";
 "File Request reopened" = "文件請求重新打開";
-"File Reviewer" = "文件審閱者";
 "File Reviewers" = "文件審查員";
 "File Size Exceeded" = "文件大小超出限制";
 "File doesn't exist." = "文件不存在。";
@@ -1698,6 +1712,8 @@
 "Only admin users can create Client Groups in the Admin Portal." = "只有管理員用戶可以在管理員門戶中創建客戶組。";
 "Only admins can invite new internal users." = "只有管理員才能邀請新的內部用戶。";
 "Only client accounts with a phone number can connect via WhatsApp." = "只有帶有電話號碼的客戶賬戶可以通過WhatsApp連接。";
+"Only client accounts with an email address can connect via LINE, WeChat, or WhatsApp." = "只有具有電子郵件地址的客戶賬戶才能通過LINE、微信或WhatsApp連接。";
+"Only client accounts with an email address can connect via LINE." = "只有帶有電子郵件地址的客戶賬戶才能通過LINE連接。";
 "Only client accounts with an email address can connect via WeChat or WhatsApp." = "只有設有電子郵件地址的客戶賬戶才能通過微信或WhatsApp連接。";
 "Only invited members can access the workspace" = "只有被邀請的成員可以訪問工作空間";
 "Only one assignee is required to acknowledge this to complete it." = "只需要一個經辦人確認此事項即可完成它。";
@@ -1857,9 +1873,9 @@
 "Read More" = "更多";
 "Ready to connect" = "可以建立連線";
 "Rearrange Pages" = "重排PDF文件";
+"Reason to Contact (Optional)" = "聯繫原因（可選）";
 "Reassign" = "重新安排";
 "Reassign Actions" = "重新分配操作";
-"Reassign to" = "重新分配給";
 "Reassigned" = "已重新分配";
 "Receive emails about new activity when you’re not online and don’t have notifications enabled." = "當您不在線且未啟用通知時，會收到有關新動態的電子郵件。";
 "Received" = "已收到";
@@ -2033,6 +2049,7 @@
 "Select Items" = "選擇欄目";
 "Select Members" = "選擇成員";
 "Select Signers" = "選擇簽名人";
+"Select Stamp" = "選擇印章";
 "Select Template" = "選擇模板";
 "Select Tool" = "對象選擇工具";
 "Select Type" = "選擇類型";
@@ -2054,6 +2071,7 @@
 "Send Message" = "發送消息";
 "Send New Verification Code" = "發送新的驗證碼";
 "Send Notifications For" = "請選擇需要發送邀請的條目";
+"Send Request" = "發送請求";
 "Send SMS" = "短消息";
 "Send To" = "發送至";
 "Send Verification Email" = "發送驗證電子郵件";
@@ -2148,6 +2166,8 @@
 "Special Hours" = "特殊時間";
 "Speech Bubble" = "語音氣泡";
 "Speech Bubbles" = "氣泡";
+"Stamp" = "印章";
+"Stamp Name" = "印章名稱";
 "Standard" = "標準版";
 "Start" = "開始";
 "Start Co-Browsing" = "開始協同瀏覽";
@@ -2218,6 +2238,7 @@
 "Tap to learn more" = "點擊了解更多";
 "Tap to load more" = "點擊以加載更多";
 "Tap to view" = "點擊查看";
+"Team" = "團隊";
 "Teams" = "團隊";
 "Tell us what you need" = "告訴我們你需要什麼";
 "Tell us what you’re looking for so we can connect you with the right team." = "告訴我們您要尋找的東西，以便我們讓合適的團隊與您聯繫。";
@@ -2246,6 +2267,7 @@
 "The account associated with this phone number is no longer active." = "與此電話號碼關聯的賬戶不再有效";
 "The assignee(s) will need to sign again if reopened." = "如果重新打開，經辦人將需要再次簽名。";
 "The code is no longer valid. Please request a new code to continue." = "該代碼已不再有效。請重新申請一個新的代碼以繼續。";
+"The date will be recorded in [%@] format" = "日期將以[%@]格式記錄";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "該文件不符合我們的安全規定。請檢查文件然後再試。";
 "The flow workspace creator must be a member of the workspace. You will be automatically added to this workspace as a viewer." = "流程工作空間的創建者必須是工作空間的成員。您將自動被添加為此工作空間的查看者。";
 "The following users are currently unavailable and will review your message as soon as they return: %@." = "以下用戶目前無法使用，他們一回來就會查看您的消息：%@。";
@@ -2274,7 +2296,6 @@
 "The old password does not match." = "舊密碼不符。";
 "The operation did not complete successfully: %@" = "這個操作沒有完全成功： %@";
 "The person who will submit the required files." = "提交所需文件的人。";
-"The person who will verify and approve the submitted files." = "驗證和批准所提交文件的人。";
 "The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "負責驗證和批准提交文件的人。您可以邀請多位審查員。任何文件審查員確認後，操作即為完成。";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "之前的鏈接將會失效。使用失效鏈接將無法成功加入平台。";
 "The recording could not be processed. Please check your internet connection." = "錄製無法處理。請檢查您的網際網路連接。";
@@ -2321,6 +2342,7 @@
 "This email does not match the predefined email." = "此電子郵件與預定義的電子郵件不符。";
 "This email is already associated with another account." = "此電子郵件已與另一個賬戶關聯。";
 "This envelope is still being processed by DocuSign. Please try again in a moment." = "此信封仍在由DocuSign處理中。請稍後再試。";
+"This file exceeds the maximum size (%@MB)." = "此文件超出最大大小限制 (%@MB)。";
 "This file has been deleted." = "該文件已經被刪除。";
 "This file has been deleted. It is no longer available." = "此檔案已被刪除。它不再可用。";
 "This flow has been completed and you can no longer make modifications." = "此流程已完成，您無法再進行修改。";
@@ -2362,6 +2384,7 @@
 "This will automatically apply to all new workspaces you join. You can manually override this in the settings menu of each workspace." = "這將自動應用於您加入的所有新工作空間。您可以在每個工作空間的設置菜單中手動覆蓋此設置。";
 "This will be displayed on your profile as your status in place of “Available” or “Busy”." = "這將作為你的狀態“空閒” “忙碌”，被顯示在您的個人信息中。";
 "This will be shown on your profile and when people message you." = "這將顯示在您的個人資料中以及人們向您發送消息時";
+"This will be shown on your profile." = "這將顯示在您的個人檔案上。";
 "This will be the name of your portal - choose a name that people will recognize." = "這將是您的門戶網站的名稱 - 選擇一個人們能夠識別的名稱。";
 "This will delete all scanned pages. Are you sure you want to leave?" = "這將刪除所有已掃描好的頁面。您是否確定要離開？";
 "This will erase annotations made by all participants." = "這將刪除所有參與者所做的標註。";
@@ -2374,6 +2397,7 @@
 "This workspace has been deactivated" = "此工作空間已被停用";
 "This workspace has been deactivated, and all members are unable to interact. Only the owner can reactivate it." = "此工作空間已被停用，所有成員無法進行交互。只有擁有者可以重新激活它。";
 "This workspace has reached the maximum of %@ members. Please contact the workspace owner." = "此工作空間已達到最大成員數%@。請聯繫工作空間擁有者。";
+"This workspace has timed out. Please provide a reason, and a request will be sent to clients to reactivate it." = "此工作空間已超時。請提供原因，將向客戶發送請求以重新激活它。";
 "This workspace was likely deleted by the owner." = "此工作空間可能已被所有者刪除。";
 "Thursday" = "週四";
 "Time Booking" = "時間預定";
@@ -2479,6 +2503,7 @@
 "Unable to Invite" = "無法邀請";
 "Unable to Join" = "無法加入";
 "Unable to Load" = "無法加載";
+"Unable to Reassign" = "無法重新分配";
 "Unable to Remove" = "無法移除";
 "Unable to Remove Link Preview" = "無法刪除鏈接預覽";
 "Unable to Save Changes" = "無法保存更改";
@@ -2486,6 +2511,7 @@
 "Unable to Set Status" = "無法設置狀態";
 "Unable to Share" = "無法分享";
 "Unable to Start" = "無法開始";
+"Unable to Upload" = "無法上傳";
 "Unable to Use Face ID" = "無法使用面容ID";
 "Unable to access with account %@" = "無法使用賬戶%@進行訪問";
 "Unable to add" = "無法添加";
@@ -2550,7 +2576,6 @@
 "Upload failed" = "上傳失敗";
 "Uploaded by" = "上傳的：";
 "Uploaded by %@" = "%@上傳的";
-"Uploader" = "上傳者";
 "Uploaders" = "上傳者";
 "Uploading Attachments" = "上傳附件";
 "Uploading attachments" = "正在上傳附件";
@@ -2569,6 +2594,7 @@
 "Use email address instead" = "使用電子郵件";
 "Use one or more characters" = "使用一個或多個字符";
 "Use phone number instead" = "使用電話號碼";
+"User" = "用戶";
 "User Already Exists" = "用戶已存在";
 "User Deactivated" = "用戶被禁用";
 "User Deleted" = "刪除用戶";
@@ -2602,6 +2628,7 @@
 "View office hours" = "查看辦公時間";
 "View transaction history" = "查看交易歷史";
 "Viewer" = "瀏覽者";
+"Viewers" = "查看者們";
 "Viewers (%@)" = "瀏覽者 (%@)";
 "Virtual Backgrounds" = "虛擬背景";
 "Voice Message" = "語音";
@@ -2677,10 +2704,10 @@
 "Welcome to %@’s Service Portal!" = "歡迎來到%@的服務門戶！";
 "Welcome! Thank you for accepting my invitation and joining our platform. Feel free to reach out to me any time for assistance." = "非常歡迎！感謝接受我的邀請加入我們的平台。歡迎任何時候聯繫我。";
 "Welcome, %@!" = "歡迎%@！";
-"We’ll email you a magic code for a password-free login. Or you can" = "我們將向您發送一個免密碼登錄的魔法代碼。或者您可以";
+"We’ll email you a magic code for a password-free login. Or you can" = "我們將向您發送一個免密碼登錄的驗證碼。或者您可以";
 "We’ll send a verification code using one of the options below:" = "我們將使用以下選項之一發送驗證碼：";
 "We’ll send out an email or SMS invitation to notify the assignees." = "我們將發送電子郵件或短信邀請通知經辦人。";
-"We’ll send you a magic code for a password-free login. Or you can" = "我們將向您發送一個免密碼登錄的魔法代碼。或者您可以";
+"We’ll send you a magic code for a password-free login. Or you can" = "我們將向您發送一個免密碼登錄的驗證碼。或者您可以";
 "We’ve collected all the files shared across your channels so you can get an overview." = "我們已經收集了所有在你的渠道上分享的文件，所以你可以得到一個概覽。";
 "What can my assignees expect?" = "我的經辦人可以期待什麼？";
 "WhatsApp" = "WhatsApp";
@@ -2699,8 +2726,6 @@
 "Who needs to review this?" = "誰需要審查這個？";
 "Who needs to sign?" = "誰需要簽名？";
 "Who needs to upload this?" = "誰需要上傳這個？";
-"Who needs to work on this?" = "誰需要為此工作？";
-"Who will choose the meeting time?" = "誰將選擇會議時間？";
 "Who will take action in this flow?" = "誰將在此流程中進行操作？";
 "Whole File" = "完整文件";
 "Will Be Added as an Individual Workspace Member" = "將被添加為個別工作空間成員";
@@ -2747,6 +2772,7 @@
 "You are controlling the co-browsing session." = "您正在控制協同瀏覽會議。";
 "You are controlling the shared screen." = "您正在控制共享屏幕。";
 "You are currently not a part of any workspaces." = "您目前不屬於任何工作空間。";
+"You are currently not part of any workspaces." = "您目前不屬於任何工作空間。";
 "You are logged in as %@" = "您作為%@身份登錄";
 "You are now a manager" = "你現在是一名經理";
 "You are sharing your screen now." = "您正在共享屏幕...";
@@ -2872,6 +2898,10 @@
 "You’re already signed in" = "您已經登錄。";
 "You’ve already added all of the bots." = "您已經添加了所有機器人。";
 "You’ve already added the maximum number of assignees." = "您已添加了最大數量的經辦人。";
+"You’ve already added this client group as a viewer." = "您已經將此客戶組添加為查看者。";
+"You’ve already added this client group as an assignee." = "您已將此客戶組添加為經辦人。";
+"You’ve already added this team as a viewer." = "您已將此團隊添加為查看者。";
+"You’ve already added this team as an assignee." = "您已將此團隊添加為經辦人。";
 "You’ve already added this user as a viewer." = "您已將此用戶添加為查看者";
 "You’ve already added this user as an assignee." = "您已將此用戶添加為經辦人";
 "You’ve already attached the maximum number of files. (50/50)" = "您已經附加了最大數量的文件。 (50/50)";
@@ -2890,6 +2920,7 @@
 "decline" = "拒絕";
 "e.g. Acme" = "例如: Acme";
 "e.g. Due in 3 Days" = "例如3天內到期";
+"e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "例如，即將到期的客戶身份認證、新的投資機會、投資組合評估...";
 "got it" = "明白";
 "hour" = "小時";
 "hours" = "小時";
@@ -2903,7 +2934,7 @@
 "in: %@" = "在：%@";
 "location" = "位置";
 "log in manually instead." = "改為手動登錄。";
-"log in with a magic code instead." = "改用魔法代碼登錄。";
+"log in with a magic code instead." = "改用驗證碼登錄。";
 "log in with a password instead." = "改用密碼登錄。";
 "member" = "成員";
 "min" = "分鐘";

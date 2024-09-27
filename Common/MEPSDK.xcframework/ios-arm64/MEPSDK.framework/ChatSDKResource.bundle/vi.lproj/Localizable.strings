@@ -17,6 +17,8 @@
 "%@ Content Updated" = "Đã Cập Nhật Nội Dung %@";
 "%@ Day" = "%@ Ngày";
 "%@ Days" = "%@ Ngày";
+"%@ Deactivated" = "%@ đã bị vô hiệu hóa";
+"%@ Deleted" = "%@ đã bị xóa";
 "%@ File" = "Tệp tin %@";
 "%@ File Size Reached" = "Đã đạt kích thước tệp %1$@";
 "%@ Guests" = "%@ Khách mời";
@@ -131,6 +133,7 @@
 "%@ changed %@'s role to editor." = "%1$@ đã thay đổi vai trò của %2$@ thành người chỉnh sửa.";
 "%@ changed %@'s role to viewer." = "%1$@ đã thay đổi vai trò của %2$@ thành người xem.";
 "%@ changed %@'s role." = "%1$@ đã thay đổi vai trò của %2$@.";
+"%@ common available times found, excluding the client group or team. " = "Đã tìm thấy %@ thời gian phổ biến có sẵn, không bao gồm nhóm khách hàng hoặc đội.";
 "%@ common available times found." = "%@ khung giờ trống phổ biến hiện có.";
 "%@ completed" = "%@ đã hoàn thành";
 "%@ completed a %@" = "%1$@ đã hoàn thành một %2$@";
@@ -239,6 +242,7 @@
 "%@ is currently out of the office. If you have any urgent issues, feel free to chat with %@." = "%1$@ hiện đang vắng mặt khỏi văn phòng. Nếu bạn có bất kỳ vấn đề gấp nào, đừng ngần ngại trò chuyện với %2$@.";
 "%@ is currently out of the office:" = "%@ hiện đang vắng mặt khỏi văn phòng:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ hiện đang không có mặt và sẽ xem tin nhắn của bạn ngay khi họ quay lại.";
+"%@ is currently unavailable:" = "%@ hiện không khả dụng:";
 "%@ is inviting you to a workspace.\r\n\r\nTopic: %@\r\n\r\nOpen the workspace with the share link:\r\n%@" = "%1$@ đang mời bạn đến không gian làm việc.\r\n\r\nChủ đề: %2$@\r\n\r\nMở không gian làm việc bằng liên kết chia sẻ:\r\n%3$@";
 "%@ is muted" = "%@ bị tắt tiếng";
 "%@ is now the presenter." = "%@ hiện là người thuyết trình.";
@@ -411,6 +415,7 @@
 "1 month ago" = "1 tháng trước";
 "1 request to approve" = "1 yêu cầu cần phê duyệt";
 "1 year ago" = "1 năm trước";
+"A maximum of %@ stamps are supported. Please delete an existing stamp to add a new one." = "Hỗ trợ tối đa %@ dấu. Vui lòng xóa một dấu hiện có để thêm dấu mới.";
 "A network error occurred." = "Đã xảy ra một lỗi mạng.";
 "A network issue prevented us from starting co-browsing. Please try again." = "Chúng tôi không thể băt đầu đồng duyệt do sự cố mạng. Vui lòng thử lại lần nữa.";
 "A user with this email address already exists under a different name:" = "Một người dùng với địa chỉ email này đã tồn tại dưới một tên khác:";
@@ -492,6 +497,7 @@
 "Add Members" = "Thêm Thành viên";
 "Add New" = "Thêm Mới";
 "Add New Action" = "Thêm Hành Động Mới";
+"Add New Stamp" = "Thêm Dấu Mới";
 "Add Password" = "Thêm Mật khẩu";
 "Add Role" = "Thêm vai trò";
 "Add Roles" = "Thêm Vai trò";
@@ -678,8 +684,14 @@
 "Background Color" = "Màu nền";
 "Backup User" = "Người dùng dự phòng";
 "Baidu Maps" = "Bản đồ Baidu";
+"Because certain actions do not allow a client group to be assigned, you can’t reassign to this group." = "Vì một số hành động không cho phép gán cho nhóm khách hàng, bạn không thể chuyển giao cho nhóm này.";
+"Because certain actions do not allow a client group to be assigned, you can’t select one for this role." = "Vì một số hành động không cho phép gán nhóm khách hàng, bạn không thể chọn một nhóm cho vai trò này.";
+"Because certain actions do not allow a team to be assigned, you can’t reassign to this team." = "Vì một số hành động không cho phép gán cho một nhóm, bạn không thể chuyển giao cho nhóm này.";
+"Because certain actions do not allow a team to be assigned, you can’t select a team for this role." = "Vì một số hành động không cho phép gán một nhóm, bạn không thể chọn một nhóm cho vai trò này.";
 "Before leaving, please reassign your pending actions to another person." = "Trước khi rời đi, vui lòng giao lại các hành động đang chờ xử lý của bạn cho người khác.";
+"Before leaving, please reassign your pending actions to someone else." = "Trước khi rời đi, vui lòng chuyển giao các hành động đang chờ của bạn cho người khác.";
 "Before removing, please reassign their pending actions to another person." = "Trước khi xóa, vui lòng giao lại các hành động đang chờ xử lý của họ cho người khác.";
+"Before removing, please reassign their pending actions to someone else." = "Trước khi xóa, vui lòng chuyển giao các hành động đang chờ của họ cho người khác.";
 "Below are the previous invitations sent to this email address." = "Dưới đây là những lời mời trước đây đã được gửi đến địa chỉ email này.";
 "Beneficiary" = "Bên thụ hưởng";
 "Blank Workspace" = "Không gian làm việc trống";
@@ -707,6 +719,7 @@
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "Khi tạo tài khoản, bạn đồng ý với Điều khoản Dịch vụ & Chính sách Bảo mật của chúng tôi.";
 "By tapping “Start”, you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "Bằng cách nhấn vào “Bắt đầu”, bạn đồng ý cho Jumio thu thập, xử lý và chia sẻ thông tin cá nhân của bạn, có thể bao gồm dữ liệu sinh trắc học, theo Chính sách Bảo mật của họ.";
 "By trusting this device, you can skip this verification step for the next 30 days." = "Bằng cách tin tưởng thiết bị này, bạn có thể bỏ qua bước xác minh này trong 30 ngày tới.";
+"By using this feature, I agree that I am authorized to use the uploaded image and that it complies with all relevant laws and regulations." = "Bằng cách sử dụng tính năng này, tôi đồng ý rằng tôi được phép sử dụng hình ảnh đã tải lên và nó tuân thủ tất cả các luật và quy định liên quan.";
 "CANCEL REQUEST" = "HỦY YÊU CẦU";
 "CANCELED" = "ĐÃ HỦY";
 "Calendar" = "Lịch";
@@ -756,6 +769,7 @@
 "Checkbox" = "Ô chọn";
 "Checking participants' availability..." = "Đang kiểm tra lịch trống của người tham gia...";
 "Choose File Name" = "Chọn Tên Tệp tin";
+"Choose Image" = "Chọn hình ảnh";
 "Choose Type" = "Chọn Loại";
 "Choose a data center" = "Chọn trung tâm dữ liệu";
 "Choose a date..." = "Chọn một ngày...";
@@ -777,6 +791,7 @@
 "Client" = "Khách hàng";
 "Client Assigned to You" = "Khách hàng được giao cho bạn";
 "Client Blocked Account" = "Khách hàng đã Chặn Tài khoản";
+"Client Group" = "Nhóm Khách hàng";
 "Client Groups" = "Nhóm Khách Hàng";
 "Client Groups (Optional)" = "Nhóm Khách Hàng (Tùy Chọn)";
 "Client ID" = "ID Khách hàng";
@@ -1183,7 +1198,6 @@
 "File Request ready for review." = "Yêu cầu Tệp sẵn sàng để xem xét.";
 "File Request ready for review: %@" = "Yêu cầu Tệp sẵn sàng để xem xét: %@";
 "File Request reopened" = "Yêu cầu Tệp được mở lại";
-"File Reviewer" = "Người đánh giá Tệp";
 "File Reviewers" = "Người Xem Xét Tệp";
 "File Size Exceeded" = "Kích thước tệp vượt quá";
 "File doesn't exist." = "Tệp tin không tồn tại.";
@@ -1698,6 +1712,8 @@
 "Only admin users can create Client Groups in the Admin Portal." = "Chỉ có người dùng quản trị mới có thể tạo Nhóm Khách Hàng trong Cổng thông tin Quản trị.";
 "Only admins can invite new internal users." = "Chỉ người quản trị mới có thể mời người dùng nội bộ mới.";
 "Only client accounts with a phone number can connect via WhatsApp." = "Chỉ có các tài khoản khách hàng có số điện thoại mới có thể kết nối qua WhatsApp.";
+"Only client accounts with an email address can connect via LINE, WeChat, or WhatsApp." = "Chỉ có các tài khoản khách hàng có địa chỉ email mới có thể kết nối qua LINE, WeChat hoặc WhatsApp.";
+"Only client accounts with an email address can connect via LINE." = "Chỉ các tài khoản khách hàng có địa chỉ email mới có thể kết nối qua LINE.";
 "Only client accounts with an email address can connect via WeChat or WhatsApp." = "Chỉ có các tài khoản khách hàng có địa chỉ email mới có thể kết nối qua WeChat hoặc WhatsApp.";
 "Only invited members can access the workspace" = "Chỉ các thành viên được mời mới có thể truy cập vào không gian làm việc";
 "Only one assignee is required to acknowledge this to complete it." = "Chỉ cần một người được giao xác nhận điều này để hoàn thành nó.";
@@ -1857,9 +1873,9 @@
 "Read More" = "Đọc Thêm";
 "Ready to connect" = "Sẵn sàng để kết nối";
 "Rearrange Pages" = "Sắp xếp lại các Trang";
+"Reason to Contact (Optional)" = "Lý do liên hệ (Tùy chọn)";
 "Reassign" = "Chỉ định lại";
 "Reassign Actions" = "Chuyển giao hành động";
-"Reassign to" = "Giao lại cho";
 "Reassigned" = "Đã giao lại";
 "Receive emails about new activity when you’re not online and don’t have notifications enabled." = "Nhận email về hoạt động mới khi bạn không trực tuyến và chưa bật thông báo.";
 "Received" = "Đã nhận";
@@ -2033,6 +2049,7 @@
 "Select Items" = "Chọn các Mục";
 "Select Members" = "Chọn nhiều Thành viên";
 "Select Signers" = "Chọn những Người ký";
+"Select Stamp" = "Chọn Con Dấu";
 "Select Template" = "Chọn Bản Mẫu";
 "Select Tool" = "Chọn Công cụ";
 "Select Type" = "Chọn thể loại";
@@ -2054,6 +2071,7 @@
 "Send Message" = "Gửi Tin nhắn";
 "Send New Verification Code" = "Gửi Mã Xác minh Mới";
 "Send Notifications For" = "Gửi các Thông báo cho";
+"Send Request" = "Gửi yêu cầu";
 "Send SMS" = "Gửi SMS";
 "Send To" = "Gửi tới";
 "Send Verification Email" = "Gửi Email Xác minh";
@@ -2148,6 +2166,8 @@
 "Special Hours" = "Giờ đặc biệt";
 "Speech Bubble" = "Bong bóng Thoại";
 "Speech Bubbles" = "Bong bóng thoại";
+"Stamp" = "Con dấu";
+"Stamp Name" = "Tên con dấu";
 "Standard" = "Tiêu chuẩn";
 "Start" = "Bắt đầu";
 "Start Co-Browsing" = "Bắt đầu Đồng duyệt";
@@ -2218,6 +2238,7 @@
 "Tap to learn more" = "Chạm để tìm hiểu thêm";
 "Tap to load more" = "Nhấn để tải thêm";
 "Tap to view" = "Nhấn để xem";
+"Team" = "Đội";
 "Teams" = "Đội";
 "Tell us what you need" = "Hãy cho chúng tôi biết những gì bạn cần";
 "Tell us what you’re looking for so we can connect you with the right team." = "Hãy cho chúng tôi biết những gì bạn đang tìm kiếm để chúng tôi có thể kết nối bạn với nhóm phù hợp.";
@@ -2246,6 +2267,7 @@
 "The account associated with this phone number is no longer active." = "Tài khoản được liên kết với số điện thoại này không còn hoạt động.";
 "The assignee(s) will need to sign again if reopened." = "(Những ) Người phụ trách sẽ cần ký lại nếu tài liệu được mở lại.";
 "The code is no longer valid. Please request a new code to continue." = "Mã không còn hiệu lực. Vui lòng yêu cầu mã mới để tiếp tục.";
+"The date will be recorded in [%@] format" = "Ngày sẽ được ghi theo định dạng [%@]";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "Không thể tải lên tệp tin vì không đáp ứng các yêu cầu bảo mật. Vui lòng kiểm tra tệp tin của bạn và thử lại.";
 "The flow workspace creator must be a member of the workspace. You will be automatically added to this workspace as a viewer." = "Người tạo không gian làm việc luồng phải là thành viên của không gian làm việc. Bạn sẽ được tự động thêm vào không gian làm việc này với tư cách là người xem.";
 "The following users are currently unavailable and will review your message as soon as they return: %@." = "Những người dùng sau hiện đang không có mặt và sẽ xem tin nhắn của bạn ngay khi họ quay lại: %@.";
@@ -2274,7 +2296,6 @@
 "The old password does not match." = "Mật khẩu cũ không khớp.";
 "The operation did not complete successfully: %@" = "Thao tác không hoàn tất thành công: %@";
 "The person who will submit the required files." = "Người sẽ gửi các tệp được yêu cầu.";
-"The person who will verify and approve the submitted files." = "Người sẽ xác minh và phê duyệt các tệp đã gửi.";
 "The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "Người sẽ xác minh và phê duyệt các tệp đã nộp. Bạn có thể mời nhiều người xem xét. Hành động sẽ được hoàn thành ngay khi có bất kỳ người xem xét tệp nào xác nhận.";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "Liên kết trước đó sẽ hết hiệu lực. Những người có liên kết hết hiệu lực sẽ không thể sử dụng liên kết đó để tham gia nền tảng.";
 "The recording could not be processed. Please check your internet connection." = "Không thể xử lý bản ghi âm. Vui lòng kiểm tra kết nối internet của bạn.";
@@ -2321,6 +2342,7 @@
 "This email does not match the predefined email." = "Email này không khớp với email được định sẵn.";
 "This email is already associated with another account." = "Email này đã được liên kết với một tài khoản khác.";
 "This envelope is still being processed by DocuSign. Please try again in a moment." = "Phong bì này vẫn đang được DocuSign xử lý. Vui lòng thử lại sau một lát.";
+"This file exceeds the maximum size (%@MB)." = "Tệp này vượt quá kích thước tối đa (%@MB).";
 "This file has been deleted." = "Tệp tin này vừa bị xóa.";
 "This file has been deleted. It is no longer available." = "Tệp này đã bị xóa. Nó không còn tồn tại nữa.";
 "This flow has been completed and you can no longer make modifications." = "Luồng này đã được hoàn thành và bạn không thể thực hiện thay đổi nữa.";
@@ -2362,6 +2384,7 @@
 "This will automatically apply to all new workspaces you join. You can manually override this in the settings menu of each workspace." = "Điều này sẽ tự động được áp dụng cho tất cả các không gian làm việc mới mà bạn tham gia. Bạn có thể tự ghi đè điều này trong menu cài đặt của từng không gian làm việc.";
 "This will be displayed on your profile as your status in place of “Available” or “Busy”." = "Thông tin này sẽ được hiển thị thành trạng thái “Sẵn sàng” hoặc “Bận” trên hồ sơ của bạn.";
 "This will be shown on your profile and when people message you." = "Điều này sẽ được hiển thị trên hồ sơ của bạn và khi mọi người nhắn tin cho bạn.";
+"This will be shown on your profile." = "Điều này sẽ được hiển thị trên hồ sơ của bạn.";
 "This will be the name of your portal - choose a name that people will recognize." = "Đây sẽ là tên của cổng thông tin của bạn - hãy chọn một tên mà mọi người sẽ nhận ra.";
 "This will delete all scanned pages. Are you sure you want to leave?" = "Thao tác này sẽ xóa tất cả các trang đã quét. Bạn có chắc chắn muốn rời đi?";
 "This will erase annotations made by all participants." = "Thao tác này sẽ xóa các chú thích do tất cả người tham gia tạo nên.";
@@ -2374,6 +2397,7 @@
 "This workspace has been deactivated" = "Không gian làm việc này đã bị vô hiệu hóa";
 "This workspace has been deactivated, and all members are unable to interact. Only the owner can reactivate it." = "Không gian làm việc này đã bị vô hiệu hóa, và tất cả các thành viên không thể tương tác. Chỉ chủ sở hữu mới có thể kích hoạt lại nó.";
 "This workspace has reached the maximum of %@ members. Please contact the workspace owner." = "Không gian làm việc này đã đạt đến số lượng tối đa %@ thành viên. Vui lòng liên hệ với chủ sở hữu không gian làm việc.";
+"This workspace has timed out. Please provide a reason, and a request will be sent to clients to reactivate it." = "Không gian làm việc này đã hết thời gian. Vui lòng cung cấp lý do, và một yêu cầu sẽ được gửi đến khách hàng để kích hoạt lại nó.";
 "This workspace was likely deleted by the owner." = "Không gian làm việc này có thể đã bị chủ nhiệm xóa.";
 "Thursday" = "Thứ Năm";
 "Time Booking" = "Lịch Hẹn";
@@ -2479,6 +2503,7 @@
 "Unable to Invite" = "Không thể mời";
 "Unable to Join" = "Không thể Tham gia";
 "Unable to Load" = "Không thể tải";
+"Unable to Reassign" = "Không thể Chuyển giao";
 "Unable to Remove" = "Không thể xóa";
 "Unable to Remove Link Preview" = "Không Thể Xóa Bản Xem Trước Liên Kết";
 "Unable to Save Changes" = "Không thể lưu thay đổi";
@@ -2486,6 +2511,7 @@
 "Unable to Set Status" = "Không thể thiết lập trạng thái";
 "Unable to Share" = "Không thể Chia sẻ";
 "Unable to Start" = "Không thể Bắt đầu";
+"Unable to Upload" = "Không thể tải lên";
 "Unable to Use Face ID" = "Không thể sử dụng Face ID";
 "Unable to access with account %@" = "Không thể truy cập với tài khoản %@";
 "Unable to add" = "Không thể thêm";
@@ -2550,7 +2576,6 @@
 "Upload failed" = "Tải lên thất bại";
 "Uploaded by" = "Đã được tải lên bởi";
 "Uploaded by %@" = "Đã được tải lên bởi %@";
-"Uploader" = "Người tải lên";
 "Uploaders" = "Người tải lên";
 "Uploading Attachments" = "Đang tải lên các tệp đính kèm";
 "Uploading attachments" = "Đang tải lên các tệp đính kèm";
@@ -2569,6 +2594,7 @@
 "Use email address instead" = "Sử dụng địa chỉ email thay thế";
 "Use one or more characters" = "Sử dụng một hoặc nhiều ký tự";
 "Use phone number instead" = "Sử dụng số điện thoại thay thế";
+"User" = "Người dùng";
 "User Already Exists" = "Người dùng Đã tồn tại";
 "User Deactivated" = "Người dùng bị Hủy Kích hoạt";
 "User Deleted" = "Người dùng đã bị Xóa";
@@ -2602,6 +2628,7 @@
 "View office hours" = "Xem giờ làm việc";
 "View transaction history" = "Xem lịch sử giao dịch";
 "Viewer" = "Người xem";
+"Viewers" = "Người xem";
 "Viewers (%@)" = "Người xem (%@)";
 "Virtual Backgrounds" = "Các Nền ảo";
 "Voice Message" = "Tin nhắn Thoại";
@@ -2699,8 +2726,6 @@
 "Who needs to review this?" = "Ai cần xem xét điều này?";
 "Who needs to sign?" = "Ai cần ký?";
 "Who needs to upload this?" = "Ai cần tải cái này lên?";
-"Who needs to work on this?" = "Đối tượng cần làm việc trên luồng này?";
-"Who will choose the meeting time?" = "Ai sẽ chọn giờ họp?";
 "Who will take action in this flow?" = "Đối tượng sẽ hành động trong luồng này?";
 "Whole File" = "Toàn bộ Tệp tin";
 "Will Be Added as an Individual Workspace Member" = "Sẽ được thêm vào như một thành viên cá nhân của không gian làm việc";
@@ -2747,6 +2772,7 @@
 "You are controlling the co-browsing session." = "Bạn đang điều khiển phiên duyệt cùng.";
 "You are controlling the shared screen." = "Bạn đang điều khiển màn hình được chia sẻ.";
 "You are currently not a part of any workspaces." = "Bạn hiện tại không là thành viên của bất kỳ không gian làm việc nào.";
+"You are currently not part of any workspaces." = "Bạn hiện tại không là thành viên của bất kỳ không gian làm việc nào.";
 "You are logged in as %@" = "Bạn đã đăng nhập với tên %@";
 "You are now a manager" = "Bạn bây giờ là quản lý";
 "You are sharing your screen now." = "Bạn đang chia sẻ màn hình của mình ngay lúc này.";
@@ -2872,6 +2898,10 @@
 "You’re already signed in" = "Bạn đã đăng nhập rồi";
 "You’ve already added all of the bots." = "Bạn đã thêm tất cả các bot rồi.";
 "You’ve already added the maximum number of assignees." = "Bạn đã thêm số lượng người được giao tối đa.";
+"You’ve already added this client group as a viewer." = "Bạn đã thêm nhóm khách hàng này làm người xem.";
+"You’ve already added this client group as an assignee." = "Bạn đã thêm nhóm khách hàng này làm người được giao trước đó.";
+"You’ve already added this team as a viewer." = "Bạn đã thêm đội này làm người xem rồi.";
+"You’ve already added this team as an assignee." = "Bạn đã thêm đội này làm người được giao.";
 "You’ve already added this user as a viewer." = "Bạn đã thêm người dùng này làm người xem.";
 "You’ve already added this user as an assignee." = "Bạn đã thêm người dùng này làm người phụ trách.";
 "You’ve already attached the maximum number of files. (50/50)" = "Bạn đã đính kèm số lượng tệp tối đa. (50/50)";
@@ -2890,6 +2920,7 @@
 "decline" = "từ chối";
 "e.g. Acme" = "ví dụ: Acme";
 "e.g. Due in 3 Days" = "ví dụ: Đến hạn sau 3 ngày";
+"e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "ví dụ: KYC Sắp Đến Hạn, Cơ Hội Đầu Tư Mới, Đánh Giá Danh Mục Đầu Tư,...";
 "got it" = "tôi đã hiểu";
 "hour" = "giờ";
 "hours" = "giờ";

@@ -17,6 +17,8 @@
 "%@ Content Updated" = "%@ Контент обновлен";
 "%@ Day" = "%@ день";
 "%@ Days" = "%@ дней";
+"%@ Deactivated" = "%@ Деактивирован";
+"%@ Deleted" = "%@ удален";
 "%@ File" = "Файл %@";
 "%@ File Size Reached" = "Достигнут размер файла %1$@";
 "%@ Guests" = "%@ гостей";
@@ -131,6 +133,7 @@
 "%@ changed %@'s role to editor." = "Пользователь %1$@ изменил роль %2$@на \"Редактор\".";
 "%@ changed %@'s role to viewer." = "Пользователь %1$@ изменил роль %2$@на \"Зритель\".";
 "%@ changed %@'s role." = "Пользователь %1$@ изменил роль пользователя %2$@.";
+"%@ common available times found, excluding the client group or team. " = "Найдено %@ общедоступных времени, исключая группу клиентов или команду.";
 "%@ common available times found." = "%@ общее найденное доступное время.";
 "%@ completed" = "%@ завершено";
 "%@ completed a %@" = "%1$@ завершил %2$@";
@@ -239,6 +242,7 @@
 "%@ is currently out of the office. If you have any urgent issues, feel free to chat with %@." = "%1$@ в настоящее время отсутствует на рабочем месте. Если у вас есть срочные вопросы, не стесняйтесь обращаться к %2$@.";
 "%@ is currently out of the office:" = "%@ в настоящее время отсутствует на рабочем месте:";
 "%@ is currently unavailable and will review your message as soon as they return." = "%@ в настоящее время не в сети и рассмотрит ваше сообщение, как только вернется.";
+"%@ is currently unavailable:" = "%@ в настоящее время недоступен:";
 "%@ is inviting you to a workspace.\r\n\r\nTopic: %@\r\n\r\nOpen the workspace with the share link:\r\n%@" = "%1$@ пригласил вас в рабочее место.\r\n\r\nТема: %2$@\r\n\r\nОткройте рабочее место с помощью ссылки общего доступа:\r\n%3$@";
 "%@ is muted" = "возможность писать и говорить пользователю %@ отключена";
 "%@ is now the presenter." = "%@ теперь презентатор.";
@@ -411,6 +415,7 @@
 "1 month ago" = "1 месяц назад";
 "1 request to approve" = "1 запрос ожидает утверждения";
 "1 year ago" = "1 год назад";
+"A maximum of %@ stamps are supported. Please delete an existing stamp to add a new one." = "Поддерживается максимум %@ штампов. Пожалуйста, удалите существующий штамп, чтобы добавить новый.";
 "A network error occurred." = "Произошла ошибка сети.";
 "A network issue prevented us from starting co-browsing. Please try again." = "Не удалось начать совместный просмотр из-за проблем с сетью. Повторите попытку.";
 "A user with this email address already exists under a different name:" = "Пользователь с таким электронным адресом уже существует под другим именем:";
@@ -491,6 +496,7 @@
 "Add Members" = "Добавить членов организации";
 "Add New" = "Добавить новое";
 "Add New Action" = "Добавить новое действие";
+"Add New Stamp" = "Добавить новую печать";
 "Add Password" = "Добавить пароль";
 "Add Role" = "Добавить должность";
 "Add Roles" = "Добавить роли";
@@ -677,8 +683,14 @@
 "Background Color" = "Цвет фона";
 "Backup User" = "Добавить пользователя с резервным копированием";
 "Baidu Maps" = "Карты Baidu";
+"Because certain actions do not allow a client group to be assigned, you can’t reassign to this group." = "Поскольку некоторые действия не позволяют назначать группу клиентов, вы не можете переназначить это действие этой группе.";
+"Because certain actions do not allow a client group to be assigned, you can’t select one for this role." = "Поскольку некоторые действия не позволяют назначать группу клиентов, вы не можете выбрать её для этой роли.";
+"Because certain actions do not allow a team to be assigned, you can’t reassign to this team." = "Поскольку некоторые действия не позволяют назначать команду, вы не можете переназначить это действие этой команде.";
+"Because certain actions do not allow a team to be assigned, you can’t select a team for this role." = "Поскольку некоторые действия не позволяют назначать команду, вы не можете выбрать команду для этой роли.";
 "Before leaving, please reassign your pending actions to another person." = "Прежде чем выйти, пожалуйста, повторно закрепите отложенные действия за другим человеком.";
+"Before leaving, please reassign your pending actions to someone else." = "Перед уходом, пожалуйста, переназначьте ваши ожидающие действия другому человеку.";
 "Before removing, please reassign their pending actions to another person." = "Перед удалением повторно закрепите их отложенные действия за другим человеком.";
+"Before removing, please reassign their pending actions to someone else." = "Перед удалением, пожалуйста, переназначьте их ожидающие действия другому человеку.";
 "Below are the previous invitations sent to this email address." = "Ниже представлены предыдущие приглашения, отправленные на этот адрес электронной почты.";
 "Beneficiary" = "Бенефециар";
 "Blank Workspace" = "Пустое рабочее пространство";
@@ -706,6 +718,7 @@
 "By creating an account, you agree to our Terms of Service & Privacy Policy." = "Создавая учётную запись, вы соглашаетесь с Условиями предоставления услуг и Политикой персональных данных.";
 "By tapping “Start”, you consent to Jumio collecting, processing, and sharing your personal information, which may include biometric data, pursuant to its Privacy Notice." = "Нажимая на кнопку «Начать», вы даете согласие на сбор, обработку и распространение вашей личной информации, включая возможные биометрические данные, компанией Jumio в соответствии с ее Политикой конфиденциальности.";
 "By trusting this device, you can skip this verification step for the next 30 days." = "Доверив этому устройству, вы можете пропустить этот шаг верификации в течение следующих 30 дней.";
+"By using this feature, I agree that I am authorized to use the uploaded image and that it complies with all relevant laws and regulations." = "Используя эту функцию, я соглашаюсь, что у меня есть право использовать загруженное изображение и что оно соответствует всем соответствующим законам и регуляциям.";
 "CANCEL REQUEST" = "ОТМЕНИТЬ ЗАПРОС";
 "CANCELED" = "ОТМЕНЕНО";
 "Calendar" = "Календарь";
@@ -755,6 +768,7 @@
 "Checkbox" = "Флажок";
 "Checking participants' availability..." = "Проверка доступности участников...";
 "Choose File Name" = "Выберите имя файла";
+"Choose Image" = "Выбрать изображение";
 "Choose Type" = "Выберите тип";
 "Choose a data center" = "Выберите дата-центр";
 "Choose a date..." = "Выберите дату...";
@@ -776,6 +790,7 @@
 "Client" = "Клиент";
 "Client Assigned to You" = "Клиент назначен вам";
 "Client Blocked Account" = "Клиент заблокировал учётную запись";
+"Client Group" = "Группа клиентов";
 "Client Groups" = "Группы клиентов";
 "Client Groups (Optional)" = "Группы клиентов (Необязательно)";
 "Client ID" = "ID клиента";
@@ -1179,7 +1194,6 @@
 "File Request ready for review." = "Запрос файла готов к рассмотрению.";
 "File Request ready for review: %@" = "Запрос файла готов к рассмотрению: %@";
 "File Request reopened" = "Запрос файла повторно открыт";
-"File Reviewer" = "Рецензент файлов";
 "File Reviewers" = "Проверяющие файлы";
 "File Size Exceeded" = "Превышен размер файла";
 "File doesn't exist." = "Файл не существует.";
@@ -1694,6 +1708,8 @@
 "Only admin users can create Client Groups in the Admin Portal." = "Только администраторы могут создавать группы клиентов в административном портале.";
 "Only admins can invite new internal users." = "Только администраторы могут приглашать новых внутренних пользователей.";
 "Only client accounts with a phone number can connect via WhatsApp." = "Только учетные записи клиентов с номером телефона могут подключаться через WhatsApp.";
+"Only client accounts with an email address can connect via LINE, WeChat, or WhatsApp." = "Только учетные записи клиентов с адресом электронной почты могут подключаться через LINE, WeChat или WhatsApp.";
+"Only client accounts with an email address can connect via LINE." = "Только учетные записи клиентов с электронной почтой могут подключаться через LINE.";
 "Only client accounts with an email address can connect via WeChat or WhatsApp." = "Только учетные записи клиентов с адресом электронной почты могут подключаться через WeChat или WhatsApp.";
 "Only invited members can access the workspace" = "Только приглашенные участники могут получить доступ к рабочей области";
 "Only one assignee is required to acknowledge this to complete it." = "Для завершения достаточно подтверждения от одного исполнителя.";
@@ -1853,9 +1869,9 @@
 "Read More" = "Читать дальше";
 "Ready to connect" = "Готов к подключению";
 "Rearrange Pages" = "Изменить порядок страниц";
+"Reason to Contact (Optional)" = "Причина обращения (необязательно)";
 "Reassign" = "Переназначить";
 "Reassign Actions" = "Переназначить Действия";
-"Reassign to" = "Повторно закрепите за";
 "Reassigned" = "Повторно закреплено";
 "Receive emails about new activity when you’re not online and don’t have notifications enabled." = "Получайте электронные письма о новых действиях, когда вы не в сети и у вас отключены уведомления.";
 "Received" = "Получено";
@@ -2029,6 +2045,7 @@
 "Select Items" = "Выбрать объекты";
 "Select Members" = "Выбрать участников";
 "Select Signers" = "Выбрать владельцев подписи";
+"Select Stamp" = "Выбрать штамп";
 "Select Template" = "Выбрать шаблон";
 "Select Tool" = "Выбрать инструмент";
 "Select Type" = "Выбрать типы";
@@ -2050,6 +2067,7 @@
 "Send Message" = "Отправить сообщение";
 "Send New Verification Code" = "Отправить новый код подтверждения";
 "Send Notifications For" = "Отправить уведомление для";
+"Send Request" = "Отправить запрос";
 "Send SMS" = "Отправить SMS";
 "Send To" = "Отправить";
 "Send Verification Email" = "Отправить письмо с подтверждением";
@@ -2144,6 +2162,8 @@
 "Special Hours" = "Специальный график работы";
 "Speech Bubble" = "Облако с текстом";
 "Speech Bubbles" = "Облака с текстом";
+"Stamp" = "Штамп";
+"Stamp Name" = "Название штампа";
 "Standard" = "Стандарт";
 "Start" = "Начать";
 "Start Co-Browsing" = "Начать совместный просмотр";
@@ -2214,6 +2234,7 @@
 "Tap to learn more" = "Нажмите здесь, чтобы узнать больше";
 "Tap to load more" = "Нажмите, чтобы загрузить больше";
 "Tap to view" = "Нажмите для просмотра";
+"Team" = "Группа";
 "Teams" = "Группы";
 "Tell us what you need" = "Расскажите нам, что вам необходимо";
 "Tell us what you’re looking for so we can connect you with the right team." = "Расскажите нам, что вы ищете, чтобы мы могли подключится вас к необходимой группе.";
@@ -2242,6 +2263,7 @@
 "The account associated with this phone number is no longer active." = "Учетная запись, связанная с этим номером телефона, больше не активна.";
 "The assignee(s) will need to sign again if reopened." = "Назначенный пользователь должен будет подписать повторно, если они будут повторно открыты.";
 "The code is no longer valid. Please request a new code to continue." = "Код больше не действителен. Пожалуйста, запросите новый код для продолжения.";
+"The date will be recorded in [%@] format" = "Дата будет записана в формате [%@]";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "Файл нельзя загрузить, поскольку он не соответствует требованиям безопасности. Проверьте Ваш файл и повторите попытку.";
 "The flow workspace creator must be a member of the workspace. You will be automatically added to this workspace as a viewer." = "Создатель рабочего пространства потока должен быть участником этого пространства. Вы будете автоматически добавлены в это рабочее пространство в качестве зрителя.";
 "The following users are currently unavailable and will review your message as soon as they return: %@." = "Следующие пользователи в настоящее время недоступны и рассмотрят ваше сообщение, как только вернутся: %@.";
@@ -2270,7 +2292,6 @@
 "The old password does not match." = "Старый пароль не совпадает.";
 "The operation did not complete successfully: %@" = "Операция не удалась: %@";
 "The person who will submit the required files." = "Лицо, которое отправит необходимые файлы.";
-"The person who will verify and approve the submitted files." = "Лицо, которое проверит и утвердит отправленные файлы.";
 "The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "Человек, который будет проверять и одобрять отправленные файлы. Вы можете пригласить нескольких проверяющих. Действие будет завершено, как только любой проверяющий файлы подтвердит.";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "Срок действия предыдущей ссылки истечет. Люди с просроченной ссылкой не смогут использовать ее для присоединения к платформе.";
 "The recording could not be processed. Please check your internet connection." = "Запись не может быть обработана. Пожалуйста, проверьте ваше интернет-соединение.";
@@ -2317,6 +2338,7 @@
 "This email does not match the predefined email." = "Этот электронный адрес не соответствует предопределенному адресу.";
 "This email is already associated with another account." = "Этот электронный адрес уже связан с другим аккаунтом.";
 "This envelope is still being processed by DocuSign. Please try again in a moment." = "Этот конверт все еще обрабатывается DocuSign. Пожалуйста, попробуйте снова через момент.";
+"This file exceeds the maximum size (%@MB)." = "Размер этого файла превышает максимально допустимый (%@ МБ).";
 "This file has been deleted." = "Файл был удалён.";
 "This file has been deleted. It is no longer available." = "Этот файл был удален. Он больше не доступен.";
 "This flow has been completed and you can no longer make modifications." = "Этот поток завершен, и вы больше не можете вносить изменения.";
@@ -2358,6 +2380,7 @@
 "This will automatically apply to all new workspaces you join. You can manually override this in the settings menu of each workspace." = "Это будет автоматически применяться ко всем новым рабочим пространствам, к которым вы присоединяетесь. Вы можете вручную изменить это в меню настроек каждого рабочего пространства.";
 "This will be displayed on your profile as your status in place of “Available” or “Busy”." = "Данный текст будет отображаться в Вашем профиле вместо статуса “Активен” или “Занят”.";
 "This will be shown on your profile and when people message you." = "Это будет отображаться в вашем профиле и когда люди пишут вам.";
+"This will be shown on your profile." = "Это будет отображаться в вашем профиле.";
 "This will be the name of your portal - choose a name that people will recognize." = "Это будет название вашего портала - выберите имя, которое люди узнают.";
 "This will delete all scanned pages. Are you sure you want to leave?" = "Данное действие удалит все сканированные страницы. Вы действительно хотите выйти?";
 "This will erase annotations made by all participants." = "При этом будут удалены аннотации, сделанные всеми участниками.";
@@ -2370,6 +2393,7 @@
 "This workspace has been deactivated" = "Это рабочее пространство было деактивировано";
 "This workspace has been deactivated, and all members are unable to interact. Only the owner can reactivate it." = "Это рабочее пространство было деактивировано, и все участники не могут взаимодействовать. Только владелец может его реактивировать.";
 "This workspace has reached the maximum of %@ members. Please contact the workspace owner." = "Это рабочее пространство достигло максимума в %@ участников. Пожалуйста, свяжитесь с владельцем рабочего пространства.";
+"This workspace has timed out. Please provide a reason, and a request will be sent to clients to reactivate it." = "Срок действия этого рабочего пространства истек. Пожалуйста, укажите причину, и запрос на повторную активацию будет отправлен клиентам.";
 "This workspace was likely deleted by the owner." = "Это рабочее место, вероятно, было удалена владельцем.";
 "Thursday" = "Четверг";
 "Time Booking" = "Бронирование времени";
@@ -2475,6 +2499,7 @@
 "Unable to Invite" = "Не удаётся пригласить";
 "Unable to Join" = "Не удается присоединиться";
 "Unable to Load" = "Невозможно загрузить";
+"Unable to Reassign" = "Невозможно переназначить";
 "Unable to Remove" = "Невозможно удалить";
 "Unable to Remove Link Preview" = "Не удается удалить предварительный просмотр ссылки";
 "Unable to Save Changes" = "Не удалось сохранить изменения";
@@ -2482,6 +2507,7 @@
 "Unable to Set Status" = "Не удаётся настроить статус";
 "Unable to Share" = "Невозможно поделиться";
 "Unable to Start" = "Не удаётся начать";
+"Unable to Upload" = "Невозможно загрузить";
 "Unable to Use Face ID" = "Не удаётся использовать Face ID";
 "Unable to access with account %@" = "Невозможно получить доступ с учетной записью %@";
 "Unable to add" = "Не удается добавить";
@@ -2546,7 +2572,6 @@
 "Upload failed" = "Загрузка не удалась";
 "Uploaded by" = "Кем загружено";
 "Uploaded by %@" = "Загружено пользователем %@";
-"Uploader" = "Аплоудер";
 "Uploaders" = "Загрузчики";
 "Uploading Attachments" = "Загрузка вложений";
 "Uploading attachments" = "Загрузка вложений";
@@ -2565,6 +2590,7 @@
 "Use email address instead" = "Вместо этого используйте адрес электронной почты";
 "Use one or more characters" = "Используйте один или несколько символов";
 "Use phone number instead" = "Вместо этого используйте номер телефона";
+"User" = "Пользователь";
 "User Already Exists" = "Пользователь уже существует";
 "User Deactivated" = "Пользователь деактивирован";
 "User Deleted" = "Пользователь удалён";
@@ -2598,6 +2624,7 @@
 "View office hours" = "Посмотреть график работы";
 "View transaction history" = "Просмотр истории транзакций";
 "Viewer" = "Программа просмотра";
+"Viewers" = "Зрители";
 "Viewers (%@)" = "Абоненты (%@)";
 "Virtual Backgrounds" = "Виртуальные фоны";
 "Voice Message" = "Голосовое сообщение";
@@ -2695,8 +2722,6 @@
 "Who needs to review this?" = "Кто должен это проверить?";
 "Who needs to sign?" = "Кто должен подписать?";
 "Who needs to upload this?" = "Кто должен загрузить это?";
-"Who needs to work on this?" = "Кому нужно над этим работать?";
-"Who will choose the meeting time?" = "Кто выберет время встречи?";
 "Who will take action in this flow?" = "Кто будет действовать в этом потоке?";
 "Whole File" = "Весь файл";
 "Will Be Added as an Individual Workspace Member" = "Будет добавлен как отдельный участник рабочего пространства";
@@ -2743,6 +2768,7 @@
 "You are controlling the co-browsing session." = "Вы управляете сессией совместного просмотра.";
 "You are controlling the shared screen." = "Вы управляете общим экраном.";
 "You are currently not a part of any workspaces." = "Вы в настоящее время не состоите в каких-либо рабочих пространствах.";
+"You are currently not part of any workspaces." = "В настоящее время вы не состоите в каких-либо рабочих пространствах.";
 "You are logged in as %@" = "Вы вошли как %@";
 "You are now a manager" = "Теперь вы — менеджер";
 "You are sharing your screen now." = "Вы сейчас предоставляете доступ к своему экрану.";
@@ -2868,6 +2894,10 @@
 "You’re already signed in" = "Вы уже вошли в систему";
 "You’ve already added all of the bots." = "Вы уже добавили всех ботов.";
 "You’ve already added the maximum number of assignees." = "Вы уже добавили максимальное количество исполнителей.";
+"You’ve already added this client group as a viewer." = "Вы уже добавили эту группу клиентов как зрителей.";
+"You’ve already added this client group as an assignee." = "Вы уже добавили эту группу клиентов в качестве исполнителя.";
+"You’ve already added this team as a viewer." = "Вы уже добавили эту команду как зрителя.";
+"You’ve already added this team as an assignee." = "Вы уже добавили эту команду в качестве исполнителя.";
 "You’ve already added this user as a viewer." = "Вы уже добавили этого пользователя в качестве зрителя";
 "You’ve already added this user as an assignee." = "Вы уже добавили этого пользователя в качестве назначенного пользователя";
 "You’ve already attached the maximum number of files. (50/50)" = "Вы уже прикрепили максимальное количество файлов. (50/50)";
@@ -2886,6 +2916,7 @@
 "decline" = "отклонить";
 "e.g. Acme" = "например, Acme";
 "e.g. Due in 3 Days" = "например, дата выполнения через 3 дня";
+"e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "например, Скоро истечение срока KYC, Новая инвестиционная возможность, Обзор портфеля,...";
 "got it" = "ясно";
 "hour" = "час";
 "hours" = "часы";
