@@ -19,6 +19,7 @@
 "%@ Days" = "%@낮들";
 "%@ Deactivated" = "%@ 비활성화됨";
 "%@ Deleted" = "%@ 삭제됨";
+"%@ Details" = "%@ 세부사항";
 "%@ File" = "%@ 파일";
 "%@ File Size Reached" = "%1$@ 파일 크기 도달";
 "%@ Guests" = "%@명 손님";
@@ -548,6 +549,7 @@
 "Add a To-Do Item" = "수행할 일 항목 추가";
 "Add a brief description for all workspace members to see" = "모든 작업 공간 멤버가 볼 수 있는 간단한 설명을 추가하십시오";
 "Add a role" = "역할 추가";
+"Add additional participants who will be part of the flow." = "플로우의 일부가 될 추가 참가자를 추가하세요.";
 "Add description" = "설명 추가";
 "Add distribution list" = "배포 목록 추가";
 "Add files" = "파일 추가";
@@ -563,6 +565,7 @@
 "Add useful information about your decision" = "당신의 결정에 대한 유용한 정보를 추가하세요";
 "Add useful information about your e-sign" = "당신의 전자 서명에 대한 유용한 정보를 추가하세요";
 "Add useful information about your request" = "요청에 대한 유용한 정보를 추가하세요";
+"Add useful information regarding your conditional branch." = "조건 분기에 대한 유용한 정보를 추가하세요.";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "이 흐름에 조치가 할당되지 않은 사용자를 포함하기 위해 이 작업 공간에 시청자를 추가합니다.";
 "Added" = "추가됨";
 "Added Successfully" = "성공적으로 추가했습니다";
@@ -788,8 +791,10 @@
 "Cancel Signature" = "서명 취소";
 "Cancel scheduled meetings" = "예약된 미팅을 취소합니다.";
 "Canceled" = "취소됨";
+"Cannot Delete Role" = "역할을 삭제할 수 없습니다";
 "Cannot Leave Workspace" = "작업 공간을 떠날 수 없음";
 "Cannot Remove Assignee" = "피지정자를 제거할 수 없습니다.";
+"Cannot delete this role. Please assign its pending actions to someone else." = "이 역할을 삭제할 수 없습니다. 보류 중인 작업을 다른 사람에게 할당해 주세요.";
 "Cannot open this file" = "이 파일을 열 수 없습니다";
 "Cannot select this option while the current assignee is a client." = "현재 담당자가 고객인 경우 이 옵션을 선택할 수 없습니다.";
 "Cannot select video." = "비디오를 선택할 수 없습니다.";
@@ -863,6 +868,8 @@
 "Complete Step" = "단계 완료";
 "Completed" = "완료됨";
 "Completed (%@)" = "완료됨 (%@)";
+"Conditional Branch" = "조건 분기";
+"Conditions" = "조건들";
 "Confirm" = "확인";
 "Confirm Acknowledgement" = "인정 확인";
 "Confirm Decision" = "결정 확인";
@@ -1143,6 +1150,7 @@
 "Edit Reminder" = "편집 알림기";
 "Edit Status" = "상태 편집";
 "Edit Step" = "단계 편집";
+"Edit Tags" = "태그 편집";
 "Edit Time Booking" = "시간 예약 수정";
 "Edit To-Do" = "수행할 일 편집";
 "Edit Welcome Message" = "환영 메시지 편집";
@@ -1154,6 +1162,7 @@
 "Editing of this To-Do was locked by internal users." = "내부 사용자에 의해 이 수행할 일의 편집이 잠겼습니다.";
 "Editor" = "편집기";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "효율적으로 새로운 클라이언트를 간소화된 다단계 온보딩 프로세스를 통해 안내합니다.";
+"Else, execute branch 2" = "그렇지 않으면, 분기 2 실행";
 "Email" = "이메일";
 "Email Address" = "이메일 주소";
 "Email Address (Optional)" = "이메일 주소(선택 사항)";
@@ -1193,6 +1202,7 @@
 "Enter the email associated with your account to continue." = "계속하려면 계정과 연결된 이메일을 입력하십시오.";
 "Enter the email or phone number associated with your account to continue." = "계속하려면 계정과 연결된 이메일 또는 전화번호를 입력하십시오.";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "파일의 잠금을 해제하려면 비밀번호를 입력하세요. 잠금 해제 후에는 모든 사람이 파일을 볼 수 있습니다.";
+"Enter the question" = "질문을 입력하세요";
 "Enter the question " = "질문을 입력하세요";
 "Enter user details and send an invitation from the app." = "앱에서 사용자 정보를 입력하고 초대장을 보내세요.";
 "Enter verification code" = "인증 코드를 입력하십시오";
@@ -1214,8 +1224,11 @@
 "Every %@ days." = "%1$@낮마다.";
 "Every day." = "매낮.";
 "Exclude Weekends" = "주말 제외";
+"Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "[color=%@][b]모든 규칙이 일치할 때[/b][/color] 분기 1 실행:";
+"Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "[color=%@][b]어떤 규칙이든 일치할 때[/b][/color] 분기 1 실행:";
 "Extension" = "확장자";
 "External Calendar Meeting" = "외부 캘린더 회의";
+"Extra Participants" = "추가 참가자들";
 "FLAGS" = "깃발";
 "FOOD & DRINK" = "음식 & 음료";
 "FRI" = "금요일";
@@ -1657,6 +1670,7 @@
 "Move here" = "여기로 이동";
 "Move to..." = "이동 위치...";
 "Moving..." = "이동 중...";
+"Moxo" = "Moxo";
 "Must be invited and logged in to join" = "가입하려면 초대 및 로그인해야 합니다";
 "Must enter the meeting password to join" = "가입하려면 미팅 비밀번호를 입력해야 합니다";
 "Mute" = "음소거";
@@ -1669,6 +1683,7 @@
 "Name" = "이름";
 "Name or email" = "이름 또는 이메일";
 "Name your DocuSign" = "DocuSign 이름 지정";
+"Name your conditional branch" = "조건 분기에 이름을 붙이세요";
 "Name your e-sign" = "전자 서명 이름 지정";
 "Name your request" = "요청 이름 지정";
 "Name your time booking" = "시간 예약 이름 지정";
@@ -1699,6 +1714,7 @@
 "New To-Do" = "새로운 수행할 일";
 "New To-Do added." = "새로운 수행할 일이 추가되었습니다.";
 "New Workspace" = "새 작업 공간";
+"New actions will be available here soon" = "곧 새로운 액션들이 여기에 제공될 예정입니다.";
 "Next" = "다음";
 "No" = "아니오";
 "No Actions" = "조치 없음";
@@ -1739,6 +1755,7 @@
 "No chat messages yet" = "아직 채팅 메시지 없음";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "일반 시간대를 찾을 수 없습니다. 일부 참가자를 제외하거나, 회의 시간을 조정하거나, 일정 창을 변경하는 것을 고려하세요.";
 "No description" = "설명 없음";
+"No extra participants yet" = "아직 추가 참가자 없음";
 "No meeting" = "미팅 없음";
 "No meetings" = "미팅 없음";
 "No members have joined" = "아무도 가입하지 않았습니다";
@@ -1977,6 +1994,7 @@
 "Recording will stop in %@s" = "녹음이 %@초 후에 중지됩니다";
 "Recordings must be longer than 1 second" = "녹음은 1초 이상이어야 합니다.";
 "Rectangle" = "직사각형";
+"Referenced event has been removed" = "참조된 이벤트가 제거되었습니다.";
 "Refresh" = "새로고침";
 "Refresh Invite Link?" = "초대 링크를 새로 고침하겠습니까?";
 "Refresh Link" = "링크 새로 고침";
@@ -2195,6 +2213,7 @@
 "Set up your profile" = "프로필 설정하기";
 "Set your availability for people to book a time with you." = "사람들이 사용자와 함께 시간을 예약할 수 있는 사용 가능 시간을 설정하십시오.";
 "Settings" = "설정";
+"Shadow Flow" = "섀도우 플로우";
 "Share" = "공유";
 "Share Files" = "파일 공유";
 "Share Invite Link" = "초대 링크 공유";
@@ -2249,6 +2268,7 @@
 "Slide up to cancel" = "취소하려면 위로 슬라이드하십시오";
 "Snap Area" = "영역 스냅";
 "Snap Page" = "페이지 스냅";
+"Some members have not joined" = "일부 멤버가 가입하지 않았습니다";
 "Something Went Wrong" = "문제가 발생했습니다";
 "Something went wrong" = "문제가 발생했습니다";
 "Something went wrong. Please try again." = "문제가 발생했습니다. 다시 시도해 주세요.";
@@ -2411,6 +2431,7 @@
 "The start time must be before the end time." = "시작 시간은 종료 시간보다 먼저여야 합니다.";
 "The submitted response will be displayed here." = "제출된 응답이 여기에 표시됩니다.";
 "The system is busy. Please try again." = "시스템이 바쁩니다. 다시 시도해 주세요.";
+"The tag values entered here will apply to any workspace created from this template." = "여기에 입력된 태그 값은 이 템플릿에서 생성된 모든 작업 공간에 적용됩니다.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "모든 조치가 완료되고 일정 기간 동안 활동이 없을 경우, 워크스페이스는 모든 멤버에 대해 자동으로 보관됩니다.";
 "There are no active screen share sessions to join." = "가입할 활성 화면 공유 세션이 없습니다.";
 "There are no other members in this workspace." = "이 작업 공간에는 다른 구성원이 없습니다.";
@@ -2858,6 +2879,7 @@
 "Who needs to review this?" = "이것을 검토해야 할 사람은 누구인가요?";
 "Who needs to sign?" = "누가 서명해야 합니까?";
 "Who needs to upload this?" = "이것을 업로드해야 할 사람은 누구인가요?";
+"Who will take action in the shadow flow?" = "그림자 흐름에서 누가 조치를 취할까요?";
 "Who will take action in this flow?" = "이 흐름에서 누가 조치를 취하게 됩니까?";
 "Whole File" = "전체 파일";
 "Will Be Added as an Individual Workspace Member" = "개별 워크스페이스 멤버로 추가될 예정입니다";
@@ -2874,6 +2896,7 @@
 "Workspace Name (Required)" = "작업 공간 이름(필수)";
 "Workspace Owner" = "작업 공간 소유자";
 "Workspace Properties" = "작업 공간 속성";
+"Workspace Tags" = "작업 공간 태그";
 "Workspace Timed Out" = "작업 공간 시간 초과";
 "Workspace Type" = "작업 공간 유형";
 "Workspace Unarchived" = "워크스페이스의 보관이 해제됨";
@@ -2982,6 +3005,7 @@
 "You need to sign in to turn on Touch ID." = "터치 ID를 켜려면 로그인해야 합니다.";
 "You successfully signed the document." = "문서에 성공적으로 서명했습니다.";
 "You were added to a team" = "귀하께서 팀에 추가되었습니다";
+"You will be the shadow flow creator." = "당신은 그림자 플로우 생성자가 될 것입니다.";
 "You will lose all the changes made to this document." = "문서에 대한 모든 변경 사항이 손실됩니다.";
 "You will need to be invited by a member to join again." = "다시 가입하려면 구성원의 초대를 받아야 합니다.";
 "You will not be able to make changes after that." = "그 이후에는 변경할 수 없습니다.";

@@ -19,6 +19,7 @@
 "%@ Days" = "%@ дни";
 "%@ Deactivated" = "%@ деактивирано";
 "%@ Deleted" = "%@ е изтрит";
+"%@ Details" = "Детайли за %@";
 "%@ File" = "%@ Файл";
 "%@ File Size Reached" = "Достигнат размер на файла %1$@";
 "%@ Guests" = "%@ гости";
@@ -549,6 +550,7 @@
 "Add a To-Do Item" = "Добавяне на елемент в списък със задачи";
 "Add a brief description for all workspace members to see" = "Добавете кратко описание, видимо за всички членове на работното пространство";
 "Add a role" = "Добавете роля";
+"Add additional participants who will be part of the flow." = "Добавете допълнителни участници, които ще бъдат част от потока.";
 "Add description" = "Добавяне на описание";
 "Add distribution list" = "Добавете списък за разпространение";
 "Add files" = "Добавяне на файлове";
@@ -564,6 +566,7 @@
 "Add useful information about your decision" = "Добавете полезна информация за вашето решение";
 "Add useful information about your e-sign" = "Добавете полезна информация за вашия е-подпис";
 "Add useful information about your request" = "Добавете полезна информация за вашата заявка";
+"Add useful information regarding your conditional branch." = "Добавете полезна информация относно вашия условен клон.";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "Добавете зрители към това работно пространство, за да включите хора, на които не е зададено действие в този поток.";
 "Added" = "Добавено";
 "Added Successfully" = "Успешно е добавено";
@@ -789,8 +792,10 @@
 "Cancel Signature" = "Отмяна на подпис";
 "Cancel scheduled meetings" = "Отменете насрочени срещи";
 "Canceled" = "Отменено";
+"Cannot Delete Role" = "Не може да се изтрие ролята";
 "Cannot Leave Workspace" = "Не е възможно да се напусне работно пространство";
 "Cannot Remove Assignee" = "Не може да се премахне правоприемник";
+"Cannot delete this role. Please assign its pending actions to someone else." = "Не може да се изтрие тази роля. Моля, присвоете нейните предстоящи действия на някой друг.";
 "Cannot open this file" = "Не можете да отворите този файл";
 "Cannot select this option while the current assignee is a client." = "Не можете да изберете тази опция, докато текущият присвоен е клиент.";
 "Cannot select video." = "Не може да се избере видео.";
@@ -864,6 +869,8 @@
 "Complete Step" = "Завършете стъпка";
 "Completed" = "Завършено";
 "Completed (%@)" = "Завършени (%@)";
+"Conditional Branch" = "Условен клон";
+"Conditions" = "Условия";
 "Confirm" = "Потвърдете";
 "Confirm Acknowledgement" = "Съгласявам се с потвърждението";
 "Confirm Decision" = "Потвърдете решението";
@@ -1145,6 +1152,7 @@
 "Edit Reminder" = "Редактиране на напомняне";
 "Edit Status" = "Редактиране на състояние";
 "Edit Step" = "Стъпка за редактиране";
+"Edit Tags" = "Редактиране на етикети";
 "Edit Time Booking" = "Редактиране на резервация за време";
 "Edit To-Do" = "Редактиране на задача";
 "Edit Welcome Message" = "Промяна на съобщение при влизане";
@@ -1156,6 +1164,7 @@
 "Editing of this To-Do was locked by internal users." = "Редактирането на тази задача бе спряно от вътрешни ползватели.";
 "Editor" = "Редактор";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "Ефективно насочвайте нови клиенти през оптимизиран многостъпков процес на включване.";
+"Else, execute branch 2" = "В противен случай, изпълни клон 2";
 "Email" = "Имейл";
 "Email Address" = "Имейл адрес";
 "Email Address (Optional)" = "Имейл адрес (незадължително)";
@@ -1195,6 +1204,7 @@
 "Enter the email associated with your account to continue." = "Въведете имейла свързан с вашия акаунт, за да продължите.";
 "Enter the email or phone number associated with your account to continue." = "Въведете имейла или телефонния номер свързан с вашия акаунт, за да продължите.";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "Въведете паролата, за да отключите файла. След отключване всички могат да го разгледат.";
+"Enter the question" = "Въведете въпроса";
 "Enter the question " = "Въведете въпроса";
 "Enter user details and send an invitation from the app." = "Въведете данните на потребителя и изпратете покана от приложението.";
 "Enter verification code" = "Въведете код за потвърждение";
@@ -1216,8 +1226,11 @@
 "Every %@ days." = "На всеки %1$@ дена.";
 "Every day." = "Всеки ден.";
 "Exclude Weekends" = "Изключете уикендите";
+"Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "Изпълни клон 1, когато [color=%@][b]всички правила съвпадат[/b][/color]:";
+"Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "Изпълни клон 1, когато [color=%@][b]някое правило съвпада[/b][/color]:";
 "Extension" = "Разширение";
 "External Calendar Meeting" = "Среща във външен календар";
+"Extra Participants" = "Допълнителни участници";
 "FLAGS" = "ФЛАГОВЕ";
 "FOOD & DRINK" = "ХРАНА И НАПИТКИ";
 "FRI" = "ПЕТ.";
@@ -1659,6 +1672,7 @@
 "Move here" = "Преместване тук";
 "Move to..." = "Преместване в...";
 "Moving..." = "Преместване...";
+"Moxo" = "Moxo";
 "Must be invited and logged in to join" = "Трябва да е поканен и влязъл в системата, за да се присъедини";
 "Must enter the meeting password to join" = "Трябва да въведе паролата на срещата, за да се присъедини";
 "Mute" = "Спиране на звука";
@@ -1671,6 +1685,7 @@
 "Name" = "Име";
 "Name or email" = "Име или имейл";
 "Name your DocuSign" = "Назовете вашия DocuSign";
+"Name your conditional branch" = "Наименувайте вашето условно разклонение";
 "Name your e-sign" = "Дайте име на вашия шаблон за електронен подпис";
 "Name your request" = "Озаглавете заявката си";
 "Name your time booking" = "Наименувайте вашата резервация за време";
@@ -1701,6 +1716,7 @@
 "New To-Do" = "Нов списък със задачи";
 "New To-Do added." = "Добавен е нов списък със задачи.";
 "New Workspace" = "Ново работно пространство";
+"New actions will be available here soon" = "Нови действия скоро ще бъдат налични тук.";
 "Next" = "Следваща";
 "No" = "Не";
 "No Actions" = "Няма действия";
@@ -1741,6 +1757,7 @@
 "No chat messages yet" = "Все още няма съобщения в разговора";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Няма намерени общи времеви интервали. Помислете за премахване на някои участници, коригиране на продължителността на срещата или промяна на прозореца за планиране.";
 "No description" = "Няма описание";
+"No extra participants yet" = "Все още няма допълнителни участници";
 "No meeting" = "Няма среща";
 "No meetings" = "Няма срещи";
 "No members have joined" = "Няма присъединили се членове";
@@ -1979,6 +1996,7 @@
 "Recording will stop in %@s" = "Записът ще спре след %@ секунди";
 "Recordings must be longer than 1 second" = "Записите трябва да са по-дълги от 1 секунда.";
 "Rectangle" = "Правоъгълник";
+"Referenced event has been removed" = "Посоченото събитие е премахнато.";
 "Refresh" = "Обновяване";
 "Refresh Invite Link?" = "Обновете връзка за покана?";
 "Refresh Link" = "Обновяване на връзка";
@@ -2197,6 +2215,7 @@
 "Set up your profile" = "Настройте вашия профил";
 "Set your availability for people to book a time with you." = "Задайте вашата наличност, за да могат хората да резервират време с вас.";
 "Settings" = "Настройки";
+"Shadow Flow" = "Сенчест поток";
 "Share" = "Споделете";
 "Share Files" = "Споделяне на файлове";
 "Share Invite Link" = "Споделете връзка за покана";
@@ -2251,6 +2270,7 @@
 "Slide up to cancel" = "Плъзнете нагоре за отмяна";
 "Snap Area" = "Зона на прилепване";
 "Snap Page" = "Прилепване на страница";
+"Some members have not joined" = "Някои членове не са се присъединили";
 "Something Went Wrong" = "Възникна някаква грешка";
 "Something went wrong" = "Има някаква грешка";
 "Something went wrong. Please try again." = "Нещо се обърка. Моля, опитайте отново.";
@@ -2413,6 +2433,7 @@
 "The start time must be before the end time." = "Времето на стартиране трябва да е преди времето на завършване.";
 "The submitted response will be displayed here." = "Предоставеният отговор ще бъде показан тук.";
 "The system is busy. Please try again." = "Системата е заета. Моля, опитайте отново.";
+"The tag values entered here will apply to any workspace created from this template." = "Стойностите на етикетите, въведени тук, ще се прилагат за всяко работно пространство, създадено от този шаблон.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "Работното пространство ще бъде автоматично архивирано за всички членове, след като всички действия бъдат завършени и след като бъде достигнат следният период на неактивност.";
 "There are no active screen share sessions to join." = "Няма активни сесии за споделяне на екрана за присъединяване.";
 "There are no other members in this workspace." = "В това работно пространство няма други членове.";
@@ -2860,6 +2881,7 @@
 "Who needs to review this?" = "Кой трябва да прегледа това?";
 "Who needs to sign?" = "Кой трябва да подпише?";
 "Who needs to upload this?" = "Кой трябва да качи това?";
+"Who will take action in the shadow flow?" = "Кой ще предприеме действие в сенчестия поток?";
 "Who will take action in this flow?" = "Кой ще предприема действия в този поток?";
 "Whole File" = "Цял файл";
 "Will Be Added as an Individual Workspace Member" = "Ще бъде добавен като индивидуален член на работното пространство";
@@ -2876,6 +2898,7 @@
 "Workspace Name (Required)" = "Име на работно пространство (задължително)";
 "Workspace Owner" = "Собственик на работно пространство";
 "Workspace Properties" = "Свойства на работното пространство";
+"Workspace Tags" = "Етикети за работно пространство";
 "Workspace Timed Out" = "Работното пространство изтече";
 "Workspace Type" = "Вид работно пространство";
 "Workspace Unarchived" = "Работното пространство е разархивирано";
@@ -2984,6 +3007,7 @@
 "You need to sign in to turn on Touch ID." = "Трябва да влезете, за да включите пръстов отпечатък";
 "You successfully signed the document." = "Успешно подписахте документа.";
 "You were added to a team" = "Добавен/а сте към екипа";
+"You will be the shadow flow creator." = "Вие ще бъдете създател на теневия поток.";
 "You will lose all the changes made to this document." = "Ще загубите всички промени, извършени на този документ.";
 "You will need to be invited by a member to join again." = "Трябва да бъдете поканени от участник, за да се присъедините отново.";
 "You will not be able to make changes after that." = "Няма да можете да правите промени след това.";

@@ -19,6 +19,7 @@
 "%@ Days" = "%@ من الأيام";
 "%@ Deactivated" = "%@ تم إلغاء تنشيط";
 "%@ Deleted" = "تم حذف %@";
+"%@ Details" = "تفاصيل %@";
 "%@ File" = "ملف %@";
 "%@ File Size Reached" = "تم الوصول إلى حجم ملف %1$@";
 "%@ Guests" = "%@ من الضيوف";
@@ -548,6 +549,7 @@
 "Add a To-Do Item" = "إضافة عنصر مهمة";
 "Add a brief description for all workspace members to see" = "أضف وصفًا موجزًا ليشاهده جميع أعضاء مساحة العمل";
 "Add a role" = "أضف دور";
+"Add additional participants who will be part of the flow." = "أضف مشاركين إضافيين سيكونون جزءًا من التدفق.";
 "Add description" = "إضافة وصف";
 "Add distribution list" = "إضافة قائمة توزيع";
 "Add files" = "إضافة ملفات";
@@ -563,6 +565,7 @@
 "Add useful information about your decision" = "أضف معلومات مفيدة حول قرارك";
 "Add useful information about your e-sign" = "أضف معلومات مفيدة حول توقيعك الإلكتروني";
 "Add useful information about your request" = "أضف معلومات مفيدة حول طلبك";
+"Add useful information regarding your conditional branch." = "أضف معلومات مفيدة بخصوص فرعك الشرطي.";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "أضف المشاهدين إلى مساحة العمل هذه لتضمين الأشخاص الذين لم يتم تعيين إجراء لهم في هذا التدفق.";
 "Added" = "تمت الإضافة";
 "Added Successfully" = "تمت الإضافة بنجاح";
@@ -788,8 +791,10 @@
 "Cancel Signature" = "إلغاء التوقيع";
 "Cancel scheduled meetings" = "إلغاء الاجتماعات المجدولة";
 "Canceled" = "تم الإلغاء";
+"Cannot Delete Role" = "لا يمكن حذف الدور";
 "Cannot Leave Workspace" = "لا يمكن مغادرة مساحة العمل";
 "Cannot Remove Assignee" = "لا يمكن إزالة المعين";
+"Cannot delete this role. Please assign its pending actions to someone else." = "لا يمكن حذف هذا الدور. يرجى تعيين الإجراءات المعلقة له إلى شخص آخر.";
 "Cannot open this file" = "لا يمكن فتح هذا الملف";
 "Cannot select this option while the current assignee is a client." = "لا يمكن اختيار هذا الخيار بينما يكون العميل هو المكلف الحالي.";
 "Cannot select video." = "لا يمكن اختيار الفيديو.";
@@ -863,6 +868,8 @@
 "Complete Step" = "اكمل الخطوة";
 "Completed" = "تم الاكتمال";
 "Completed (%@)" = "مكتمل (%@)";
+"Conditional Branch" = "الفرع الشرطي";
+"Conditions" = "الشروط";
 "Confirm" = "التأكيد";
 "Confirm Acknowledgement" = "تأكيد الإقرار";
 "Confirm Decision" = "تأكيد القرار";
@@ -1143,6 +1150,7 @@
 "Edit Reminder" = "تحرير رسالة التذكير";
 "Edit Status" = "تحرير الحالة";
 "Edit Step" = "خطوة التعديل";
+"Edit Tags" = "تحرير العلامات";
 "Edit Time Booking" = "تعديل حجز الوقت";
 "Edit To-Do" = "تحرير مهمة";
 "Edit Welcome Message" = "تحرير رسالة الترحيب";
@@ -1154,6 +1162,7 @@
 "Editing of this To-Do was locked by internal users." = "قفل المستخدمون الداخليون تحرير هذه المهمة.";
 "Editor" = "أداة التعديل";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "توجيه العملاء الجدد بكفاءة من خلال عملية تأهيل مبسطة متعددة الخطوات.";
+"Else, execute branch 2" = "وإلا، نفذ الفرع 2";
 "Email" = "البريد الإلكتروني";
 "Email Address" = "عنوان البريد الإلكتروني";
 "Email Address (Optional)" = "عنوان البريد الإلكتروني (اختياري)";
@@ -1193,6 +1202,7 @@
 "Enter the email associated with your account to continue." = "أدخل عنوان البريد الإلكتروني المرتبط بحسابك للاستمرار.";
 "Enter the email or phone number associated with your account to continue." = "أدخل البريد الإلكتروني أو رقم الهاتف المرتبط بحسابك للاستمرار.";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "أدخل كلمة المرور لفتح الملف. بمجرد فتحه، يمكن للجميع مشاهدته.";
+"Enter the question" = "أدخل السؤال";
 "Enter the question " = "أدخل السؤال";
 "Enter user details and send an invitation from the app." = "أدخل تفاصيل المستخدم وأرسل دعوة من التطبيق.";
 "Enter verification code" = "ادخل رمز تحقق";
@@ -1214,8 +1224,11 @@
 "Every %@ days." = "كل %1$@ يوم.";
 "Every day." = "كل يوم.";
 "Exclude Weekends" = "استثناء عطلات نهاية الأسبوع";
+"Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "نفذ الفرع 1 عندما [color=%@][b]تتطابق جميع القواعد[/b][/color]:";
+"Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "نفذ الفرع 1 عندما [color=%@][b]تتطابق أي قاعدة[/b][/color]:";
 "Extension" = "الإضافة";
 "External Calendar Meeting" = "اجتماع التقويم الخارجي";
+"Extra Participants" = "مشاركون إضافيون";
 "FLAGS" = "أعلام";
 "FOOD & DRINK" = "الطعام والشراب";
 "FRI" = "يوم الجمعة";
@@ -1657,6 +1670,7 @@
 "Move here" = "نقل هنا";
 "Move to..." = "نقل إلى…";
 "Moving..." = "جارٍ النقل…";
+"Moxo" = "Moxo";
 "Must be invited and logged in to join" = "يجب أن تتم الدعوة وتسجيل الدخول للانضمام";
 "Must enter the meeting password to join" = "يجب إدخال كلمة مرور الاجتماع للانضمام";
 "Mute" = "كتم الصوت";
@@ -1669,6 +1683,7 @@
 "Name" = "الاسم";
 "Name or email" = "الاسم أو البريد الإلكتروνي";
 "Name your DocuSign" = "اختر اسمًا لـ DocuSign الخاص بك";
+"Name your conditional branch" = "سمِّ فرعك الشرطي";
 "Name your e-sign" = "اختر اسم لتوقيعك الإلكتروني";
 "Name your request" = "اختر اسم لطلبك";
 "Name your time booking" = "اضف اسمًا لحجز الوقت خاصتك";
@@ -1699,6 +1714,7 @@
 "New To-Do" = "مهمة جديدة";
 "New To-Do added." = "تم إضافة مهمة جديدة.";
 "New Workspace" = "مساحة عمل جديدة";
+"New actions will be available here soon" = "سيتوفر إجراءات جديدة هنا قريبًا";
 "Next" = "التالي";
 "No" = "لا";
 "No Actions" = "لا توجد إجراءات";
@@ -1739,6 +1755,7 @@
 "No chat messages yet" = "لا توجد رسائل دردشة حتى الآن";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "لم يتم العثور على فترات زمنية شائعة. فكر في إزالة بعض المشاركين أو تعديل مدة الاجتماع أو تغيير نافذة مدة الجدولة.";
 "No description" = "لا يوجد وصف";
+"No extra participants yet" = "لا يوجد مشاركون إضافيون بعد";
 "No meeting" = "لا يوجد اجتماع";
 "No meetings" = "لا توجد اجتماعات";
 "No members have joined" = "لم ينضم أي من الأعضاء";
@@ -1977,6 +1994,7 @@
 "Recording will stop in %@s" = "سيتوقف التسجيل خلال %@ ثانية";
 "Recordings must be longer than 1 second" = "يجب أن تكون مدة التسجيلات أطول من ثانية واحدة.";
 "Rectangle" = "مستطيل";
+"Referenced event has been removed" = "تم إزالة الحدث المُشار إليه.";
 "Refresh" = "تحديث";
 "Refresh Invite Link?" = "تحديث رابط الدعوة؟";
 "Refresh Link" = "تحديث الرابط";
@@ -2195,6 +2213,7 @@
 "Set up your profile" = "قم بإعداد ملفك الشخصي";
 "Set your availability for people to book a time with you." = "حدد إتاحتك للأشخاص لحجز وقت معك.";
 "Settings" = "الإعدادات";
+"Shadow Flow" = "تدفق الظل";
 "Share" = "مشاركة";
 "Share Files" = "مشاركة ملفات";
 "Share Invite Link" = "مشاركة رابط دعوة";
@@ -2249,6 +2268,7 @@
 "Slide up to cancel" = "اسحب للأعلى للإلغاء";
 "Snap Area" = "منطقة التصوير";
 "Snap Page" = "تصوير الصفحة";
+"Some members have not joined" = "بعض الأعضاء لم ينضموا";
 "Something Went Wrong" = "شيء ما خطأ";
 "Something went wrong" = "شيء ما خطأ";
 "Something went wrong. Please try again." = "حدث خطأ ما. يرجى المحاولة مرة أخرى.";
@@ -2411,6 +2431,7 @@
 "The start time must be before the end time." = "يجب أن يكون وقت البدء قبل وقت الانتهاء.";
 "The submitted response will be displayed here." = "سيتم عرض الرد المقدم هنا.";
 "The system is busy. Please try again." = "النظام مشغول. يرجى المحاولة مرة أخرى.";
+"The tag values entered here will apply to any workspace created from this template." = "القيم المدخلة للوسوم هنا ستطبق على أي مساحة عمل تُنشأ من هذا النموذج.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "سيتم أرشفة مساحة العمل تلقائيًا لجميع الأعضاء بمجرد اكتمال جميع الإجراءات وبعد الوصول إلى فترة الخمول التالية.";
 "There are no active screen share sessions to join." = "لا توجد جلسات مشاركة شاشة نشطة للانضمام إليها.";
 "There are no other members in this workspace." = "لا يوجد أعضاء آخرون في مساحة العمل هذه.";
@@ -2858,6 +2879,7 @@
 "Who needs to review this?" = "من يحتاج إلى مراجعة هذا؟";
 "Who needs to sign?" = "من يحتاج التوقيع؟";
 "Who needs to upload this?" = "من يحتاج إلى رفع هذا؟";
+"Who will take action in the shadow flow?" = "من سيتخذ الإجراء في التدفق الخفي؟";
 "Who will take action in this flow?" = "من سيتخذ إجراء في هذا التدفق؟";
 "Whole File" = "المستند بالكامل";
 "Will Be Added as an Individual Workspace Member" = "سيتم إضافته كعضو فردي في مساحة العمل";
@@ -2874,6 +2896,7 @@
 "Workspace Name (Required)" = "اسم مساحة العمل (مطلوب)";
 "Workspace Owner" = "مالك مساحة العمل";
 "Workspace Properties" = "خصائص مساحة العمل";
+"Workspace Tags" = "علامات مساحة العمل";
 "Workspace Timed Out" = "انتهت مهلة مساحة العمل";
 "Workspace Type" = "نوع مساحة العمل";
 "Workspace Unarchived" = "تم إلغاء أرشفة مساحة العمل";
@@ -2982,6 +3005,7 @@
 "You need to sign in to turn on Touch ID." = "تحتاج إلى تسجيل الدخول لتشغيل مُعرف اللمس.";
 "You successfully signed the document." = "لقد وقعت المستند بنجاح.";
 "You were added to a team" = "تمت إضافتك إلى فريق";
+"You will be the shadow flow creator." = "سوف تكون مُنشئ التدفق الظل.";
 "You will lose all the changes made to this document." = "ستفقد جميع التغييرات التي تم إجراؤها على هذا المستند.";
 "You will need to be invited by a member to join again." = "ستحتاج إلى دعوة من أحد الأعضاء للانضمام مرة أخرى.";
 "You will not be able to make changes after that." = "لن تتمكن من إجراء تغييرات بعد ذلك.";

@@ -19,6 +19,7 @@
 "%@ Days" = "%@ Ngày";
 "%@ Deactivated" = "%@ đã bị vô hiệu hóa";
 "%@ Deleted" = "%@ đã bị xóa";
+"%@ Details" = "Chi tiết %@";
 "%@ File" = "Tệp tin %@";
 "%@ File Size Reached" = "Đã đạt kích thước tệp %1$@";
 "%@ Guests" = "%@ Khách mời";
@@ -550,6 +551,7 @@
 "Add a To-Do Item" = "Thêm Mục Nhiệm vụ";
 "Add a brief description for all workspace members to see" = "Thêm mô tả ngắn gọn để tất cả thành viên không gian làm việc có thể xem";
 "Add a role" = "Thêm một vai trò";
+"Add additional participants who will be part of the flow." = "Thêm các thành viên tham gia khác sẽ là một phần của luồng.";
 "Add description" = "Thêm mô tả";
 "Add distribution list" = "Thêm danh sách phân phối";
 "Add files" = "Thêm các tệp tin";
@@ -565,6 +567,7 @@
 "Add useful information about your decision" = "Thêm thông tin hữu ích về quyết định của bạn";
 "Add useful information about your e-sign" = "Thêm thông tin hữu ích về chữ ký điện tử của bạn";
 "Add useful information about your request" = "Thêm thông tin hữu ích về yêu cầu của bạn";
+"Add useful information regarding your conditional branch." = "Thêm thông tin hữu ích về nhánh điều kiện của bạn.";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "Thêm người xem vào không gian làm việc này để bao gồm những người chưa được phân công hành động trong quy trình này.";
 "Added" = "Đã thêm";
 "Added Successfully" = "Đã thêm thành công";
@@ -790,8 +793,10 @@
 "Cancel Signature" = "Hủy Chữ ký";
 "Cancel scheduled meetings" = "Hủy các cuộc họp đã lên lịch";
 "Canceled" = "Đã Hủy";
+"Cannot Delete Role" = "Không thể xóa vai trò";
 "Cannot Leave Workspace" = "Không Thể Rời Khỏi Không Gian Làm Việc";
 "Cannot Remove Assignee" = "Không thể xóa người phụ trách";
+"Cannot delete this role. Please assign its pending actions to someone else." = "Không thể xóa vai trò này. Vui lòng giao các hành động đang chờ của nó cho người khác.";
 "Cannot open this file" = "Không thể mở tệp tin này";
 "Cannot select this option while the current assignee is a client." = "Không thể chọn tùy chọn này khi người được giao hiện tại là khách hàng.";
 "Cannot select video." = "Không thể chọn video.";
@@ -865,6 +870,8 @@
 "Complete Step" = "Hoàn Thành Bước";
 "Completed" = "Đã hoàn thành";
 "Completed (%@)" = "Đã hoàn thành (%@)";
+"Conditional Branch" = "Nhánh Điều kiện";
+"Conditions" = "Điều kiện";
 "Confirm" = "Xác nhận";
 "Confirm Acknowledgement" = "Xác nhận Lời công nhận";
 "Confirm Decision" = "Xác nhận quyết định";
@@ -1148,6 +1155,7 @@
 "Edit Reminder" = "Chỉnh sửa lời nhắc";
 "Edit Status" = "Chỉnh sửa Trạng thái";
 "Edit Step" = "Chỉnh Sửa Bước";
+"Edit Tags" = "Chỉnh sửa Thẻ";
 "Edit Time Booking" = "Chỉnh Sửa Lịch Hẹn";
 "Edit To-Do" = "Chỉnh sửa Việc cần làm";
 "Edit Welcome Message" = "Chỉnh sửa Thông báo Chào mừng";
@@ -1159,6 +1167,7 @@
 "Editing of this To-Do was locked by internal users." = "Người dùng nội bộ đã khóa chỉnh sửa việc cần làm này.";
 "Editor" = "Trình Biên tập";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "Hướng dẫn hiệu quả cho khách hàng mới qua quá trình tiếp nhận đa bước được tối ưu hóa.";
+"Else, execute branch 2" = "Nếu không, thực hiện nhánh 2";
 "Email" = "Email";
 "Email Address" = "Địa chỉ Email";
 "Email Address (Optional)" = "Địa chỉ Email (Tùy chọn)";
@@ -1199,6 +1208,7 @@
 "Enter the email associated with your account to continue." = "Nhập địa chỉ email liên kết với tài khoản của bạn để tiếp tục.";
 "Enter the email or phone number associated with your account to continue." = "Nhập email hoặc số điện thoại liên kết với tài khoản của bạn để tiếp tục.";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "Nhập mật khẩu để mở khóa tệp. Một khi đã mở khóa, mọi người đều có thể xem.";
+"Enter the question" = "Nhập câu hỏi";
 "Enter the question " = "Nhập câu hỏi";
 "Enter user details and send an invitation from the app." = "Nhập thông tin người dùng và gửi lời mời từ ứng dụng.";
 "Enter verification code" = "Nhập mã xác thực";
@@ -1220,8 +1230,11 @@
 "Every %@ days." = "Mỗi %1$@ ngày một lần.";
 "Every day." = "Mỗi ngày.";
 "Exclude Weekends" = "Loại trừ Ngày Cuối Tuần";
+"Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "Thực hiện nhánh 1 khi [color=%@][b]tất cả các quy tắc khớp[/b][/color]:";
+"Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "Thực thi nhánh 1 khi [color=%@][b]bất kỳ quy tắc nào khớp[/b][/color]:";
 "Extension" = "Tiện ích Mở rộng";
 "External Calendar Meeting" = "Cuộc Họp Lịch Ngoài";
+"Extra Participants" = "Thành viên bổ sung";
 "FLAGS" = "CỜ";
 "FOOD & DRINK" = "ĐỒ ĂN & ĐỒ UỐNG";
 "FRI" = "T6";
@@ -1663,6 +1676,7 @@
 "Move here" = "Di chuyển vào đây";
 "Move to..." = "Di chuyển sang...";
 "Moving..." = "Đang di chuyển...";
+"Moxo" = "Moxo";
 "Must be invited and logged in to join" = "Phải được mời và đăng nhập để tham gia";
 "Must enter the meeting password to join" = "Phải nhập mật khẩu cuộc họp để tham gia";
 "Mute" = "Tắt tiếng";
@@ -1675,6 +1689,7 @@
 "Name" = "Tên";
 "Name or email" = "Tên hoặc email";
 "Name your DocuSign" = "Đặt tên cho DocuSign";
+"Name your conditional branch" = "Đặt tên cho nhánh điều kiện của bạn";
 "Name your e-sign" = "Đặt tên cho tài liệu ký điện tử của bạn";
 "Name your request" = "Đặt tên cho yêu cầu của bạn";
 "Name your time booking" = "Đặt tên lịch hẹn";
@@ -1705,6 +1720,7 @@
 "New To-Do" = "Nhiệm vụ Mới";
 "New To-Do added." = "Nhiệm vụ Mới đã được Thêm.";
 "New Workspace" = "Không Gian Làm Việc Mới";
+"New actions will be available here soon" = "Các hành động mới sẽ sớm có sẵn ở đây";
 "Next" = "Kế tiếp";
 "No" = "Không";
 "No Actions" = "Không có hành động";
@@ -1745,6 +1761,7 @@
 "No chat messages yet" = "Chưa có tin nhắn trò chuyện";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Không tìm thấy khung giờ trống phổ biến nào. Hãy xóa một số người tham gia, điều chỉnh thời lượng cuộc họp hoặc thay đổi phạm vi lịch họp.";
 "No description" = "Chưa có mô tả";
+"No extra participants yet" = "Chưa có thêm người tham gia";
 "No meeting" = "Không có cuộc họp";
 "No meetings" = "Không có cuộc họp";
 "No members have joined" = "Không có thành viên nào tham gia";
@@ -1983,6 +2000,7 @@
 "Recording will stop in %@s" = "Ghi âm sẽ dừng trong %@ giây";
 "Recordings must be longer than 1 second" = "Các bản ghi phải dài hơn 1 giây.";
 "Rectangle" = "Chữ nhật";
+"Referenced event has been removed" = "Sự kiện được tham chiếu đã bị gỡ bỏ.";
 "Refresh" = "Làm mới";
 "Refresh Invite Link?" = "Làm mới Liên kết Lời mời?";
 "Refresh Link" = "Làm mới Liên kết";
@@ -2201,6 +2219,7 @@
 "Set up your profile" = "Thiết lập hồ sơ của bạn";
 "Set your availability for people to book a time with you." = "Đặt lịch trống để mọi người đặt lịch hẹn với bạn.";
 "Settings" = "Cài đặt";
+"Shadow Flow" = "Luồng Ẩn";
 "Share" = "Chia sẻ";
 "Share Files" = "Chia sẻ các Tệp tin";
 "Share Invite Link" = "Chia sẻ Liên kết Lời mời";
@@ -2255,6 +2274,7 @@
 "Slide up to cancel" = "Lướt lên để hủy";
 "Snap Area" = "Vùng chụp nhanh";
 "Snap Page" = "Chụp nhanh Trang";
+"Some members have not joined" = "Một số thành viên chưa tham gia";
 "Something Went Wrong" = "Đã Xảy ra Lỗi";
 "Something went wrong" = "Đã xảy ra lỗi";
 "Something went wrong. Please try again." = "Đã xảy ra lỗi. Vui lòng thử lại.";
@@ -2417,6 +2437,7 @@
 "The start time must be before the end time." = "Thời gian bắt đầu phải trước thời gian kết thúc.";
 "The submitted response will be displayed here." = "Câu trả lời đã gửi sẽ được hiển thị ở đây.";
 "The system is busy. Please try again." = "Hệ thống đang bận. Vui lòng thử lại.";
+"The tag values entered here will apply to any workspace created from this template." = "Các giá trị thẻ nhập vào đây sẽ được áp dụng cho bất kỳ không gian làm việc nào được tạo từ bản mẫu này.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "Không gian làm việc sẽ tự động lưu trữ cho tất cả các thành viên sau khi tất cả các hành động đã hoàn thành và khoảng thời gian không hoạt động sau đó đã được đạt tới.";
 "There are no active screen share sessions to join." = "Không có phiên chia sẻ màn hình nào đang hoạt động để tham gia.";
 "There are no other members in this workspace." = "Không có thành viên nào khác trong không gian làm việc này.";
@@ -2864,6 +2885,7 @@
 "Who needs to review this?" = "Ai cần xem xét điều này?";
 "Who needs to sign?" = "Ai cần ký?";
 "Who needs to upload this?" = "Ai cần tải cái này lên?";
+"Who will take action in the shadow flow?" = "Ai sẽ thực hiện hành động trong luồng ẩn?";
 "Who will take action in this flow?" = "Đối tượng sẽ hành động trong luồng này?";
 "Whole File" = "Toàn bộ Tệp tin";
 "Will Be Added as an Individual Workspace Member" = "Sẽ được thêm vào như một thành viên cá nhân của không gian làm việc";
@@ -2880,6 +2902,7 @@
 "Workspace Name (Required)" = "Tên Không Gian Làm Việc (Bắt Buộc)";
 "Workspace Owner" = "Chủ Nhiệm Không Gian Làm Việc";
 "Workspace Properties" = "Thuộc tính Không gian làm việc";
+"Workspace Tags" = "Thẻ Không gian làm việc";
 "Workspace Timed Out" = "Đã Hết Thời Gian Chờ Không Gian Làm Việc";
 "Workspace Type" = "Kiểu Không Gian Làm Việc";
 "Workspace Unarchived" = "Không gian làm việc đã được giải nén";
@@ -2988,6 +3011,7 @@
 "You need to sign in to turn on Touch ID." = "Bạn cần khởi nhập để bật Touch ID.";
 "You successfully signed the document." = "Bạn đã ký thành công tài liệu.";
 "You were added to a team" = "Bạn đã được thêm vào một nhóm";
+"You will be the shadow flow creator." = "Bạn sẽ là người tạo dòng chảy ẩn.";
 "You will lose all the changes made to this document." = "Bạn sẽ mất tất cả các thay đổi đã thực hiện đối với tài liệu này.";
 "You will need to be invited by a member to join again." = "Để tham gia lại, bạn sẽ cần được một thành viên mời.";
 "You will not be able to make changes after that." = "Bạn sẽ không thể thực hiện các thay đổi sau đó.";

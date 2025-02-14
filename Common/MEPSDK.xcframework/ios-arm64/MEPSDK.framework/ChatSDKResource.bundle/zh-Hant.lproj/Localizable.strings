@@ -19,6 +19,7 @@
 "%@ Days" = "%@天";
 "%@ Deactivated" = "%@已停用";
 "%@ Deleted" = "%@已刪除";
+"%@ Details" = "%@詳情";
 "%@ File" = "%@文件";
 "%@ File Size Reached" = "已達到%1$@文件大小";
 "%@ Guests" = "%@位臨時客人";
@@ -550,6 +551,7 @@
 "Add a To-Do Item" = "添加一個新任務";
 "Add a brief description for all workspace members to see" = "添加簡短描述供所有工作空間成員查看";
 "Add a role" = "添加角色";
+"Add additional participants who will be part of the flow." = "添加將成為流程一部分的額外參與者。";
 "Add description" = "設置描述信息";
 "Add distribution list" = "新增通訊錄";
 "Add files" = "添加文件";
@@ -565,6 +567,7 @@
 "Add useful information about your decision" = "添加有關您決策的有用信息";
 "Add useful information about your e-sign" = "添加有關您的電子簽名的有用信息";
 "Add useful information about your request" = "添加有關您請求的有用信息";
+"Add useful information regarding your conditional branch." = "添加有關您條件分支的有用信息。";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "將查看者添加到此工作空間以包括尚未在此流程中分配操作的人員。";
 "Added" = "已添加";
 "Added Successfully" = "添加成功";
@@ -790,8 +793,10 @@
 "Cancel Signature" = "取消簽名";
 "Cancel scheduled meetings" = "取消預約的會議";
 "Canceled" = "已取消";
+"Cannot Delete Role" = "無法刪除角色";
 "Cannot Leave Workspace" = "無法離開工作空間";
 "Cannot Remove Assignee" = "無法刪除經辦人";
+"Cannot delete this role. Please assign its pending actions to someone else." = "無法刪除此角色。請將其待處理的操作分配給其他人。";
 "Cannot open this file" = "不能打開該文件";
 "Cannot select this option while the current assignee is a client." = "當前經辦人為客戶時，無法選擇此選項。";
 "Cannot select video." = "無法選擇視頻。";
@@ -865,6 +870,8 @@
 "Complete Step" = "完成步驟";
 "Completed" = "已完成";
 "Completed (%@)" = "已完成（%@）";
+"Conditional Branch" = "條件分支";
+"Conditions" = "條件";
 "Confirm" = "確定";
 "Confirm Acknowledgement" = "確認確認書";
 "Confirm Decision" = "確認決策";
@@ -1148,6 +1155,7 @@
 "Edit Reminder" = "編輯提醒時間";
 "Edit Status" = "編輯狀態";
 "Edit Step" = "編輯步驟";
+"Edit Tags" = "編輯標籤";
 "Edit Time Booking" = "編輯時間預定";
 "Edit To-Do" = "編輯任務";
 "Edit Welcome Message" = "編輯歡迎信息";
@@ -1159,6 +1167,7 @@
 "Editing of this To-Do was locked by internal users." = "此任務的編輯權限已被內部用戶鎖定。";
 "Editor" = "編輯";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "通過簡化的多步驟引導新客戶，高效完成入職流程。";
+"Else, execute branch 2" = "否則，執行分支2";
 "Email" = "電子郵箱";
 "Email Address" = "電子郵箱地址";
 "Email Address (Optional)" = "電子郵件地址（可選）";
@@ -1199,6 +1208,7 @@
 "Enter the email associated with your account to continue." = "請輸入與您賬戶相關聯的電子郵件地址";
 "Enter the email or phone number associated with your account to continue." = "請輸入與您賬戶相關聯的電子郵件地址或者電話號碼";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "輸入密碼以解鎖文件。一旦解鎖，每個人都可以查看。";
+"Enter the question" = "輸入問題";
 "Enter the question " = "輸入問題";
 "Enter user details and send an invitation from the app." = "在應用程式中輸入用戶詳情並發送邀請。";
 "Enter verification code" = "輸入驗證碼";
@@ -1220,8 +1230,11 @@
 "Every %@ days." = "每%1$@天";
 "Every day." = "每天";
 "Exclude Weekends" = "排除週末";
+"Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "當[color=%@][b]所有規則都匹配[/b][/color]時，執行分支1：";
+"Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "當[color=%@][b]任何規則匹配[/b][/color]時，執行分支1：";
 "Extension" = "擴展程序";
 "External Calendar Meeting" = "外部日曆會議";
+"Extra Participants" = "額外參與者";
 "FLAGS" = "旗幟";
 "FOOD & DRINK" = "餐飲";
 "FRI" = "週五";
@@ -1663,6 +1676,7 @@
 "Move here" = "移到當前位置";
 "Move to..." = "移動到...";
 "Moving..." = "移動中…";
+"Moxo" = "Moxo";
 "Must be invited and logged in to join" = "必須被邀請並登錄才能加入";
 "Must enter the meeting password to join" = "必須輸入會議密碼才能加入";
 "Mute" = "靜音";
@@ -1675,6 +1689,7 @@
 "Name" = "名字";
 "Name or email" = "姓名或電子郵件";
 "Name your DocuSign" = "為您的DocuSign命名";
+"Name your conditional branch" = "命名您的條件分支";
 "Name your e-sign" = "命名您的電子簽名";
 "Name your request" = "命名您的請求";
 "Name your time booking" = "為您的時間預定命名";
@@ -1705,6 +1720,7 @@
 "New To-Do" = "新建任務";
 "New To-Do added." = "添加了新任務。";
 "New Workspace" = "新建工作空間";
+"New actions will be available here soon" = "新操作很快將在此處可用";
 "Next" = "下一步";
 "No" = "否";
 "No Actions" = "沒有任何操作";
@@ -1745,10 +1761,11 @@
 "No chat messages yet" = "還沒有聊天消息";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "未找到共同的時間段。考慮刪除一些參與者、調整會議持續時間或更改安排窗口。";
 "No description" = "沒有描述";
+"No extra participants yet" = "尚無額外參與者";
 "No meeting" = "沒有會議";
 "No meetings" = "沒有預定會議";
 "No members have joined" = "沒有成員加入";
-"No new actions need to be added" = "無需添加新操作";
+"No new actions need to be added" = "沒有新操作被添加";
 "No pending approvals" = "沒有未決的審批";
 "No personalized message will be displayed" = "將不會顯示個性化消息";
 "No reminder" = "沒有提醒";
@@ -1983,6 +2000,7 @@
 "Recording will stop in %@s" = "錄製將在%@秒後停止";
 "Recordings must be longer than 1 second" = "錄音時長必須超過1秒钟。";
 "Rectangle" = "矩形";
+"Referenced event has been removed" = "參考的事件已被移除";
 "Refresh" = "重新整理";
 "Refresh Invite Link?" = "刷新邀請鏈接？";
 "Refresh Link" = "刷新鏈接";
@@ -2201,6 +2219,7 @@
 "Set up your profile" = "設置您的個人資料";
 "Set your availability for people to book a time with you." = "設置您的可用性，供他人預定與您安排時間。";
 "Settings" = "設定";
+"Shadow Flow" = "影子流程";
 "Share" = "分享";
 "Share Files" = "分享文件";
 "Share Invite Link" = "共享邀請鏈接";
@@ -2255,6 +2274,7 @@
 "Slide up to cancel" = "上滑取消";
 "Snap Area" = "截取部分";
 "Snap Page" = "整頁截取";
+"Some members have not joined" = "有些成員尚未加入";
 "Something Went Wrong" = "發生未知錯誤";
 "Something went wrong" = "出錯了";
 "Something went wrong. Please try again." = "出問題了，請再試一次。";
@@ -2417,6 +2437,7 @@
 "The start time must be before the end time." = "開始時間必須早於結束時間。";
 "The submitted response will be displayed here." = "提交的回應將在此顯示。";
 "The system is busy. Please try again." = "系統繁忙，請再試一次。";
+"The tag values entered here will apply to any workspace created from this template." = "在此輸入的標籤值將適用於從此模板創建的任何工作空間。";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "一旦所有操作完成且達到以下不活動期後，工作空間將為所有成員自動歸檔。";
 "There are no active screen share sessions to join." = "你想加入的屏幕分享不存在了";
 "There are no other members in this workspace." = "此工作空間中沒有其他成員。";
@@ -2864,6 +2885,7 @@
 "Who needs to review this?" = "誰需要審查這個？";
 "Who needs to sign?" = "誰需要簽名？";
 "Who needs to upload this?" = "誰需要上傳這個？";
+"Who will take action in the shadow flow?" = "誰將在影子流程中採取行動？";
 "Who will take action in this flow?" = "誰將在此流程中進行操作？";
 "Whole File" = "完整文件";
 "Will Be Added as an Individual Workspace Member" = "將被添加為個別工作空間成員";
@@ -2880,6 +2902,7 @@
 "Workspace Name (Required)" = "工作空間名稱（必填）";
 "Workspace Owner" = "工作空間所有者";
 "Workspace Properties" = "工作空間屬性";
+"Workspace Tags" = "工作空間標籤";
 "Workspace Timed Out" = "工作空間超時";
 "Workspace Type" = "工作空間類型";
 "Workspace Unarchived" = "工作空間已取消存檔";
@@ -2988,6 +3011,7 @@
 "You need to sign in to turn on Touch ID." = "您需要登錄以便使用指紋ID。";
 "You successfully signed the document." = "文檔簽名成功。";
 "You were added to a team" = "你被添加到一個團隊";
+"You will be the shadow flow creator." = "您將成為影子流程創建者。";
 "You will lose all the changes made to this document." = "您將放棄對該文件的所有修改。";
 "You will need to be invited by a member to join again." = "您將需要會員邀請才能再次加入";
 "You will not be able to make changes after that." = "之後無法修改。";

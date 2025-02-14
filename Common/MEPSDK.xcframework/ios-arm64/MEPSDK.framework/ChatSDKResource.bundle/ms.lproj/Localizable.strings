@@ -19,6 +19,7 @@
 "%@ Days" = "%@ Hari";
 "%@ Deactivated" = "%@ Dinyahaktifkan";
 "%@ Deleted" = "%@ Dipadam";
+"%@ Details" = "Butiran %@";
 "%@ File" = "%@ Fail";
 "%@ File Size Reached" = "Saiz Fail %1$@ Telah Dicapai";
 "%@ Guests" = "%@ Tetamu";
@@ -550,6 +551,7 @@
 "Add a To-Do Item" = "Tambah Item Untuk Dilakukan";
 "Add a brief description for all workspace members to see" = "Tambahkan deskripsi ringkas untuk dilihat oleh semua ahli ruang kerja";
 "Add a role" = "Tambah peranan";
+"Add additional participants who will be part of the flow." = "Tambah peserta tambahan yang akan menjadi sebahagian daripada aliran.";
 "Add description" = "Tambah deskripsi";
 "Add distribution list" = "Tambah senarai edaran";
 "Add files" = "Tambah fail";
@@ -565,6 +567,7 @@
 "Add useful information about your decision" = "Tambah maklumat berguna mengenai keputusan anda";
 "Add useful information about your e-sign" = "Tambah maklumat berguna tentang tandatangan elektronik anda";
 "Add useful information about your request" = "Tambahkan maklumat berguna tentang permintaan anda";
+"Add useful information regarding your conditional branch." = "Tambah maklumat berguna mengenai cabang bersyarat anda.";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "Tambahkan penonton pada ruang kerja ini untuk menyertakan orang yang belum diberikan tindakan dalam aliran ini.";
 "Added" = "Ditambah";
 "Added Successfully" = "Berjaya ditambahkan";
@@ -790,8 +793,10 @@
 "Cancel Signature" = "Batalkan Tandatangan";
 "Cancel scheduled meetings" = "Batalkan mesyuarat yang telah dijadualkan";
 "Canceled" = "Dibatalkan";
+"Cannot Delete Role" = "Tidak Boleh Padam Peranan";
 "Cannot Leave Workspace" = "Tidak Boleh Meninggalkan Ruang Kerja";
 "Cannot Remove Assignee" = "Tidak Boleh Alih Keluar Penerima Tugas";
+"Cannot delete this role. Please assign its pending actions to someone else." = "Tidak dapat memadam peranan ini. Sila berikan tindakan yang tertangguh kepada orang lain.";
 "Cannot open this file" = "Tidak dapat membuka fail ini";
 "Cannot select this option while the current assignee is a client." = "Tidak boleh memilih pilihan ini selagi penerima tugas semasa adalah seorang klien.";
 "Cannot select video." = "Tidak dapat memilih video.";
@@ -865,6 +870,8 @@
 "Complete Step" = "Langkah Lengkap";
 "Completed" = "Selesai";
 "Completed (%@)" = "Selesai (%@)";
+"Conditional Branch" = "Cabang Bersyarat";
+"Conditions" = "Syarat-syarat";
 "Confirm" = "Sah";
 "Confirm Acknowledgement" = "Sahkan Pengakuan";
 "Confirm Decision" = "Sahkan Keputusan";
@@ -1148,6 +1155,7 @@
 "Edit Reminder" = "Edit Peringatan";
 "Edit Status" = "Sunting Status";
 "Edit Step" = "Edit Langkah";
+"Edit Tags" = "Edit Tag";
 "Edit Time Booking" = "Sunting Tempahan Masa";
 "Edit To-Do" = "Edit Senarai Tugasan";
 "Edit Welcome Message" = "Sunting Mesej Selamat Datang";
@@ -1159,6 +1167,7 @@
 "Editing of this To-Do was locked by internal users." = "Mengedit perkara yang perlu dilakukan ini telah dikunci oleh pengguna dalaman.";
 "Editor" = "Penyunting";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "Pandu pelanggan baru dengan cekap melalui proses pendaftaran berbilang langkah yang dipermudah.";
+"Else, execute branch 2" = "Jika tidak, laksanakan cabang 2";
 "Email" = "E-mel";
 "Email Address" = "Alamat emel";
 "Email Address (Optional)" = "Alamat E-mel (Pilihan)";
@@ -1199,6 +1208,7 @@
 "Enter the email associated with your account to continue." = "Masukkan e-mel yang berkaitan dengan akaun anda untuk meneruskan.";
 "Enter the email or phone number associated with your account to continue." = "Masukkan e-mel atau nombor telefon yang berkaitan dengan akaun anda untuk meneruskan.";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "Masukkan kata laluan untuk membuka kunci fail. Setelah dibuka, semua orang boleh melihatnya.";
+"Enter the question" = "Masukkan soalan";
 "Enter the question " = "Masukkan soalan";
 "Enter user details and send an invitation from the app." = "Masukkan butiran pengguna dan hantar jemputan melalui aplikasi.";
 "Enter verification code" = "Masukkan kod pengesahan";
@@ -1220,8 +1230,11 @@
 "Every %@ days." = "Setiap %1$@ hari.";
 "Every day." = "Setiap hari.";
 "Exclude Weekends" = "Kecualikan Hujung Minggu";
+"Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "Laksanakan cabang 1 apabila [color=%@][b]semua peraturan cocok[/b][/color]:";
+"Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "Laksanakan cabang 1 apabila [color=%@][b]mana-mana peraturan sepadan[/b][/color]:";
 "Extension" = "Sambungan";
 "External Calendar Meeting" = "Mesyuarat Kalendar Luaran";
+"Extra Participants" = "Peserta Tambahan";
 "FLAGS" = "BENDERA";
 "FOOD & DRINK" = "MAKANAN & MINUMAN";
 "FRI" = "JUM";
@@ -1663,6 +1676,7 @@
 "Move here" = "Alihkan ke sini";
 "Move to..." = "Alihkan ke...";
 "Moving..." = "Beralih...";
+"Moxo" = "Moxo";
 "Must be invited and logged in to join" = "Perlu dijemput dan log masuk untuk menyertai";
 "Must enter the meeting password to join" = "Perlu masukkan kata laluan mesyuarat untuk menyertai";
 "Mute" = "Bisu";
@@ -1675,6 +1689,7 @@
 "Name" = "Nama";
 "Name or email" = "Nama atau emel";
 "Name your DocuSign" = "Namakan DocuSign anda";
+"Name your conditional branch" = "Namakan cabang bersyarat anda";
 "Name your e-sign" = "Namakan e-tanda anda";
 "Name your request" = "Nyatakan permintaan anda";
 "Name your time booking" = "Namakan tempahan masa anda";
@@ -1705,6 +1720,7 @@
 "New To-Do" = "Baharu Untuk Dilakukan";
 "New To-Do added." = "Baharu Untuk Dilakukan ditambah.";
 "New Workspace" = "Ruang Kerja Baharu";
+"New actions will be available here soon" = "Tindakan baru akan tersedia di sini tidak lama lagi";
 "Next" = "Seterusnya";
 "No" = "Tiada";
 "No Actions" = "Tiada Tindakan";
@@ -1745,6 +1761,7 @@
 "No chat messages yet" = "Belum ada mesej sembang";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Tiada slot masa bersama ditemui. Pertimbangkan untuk mengalih keluar sesetengah peserta, melaraskan tempoh mesyuarat atau menukar tetingkap penjadualan.";
 "No description" = "Tiada keterangan";
+"No extra participants yet" = "Tiada peserta tambahan lagi";
 "No meeting" = "Tiada mesyuarat";
 "No meetings" = "Tiada mesyuarat";
 "No members have joined" = "Tiada ahli yang telah menyertai";
@@ -1983,6 +2000,7 @@
 "Recording will stop in %@s" = "Rakaman akan berhenti dalam %@ saat";
 "Recordings must be longer than 1 second" = "Rakaman mesti melebihi 1 saat";
 "Rectangle" = "Segi empat tepat";
+"Referenced event has been removed" = "Acara yang dirujuk telah dikeluarkan";
 "Refresh" = "Muat semula";
 "Refresh Invite Link?" = "Muat semula Pautan Jemputan?";
 "Refresh Link" = "Muat semula Pautan";
@@ -2201,6 +2219,7 @@
 "Set up your profile" = "Sediakan profil anda";
 "Set your availability for people to book a time with you." = "Tetapkan ketersediaan anda untuk orang ramai menempah masa bersama anda.";
 "Settings" = "Tetapan";
+"Shadow Flow" = "Aliran Bayangan";
 "Share" = "Kongsi";
 "Share Files" = "Kongsi Fail-fail";
 "Share Invite Link" = "Kongsi Pautan Jemputan";
@@ -2255,6 +2274,7 @@
 "Slide up to cancel" = "Slaid ke atas untuk membatalkan";
 "Snap Area" = "Kawasan Mengambil gambar";
 "Snap Page" = "Halaman Mengambil gambar";
+"Some members have not joined" = "Sesetengah ahli belum menyertai";
 "Something Went Wrong" = "Sesuatu Yang Tidak Kena";
 "Something went wrong" = "Ada yang tidak kena";
 "Something went wrong. Please try again." = "Ada yang tidak kena. Sila cuba lagi.";
@@ -2417,6 +2437,7 @@
 "The start time must be before the end time." = "Masa mula mesti sebelum masa tamat.";
 "The submitted response will be displayed here." = "Respons yang dihantar akan dipaparkan di sini.";
 "The system is busy. Please try again." = "Sistem sedang sibuk. Sila cuba lagi.";
+"The tag values entered here will apply to any workspace created from this template." = "Nilai tag yang dimasukkan di sini akan digunakan pada ruang kerja mana pun yang diciptakan dari templat ini.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "Ruang kerja akan diarkib secara automatik untuk semua ahli setelah semua tindakan selesai dan tempoh ketidakaktifan berikut telah dicapai.";
 "There are no active screen share sessions to join." = "Tidak ada sesi perkongsian skrin aktif untuk disertai.";
 "There are no other members in this workspace." = "Tiada ahli lain dalam ruang kerja ini.";
@@ -2864,6 +2885,7 @@
 "Who needs to review this?" = "Siapa yang perlu mengulas ini?";
 "Who needs to sign?" = "Siapakah yang perlu tandatangan?";
 "Who needs to upload this?" = "Siapa yang perlu memuat naik ini?";
+"Who will take action in the shadow flow?" = "Siapa yang akan mengambil tindakan dalam aliran bayangan?";
 "Who will take action in this flow?" = "Siapakah yang akan mengambil tindakan dalam aliran ini?";
 "Whole File" = "Seluruh Fail";
 "Will Be Added as an Individual Workspace Member" = "Akan Ditambah sebagai Ahli Ruang Kerja Individu";
@@ -2880,6 +2902,7 @@
 "Workspace Name (Required)" = "Nama Ruang Kerja (Diperlukan)";
 "Workspace Owner" = "Pemilik Ruang Kerja";
 "Workspace Properties" = "Sifat Ruang Kerja";
+"Workspace Tags" = "Tag Ruang Kerja";
 "Workspace Timed Out" = "Ruang Kerja Tamat Masa";
 "Workspace Type" = "Jenis Ruang Kerja";
 "Workspace Unarchived" = "Ruang Kerja Telah Dinyaharkib";
@@ -2988,6 +3011,7 @@
 "You need to sign in to turn on Touch ID." = "Anda perlu daftar masuk untuk menghidupkan ID Sentuh.";
 "You successfully signed the document." = "Anda berjaya menandatangani dokumen tersebut.";
 "You were added to a team" = "Anda telah ditambahkan kepada satu pasukan";
+"You will be the shadow flow creator." = "Anda akan menjadi pencipta aliran bayangan.";
 "You will lose all the changes made to this document." = "Anda akan kehilangan semua perubahan yang dibuat pada dokumen ini.";
 "You will need to be invited by a member to join again." = "Anda perlu dijemput oleh ahli untuk menyertai lagi.";
 "You will not be able to make changes after that." = "Anda tidak akan dapat membuat perubahan selepas itu.";

@@ -19,6 +19,7 @@
 "%@ Days" = "%@ วัน";
 "%@ Deactivated" = "%@ ถูกปิดใช้งาน";
 "%@ Deleted" = "%@ ถูกลบแล้ว";
+"%@ Details" = "รายละเอียด%@";
 "%@ File" = "%@ ไฟล์";
 "%@ File Size Reached" = "ไฟล์ %1$@ มีขนาดถึงแล้ว";
 "%@ Guests" = "%@ ผู้มาเยือน";
@@ -550,6 +551,7 @@
 "Add a To-Do Item" = "เพิ่มรายการสิ่งที่ต้องทำ";
 "Add a brief description for all workspace members to see" = "เพิ่มคำอธิบายสั้นๆ ให้สมาชิกในพื้นที่ทำงานทุกคนเห็น";
 "Add a role" = "เพิ่มบทบาท";
+"Add additional participants who will be part of the flow." = "เพิ่มผู้เข้าร่วมเพิ่มเติมที่จะเป็นส่วนหนึ่งของการไหล";
 "Add description" = "เพิ่มคำอธิบาย";
 "Add distribution list" = "เพิ่มรายการจำหน่าย";
 "Add files" = "เพิ่มไฟล์";
@@ -565,6 +567,7 @@
 "Add useful information about your decision" = "เพิ่มข้อมูลที่มีประโยชน์เกี่ยวกับการตัดสินใจของคุณ";
 "Add useful information about your e-sign" = "เพิ่มข้อมูลที่มีประโยชน์เกี่ยวกับลายเซ็นอิเล็กทรอนิกส์ของคุณ";
 "Add useful information about your request" = "เพิ่มข้อมูลที่มีประโยชน์เกี่ยวกับคำขอของคุณ";
+"Add useful information regarding your conditional branch." = "เพิ่มข้อมูลที่มีประโยชน์เกี่ยวกับสาขาเงื่อนไขของคุณ";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "เพิ่มผู้ดูในพื้นที่ทำงานนี้เพื่อรวมบุคคลที่ไม่ได้รับมอบหมายให้ดำเนินการในโฟลว์นี้";
 "Added" = "เพิ่มแล้ว";
 "Added Successfully" = "เพิ่มสำเร็จแล้ว";
@@ -790,8 +793,10 @@
 "Cancel Signature" = "ยกเลิกลายเซ็น";
 "Cancel scheduled meetings" = "ยกเลิกการประชุมตามกำหนดการ";
 "Canceled" = "ยกเลิกแล้ว";
+"Cannot Delete Role" = "ไม่สามารถลบบทบาทได้";
 "Cannot Leave Workspace" = "ออกจากพื้นที่ทำงานไม่ได้";
 "Cannot Remove Assignee" = "ลบผู้รับมอบหมายออกไม่ได้";
+"Cannot delete this role. Please assign its pending actions to someone else." = "ไม่สามารถลบบทบาทนี้ได้ โปรดมอบหมายการดำเนินการที่รอดำเนินการให้กับบุคคลอื่น";
 "Cannot open this file" = "ไม่สามารถเปิดไฟล์นี้";
 "Cannot select this option while the current assignee is a client." = "ไม่สามารถเลือกตัวเลือกนี้ได้ในขณะที่ผู้รับมอบหมายปัจจุบันเป็นลูกค้า";
 "Cannot select video." = "ไม่สามารถเลือกวิดีโอได้";
@@ -865,6 +870,8 @@
 "Complete Step" = "เสร็จสิ้นขั้นตอน";
 "Completed" = "เสร็จสมบูรณ์แล้ว";
 "Completed (%@)" = "เสร็จสิ้น (%@)";
+"Conditional Branch" = "การแยกเงื่อนไข";
+"Conditions" = "เงื่อนไข";
 "Confirm" = "ยืนยัน";
 "Confirm Acknowledgement" = "ยืนยันการตอบรับ";
 "Confirm Decision" = "ยืนยันการตัดสินใจ";
@@ -1148,6 +1155,7 @@
 "Edit Reminder" = "แก้ไขการช่วยเตือน";
 "Edit Status" = "แก้ไขสถานะ";
 "Edit Step" = "แก้ไขขั้นตอน";
+"Edit Tags" = "แก้ไขแท็ก";
 "Edit Time Booking" = "แก้ไขการจองเวลา";
 "Edit To-Do" = "แก้ไขสิ่งที่ต้องทำ";
 "Edit Welcome Message" = "แก้ไขข้อความต้อนรับ";
@@ -1159,6 +1167,7 @@
 "Editing of this To-Do was locked by internal users." = "การแก้ไขสิ่งที่ต้องทำนี้ถูกล็อกโดยผู้ใช้ภายใน";
 "Editor" = "ผู้แก้ไข";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "แนะนำลูกค้าใหม่อย่างมีประสิทธิภาพผ่านกระบวนการต้อนรับหลายขั้นตอนที่รวดเร็ว";
+"Else, execute branch 2" = "มิฉะนั้น ให้ดำเนินการสาขาที่ 2";
 "Email" = "อีเมล";
 "Email Address" = "ที่อยู่อีเมล";
 "Email Address (Optional)" = "ที่อยู่อีเมล (ไม่บังคับ)";
@@ -1199,6 +1208,7 @@
 "Enter the email associated with your account to continue." = "ป้อนอีเมลที่เชื่อมโยงกับบัญชีของคุณเพื่อดำเนินการต่อ";
 "Enter the email or phone number associated with your account to continue." = "ป้อนอีเมลหรือหมายเลขโทรศัพท์ที่เชื่อมโยงกับบัญชีของคุณเพื่อดำเนินการต่อ";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "ใส่รหัสผ่านเพื่อปลดล็อกไฟล์ หลังจากปลดล็อกแล้วทุกคนสามารถดูได้";
+"Enter the question" = "ใส่คำถาม";
 "Enter the question " = "ใส่คำถาม";
 "Enter user details and send an invitation from the app." = "กรอกรายละเอียดผู้ใช้และส่งคำเชิญจากแอป";
 "Enter verification code" = "ป้อนรหัสการตรวจสอบยืนยัน";
@@ -1220,8 +1230,11 @@
 "Every %@ days." = "ทุก ๆ %1$@ วัน";
 "Every day." = "ทุก ๆ วัน";
 "Exclude Weekends" = "ไม่รวมวันหยุดสุดสัปดาห์";
+"Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "ดำเนินการกับสาขา 1 เมื่อ [color=%@][b]ทุกกฎตรงกัน[/b][/color]:";
+"Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "เรียกใช้สาขา 1 เมื่อ [color=%@][b]กฎใดก็ตามตรงกัน[/b][/color]:";
 "Extension" = "ส่วนขยาย";
 "External Calendar Meeting" = "การประชุมปฏิทินภายนอก";
+"Extra Participants" = "ผู้เข้าร่วมเพิ่มเติม";
 "FLAGS" = "ธง";
 "FOOD & DRINK" = "อาหารและเครื่องดื่ม";
 "FRI" = "ศุกร์";
@@ -1663,6 +1676,7 @@
 "Move here" = "ย้ายมาที่นี่";
 "Move to..." = "ย้ายไปที่...";
 "Moving..." = "กำลังย้าย...";
+"Moxo" = "Moxo";
 "Must be invited and logged in to join" = "ต้องได้รับเชิญและต้องเข้าสู่ระบบเพื่อเข้าร่วม";
 "Must enter the meeting password to join" = "ต้องป้อนรหัสผ่านการประชุมเพื่อเข้าร่วม";
 "Mute" = "ปิดเสียง";
@@ -1675,6 +1689,7 @@
 "Name" = "ชื่อ";
 "Name or email" = "ชื่อหรืออีเมล";
 "Name your DocuSign" = "ตั้งชื่อให้ DocuSign ของคุณ";
+"Name your conditional branch" = "ตั้งชื่อสาขาเงื่อนไขของคุณ";
 "Name your e-sign" = "ตั้งชื่อลายเซ็นอิเล็กทรอนิกส์ของคุณ";
 "Name your request" = "ตั้งชื่อคำขอของคุณ";
 "Name your time booking" = "ตั้งชื่อการจองเวลาของคุณ";
@@ -1705,6 +1720,7 @@
 "New To-Do" = "สิ่งที่ต้องทำใหม่";
 "New To-Do added." = "เพิ่มสิ่งที่ต้องทำใหม่แล้ว";
 "New Workspace" = "พื้นที่ทำงานใหม่";
+"New actions will be available here soon" = "การดำเนินการใหม่จะพร้อมใช้งานที่นี่เร็วๆ นี้";
 "Next" = "ถัดไป";
 "No" = "ไม่";
 "No Actions" = "ไม่มีการดำเนินการ";
@@ -1745,6 +1761,7 @@
 "No chat messages yet" = "ยังไม่มีข้อความแชตเลย";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "ไม่พบช่วงเวลาทั่วไป พิจารณาลบผู้เข้าร่วมบางราย ปรับระยะเวลาการประชุม หรือเปลี่ยนกรอบเวลากำหนดการ";
 "No description" = "ไม่มีคำอธิบาย";
+"No extra participants yet" = "ยังไม่มีผู้เข้าร่วมเพิ่มเติม";
 "No meeting" = "ไม่มีการประชุม";
 "No meetings" = "ไม่มีการประชุม";
 "No members have joined" = "ไม่มีสมาชิกเข้าร่วม";
@@ -1983,6 +2000,7 @@
 "Recording will stop in %@s" = "การบันทึกจะหยุดใน %@ วินาที";
 "Recordings must be longer than 1 second" = "การบันทึกต้องมีระยะเวลามากกว่า 1 วินาที";
 "Rectangle" = "สี่เหลี่ยมผืนผ้า";
+"Referenced event has been removed" = "เหตุการณ์ที่อ้างถึงได้ถูกลบออกแล้ว";
 "Refresh" = "รีเฟรช";
 "Refresh Invite Link?" = "รีเฟรชลิงก์คำเชิญชวน?";
 "Refresh Link" = "รีเฟรชลิงก์";
@@ -2201,6 +2219,7 @@
 "Set up your profile" = "ตั้งค่าโปรไฟล์ของคุณ";
 "Set your availability for people to book a time with you." = "กำหนดความพร้อมทำงานของคุณเพื่อให้ผู้อื่นจองเวลากับคุณ";
 "Settings" = "การตั้งค่า";
+"Shadow Flow" = "ฟลวเงา";
 "Share" = "แบ่งปัน";
 "Share Files" = "แบ่งปันไฟล์";
 "Share Invite Link" = "แบ่งปันลิงก์คำเชิญชวน";
@@ -2255,6 +2274,7 @@
 "Slide up to cancel" = "เลื่อนขึ้นเพื่อยกเลิก";
 "Snap Area" = "พื้นที่ Snap";
 "Snap Page" = "หน้า Snap";
+"Some members have not joined" = "บางสมาชิกยังไม่ได้เข้าร่วม";
 "Something Went Wrong" = "เกิดข้อผิดพลาด";
 "Something went wrong" = "บางอย่างผิดพลาด";
 "Something went wrong. Please try again." = "บางอย่างผิดพลาด. กรุณาลองอีกครั้ง";
@@ -2417,6 +2437,7 @@
 "The start time must be before the end time." = "เวลาเริ่มต้นต้องอยู่ก่อนเวลาสิ้นสุด";
 "The submitted response will be displayed here." = "คำตอบที่ส่งจะแสดงที่นี่";
 "The system is busy. Please try again." = "ระบบกำลังใช้งาน กรุณาลองอีกครั้ง";
+"The tag values entered here will apply to any workspace created from this template." = "ค่าแท็กที่ป้อนที่นี่จะใช้กับพื้นที่ทำงานใด ๆ ที่สร้างจากแม่แบบนี้";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "พื้นที่ทำงานจะถูกเก็บถาวรโดยอัตโนมัติสำหรับสมาชิกทุกคน เมื่อการดำเนินการทั้งหมดเสร็จสิ้นและช่วงเวลาที่ไม่มีการใช้งานต่อไปนี้ได้ถึงแล้ว.";
 "There are no active screen share sessions to join." = "ไม่มีเซสชันการแบ่งปันหน้าจอที่ใช้งานอยู่ให้เข้าร่วม";
 "There are no other members in this workspace." = "ไม่มีสมาชิกรายอื่นๆ ในพื้นที่ทำงานนี้";
@@ -2864,6 +2885,7 @@
 "Who needs to review this?" = "ใครต้องทบทวนสิ่งนี้?";
 "Who needs to sign?" = "ใครบ้างที่ต้องลงนาม?";
 "Who needs to upload this?" = "ใครต้องอัปโหลดสิ่งนี้?";
+"Who will take action in the shadow flow?" = "ใครจะดำเนินการในกระแสเงา?";
 "Who will take action in this flow?" = "ใครจะเป็นผู้ลงมือดำเนินการในโฟลว์นี้?";
 "Whole File" = "ไฟล์ทั้งหมด";
 "Will Be Added as an Individual Workspace Member" = "จะถูกเพิ่มเป็นสมาชิกพื้นที่ทำงานแบบ개인";
@@ -2880,6 +2902,7 @@
 "Workspace Name (Required)" = "ชื่อพื้นที่ทำงาน (ต้องระบุ)";
 "Workspace Owner" = "เจ้าของพื้นที่ทำงาน";
 "Workspace Properties" = "คุณสมบัติของพื้นที่ทำงาน";
+"Workspace Tags" = "แท็กพื้นที่ทำงาน";
 "Workspace Timed Out" = "พื้นที่ทำงานหมดเวลาแล้ว";
 "Workspace Type" = "ประเภทของพื้นที่ทำงาน";
 "Workspace Unarchived" = "พื้นที่ทำงานที่ถูกเปิดจากการเก็บถาวร";
@@ -2988,6 +3011,7 @@
 "You need to sign in to turn on Touch ID." = "คุณต้องลงชื่อเข้าใช้เพื่อเปิด Touch ID";
 "You successfully signed the document." = "คุณลงนามในเอกสารสำเร็จแล้ว";
 "You were added to a team" = "คุณถูกเพิ่มลงในทีมแล้ว";
+"You will be the shadow flow creator." = "คุณจะเป็นผู้สร้างการไหลแบบเงา";
 "You will lose all the changes made to this document." = "คุณจะสูญเสียการเปลี่ยนแปลงทั้งหมดที่ทำกับเอกสารฉบับนี้";
 "You will need to be invited by a member to join again." = "คุณจะต้องได้รับเชิญจากสมาชิกเพื่อเข้าร่วมอีกครั้ง";
 "You will not be able to make changes after that." = "คุณจะไม่สามารถทำการเปลี่ยนแปลงใด ๆ ได้หลังจากนั้น";

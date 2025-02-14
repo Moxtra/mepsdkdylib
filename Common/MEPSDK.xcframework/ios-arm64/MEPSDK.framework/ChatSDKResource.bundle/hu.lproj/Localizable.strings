@@ -19,6 +19,7 @@
 "%@ Days" = "%@ nap";
 "%@ Deactivated" = "%@ deaktiválva";
 "%@ Deleted" = "%@ törölve";
+"%@ Details" = "%@ részletei";
 "%@ File" = "%@ fájl";
 "%@ File Size Reached" = "Elérte a(z) %1$@ fájlméretet";
 "%@ Guests" = "%@ Vendég";
@@ -549,6 +550,7 @@
 "Add a To-Do Item" = "Egy teendő hozzáadása";
 "Add a brief description for all workspace members to see" = "Adjon hozzá rövid leírást, amit minden munkaterület-tag láthat";
 "Add a role" = "Szerep hozzáadása";
+"Add additional participants who will be part of the flow." = "Adjon hozzá további résztvevőket, akik a folyamat részét képezik.";
 "Add description" = "Megjegyzés hozzáadása";
 "Add distribution list" = "Terjesztési lista hozzáadása";
 "Add files" = "Fájl hozzáadása";
@@ -564,6 +566,7 @@
 "Add useful information about your decision" = "Adjon hasznos információt a döntéséről";
 "Add useful information about your e-sign" = "Adjon hasznos információt az elektronikus aláírásáról";
 "Add useful information about your request" = "Adjon hasznos információt a kéréséről";
+"Add useful information regarding your conditional branch." = "Adjon hasznos információt az elágazási feltételeivel kapcsolatban.";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "Adjon hozzá megtekintőket ehhez a munkaterülethez olyan személyek bevonásához, akikhez nem rendeltek műveletet ebben az áramlásban.";
 "Added" = "Hozzáadva";
 "Added Successfully" = "Hozzáadás sikeres volt";
@@ -789,8 +792,10 @@
 "Cancel Signature" = "Aláírás megszakítása";
 "Cancel scheduled meetings" = "Ütemezett értekezletek törlése";
 "Canceled" = "Törölve";
+"Cannot Delete Role" = "Nem lehet törölni a szerepet";
 "Cannot Leave Workspace" = "Nem lehet elhagyni a munkaterületet";
 "Cannot Remove Assignee" = "Nem lehet Eltávolítani a Hozzárendeltet";
+"Cannot delete this role. Please assign its pending actions to someone else." = "Nem lehet törölni ezt a szerepet. Kérjük, rendelje hozzá a függőben lévő műveleteket valaki másnak.";
 "Cannot open this file" = "Ezt a fájlt nem lehet megnyitni";
 "Cannot select this option while the current assignee is a client." = "Ezt az opciót nem lehet kiválasztani, amíg a jelenlegi felelős egy ügyfél.";
 "Cannot select video." = "Nem lehet kiválasztani a videót.";
@@ -864,6 +869,8 @@
 "Complete Step" = "Lépés befejezése";
 "Completed" = "Kész.";
 "Completed (%@)" = "Elkészült (%@)";
+"Conditional Branch" = "Feltételes Ág";
+"Conditions" = "Feltételek";
 "Confirm" = "Megerősítés";
 "Confirm Acknowledgement" = "Igazolás megerősítése";
 "Confirm Decision" = "Döntés Megerősítése";
@@ -1145,6 +1152,7 @@
 "Edit Reminder" = "Emlékeztető Szerkesztése";
 "Edit Status" = "Státusz szerkesztése";
 "Edit Step" = "Lépés Szerkesztése";
+"Edit Tags" = "Címkék szerkesztése";
 "Edit Time Booking" = "Időpontfoglalás szerkesztése";
 "Edit To-Do" = "Teendő Szerkesztése";
 "Edit Welcome Message" = "Üdvözlő üzenet szerkesztése";
@@ -1156,6 +1164,7 @@
 "Editing of this To-Do was locked by internal users." = "Ennek a teendőnek a szerkesztését a belső felhasználók zárolták.";
 "Editor" = "Szerkesztő";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "Hatékonyan irányítsa az új ügyfeleket egy egyszerűsített, több lépéses bevezető folyamaton keresztül.";
+"Else, execute branch 2" = "Egyébként hajtsa végre a 2. ágat";
 "Email" = "E-mail";
 "Email Address" = "E-mail cím";
 "Email Address (Optional)" = "E-mail-cím (nem kötelező)";
@@ -1195,6 +1204,7 @@
 "Enter the email associated with your account to continue." = "Írd be a fiókodhoz tartozó email címet a folytatáshoz";
 "Enter the email or phone number associated with your account to continue." = "Írd be a fiókodhoz tartozó email címet vagy telefonszámot a folytatáshoz";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "Adja meg a jelszót a fájl feloldásához. A feloldás után mindenki megtekintheti.";
+"Enter the question" = "Írja be a kérdést";
 "Enter the question " = "Írja be a kérdést";
 "Enter user details and send an invitation from the app." = "Adja meg a felhasználó adatait, és küldjön meghívót az alkalmazásból.";
 "Enter verification code" = "Adja meg a ellenörző kódot";
@@ -1216,8 +1226,11 @@
 "Every %@ days." = "Minden %1$@ naponként.";
 "Every day." = "Minden nap.";
 "Exclude Weekends" = "Hétvégék kizárása";
+"Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "Ág 1 végrehajtása, amikor [color=%@][b]minden szabály egyezik[/b][/color]:";
+"Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "Ág 1 végrehajtása, ha [color=%@][b]bármelyik szabály egyezik[/b][/color]:";
 "Extension" = "Kiterjesztés";
 "External Calendar Meeting" = "Külső Naptár Találkozó";
+"Extra Participants" = "További résztvevők";
 "FLAGS" = "ZÁSZLÓK";
 "FOOD & DRINK" = "ÉTEL & ITAL";
 "FRI" = "FRI";
@@ -1658,6 +1671,7 @@
 "Move here" = "Gyere ide";
 "Move to..." = "Költözik…";
 "Moving..." = "Költözés…";
+"Moxo" = "Moxo";
 "Must be invited and logged in to join" = "A csatlakozáshoz meghívóval kell rendelkeznie és be kell jelentkeznie";
 "Must enter the meeting password to join" = "A csatlakozáshoz meg kell adnia az értekezlet jelszavát";
 "Mute" = "Lenémítás";
@@ -1670,6 +1684,7 @@
 "Name" = "Név";
 "Name or email" = "Név vagy e-mail";
 "Name your DocuSign" = "Nevezze el a DocuSign-ját";
+"Name your conditional branch" = "Nevezze el az elágazását";
 "Name your e-sign" = "E-sign elnevezése";
 "Name your request" = "Nevezze el a kérelmét";
 "Name your time booking" = "Időpontfoglalásának elnevezése";
@@ -1700,6 +1715,7 @@
 "New To-Do" = "Új teendő";
 "New To-Do added." = "Új teendő hozzáadva";
 "New Workspace" = "Új munkaterület";
+"New actions will be available here soon" = "Új műveletek hamarosan elérhetők lesznek itt";
 "Next" = "Következő";
 "No" = "Nem";
 "No Actions" = "Nincsenek Műveletek";
@@ -1740,6 +1756,7 @@
 "No chat messages yet" = "Még nincs csevegőüzenet";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Nem találhatók közös időrések. Fontolja meg egyes résztvevők eltávolítását, az értekezlet időtartamának módosítását vagy az ütemezési ablak módosítását.";
 "No description" = "Nincs leírás";
+"No extra participants yet" = "Még nincsenek további résztvevők";
 "No meeting" = "Nincs találkozó";
 "No meetings" = "Nincsenek találkozók";
 "No members have joined" = "Egyetlen tag sem csatlakozott";
@@ -1977,6 +1994,7 @@
 "Recording will stop in %@s" = "A felvétel %@ másodperc múlva leáll";
 "Recordings must be longer than 1 second" = "A felvételeknek hosszabbnak kell lenniük 1 másodpercnél.";
 "Rectangle" = "Téglalap";
+"Referenced event has been removed" = "A hivatkozott eseményt eltávolították.";
 "Refresh" = "Frissítés";
 "Refresh Invite Link?" = "Frissíti a meghívó hivatkozást?";
 "Refresh Link" = "Hivatkozás frissítése";
@@ -2194,6 +2212,7 @@
 "Set up your profile" = "Állítsd be a profilodat";
 "Set your availability for people to book a time with you." = "Állítsa be a rendelkezésre állási idejét, amikor mások időpontot foglalhatnak Önnél.";
 "Settings" = "Beállítások";
+"Shadow Flow" = "Árnyék Flow";
 "Share" = "Megosztás";
 "Share Files" = "Fájlok megosztása";
 "Share Invite Link" = "Meghívó link megosztása";
@@ -2248,6 +2267,7 @@
 "Slide up to cancel" = "Csúsztassa felfelé a visszavonáshoz";
 "Snap Area" = "Snap terület";
 "Snap Page" = "Snap oldal";
+"Some members have not joined" = "Néhány tag még nem csatlakozott";
 "Something Went Wrong" = "Valami hiba történt";
 "Something went wrong" = "Valami hiba történt";
 "Something went wrong. Please try again." = "Hiba történt. Kérjük, próbálja újra.";
@@ -2410,6 +2430,7 @@
 "The start time must be before the end time." = "A kezdési időnek a befejezési idő előtt kell lennie.";
 "The submitted response will be displayed here." = "A beküldött válasz itt jelenik meg.";
 "The system is busy. Please try again." = "A rendszer foglalt. Kérjük, próbálja újra.";
+"The tag values entered here will apply to any workspace created from this template." = "Az itt megadott címkeértékek alkalmazásra kerülnek minden ebből a sablonból létrehozott munkaterületre.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "A munkaterület automatikusan archiválódik minden tag számára, miután minden tevékenység befejeződött és az azt követő inaktivitási időszak elérésre került.";
 "There are no active screen share sessions to join." = "Nincsenek aktív képernyőmegosztási munkamenetek a csatlakozáshoz.";
 "There are no other members in this workspace." = "Ezen a munkaterületen nincsenek más tagok.";
@@ -2857,6 +2878,7 @@
 "Who needs to review this?" = "Ki kell ezt átnéznie?";
 "Who needs to sign?" = "Kinek kell aláírnia?";
 "Who needs to upload this?" = "Ki kell feltöltenie ezt?";
+"Who will take action in the shadow flow?" = "Ki fog cselekedni az árnyékfolyamatban?";
 "Who will take action in this flow?" = "Ki fog cselekedni ebben az áramlásban?";
 "Whole File" = "Egész fájl";
 "Will Be Added as an Individual Workspace Member" = "Egyéni munkaterület-tagként lesz hozzáadva";
@@ -2873,6 +2895,7 @@
 "Workspace Name (Required)" = "Munkaterület neve (kötelező)";
 "Workspace Owner" = "Munkaterület tulajdonosa";
 "Workspace Properties" = "Munkaterület tulajdonságai";
+"Workspace Tags" = "Munkaterület címkék";
 "Workspace Timed Out" = "Munkaterületre vonatkozó idő túllépve";
 "Workspace Type" = "Munkaterület-típus";
 "Workspace Unarchived" = "Munkaterület visszaállítva az archívumból";
@@ -2981,6 +3004,7 @@
 "You need to sign in to turn on Touch ID." = "Bejelntkezés szükséges az érintés ID-hoz";
 "You successfully signed the document." = "Sikeresen aláírta a dokumentumot.";
 "You were added to a team" = "Önt hozzáadták egy csapathoz";
+"You will be the shadow flow creator." = "Ön lesz az árnyék folyamat létrehozója.";
 "You will lose all the changes made to this document." = "Elveszíti a dokumentumban végrehajtott összes változást.";
 "You will need to be invited by a member to join again." = "A tagnak meg kell hívnia, hogy újra csatlakozz.";
 "You will not be able to make changes after that." = "Ezután nem leszel képes változtatni.";

@@ -19,6 +19,7 @@
 "%@ Days" = "%@天";
 "%@ Deactivated" = "%@已停用";
 "%@ Deleted" = "%@已删除";
+"%@ Details" = "%@详细信息";
 "%@ File" = "%@文件";
 "%@ File Size Reached" = "已达到%1$@文件大小";
 "%@ Guests" = "%@位临时客人";
@@ -550,6 +551,7 @@
 "Add a To-Do Item" = "添加一个新任务";
 "Add a brief description for all workspace members to see" = "添加简短描述供所有工作空间成员查看";
 "Add a role" = "添加角色";
+"Add additional participants who will be part of the flow." = "添加将成为流程一部分的额外参与者。";
 "Add description" = "设置描述信息";
 "Add distribution list" = "添加分发列表";
 "Add files" = "添加文件";
@@ -565,6 +567,7 @@
 "Add useful information about your decision" = "添加有关您决策的有用信息";
 "Add useful information about your e-sign" = "添加有关您电子签名的有用信息";
 "Add useful information about your request" = "添加有关您请求的有用信息";
+"Add useful information regarding your conditional branch." = "添加有关您的条件分支的有用信息。";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "将查看者添加到此工作空间以包括尚未在此流程中分配操作的人员。";
 "Added" = "已添加";
 "Added Successfully" = "添加成功";
@@ -790,8 +793,10 @@
 "Cancel Signature" = "取消签名";
 "Cancel scheduled meetings" = "取消预约的会议";
 "Canceled" = "已取消";
+"Cannot Delete Role" = "无法删除角色";
 "Cannot Leave Workspace" = "无法离开工作空间";
 "Cannot Remove Assignee" = "无法删除经办人";
+"Cannot delete this role. Please assign its pending actions to someone else." = "无法删除此角色。请将其待处理操作分配给其他人。";
 "Cannot open this file" = "不能打开该文件";
 "Cannot select this option while the current assignee is a client." = "当前经办人为客户时，无法选择此选项。";
 "Cannot select video." = "无法选择视频。";
@@ -865,6 +870,8 @@
 "Complete Step" = "完成步骤";
 "Completed" = "已完成";
 "Completed (%@)" = "已完成（%@）";
+"Conditional Branch" = "条件分支";
+"Conditions" = "条件";
 "Confirm" = "确定";
 "Confirm Acknowledgement" = "确认确认书";
 "Confirm Decision" = "确认决策";
@@ -1148,6 +1155,7 @@
 "Edit Reminder" = "编辑提醒时间";
 "Edit Status" = "编辑状态";
 "Edit Step" = "编辑步骤";
+"Edit Tags" = "编辑标签";
 "Edit Time Booking" = "编辑时间预定";
 "Edit To-Do" = "编辑任务";
 "Edit Welcome Message" = "编辑欢迎信息";
@@ -1159,6 +1167,7 @@
 "Editing of this To-Do was locked by internal users." = "此任务的编辑权限已被内部用户锁定。";
 "Editor" = "编辑";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "通过简化的多步骤引导新客户，高效完成入职流程。";
+"Else, execute branch 2" = "否则，执行分支2";
 "Email" = "电子邮箱";
 "Email Address" = "电子邮箱地址";
 "Email Address (Optional)" = "电子邮件地址（可选）";
@@ -1199,6 +1208,7 @@
 "Enter the email associated with your account to continue." = "请输入与您账户相关联的电子邮件地址";
 "Enter the email or phone number associated with your account to continue." = "请输入与您账户相关联的电子邮件地址或者电话号码";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "输入密码以解锁文件。一旦解锁，每个人都可以查看。";
+"Enter the question" = "输入问题";
 "Enter the question " = "输入问题";
 "Enter user details and send an invitation from the app." = "在应用程序中输入用户详细信息并发送邀请。";
 "Enter verification code" = "输入验证码";
@@ -1220,8 +1230,11 @@
 "Every %@ days." = "每%1$@天";
 "Every day." = "每天";
 "Exclude Weekends" = "排除周末";
+"Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "当[color=%@][b]所有规则都匹配[/b][/color]时，执行分支1：";
+"Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "当[color=%@][b]任何规则匹配[/b][/color]时，执行分支1：";
 "Extension" = "扩展程序";
 "External Calendar Meeting" = "外部日历会议";
+"Extra Participants" = "额外参与者";
 "FLAGS" = "旗帜";
 "FOOD & DRINK" = "餐饮";
 "FRI" = "周五";
@@ -1663,6 +1676,7 @@
 "Move here" = "移到当前位置";
 "Move to..." = "移动到...";
 "Moving..." = "移动中…";
+"Moxo" = "Moxo";
 "Must be invited and logged in to join" = "必须被邀请并登录才能加入";
 "Must enter the meeting password to join" = "必须输入会议密码才能加入";
 "Mute" = "静音";
@@ -1675,6 +1689,7 @@
 "Name" = "名字";
 "Name or email" = "姓名或电子邮件";
 "Name your DocuSign" = "为您的DocuSign命名";
+"Name your conditional branch" = "命名您的条件分支";
 "Name your e-sign" = "命名您的电子签名";
 "Name your request" = "命名您的请求";
 "Name your time booking" = "为您的时间预定命名";
@@ -1705,6 +1720,7 @@
 "New To-Do" = "新建任务";
 "New To-Do added." = "添加了新任务。";
 "New Workspace" = "新建工作空间";
+"New actions will be available here soon" = "新操作很快将在此处可用";
 "Next" = "下一步";
 "No" = "否";
 "No Actions" = "没有任何操作";
@@ -1745,10 +1761,11 @@
 "No chat messages yet" = "还没有聊天消息";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "未找到共同的时间段。考虑删除一些参与者、调整会议持续时间或更改安排窗口。";
 "No description" = "没有描述";
+"No extra participants yet" = "尚无额外参与者";
 "No meeting" = "没有会议";
 "No meetings" = "没有预定会议";
 "No members have joined" = "没有成员加入";
-"No new actions need to be added" = "无需添加新操作";
+"No new actions need to be added" = "没有新操作被添加";
 "No pending approvals" = "没有未决的审批";
 "No personalized message will be displayed" = "将不会显示个性化消息";
 "No reminder" = "没有提醒";
@@ -1983,6 +2000,7 @@
 "Recording will stop in %@s" = "录制将在%@秒后停止";
 "Recordings must be longer than 1 second" = "录音时长必须超过1秒钟";
 "Rectangle" = "矩形";
+"Referenced event has been removed" = "引用的事件已被移除。";
 "Refresh" = "刷新";
 "Refresh Invite Link?" = "刷新邀请链接？";
 "Refresh Link" = "刷新链接";
@@ -2201,6 +2219,7 @@
 "Set up your profile" = "设置您的个人资料";
 "Set your availability for people to book a time with you." = "设置您的可用性，供他人预定与您安排时间。";
 "Settings" = "设置";
+"Shadow Flow" = "影子流程";
 "Share" = "分享";
 "Share Files" = "分享文件";
 "Share Invite Link" = "共享邀请链接";
@@ -2255,6 +2274,7 @@
 "Slide up to cancel" = "上滑取消";
 "Snap Area" = "截取部分";
 "Snap Page" = "整页截取";
+"Some members have not joined" = "有些成员尚未加入";
 "Something Went Wrong" = "发生未知错误";
 "Something went wrong" = "出错了";
 "Something went wrong. Please try again." = "出问题了，请再试一次。";
@@ -2417,6 +2437,7 @@
 "The start time must be before the end time." = "开始时间必须早于结束时间。";
 "The submitted response will be displayed here." = "提交的回应将在此显示。";
 "The system is busy. Please try again." = "系统繁忙，请稍后再试。";
+"The tag values entered here will apply to any workspace created from this template." = "在此处输入的标签值将应用于从此模板创建的任何工作空间。";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "一旦完成所有操作并达到以下不活跃期限，工作空间将为所有成员自动归档。";
 "There are no active screen share sessions to join." = "你想加入的屏幕分享不存在了";
 "There are no other members in this workspace." = "此工作空间中没有其他成员。";
@@ -2864,6 +2885,7 @@
 "Who needs to review this?" = "谁需要审查这个？";
 "Who needs to sign?" = "谁需要签名？";
 "Who needs to upload this?" = "谁需要上传这个？";
+"Who will take action in the shadow flow?" = "谁将在影子流程中采取行动？";
 "Who will take action in this flow?" = "谁将在此流程中进行操作？";
 "Whole File" = "完整文件";
 "Will Be Added as an Individual Workspace Member" = "将作为个人工作空间成员被添加";
@@ -2880,6 +2902,7 @@
 "Workspace Name (Required)" = "工作空间名称（必填）";
 "Workspace Owner" = "工作空间所有者";
 "Workspace Properties" = "工作空间属性";
+"Workspace Tags" = "工作空间标签";
 "Workspace Timed Out" = "工作空间超时";
 "Workspace Type" = "工作空间类型";
 "Workspace Unarchived" = "工作空间已取消存档";
@@ -2988,6 +3011,7 @@
 "You need to sign in to turn on Touch ID." = "您需要登录以便使用指纹ID。";
 "You successfully signed the document." = "文档签名成功。";
 "You were added to a team" = "你被添加到一个团队";
+"You will be the shadow flow creator." = "您将成为影子流程创建者。";
 "You will lose all the changes made to this document." = "您将放弃对该文件的所有修改。";
 "You will need to be invited by a member to join again." = "您将需要会员邀请才能再次加入";
 "You will not be able to make changes after that." = "之后无法修改。";

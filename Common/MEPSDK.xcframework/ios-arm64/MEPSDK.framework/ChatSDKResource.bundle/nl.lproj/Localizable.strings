@@ -19,6 +19,7 @@
 "%@ Days" = "%@ dagen";
 "%@ Deactivated" = "%@ gedeactiveerd";
 "%@ Deleted" = "%@ Verwijderd";
+"%@ Details" = "%@ Details";
 "%@ File" = "%@ Bestand";
 "%@ File Size Reached" = "%1$@ Bestandsgrootte Bereikt";
 "%@ Guests" = "%@ gasten";
@@ -550,6 +551,7 @@
 "Add a To-Do Item" = "Voeg een onderwerp van een uitstaande taak toe";
 "Add a brief description for all workspace members to see" = "Voeg een korte beschrijving toe die voor alle werkruimteleden zichtbaar is";
 "Add a role" = "Voeg een rol toe";
+"Add additional participants who will be part of the flow." = "Voeg extra deelnemers toe die deel zullen uitmaken van de stroom.";
 "Add description" = "Voeg beschrijving toe";
 "Add distribution list" = "Distributielijst toevoegen";
 "Add files" = "Voeg bestanden toe";
@@ -565,6 +567,7 @@
 "Add useful information about your decision" = "Voeg nuttige informatie toe over uw beslissing";
 "Add useful information about your e-sign" = "Voeg nuttige informatie toe over uw e-ondertekening";
 "Add useful information about your request" = "Voeg nuttige informatie toe over uw verzoek";
+"Add useful information regarding your conditional branch." = "Voeg nuttige informatie toe over uw conditionele vertakking.";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "Voeg kijkers toe aan deze werkruimte om mensen aan wie geen actie is toegewezen in deze flow op te nemen.";
 "Added" = "Toegevoegd";
 "Added Successfully" = "Toevoegen gelukt";
@@ -790,8 +793,10 @@
 "Cancel Signature" = "Annuleren";
 "Cancel scheduled meetings" = "Geplande vergaderingen annuleren";
 "Canceled" = "Geannuleerd";
+"Cannot Delete Role" = "Kan Rol Niet Verwijderen";
 "Cannot Leave Workspace" = "Kan de werkruimte niet verlaten";
 "Cannot Remove Assignee" = "Kan de toegewezen persoon niet verwijderen";
+"Cannot delete this role. Please assign its pending actions to someone else." = "Kan deze rol niet verwijderen. Wijs de hangende acties alstublieft toe aan iemand anders.";
 "Cannot open this file" = "Kan dit bestand niet openen";
 "Cannot select this option while the current assignee is a client." = "Deze optie kan niet worden geselecteerd terwijl de huidige toegewezen persoon een klant is.";
 "Cannot select video." = "Kan video niet selecteren.";
@@ -865,6 +870,8 @@
 "Complete Step" = "Stap voltooien";
 "Completed" = "Voltooid";
 "Completed (%@)" = "Voltooid (%@)";
+"Conditional Branch" = "Conditionele vertakking";
+"Conditions" = "Voorwaarden";
 "Confirm" = "Bevestigen";
 "Confirm Acknowledgement" = "Bevestig bevestiging";
 "Confirm Decision" = "Beslissing bevestigen";
@@ -1148,6 +1155,7 @@
 "Edit Reminder" = "Bewerk herinnering";
 "Edit Status" = "Bewerk status";
 "Edit Step" = "Stap bewerken";
+"Edit Tags" = "Tags bewerken";
 "Edit Time Booking" = "Tijdboeking bewerken";
 "Edit To-Do" = "Bewerk Te-doen";
 "Edit Welcome Message" = "Welkomstbericht bewerken";
@@ -1159,6 +1167,7 @@
 "Editing of this To-Do was locked by internal users." = "Bewerking van deze to-do is afgesloten door interne gebruikers.";
 "Editor" = "Tekstverwerker";
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "Leid nieuwe klanten efficiënt door een gestroomlijnd onboardingproces dat uit meerdere stappen bestaat.";
+"Else, execute branch 2" = "Anders, voer tak 2 uit";
 "Email" = "E-mail";
 "Email Address" = "E-mailadres";
 "Email Address (Optional)" = "E-mailadres (Optioneel)";
@@ -1199,6 +1208,7 @@
 "Enter the email associated with your account to continue." = "Voer om door te gaan het e-mailadres in dat aan uw account is gekoppeld.";
 "Enter the email or phone number associated with your account to continue." = "Voer om door te gaan het e-mailadres of telefoonnummer in dat aan uw account is gekoppeld.";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "Voer het wachtwoord in om het bestand te ontgrendelen. Eenmaal ontgrendeld kan iedereen het bekijken.";
+"Enter the question" = "Voer de vraag in";
 "Enter the question " = "Voer de vraag in";
 "Enter user details and send an invitation from the app." = "Voer de gebruikersgegevens in en verstuur een uitnodiging vanuit de app.";
 "Enter verification code" = "Voer verificatiecode in";
@@ -1220,8 +1230,11 @@
 "Every %@ days." = "Alle %1$@ dagen.";
 "Every day." = "Elke dag.";
 "Exclude Weekends" = "Weekenden Uitsluiten";
+"Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "Voer vertakking 1 uit wanneer [color=%@][b]alle regels overeenkomen[/b][/color]:";
+"Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "Voer vertakking 1 uit wanneer [color=%@][b]een regel overeenkomt[/b][/color]:";
 "Extension" = "Extensie";
 "External Calendar Meeting" = "Externe Agenda Vergadering";
+"Extra Participants" = "Extra deelnemers";
 "FLAGS" = "VLAGGEN";
 "FOOD & DRINK" = "ETEN & DRINKEN";
 "FRI" = "VR";
@@ -1663,6 +1676,7 @@
 "Move here" = "Verplaats hierheen";
 "Move to..." = "Verplaats naar...";
 "Moving..." = "Verplaatsen...";
+"Moxo" = "Moxo";
 "Must be invited and logged in to join" = "Moet uitgenodigd zijn en ingelogd om deel te nemen";
 "Must enter the meeting password to join" = "Moet het vergaderingswachtwoord invoeren om deel te nemen";
 "Mute" = "Geluid uit";
@@ -1675,6 +1689,7 @@
 "Name" = "Naam";
 "Name or email" = "Naam of e-mail";
 "Name your DocuSign" = "Geef uw DocuSign een naam";
+"Name your conditional branch" = "Noem je conditionele vertakking";
 "Name your e-sign" = "Benoem uw e-ondertekening";
 "Name your request" = "Geef uw verzoek een naam";
 "Name your time booking" = "Geef je tijdboeking een naam";
@@ -1705,6 +1720,7 @@
 "New To-Do" = "Nieuwe uitstaande taken";
 "New To-Do added." = "Nieuwe uitstaande taken toegevoegd.";
 "New Workspace" = "Nieuwe werkruimte";
+"New actions will be available here soon" = "Nieuwe acties zijn hier binnenkort beschikbaar";
 "Next" = "Volgende";
 "No" = "Nr";
 "No Actions" = "Geen acties";
@@ -1745,6 +1761,7 @@
 "No chat messages yet" = "Nog geen chatberichten";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Er zijn geen veelgebruikte tijdvakken gevonden. Overweeg om enkele deelnemers te verwijderen, de duur van de vergadering aan te passen of het planningsvenster te wijzigen.";
 "No description" = "Geen beschrijving";
+"No extra participants yet" = "Nog geen extra deelnemers";
 "No meeting" = "Geen vergadering";
 "No meetings" = "Geen vergaderingen";
 "No members have joined" = "Geen leden zijn toegetreden";
@@ -1983,6 +2000,7 @@
 "Recording will stop in %@s" = "Opname stopt over %@s";
 "Recordings must be longer than 1 second" = "Opnames moeten langer zijn dan 1 seconde.";
 "Rectangle" = "Rechthoek";
+"Referenced event has been removed" = "Gerefereerde gebeurtenis is verwijderd";
 "Refresh" = "Vernieuwen";
 "Refresh Invite Link?" = "Vernieuwen uitnodigingslink?";
 "Refresh Link" = "Vernieuwen Link";
@@ -2201,6 +2219,7 @@
 "Set up your profile" = "Stel je profiel in";
 "Set your availability for people to book a time with you." = "Stel je beschikbaarheid in zodat mensen een tijd bij je kunnen boeken.";
 "Settings" = "Instellingen";
+"Shadow Flow" = "Schaduwstroom";
 "Share" = "Delen";
 "Share Files" = "Deel bestanden";
 "Share Invite Link" = "Uitnodigingslink delen";
@@ -2255,6 +2274,7 @@
 "Slide up to cancel" = "Schuif omhoog om te annuleren";
 "Snap Area" = "Snap-gebied";
 "Snap Page" = "Snap-pagina";
+"Some members have not joined" = "Sommige leden zijn niet toegetreden";
 "Something Went Wrong" = "Er is iets fout gegaan";
 "Something went wrong" = "Er is iets fout gegaan";
 "Something went wrong. Please try again." = "Er is iets fout gegaan. Probeer het opnieuw.";
@@ -2417,6 +2437,7 @@
 "The start time must be before the end time." = "De begintijd moet voor de eindtijd vallen.";
 "The submitted response will be displayed here." = "De ingediende reactie wordt hier weergegeven.";
 "The system is busy. Please try again." = "Het systeem is bezet. Probeer het opnieuw.";
+"The tag values entered here will apply to any workspace created from this template." = "De ingevoerde tagwaarden hier zullen van toepassing zijn op elke werkruimte die vanuit dit sjabloon wordt gecreëerd.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "De werkruimte zal automatisch worden gearchiveerd voor alle leden zodra alle acties zijn voltooid en de volgende periode van inactiviteit is bereikt.";
 "There are no active screen share sessions to join." = "Er zijn geen actieve schermdeelsessies om aan deel te nemen.";
 "There are no other members in this workspace." = "Er zijn geen andere leden in deze werkruimte.";
@@ -2864,6 +2885,7 @@
 "Who needs to review this?" = "Wie moet dit beoordelen?";
 "Who needs to sign?" = "Wie moet ondertekenen?";
 "Who needs to upload this?" = "Wie moet dit uploaden?";
+"Who will take action in the shadow flow?" = "Wie zal actie ondernemen in de schaduwstroom?";
 "Who will take action in this flow?" = "Wie zal actie ondernemen in deze stroom?";
 "Whole File" = "Het hele bestand";
 "Will Be Added as an Individual Workspace Member" = "Wordt toegevoegd als individueel werkruimtelid";
@@ -2880,6 +2902,7 @@
 "Workspace Name (Required)" = "Naam van de werkruimte (vereist)";
 "Workspace Owner" = "Eigenaar van de werkruimte";
 "Workspace Properties" = "Eigenschappen van de werkruimte";
+"Workspace Tags" = "Tags voor werkruimte";
 "Workspace Timed Out" = "Er is een time-out opgetreden op de werkruimte";
 "Workspace Type" = "Soort werkruimte";
 "Workspace Unarchived" = "Werkruimte uit archief gehaald";
@@ -2988,6 +3011,7 @@
 "You need to sign in to turn on Touch ID." = "U dient zich aan te melden om aanraak-ID in te schakelen.";
 "You successfully signed the document." = "U hebt het document succesvol ondertekend.";
 "You were added to a team" = "U bent toegevoegd aan een team";
+"You will be the shadow flow creator." = "U wordt de schaduwstroommaker.";
 "You will lose all the changes made to this document." = "U verliest alle wijzigingen die in dit document zijn aangebracht.";
 "You will need to be invited by a member to join again." = "U moet worden uitgenodigd door een lid om weer mee te kunnen doen.";
 "You will not be able to make changes after that." = "Daarna kunt u geen wijzigingen meer aanbrengen.";
