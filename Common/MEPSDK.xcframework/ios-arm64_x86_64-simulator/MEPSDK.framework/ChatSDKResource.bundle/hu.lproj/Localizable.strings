@@ -90,7 +90,6 @@
 "%@ added this Time Booking." = "%@ hozzáadta ezt az időpontfoglalást.";
 "%@ added this To-Do." = "%@ hozzáadta ezt a teendőt.";
 "%@ added this Wait action." = "%@ hozzáadta ezt a Várakozás műveletet.";
-"%@ and %@" = "%1$@ és %2$@";
 "%@ and %@ have been added to your team." = "%1$@ és %2$@ hozá lett adva a csapatodhoz";
 "%@ and %@ others have been added to your team." = "%1$@és %2$@ másik emebr hozzá lett a csapatodhoz";
 "%@ and others are typing…" = "%@ és mások gépelnek ...";
@@ -128,10 +127,8 @@
 "%@ assigned to you" = "%@ hozzád rendelve";
 "%@ awaiting review" = "%@ áttekintésre vár";
 "%@ awaiting review." = "%@ áttekintésre vár.";
-"%@ awaiting review: %@" = "%1$@ függőben lévő felülvizsgálat: %2$@";
 "%@ awaiting your review" = "%@ az Ön áttekintésére vár";
 "%@ awaiting your review." = "%@ az Ön áttekintésére vár.";
-"%@ awaiting your review: %@" = "%1$@ az Ön áttekintésére vár: %2$@";
 "%@ awaits preparation" = "%@ előkészítésre vár";
 "%@ awaits preparation." = "%@ előkészítésre vár.";
 "%@ awaits preparation: %@" = "%1$@ előkészítésre vár: %2$@";
@@ -473,7 +470,6 @@
 "Access denied" = "Hozzáférés megtagadva";
 "Access your Portal URL by entering the verification code we just sent to %@" = "A portál URL-címének eléréséhez adja meg az imént a(z) %@ fiókba küldött ellenőrző kódot";
 "Account" = "Felhasználói adatok";
-"Account Connection" = "Fiókcsatlakozás";
 "Account Creation Failed" = "A fióklétrehozás sikertelen";
 "Account Deleted" = "Fiók Törölve";
 "Account Settings" = "Számla beállítások";
@@ -560,18 +556,17 @@
 "Add a brief description for all workspace members to see" = "Adjon hozzá rövid leírást, amit minden munkaterület-tag láthat";
 "Add a role" = "Szerep hozzáadása";
 "Add additional participants who will be part of the flow." = "Adjon hozzá további résztvevőket, akik a folyamat részét képezik.";
-"Add agenda" = "Napirend hozzáadása";
 "Add description" = "Megjegyzés hozzáadása";
 "Add distribution list" = "Terjesztési lista hozzáadása";
 "Add files" = "Fájl hozzáadása";
 "Add information regarding the purpose of booking this time" = "Adjon meg információkat a foglalás céljával kapcsolatban";
-"Add location" = "Helyszín hozzáadása";
 "Add portals to resume working with your team" = "Adjon hozzá portálokat a csapatával való munka folytatásához";
 "Add roles that represent people who will need to take action in this flow." = "Adjon hozzá szerepeket, amelyek képviselik azokat az embereket, akiknek cselekedniük kell ebben a folyamatban.";
 "Add roles to this workspace" = "Adjon hozzá szerepeket ehhez a munkaterülethez";
 "Add signers to continue" = "A folytatáshoz adjon hozzá aláírókat";
 "Add the information below to get started!" = "Add meg az alábbi infókat a kezdéshez!";
 "Add to Contacts" = "Kapcsolatokhoz hozzáadás";
+"Add to calendar" = "Naptárhoz hozzáadás";
 "Add useful information about your DocuSign" = "Adjon hasznos információt a DocuSign-járól";
 "Add useful information about your decision" = "Adjon hasznos információt a döntéséről";
 "Add useful information about your e-sign" = "Adjon hasznos információt az elektronikus aláírásáról";
@@ -612,7 +607,6 @@
 "All comments and other activity on this file will also be deleted." = "A fájllal kapcsolatos összes megjegyzés és egyéb tevékenység szintén törlődik";
 "All completed actions will appear here." = "Minden elvégzett művelet itt fog megjelenni.";
 "All participants have declined the invitation." = "Minden résztvevő elutasította a meghívást.";
-"All participants must be admitted by the host" = "Minden résztvevőt a házigazdának kell beengednie.";
 "All recurring meetings will be deleted." = "Minden ismétlődő értekezlet törlődni fog.";
 "All the replies to this comment will be deleted as well." = "Az összes válasz is törlődni fog a hozzászólásnál";
 "All updates on clients, actions, and other account info will appear here." = "Az ügyfelekkel, műveletekkel és egyéb fiókinformációkkal kapcsolatosan minden frissítés itt jelenik meg.";
@@ -649,6 +643,7 @@
 "Anyone with the link" = "Bárki a linkkel";
 "Anyone with the meeting link can join" = "Bárki csatlakozhat, aki rendelkezik az értekezlet hivatkozásával";
 "Anyone with the meeting link can join all future recurring meetings from the same link without approval. We recommend enabling the waiting room for your security." = "Bárki, aki rendelkezik a találkozó linkjével, csatlakozhat az összes jövőbeli ismétlődő találkozóhoz ugyanerről a linkről jóváhagyás nélkül. Biztonsága érdekében ajánljuk a várószoba bekapcsolását.";
+"Anyone with the meeting link will need to be approved by the host to join" = "Bárki, aki rendelkezik a találkozó linkjével, a házigazda jóváhagyására szorul a csatlakozáshoz.";
 "Anything assigned to you will appear here so you can easily stay on top of things." = "Minden, ami Önhöz rendelt, itt jelennek meg, így könnyen naprakész lehet az ügyeivel kapcsolatban.";
 "App" = "Alkalmazás";
 "Apple login disabled" = "Apple bejelentkezés letiltva";
@@ -680,7 +675,6 @@
 "Archive" = "Archiválás";
 "Archive %@ Workspaces?" = "Archivál %@ munkaterület?";
 "Archive Workspace" = "Munkaterület archiválása";
-"Archive for All Internal Users" = "Archívum minden belső felhasználó számára";
 "Archive for All Members" = "Archívum minden tag számára";
 "Archive for Yourself" = "Archiválás magadnak";
 "Archived" = "Archiválva";
@@ -846,7 +840,6 @@
 "Click below to join the rest of your team on the %@ Portal" = "Kattintson az alábbi lehetőségre, hogy csatlakozzon a csapat többi tagjához a(z) %@ Portálon";
 "Click the link below to join me on %@ for dedicated support and service" = "Személyre szabott támogatásért és szolgáltatásért kattintson az alábbi hivatkozásra, és csatlakozzon hozzám itt: %@";
 "Click the link below to join me on the %@ Portal for dedicated support and service" = "Személyre szabott támogatásért és szolgáltatásért kattintson az alábbi hivatkozásra, és csatlakozzon hozzám a(z) %@ Portálon";
-"Click to connect" = "Kattintson a csatlakozáshoz";
 "Client" = "Ügyfél";
 "Client Assigned to You" = "Önhöz rendelt ügyfél";
 "Client Blocked Account" = "Az ügyfél letiltotta a felhasználót";
@@ -870,7 +863,6 @@
 "Close and Sign Later" = "Bezárás és aláírás később";
 "Closed" = "Bezárva";
 "Closed (Special Hours)" = "Zárva (rendkívüli idő)";
-"Cloud" = "Felhő";
 "Co-Browse" = "Társas böngészés";
 "Co-Browsing Session Ended" = "Társas böngészési munkamenet befejeződött";
 "Co-browsing is already in progress." = "A közös böngészés már folyamatban van.";
@@ -889,16 +881,17 @@
 "Confirm Deletion" = "Megerősíti a Törlést?";
 "Confirm Details" = "Adatok megerősítése";
 "Confirm Disconnect" = "Megerősítés a szétkapcsoláshoz";
-"Confirm Disconnection" = "Megerősítés a kapcsolat bontásához";
 "Confirm Invitation" = "Erősítsd meg a meghívást";
 "Confirm the following to permanently delete your account." = "A fiók végleges törléséhez erősítse meg a következőket.";
 "Confirm your current password to continue." = "Folytatáshoz erősítsd meg a jelszavaddal.";
 "Confirmed" = "Megerősítve";
 "Connect" = "Csatlakozz";
 "Connect with DocuSign" = "Csatlakozzon a DocuSign alkalmazással";
+"Connect with Zoom" = "Csatlakozzon a Zoom alkalmazással";
 "Connect with me on my app by clicking the link below:" = "Kapcsolódjon velem az alkalmazásomon keresztül az alábbi linkre kattintva:";
 "Connect with people by using your QR code." = "Kapcsolódjon másokhoz a QR-kódja segítségével.";
 "Connect your DocuSign account to use templates." = "A sablonok használatához csatlakoztassa DocuSign fiókját.";
+"Connect your Zoom account to schedule meetings" = "Az értekezletek ütemezéséhez csatlakoztassa Zoom fiókját";
 "Connected" = "Összekapcsolódva";
 "Connected Successfully" = "Sikeres csatlakozás";
 "Connecting you with our live support…" = "Kapcsolódás élő támogatásunkhoz….";
@@ -1180,8 +1173,7 @@
 "Enable Touch ID for Login" = "Engedélyezze a Touch ID-t a bejelentkezéshez";
 "Enable Voice" = "Hang engedélyezése";
 "Enable Voice..." = "Hang engedélyezése";
-"Enable Waiting Room for All" = "Várószoba engedélyezése mindenkinek";
-"Enable Waiting Room for Guests" = "Várószoba engedélyezése a vendégek számára";
+"Enable Waiting Room" = "Várószoba engedélyezése";
 "Enabled" = "Bekapcsolt";
 "End" = "Vége";
 "End & Accept" = "Befejezés és elfogadás";
@@ -1230,7 +1222,6 @@
 "Exclude Weekends" = "Hétvégék kizárása";
 "Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "Ág 1 végrehajtása, amikor [color=%@][b]minden szabály egyezik[/b][/color]:";
 "Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "Ág 1 végrehajtása, ha [color=%@][b]bármelyik szabály egyezik[/b][/color]:";
-"Execution Order" = "Végrehajtási Sorrend";
 "Extension" = "Kiterjesztés";
 "External Calendar Meeting" = "Külső Naptár Találkozó";
 "Extra Participants" = "További résztvevők";
@@ -1378,7 +1369,6 @@
 "Group Workspace" = "Csoportos munkaterület";
 "Groups & Topics" = "Csoportok és témák";
 "Guest" = "Vendég";
-"Guests joining via the meeting link must be admitted by the host" = "A találkozó linkjén keresztül csatlakozó vendégeket a házigazdának kell beengednie.";
 "Have an account?" = "Van fiókod?";
 "Heads up!" = "Figyelem!";
 "Help & Support" = "Sugó és támogatás";
@@ -1437,7 +1427,6 @@
 "If reopened, the assignee will need to resubmit the files." = "Ha újranyitják, a megbízottnak újra be kell nyújtania a fájlokat.";
 "If they don't have an account, they will be directed to sign up to start collaborating on your flow." = "Ha még nincs fiókjuk, akkor regisztrációra lesznek irányítva, hogy elkezdhessenek együttműködni az Ön folyamatán.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be affected by this." = "Ha megszakítja a DocuSign fiókjának kapcsolatát, a hozzárendeltek nem lesznek képesek hozzáférni vagy aláírni semmilyen függőben lévő dokumentumot, amelyet ezzel a fiókkal hoztak létre. A befejezett dokumentumokat ez nem érinti.";
-"If you disconnect your Zoom account, meetings that were created through the account will not be editable or deletable." = "Ha megszakítja a Zoom fiókjának kapcsolatát, azon keresztül létrehozott értekezletek nem lesznek szerkeszthetők vagy törölhetők.";
 "If you disconnect, we will no longer be able to check your availability on this calendar." = "Ha megszakítja a kapcsolatot, nem leszünk képesek ellenőrizni az elérhetőségét ezen a naptáron.";
 "If you go back, any changes you’ve made on this page will be lost. Are you sure you want to go back?" = "Ha visszalép, az ezen az oldalon végrehajtott módosítások elvesznek. Biztosan visszalép?";
 "If you have any urgent issues, feel free to chat with %@." = "Ha bármilyen sürgős problémája van, nyugodtan vegye fel a kapcsolatot a %@ nevű felhasználóval.";
@@ -1569,12 +1558,10 @@
 "Link Preview Removed" = "A hivatkozás előnézete sikeresen eltávolítva";
 "Link Refreshed" = "Hivatkozás frissítve";
 "Load More" = "Több Betöltése";
-"Loading Account" = "Fiók betöltése";
 "Loading address..." = "Cím betöltése";
 "Loading your account..." = "Fiók betöltése...";
 "Loading your content…" = "Tartalom betöltése…";
 "Loading..." = "Töltés…";
-"Local computer" = "Helyi számítógép";
 "Location" = "Elhelyezkedés";
 "Lock Meeting Access" = "Konferencia-hozzáférés zárolása";
 "Log In" = "Bejelentkezni";
@@ -1583,6 +1570,7 @@
 "Log in here" = "Bejelentkezés itt";
 "Log in to %@" = "Jelentkezzen be a %@";
 "Log in to connect" = "Csatlakozáshoz jelentkezz be";
+"Log in to connect to %@" = "Jelentkezzen be, hogy csatlakozzon a(z) %@-hez";
 "Log in to connect to DocuSign" = "Jelentkezzen be a DocuSign-hoz való csatlakozáshoz.";
 "Log in to your portal" = "Jelentkezzen be a portáljába";
 "Log into %@" = "Bejelentkezés a(z) %@ alkalmazásba";
@@ -1595,7 +1583,6 @@
 "MEETING INFORMATION" = "MEGBESZÉLÉS INFORMÁCIÓ";
 "MIA" = "Csatlakozni";
 "MIM" = "%1$@: Találkozóra való felhívás. Kérjük, csatlakozz.";
-"MS Teams Meeting" = "MS Teams találkozó";
 "Make Host" = "Átadni a házigazda szerepét";
 "Make Presenter" = "Bemutató készítése";
 "Make your business flow with digital interaction workspaces" = "Tedd gördülékennyé az üzletedet digitális interakciós munkaterületekkel";
@@ -1627,7 +1614,6 @@
 "Meeting Invite" = "Meghívó értekezletre";
 "Meeting Link" = "Találkozó hivatkozás";
 "Meeting Link Detected" = "Értekezlet link észlelve";
-"Meeting Options" = "Találkozó Beállításai";
 "Meeting Password" = "Értekezlet jelszava";
 "Meeting Password (Required)" = "Értekezlet jelszava (kötelező)";
 "Meeting Password:" = "Értekezlet jelszava:";
@@ -1638,7 +1624,6 @@
 "Meeting Started" = "Megkezdődött a találkozó";
 "Meeting Topic" = "Találkozó témája";
 "Meeting Topic*" = "Találkozó témája*";
-"Meeting Type" = "Értekezlet típusa";
 "Meeting Update" = "Értekezlet-frissítés";
 "Meeting ended" = "A találkozó véget ért";
 "Meeting in Progress" = "Értekezlet folyamatban";
@@ -1646,7 +1631,6 @@
 "Meeting start time" = "Értekezlet kezdési ideje";
 "Meeting successfully updated." = "Az értekezlet sikeresen frissítve.";
 "Meeting transferred to you" = "Az értekezlet át lett ruházva Önre";
-"Meeting via Zoom" = "Találkozó Zoomon keresztül";
 "Meetings" = "Találkozók";
 "Meetings can only last up to %@ hours." = "A találkozók legfeljebb %@ óráig tarthatnak.";
 "Member Limit Reached" = "Elérte a tagsági korlátot";
@@ -1685,7 +1669,6 @@
 "Move to..." = "Költözik…";
 "Moving..." = "Költözés…";
 "Moxo" = "Moxo";
-"Moxo Meeting" = "Moxo Megbeszélés";
 "Must be invited and logged in to join" = "A csatlakozáshoz meghívóval kell rendelkeznie és be kell jelentkeznie";
 "Must enter the meeting password to join" = "A csatlakozáshoz meg kell adnia az értekezlet jelszavát";
 "Mute" = "Lenémítás";
@@ -1774,7 +1757,6 @@
 "No meeting" = "Nincs találkozó";
 "No meetings" = "Nincsenek találkozók";
 "No new actions need to be added" = "Nem szükséges új műveleteket hozzáadni";
-"No participants yet" = "Még nincsenek résztvevők";
 "No pending approvals" = "Nincs függőben lévő jóváhagyás";
 "No personalized message will be displayed" = "Nem jelenik meg személyre szabott üzenet";
 "No reminder" = "Nincs emlékeztető";
@@ -1803,13 +1785,12 @@
 "Office Hours" = "Munkaidő";
 "Office hours shown in (%@) %@" = "A munkaidő (%1$@) %2$@ időzónában feltüntetve";
 "Offline" = "Kikapcsolt";
-"Offline Meeting" = "Offline találkozó";
-"Offline meeting started" = "Offline találkozó elkezdődött";
 "On" = "Tovább";
 "On Date" = "Dátumon";
 "On the local computer" = "A helyi számítógépen";
 "Onboarding for {Client Name}" = "Bevezetés a(z) {Ügyfél Név} számára";
 "Once preparation is turned off in the workspace, it cannot be turned on again. Are you sure you want to continue?" = "Ha a felkészülés ki van kapcsolva a munkaterületen, azt nem lehet újra bekapcsolni. Biztosan folytatni szeretné?";
+"Once removed, this user will not be able to join the meeting via the link." = "Eltávolítás után ez a felhasználó nem tud a linken keresztül csatlakozni a találkozóhoz.";
 "Once the assignee has submitted files, this user will be asked to review and confirm them before completion." = "Miután a hozzárendelt beküldte a fájlokat, a rendszer felkéri ezt a felhasználót, hogy a befejezés előtt ellenőrizze és erősítse meg őket.";
 "One file was not attached." = "Egy fájl nincs csatolva.";
 "One-on-One Workspace" = "Négyszemközti munkaterület";
@@ -1905,7 +1886,6 @@
 "Please click below to contact us and request an invitation." = "Kattintson az alábbi hivatkozásra, ha kapcsolatba szeretne lépni velünk, és meghívót szeretne kérni.";
 "Please click below to create your account." = "A fiók létrehozásához kattintson az alábbi elemre.";
 "Please click the button below to finish creating your account." = "A fiók létrehozásának befejezéséhez kattintson az alábbi gombra.";
-"Please connect your %@ account to continue" = "Kérjük, csatlakoztassa a(z) %@ fiókját a folytatáshoz.";
 "Please connect your DocuSign account to access templates." = "A sablonok eléréséhez csatlakoztassa DocuSign fiókját.";
 "Please contact the administrator of your portal to continue." = "A folytatáshoz lépjen kapcsolatba a portál rendszergazdájával.";
 "Please contact the host and request an invitation to join." = "Kérlek lépj kapcsolatba a házigazdával és kérj meghívót";
@@ -1937,7 +1917,6 @@
 "Please update to the latest version of the app to view this message. Your version of the app doesn't support this message type." = "Kérjük, frissítse az alkalmazást a legújabb verzióra, hogy megtekinthesse ezt az üzenetet. Az Ön alkalmazásverziója nem támogatja ezt az üzenettípust.";
 "Please verify your fingerprint" = "Kérlek ellenőrizd az ujjlenyomatod";
 "Please wait 60 seconds before requesting a new verification code" = "Várjon 60 másodpercet, mielőtt új hitelesítő kódot kérne";
-"Please wait for your account to fully load." = "Kérjük, várjon, amíg a fiókja teljesen betöltődik.";
 "Please wait for your attachments to finish uploading before continuing." = "A folytatás előtt várja meg, amíg a csatolmányok feltöltése befejeződik.";
 "Please wait, we're working on it..." = "Kérlek várj, dolgozunk rajta…";
 "Please wait. The host will let you in soon." = "Kérjük, várjon. A házigazda hamarosan beengedi.";
@@ -2004,7 +1983,6 @@
 "Recents" = "Legutóbbiak";
 "Reconnect" = "Újracsatlakoztás";
 "Reconnecting..." = "Újracsatlakozás…";
-"Record Location" = "Helyszín Rögzítése";
 "Record Meeting" = "Megbeszélés rögzítése";
 "Record Video Clip" = "Videoklip Rögzítése";
 "Recording" = "Felvétel";
@@ -2033,7 +2011,7 @@
 "Reminder will occur %@ before." = "Az emlékeztető %@ idővel előtte fog megtörténni.";
 "Reminder: %@" = "Emlékeztető: %@";
 "Remove" = "Vegye ki";
-"Remove %@ from the meeting waiting room?" = "Eltávolítja %@-t a találkozó várószobájából?";
+"Remove %@?" = "Eltávolítja a következőt: %@?";
 "Remove Bookmark" = "Könyvjelző eltávolítása";
 "Remove From Workspace" = "Eltávolítás a munkaterületről";
 "Remove Link Preview" = "Hivatkozás előnézetének eltávolítása";
@@ -2139,6 +2117,7 @@
 "Scan" = "Beolvasás";
 "Scan QR Code" = "QR kód szkennelése";
 "Scanning..." = "Beolvasás ...";
+"Schedule" = "Ütemezés";
 "Schedule Meeting" = "Találkozó ütemezése";
 "Scheduling Window" = "Ütemezési ablak";
 "Screen is being shared" = "A képernyő megosztásra kerül";
@@ -2409,7 +2388,6 @@
 "The account associated with this email address is no longer active." = "Az e-mail címhez társított fiók már nem aktív.";
 "The account associated with this phone number is no longer active." = "A fiók, ami ehhez a telefonszámhoz tartozik már nem elérhető";
 "The action is not ready" = "A művelet még nem kész";
-"The actions within this milestone will start only after the actions in %@ are completed. " = "Ezen a mérföldkőn belüli műveletek csak akkor kezdődnek el, miután a(z) %@-ben lévő műveletek befejeződtek.";
 "The assignee(s) will need to sign again if reopened." = "A hozzárendelt(ek)nek újra alá kell írniuk, ha újra megnyitja.";
 "The code is no longer valid. Please request a new code to continue." = "A kód már nem érvényes. Kérjük, kérjen új kódot a folytatáshoz.";
 "The date will be recorded in [%@] format" = "A dátum a [%@] formátumban lesz rögzítve";
@@ -2677,7 +2655,6 @@
 "Unable to co-browse while sharing files." = "A társas böngészés nem lehetséges fájlmegosztás közben.";
 "Unable to complete sign-up" = "Nem sikerült befejezni a regisztrációt";
 "Unable to connect" = "Nem lehet csatlakozni";
-"Unable to edit: Meeting not found or account mismatch." = "Nem szerkeszthető: A találkozó nem található, vagy a fiókok nem egyeznek.";
 "Unable to establish a connection." = "Nem tudunk kapcsolatot létesíteni";
 "Unable to establish sharing connection. Please contact your network administrator." = "Nem lehet létrehozni a megosztási kapcsolatot. Vegye fedd fel a kapcsolatot a hálózati rendszergazdával.";
 "Unable to establish video connection. Please contact your network administrator." = "Nem lehet létrehozni a videokapcsolatot. Vedd fel a kapcsolatot a hálózati rendszergazdával.";
@@ -2704,7 +2681,6 @@
 "Unable to upload the file %@. Please try again." = "A következő fájl nem tölthető fel: %@. Kérlek próbáld újra.";
 "Unarchive" = "Archiválás visszavonása";
 "Unarchive Workspace" = "Archívumtól való munkaterület visszaállítása";
-"Unarchive for All Internal Users" = "Archiválás visszavonása az összes belső felhasználó számára";
 "Unarchive for All Members" = "Visszaállítás minden tag számára";
 "Unarchive for Yourself" = "Archiválás visszavonása saját magad számára";
 "Unassigned" = "Nincs hozzárendelve";
@@ -3041,6 +3017,7 @@
 "You're all clear!" = "Minden tiszta vagy!";
 "You're done" = "Végeztél";
 "You're done!" = "Végeztél";
+"You're logged in as %@" = "%@ címen van bejelentkezve";
 "You've already added all of your contacts" = "Már hozzáadta az összes kapcsolatát";
 "You've already added the maximum number of actions. (%@/200)" = "Már hozzáadtad a maximális számú műveletet. (%@/200)";
 "You've exceeded the maximum file size of %@ for clips. You can still preview and save your file." = "Túllépte a klippek maximális fájlméretét, ami %@. Továbbra is megtekintheti és mentheti a fájlt.";
@@ -3095,7 +3072,6 @@
 "You’ve already attached the maximum number of files. (50/50)" = "Már maximális számú fájlt csatolt. (50/50)";
 "You’ve already invited the maximum number of members to this workspace." = "Már meghívta a maximális megengedett tagot erre a munkaterületre.";
 "Zoom" = "Zoom";
-"Zoom Meeting" = "Zoom értekezlet";
 "[Audio]" = "[Hang]";
 "[Deleted User]" = "[Törölt felhasználó]";
 "all assignees" = "minden hozzárendelt";
