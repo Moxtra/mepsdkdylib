@@ -21,7 +21,7 @@
 "%@ Details" = "%@详细信息";
 "%@ File" = "%@文件";
 "%@ File Size Reached" = "已达到%1$@文件大小";
-"%@ Guests" = "%@位临时客人";
+"%@ Guests" = "%@位访客";
 "%@ Item" = "%@项";
 "%@ Items" = "%@项";
 "%@ Meeting" = "%@会议";
@@ -90,6 +90,7 @@
 "%@ added this Time Booking." = "%@添加了这个时间预定。";
 "%@ added this To-Do." = "%@添加了这个任务。";
 "%@ added this Wait action." = "%@添加了此等待操作。";
+"%@ and %@" = "%1$@和%2$@";
 "%@ and %@ have been added to your team." = "%1$@与%2$@已经被加入到您的专属团队";
 "%@ and %@ others have been added to your team." = "%1$@与其他%2$@位已经被加入到您的专属团队";
 "%@ and others are typing…" = "%@和其他人都在输入...";
@@ -127,8 +128,10 @@
 "%@ assigned to you" = "%@已分配给您";
 "%@ awaiting review" = "%@等待审核";
 "%@ awaiting review." = "%@等待审核。";
+"%@ awaiting review: %@" = "%1$@等待审核：%2$@";
 "%@ awaiting your review" = "%@等待您的审核";
 "%@ awaiting your review." = "%@等待您的审核。";
+"%@ awaiting your review: %@" = "%1$@等待您的审核：%2$@";
 "%@ awaits preparation" = "%@等待准备中";
 "%@ awaits preparation." = "%@等待准备中。";
 "%@ awaits preparation: %@" = "%1$@等待准备中：%2$@";
@@ -182,7 +185,7 @@
 "%@ declined a %@: %@" = "%1$@拒绝了一个%2$@: %3$@";
 "%@ declined a DocuSign" = "%@拒绝了DocuSign";
 "%@ declined a DocuSign: %@" = "%1$@ 拒绝了DocuSign：%2$@";
-"%@ declined an Approval" = "%@拒绝了一个审批。";
+"%@ declined an Approval" = "%@拒绝了一个审批";
 "%@ declined an Approval: %@" = "%1$@拒绝了一个审批：%2$@";
 "%@ declined an E-Sign" = "%@拒绝了电子签名";
 "%@ declined an E-Sign: %@" = "%1$@拒绝了电子签名：%2$@";
@@ -434,7 +437,7 @@
 "(Host, Presenter)" = "（主持人,主讲人）";
 "(Me)" = "（我）";
 "+ Add" = "+ 添加";
-"+ Add Guest" = "+ 添加临时客人";
+"+ Add Guest" = "+ 添加访客";
 "+ INVITE" = "+ 邀请";
 "+ Invite" = "+ 邀请";
 "+%@ more" = "+%@个更多";
@@ -445,7 +448,7 @@
 "0 matching results" = "0个搜索结果";
 "1 Assignee" = "1个经办人";
 "1 Bot" = "1个机器人";
-"1 Guest" = "1位临时客人";
+"1 Guest" = "1位访客";
 "1 Member" = "1个成员";
 "1 Page Remaining" = "剩余1页";
 "1 Pending Request" = "1个待处理请求";
@@ -471,6 +474,7 @@
 "Access denied" = "禁止访问";
 "Access your Portal URL by entering the verification code we just sent to %@" = "通过输入我们刚刚发送到%@的验证码访问您的门户网址";
 "Account" = "账号";
+"Account Connection" = "账户连接";
 "Account Creation Failed" = "账户创建失败";
 "Account Deleted" = "帐户已删除";
 "Account Settings" = "帐号";
@@ -536,7 +540,7 @@
 "Add E-Sign Details" = "添加电子签名详细信息";
 "Add File" = "添加文件";
 "Add Files" = "添加文件";
-"Add Guest" = "添加临时客人";
+"Add Guest" = "添加访客";
 "Add Here" = "在这里添加";
 "Add Jumio details" = "添加Jumio详细信息";
 "Add Members" = "添加成员";
@@ -557,17 +561,18 @@
 "Add a brief description for all workspace members to see" = "添加简短描述供所有工作空间成员查看";
 "Add a role" = "添加角色";
 "Add additional participants who will be part of the flow." = "添加将成为流程一部分的额外参与者。";
+"Add agenda" = "添加议程";
 "Add description" = "设置描述信息";
 "Add distribution list" = "添加分发列表";
 "Add files" = "添加文件";
 "Add information regarding the purpose of booking this time" = "添加有关预定此时间的目的的信息";
+"Add location" = "添加位置";
 "Add portals to resume working with your team" = "添加门户以恢复与团队的工作";
 "Add roles that represent people who will need to take action in this flow." = "添加代表需要在此流程中采取行动的人的角色。";
 "Add roles to this workspace" = "将角色添加到此工作空间";
 "Add signers to continue" = "添加签名者以继续";
 "Add the information below to get started!" = "添加以下信息即可开始！";
 "Add to Contacts" = "添加到联系人";
-"Add to calendar" = "添加到日历";
 "Add useful information about your DocuSign" = "添加有关您的DocuSign的有用信息";
 "Add useful information about your decision" = "添加有关您决策的有用信息";
 "Add useful information about your e-sign" = "添加有关您电子签名的有用信息";
@@ -608,6 +613,7 @@
 "All comments and other activity on this file will also be deleted." = "所有的评论和其他的关于该文件的记录都会被删除";
 "All completed actions will appear here." = "所有已完成的操作都将显示在此处。";
 "All participants have declined the invitation." = "所有参与者都拒绝了邀请。";
+"All participants must be admitted by the host" = "所有参与者必须由主持人准许才能加入";
 "All recurring meetings will be deleted." = "所有定期会议都将被删除。";
 "All the replies to this comment will be deleted as well." = "该消息的所有回复也将被删除。";
 "All updates on clients, actions, and other account info will appear here." = "有关客户、操作和其他帐户信息的所有更新都将显示在此处。";
@@ -644,7 +650,6 @@
 "Anyone with the link" = "任何人都可以使用此链接";
 "Anyone with the meeting link can join" = "任何拥有会议链接的人都可以加入";
 "Anyone with the meeting link can join all future recurring meetings from the same link without approval. We recommend enabling the waiting room for your security." = "任何持有会议链接的人都可以通过同一链接加入所有未来的重复会议，无需审批。为了您的安全，我们建议启用等候室功能。";
-"Anyone with the meeting link will need to be approved by the host to join" = "任何持有会议链接的人都需要得到主持人的批准才能加入";
 "Anything assigned to you will appear here so you can easily stay on top of things." = "分配给您的所有内容都会显示在此处，因此您可以轻松掌握最新信息。";
 "App" = "应用程序";
 "Apple login disabled" = "Apple登录已禁用";
@@ -676,6 +681,7 @@
 "Archive" = "存档";
 "Archive %@ Workspaces?" = "存档%@个工作空间？";
 "Archive Workspace" = "存档工作空间";
+"Archive for All Internal Users" = "为所有内部用户存档";
 "Archive for All Members" = "为所有成员归档";
 "Archive for Yourself" = "为自己归档";
 "Archived" = "已存档";
@@ -841,6 +847,7 @@
 "Click below to join the rest of your team on the %@ Portal" = "点击下面的链接，加入您%@门户上的团队与其他成员一起";
 "Click the link below to join me on %@ for dedicated support and service" = "点击下面的链接，在%@上加入我的行列以获得专用的支持和服务";
 "Click the link below to join me on the %@ Portal for dedicated support and service" = "点击下面的链接，在%@门户网站上加入我的行列以获得专用的支持和服务";
+"Click to connect" = "点击连接";
 "Client" = "客户";
 "Client Assigned to You" = "分配给您的客户";
 "Client Blocked Account" = "客户屏蔽了我们的账号";
@@ -864,6 +871,7 @@
 "Close and Sign Later" = "关闭以后再签署。";
 "Closed" = "关闭";
 "Closed (Special Hours)" = "休息时间（特殊时间）";
+"Cloud" = "云";
 "Co-Browse" = "协同浏览";
 "Co-Browsing Session Ended" = "协同浏览会议结束";
 "Co-browsing is already in progress." = "共同浏览已在进行中。";
@@ -882,17 +890,16 @@
 "Confirm Deletion" = "确认删除";
 "Confirm Details" = "确认详情";
 "Confirm Disconnect" = "确认断开连接";
+"Confirm Disconnection" = "确认断开连接";
 "Confirm Invitation" = "确认邀请";
 "Confirm the following to permanently delete your account." = "确认以下内容以永久删除您的帐户。";
 "Confirm your current password to continue." = "确定您的密码并继续。";
 "Confirmed" = "确定";
 "Connect" = "建立联系";
 "Connect with DocuSign" = "与DocuSign连接";
-"Connect with Zoom" = "与Zoom连接";
 "Connect with me on my app by clicking the link below:" = "点击下面的链接在我的应用程序上与我联系：";
 "Connect with people by using your QR code." = "使用您的二维码与人们建立联系。";
 "Connect your DocuSign account to use templates." = "连接您的DocuSign帐户以使用模板。";
-"Connect your Zoom account to schedule meetings" = "连接您的Zoom帐户以安排会议";
 "Connected" = "已连接";
 "Connected Successfully" = "连接成功";
 "Connecting you with our live support…" = "正与服务人员取得连线中...";
@@ -1176,7 +1183,8 @@
 "Enable Touch ID for Login" = "启用指纹登录";
 "Enable Voice" = "启用语音";
 "Enable Voice..." = "启用语音...";
-"Enable Waiting Room" = "启用等候室";
+"Enable Waiting Room for All" = "为所有人启用等候室";
+"Enable Waiting Room for Guests" = "为访客启用等候室";
 "Enabled" = "启用";
 "End" = "结束";
 "End & Accept" = "结束并接受";
@@ -1226,6 +1234,7 @@
 "Exclude Weekends" = "排除周末";
 "Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "当[color=%@][b]所有规则都匹配[/b][/color]时，执行分支1：";
 "Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "当[color=%@][b]任何规则匹配[/b][/color]时，执行分支1：";
+"Execution Order" = "执行顺序";
 "Extension" = "扩展程序";
 "External Calendar Meeting" = "外部日历会议";
 "Extra Participants" = "额外参与者";
@@ -1373,6 +1382,7 @@
 "Group Workspace" = "群组工作空间";
 "Groups & Topics" = "小组和主题";
 "Guest" = "访客";
+"Guests joining via the meeting link must be admitted by the host" = "通过会议链接加入的访客必须由主持人允许进入";
 "Have an account?" = "已经有一个帐户？";
 "Heads up!" = "注意！";
 "Help & Support" = "帮助和支持";
@@ -1431,6 +1441,7 @@
 "If reopened, the assignee will need to resubmit the files." = "如果重新开启，经办人将需要重新提交文件。";
 "If they don't have an account, they will be directed to sign up to start collaborating on your flow." = "如果他们没有账户，将被引导注册以开始在您的流程上合作。";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be affected by this." = "如果您断开您的DocuSign账户，经办人将无法访问或签署任何使用此账户创建的待处理文档。已完成的文档不会受到影响。";
+"If you disconnect your Zoom account, meetings that were created through the account will not be editable or deletable." = "如果您断开您的Zoom账户，通过该账户创建的会议将无法编辑或删除。";
 "If you disconnect, we will no longer be able to check your availability on this calendar." = "如果您断开连接，我们将无法再检查您在此日历上的可用性。";
 "If you go back, any changes you’ve made on this page will be lost. Are you sure you want to go back?" = "如果您返回，您在此页面所做的任何更改都将丢失。您确定要返回吗？";
 "If you have any urgent issues, feel free to chat with %@." = "如果您有任何紧急问题，请随时与%@联系。";
@@ -1562,10 +1573,12 @@
 "Link Preview Removed" = "链接预览已删除";
 "Link Refreshed" = "链接已刷新";
 "Load More" = "加载更多";
+"Loading Account" = "正在加载账户";
 "Loading address..." = "加载地址...";
 "Loading your account..." = "正在载入您的帐户...";
 "Loading your content…" = "正在加载您的内容...";
 "Loading..." = "加载中...";
+"Local computer" = "本地计算机";
 "Location" = "位置";
 "Lock Meeting Access" = "锁定会议的进入";
 "Log In" = "登录";
@@ -1574,7 +1587,6 @@
 "Log in here" = "从这里登录";
 "Log in to %@" = "登录到%@";
 "Log in to connect" = "登录以建立联系";
-"Log in to connect to %@" = "登录以连接到%@";
 "Log in to connect to DocuSign" = "登录以连接到DocuSign";
 "Log in to your portal" = "登录到您的门户";
 "Log into %@" = "登录到%@";
@@ -1588,6 +1600,7 @@
 "MIA" = "加入";
 "MIM" = "%1$@：邀请您加入会议…";
 "MON" = "周一";
+"MS Teams Meeting" = "MS Teams会议";
 "Make Host" = "设为主持人";
 "Make Presenter" = "设为主讲人";
 "Make your business flow with digital interaction workspaces" = "利用数字互动工作空间让您的业务流畅运行";
@@ -1619,6 +1632,7 @@
 "Meeting Invite" = "会议邀请";
 "Meeting Link" = "会议链接";
 "Meeting Link Detected" = "监测到会议链接";
+"Meeting Options" = "会议选项";
 "Meeting Password" = "会议密码";
 "Meeting Password (Required)" = "会议密码（必填）";
 "Meeting Password:" = "会议密码：";
@@ -1629,6 +1643,7 @@
 "Meeting Started" = "会议已开始";
 "Meeting Topic" = "会议主题";
 "Meeting Topic*" = "会议主题*";
+"Meeting Type" = "会议类型";
 "Meeting Update" = "会议更新";
 "Meeting ended" = "会议已结束";
 "Meeting in Progress" = "会议进行中";
@@ -1636,6 +1651,7 @@
 "Meeting start time" = "会议开始时间";
 "Meeting successfully updated." = "会议更新成功。";
 "Meeting transferred to you" = "会议转给您";
+"Meeting via Zoom" = "通过Zoom进行会议";
 "Meetings" = "会议";
 "Meetings can only last up to %@ hours." = "会议最多只能持续 %@ 小时。";
 "Member Limit Reached" = "达到成员人数限制";
@@ -1674,6 +1690,7 @@
 "Move to..." = "移动到...";
 "Moving..." = "移动中…";
 "Moxo" = "Moxo";
+"Moxo Meeting" = "Moxo会议";
 "Must be invited and logged in to join" = "必须被邀请并登录才能加入";
 "Must enter the meeting password to join" = "必须输入会议密码才能加入";
 "Mute" = "静音";
@@ -1762,6 +1779,7 @@
 "No meeting" = "没有会议";
 "No meetings" = "没有预定会议";
 "No new actions need to be added" = "没有新操作被添加";
+"No participants yet" = "尚无参与者";
 "No pending approvals" = "没有未决的审批";
 "No personalized message will be displayed" = "将不会显示个性化消息";
 "No reminder" = "没有提醒";
@@ -1790,12 +1808,13 @@
 "Office Hours" = "办公时间";
 "Office hours shown in (%@) %@" = "办公时间显示在(%1$@) %2$@";
 "Offline" = "离线";
+"Offline Meeting" = "离线会议";
+"Offline meeting started" = "离线会议已开始";
 "On" = "打开";
 "On Date" = "于日期";
 "On the local computer" = "在本地电脑";
 "Onboarding for {Client Name}" = "为{客户名称}进行入职培训";
 "Once preparation is turned off in the workspace, it cannot be turned on again. Are you sure you want to continue?" = "一旦在工作空间中关闭准备功能，就无法再次开启。您确定要继续吗？";
-"Once removed, this user will not be able to join the meeting via the link." = "一旦被移除，该用户将无法通过链接加入会议。";
 "Once the assignee has submitted files, this user will be asked to review and confirm them before completion." = "经办人提交文件后，将要求该用户在完成前查看并确认文件";
 "One file was not attached." = "1个文件未附加。";
 "One-on-One Workspace" = "一对一工作空间";
@@ -1891,6 +1910,7 @@
 "Please click below to contact us and request an invitation." = "请单击下面与我们联系并请求邀请。";
 "Please click below to create your account." = "请点击下面创建您的帐户。";
 "Please click the button below to finish creating your account." = "请单击下面的按钮以完成创建帐户。";
+"Please connect your %@ account to continue" = "请连接您的%@账户以继续。";
 "Please connect your DocuSign account to access templates." = "请连接您的DocuSign帐户以访问模板。";
 "Please contact the administrator of your portal to continue." = "请联系您门户网站的管理员以继续。";
 "Please contact the host and request an invitation to join." = "请与会议主持人联系并请求邀请。";
@@ -1922,6 +1942,7 @@
 "Please update to the latest version of the app to view this message. Your version of the app doesn't support this message type." = "请更新到应用的最新版本以查看此消息。您当前的应用版本不支持此类型的消息。";
 "Please verify your fingerprint" = "请验证您的指纹";
 "Please wait 60 seconds before requesting a new verification code" = "请等待60秒钟，然后再请求新的验证码";
+"Please wait for your account to fully load." = "请等待您的账户完全加载。";
 "Please wait for your attachments to finish uploading before continuing." = "请等待您的附件完成上传，然后再继续。";
 "Please wait, we're working on it..." = "请稍候，我们正在处理中...";
 "Please wait. The host will let you in soon." = "请稍等，主持人很快就会让你进入会议。";
@@ -1989,6 +2010,7 @@
 "Recents" = "近期";
 "Reconnect" = "重新连接";
 "Reconnecting..." = "重连…";
+"Record Location" = "记录位置";
 "Record Meeting" = "录制会议";
 "Record Video Clip" = "录制视频剪辑";
 "Recording" = "录制中";
@@ -2017,7 +2039,7 @@
 "Reminder will occur %@ before." = "提醒将在%@之前发生。";
 "Reminder: %@" = "提醒：%@";
 "Remove" = "删除";
-"Remove %@?" = "移除%@？";
+"Remove %@ from the meeting waiting room?" = "将%@从会议等候室中移除？";
 "Remove Bookmark" = "取消收藏";
 "Remove From Workspace" = "从工作空间中删除";
 "Remove Link Preview" = "删除链接预览";
@@ -2124,7 +2146,6 @@
 "Scan" = "扫描";
 "Scan QR Code" = "扫描二维码";
 "Scanning..." = "扫描中...";
-"Schedule" = "安排";
 "Schedule Meeting" = "安排会议";
 "Scheduling Window" = "日程安排窗口";
 "Screen is being shared" = "屏幕正在共享中";
@@ -2395,6 +2416,7 @@
 "The account associated with this email address is no longer active." = "该邮箱或者电话号码帐号已不再有效。";
 "The account associated with this phone number is no longer active." = "与此电话号码关联的账户不再有效";
 "The action is not ready" = "该操作尚未准备好";
+"The actions within this milestone will start only after the actions in %@ are completed. " = "只有在%@中的操作完成后，这个里程碑内的操作才会开始。";
 "The assignee(s) will need to sign again if reopened." = "如果重新打开，经办人将需要再次签名。";
 "The code is no longer valid. Please request a new code to continue." = "该验证码已失效。请重新请求一个新的验证码以继续。";
 "The date will be recorded in [%@] format" = "日期将以[%@]格式记录";
@@ -2662,6 +2684,7 @@
 "Unable to co-browse while sharing files." = "文件共享时无法协同浏览。";
 "Unable to complete sign-up" = "无法完成注册";
 "Unable to connect" = "无法连接";
+"Unable to edit: Meeting not found or account mismatch." = "无法编辑：未找到会议或账户不匹配。";
 "Unable to establish a connection." = "无法建立连线";
 "Unable to establish sharing connection. Please contact your network administrator." = "网络连接速度缓慢。";
 "Unable to establish video connection. Please contact your network administrator." = "网络连接速度缓慢。";
@@ -2688,6 +2711,7 @@
 "Unable to upload the file %@. Please try again." = "不能上传文件%@。 请再试。";
 "Unarchive" = "取消存档";
 "Unarchive Workspace" = "取消存档工作空间";
+"Unarchive for All Internal Users" = "为所有内部用户取消存档";
 "Unarchive for All Members" = "为所有成员取消存档";
 "Unarchive for Yourself" = "为自己取消存档";
 "Unassigned" = "未分配";
@@ -3024,7 +3048,6 @@
 "You're all clear!" = "没有事情需要处理了";
 "You're done" = "您已完成";
 "You're done!" = "您已完成！";
-"You're logged in as %@" = "您以%@身份登录";
 "You've already added all of your contacts" = "您已添加所有联系人";
 "You've already added the maximum number of actions. (%@/200)" = "您已添加的操作数量已达到上限。(%@/200)";
 "You've exceeded the maximum file size of %@ for clips. You can still preview and save your file." = "您已超出剪辑的最大文件大小%@。您仍然可以预览和保存您的文件。";
@@ -3079,6 +3102,7 @@
 "You’ve already attached the maximum number of files. (50/50)" = "您已经附加了最大数量的文件。 (50/50)";
 "You’ve already invited the maximum number of members to this workspace." = "您已邀请最大数量的成员加入此工作空间。";
 "Zoom" = "Zoom";
+"Zoom Meeting" = "Zoom会议";
 "[Audio]" = "【语音】";
 "[Deleted User]" = "[删除用户]";
 "all assignees" = "所有经办人";
