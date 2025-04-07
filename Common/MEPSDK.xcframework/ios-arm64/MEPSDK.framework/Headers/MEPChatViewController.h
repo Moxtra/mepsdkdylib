@@ -9,6 +9,14 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
+@class MEPChatViewController;
+@protocol MEPChatViewControllerDelegate <NSObject>
+@optional
+/**
+ When chat tabs scrolled, regardless by manually or automatically,  this callback will be triggered, with parameter of target tab index.
+ */
+- (void)viewController:(MEPChatViewController *)viewController didScrollToTab:(NSUInteger)tabIndex;
+@end
 
 /**
  The MEPChatViewController class provides the main chat UI components. You should specify a chat when initializing so that the view controller could know what content it should present.
@@ -43,6 +51,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)init UNAVAILABLE_ATTRIBUTE;
 - (instancetype)initWithCoder:(NSCoder *)aDecoder UNAVAILABLE_ATTRIBUTE;
 - (instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil UNAVAILABLE_ATTRIBUTE;
+@property (nonatomic, assign) id<MEPChatViewControllerDelegate> delegate;
 
 @end
 
