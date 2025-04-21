@@ -34,9 +34,6 @@
 /*  count  */
 "%@ Approvers" = "%@ Approvers";
 
-/*   No comment provided by engineer.   */
-"%@ Assignee" = "%@ Assignee";
-
 /*  No comment provided by engineer.  */
 "%@ Assignees" = "%@ Assignees";
 
@@ -77,6 +74,12 @@
 "%@ Guests" = "%@ Guests";
 
 /*  No comment provided by engineer.  */
+"%@ Item" = "%@ Item";
+
+/*  No comment provided by engineer.  */
+"%@ Items" = "%@ Items";
+
+/*  No comment provided by engineer.  */
 "%@ Meeting" = "%@ Meeting";
 
 /*  No comment provided by engineer.  */
@@ -108,6 +111,9 @@
 
 /*  No comment provided by engineer.  */
 "%@ New" = "%@ New";
+
+/*  No comment provided by engineer.  */
+"%@ New Message" = "%@ New Message";
 
 /*  No comment provided by engineer.  */
 "%@ New Messages" = "%@ New Messages";
@@ -150,9 +156,6 @@
 
 /*  No comment provided by engineer.  */
 "%@ Users" = "%@ Users";
-
-/*   No comment provided by engineer.   */
-"%@ Viewer" = "%@ Viewer";
 
 /*  No comment provided by engineer.  */
 "%@ Viewers" = "%@ Viewers";
@@ -284,6 +287,9 @@
 "%@ added this Wait action." = "%@ added this Wait action.";
 
 /*  No comment provided by engineer.  */
+"%@ and %@" = "%1$@ and %2$@";
+
+/*  No comment provided by engineer.  */
 "%@ and %@ have been added to your team." = "%1$@ and %2$@ have been added to your team.";
 
 /*  No comment provided by engineer.  */
@@ -390,6 +396,24 @@
 
 /*  No comment provided by engineer.  */
 "%@ assigned to you" = "%@ assigned to you";
+
+/*  No comment provided by engineer.  */
+"%@ awaiting review" = "%@ awaiting review";
+
+/*  No comment provided by engineer.  */
+"%@ awaiting review." = "%@ awaiting review.";
+
+/*  No comment provided by engineer.  */
+"%@ awaiting review: %@" = "%1$@ awaiting review: %2$@";
+
+/*  No comment provided by engineer.  */
+"%@ awaiting your review" = "%@ awaiting your review";
+
+/*  No comment provided by engineer.  */
+"%@ awaiting your review." = "%@ awaiting your review.";
+
+/*  No comment provided by engineer.  */
+"%@ awaiting your review: %@" = "%1$@ awaiting your review: %2$@";
 
 /*  No comment provided by engineer.  */
 "%@ awaits preparation" = "%@ awaits preparation";
@@ -1393,7 +1417,7 @@
 /*  No comment provided by engineer.  */
 "1 Pending Request" = "1 Pending Request";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "1 Step" = "1 Step";
 
 /*  No comment provided by engineer.  */
@@ -1417,7 +1441,7 @@
 /*  No comment provided by engineer.  */
 "A maximum of %@ stamps are supported. Please delete an existing stamp to add a new one." = "A maximum of %@ stamps are supported. Please delete an existing stamp to add a new one.";
 
-/*   A network error occurred.   */
+/*  A network error occurred.  */
 "A network error occurred." = "A network error occurred.";
 
 /*  No comment provided by engineer.  */
@@ -1459,6 +1483,9 @@
 
 /*  No comment provided by engineer.  */
 "Account" = "Account";
+
+/*  No comment provided by engineer.  */
+"Account Connection" = "Account Connection";
 
 /*  No comment provided by engineer.  */
 "Account Creation Failed" = "Account Creation Failed";
@@ -1566,10 +1593,13 @@
 "Action due today" = "Action due today";
 
 /*  No comment provided by engineer.  */
-"Action in Progress" = "Action in Progress";
+"Action in progress" = "Action in progress";
 
 /*  No comment provided by engineer.  */
 "Action not started" = "Action not started";
+
+/*  No comment provided by engineer.  */
+"Action not started; referenced data is being processed." = "Action not started; referenced data is being processed.";
 
 /*  No comment provided by engineer.  */
 "Action overdue (%@)" = "Action overdue (%@)";
@@ -1650,7 +1680,7 @@
 /*  No comment provided by engineer.  */
 "Add File" = "Add File";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Add Files" = "Add Files";
 
 /*  No comment provided by engineer.  */
@@ -1696,9 +1726,6 @@
 /*  No comment provided by engineer.  */
 "Add Viewers" = "Add Viewers";
 
-/*   No comment provided by engineer.   */
-"Add Viewers (Optional)" = "Add Viewers (Optional)";
-
 /*  No comment provided by engineer.  */
 "Add Yourself" = "Add Yourself";
 
@@ -1721,19 +1748,22 @@
 "Add additional participants who will be part of the flow." = "Add additional participants who will be part of the flow.";
 
 /*  No comment provided by engineer.  */
+"Add agenda" = "Add agenda";
+
+/*  No comment provided by engineer.  */
 "Add description" = "Add description";
 
 /*  No comment provided by engineer.  */
 "Add distribution list" = "Add distribution list";
-
-/*   No comment provided by engineer.   */
-"Add extra participants who will be part of the flow." = "Add extra participants who will be part of the flow.";
 
 /*  No comment provided by engineer.  */
 "Add files" = "Add files";
 
 /*  No comment provided by engineer.  */
 "Add information regarding the purpose of booking this time" = "Add information regarding the purpose of booking this time";
+
+/*  No comment provided by engineer.  */
+"Add location" = "Add location";
 
 /*  No comment provided by engineer.  */
 "Add portals to resume working with your team" = "Add portals to resume working with your team";
@@ -1753,9 +1783,6 @@
 /*  No comment provided by engineer.  */
 "Add to Contacts" = "Add to Contacts";
 
-/*  Label  */
-"Add to calendar" = "Add to calendar";
-
 /*  No comment provided by engineer.  */
 "Add useful information about your DocuSign" = "Add useful information about your DocuSign";
 
@@ -1768,14 +1795,14 @@
 /*  No comment provided by engineer.  */
 "Add useful information about your request" = "Add useful information about your request";
 
-/*   No comment provided by engineer.   */
-"Add useful information regarding your conditional branch" = "Add useful information regarding your conditional branch";
-
 /*  No comment provided by engineer.  */
 "Add useful information regarding your conditional branch." = "Add useful information regarding your conditional branch.";
 
 /*  No comment provided by engineer.  */
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "Add viewers to this workspace to include people who have not been assigned an action in this flow.";
+
+/*  No comment provided by engineer.  */
+"Add your meeting topic" = "Add your meeting topic";
 
 /*  No comment provided by engineer.  */
 "Added" = "Added";
@@ -1878,6 +1905,9 @@
 "All participants have declined the invitation." = "All participants have declined the invitation.";
 
 /*  No comment provided by engineer.  */
+"All participants must be admitted by the host" = "All participants must be admitted by the host";
+
+/*  No comment provided by engineer.  */
 "All recurring meetings will be deleted." = "All recurring meetings will be deleted.";
 
 /*  message  */
@@ -1891,6 +1921,9 @@
 
 /*  No comment provided by engineer.  */
 "Allow" = "Allow";
+
+/*  No comment provided by engineer.  */
+"Allow Decline Option" = "Allow Decline Option";
 
 /*  No comment provided by engineer.  */
 "Allows anyone with the link to join as an internal user." = "Allows anyone with the link to join as an internal user.";
@@ -1918,6 +1951,12 @@
 
 /*  No comment provided by engineer.  */
 "An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace." = "An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace.";
+
+/*  No comment provided by engineer.  */
+"An assignee is required for %@. Please select one for this role." = "An assignee is required for %@. Please select one for this role.";
+
+/*  No comment provided by engineer.  */
+"An assignee is required for DocuSign. Please select one for this role." = "An assignee is required for DocuSign. Please select one for this role.";
 
 /*  No comment provided by engineer.  */
 "An email is required to use DocuSign integration. An admin can add an email to their account." = "An email is required to use DocuSign integration. An admin can add an email to their account.";
@@ -1975,9 +2014,6 @@
 
 /*  No comment provided by engineer.  */
 "Anyone with the meeting link can join all future recurring meetings from the same link without approval. We recommend enabling the waiting room for your security." = "Anyone with the meeting link can join all future recurring meetings from the same link without approval. We recommend enabling the waiting room for your security.";
-
-/*  No comment provided by engineer.  */
-"Anyone with the meeting link will need to be approved by the host to join" = "Anyone with the meeting link will need to be approved by the host to join";
 
 /*  No comment provided by engineer.  */
 "Anything assigned to you will appear here so you can easily stay on top of things." = "Anything assigned to you will appear here so you can easily stay on top of things.";
@@ -2073,10 +2109,13 @@
 "Archive Workspace" = "Archive Workspace";
 
 /*  No comment provided by engineer.  */
-"Archive workspace for everyone" = "Archive workspace for everyone";
+"Archive for All Internal Users" = "Archive for All Internal Users";
 
 /*  No comment provided by engineer.  */
-"Archive workspace for yourself" = "Archive workspace for yourself";
+"Archive for All Members" = "Archive for All Members";
+
+/*  No comment provided by engineer.  */
+"Archive for Yourself" = "Archive for Yourself";
 
 /*  No comment provided by engineer.  */
 "Archived" = "Archived";
@@ -2096,8 +2135,8 @@
 /*  No comment provided by engineer.  */
 "Are You Sure You Want to Log Out? " = "Are You Sure You Want to Log Out? ";
 
-/*  Confirm
-   confirm  */
+/*  confirm
+   Confirm  */
 "Are You Sure?" = "Are You Sure?";
 
 /*  No comment provided by engineer.  */
@@ -2129,6 +2168,12 @@
 
 /*  menu  */
 "Arrow" = "Arrow";
+
+/*  No comment provided by engineer.  */
+"As the workspace owner, please select the range to archive:" = "As the workspace owner, please select the range to archive:";
+
+/*  No comment provided by engineer.  */
+"As the workspace owner, please select the range to unarchive:" = "As the workspace owner, please select the range to unarchive:";
 
 /*  No comment provided by engineer.  */
 "Asia Pacific" = "Asia Pacific";
@@ -2222,7 +2267,7 @@
 /*  No comment provided by engineer.  */
 "Automatically Archive" = "Automatically Archive";
 
-/*  Automatically Record Meeting  */
+/*  No comment provided by engineer.  */
 "Automatically Record Meeting" = "Automatically Record Meeting";
 
 /*  No comment provided by engineer.  */
@@ -2264,26 +2309,8 @@
 /*  No comment provided by engineer.  */
 "Baidu Maps" = "Baidu Maps";
 
-/*   No comment provided by engineer.   */
-"Because certain actions do not allow a client group to be assigned, you can’t reassign to this group." = "Because certain actions do not allow a client group to be assigned, you can’t reassign to this group.";
-
-/*   No comment provided by engineer.   */
-"Because certain actions do not allow a client group to be assigned, you can’t select one for this role." = "Because certain actions do not allow a client group to be assigned, you can’t select one for this role.";
-
-/*   No comment provided by engineer.   */
-"Because certain actions do not allow a team to be assigned, you can’t reassign to this team." = "Because certain actions do not allow a team to be assigned, you can’t reassign to this team.";
-
-/*   No comment provided by engineer.   */
-"Because certain actions do not allow a team to be assigned, you can’t select a team for this role." = "Because certain actions do not allow a team to be assigned, you can’t select a team for this role.";
-
-/*   No comment provided by engineer.   */
-"Before leaving, please reassign your pending actions to another person." = "Before leaving, please reassign your pending actions to another person.";
-
 /*  No comment provided by engineer.  */
 "Before leaving, please reassign your pending actions to someone else." = "Before leaving, please reassign your pending actions to someone else.";
-
-/*   No comment provided by engineer.   */
-"Before removing, please reassign their pending actions to another person." = "Before removing, please reassign their pending actions to another person.";
 
 /*  No comment provided by engineer.  */
 "Before removing, please reassign their pending actions to someone else." = "Before removing, please reassign their pending actions to someone else.";
@@ -2294,7 +2321,7 @@
 /*  No comment provided by engineer.  */
 "Beneficiary" = "Beneficiary";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Blank Workspace" = "Blank Workspace";
 
 /*  No comment provided by engineer.  */
@@ -2440,7 +2467,7 @@
    menu  */
 "Cancel Global Pin" = "Cancel Global Pin";
 
-/*  Cancel Meet  */
+/*  No comment provided by engineer.  */
 "Cancel Meeting" = "Cancel Meeting";
 
 /*  button
@@ -2467,9 +2494,6 @@
 
 /*  No comment provided by engineer.  */
 "Cannot delete this role. Please assign its actions to someone else." = "Cannot delete this role. Please assign its actions to someone else.";
-
-/*   No comment provided by engineer.   */
-"Cannot delete this role. Please assign its pending actions to someone else." = "Cannot delete this role. Please assign its pending actions to someone else.";
 
 /*  message  */
 "Cannot open this file" = "Cannot open this file";
@@ -2549,9 +2573,6 @@
 /*  No comment provided by engineer.  */
 "Choose a password that is unique and not easy to guess." = "Choose a password that is unique and not easy to guess.";
 
-/*  No comment provided by engineer.  */
-"Choose a time to reschedule" = "Choose a time to reschedule";
-
 /*  Choose application  */
 "Choose application" = "Choose application";
 
@@ -2592,6 +2613,9 @@
 "Click the link below to join me on the %@ Portal for dedicated support and service" = "Click the link below to join me on the %@ Portal for dedicated support and service";
 
 /*  No comment provided by engineer.  */
+"Click to connect" = "Click to connect";
+
+/*  No comment provided by engineer.  */
 "Client" = "Client";
 
 /*  No comment provided by engineer.  */
@@ -2606,9 +2630,6 @@
 /*  No comment provided by engineer.  */
 "Client Groups" = "Client Groups";
 
-/*   No comment provided by engineer.   */
-"Client Groups (Optional)" = "Client Groups (Optional)";
-
 /*  No comment provided by engineer.  */
 "Client ID" = "Client ID";
 
@@ -2621,7 +2642,7 @@
 /*  No comment provided by engineer.  */
 "Client Secret" = "Client Secret";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Client Service Project - {Client Name}" = "Client Service Project - {Client Name}";
 
 /*  No comment provided by engineer.  */
@@ -2663,6 +2684,9 @@
 
 /*  No comment provided by engineer.  */
 "Closed (Special Hours)" = "Closed (Special Hours)";
+
+/*  No comment provided by engineer.  */
+"Cloud" = "Cloud";
 
 /*  No comment provided by engineer.  */
 "Co-Browse" = "Co-Browse";
@@ -2721,6 +2745,9 @@
 "Confirm Disconnect" = "Confirm Disconnect";
 
 /*  No comment provided by engineer.  */
+"Confirm Disconnection" = "Confirm Disconnection";
+
+/*  No comment provided by engineer.  */
 "Confirm Invitation" = "Confirm Invitation";
 
 /*  No comment provided by engineer.  */
@@ -2739,9 +2766,6 @@
 "Connect with DocuSign" = "Connect with DocuSign";
 
 /*  No comment provided by engineer.  */
-"Connect with Zoom" = "Connect with Zoom";
-
-/*  No comment provided by engineer.  */
 "Connect with me on my app by clicking the link below:" = "Connect with me on my app by clicking the link below:";
 
 /*  No comment provided by engineer.  */
@@ -2749,9 +2773,6 @@
 
 /*  No comment provided by engineer.  */
 "Connect your DocuSign account to use templates." = "Connect your DocuSign account to use templates.";
-
-/*  No comment provided by engineer.  */
-"Connect your Zoom account to schedule meetings" = "Connect your Zoom account to schedule meetings";
 
 /*  No comment provided by engineer.  */
 "Connected" = "Connected";
@@ -2762,14 +2783,13 @@
 /*  No comment provided by engineer.  */
 "Connecting you with our live support…" = "Connecting you with our live support…";
 
-/*  call status
-   Connecting...  */
+/*  call status  */
 "Connecting..." = "Connecting...";
 
 /*  No comment provided by engineer.  */
 "Connection Error" = "Connection Error";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Consulting Project for {Customer Name}" = "Consulting Project for {Customer Name}";
 
 /*  Button  */
@@ -2811,13 +2831,13 @@
 /*  contacts  */
 "Contacts" = "Contacts";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Content" = "Content";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Content Gallery" = "Content Gallery";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Content Library" = "Content Library";
 
 /*  No comment provided by engineer.  */
@@ -2851,7 +2871,7 @@
 /*  button  */
 "Copy Address" = "Copy Address";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Copy Invite Link" = "Copy Invite Link";
 
 /*  Copy Link  */
@@ -2873,10 +2893,10 @@
 /*  country or region  */
 "Country or Region" = "Country or Region";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Cover" = "Cover";
 
-/*   No description   */
+/* No description */
 "Crash report" = "Crash report";
 
 /*  No comment provided by engineer.  */
@@ -2953,9 +2973,6 @@
 
 /*  No comment provided by engineer.  */
 "Current %@ already completed" = "Current %@ already completed";
-
-/*   No comment provided by engineer.   */
-"Current %@ was completed" = "Current %@ was completed";
 
 /*  No comment provided by engineer.  */
 "Current Action Was Deleted" = "Current Action Was Deleted";
@@ -3228,9 +3245,6 @@
 /*  message  */
 "Do you want to delete the to-do item?" = "Do you want to delete the to-do item?";
 
-/*  No comment provided by engineer.  */
-"Do you want to delete this meeting?" = "Do you want to delete this meeting?";
-
 /*  Do you want to end the Meet?
    Do you want to end your Meet?  */
 "Do you want to end the meeting?" = "Do you want to end the meeting?";
@@ -3377,9 +3391,6 @@
 /*  No comment provided by engineer.  */
 "Due %@ %@" = "Due %1$@ %2$@";
 
-/*   No comment provided by engineer.   */
-"Due (%@ after creation)" = "Due (%@ after creation)";
-
 /*  No comment provided by engineer.  */
 "Due (%@ after start)" = "Due (%@ after start)";
 
@@ -3491,12 +3502,6 @@
 /*  No comment provided by engineer.  */
 "Edit %@" = "Edit %@";
 
-/*   No comment provided by engineer.   */
-"Edit Acknowledgement" = "Edit Acknowledgement";
-
-/*   No comment provided by engineer.   */
-"Edit Approval" = "Edit Approval";
-
 /*  No comment provided by engineer.  */
 "Edit Availability" = "Edit Availability";
 
@@ -3509,20 +3514,11 @@
 /*  No comment provided by engineer.  */
 "Edit Email Address" = "Edit Email Address";
 
-/*   No comment provided by engineer.   */
-"Edit File Request" = "Edit File Request";
-
-/*   No comment provided by engineer.   */
-"Edit Form" = "Edit Form";
-
 /*  No comment provided by engineer.  */
 "Edit General Availability" = "Edit General Availability";
 
 /*  No comment provided by engineer.  */
 "Edit Group Assignment" = "Edit Group Assignment";
-
-/*   No comment provided by engineer.   */
-"Edit Jumio" = "Edit Jumio";
 
 /*  No comment provided by engineer.  */
 "Edit Jumio details" = "Edit Jumio details";
@@ -3533,7 +3529,7 @@
 /*  No comment provided by engineer.  */
 "Edit Link Security" = "Edit Link Security";
 
-/*  Edit Meet  */
+/*  No comment provided by engineer.  */
 "Edit Meeting" = "Edit Meeting";
 
 /*  No comment provided by engineer.  */
@@ -3551,9 +3547,6 @@
 /*  No comment provided by engineer.  */
 "Edit Profile" = "Edit Profile";
 
-/*   No comment provided by engineer.   */
-"Edit Properties" = "Edit Properties";
-
 /*  No comment provided by engineer.  */
 "Edit Recurring Meeting" = "Edit Recurring Meeting";
 
@@ -3564,16 +3557,10 @@
 "Edit Status" = "Edit Status";
 
 /*  No comment provided by engineer.  */
-"Edit Step" = "Edit Step";
-
-/*  No comment provided by engineer.  */
 "Edit Tags" = "Edit Tags";
 
 /*  No comment provided by engineer.  */
 "Edit Time Booking" = "Edit Time Booking";
-
-/*   No comment provided by engineer.   */
-"Edit To-Do" = "Edit To-Do";
 
 /*  No comment provided by engineer.  */
 "Edit Variables" = "Edit Variables";
@@ -3603,7 +3590,7 @@
 /*  sub title  */
 "Editor" = "Editor";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Efficiently guide new clients through a streamlined multi-step onboarding process." = "Efficiently guide new clients through a streamlined multi-step onboarding process.";
 
 /*  No comment provided by engineer.  */
@@ -3652,7 +3639,10 @@
 "Enable Voice..." = "Enable Voice...";
 
 /*  No comment provided by engineer.  */
-"Enable Waiting Room" = "Enable Waiting Room";
+"Enable Waiting Room for All" = "Enable Waiting Room for All";
+
+/*  No comment provided by engineer.  */
+"Enable Waiting Room for Guests" = "Enable Waiting Room for Guests";
 
 /*  No comment provided by engineer.  */
 "Enabled" = "Enabled";
@@ -3733,9 +3723,6 @@
 /*  No comment provided by engineer.  */
 "Enter the question" = "Enter the question";
 
-/*   No comment provided by engineer.   */
-"Enter the question " = "Enter the question ";
-
 /*  No comment provided by engineer.  */
 "Enter user details and send an invitation from the app." = "Enter user details and send an invitation from the app.";
 
@@ -3791,6 +3778,9 @@
 /*  Description of daily recurrent meet info with interval  */
 "Every %@ days." = "Every %1$@ days.";
 
+/*  No comment provided by engineer.  */
+"Every Weekend" = "Every Weekend";
+
 /*  Description of daily recurrent meet info without interval  */
 "Every day." = "Every day.";
 
@@ -3800,8 +3790,11 @@
 /*  No comment provided by engineer.  */
 "Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "Execute branch 1 when [color=%@][b]all rules match[/b][/color]:";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:";
+
+/*  No comment provided by engineer.  */
+"Execution Order" = "Execution Order";
 
 /*  No comment provided by engineer.  */
 "Extension" = "Extension";
@@ -4011,7 +4004,7 @@
 /*  Adjust camera postion to scanning document better  */
 "Fix Perspective" = "Fix Perspective";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Flow" = "Flow";
 
 /*  No comment provided by engineer.  */
@@ -4195,7 +4188,7 @@
 "Get started with 40+ industry templates used by thousands of businesses." = "Get started with 40+ industry templates used by thousands of businesses.";
 
 /*  No comment provided by engineer.  */
-"Give external users the option to add this person to your workspaces if they need support while you’re out of office." = "Give external users the option to add this person to your workspaces if they need support while you’re out of office.";
+"Give clients the option to add this person to your workspaces if they need support while you're out of the office." = "Give clients the option to add this person to your workspaces if they need support while you're out of the office.";
 
 /*  No comment provided by engineer.  */
 "Gmail" = "Gmail";
@@ -4203,7 +4196,7 @@
 /*  button  */
 "Go Back" = "Go Back";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Go to Content Gallery" = "Go to Content Gallery";
 
 /*  No comment provided by engineer.  */
@@ -4246,6 +4239,9 @@
 "Guest" = "Guest";
 
 /*  No comment provided by engineer.  */
+"Guests joining via the meeting link must be admitted by the host" = "Guests joining via the meeting link must be admitted by the host";
+
+/*  No comment provided by engineer.  */
 "Have an account?" = "Have an account?";
 
 /*  No comment provided by engineer.  */
@@ -4282,7 +4278,7 @@
 /*  No comment provided by engineer.  */
 "Host Changed" = "Host Changed";
 
-/*  Label  */
+/*  No comment provided by engineer.  */
 "Host Video On" = "Host Video On";
 
 /*  Hosted by %@  */
@@ -4391,10 +4387,16 @@
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "Identity verification has been temporarily disabled for security reasons. Please try again later.";
 
 /*  No comment provided by engineer.  */
+"If an end date is selected, Out of Office will automatically turn off after that date." = "If an end date is selected, Out of Office will automatically turn off after that date.";
+
+/*  No comment provided by engineer.  */
 "If enabled, a file reviewer will be required to review the files that are uploaded." = "If enabled, a file reviewer will be required to review the files that are uploaded.";
 
 /*  No comment provided by engineer.  */
 "If enabled, the assignee must open all attachments before acknowledging." = "If enabled, the assignee must open all attachments before acknowledging.";
+
+/*  No comment provided by engineer.  */
+"If enabled, the assignee will have the option to decline this action. If declined, the action creator will be assigned as a reviewer to determine the next steps." = "If enabled, the assignee will have the option to decline this action. If declined, the action creator will be assigned as a reviewer to determine the next steps.";
 
 /*  No comment provided by engineer.  */
 "If enabled, the preparer will be required to edit this action at runtime before it is ready for other assignees to take action." = "If enabled, the preparer will be required to edit this action at runtime before it is ready for other assignees to take action.";
@@ -4413,6 +4415,9 @@
 
 /*  No comment provided by engineer.  */
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be affected by this." = "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be affected by this.";
+
+/*  No comment provided by engineer.  */
+"If you disconnect your Zoom account, meetings that were created through the account will not be editable or deletable." = "If you disconnect your Zoom account, meetings that were created through the account will not be editable or deletable.";
 
 /*  No comment provided by engineer.  */
 "If you disconnect, we will no longer be able to check your availability on this calendar." = "If you disconnect, we will no longer be able to check your availability on this calendar.";
@@ -4526,9 +4531,6 @@
 "Instant Flow" = "Instant Flow";
 
 /*  No comment provided by engineer.  */
-"Instant Flows" = "Instant Flows";
-
-/*  No comment provided by engineer.  */
 "Instructions" = "Instructions";
 
 /*  No comment provided by engineer.  */
@@ -4585,10 +4587,10 @@
 /*  No comment provided by engineer.  */
 "Invitation Sent" = "Invitation Sent";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Invitation resent" = "Invitation resent";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Invitation successfully sent" = "Invitation successfully sent";
 
 /*  alert title
@@ -4611,7 +4613,7 @@
 /*  No comment provided by engineer.  */
 "Invite Members" = "Invite Members";
 
-/*  Invite  */
+/*  No comment provided by engineer.  */
 "Invite Participants" = "Invite Participants";
 
 /*  No comment provided by engineer.  */
@@ -4729,6 +4731,9 @@
 
 /*  No comment provided by engineer.  */
 "Last invitation sent %@" = "Last invitation sent %@";
+
+/*  time  */
+"Last modified" = "Last modified";
 
 /*  No comment provided by engineer.  */
 "Last seen: %@" = "Last seen: %@";
@@ -4853,6 +4858,9 @@
 "Load More" = "Load More";
 
 /*  No comment provided by engineer.  */
+"Loading Account" = "Loading Account";
+
+/*  No comment provided by engineer.  */
 "Loading address..." = "Loading address...";
 
 /*  No comment provided by engineer.  */
@@ -4863,6 +4871,9 @@
 
 /*  Loading..  */
 "Loading..." = "Loading...";
+
+/*  No comment provided by engineer.  */
+"Local computer" = "Local computer";
 
 /*  Button
    Location  */
@@ -4888,9 +4899,6 @@
 
 /*  No comment provided by engineer.  */
 "Log in to connect" = "Log in to connect";
-
-/*  No comment provided by engineer.  */
-"Log in to connect to %@" = "Log in to connect to %@";
 
 /*  No comment provided by engineer.  */
 "Log in to connect to DocuSign" = "Log in to connect to DocuSign";
@@ -4930,6 +4938,9 @@
 
 /*  No comment provided by engineer.  */
 "MON" = "MON";
+
+/*  No comment provided by engineer.  */
+"MS Teams Meeting" = "MS Teams Meeting";
 
 /*  button  */
 "Make Host" = "Make Host";
@@ -5025,6 +5036,9 @@
 "Meeting Link Detected" = "Meeting Link Detected";
 
 /*  No comment provided by engineer.  */
+"Meeting Options" = "Meeting Options";
+
+/*  No comment provided by engineer.  */
 "Meeting Password" = "Meeting Password";
 
 /*  No comment provided by engineer.  */
@@ -5052,6 +5066,12 @@
 "Meeting Topic" = "Meeting Topic";
 
 /*  No comment provided by engineer.  */
+"Meeting Topic*" = "Meeting Topic*";
+
+/*  No comment provided by engineer.  */
+"Meeting Type" = "Meeting Type";
+
+/*  No comment provided by engineer.  */
 "Meeting Update" = "Meeting Update";
 
 /*  Meet ended.  */
@@ -5071,6 +5091,9 @@
 
 /*  No comment provided by engineer.  */
 "Meeting transferred to you" = "Meeting transferred to you";
+
+/*  No comment provided by engineer.  */
+"Meeting via Zoom" = "Meeting via Zoom";
 
 /*  No comment provided by engineer.  */
 "Meetings" = "Meetings";
@@ -5187,6 +5210,9 @@
 "Moxo" = "Moxo";
 
 /*  No comment provided by engineer.  */
+"Moxo Meeting" = "Moxo Meeting";
+
+/*  No comment provided by engineer.  */
 "Must be invited and logged in to join" = "Must be invited and logged in to join";
 
 /*  No comment provided by engineer.  */
@@ -5210,7 +5236,7 @@
 /*  No comment provided by engineer.  */
 "NEW" = "NEW";
 
-/*   No description   */
+/* No description */
 "NO" = "NO";
 
 /*  No comment provided by engineer.  */
@@ -5243,7 +5269,7 @@
 /*  No comment provided by engineer.  */
 "Need help with something in your inbox?" = "Need help with something in your inbox?";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Needs to sign" = "Needs to sign";
 
 /*  No comment provided by engineer.  */
@@ -5285,9 +5311,6 @@
 
 /*  No comment provided by engineer.  */
 "New Message" = "New Message";
-
-/*  No comment provided by engineer.  */
-"New Message..." = "New Message...";
 
 /*  No comment provided by engineer.  */
 "New Messages" = "New Messages";
@@ -5351,6 +5374,9 @@
 
 /*  No comment provided by engineer.  */
 "No Contacts" = "No Contacts";
+
+/*  No comment provided by engineer.  */
+"No Content Yet" = "No Content Yet";
 
 /*  No comment provided by engineer.  */
 "No Due Date" = "No Due Date";
@@ -5449,11 +5475,11 @@
 /*  No comment provided by engineer.  */
 "No meetings" = "No meetings";
 
-/*   No comment provided by engineer.   */
-"No members have joined" = "No members have joined";
-
 /*  No comment provided by engineer.  */
 "No new actions need to be added" = "No new actions need to be added";
+
+/*  No comment provided by engineer.  */
+"No participants yet" = "No participants yet";
 
 /*  No comment provided by engineer.  */
 "No pending approvals" = "No pending approvals";
@@ -5472,6 +5498,9 @@
 
 /*  No comment provided by engineer.  */
 "No viewers yet" = "No viewers yet";
+
+/*  No comment provided by engineer.  */
+"Non-Templated Flows" = "Non-Templated Flows";
 
 /*  No comment provided by engineer.  */
 "None" = "None";
@@ -5537,6 +5566,12 @@
 /*  No comment provided by engineer.  */
 "Offline" = "Offline";
 
+/*  No comment provided by engineer.  */
+"Offline Meeting" = "Offline Meeting";
+
+/*  No comment provided by engineer.  */
+"Offline meeting started" = "Offline meeting started";
+
 /*  turn on  */
 "On" = "On";
 
@@ -5546,14 +5581,11 @@
 /*  No comment provided by engineer.  */
 "On the local computer" = "On the local computer";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Onboarding for {Client Name}" = "Onboarding for {Client Name}";
 
 /*  No comment provided by engineer.  */
 "Once preparation is turned off in the workspace, it cannot be turned on again. Are you sure you want to continue?" = "Once preparation is turned off in the workspace, it cannot be turned on again. Are you sure you want to continue?";
-
-/*  No comment provided by engineer.  */
-"Once removed, this user will not be able to join the meeting via the link." = "Once removed, this user will not be able to join the meeting via the link.";
 
 /*  No comment provided by engineer.  */
 "Once the assignee has submitted files, this user will be asked to review and confirm them before completion." = "Once the assignee has submitted files, this user will be asked to review and confirm them before completion.";
@@ -5648,7 +5680,7 @@
 /*  No comment provided by engineer.  */
 "Options..." = "Options...";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Order Approval for {Vendor Name}" = "Order Approval for {Vendor Name}";
 
 /*  button  */
@@ -5665,6 +5697,9 @@
 
 /*  No comment provided by engineer.  */
 "Other Settings" = "Other Settings";
+
+/*  No comment provided by engineer.  */
+"Others" = "Others";
 
 /*  No comment provided by engineer.  */
 "Out of Office" = "Out of Office";
@@ -5839,6 +5874,9 @@
 "Please click the button below to finish creating your account." = "Please click the button below to finish creating your account.";
 
 /*  No comment provided by engineer.  */
+"Please connect your %@ account to continue" = "Please connect your %@ account to continue";
+
+/*  No comment provided by engineer.  */
 "Please connect your DocuSign account to access templates." = "Please connect your DocuSign account to access templates.";
 
 /*  No comment provided by engineer.  */
@@ -5932,12 +5970,15 @@
 "Please wait 60 seconds before requesting a new verification code" = "Please wait 60 seconds before requesting a new verification code";
 
 /*  No comment provided by engineer.  */
+"Please wait for your account to fully load." = "Please wait for your account to fully load.";
+
+/*  No comment provided by engineer.  */
 "Please wait for your attachments to finish uploading before continuing." = "Please wait for your attachments to finish uploading before continuing.";
 
 /*  No comment provided by engineer.  */
 "Please wait, we're working on it..." = "Please wait, we're working on it...";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Please wait. The host will let you in soon." = "Please wait. The host will let you in soon.";
 
 /*  No comment provided by engineer.  */
@@ -5967,6 +6008,9 @@
 /*  No comment provided by engineer.  */
 "Prepare to get your business in the flow." = "Prepare to get your business in the flow.";
 
+/*  No comment provided by engineer.  */
+"Preparer*" = "Preparer*";
+
 /*  title  */
 "Preparing..." = "Preparing...";
 
@@ -5979,7 +6023,7 @@
 /*  No comment provided by engineer.  */
 "Preview & Add Step" = "Preview & Add Step";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Preview & Create" = "Preview & Create";
 
 /*  No comment provided by engineer.  */
@@ -6040,7 +6084,7 @@
 /*  No comment provided by engineer.  */
 "Progress Will Be Lost" = "Progress Will Be Lost";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Provide a service with clear actions and milestones, tailored to the needs of each project." = "Provide a service with clear actions and milestones, tailored to the needs of each project.";
 
 /*  No comment provided by engineer.  */
@@ -6130,7 +6174,10 @@
 /*  message  */
 "Reconnecting..." = "Reconnecting...";
 
-/*  Record Meet  */
+/*  No comment provided by engineer.  */
+"Record Location" = "Record Location";
+
+/*  No comment provided by engineer.  */
 "Record Meeting" = "Record Meeting";
 
 /*  No comment provided by engineer.  */
@@ -6216,7 +6263,7 @@
 "Remove" = "Remove";
 
 /*  No comment provided by engineer.  */
-"Remove %@?" = "Remove %@?";
+"Remove %@ from the meeting waiting room?" = "Remove %@ from the meeting waiting room?";
 
 /*  No comment provided by engineer.  */
 "Remove Bookmark" = "Remove Bookmark";
@@ -6278,9 +6325,6 @@
 /*  No comment provided by engineer.  */
 "Reopened on %@" = "Reopened on %@";
 
-/*   No comment provided by engineer.   */
-"Reopening this action will require assignees to review it again, while preserving previous data. Any associated automations will also run again." = "Reopening this action will require assignees to review it again, while preserving previous data. Any associated automations will also run again.";
-
 /*  No comment provided by engineer.  */
 "Reopening this action will require assignees to review it again." = "Reopening this action will require assignees to review it again.";
 
@@ -6341,12 +6385,6 @@
 /*  No comment provided by engineer.  */
 "Required field" = "Required field";
 
-/*   No comment provided by engineer.   */
-"Requires Preparation before the Action Can Begin" = "Requires Preparation before the Action Can Begin";
-
-/*  No comment provided by engineer.  */
-"Reschedule" = "Reschedule";
-
 /*  No comment provided by engineer.  */
 "Rescheduled %@" = "Rescheduled %@";
 
@@ -6367,6 +6405,12 @@
 
 /*  No comment provided by engineer.  */
 "Reset Filters" = "Reset Filters";
+
+/*  No comment provided by engineer.  */
+"Resource Info" = "Resource Info";
+
+/*  No comment provided by engineer.  */
+"Resources" = "Resources";
 
 /*  No comment provided by engineer.  */
 "Response" = "Response";
@@ -6428,7 +6472,7 @@
 /*  No comment provided by engineer.  */
 "Role" = "Role";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Role Disabled" = "Role Disabled";
 
 /*  No comment provided by engineer.  */
@@ -6546,9 +6590,6 @@
 "Scanning..." = "Scanning...";
 
 /*  No comment provided by engineer.  */
-"Schedule" = "Schedule";
-
-/*  No comment provided by engineer.  */
 "Schedule Meeting" = "Schedule Meeting";
 
 /*  No comment provided by engineer.  */
@@ -6560,7 +6601,7 @@
 /*  No comment provided by engineer.  */
 "Screenshot sent" = "Screenshot sent";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Seamlessly guide buyers through a step-by-step order approval workflow." = "Seamlessly guide buyers through a step-by-step order approval workflow.";
 
 /*  No comment provided by engineer.  */
@@ -6668,7 +6709,7 @@
 /*  No comment provided by engineer.  */
 "Select Stamp" = "Select Stamp";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Select Template" = "Select Template";
 
 /*  menu  */
@@ -6692,7 +6733,7 @@
 /*  No comment provided by engineer.  */
 "Select a Date & Time" = "Select a Date & Time";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Select a Sample Workspace" = "Select a Sample Workspace";
 
 /*  No comment provided by engineer.  */
@@ -6713,7 +6754,7 @@
 /*  No comment provided by engineer.  */
 "Selected" = "Selected";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Select…" = "Select…";
 
 /*  No comment provided by engineer.  */
@@ -6799,6 +6840,9 @@
 
 /*  No comment provided by engineer.  */
 "Set Days" = "Set Days";
+
+/*  No comment provided by engineer.  */
+"Set Variables" = "Set Variables";
 
 /*  No comment provided by engineer.  */
 "Set Workspace Variables" = "Set Workspace Variables";
@@ -7038,6 +7082,12 @@
 "Sort by %@" = "Sort by %@";
 
 /*  No comment provided by engineer.  */
+"Sort by Date" = "Sort by Date";
+
+/*  No comment provided by engineer.  */
+"Sort by Name" = "Sort by Name";
+
+/*  No comment provided by engineer.  */
 "Sort by..." = "Sort by...";
 
 /*  No comment provided by engineer.  */
@@ -7086,7 +7136,7 @@
 /*  No comment provided by engineer.  */
 "Start Workspace" = "Start Workspace";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Start a new workspace without using a template" = "Start a new workspace without using a template";
 
 /*  No comment provided by engineer.  */
@@ -7133,9 +7183,6 @@
 "Step edited" = "Step edited";
 
 /*  No comment provided by engineer.  */
-"Step in Progress" = "Step in Progress";
-
-/*  No comment provided by engineer.  */
 "Stop Co-Browsing" = "Stop Co-Browsing";
 
 /*  button  */
@@ -7174,7 +7221,7 @@
 /*  Submitted on (Data)  */
 "Submitted on %@" = "Submitted on %@";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Successfully Switched" = "Successfully Switched";
 
 /*  No comment provided by engineer.  */
@@ -7360,6 +7407,9 @@
 /*  No comment provided by engineer.  */
 "The action is not ready" = "The action is not ready";
 
+/*  No comment provided by engineer.  */
+"The actions within this milestone will start only after the actions in %@ are completed. " = "The actions within this milestone will start only after the actions in %@ are completed. ";
+
 /*  message  */
 "The assignee(s) will need to sign again if reopened." = "The assignee(s) will need to sign again if reopened.";
 
@@ -7372,7 +7422,7 @@
 /*  message  */
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again.";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "The flow workspace creator must be a member of the workspace. You will be automatically added to this workspace as a viewer." = "The flow workspace creator must be a member of the workspace. You will be automatically added to this workspace as a viewer.";
 
 /*  No comment provided by engineer.  */
@@ -7493,7 +7543,7 @@
 "The tag values entered here will apply to any workspace created from this template." = "The tag values entered here will apply to any workspace created from this template.";
 
 /*  No comment provided by engineer.  */
-"The variables values entered here will be applied to the created workspace and only internal users can see them." = "The variables values entered here will be applied to the created workspace and only internal users can see them.";
+"The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "The variable values entered here will be applied to the created workspace. Only internal users will be able to see them.";
 
 /*  No comment provided by engineer.  */
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached.";
@@ -7577,7 +7627,7 @@
 "This action cannot be undone." = "This action cannot be undone.";
 
 /*  No comment provided by engineer.  */
-"This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost." = "This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost.";
+"This action has already started, and the assignee(s) can review and act on it while you are editing. Any progress already completed will be lost." = "This action has already started, and the assignee(s) can review and act on it while you are editing. Any progress already completed will be lost.";
 
 /*  No comment provided by engineer.  */
 "This action has been completed. You will be directed back to the workspace." = "This action has been completed. You will be directed back to the workspace.";
@@ -7693,14 +7743,14 @@
 /*  No comment provided by engineer.  */
 "This reset password link is no longer valid" = "This reset password link is no longer valid";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "This role and any assigned fields will be hidden." = "This role and any assigned fields will be hidden.";
 
 /*  No comment provided by engineer.  */
 "This role cannot be assigned to an integration action." = "This role cannot be assigned to an integration action.";
 
 /*  No comment provided by engineer.  */
-"This step has already started and the assignee(s) can review and act on it while you are editing. Any progress on already completed steps will be lost." = "This step has already started and the assignee(s) can review and act on it while you are editing. Any progress on already completed steps will be lost.";
+"This section provides shared resources for easy use within workspaces." = "This section provides shared resources for easy use within workspaces.";
 
 /*  No comment provided by engineer.  */
 "This step has been removed by the owner and your action is no longer required. You will be directed back to the flow workspace." = "This step has been removed by the owner and your action is no longer required. You will be directed back to the flow workspace.";
@@ -7855,16 +7905,13 @@
 /*  No comment provided by engineer.  */
 "To continue, please log in again." = "To continue, please log in again.";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "To continue, select a signer for all roles and disable any that you don't need." = "To continue, select a signer for all roles and disable any that you don't need.";
 
 /*  No comment provided by engineer.  */
 "To continue, select assignees for all fields." = "To continue, select assignees for all fields.";
 
-/*   No comment provided by engineer.   */
-"To continue, select assignees for all roles." = "To continue, select assignees for all roles.";
-
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "To create a flow template, please access the Flow Template Library from your desktop." = "To create a flow template, please access the Flow Template Library from your desktop.";
 
 /*  No comment provided by engineer.  */
@@ -8165,6 +8212,9 @@
 "Unable to connect" = "Unable to connect";
 
 /*  No comment provided by engineer.  */
+"Unable to edit: Meeting not found or account mismatch." = "Unable to edit: Meeting not found or account mismatch.";
+
+/*  No comment provided by engineer.  */
 "Unable to establish a connection." = "Unable to establish a connection.";
 
 /*  error message  */
@@ -8243,10 +8293,13 @@
 "Unarchive Workspace" = "Unarchive Workspace";
 
 /*  No comment provided by engineer.  */
-"Unarchive workspace for everyone" = "Unarchive workspace for everyone";
+"Unarchive for All Internal Users" = "Unarchive for All Internal Users";
 
 /*  No comment provided by engineer.  */
-"Unarchive workspace for yourself" = "Unarchive workspace for yourself";
+"Unarchive for All Members" = "Unarchive for All Members";
+
+/*  No comment provided by engineer.  */
+"Unarchive for Yourself" = "Unarchive for Yourself";
 
 /*  name  */
 "Unassigned" = "Unassigned";
@@ -8343,7 +8396,7 @@
 /*  No comment provided by engineer.  */
 "Uploading Attachments" = "Uploading Attachments";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Uploading attachments" = "Uploading attachments";
 
 /*  button  */
@@ -8609,7 +8662,7 @@
 /*  No comment provided by engineer.  */
 "We are currently closed. Please try again during office hours." = "We are currently closed. Please try again during office hours.";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "We can resend the invitation via email or SMS, or you can copy the invite link and share it directly with the user." = "We can resend the invitation via email or SMS, or you can copy the invite link and share it directly with the user.";
 
 /*  No comment provided by engineer.  */
@@ -8750,16 +8803,16 @@
 /*  No comment provided by engineer.  */
 "Welcome back. Please log in to continue." = "Welcome back. Please log in to continue.";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Welcome to %@‘s Onboarding Portal!" = "Welcome to %@‘s Onboarding Portal!";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Welcome to %@’s Client Portal!" = "Welcome to %@’s Client Portal!";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Welcome to %@’s Order Approval Portal!" = "Welcome to %@’s Order Approval Portal!";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "Welcome to %@’s Service Portal!" = "Welcome to %@’s Service Portal!";
 
 /*  No comment provided by engineer.  */
@@ -8843,9 +8896,6 @@
 /*  No comment provided by engineer.  */
 "Who needs to upload this?" = "Who needs to upload this?";
 
-/*   No comment provided by engineer.   */
-"Who will take action in shadow flow?" = "Who will take action in shadow flow?";
-
 /*  No comment provided by engineer.  */
 "Who will take action in the shadow flow?" = "Who will take action in the shadow flow?";
 
@@ -8860,6 +8910,9 @@
 
 /*  No comment provided by engineer.  */
 "Will be prepared by" = "Will be prepared by";
+
+/*  No comment provided by engineer.  */
+"Will be reviewed by" = "Will be reviewed by";
 
 /*  No comment provided by engineer.  */
 "Workflow Type" = "Workflow Type";
@@ -8893,9 +8946,6 @@
 
 /*  No comment provided by engineer.  */
 "Workspace Owner" = "Workspace Owner";
-
-/*   No comment provided by engineer.   */
-"Workspace Properties" = "Workspace Properties";
 
 /*  No comment provided by engineer.  */
 "Workspace Tags" = "Workspace Tags";
@@ -8942,7 +8992,7 @@
 /*  No comment provided by engineer.  */
 "Would you like to log out and try again with a different account?" = "Would you like to log out and try again with a different account?";
 
-/*   No description   */
+/* No description */
 "Would you like to send log to our developer?" = "Would you like to send log to our developer?";
 
 /*  message  */
@@ -9001,9 +9051,6 @@
 
 /*  message  */
 "You are controlling the shared screen." = "You are controlling the shared screen.";
-
-/*   No comment provided by engineer.   */
-"You are currently not a part of any workspaces." = "You are currently not a part of any workspaces.";
 
 /*  No comment provided by engineer.  */
 "You are currently not part of any workspaces." = "You are currently not part of any workspaces.";
@@ -9264,9 +9311,6 @@
 "You're done!" = "You're done!";
 
 /*  No comment provided by engineer.  */
-"You're logged in as %@" = "You're logged in as %@";
-
-/*  No comment provided by engineer.  */
 "You've already added all of your contacts" = "You've already added all of your contacts";
 
 /*  message  */
@@ -9369,9 +9413,12 @@
 "Your sharing has been stopped." = "Your sharing has been stopped.";
 
 /*  No comment provided by engineer.  */
+"Your status will automatically update to Out of Office every weekend." = "Your status will automatically update to Out of Office every weekend.";
+
+/*  No comment provided by engineer.  */
 "Your turn to sign" = "Your turn to sign";
 
-/*   No comment provided by engineer.   */
+/*  No comment provided by engineer.  */
 "You’ll be added as a viewer" = "You’ll be added as a viewer";
 
 /*  No comment provided by engineer.  */
@@ -9424,6 +9471,9 @@
 
 /*  No comment provided by engineer.  */
 "Zoom" = "Zoom";
+
+/*  No comment provided by engineer.  */
+"Zoom Meeting" = "Zoom Meeting";
 
 /*  [Audio]  */
 "[Audio]" = "[Audio]";

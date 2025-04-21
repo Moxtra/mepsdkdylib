@@ -9,7 +9,6 @@
 "%@ Action Items" = "%@ позиций плана мероприятий";
 "%@ Approver" = "%@ ответственное лицо";
 "%@ Approvers" = "%@ ответственные лица";
-"%@ Assignee" = "%@ Исполнитель";
 "%@ Assignees" = "%@ назначенных пользователей";
 "%@ Bots" = "%@ ботов";
 "%@ Client" = "%@ Клиент";
@@ -23,6 +22,8 @@
 "%@ File" = "Файл %@";
 "%@ File Size Reached" = "Достигнут размер файла %1$@";
 "%@ Guests" = "%@ гостей";
+"%@ Item" = "%@ Элемент";
+"%@ Items" = "%@ предметов";
 "%@ Meeting" = "%@ встреча";
 "%@ Meetings Started" = "%@ собраний начато";
 "%@ Member" = "%@ член";
@@ -34,6 +35,7 @@
 "%@ More Workspace" = "%@ дополнительное рабочее пространство";
 "%@ More Workspaces" = "%@ еще рабочих мест";
 "%@ New" = "%@ новых";
+"%@ New Message" = "%@ Новое сообщение";
 "%@ New Messages" = "%@ новых сообщений";
 "%@ Pages Remaining" = "Осталось %@ страниц";
 "%@ Participant" = "%@ участник";
@@ -48,7 +50,6 @@
 "%@ Steps" = "%@ шагов";
 "%@ Total" = "всего %@";
 "%@ Users" = "%@ Пользователи";
-"%@ Viewer" = "%@ зритель";
 "%@ Viewers" = "%@ абонентов";
 "%@ Week" = "%@ неделя";
 "%@ Weeks" = "%@ недель";
@@ -89,6 +90,7 @@
 "%@ added this Time Booking." = "%@ добавил это бронирование времени.";
 "%@ added this To-Do." = "%@ добавил это запланированное дело.";
 "%@ added this Wait action." = "%@ добавил это действие ожидания.";
+"%@ and %@" = "%1$@ и %2$@";
 "%@ and %@ have been added to your team." = "%1$@ и %2$@ были добавлены в Вашу группу.";
 "%@ and %@ others have been added to your team." = "%1$@ и ещё %2$@ были добавлены в Вашу группу.";
 "%@ and others are typing…" = "Пользователь %@ и другие набирают текст…";
@@ -124,6 +126,12 @@
 "%@ assigned to %@." = "%1$@ назначено %2$@.";
 "%@ assigned to %@: %@" = "%1$@ назначено %2$@: %3$@";
 "%@ assigned to you" = "%@ назначено вам";
+"%@ awaiting review" = "%@ ожидает рассмотрения";
+"%@ awaiting review." = "%@ ожидает рассмотрения.";
+"%@ awaiting review: %@" = "%1$@ ожидает рассмотрения: %2$@";
+"%@ awaiting your review" = "%@ ожидает вашего рассмотрения";
+"%@ awaiting your review." = "%@ ожидает вашего рассмотрения.";
+"%@ awaiting your review: %@" = "%1$@ ожидает вашего рассмотрения: %2$@";
 "%@ awaits preparation" = "%@ ожидает подготовки";
 "%@ awaits preparation." = "%@ ожидает подготовки.";
 "%@ awaits preparation: %@" = "%1$@ ожидает подготовки: %2$@";
@@ -465,6 +473,7 @@
 "Access denied" = "Отказано в доступе";
 "Access your Portal URL by entering the verification code we just sent to %@" = "Получите доступ к URL своего портала, введя код подтверждения, который мы только что отправили на %@";
 "Account" = "Учётная запись";
+"Account Connection" = "Подключение учетной записи";
 "Account Creation Failed" = "Не удалось создать аккаунт";
 "Account Deleted" = "Учетная запись удалена";
 "Account Settings" = "Настройки учётной записи";
@@ -500,8 +509,9 @@
 "Action assigned to you" = "Действие назначено вам";
 "Action due soon" = "Действие скоро должно быть выполнено";
 "Action due today" = "Действие, которое должно быть выполнено сегодня";
-"Action in Progress" = "Действие в процессе";
+"Action in progress" = "Действие выполняется";
 "Action not started" = "Действие не начато";
+"Action not started; referenced data is being processed." = "Действие не начато; обрабатываются ссылочные данные.";
 "Action overdue (%@)" = "Действие просрочено (%@)";
 "Action required from @%@" = "Требуется действие от @%1$@";
 "Action skipped" = "Действие пропущено";
@@ -543,7 +553,6 @@
 "Add Signers" = "Добавить подписантов";
 "Add User" = "Добавить пользователя";
 "Add Viewers" = "Добавить абонентов";
-"Add Viewers (Optional)" = "Добавить абонентов (необязательно)";
 "Add Yourself" = "Добавить себя";
 "Add a Role" = "Добавить роль";
 "Add a To-Do" = "Добавить Запланировать";
@@ -551,23 +560,25 @@
 "Add a brief description for all workspace members to see" = "Добавьте краткое описание, доступное всем участникам рабочего пространства";
 "Add a role" = "Добавить роль";
 "Add additional participants who will be part of the flow." = "Добавьте дополнительных участников, которые будут участвовать в потоке.";
+"Add agenda" = "Добавить повестку дня";
 "Add description" = "Добавить описание";
 "Add distribution list" = "Добавить список рассылки";
 "Add files" = "Добавить файлы";
 "Add information regarding the purpose of booking this time" = "Добавьте информацию о цели бронирования этого времени.";
+"Add location" = "Добавить местоположение";
 "Add portals to resume working with your team" = "Добавьте порталы, чтобы возобновить работу с вашей командой.";
 "Add roles that represent people who will need to take action in this flow." = "Добавьте роли, которые представляют людей, которым нужно будет предпринять действия в этом потоке.";
 "Add roles to this workspace" = "Добавьте роли в это рабочее пространство";
 "Add signers to continue" = "Добавить подписантов, чтобы продолжить";
 "Add the information below to get started!" = "Добавьте информацию ниже, чтобы начать работу!";
 "Add to Contacts" = "Добавить в контакты";
-"Add to calendar" = "Добавить в календарь";
 "Add useful information about your DocuSign" = "Добавьте полезную информацию о вашем DocuSign";
 "Add useful information about your decision" = "Добавьте полезную информацию о вашем решении";
 "Add useful information about your e-sign" = "Добавьте полезную информацию о вашей электронной подписи";
 "Add useful information about your request" = "Добавьте полезную информацию о вашем запросе";
 "Add useful information regarding your conditional branch." = "Добавьте полезную информацию о вашей условной ветви.";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "Добавьте зрителей в это рабочее место, чтобы включить людей, за которыми не закреплено действие в этом потоке.";
+"Add your meeting topic" = "Добавьте тему вашей встречи";
 "Added" = "Добавлено";
 "Added Successfully" = "Добавление успешно";
 "Added a checklist %@" = "Контрольный список %@ добавлен";
@@ -601,11 +612,13 @@
 "All comments and other activity on this file will also be deleted." = "Все комментарии и другие действия над данным файлом также будут удалены";
 "All completed actions will appear here." = "Здесь будут отображаться все выполненные действия.";
 "All participants have declined the invitation." = "Все участники отклонили приглашение.";
+"All participants must be admitted by the host" = "Все участники должны быть допущены хостом";
 "All recurring meetings will be deleted." = "Все повторяющиеся встречи будут удалены.";
 "All the replies to this comment will be deleted as well." = "Все ответы на данный комментарий тоже будут удалены.";
 "All updates on clients, actions, and other account info will appear here." = "Здесь будут отображаться все обновления о клиентах, действиях и другая информация об учетной записи.";
 "All your tasks in one place" = "Все ваши задачи в одном месте";
 "Allow" = "Разрешить";
+"Allow Decline Option" = "Разрешить опцию отказа";
 "Allows anyone with the link to join as an internal user." = "Позволяет любому, у кого есть ссылка, присоединиться в качестве внутреннего пользователя.";
 "Allows you to email content directly into this workspace." = "Позволяет вам отправлять информацию по электронной почте прямо в это рабочее место.";
 "Alphabetically" = "В алфавитном порядке";
@@ -615,6 +628,8 @@
 "An Update Is Required" = "Требуется обновление";
 "An agent will respond when one is available." = "Пожалуйста, оставьте сообщения ниже.";
 "An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace." = "Альтернативный путь уже был выполнен. Это %@ теперь пропущено, поэтому ваши изменения не могут быть сохранены. Вы будете перенаправлены обратно в рабочее пространство.";
+"An assignee is required for %@. Please select one for this role." = "Для %@ требуется исполнитель. Пожалуйста, выберите одного для этой роли.";
+"An assignee is required for DocuSign. Please select one for this role." = "Для DocuSign требуется исполнитель. Пожалуйста, выберите одного для этой роли.";
 "An email is required to use DocuSign integration. An admin can add an email to their account." = "Для использования интеграции с DocuSign требуется адрес электронной почты. Администратор может добавить адрес электронной почты к своему аккаунту.";
 "An external user with access to invited workspaces only." = "Внешний пользователь, который может получить доступ только к приглашенным рабочим пространствам.";
 "An internal user with the ability to create and manage new workspaces in your portal." = "Внутренний пользователь с возможностью создавать и управлять новыми рабочими областями в вашем портале.";
@@ -634,7 +649,6 @@
 "Anyone with the link" = "Любой, у кого есть ссылка";
 "Anyone with the meeting link can join" = "Любой, у кого есть ссылка на встречу, может присоединиться";
 "Anyone with the meeting link can join all future recurring meetings from the same link without approval. We recommend enabling the waiting room for your security." = "Любой, у кого есть ссылка на встречу, может присоединиться ко всем будущим повторяющимся встречам по той же ссылке без утверждения. Мы рекомендуем включить комнату ожидания для вашей безопасности.";
-"Anyone with the meeting link will need to be approved by the host to join" = "Любой, у кого есть ссылка на встречу, должен получить одобрение от организатора для присоединения.";
 "Anything assigned to you will appear here so you can easily stay on top of things." = "Все назначенные вам задачи будут отображаться здесь, чтобы вы могли легко оставаться в курсе событий.";
 "App" = "Приложение";
 "Apple login disabled" = "Вход в Apple отключен";
@@ -666,8 +680,9 @@
 "Archive" = "Архив";
 "Archive %@ Workspaces?" = "Заархивировать %@ рабочие места?";
 "Archive Workspace" = "Заархивировать рабочее место";
-"Archive workspace for everyone" = "Архивировать рабочее пространство для всех";
-"Archive workspace for yourself" = "Архивируйте рабочее пространство для себя";
+"Archive for All Internal Users" = "Архив для всех внутренних пользователей";
+"Archive for All Members" = "Архив для всех участников";
+"Archive for Yourself" = "Архивировать для себя";
 "Archived" = "Заархивирован";
 "Archived Workspaces" = "Заархивированные рабочие места";
 "Archiving allows you to hide workspaces from your timeline. If any new activity occurs in the workspace, it will automatically unarchive." = "Архивация позволяет вам скрывать рабочие пространства из вашей истории. Если в рабочем пространстве происходит какая-либо новая активность, оно автоматически разархивируется.";
@@ -685,6 +700,8 @@
 "Are you sure you want to remove “%@” from this workspace?" = "Вы уверены, что хотите удалить «%@» из этого рабочего пространства?";
 "Are you sure you want to start the meeting before its scheduled time?" = "Вы действительно хотите начать встречу раньше запланированного времени?";
 "Arrow" = "Стрелка";
+"As the workspace owner, please select the range to archive:" = "Как владелец рабочей области, пожалуйста, выберите диапазон для архивации:";
+"As the workspace owner, please select the range to unarchive:" = "Как владелец рабочего пространства, пожалуйста, выберите диапазон для разархивации:";
 "Asia Pacific" = "Азиатско-Тихоокеанский регион";
 "Ask the client to send a message to reactivate this workspace." = "Попросите клиента отправить сообщение, чтобы повторно активировать это рабочее место.";
 "Assign" = "Закрепить";
@@ -729,13 +746,7 @@
 "Background Color" = "Цвет фона";
 "Backup User" = "Добавить пользователя с резервным копированием";
 "Baidu Maps" = "Карты Baidu";
-"Because certain actions do not allow a client group to be assigned, you can’t reassign to this group." = "Поскольку некоторые действия не позволяют назначать группу клиентов, вы не можете переназначить это действие этой группе.";
-"Because certain actions do not allow a client group to be assigned, you can’t select one for this role." = "Поскольку некоторые действия не позволяют назначать группу клиентов, вы не можете выбрать её для этой роли.";
-"Because certain actions do not allow a team to be assigned, you can’t reassign to this team." = "Поскольку некоторые действия не позволяют назначать команду, вы не можете переназначить это действие этой команде.";
-"Because certain actions do not allow a team to be assigned, you can’t select a team for this role." = "Поскольку некоторые действия не позволяют назначать команду, вы не можете выбрать команду для этой роли.";
-"Before leaving, please reassign your pending actions to another person." = "Прежде чем выйти, пожалуйста, повторно закрепите отложенные действия за другим человеком.";
 "Before leaving, please reassign your pending actions to someone else." = "Перед уходом, пожалуйста, переназначьте ваши ожидающие действия другому человеку.";
-"Before removing, please reassign their pending actions to another person." = "Перед удалением повторно закрепите их отложенные действия за другим человеком.";
 "Before removing, please reassign their pending actions to someone else." = "Перед удалением, пожалуйста, переназначьте их ожидающие действия другому человеку.";
 "Below are the previous invitations sent to this email address." = "Ниже представлены предыдущие приглашения, отправленные на этот адрес электронной почты.";
 "Beneficiary" = "Бенефециар";
@@ -795,7 +806,7 @@
 "Cannot Delete Role" = "Невозможно удалить роль";
 "Cannot Leave Workspace" = "Невозможно покинуть рабочее место";
 "Cannot Remove Assignee" = "Невозможно удалить назначенного пользователя";
-"Cannot delete this role. Please assign its pending actions to someone else." = "Невозможно удалить эту роль. Пожалуйста, назначьте её ожидающие действия другому человеку.";
+"Cannot delete this role. Please assign its actions to someone else." = "Невозможно удалить эту роль. Пожалуйста, переназначьте её действия другому лицу.";
 "Cannot open this file" = "Не удаётся открыть данный файл";
 "Cannot select this option while the current assignee is a client." = "Нельзя выбрать этот вариант, пока текущим исполнителем является клиент.";
 "Cannot select video." = "Невозможно выбрать видео.";
@@ -822,7 +833,6 @@
 "Choose a data center" = "Выберите дата-центр";
 "Choose a date..." = "Выберите дату...";
 "Choose a password that is unique and not easy to guess." = "Выберите пароль, который является уникальным и который сложно подобрать.";
-"Choose a time to reschedule" = "Выберите время для переноса";
 "Choose application" = "Выберите приложение";
 "Choose from Library" = "Выбрать из библиотеки";
 "Choose how many assignees are required to upload a file for completion." = "Выберите, сколько исполнителей должно загрузить файл для завершения задачи.";
@@ -836,12 +846,12 @@
 "Click below to join the rest of your team on the %@ Portal" = "Нажмите ниже, чтобы присоединиться к остальным участникам своей группы на портале %@";
 "Click the link below to join me on %@ for dedicated support and service" = "Нажмите на ссылку ниже, чтобы присоединиться ко мне на %@ для получения специальной поддержки и обслуживания";
 "Click the link below to join me on the %@ Portal for dedicated support and service" = "Нажмите на ссылку ниже, чтобы присоединиться ко мне на портале %@ для получения специальной поддержки и обслуживания";
+"Click to connect" = "Нажмите для подключения";
 "Client" = "Клиент";
 "Client Assigned to You" = "Клиент назначен вам";
 "Client Blocked Account" = "Клиент заблокировал учётную запись";
 "Client Group" = "Группа клиентов";
 "Client Groups" = "Группы клиентов";
-"Client Groups (Optional)" = "Группы клиентов (Необязательно)";
 "Client ID" = "ID клиента";
 "Client Left Workspace" = "Клиент покинул рабочее место";
 "Client Login" = "Вход для клиентов";
@@ -860,6 +870,7 @@
 "Close and Sign Later" = "Закрыть и подписать позже";
 "Closed" = "Закрыто";
 "Closed (Special Hours)" = "Закрыто (Специальный график работы)";
+"Cloud" = "Облако";
 "Co-Browse" = "Совместный просмотр";
 "Co-Browsing Session Ended" = "Сеанс совместного просмотра завершен";
 "Co-browsing is already in progress." = "Совместный просмотр уже идет.";
@@ -878,17 +889,16 @@
 "Confirm Deletion" = "Подтвердить удаление";
 "Confirm Details" = "Подтвердить информацию";
 "Confirm Disconnect" = "Подтвердите отключение";
+"Confirm Disconnection" = "Подтвердите отключение";
 "Confirm Invitation" = "Подтвердите приглашение";
 "Confirm the following to permanently delete your account." = "Для окончательного удаления пользователя подтвердите следующее:";
 "Confirm your current password to continue." = "Для продолжения подтвердите свой новый пароль.";
 "Confirmed" = "Подтверждено";
 "Connect" = "Подключиться";
 "Connect with DocuSign" = "Связаться при помощи DocuSign";
-"Connect with Zoom" = "Связаться при помощи Zoom";
 "Connect with me on my app by clicking the link below:" = "Свяжитесь со мной в моем приложении, кликнув по ссылке ниже:";
 "Connect with people by using your QR code." = "Свяжитесь с людьми, используя свой QR-код.";
 "Connect your DocuSign account to use templates." = "Подключите свою учетную запись DocuSign, чтобы использовать шаблоны.";
-"Connect your Zoom account to schedule meetings" = "Подключите свою учетную запись Zoom, чтобы запланировать встречи";
 "Connected" = "Подключение установлено";
 "Connected Successfully" = "Подключено успешно";
 "Connecting you with our live support…" = "Соединяем Вас с нашей онлайн-поддержкой…";
@@ -953,7 +963,6 @@
 "Currency" = "Валюта";
 "Current %@ Was Deleted" = "Текущий %@ был удален";
 "Current %@ already completed" = "Текущий %@ уже завершен";
-"Current %@ was completed" = "Текущий %@ был завершен.";
 "Current Action Was Deleted" = "Текущее действие было удалено";
 "Current Page" = "Текущая страница";
 "Current Step Was Removed" = "Текущий шаг был удален";
@@ -1090,7 +1099,6 @@
 "Dropdown List" = "Выпадающий список";
 "Due" = "Конечный срок";
 "Due %@ %@" = "Конечный срок %1$@ %2$@";
-"Due (%@ after creation)" = "Дата выполнения - (%@ после создания)";
 "Due (%@ after start)" = "Срок (%@ после начала)";
 "Due Date" = "Конечный срок";
 "Due Today" = "Конечный срок сегодня";
@@ -1127,17 +1135,12 @@
 "EXPIRY DATE" = "ДАТА ИСТЕЧЕНИЯ КОНЕЧНОГО СРОКА";
 "Edit" = "Изменить";
 "Edit %@" = "Редактировать %@";
-"Edit Acknowledgement" = "Изменить подтверждение";
-"Edit Approval" = "Изменить утверждение";
 "Edit Availability" = "Изменить доступность";
 "Edit Clients" = "Изменить сведения о клиентах";
 "Edit Content" = "Редактировать контент";
 "Edit Email Address" = "Изменить адрес электронной почты";
-"Edit File Request" = "Изменить запрос файла";
-"Edit Form" = "Изменить форму";
 "Edit General Availability" = "Изменить общую доступность";
 "Edit Group Assignment" = "Изменить закрепление группы";
-"Edit Jumio" = "Изменить Jumio";
 "Edit Jumio details" = "Редактировать детали Jumio";
 "Edit Label" = "Изменить ярлык";
 "Edit Link Security" = "Редактировать безопасность ссылки";
@@ -1147,14 +1150,12 @@
 "Edit Phone Number" = "Изменить номер телефона";
 "Edit Portal" = "Редактировать портал";
 "Edit Profile" = "Изменить профиль";
-"Edit Properties" = "Редактировать свойства";
 "Edit Recurring Meeting" = "Изменить повторяющуюся встречу";
 "Edit Reminder" = "Изменить напоминание";
 "Edit Status" = "Изменить статус";
-"Edit Step" = "Изменить шаг";
 "Edit Tags" = "Редактировать теги";
 "Edit Time Booking" = "Изменить бронирование времени";
-"Edit To-Do" = "Изменить запланированные дела";
+"Edit Variables" = "Редактировать переменные";
 "Edit Welcome Message" = "Редактировать приветственное сообщение клиента";
 "Edit Workspace" = "Редактировать рабочую область";
 "Edit distribution list" = "Редактировать список рассылки";
@@ -1179,7 +1180,8 @@
 "Enable Touch ID for Login" = "Включить Touch ID для входа в систему";
 "Enable Voice" = "Включить голосовую связь";
 "Enable Voice..." = "Включить голосовую связь...";
-"Enable Waiting Room" = "Включить Комнату Ожидания";
+"Enable Waiting Room for All" = "Включить комнату ожидания для всех";
+"Enable Waiting Room for Guests" = "Включить зал ожидания для гостей";
 "Enabled" = "Включено";
 "End" = "Завершить";
 "End & Accept" = "Закончить и принять";
@@ -1205,7 +1207,6 @@
 "Enter the email or phone number associated with your account to continue." = "Чтобы продолжить, введите адрес электронной почты или номер телефона, связанный с вашей учетной записью.";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "Введите пароль, чтобы разблокировать файл. После разблокировки его сможет просмотреть каждый.";
 "Enter the question" = "Введите вопрос";
-"Enter the question " = "Введите вопрос";
 "Enter user details and send an invitation from the app." = "Введите данные пользователя и отправьте приглашение из приложения.";
 "Enter verification code" = "Введите проверочный код";
 "Enter your name" = "Введите Ваше имя";
@@ -1224,10 +1225,12 @@
 "Event" = "Событие";
 "Every" = "Каждый";
 "Every %@ days." = "Каждые %1$@ дней.";
+"Every Weekend" = "Каждые выходные";
 "Every day." = "Каждый день.";
 "Exclude Weekends" = "Исключить Выходные";
 "Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "Выполнить ветку 1, когда [color=%@][b]все правила совпадают[/b][/color]:";
 "Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "Выполнить ветку 1, когда [color=%@][b]любое правило совпадает[/b][/color]:";
+"Execution Order" = "Порядок выполнения";
 "Extension" = "Расширение";
 "External Calendar Meeting" = "Встреча во Внешнем Календаре";
 "Extra Participants" = "Дополнительные участники";
@@ -1358,7 +1361,7 @@
 "Get direct access to %@ and %@’s services on mobile." = "Получите прямой доступ к %1$@ и услугам %2$@ на мобильном телефоне.";
 "Get started" = "Начало работы";
 "Get started with 40+ industry templates used by thousands of businesses." = "Начните с 40+ шаблонов для различных отраслей, которые используют тысячи предприятий.";
-"Give external users the option to add this person to your workspaces if they need support while you’re out of office." = "Дайте внешним пользователям возможность добавить этого человека в ваши рабочие пространства, если им потребуется поддержка в ваше отсутствие.";
+"Give clients the option to add this person to your workspaces if they need support while you're out of the office." = "Дайте клиентам возможность добавить этого человека в ваши рабочие области, если им потребуется поддержка в ваше отсутствие.";
 "Gmail" = "Gmail";
 "Go Back" = "Назад";
 "Go to Content Gallery" = "Перейти к галерее контента";
@@ -1375,6 +1378,7 @@
 "Group Workspace" = "Групповое рабочее место";
 "Groups & Topics" = "Группы и темы";
 "Guest" = "Гость";
+"Guests joining via the meeting link must be admitted by the host" = "Гости, присоединяющиеся по ссылке на встречу, должны быть допущены хостом.";
 "Have an account?" = "У Вас есть учётная запись?";
 "Heads up!" = "Внимание!";
 "Help & Support" = "Справка и поддержка";
@@ -1423,14 +1427,17 @@
 "Identity Verification due today" = "Проверка личности должна быть выполнена сегодня";
 "Identity Verification overdue (%@)" = "Проверка личности просрочена (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "Верификация личности временно заблокирована по соображениям безопасности. Повторите попытку позже.";
+"If an end date is selected, Out of Office will automatically turn off after that date." = "Если выбрана дата окончания, режим \"Вне офиса\" автоматически отключится после этой даты.";
 "If enabled, a file reviewer will be required to review the files that are uploaded." = "Если функция активирована, проверяющему файлы будет необходимо рассмотреть загруженные файлы.";
 "If enabled, the assignee must open all attachments before acknowledging." = "Если функция активирована, исполнитель должен открыть все вложения перед подтверждением.";
+"If enabled, the assignee will have the option to decline this action. If declined, the action creator will be assigned as a reviewer to determine the next steps." = "Если функция активирована, исполнитель будет иметь возможность отказаться от этого действия. В случае отказа создатель действия будет назначен рецензентом для определения дальнейших шагов.";
 "If enabled, the preparer will be required to edit this action at runtime before it is ready for other assignees to take action." = "Если функция активирована, подготовитель должен будет отредактировать это действие во время выполнения, прежде чем оно будет готово для действий других исполнителей.";
 "If enabled, this action can be completed in parallel with the previous action in the flow." = "Если включено, это действие может быть выполнено параллельно с предыдущим действием в потоке.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Если этот параметр включен, мы будем отображать обложку потока всякий раз, когда вы впервые открываете потоковое рабочее место.";
 "If reopened, the assignee will need to resubmit the files." = "Если задача будет вновь открыта, исполнителю необходимо будет повторно отправить файлы.";
 "If they don't have an account, they will be directed to sign up to start collaborating on your flow." = "Если у них нет аккаунта, их перенаправят на страницу регистрации, чтобы начать совместную работу над вашим потоком.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be affected by this." = "Если вы отключите свой аккаунт DocuSign, исполнители не смогут получить доступ или подписать любые ожидающие документы, созданные с этим аккаунтом. Завершенные документы не будут затронуты этим.";
+"If you disconnect your Zoom account, meetings that were created through the account will not be editable or deletable." = "Если вы отключите свой аккаунт Zoom, встречи, созданные через этот аккаунт, не будут доступны для редактирования или удаления.";
 "If you disconnect, we will no longer be able to check your availability on this calendar." = "Если вы отключитесь, мы больше не сможем проверять вашу доступность в этом календаре.";
 "If you go back, any changes you’ve made on this page will be lost. Are you sure you want to go back?" = "Если вы вернетесь назад, все изменения, которые вы сделали на этой странице, будут потеряны. Вы уверены, что хотите вернуться?";
 "If you have any urgent issues, feel free to chat with %@." = "Если у вас есть срочные вопросы, обращайтесь в чате к %@.";
@@ -1468,7 +1475,6 @@
 "Insert Image" = "Вставить изображение";
 "Insert Link" = "Вставить ссылку";
 "Instant Flow" = "Мгновенный поток";
-"Instant Flows" = "Мгновенные потоки";
 "Instructions" = "Инструкции";
 "Integrations" = "Интеграции";
 "Internal" = "Внутренний";
@@ -1535,6 +1541,7 @@
 "Last activity at %@" = "Последние действия %@";
 "Last activity on %@" = "Последние действия %@";
 "Last invitation sent %@" = "Последнее приглашение отправлено %@";
+"Last modified" = "Последние изменения";
 "Last seen: %@" = "Последний визит: %@";
 "Last seen: %@d ago" = "Последний визит: %@ дней назад";
 "Last seen: %@h ago" = "Последний визит: %@ часов назад";
@@ -1562,10 +1569,12 @@
 "Link Preview Removed" = "Предварительный просмотр ссылки удален";
 "Link Refreshed" = "Ссылка обновлена";
 "Load More" = "Загрузите больше";
+"Loading Account" = "Загрузка аккаунта";
 "Loading address..." = "Загрузка адреса...";
 "Loading your account..." = "Загрузка учетной записи...";
 "Loading your content…" = "Загрузка вашего контента…";
 "Loading..." = "Загрузка...";
+"Local computer" = "Локальный компьютер";
 "Location" = "Местонахождение";
 "Lock Meeting Access" = "Заблокировать доступ к собранию";
 "Log In" = "Войти в систему";
@@ -1574,7 +1583,6 @@
 "Log in here" = "Войдите в систему здесь";
 "Log in to %@" = "Войдите в %@";
 "Log in to connect" = "Войдите в систему для связи";
-"Log in to connect to %@" = "Войдите, чтобы подключиться к %@";
 "Log in to connect to DocuSign" = "Войдите в систему, чтобы подключиться к DocuSign.";
 "Log in to your portal" = "Войдите в свой портал";
 "Log into %@" = "Войдите в %@";
@@ -1588,6 +1596,7 @@
 "MIA" = "Присоединиться";
 "MIM" = "%1$@: Приглашение на собрание. Присоединяйтесь.";
 "MON" = "ПН";
+"MS Teams Meeting" = "Встреча в MS Teams";
 "Make Host" = "Назначить ведущим";
 "Make Presenter" = "Назначить выступающим";
 "Make your business flow with digital interaction workspaces" = "Сделайте поток вашего бизнеса с помощью цифровых пространств взаимодействия";
@@ -1619,6 +1628,7 @@
 "Meeting Invite" = "Приглашение на совещание";
 "Meeting Link" = "Ссылка на собрание";
 "Meeting Link Detected" = "Обнаружена ссылка на собрание";
+"Meeting Options" = "Настройки встречи";
 "Meeting Password" = "Пароль встречи";
 "Meeting Password (Required)" = "Пароль встречи (обязательно)";
 "Meeting Password:" = "Пароль встречи:";
@@ -1628,6 +1638,8 @@
 "Meeting Security" = "Безопасность встречи";
 "Meeting Started" = "Встреча началась";
 "Meeting Topic" = "Тема собрания";
+"Meeting Topic*" = "Тема встречи*";
+"Meeting Type" = "Тип встречи";
 "Meeting Update" = "Уточнение о совещании";
 "Meeting ended" = "Собрание завершено";
 "Meeting in Progress" = "Совещание проводится";
@@ -1635,6 +1647,7 @@
 "Meeting start time" = "Время начала совещания";
 "Meeting successfully updated." = "Встреча успешно обновлена.";
 "Meeting transferred to you" = "Встреча переадресована вам";
+"Meeting via Zoom" = "Встреча через Zoom";
 "Meetings" = "Собрания";
 "Meetings can only last up to %@ hours." = "Встречи могут длиться не более %@ часов.";
 "Member Limit Reached" = "Достигнуто максимальное количество участников";
@@ -1673,6 +1686,7 @@
 "Move to..." = "Переместить в...";
 "Moving..." = "Перемещение...";
 "Moxo" = "Moxo";
+"Moxo Meeting" = "Встреча в Moxo";
 "Must be invited and logged in to join" = "Вы должны быть приглашены и авторизованы, чтобы присоединиться";
 "Must enter the meeting password to join" = "Необходимо ввести пароль встречи, чтобы присоединиться";
 "Mute" = "Отключить звук";
@@ -1706,7 +1720,6 @@
 "New Group Workspace" = "Новое групповое рабочее место";
 "New Jumio" = "Новый Jumio";
 "New Message" = "Новое сообщение";
-"New Message..." = "Новое сообщение";
 "New Messages" = "Новые сообщения";
 "New One-on-One Workspace" = "Новое парное рабочее место";
 "New Password" = "Новый пароль";
@@ -1728,6 +1741,7 @@
 "No Client Groups" = "Нет групп клиентов";
 "No Clients" = "Нет клиентов";
 "No Contacts" = "Нет контактов";
+"No Content Yet" = "Еще нет контента";
 "No Due Date" = "Нет конечного срока";
 "No Internal Teams" = "Нет внутренних команд";
 "No Internet Connection" = "Нет подключения к интернету";
@@ -1760,14 +1774,15 @@
 "No extra participants yet" = "Пока нет дополнительных участников";
 "No meeting" = "Собрания нет";
 "No meetings" = "Нет собраний";
-"No members have joined" = "Ни один участник не присоединился";
 "No new actions need to be added" = "Нет необходимости добавлять новые действия";
+"No participants yet" = "Участников пока нет";
 "No pending approvals" = "Нет объектов на рассмотрении";
 "No personalized message will be displayed" = "Персонализированное сообщение не будет отображаться";
 "No reminder" = "Нет напоминаний";
 "No results on the current page" = "Нет результатов на текущей странице";
 "No transactions match this search" = "Нет транзакций, соответствующих этому запросу";
 "No viewers yet" = "Пока нет абонентов";
+"Non-Templated Flows" = "Нешаблонные потоки";
 "None" = "Нет";
 "Not Joined" = "Не подключен";
 "Not Recognized" = "Не удалось распознать";
@@ -1789,12 +1804,13 @@
 "Office Hours" = "График работы";
 "Office hours shown in (%@) %@" = "График работы указан в (%1$@) %2$@";
 "Offline" = "Не в сети";
+"Offline Meeting" = "Офлайн встреча";
+"Offline meeting started" = "Офлайн встреча началась";
 "On" = "Вкл";
 "On Date" = "Дата:";
 "On the local computer" = "На локальном компьютере";
 "Onboarding for {Client Name}" = "Онбординг для {Имя клиента}";
 "Once preparation is turned off in the workspace, it cannot be turned on again. Are you sure you want to continue?" = "Как только подготовка будет отключена в рабочем пространстве, её нельзя будет включить снова. Вы уверены, что хотите продолжить?";
-"Once removed, this user will not be able to join the meeting via the link." = "После удаления этот пользователь не сможет присоединиться к встрече по ссылке.";
 "Once the assignee has submitted files, this user will be asked to review and confirm them before completion." = "После того, как назначенный пользователь отправит файлы, этому пользователю будет предложено просмотреть и подтвердить их перед завершением.";
 "One file was not attached." = "Один файл не был прикреплен.";
 "One-on-One Workspace" = "Парное рабочее место";
@@ -1832,6 +1848,7 @@
 "Other Activities" = "Другие мероприятия";
 "Other SSO" = "Другой SSO";
 "Other Settings" = "Другие параметры";
+"Others" = "Другие";
 "Out of Office" = "Нет на месте";
 "Outlook Calendar" = "Календарь Outlook";
 "Oval" = "Овал";
@@ -1889,6 +1906,7 @@
 "Please click below to contact us and request an invitation." = "Пожалуйста, нажмите ниже, чтобы связаться с нами и запросить приглашение.";
 "Please click below to create your account." = "Пожалуйста, нажмите ниже, чтобы создать учетную запись.";
 "Please click the button below to finish creating your account." = "Нажмите кнопку ниже, чтобы завершить создание своей учетной записи.";
+"Please connect your %@ account to continue" = "Пожалуйста, подключите свой аккаунт %@, чтобы продолжить.";
 "Please connect your DocuSign account to access templates." = "Подключите свою учетную запись DocuSign, чтобы получить доступ к шаблонам.";
 "Please contact the administrator of your portal to continue." = "Пожалуйста, свяжитесь с администратором вашего портала, чтобы продолжить.";
 "Please contact the host and request an invitation to join." = "Свяжитесь с ведущим и запросите приглашение участвовать.";
@@ -1920,6 +1938,7 @@
 "Please update to the latest version of the app to view this message. Your version of the app doesn't support this message type." = "Пожалуйста, обновите приложение до последней версии, чтобы просмотреть это сообщение. Ваша версия приложения не поддерживает этот тип сообщений.";
 "Please verify your fingerprint" = "Подтвердите Ваш отпечаток пальца";
 "Please wait 60 seconds before requesting a new verification code" = "Пожалуйста, подождите 60 секунд, прежде чем запросить новый код подтверждения";
+"Please wait for your account to fully load." = "Пожалуйста, дождитесь полной загрузки вашего аккаунта.";
 "Please wait for your attachments to finish uploading before continuing." = "Подождите, пока ваши вложения закончат загрузку, прежде чем продолжить.";
 "Please wait, we're working on it..." = "Подождите, мы работаем над этим вопросом...";
 "Please wait. The host will let you in soon." = "Подождите. Организатор скоро вас впустит.";
@@ -1932,6 +1951,7 @@
 "Prepare" = "Подготовить";
 "Prepare %@" = "Подготовить %@";
 "Prepare to get your business in the flow." = "Готовьтесь начать свой бизнес.";
+"Preparer*" = "Подготовитель";
 "Preparing..." = "Подготовка...";
 "Presenter" = "Выступающий";
 "Preview" = "Предварительный просмотр";
@@ -1986,6 +2006,7 @@
 "Recents" = "Недавние";
 "Reconnect" = "Повторное подключение";
 "Reconnecting..." = "Повторное подключение...";
+"Record Location" = "Запись местоположения";
 "Record Meeting" = "Запись собрания";
 "Record Video Clip" = "Записать видеоклип";
 "Recording" = "Запись";
@@ -2014,7 +2035,7 @@
 "Reminder will occur %@ before." = "Напоминание будет за %@ до.";
 "Reminder: %@" = "Напоминание: %@";
 "Remove" = "Удалить";
-"Remove %@?" = "Переместить %@?";
+"Remove %@ from the meeting waiting room?" = "Удалить %@ из комнаты ожидания встречи?";
 "Remove Bookmark" = "Удалить закладку";
 "Remove From Workspace" = "Удалить из рабочей области";
 "Remove Link Preview" = "Удалить предварительный просмотр ссылки";
@@ -2034,7 +2055,6 @@
 "Reopen it to enable replies." = "Откройте его снова, чтобы включить ответы.";
 "Reopened at %@" = "Возобновлено в %@";
 "Reopened on %@" = "Открыто повторно %@";
-"Reopening this action will require assignees to review it again, while preserving previous data. Any associated automations will also run again." = "Повторное открытие этого действия потребует от исполнителей его повторного рассмотрения, при этом предыдущие данные сохранятся. Все связанные автоматизации также будут выполнены снова.";
 "Reopening this action will require assignees to review it again." = "Повторное открытие этого действия потребует от исполнителей его повторного рассмотрения.";
 "Repeat" = "Повторить";
 "Repeat every %@ days." = "Повторять каждые %@ дней.";
@@ -2055,8 +2075,6 @@
 "Require Preparation" = "Требуется подготовка";
 "Required Update Available" = "Доступно требуемое обновление";
 "Required field" = "Обязательное поле";
-"Requires Preparation before the Action Can Begin" = "Требуется подготовка перед началом действия";
-"Reschedule" = "Запланировано повторно";
 "Rescheduled %@" = "%@ запланировано повторно";
 "Resend Invitation" = "Повторно отправить приглашение";
 "Resend Invite" = "Повторно отправить приглашение";
@@ -2064,6 +2082,8 @@
 "Reset" = "Сбросить";
 "Reset (%@)" = "Сбросить (%@)";
 "Reset Filters" = "Сбросить фильтры";
+"Resource Info" = "Информация о ресурсах";
+"Resources" = "Ресурсы";
 "Response" = "Ответ";
 "Restart" = "Перезапуск";
 "Restart Meeting" = "Перезапустить Встречу";
@@ -2122,7 +2142,6 @@
 "Scan" = "Сканировать";
 "Scan QR Code" = "Сканировать QR-код";
 "Scanning..." = "Сканирование...";
-"Schedule" = "Запланировать";
 "Schedule Meeting" = "Запланировать собрание";
 "Scheduling Window" = "Окно в графике";
 "Screen is being shared" = "Экран передается";
@@ -2206,6 +2225,8 @@
 "Set Automatically" = "Установить Автоматически";
 "Set Currency to Continue" = "Установите валюту для продолжения";
 "Set Days" = "Установить дни";
+"Set Variables" = "Установить переменные";
+"Set Workspace Variables" = "Установить переменные рабочего пространства";
 "Set a minimum amount of time between available time booking slots." = "Установите минимальный промежуток времени между доступными для бронирования интервалами времени.";
 "Set a new password" = "Установить новый пароль";
 "Set date and time for reminder" = "Установите дату и время для напоминания";
@@ -2283,6 +2304,8 @@
 "Sorry, you can't present now as another participant has become the presenter." = "Очень жаль, Вы не можете сейчас выступить, поскольку другой участник стал выступающим.";
 "Sort by" = "Сортировать по";
 "Sort by %@" = "Сортировать по %@";
+"Sort by Date" = "Сортировать по дате";
+"Sort by Name" = "Сортировать по имени";
 "Sort by..." = "Сортировать по...";
 "Special Hours" = "Специальный график работы";
 "Speech Bubble" = "Облако с текстом";
@@ -2314,7 +2337,6 @@
 "Step Details (Step %@)" = "Сведения о шаге (Шаг %@)";
 "Step Removed" = "Шаг перемещен";
 "Step edited" = "Шаг изменен";
-"Step in Progress" = "Шаг выполняется";
 "Stop Co-Browsing" = "Прекратить совместный просмотр";
 "Stop Recording" = "Остановить запись";
 "Stop Sharing" = "Прекратить общий доступ";
@@ -2390,6 +2412,7 @@
 "The account associated with this email address is no longer active." = "Учётная запись, привязанная к данному электронному адресу, больше не активна.";
 "The account associated with this phone number is no longer active." = "Учетная запись, связанная с этим номером телефона, больше не активна.";
 "The action is not ready" = "Действие не готово";
+"The actions within this milestone will start only after the actions in %@ are completed. " = "Действия в рамках этой вехи начнутся только после завершения действий в %@.";
 "The assignee(s) will need to sign again if reopened." = "Назначенный пользователь должен будет подписать повторно, если они будут повторно открыты.";
 "The code is no longer valid. Please request a new code to continue." = "Код больше не действителен. Пожалуйста, запросите новый код для продолжения.";
 "The date will be recorded in [%@] format" = "Дата будет записана в формате [%@]";
@@ -2434,6 +2457,7 @@
 "The submitted response will be displayed here." = "Отправленный ответ будет отображен здесь.";
 "The system is busy. Please try again." = "Система занята. Пожалуйста, попробуйте еще раз.";
 "The tag values entered here will apply to any workspace created from this template." = "Введенные здесь значения тегов будут применяться к любому рабочему пространству, созданному из этого шаблона.";
+"The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "Введенные здесь значения переменных будут применены к созданному рабочему пространству. Их смогут видеть только внутренние пользователи.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "Рабочее пространство будет автоматически архивировано для всех участников после выполнения всех действий и наступления периода неактивности.";
 "There are no active screen share sessions to join." = "Нет активных сеансов демонстрации экрана, к которым можно присоединиться.";
 "There are no other members in this workspace." = "В этом рабочем месте отсутствуют другие участники.";
@@ -2461,7 +2485,7 @@
 "This action cannot be reverted and all of your account data will be permanently deleted." = "Это действие нельзя отменить, и все данные вашей учетной записи будут безвозвратно удалены.";
 "This action cannot be undone" = "Данное действие нельзя отменить";
 "This action cannot be undone." = "Данное действие нельзя отменить.";
-"This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost." = "Это действие уже началось, и назначенный(ые) пользователь(и) может(могут) просматривать и действовать в рамках шага, пока вы редактируете. Все достигнутые результаты будут потеряны.";
+"This action has already started, and the assignee(s) can review and act on it while you are editing. Any progress already completed will be lost." = "Это действие уже началось, и исполнитель(и) могут рассмотреть его и принять меры во время вашего редактирования. Любой уже достигнутый прогресс будет потерян.";
 "This action has been completed. You will be directed back to the workspace." = "Это действие выполнено. Вы будете перенаправлены обратно в рабочее пространство.";
 "This action has been completed. You will be returned to the workspace." = "Это действие выполнено. Вы будете возвращены в рабочую область.";
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "Это действие было удалено, и ваше действие больше не требуется. Вы будете перенаправлены обратно в рабочее место.";
@@ -2502,7 +2526,7 @@
 "This reset password link is no longer valid" = "Данная ссылка для сброса пароля больше не действительна";
 "This role and any assigned fields will be hidden." = "Эта должность и все закрепленные за ней поля будут скрыты.";
 "This role cannot be assigned to an integration action." = "Эта роль не может быть назначена для действия интеграции.";
-"This step has already started and the assignee(s) can review and act on it while you are editing. Any progress on already completed steps will be lost." = "Этот шаг уже начат, и исполнитель (исполнители) могут просматривать его и действовать, пока вы вносите изменения. Любой прогресс в уже завершенных шагах будет потерян.";
+"This section provides shared resources for easy use within workspaces." = "Этот раздел предоставляет общие ресурсы для удобного использования в рабочих пространствах.";
 "This step has been removed by the owner and your action is no longer required. You will be directed back to the flow workspace." = "Этот шаг было удален владельцем, и ваше действие больше не требуется. Вы будете перенаправлены обратно в потоковое рабочее место.";
 "This step has been updated by the owner. Please review the details again before taking action. You will be directed back to the flow workspace." = "Этот шаг был обновлен владельцем. Прежде чем предпринимать какие-либо действия, проверьте данные еще раз. Вы будете перенаправлены обратно в потоковое рабочее место.";
 "This template has been deleted and is no longer available." = "Этот шаблон был удален и больше не доступен.";
@@ -2556,7 +2580,6 @@
 "To continue, please log in again." = "Для продолжения войдите в систему снова.";
 "To continue, select a signer for all roles and disable any that you don't need." = "Чтобы продолжить, выберите подписанта для всех ролей и отключите те, которые вам не нужны.";
 "To continue, select assignees for all fields." = "Чтобы продолжить, выберите назначенных пользователей для всех полей.";
-"To continue, select assignees for all roles." = "Чтобы продолжить, выберите назначенных пользователей для всех ролей.";
 "To create a flow template, please access the Flow Template Library from your desktop." = "Чтобы создать шаблон потока, откройте библиотеку шаблонов потока со своего рабочего стола.";
 "To create new DocuSign envelopes, please use the desktop version." = "Для создания новых конвертов DocuSign используйте настольную версию.";
 "To edit your submission, you’ll need to reopen this File Request. Do you want to continue?" = "Чтобы отредактировать отправку, вам нужно повторно открыть этот запрос файла. Вы хотите продолжить?";
@@ -2657,6 +2680,7 @@
 "Unable to co-browse while sharing files." = "Совместный просмотр невозможен при обмене файлами";
 "Unable to complete sign-up" = "Невозможно завершить регистрацию";
 "Unable to connect" = "Невозможно подключиться";
+"Unable to edit: Meeting not found or account mismatch." = "Не удалось редактировать: встреча не найдена или несоответствие учетных записей.";
 "Unable to establish a connection." = "Не удаётся установить соединение.";
 "Unable to establish sharing connection. Please contact your network administrator." = "Не удаётся установить соединение для общего доступа. Свяжитесь с администратором.";
 "Unable to establish video connection. Please contact your network administrator." = "Не удаётся установить соединение для видеосвязи. Свяжитесь с администратором.";
@@ -2683,8 +2707,9 @@
 "Unable to upload the file %@. Please try again." = "Не удаётся загрузить файл %@. Повторите попытку.";
 "Unarchive" = "Восстановить из архива";
 "Unarchive Workspace" = "Разархивировать рабочую область";
-"Unarchive workspace for everyone" = "Восстановить рабочую область для всех";
-"Unarchive workspace for yourself" = "Разархивируйте рабочую область для себя";
+"Unarchive for All Internal Users" = "Разархивировать для всех внутренних пользователей";
+"Unarchive for All Members" = "Разархивировать для всех участников";
+"Unarchive for Yourself" = "Разархивировать для себя";
 "Unassigned" = "Не присвоено";
 "Unavailable" = "Недоступно";
 "Uncheck" = "Отменить выделение";
@@ -2886,6 +2911,7 @@
 "Whole File" = "Весь файл";
 "Will Be Added as an Individual Workspace Member" = "Будет добавлен как отдельный участник рабочего пространства";
 "Will be prepared by" = "Будет подготовлено к";
+"Will be reviewed by" = "Будет рассмотрено";
 "Workflow Type" = "Тип рабочего процесса";
 "Workspace '%@' will be deactivated" = "Рабочее пространство '%@' будет деактивировано";
 "Workspace Deactivated" = "Рабочее место деактивировано";
@@ -2897,14 +2923,16 @@
 "Workspace Name" = "Название рабочего места";
 "Workspace Name (Required)" = "Название рабочего места (Обязательно)";
 "Workspace Owner" = "Владелец рабочего места";
-"Workspace Properties" = "Свойства рабочего пространства";
 "Workspace Tags" = "Теги рабочего пространства";
 "Workspace Timed Out" = "Истекло время ожидания рабочего места";
 "Workspace Type" = "Тип рабочего места";
 "Workspace Unarchived" = "Рабочая область восстановлена из архива";
+"Workspace Variables" = "Переменные рабочего пространства";
 "Workspace archived" = "Рабочее место заархивировано";
 "Workspace has been deactivated" = "Рабочее пространство было деактивировано";
+"Workspace tags saved." = "Теги рабочего пространства сохранены.";
 "Workspace transferred to you" = "Рабочее место передано вам";
+"Workspace variables saved." = "Переменные рабочего пространства сохранены.";
 "Workspaces" = "Рабочие места";
 "Workspaces archived" = "Рабочие места заархивированы";
 "Workspaces you are a part of will appear here." = "Рабочие пространства, в которых вы участвуете, появятся здесь.";
@@ -2930,7 +2958,6 @@
 "You are connected." = "Вы подключены.";
 "You are controlling the co-browsing session." = "Вы управляете сессией совместного просмотра.";
 "You are controlling the shared screen." = "Вы управляете общим экраном.";
-"You are currently not a part of any workspaces." = "Вы в настоящее время не состоите в каких-либо рабочих пространствах.";
 "You are currently not part of any workspaces." = "В настоящее время вы не состоите в каких-либо рабочих пространствах.";
 "You are logged in as %@" = "Вы вошли как %@";
 "You are now a manager" = "Теперь вы — менеджер";
@@ -3017,7 +3044,6 @@
 "You're all clear!" = "Вы получили доступ!";
 "You're done" = "Готово";
 "You're done!" = "Готово!";
-"You're logged in as %@" = "Вы вошли в систему как %@";
 "You've already added all of your contacts" = "Вы уже добавили все свои контакты";
 "You've already added the maximum number of actions. (%@/200)" = "Вы уже добавили максимальное количество действий. (%@/200)";
 "You've exceeded the maximum file size of %@ for clips. You can still preview and save your file." = "Вы превысили максимальный размер файла в %@ для клипов. Вы все еще можете просмотреть и сохранить ваш файл.";
@@ -3052,6 +3078,7 @@
 "Your session has expired due to inactivity. Please log in again to continue." = "Ваша сессия истекла из-за неактивности. Пожалуйста, войдите снова, чтобы продолжить.";
 "Your session has expired due to inactivity. You'll need to verify your account again." = "Ваша сессия истекла из-за неактивности. Вам необходимо снова подтвердить ваш аккаунт.";
 "Your sharing has been stopped." = "Ваш общий доступ был прекращён.";
+"Your status will automatically update to Out of Office every weekend." = "Ваш статус будет автоматически обновляться на «Вне офиса» каждые выходные.";
 "Your turn to sign" = "Ваша очередь подписывать";
 "You’ll be added as a viewer" = "Вы будете добавлены в качестве зрителя";
 "You’ll be notified after each person signs." = "Вы будете уведомлены после подписания документ всеми ответственными лицами.";
@@ -3071,6 +3098,7 @@
 "You’ve already attached the maximum number of files. (50/50)" = "Вы уже прикрепили максимальное количество файлов. (50/50)";
 "You’ve already invited the maximum number of members to this workspace." = "Вы уже пригласили максимальное количество участников в это рабочее место.";
 "Zoom" = "Zoom";
+"Zoom Meeting" = "Конференция Zoom";
 "[Audio]" = "[Аудио]";
 "[Deleted User]" = "[Пользователь удалён]";
 "all assignees" = "все назначенные пользователи";

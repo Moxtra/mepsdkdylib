@@ -9,7 +9,6 @@
 "%@ Action Items" = "%@ Elementos de acción";
 "%@ Approver" = "%@ Responsable de aprobación";
 "%@ Approvers" = "%@ Responsables de aprobación";
-"%@ Assignee" = "%@ Asignado";
 "%@ Assignees" = "%@ asignados";
 "%@ Bots" = "%@ Bots";
 "%@ Client" = "%@ Cliente";
@@ -23,6 +22,8 @@
 "%@ File" = "Archivo %@";
 "%@ File Size Reached" = "Tamaño de archivo %1$@ alcanzado";
 "%@ Guests" = "%@ invitados";
+"%@ Item" = "%@ Artículo";
+"%@ Items" = "%@ artículos";
 "%@ Meeting" = "%@ Reunión";
 "%@ Meetings Started" = "%@ Reuniones iniciadas";
 "%@ Member" = "%@ Miembro";
@@ -34,6 +35,7 @@
 "%@ More Workspace" = "%@ espacio de trabajo más";
 "%@ More Workspaces" = "%@ más espacios de trabajo";
 "%@ New" = "%@ Nuevo";
+"%@ New Message" = "%@ nuevos mensajes";
 "%@ New Messages" = "%@ Nuevos mensajes";
 "%@ Pages Remaining" = "%@ páginas restantes";
 "%@ Participant" = "%@ Participante";
@@ -48,7 +50,6 @@
 "%@ Steps" = "%@ pasos";
 "%@ Total" = "%@ Total";
 "%@ Users" = "%@ usuarios";
-"%@ Viewer" = "%@ espectador";
 "%@ Viewers" = "%@ espectadores";
 "%@ Week" = "%@ semana";
 "%@ Weeks" = "%@ semanas";
@@ -89,6 +90,7 @@
 "%@ added this Time Booking." = "%@ agregó esta reserva de tiempo.";
 "%@ added this To-Do." = "%@ agregó esta Tarea Pendiente.";
 "%@ added this Wait action." = "%@ agregó esta acción de espera.";
+"%@ and %@" = "%1$@ y %2$@";
 "%@ and %@ have been added to your team." = "%1$@ y %2$@ se han añadido a su equipo.";
 "%@ and %@ others have been added to your team." = "%1$@ y otros %2$@ se han añadido a su equipo.";
 "%@ and others are typing…" = "%@ y otros están escribiendo...";
@@ -124,6 +126,12 @@
 "%@ assigned to %@." = "%1$@ asignado a %2$@.";
 "%@ assigned to %@: %@" = "%1$@ asignado a %2$@: %3$@";
 "%@ assigned to you" = "%@ asignado a usted";
+"%@ awaiting review" = "%@ en espera de revisión";
+"%@ awaiting review." = "%@ en espera de revisión.";
+"%@ awaiting review: %@" = "%1$@ en espera de revisión: %2$@";
+"%@ awaiting your review" = "%@ esperando tu revisión";
+"%@ awaiting your review." = "%@ esperando tu revisión.";
+"%@ awaiting your review: %@" = "%1$@ esperando tu revisión: %2$@";
 "%@ awaits preparation" = "%@ espera preparación";
 "%@ awaits preparation." = "%@ espera preparación.";
 "%@ awaits preparation: %@" = "%1$@ espera preparación: %2$@";
@@ -466,6 +474,7 @@
 "Access denied" = "Se negó el acceso";
 "Access your Portal URL by entering the verification code we just sent to %@" = "Acceda a la URL de su portal ingresando el código de verificación que acabamos de enviar a %@";
 "Account" = "Cuenta";
+"Account Connection" = "Conexión de cuenta";
 "Account Creation Failed" = "Creación de cuenta fallida";
 "Account Deleted" = "Cuenta eliminada";
 "Account Settings" = "Configuración de la cuenta";
@@ -501,8 +510,9 @@
 "Action assigned to you" = "Acción asignada a ti";
 "Action due soon" = "Acción próxima a vencer";
 "Action due today" = "Acción prevista para hoy";
-"Action in Progress" = "Acción en progreso";
+"Action in progress" = "Acción en progreso";
 "Action not started" = "Acción no iniciada";
+"Action not started; referenced data is being processed." = "Acción no iniciada; los datos referenciados están siendo procesados.";
 "Action overdue (%@)" = "Acción vencida (%@)";
 "Action required from @%@" = "Acción requerida de @%1$@";
 "Action skipped" = "Acción omitida";
@@ -544,7 +554,6 @@
 "Add Signers" = "Agregar firmantes";
 "Add User" = "Añadir usuario";
 "Add Viewers" = "Añadir espectadores";
-"Add Viewers (Optional)" = "Añadir espectadores (opcional)";
 "Add Yourself" = "Añadirse a usted mismo";
 "Add a Role" = "Agregar un Rol";
 "Add a To-Do" = "Añadir una tarea pendiente";
@@ -552,23 +561,25 @@
 "Add a brief description for all workspace members to see" = "Añade una breve descripción para que todos los miembros del espacio de trabajo la vean.";
 "Add a role" = "Agregar un rol";
 "Add additional participants who will be part of the flow." = "Añadir participantes adicionales que formarán parte del flujo.";
+"Add agenda" = "Agregar agenda";
 "Add description" = "Añadir descripción";
 "Add distribution list" = "Agregar lista de distribución";
 "Add files" = "Añadir archivos";
 "Add information regarding the purpose of booking this time" = "Agregar información sobre el propósito de reservar esta vez.";
+"Add location" = "Agregar ubicación";
 "Add portals to resume working with your team" = "Agrega portales para reanudar el trabajo con tu equipo.";
 "Add roles that represent people who will need to take action in this flow." = "Agregue roles que representen a las personas que necesitarán tomar medidas en este flujo.";
 "Add roles to this workspace" = "Agregar roles a este espacio de trabajo";
 "Add signers to continue" = "Agregar firmantes para continuar";
 "Add the information below to get started!" = "¡Añada la información a continuación para comenzar!";
 "Add to Contacts" = "Añadir a Contactos";
-"Add to calendar" = "Añadir al calendario";
 "Add useful information about your DocuSign" = "Agrega información útil sobre tu DocuSign";
 "Add useful information about your decision" = "Agrega información útil sobre tu decisión";
 "Add useful information about your e-sign" = "Agregue información útil sobre su firma electrónica";
 "Add useful information about your request" = "Agrega información útil sobre tu solicitud";
 "Add useful information regarding your conditional branch." = "Agrega información útil sobre tu rama condicional.";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "Agregar espectadores a este espacio de trabajo para incluir personas a las que no se les ha asignado una acción en este flujo.";
+"Add your meeting topic" = "Añada el tema de su reunión";
 "Added" = "Agregado";
 "Added Successfully" = "Se añadió con éxito";
 "Added a checklist %@" = "Se añadió la lista de verificación %@";
@@ -602,11 +613,13 @@
 "All comments and other activity on this file will also be deleted." = "Todos los comentarios y otras actividades en este archivo también se eliminarán";
 "All completed actions will appear here." = "Todas las acciones completadas aparecerán aquí.";
 "All participants have declined the invitation." = "Todos los participantes han declinado la invitación.";
+"All participants must be admitted by the host" = "Todos los participantes deben ser admitidos por el anfitrión";
 "All recurring meetings will be deleted." = "Se eliminarán todas las reuniones recurrentes.";
 "All the replies to this comment will be deleted as well." = "También se eliminarán todas las respuestas a este comentario.";
 "All updates on clients, actions, and other account info will appear here." = "Todas las actualizaciones sobre Cliente, acciones y otra información de la cuenta aparecerán aquí.";
 "All your tasks in one place" = "Todas sus tareas en un solo lugar";
 "Allow" = "Permitir";
+"Allow Decline Option" = "Permitir opción de rechazo";
 "Allows anyone with the link to join as an internal user." = "Permite que cualquiera que tenga el enlace se una como usuario interno.";
 "Allows you to email content directly into this workspace." = "Le permite enviar contenido por correo electrónico directamente a este espacio de trabajo.";
 "Alphabetically" = "Alfabéticamente";
@@ -616,6 +629,8 @@
 "An Update Is Required" = "Debe actualizar";
 "An agent will respond when one is available." = "Deje cualquier mensaje a continuación.";
 "An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace." = "Ya se ha ejecutado una ruta alternativa. Este %@ ha sido omitido, por lo que sus cambios no pueden guardarse. Será redirigido de vuelta al espacio de trabajo.";
+"An assignee is required for %@. Please select one for this role." = "Se requiere un asignado para %@. Por favor, selecciona uno para este rol.";
+"An assignee is required for DocuSign. Please select one for this role." = "Se requiere un asignado para DocuSign. Por favor, seleccione uno para este rol.";
 "An email is required to use DocuSign integration. An admin can add an email to their account." = "Se requiere un correo electrónico para usar la integración de DocuSign. Un administrador puede añadir un correo electrónico a su cuenta.";
 "An external user with access to invited workspaces only." = "Un usuario externo que solo puede acceder a los espacios de trabajo invitados.";
 "An internal user with the ability to create and manage new workspaces in your portal." = "Un usuario interno con la capacidad de crear y gestionar nuevos espacios de trabajo en su portal.";
@@ -635,7 +650,6 @@
 "Anyone with the link" = "Cualquiera con el link";
 "Anyone with the meeting link can join" = "Cualquier persona que tenga el enlace de la reunión puede unirse";
 "Anyone with the meeting link can join all future recurring meetings from the same link without approval. We recommend enabling the waiting room for your security." = "Cualquiera con el enlace de la reunión puede unirse a todas las futuras reuniones recurrentes desde el mismo enlace sin necesidad de aprobación. Recomendamos activar la sala de espera para su seguridad.";
-"Anyone with the meeting link will need to be approved by the host to join" = "Cualquiera con el enlace de la reunión necesitará ser aprobado por el anfitrión para unirse.";
 "Anything assigned to you will appear here so you can easily stay on top of things." = "Todo lo que se le asigne aparecerá aquí para que pueda estar al tanto de las cosas fácilmente.";
 "App" = "Aplicación";
 "Apple login disabled" = "Inicio de sesión de Apple deshabilitado";
@@ -667,8 +681,9 @@
 "Archive" = "Archivo";
 "Archive %@ Workspaces?" = "¿Archivar %@ espacios de trabajo?";
 "Archive Workspace" = "Espacio de trabajo de archivo";
-"Archive workspace for everyone" = "Archivar espacio de trabajo para todos";
-"Archive workspace for yourself" = "Archiva el espacio de trabajo para ti";
+"Archive for All Internal Users" = "Archivo para todos los usuarios internos";
+"Archive for All Members" = "Archivo para todos los miembros";
+"Archive for Yourself" = "Archivar para ti mismo";
 "Archived" = "Archivado";
 "Archived Workspaces" = "Espacios de trabajo archivados";
 "Archiving allows you to hide workspaces from your timeline. If any new activity occurs in the workspace, it will automatically unarchive." = "Archivar le permite ocultar espacios de trabajo de su línea de tiempo. Si ocurre alguna actividad nueva en el espacio de trabajo, se desarchivará automáticamente.";
@@ -686,6 +701,8 @@
 "Are you sure you want to remove “%@” from this workspace?" = "¿Estás seguro de que quieres eliminar a “%@” de este espacio de trabajo?";
 "Are you sure you want to start the meeting before its scheduled time?" = "¿Está seguro de que quiere empezar la reunión antes de la hora prevista?";
 "Arrow" = "Flecha";
+"As the workspace owner, please select the range to archive:" = "Como propietario del espacio de trabajo, seleccione el rango a archivar:";
+"As the workspace owner, please select the range to unarchive:" = "Como propietario del espacio de trabajo, por favor seleccione el rango para desarchivar:";
 "Asia Pacific" = "Asia Pacífico";
 "Ask the client to send a message to reactivate this workspace." = "Solicite al cliente que envíe un mensaje para reactivar este espacio de trabajo.";
 "Assign" = "Asignar";
@@ -730,13 +747,7 @@
 "Background Color" = "Color de fondo";
 "Backup User" = "Usuario de respaldo";
 "Baidu Maps" = "Mapas de Baidu";
-"Because certain actions do not allow a client group to be assigned, you can’t reassign to this group." = "Debido a que ciertas acciones no permiten que se asigne un grupo de clientes, no puedes reasignar a este grupo.";
-"Because certain actions do not allow a client group to be assigned, you can’t select one for this role." = "Debido a que ciertas acciones no permiten que se asigne un grupo de clientes, no puedes seleccionar uno para este rol.";
-"Because certain actions do not allow a team to be assigned, you can’t reassign to this team." = "Debido a que ciertas acciones no permiten que se asigne un equipo, no puedes reasignar a este equipo.";
-"Because certain actions do not allow a team to be assigned, you can’t select a team for this role." = "Debido a que ciertas acciones no permiten que se asigne un equipo, no puedes seleccionar un equipo para este rol.";
-"Before leaving, please reassign your pending actions to another person." = "Antes de salir, reasigne sus acciones pendientes a otra persona.";
 "Before leaving, please reassign your pending actions to someone else." = "Antes de irte, por favor reasigna tus acciones pendientes a otra persona.";
-"Before removing, please reassign their pending actions to another person." = "Antes de eliminar, reasigne sus acciones pendientes a otra persona.";
 "Before removing, please reassign their pending actions to someone else." = "Antes de eliminar, por favor reasigne sus acciones pendientes a otra persona.";
 "Below are the previous invitations sent to this email address." = "A continuación se muestran las invitaciones anteriores enviadas a esta dirección de correo electrónico.";
 "Beneficiary" = "Beneficiario";
@@ -796,7 +807,7 @@
 "Cannot Delete Role" = "No se puede eliminar el rol";
 "Cannot Leave Workspace" = "No puede salir del espacio de trabajo";
 "Cannot Remove Assignee" = "No se puede eliminar al asignado";
-"Cannot delete this role. Please assign its pending actions to someone else." = "No se puede eliminar este rol. Por favor, asigne sus acciones pendientes a otra persona.";
+"Cannot delete this role. Please assign its actions to someone else." = "No se puede eliminar este rol. Por favor, asigne sus acciones a otra persona.";
 "Cannot open this file" = "No es posible abrir este archivo";
 "Cannot select this option while the current assignee is a client." = "No se puede seleccionar esta opción mientras el asignado actual sea un cliente.";
 "Cannot select video." = "No se puede seleccionar el video.";
@@ -823,7 +834,6 @@
 "Choose a data center" = "Elija un centro de datos";
 "Choose a date..." = "Elija una fecha…";
 "Choose a password that is unique and not easy to guess." = "Elija una contraseña que sea única y no sea fácil de adivinar.";
-"Choose a time to reschedule" = "Elija una hora para reprogramar";
 "Choose application" = "Elija aplicación";
 "Choose from Library" = "Elija de la biblioteca";
 "Choose how many assignees are required to upload a file for completion." = "Elija cuántos asignados se requieren para subir un archivo para su finalización.";
@@ -837,12 +847,12 @@
 "Click below to join the rest of your team on the %@ Portal" = "Haga clic abajo para unirse al resto de su equipo en el portal de %@";
 "Click the link below to join me on %@ for dedicated support and service" = "Haga clic en el enlace que aparece a continuación para unirse a mí en %@ para recibir asistencia y servicios personalizados";
 "Click the link below to join me on the %@ Portal for dedicated support and service" = "Haga clic en el enlace que aparece a continuación para unirse a mí en el portal de %@ para recibir asistencia y servicios personalizados";
+"Click to connect" = "Haz clic para conectar";
 "Client" = "Cliente";
 "Client Assigned to You" = "Cliente asignado a ti";
 "Client Blocked Account" = "El cliente bloqueó la cuenta";
 "Client Group" = "Grupo de clientes";
 "Client Groups" = "Grupos de clientes";
-"Client Groups (Optional)" = "Grupos de clientes (opcional)";
 "Client ID" = "ID del cliente";
 "Client Left Workspace" = "El cliente abandonó el espacio de trabajo";
 "Client Login" = "Inicio de sesión de cliente";
@@ -861,6 +871,7 @@
 "Close and Sign Later" = "Cerrar y firmar más tarde";
 "Closed" = "Cerrado";
 "Closed (Special Hours)" = "Cerrado (Horario Especial)";
+"Cloud" = "Nube";
 "Co-Browse" = "Conavegar";
 "Co-Browsing Session Ended" = "Fin de la sesión de conavegación";
 "Co-browsing is already in progress." = "La co-navegación ya está en curso.";
@@ -879,17 +890,16 @@
 "Confirm Deletion" = "Confirmar eliminación";
 "Confirm Details" = "Confirmar detalles";
 "Confirm Disconnect" = "Confirmar Desconexión";
+"Confirm Disconnection" = "Confirmar desconexión";
 "Confirm Invitation" = "Confirmar invitación";
 "Confirm the following to permanently delete your account." = "Confirme lo siguiente para eliminar permanentemente su cuenta.";
 "Confirm your current password to continue." = "Confirme su contraseña actual para continuar.";
 "Confirmed" = "Confirmada";
 "Connect" = "Conectar";
 "Connect with DocuSign" = "Conéctese con DocuSign";
-"Connect with Zoom" = "Conéctese con Zoom";
 "Connect with me on my app by clicking the link below:" = "Conéctate conmigo en mi aplicación haciendo clic en el enlace a continuación:";
 "Connect with people by using your QR code." = "Conéctate con personas usando tu código QR.";
 "Connect your DocuSign account to use templates." = "Conecte su cuenta de DocuSign para usar plantillas.";
-"Connect your Zoom account to schedule meetings" = "Conecte su cuenta de Zoom para programar reuniones";
 "Connected" = "Conectado";
 "Connected Successfully" = "Conectado con éxito";
 "Connecting you with our live support…" = "Conectándole con nuestro soporte en vivo…";
@@ -956,7 +966,6 @@
 "Currency" = "Moneda";
 "Current %@ Was Deleted" = "%@ actual fue eliminado";
 "Current %@ already completed" = "%@ actual ya completado";
-"Current %@ was completed" = "El %@ actual fue completado.";
 "Current Action Was Deleted" = "La acción actual fue eliminada";
 "Current Page" = "Página actual";
 "Current Step Was Removed" = "Se eliminó el paso actual";
@@ -1093,7 +1102,6 @@
 "Dropdown List" = "Lista desplegable";
 "Due" = "Vence";
 "Due %@ %@" = "Vence %1$@ %2$@";
-"Due (%@ after creation)" = "Vence (%@ después de crearse)";
 "Due (%@ after start)" = "Vence (%@ después de empezar)";
 "Due Date" = "Fecha de vencimiento";
 "Due Today" = "Vence hoy";
@@ -1130,17 +1138,12 @@
 "EXPIRY DATE" = "FECHA DE VENCIMIENTO";
 "Edit" = "Editar";
 "Edit %@" = "Editar %@";
-"Edit Acknowledgement" = "Editar confirmación";
-"Edit Approval" = "Editar aprobación";
 "Edit Availability" = "Editar disponibilidad";
 "Edit Clients" = "Editar clientes";
 "Edit Content" = "Contenido editado";
 "Edit Email Address" = "Editar dirección de correo electrónico";
-"Edit File Request" = "Editar solicitud de archivo";
-"Edit Form" = "Editar formulario";
 "Edit General Availability" = "Editar disponibilidad general";
 "Edit Group Assignment" = "Editar asignación de grupo";
-"Edit Jumio" = "Editar Jumio";
 "Edit Jumio details" = "Editar detalles de Jumio";
 "Edit Label" = "Editar etiqueta";
 "Edit Link Security" = "Editar seguridad del enlace";
@@ -1150,14 +1153,12 @@
 "Edit Phone Number" = "Editar número de teléfono";
 "Edit Portal" = "Editar portal";
 "Edit Profile" = "Editar perfil";
-"Edit Properties" = "Editar propiedades";
 "Edit Recurring Meeting" = "Editar Reunión Recurrente";
 "Edit Reminder" = "Editar recordatorio";
 "Edit Status" = "Editar estado";
-"Edit Step" = "Editar paso";
 "Edit Tags" = "Editar etiquetas";
 "Edit Time Booking" = "Editar reserva de tiempo";
-"Edit To-Do" = "Editar tareas pendientes";
+"Edit Variables" = "Editar variables";
 "Edit Welcome Message" = "Editar el mensaje de bienvenida";
 "Edit Workspace" = "Editar espacio de trabajo";
 "Edit distribution list" = "Editar lista de distribución";
@@ -1182,7 +1183,8 @@
 "Enable Touch ID for Login" = "Habilitar Touch ID para iniciar sesión";
 "Enable Voice" = "Habilitar voz";
 "Enable Voice..." = "Habilitar voz...";
-"Enable Waiting Room" = "Habilitar sala de espera";
+"Enable Waiting Room for All" = "Activar sala de espera para todos";
+"Enable Waiting Room for Guests" = "Activar sala de espera para invitados";
 "Enabled" = "Activado";
 "End" = "Fin";
 "End & Accept" = "Finalizar y aceptar";
@@ -1208,7 +1210,6 @@
 "Enter the email or phone number associated with your account to continue." = "Ingrese el correo electrónico o número de teléfono asociado con su cuenta para continuar.";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "Ingrese la contraseña para desbloquear el archivo. Una vez desbloqueado, todos podrán verlo.";
 "Enter the question" = "Ingrese la pregunta";
-"Enter the question " = "Ingrese la pregunta";
 "Enter user details and send an invitation from the app." = "Ingrese los detalles del usuario y envíe una invitación desde la aplicación.";
 "Enter verification code" = "Introduzca código de verificación";
 "Enter your name" = "Introduzca su nombre";
@@ -1227,10 +1228,12 @@
 "Event" = "Evento";
 "Every" = "Cada";
 "Every %@ days." = "Cada %1$@ días.";
+"Every Weekend" = "Cada fin de semana";
 "Every day." = "Todos los días.";
 "Exclude Weekends" = "Excluir fines de semana";
 "Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "Ejecutar la rama 1 cuando [color=%@][b]todas las reglas coincidan[/b][/color]:";
 "Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "Ejecutar la rama 1 cuando [color=%@][b]cualquier regla coincida[/b][/color]:";
+"Execution Order" = "Orden de Ejecución";
 "Extension" = "Extensión";
 "External Calendar Meeting" = "Reunión en Calendario Externo";
 "Extra Participants" = "Participantes adicionales";
@@ -1361,7 +1364,7 @@
 "Get direct access to %@ and %@’s services on mobile." = "Obtenga acceso directo a %1$@ y los servicios de %2$@ en el móvil.";
 "Get started" = "Empezar";
 "Get started with 40+ industry templates used by thousands of businesses." = "Comience con más de 40 plantillas industriales utilizadas por miles de empresas.";
-"Give external users the option to add this person to your workspaces if they need support while you’re out of office." = "Dale a los usuarios externos la opción de agregar a esta persona a tus espacios de trabajo si necesitan apoyo mientras estás fuera de la oficina.";
+"Give clients the option to add this person to your workspaces if they need support while you're out of the office." = "Dale a los clientes la opción de agregar a esta persona a tus espacios de trabajo si necesitan apoyo mientras estás fuera de la oficina.";
 "Gmail" = "Gmail";
 "Go Back" = "Volver atrás";
 "Go to Content Gallery" = "Ir a la galería de contenido";
@@ -1378,6 +1381,7 @@
 "Group Workspace" = "Espacio de trabajo grupal";
 "Groups & Topics" = "Grupos y temas";
 "Guest" = "Invitado";
+"Guests joining via the meeting link must be admitted by the host" = "Los invitados que se unan mediante el enlace de la reunión deben ser admitidos por el anfitrión.";
 "Have an account?" = "¿Tiene una cuenta?";
 "Heads up!" = "¡Atención!";
 "Help & Support" = "Servicio de asistencia";
@@ -1426,14 +1430,17 @@
 "Identity Verification due today" = "Verificación de identidad vence hoy";
 "Identity Verification overdue (%@)" = "Verificación de identidad vencida (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "La verificación de identidad se ha desactivado temporalmente por motivos de seguridad. Inténtelo más tarde.";
+"If an end date is selected, Out of Office will automatically turn off after that date." = "Si se selecciona una fecha de finalización, el modo \"Fuera de la oficina\" se desactivará automáticamente después de esa fecha.";
 "If enabled, a file reviewer will be required to review the files that are uploaded." = "Si está habilitado, se requerirá que un revisor de archivos revise los archivos que se suban.";
 "If enabled, the assignee must open all attachments before acknowledging." = "Si está habilitado, el asignado debe abrir todos los adjuntos antes de reconocer.";
+"If enabled, the assignee will have the option to decline this action. If declined, the action creator will be assigned as a reviewer to determine the next steps." = "Si está habilitado, el asignado tendrá la opción de rechazar esta acción. Si se rechaza, el creador de la acción será asignado como revisor para determinar los siguientes pasos.";
 "If enabled, the preparer will be required to edit this action at runtime before it is ready for other assignees to take action." = "Si está habilitado, se requerirá que el preparador edite esta acción en tiempo de ejecución antes de que esté lista para que otros asignados actúen.";
 "If enabled, this action can be completed in parallel with the previous action in the flow." = "Si está habilitado, esta acción se puede completar en paralelo con la acción anterior en el flujo.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Si está habilitado, mostraremos la portada del flujo cada vez que abra un espacio de trabajo de flujo por primera vez.";
 "If reopened, the assignee will need to resubmit the files." = "Si se reabre, el asignado deberá volver a enviar los archivos.";
 "If they don't have an account, they will be directed to sign up to start collaborating on your flow." = "Si no tienen una cuenta, serán dirigidos a registrarse para comenzar a colaborar en tu flujo.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be affected by this." = "Si desconectas tu cuenta de DocuSign, los asignados no podrán acceder ni firmar ningún documento pendiente creado con esta cuenta. Los documentos completados no se verán afectados por esto.";
+"If you disconnect your Zoom account, meetings that were created through the account will not be editable or deletable." = "Si desconecta su cuenta de Zoom, las reuniones que fueron creadas a través de la cuenta no podrán ser editadas ni eliminadas.";
 "If you disconnect, we will no longer be able to check your availability on this calendar." = "Si te desconectas, ya no podremos verificar tu disponibilidad en este calendario.";
 "If you go back, any changes you’ve made on this page will be lost. Are you sure you want to go back?" = "Si regresa, se perderán todos los cambios que haya realizado en esta página. ¿Está seguro de que quiere volver?";
 "If you have any urgent issues, feel free to chat with %@." = "Si tiene algún problema urgente, no dude en chatear con %@.";
@@ -1471,7 +1478,6 @@
 "Insert Image" = "Insertar enlace";
 "Insert Link" = "Insertar link";
 "Instant Flow" = "Flujo instantáneo";
-"Instant Flows" = "Flujos instantáneos";
 "Instructions" = "Instrucciones";
 "Integrations" = "Integraciones";
 "Internal" = "Interna";
@@ -1538,6 +1544,7 @@
 "Last activity at %@" = "Última actividad en %@";
 "Last activity on %@" = "Última actividad el %@";
 "Last invitation sent %@" = "Última invitación enviada %@";
+"Last modified" = "Última modificación";
 "Last seen: %@" = "Visto por última vez: %@";
 "Last seen: %@d ago" = "Visto por última vez: Hace %@ días";
 "Last seen: %@h ago" = "Visto por última vez: Hace %@ horas";
@@ -1565,10 +1572,12 @@
 "Link Preview Removed" = "Se eliminó la vista previa del enlace";
 "Link Refreshed" = "Se actualizó el enlace";
 "Load More" = "Cargar más";
+"Loading Account" = "Cargando cuenta";
 "Loading address..." = "Cargando dirección...";
 "Loading your account..." = "Cargando su cuenta…";
 "Loading your content…" = "Cargando su contenido…";
 "Loading..." = "Cargando...";
+"Local computer" = "Computadora local";
 "Location" = "Ubicación";
 "Lock Meeting Access" = "Bloquear acceso a la reunión";
 "Log In" = "Iniciar sesión";
@@ -1577,7 +1586,6 @@
 "Log in here" = "Inicie sesión aquí";
 "Log in to %@" = "Inicie sesión en %@";
 "Log in to connect" = "Iniciar sesión para conectarse";
-"Log in to connect to %@" = "Inicie sesión para conectarse a %@";
 "Log in to connect to DocuSign" = "Inicia sesión para conectarte a DocuSign.";
 "Log in to your portal" = "Inicie sesión en su portal";
 "Log into %@" = "Ingrese a %@";
@@ -1591,6 +1599,7 @@
 "MIA" = "Unirse";
 "MIM" = "%1$@: Llamando a la reunión. Únase.";
 "MON" = "LUN";
+"MS Teams Meeting" = "Reunión de MS Teams";
 "Make Host" = "Crear anfitrión";
 "Make Presenter" = "Crear presentador";
 "Make your business flow with digital interaction workspaces" = "Haz que tu negocio fluya con espacios de trabajo de interacción digital.";
@@ -1622,6 +1631,7 @@
 "Meeting Invite" = "Invitación a reunión";
 "Meeting Link" = "Enlace de reunión";
 "Meeting Link Detected" = "Se detectó enlace de reunión";
+"Meeting Options" = "Opciones de reunión";
 "Meeting Password" = "Contraseña de la reunión";
 "Meeting Password (Required)" = "Contraseña de la reunión (requerida)";
 "Meeting Password:" = "Contraseña de la reunión:";
@@ -1631,6 +1641,8 @@
 "Meeting Security" = "Seguridad en las reuniones";
 "Meeting Started" = "Reunión iniciada";
 "Meeting Topic" = "Tema de la reunión";
+"Meeting Topic*" = "Tema de la reunión*";
+"Meeting Type" = "Tipo de reunión";
 "Meeting Update" = "Reunión actualizada";
 "Meeting ended" = "Reunión terminada";
 "Meeting in Progress" = "Reunión en progreso";
@@ -1638,6 +1650,7 @@
 "Meeting start time" = "Hora de inicio de la reunión";
 "Meeting successfully updated." = "La reunión se actualizó correctamente.";
 "Meeting transferred to you" = "Reunión transferida a usted";
+"Meeting via Zoom" = "Reunión por Zoom";
 "Meetings" = "Reuniones";
 "Meetings can only last up to %@ hours." = "Las reuniones pueden durar un máximo de %@ horas.";
 "Member Limit Reached" = "Límite de miembros alcanzado";
@@ -1676,6 +1689,7 @@
 "Move to..." = "Mover a...";
 "Moving..." = "Moviendo...";
 "Moxo" = "Moxo";
+"Moxo Meeting" = "Reunión de Moxo";
 "Must be invited and logged in to join" = "Para unirse, tiene que estar invitado y haber iniciado sesión";
 "Must enter the meeting password to join" = "Debe introducir la contraseña de la reunión para poder unirse";
 "Mute" = "Silencio micro";
@@ -1709,7 +1723,6 @@
 "New Group Workspace" = "Nuevo espacio de trabajo grupal";
 "New Jumio" = "Nuevo Jumio";
 "New Message" = "Nuevo mensaje";
-"New Message..." = "Nuevo mensaje";
 "New Messages" = "Nuevos mensajes";
 "New One-on-One Workspace" = "Nuevo espacio de trabajo uno a uno";
 "New Password" = "Contraseña nueva";
@@ -1731,6 +1744,7 @@
 "No Client Groups" = "No hay grupos de clientes";
 "No Clients" = "No hay clientes";
 "No Contacts" = "No hay contactos";
+"No Content Yet" = "Sin contenido todavía";
 "No Due Date" = "Sin fecha de vencimiento";
 "No Internal Teams" = "No hay equipos internos";
 "No Internet Connection" = "Sin conexión a Internet";
@@ -1763,14 +1777,15 @@
 "No extra participants yet" = "Aún no hay participantes adicionales";
 "No meeting" = "No hay reunión";
 "No meetings" = "No hay reuniones";
-"No members have joined" = "Ningún miembro se ha unido";
 "No new actions need to be added" = "No es necesario agregar nuevas acciones";
+"No participants yet" = "Aún no hay participantes";
 "No pending approvals" = "No hay aprobaciones pendientes.";
 "No personalized message will be displayed" = "No se mostrará ningún mensaje personalizado";
 "No reminder" = "Sin recordatorio";
 "No results on the current page" = "No hay resultados en la página actual";
 "No transactions match this search" = "No se encontraron transacciones que coincidan con esta búsqueda";
 "No viewers yet" = "Aún no hay espectadores";
+"Non-Templated Flows" = "Flujos No Plantillados";
 "None" = "Ninguna";
 "Not Joined" = "Sin unirse";
 "Not Recognized" = "No se reconoció";
@@ -1792,12 +1807,13 @@
 "Office Hours" = "Horario de oficina";
 "Office hours shown in (%@) %@" = "El horario de oficina se muestra en (%1$@) %2$@";
 "Offline" = "Sin conexión";
+"Offline Meeting" = "Reunión sin conexión";
+"Offline meeting started" = "Reunión sin conexión iniciada";
 "On" = "Act.";
 "On Date" = "A tiempo";
 "On the local computer" = "En la computadora local";
 "Onboarding for {Client Name}" = "Incorporación para {Nombre del Cliente}";
 "Once preparation is turned off in the workspace, it cannot be turned on again. Are you sure you want to continue?" = "Una vez que se desactive la preparación en el espacio de trabajo, no se podrá activar de nuevo. ¿Estás seguro de que quieres continuar?";
-"Once removed, this user will not be able to join the meeting via the link." = "Una vez eliminado, este usuario no podrá unirse a la reunión mediante el enlace.";
 "Once the assignee has submitted files, this user will be asked to review and confirm them before completion." = "Una vez que el asignado haya enviado los archivos, se le pedirá a este usuario que los revise y confirme antes de completarlos.";
 "One file was not attached." = "Un archivo no se ha adjuntado.";
 "One-on-One Workspace" = "Espacio de trabajo uno a uno";
@@ -1835,6 +1851,7 @@
 "Other Activities" = "Otras actividades";
 "Other SSO" = "Otro SSO";
 "Other Settings" = "Otros ajustes";
+"Others" = "Otros";
 "Out of Office" = "Fuera de la oficina";
 "Outlook Calendar" = "Calendario de Outlook";
 "Oval" = "Oval";
@@ -1892,6 +1909,7 @@
 "Please click below to contact us and request an invitation." = "Haga clic a continuación para contactarnos y solicitar una invitación.";
 "Please click below to create your account." = "Haga clic a continuación para crear la cuenta.";
 "Please click the button below to finish creating your account." = "Haga clic en el botón de abajo para finalizar la creación de la cuenta.";
+"Please connect your %@ account to continue" = "Por favor, conecte su cuenta de %@ para continuar.";
 "Please connect your DocuSign account to access templates." = "Conecte su cuenta de DocuSign para acceder a las plantillas.";
 "Please contact the administrator of your portal to continue." = "Póngase en contacto con el administrador de su portal para continuar.";
 "Please contact the host and request an invitation to join." = "Contacte con el anfitrión y solicite la invitación para unirse.";
@@ -1923,6 +1941,7 @@
 "Please update to the latest version of the app to view this message. Your version of the app doesn't support this message type." = "Por favor, actualice a la última versión de la aplicación para ver este mensaje. Su versión de la aplicación no admite este tipo de mensaje.";
 "Please verify your fingerprint" = "Verifique su huella";
 "Please wait 60 seconds before requesting a new verification code" = "Espere 60 segundos antes de solicitar un nuevo código de verificación";
+"Please wait for your account to fully load." = "Por favor, espere a que su cuenta se cargue completamente.";
 "Please wait for your attachments to finish uploading before continuing." = "Espere a que sus archivos adjuntos terminen de cargarse antes de continuar.";
 "Please wait, we're working on it..." = "Espere, estamos trabajando en ello...";
 "Please wait. The host will let you in soon." = "Por favor, espere. El anfitrión lo dejará entrar pronto.";
@@ -1935,6 +1954,7 @@
 "Prepare" = "Preparar";
 "Prepare %@" = "Preparar %@";
 "Prepare to get your business in the flow." = "Prepárese para poner su negocio en marcha.";
+"Preparer*" = "Preparador";
 "Preparing..." = "Preparando...";
 "Presenter" = "Presentador";
 "Preview" = "Vista previa";
@@ -1989,6 +2009,7 @@
 "Recents" = "Recientes";
 "Reconnect" = "Reconectar";
 "Reconnecting..." = "Reconectando...";
+"Record Location" = "Registrar ubicación";
 "Record Meeting" = "Grabar reunión";
 "Record Video Clip" = "Grabar un vídeo";
 "Recording" = "Grabando";
@@ -2017,7 +2038,7 @@
 "Reminder will occur %@ before." = "El recordatorio ocurrirá %@ antes.";
 "Reminder: %@" = "Recordatorio: %@";
 "Remove" = "Eliminar";
-"Remove %@?" = "¿Eliminar %@?";
+"Remove %@ from the meeting waiting room?" = "¿Eliminar a %@ de la sala de espera de la reunión?";
 "Remove Bookmark" = "Eliminar marcador";
 "Remove From Workspace" = "Quitar del espacio de trabajo";
 "Remove Link Preview" = "Eliminar vista previa del enlace";
@@ -2037,7 +2058,6 @@
 "Reopen it to enable replies." = "Vuelva a abrirlo para habilitar las respuestas.";
 "Reopened at %@" = "Reabierto el %@";
 "Reopened on %@" = "Reabierto el %@";
-"Reopening this action will require assignees to review it again, while preserving previous data. Any associated automations will also run again." = "Reabrir esta acción requerirá que los asignados la revisen nuevamente, mientras se conservan los datos anteriores. Cualquier automatización asociada también se ejecutará de nuevo.";
 "Reopening this action will require assignees to review it again." = "Reabrir esta acción requerirá que los asignados la revisen nuevamente.";
 "Repeat" = "Repetir";
 "Repeat every %@ days." = "Repetir cada %@ días.";
@@ -2058,8 +2078,6 @@
 "Require Preparation" = "Requiere Preparación";
 "Required Update Available" = "La actualización requerida está disponible";
 "Required field" = "Campo requerido";
-"Requires Preparation before the Action Can Begin" = "Requiere preparación antes de que pueda comenzar la acción";
-"Reschedule" = "Reprogramar";
 "Rescheduled %@" = "%@ reprogramado";
 "Resend Invitation" = "Reenviar invitación";
 "Resend Invite" = "Reenviar invitación";
@@ -2067,6 +2085,8 @@
 "Reset" = "Reiniciar";
 "Reset (%@)" = "Reiniciar (%@)";
 "Reset Filters" = "Restablecer filtros";
+"Resource Info" = "Información de recursos";
+"Resources" = "Recursos";
 "Response" = "Respuesta";
 "Restart" = "Reanudar";
 "Restart Meeting" = "Reiniciar reunión";
@@ -2125,7 +2145,6 @@
 "Scan" = "Escanear";
 "Scan QR Code" = "Escanear código QR";
 "Scanning..." = "Escaneando...";
-"Schedule" = "Programar";
 "Schedule Meeting" = "Programar reunión";
 "Scheduling Window" = "Ventana de programación";
 "Screen is being shared" = "La pantalla está siendo compartida";
@@ -2209,6 +2228,8 @@
 "Set Automatically" = "Establecer automáticamente";
 "Set Currency to Continue" = "Establezca la moneda para continuar";
 "Set Days" = "Establecer Días";
+"Set Variables" = "Establecer Variables";
+"Set Workspace Variables" = "Establecer variables del espacio de trabajo";
 "Set a minimum amount of time between available time booking slots." = "Establezca una cantidad mínima de tiempo entre los espacios de reserva de tiempo disponibles.";
 "Set a new password" = "Establecer una nueva contraseña";
 "Set date and time for reminder" = "Establecer fecha y hora para el recordatorio";
@@ -2286,6 +2307,8 @@
 "Sorry, you can't present now as another participant has become the presenter." = "Lo sentimos, no puede presentar ahora porque otro participante se ha convertido en el presentador.";
 "Sort by" = "Ordenar por";
 "Sort by %@" = "Ordenar por %@";
+"Sort by Date" = "Ordenar por fecha";
+"Sort by Name" = "Ordenar por nombre";
 "Sort by..." = "Ordenar por...";
 "Special Hours" = "Horas especiales";
 "Speech Bubble" = "Burbuja de diálogo";
@@ -2317,7 +2340,6 @@
 "Step Details (Step %@)" = "Detalles del paso (paso %@)";
 "Step Removed" = "Paso eliminado";
 "Step edited" = "Paso editado";
-"Step in Progress" = "Paso en progreso";
 "Stop Co-Browsing" = "Detener conavegación";
 "Stop Recording" = "Detener grabación";
 "Stop Sharing" = "Dejar de compartir";
@@ -2393,6 +2415,7 @@
 "The account associated with this email address is no longer active." = "La cuenta asociada con esta dirección de correo electrónico ya no está activa.";
 "The account associated with this phone number is no longer active." = "La cuenta asociada con este número de teléfono ya no está activa.";
 "The action is not ready" = "La acción no está lista";
+"The actions within this milestone will start only after the actions in %@ are completed. " = "Las acciones dentro de este hito comenzarán solo después de que se completen las acciones en %@.";
 "The assignee(s) will need to sign again if reopened." = "El (los) cesionario(s) deberá(n) volver a firmar si se vuelve a abrir.";
 "The code is no longer valid. Please request a new code to continue." = "El código ya no es válido. Por favor solicite un nuevo código para continuar.";
 "The date will be recorded in [%@] format" = "La fecha se registrará en formato [%@]";
@@ -2437,6 +2460,7 @@
 "The submitted response will be displayed here." = "La respuesta enviada se mostrará aquí.";
 "The system is busy. Please try again." = "El sistema está ocupado. Por favor, intente de nuevo.";
 "The tag values entered here will apply to any workspace created from this template." = "Los valores de etiqueta ingresados aquí se aplicarán a cualquier espacio de trabajo creado a partir de esta plantilla.";
+"The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "Los valores de las variables ingresados aquí se aplicarán al espacio de trabajo creado. Solo los usuarios internos podrán verlos.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "El espacio de trabajo se archivará automáticamente para todos los miembros una vez que se completen todas las acciones y se alcance el siguiente período de inactividad.";
 "There are no active screen share sessions to join." = "No hay sesiones activas de pantalla compartida para unirse.";
 "There are no other members in this workspace." = "No hay otros miembros en este espacio de trabajo.";
@@ -2464,7 +2488,7 @@
 "This action cannot be reverted and all of your account data will be permanently deleted." = "Esta acción no se puede revertir y todos los datos de su cuenta se eliminarán de forma permanente.";
 "This action cannot be undone" = "Esta acción no se puede deshacer";
 "This action cannot be undone." = "Esta acción no se puede deshacer.";
-"This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost." = "Esta acción ya comenzó y los asignados pueden revisar y actuar en el paso mientras lo edita. Cualquier progreso ya completado se perderá.";
+"This action has already started, and the assignee(s) can review and act on it while you are editing. Any progress already completed will be lost." = "Esta acción ya ha comenzado, y el o los asignados pueden revisarla y actuar mientras usted la está editando. Cualquier progreso ya completado se perderá.";
 "This action has been completed. You will be directed back to the workspace." = "Esta acción ha sido completada. Será redirigido de vuelta al espacio de trabajo.";
 "This action has been completed. You will be returned to the workspace." = "Esta acción se ha completado. Será devuelto al espacio de trabajo.";
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "Esta acción se ha eliminado y su acción ya no es necesaria. Se le dirigirá de nuevo al espacio de trabajo.";
@@ -2505,7 +2529,7 @@
 "This reset password link is no longer valid" = "Este enlace para restablecer la contraseña ya no es válido";
 "This role and any assigned fields will be hidden." = "Este rol y los campos asignados estarán ocultos.";
 "This role cannot be assigned to an integration action." = "Este rol no puede ser asignado a una acción de integración.";
-"This step has already started and the assignee(s) can review and act on it while you are editing. Any progress on already completed steps will be lost." = "Este paso ya ha comenzado y el o los asignados pueden revisarlo y actuar sobre él mientras usted está editando. Cualquier progreso en pasos ya completados se perderá.";
+"This section provides shared resources for easy use within workspaces." = "Esta sección proporciona recursos compartidos para su fácil uso dentro de los espacios de trabajo.";
 "This step has been removed by the owner and your action is no longer required. You will be directed back to the flow workspace." = "El propietario eliminó este paso y ya no se requiere su acción. Se le redirigirá al espacio de trabajo de flujo.";
 "This step has been updated by the owner. Please review the details again before taking action. You will be directed back to the flow workspace." = "Este paso ha sido actualizado por el propietario. Vuelva a revisar los detalles antes de tomar medidas. Se le redirigirá al espacio de trabajo de flujo.";
 "This template has been deleted and is no longer available." = "Esta plantilla ha sido eliminada y ya no está disponible.";
@@ -2559,7 +2583,6 @@
 "To continue, please log in again." = "Para continuar, vuelva a iniciar sesión.";
 "To continue, select a signer for all roles and disable any that you don't need." = "Para continuar, seleccione un firmante para todos los roles y deshabilite aquellos que no necesite.";
 "To continue, select assignees for all fields." = "Para continuar, seleccione los asignados para todos los campos.";
-"To continue, select assignees for all roles." = "Para continuar, seleccione los asignados para todas las funciones.";
 "To create a flow template, please access the Flow Template Library from your desktop." = "Para crear una plantilla de flujo, acceda a la biblioteca de plantillas de flujo desde su escritorio.";
 "To create new DocuSign envelopes, please use the desktop version." = "Para crear nuevos sobres de DocuSign, utilice la versión de escritorio.";
 "To edit your submission, you’ll need to reopen this File Request. Do you want to continue?" = "Para editar su envío, deberá volver a abrir esta solicitud de archivo. ¿Desea continuar?";
@@ -2660,6 +2683,7 @@
 "Unable to co-browse while sharing files." = "No se puede conavegar mientras se comparten archivos.";
 "Unable to complete sign-up" = "No se puede completar el registro";
 "Unable to connect" = "No es posible conectarse";
+"Unable to edit: Meeting not found or account mismatch." = "No se puede editar: Reunión no encontrada o discrepancia en la cuenta.";
 "Unable to establish a connection." = "No es posible establecer una conexión.";
 "Unable to establish sharing connection. Please contact your network administrator." = "No es posible establecer conexión compartida. Póngase en contacto con su administrador de redes.";
 "Unable to establish video connection. Please contact your network administrator." = "No es posible establecer conexión de vídeo. Póngase en contacto con su administrador de redes.";
@@ -2686,8 +2710,9 @@
 "Unable to upload the file %@. Please try again." = "No es posible cargar el archivo %@. Inténtelo de nuevo.";
 "Unarchive" = "Desarchivar";
 "Unarchive Workspace" = "Desarchivar espacio de trabajo";
-"Unarchive workspace for everyone" = "Desarchivar el espacio de trabajo para todos";
-"Unarchive workspace for yourself" = "Desarchivar espacio de trabajo para ti mismo";
+"Unarchive for All Internal Users" = "Desarchivar para todos los usuarios internos";
+"Unarchive for All Members" = "Desarchivar para todos los miembros";
+"Unarchive for Yourself" = "Desarchivar para ti";
 "Unassigned" = "No asignado";
 "Unavailable" = "No disponible";
 "Uncheck" = "Desmarcar";
@@ -2889,6 +2914,7 @@
 "Whole File" = "Todo el archivo";
 "Will Be Added as an Individual Workspace Member" = "Será añadido como un miembro individual del espacio de trabajo";
 "Will be prepared by" = "Será preparado por";
+"Will be reviewed by" = "Será revisado por";
 "Workflow Type" = "Tipo de Flujo de Trabajo";
 "Workspace '%@' will be deactivated" = "El espacio de trabajo '%@' se desactivará";
 "Workspace Deactivated" = "Espacio de trabajo desactivado";
@@ -2900,14 +2926,16 @@
 "Workspace Name" = "Nombre del espacio de trabajo";
 "Workspace Name (Required)" = "Nombre del espacio de trabajo (obligatorio)";
 "Workspace Owner" = "Propietario del espacio de trabajo";
-"Workspace Properties" = "Propiedades del espacio de trabajo";
 "Workspace Tags" = "Etiquetas del espacio de trabajo";
 "Workspace Timed Out" = "Espacio de trabajo agotado";
 "Workspace Type" = "Tipo de espacio de trabajo";
 "Workspace Unarchived" = "Espacio de trabajo desarchivado";
+"Workspace Variables" = "Variables del espacio de trabajo";
 "Workspace archived" = "Espacio de trabajo archivado";
 "Workspace has been deactivated" = "El espacio de trabajo ha sido desactivado.";
+"Workspace tags saved." = "Etiquetas del espacio de trabajo guardadas.";
 "Workspace transferred to you" = "Espacio de trabajo transferido a usted";
+"Workspace variables saved." = "Variables del espacio de trabajo guardadas.";
 "Workspaces" = "Espacios de trabajo";
 "Workspaces archived" = "Espacios de trabajo archivados";
 "Workspaces you are a part of will appear here." = "Los espacios de trabajo de los que formas parte aparecerán aquí.";
@@ -2933,7 +2961,6 @@
 "You are connected." = "Está conectado.";
 "You are controlling the co-browsing session." = "Estás controlando la sesión de co-navegación.";
 "You are controlling the shared screen." = "Estás controlando la pantalla compartida.";
-"You are currently not a part of any workspaces." = "Actualmente no eres parte de ningún espacio de trabajo.";
 "You are currently not part of any workspaces." = "Actualmente no eres parte de ningún espacio de trabajo.";
 "You are logged in as %@" = "Ha iniciado sesión como %@";
 "You are now a manager" = "Ahora usted es administrador";
@@ -3020,7 +3047,6 @@
 "You're all clear!" = "¡Está todo claro!";
 "You're done" = "Ha terminado";
 "You're done!" = "¡Ha terminado!";
-"You're logged in as %@" = "Ha iniciado sesión como %@";
 "You've already added all of your contacts" = "Ya has añadido todos tus contactos";
 "You've already added the maximum number of actions. (%@/200)" = "Ya has añadido el número máximo de acciones. (%@/200)";
 "You've exceeded the maximum file size of %@ for clips. You can still preview and save your file." = "Has superado el tamaño máximo de archivo de %@ para clips. Aún puedes previsualizar y guardar tu archivo.";
@@ -3055,6 +3081,7 @@
 "Your session has expired due to inactivity. Please log in again to continue." = "Tu sesión ha expirado debido a inactividad. Por favor, inicia sesión de nuevo para continuar.";
 "Your session has expired due to inactivity. You'll need to verify your account again." = "Su sesión ha expirado debido a inactividad. Necesitará verificar su cuenta nuevamente.";
 "Your sharing has been stopped." = "Su intercambio se ha detenido.";
+"Your status will automatically update to Out of Office every weekend." = "Su estado se actualizará automáticamente a Fuera de la Oficina todos los fines de semana.";
 "Your turn to sign" = "Su turno para firmar";
 "You’ll be added as a viewer" = "Será agregado como espectador";
 "You’ll be notified after each person signs." = "Será notificado después de que cada persona firme.";
@@ -3074,6 +3101,7 @@
 "You’ve already attached the maximum number of files. (50/50)" = "Ya ha adjuntado el número máximo de archivos. (50/50)";
 "You’ve already invited the maximum number of members to this workspace." = "Ya ha invitado al número máximo de miembros a este espacio de trabajo.";
 "Zoom" = "Zoom";
+"Zoom Meeting" = "Reunión por Zoom";
 "[Audio]" = "[Audio]";
 "[Deleted User]" = "[Usuario eliminado]";
 "all assignees" = "todos los cesionarios";

@@ -9,7 +9,6 @@
 "%@ Action Items" = "%@ активни елементи";
 "%@ Approver" = "%@ одобряващ";
 "%@ Approvers" = "%@ одобряващи";
-"%@ Assignee" = "%@ Изпълнител";
 "%@ Assignees" = "%@ пълномощници";
 "%@ Bots" = "%@ бота";
 "%@ Client" = "%@ Клиент";
@@ -23,6 +22,8 @@
 "%@ File" = "%@ Файл";
 "%@ File Size Reached" = "Достигнат размер на файла %1$@";
 "%@ Guests" = "%@ гости";
+"%@ Item" = "%@ Елемент";
+"%@ Items" = "%@ артикула";
 "%@ Meeting" = "%@ Среща";
 "%@ Meetings Started" = "%@ стартирани срещи";
 "%@ Member" = "%@ участник";
@@ -34,6 +35,7 @@
 "%@ More Workspace" = "Още %@ работно пространство";
 "%@ More Workspaces" = "%@ Още работни пространства";
 "%@ New" = "%@ ново";
+"%@ New Message" = "%@ Ново съобщение";
 "%@ New Messages" = "%@ нови съобщения";
 "%@ Pages Remaining" = "%@ страници остават";
 "%@ Participant" = "%@ участник";
@@ -48,7 +50,6 @@
 "%@ Steps" = "%@ Стъпки";
 "%@ Total" = "%@ общо";
 "%@ Users" = "%@ Потребители";
-"%@ Viewer" = "%@ зрител";
 "%@ Viewers" = "%@ Зрители";
 "%@ Week" = "%@ Седмица";
 "%@ Weeks" = "%@ седмици";
@@ -89,6 +90,7 @@
 "%@ added this Time Booking." = "%@ добави тази резервация за време.";
 "%@ added this To-Do." = "%@ добави тази задача.";
 "%@ added this Wait action." = "%@ добави това действие за изчакване.";
+"%@ and %@" = "%1$@ и %2$@";
 "%@ and %@ have been added to your team." = "%1$@ и %2$@ са добавени към вашия екип.";
 "%@ and %@ others have been added to your team." = "%1$@ и %2$@ са добавени към вашия екип.";
 "%@ and others are typing…" = "%@ и други въвеждат…";
@@ -124,6 +126,12 @@
 "%@ assigned to %@." = "%1$@ възложено на %2$@.";
 "%@ assigned to %@: %@" = "%1$@ възложено на %2$@: %3$@";
 "%@ assigned to you" = "%@ ви е зададено";
+"%@ awaiting review" = "%@ очаква преглед";
+"%@ awaiting review." = "%@ очаква преглед.";
+"%@ awaiting review: %@" = "%1$@ очаква преглед: %2$@";
+"%@ awaiting your review" = "%@ очaква вашето преглеждане";
+"%@ awaiting your review." = "%@ очаква вашето преглеждане.";
+"%@ awaiting your review: %@" = "%1$@ очаква вашето преглеждане: %2$@";
 "%@ awaits preparation" = "%@ очаква подготовка";
 "%@ awaits preparation." = "%@ очаква подготовка.";
 "%@ awaits preparation: %@" = "%1$@ очаква подготовка: %2$@";
@@ -465,6 +473,7 @@
 "Access denied" = "Достъпът е забранен";
 "Access your Portal URL by entering the verification code we just sent to %@" = "Влезте във URL адреса на вашия портал, като попълните кода за потвърждение, който ви изпратихме на %@";
 "Account" = "Потребител";
+"Account Connection" = "Свързване на акаунт";
 "Account Creation Failed" = "Създаването на акаунт не бе успешно";
 "Account Deleted" = "Изтрит профил";
 "Account Settings" = "Настройки на акаунт";
@@ -500,8 +509,9 @@
 "Action assigned to you" = "Действие, назначено на вас";
 "Action due soon" = "Действието предстои скоро";
 "Action due today" = "Крайният срок за действието е днес";
-"Action in Progress" = "Действието е в ход";
+"Action in progress" = "Действие в ход";
 "Action not started" = "Действието не е започнало";
+"Action not started; referenced data is being processed." = "Действието не е започнало; обработва се референтната информация.";
 "Action overdue (%@)" = "Действието е просрочено (%@)";
 "Action required from @%@" = "Необходимо е действие от @%1$@";
 "Action skipped" = "Действието е пропуснато";
@@ -543,7 +553,6 @@
 "Add Signers" = "Добавете подписващи";
 "Add User" = "Добавяне на потребител";
 "Add Viewers" = "Добавяне на зрители";
-"Add Viewers (Optional)" = "Добавяне на зрители (избираемо)";
 "Add Yourself" = "Добавете себе си";
 "Add a Role" = "Добавете роля";
 "Add a To-Do" = "Добавяне на задача";
@@ -551,23 +560,25 @@
 "Add a brief description for all workspace members to see" = "Добавете кратко описание, видимо за всички членове на работното пространство";
 "Add a role" = "Добавете роля";
 "Add additional participants who will be part of the flow." = "Добавете допълнителни участници, които ще бъдат част от потока.";
+"Add agenda" = "Добавяне на дневен ред";
 "Add description" = "Добавяне на описание";
 "Add distribution list" = "Добавете списък за разпространение";
 "Add files" = "Добавяне на файлове";
 "Add information regarding the purpose of booking this time" = "Добавете информация относно целта на резервацията този път";
+"Add location" = "Добавете местоположение";
 "Add portals to resume working with your team" = "Добавете портали, за да продължите работата си с екипа.";
 "Add roles that represent people who will need to take action in this flow." = "Добавете роли, които представляват хора, които ще трябва да предприемат действия в този поток.";
 "Add roles to this workspace" = "Добавете роли към това работно пространство";
 "Add signers to continue" = "Добавете подписващи, за да продължите";
 "Add the information below to get started!" = "Добавете информацията по-долу, за да започнете!";
 "Add to Contacts" = "Добавяне към контакти";
-"Add to calendar" = "Добавяне към календар";
 "Add useful information about your DocuSign" = "Добавете полезна информация за вашия DocuSign";
 "Add useful information about your decision" = "Добавете полезна информация за вашето решение";
 "Add useful information about your e-sign" = "Добавете полезна информация за вашия е-подпис";
 "Add useful information about your request" = "Добавете полезна информация за вашата заявка";
 "Add useful information regarding your conditional branch." = "Добавете полезна информация относно вашия условен клон.";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "Добавете зрители към това работно пространство, за да включите хора, на които не е зададено действие в този поток.";
+"Add your meeting topic" = "Добавете тема на вашата среща";
 "Added" = "Добавено";
 "Added Successfully" = "Успешно е добавено";
 "Added a checklist %@" = "Добавен контролен списък %@";
@@ -601,11 +612,13 @@
 "All comments and other activity on this file will also be deleted." = "Всички коментари и други дейности по този файл също ще бъдат изтрити";
 "All completed actions will appear here." = "Всички завършени дейности ще се появяват тук.";
 "All participants have declined the invitation." = "Всички участници отхвърлиха поканата.";
+"All participants must be admitted by the host" = "Всички участници трябва да бъдат допуснати от домакина.";
 "All recurring meetings will be deleted." = "Всички повтарящи се срещи ще бъдат изтрити.";
 "All the replies to this comment will be deleted as well." = "Всички отговори на този коментар ще бъдат също изтрити.";
 "All updates on clients, actions, and other account info will appear here." = "Всички актуализации относно клиенти, действия и друга информация за акаунта ще се появяват тук.";
 "All your tasks in one place" = "Всичките Ви задачи на едно място";
 "Allow" = "Разрешаване";
+"Allow Decline Option" = "Разреши опция за отказ";
 "Allows anyone with the link to join as an internal user." = "Разрешава на всеки, получил връзката да се присъедини като вътрешен потребител.";
 "Allows you to email content directly into this workspace." = "Позволява ви да изпращате съдържание по имейл директно в това работно пространство.";
 "Alphabetically" = "По азбучен ред";
@@ -615,6 +628,8 @@
 "An Update Is Required" = "Необходима е актуализация";
 "An agent will respond when one is available." = "Моля, оставете съобщение по-долу.";
 "An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace." = "Алтернативен път вече е изпълнен. Този %@ вече е пропуснат, така че вашите промени не могат да бъдат запазени. Ще бъдете насочени обратно към работното пространство.";
+"An assignee is required for %@. Please select one for this role." = "Необходим е изпълнител за %@. Моля, изберете един за тази роля.";
+"An assignee is required for DocuSign. Please select one for this role." = "За DocuSign е необходим изпълнител. Моля, изберете един за тази роля.";
 "An email is required to use DocuSign integration. An admin can add an email to their account." = "За използване на интеграцията с DocuSign е необходим имейл. Администратор може да добави имейл към своя акаунт.";
 "An external user with access to invited workspaces only." = "Външен потребител, който може да има достъп само до поканените работни пространства.";
 "An internal user with the ability to create and manage new workspaces in your portal." = "Вътрешен потребител с възможност да създава и управлява нови работни пространства във вашия портал.";
@@ -634,7 +649,6 @@
 "Anyone with the link" = "Всеки с връзката";
 "Anyone with the meeting link can join" = "Всеки, притежаващ линк за срещата, може да се присъедини";
 "Anyone with the meeting link can join all future recurring meetings from the same link without approval. We recommend enabling the waiting room for your security." = "Всеки с връзка към срещата може да се присъедини към всички бъдещи повтарящи се срещи от същата връзка без одобрение. Препоръчваме активирането на чакалнята за вашата сигурност.";
-"Anyone with the meeting link will need to be approved by the host to join" = "Всеки с връзка към срещата ще трябва да бъде одобрен от домакина, за да се присъедини.";
 "Anything assigned to you will appear here so you can easily stay on top of things." = "Всичко, което Ви е възложено, ще се появява тук, за да имате пълен контрол.";
 "App" = "Приложение";
 "Apple login disabled" = "Достъпът до Apple е деактивиран";
@@ -666,8 +680,9 @@
 "Archive" = "Архивиране";
 "Archive %@ Workspaces?" = "Архивирате ли %@ работни пространства?";
 "Archive Workspace" = "Архивиране на работно пространство";
-"Archive workspace for everyone" = "Архивирайте работното пространство за всички";
-"Archive workspace for yourself" = "Архивирай работното пространство за себе си";
+"Archive for All Internal Users" = "Архив за всички вътрешни потребители";
+"Archive for All Members" = "Архив за всички членове";
+"Archive for Yourself" = "Архивирай за себе си";
 "Archived" = "Архивиранo";
 "Archived Workspaces" = "Архивирани работни пространства";
 "Archiving allows you to hide workspaces from your timeline. If any new activity occurs in the workspace, it will automatically unarchive." = "Архивирането ви позволява да скривате работни пространства от вашата времева линия. Ако в работното пространство възникне нова активност, то автоматично ще бъде разархивирано.";
@@ -685,6 +700,8 @@
 "Are you sure you want to remove “%@” from this workspace?" = "Сигурни ли сте, че искате да премахнете “%@” от това работно пространство?";
 "Are you sure you want to start the meeting before its scheduled time?" = "Сигурен/а ли сте, че желаете да започнете срещата преди планирания час?";
 "Arrow" = "Стрелка";
+"As the workspace owner, please select the range to archive:" = "Като собственик на работното пространство, моля изберете диапазона за архивиране:";
+"As the workspace owner, please select the range to unarchive:" = "Като собственик на работното пространство, моля изберете диапазона за разархивиране:";
 "Asia Pacific" = "Азия и Тихия океан";
 "Ask the client to send a message to reactivate this workspace." = "Помолете клиента да изпрати съобщение за повторно активиране на това работно пространство.";
 "Assign" = "Възлагам";
@@ -729,13 +746,7 @@
 "Background Color" = "Цвят на фона";
 "Backup User" = "Резервен потребител";
 "Baidu Maps" = "Baidu Maps";
-"Because certain actions do not allow a client group to be assigned, you can’t reassign to this group." = "Тъй като определени действия не позволяват на клиентска група да бъде назначена, не можете да преназначите към тази група.";
-"Because certain actions do not allow a client group to be assigned, you can’t select one for this role." = "Тъй като определени действия не позволяват на клиентска група да бъде назначена, не можете да изберете такава за тази роля.";
-"Because certain actions do not allow a team to be assigned, you can’t reassign to this team." = "Тъй като определени действия не позволяват на екип да бъде назначен, не можете да преназначите към този екип.";
-"Because certain actions do not allow a team to be assigned, you can’t select a team for this role." = "Тъй като определени действия не позволяват на екип да бъде назначен, не можете да изберете екип за тази роля.";
-"Before leaving, please reassign your pending actions to another person." = "Преди да напуснете, моля, преотстъпете вашите чакащи действия на друг човек.";
 "Before leaving, please reassign your pending actions to someone else." = "Преди да си тръгнете, моля преназначете вашите чакащи действия на някой друг.";
-"Before removing, please reassign their pending actions to another person." = "Преди премахване, моля, превъзложете вашите чакащи действия на друго лице.";
 "Before removing, please reassign their pending actions to someone else." = "Преди премахването, моля преназначете техните предстоящи действия на някой друг.";
 "Below are the previous invitations sent to this email address." = "По-долу са предишните покани, изпратени на този имейл адрес.";
 "Beneficiary" = "Бенефициент";
@@ -795,7 +806,7 @@
 "Cannot Delete Role" = "Не може да се изтрие ролята";
 "Cannot Leave Workspace" = "Не е възможно да се напусне работно пространство";
 "Cannot Remove Assignee" = "Не може да се премахне правоприемник";
-"Cannot delete this role. Please assign its pending actions to someone else." = "Не може да се изтрие тази роля. Моля, присвоете нейните предстоящи действия на някой друг.";
+"Cannot delete this role. Please assign its actions to someone else." = "Не може да се изтрие тази роля. Моля, присвоете нейните действия на друг.";
 "Cannot open this file" = "Не можете да отворите този файл";
 "Cannot select this option while the current assignee is a client." = "Не можете да изберете тази опция, докато текущият присвоен е клиент.";
 "Cannot select video." = "Не може да се избере видео.";
@@ -822,7 +833,6 @@
 "Choose a data center" = "Изберете център за данни";
 "Choose a date..." = "Изберете дата...";
 "Choose a password that is unique and not easy to guess." = "Изберете парола, която е уникална и не може лесно да се отгатне.";
-"Choose a time to reschedule" = "Изберете време за пренасрочване";
 "Choose application" = "Избор на приложение";
 "Choose from Library" = "Избор от библиотека";
 "Choose how many assignees are required to upload a file for completion." = "Изберете колко изпълнители са необходими за качване на файл за завършване.";
@@ -836,12 +846,12 @@
 "Click below to join the rest of your team on the %@ Portal" = "Кликнете по-долу, за да се присъедините към екипа си в портала на %@";
 "Click the link below to join me on %@ for dedicated support and service" = "Кликнете на линка по-долу, за да се присъедините към мен в %@ за специализирана помощ и услуги";
 "Click the link below to join me on the %@ Portal for dedicated support and service" = "Кликнете на линка по-долу, за да ме добавите към портала на %@ за специализирана помощ и услуги";
+"Click to connect" = "Кликнете за свързване";
 "Client" = "Клиент";
 "Client Assigned to You" = "Клиент, Назначен на Вас";
 "Client Blocked Account" = "Блокиран от клиента акаунт";
 "Client Group" = "Клиентска група";
 "Client Groups" = "Клиентски групи";
-"Client Groups (Optional)" = "Групи на клиент (по желание)";
 "Client ID" = "Идентификационен номер на клиента";
 "Client Left Workspace" = "Клиент напусна работно пространство";
 "Client Login" = "Вход на потребител";
@@ -860,6 +870,7 @@
 "Close and Sign Later" = "Затваряне и влизане по-късно";
 "Closed" = "Затворено";
 "Closed (Special Hours)" = "Затворено (Извънредни часове)";
+"Cloud" = "Облак";
 "Co-Browse" = "Съвместна навигация в интернет";
 "Co-Browsing Session Ended" = "Съвместната навигация в интернет приключи";
 "Co-browsing is already in progress." = "Съвместното преглеждане вече е в ход.";
@@ -878,17 +889,16 @@
 "Confirm Deletion" = "Потвърждавате ли изтриването?";
 "Confirm Details" = "Потвърждение на подробни данни";
 "Confirm Disconnect" = "Потвърдете прекъсването";
+"Confirm Disconnection" = "Потвърдете прекъсването";
 "Confirm Invitation" = "Потвърждение на покана";
 "Confirm the following to permanently delete your account." = "Потвърдете следното, за да изтриете за постоянно вашия акаунт.";
 "Confirm your current password to continue." = "Потвърдете текущата си парола, за да продължите.";
 "Confirmed" = "Потвърдено";
 "Connect" = "Свързване";
 "Connect with DocuSign" = "Свързване с DocuSign";
-"Connect with Zoom" = "Свързване със Zoom";
 "Connect with me on my app by clicking the link below:" = "Свържете се с мен чрез моето приложение, като кликнете върху линка по-долу:";
 "Connect with people by using your QR code." = "Свържете се с хората, като използвате вашия QR код.";
 "Connect your DocuSign account to use templates." = "Свържете своя профил в DocuSign, за да използвате шаблони.";
-"Connect your Zoom account to schedule meetings" = "Свържете вашия профил в Zoom, за да планирате срещи";
 "Connected" = "Свързано";
 "Connected Successfully" = "Успешна връзка";
 "Connecting you with our live support…" = "Свързва ви с нашата поддръжка в реално време…";
@@ -953,7 +963,6 @@
 "Currency" = "Валута";
 "Current %@ Was Deleted" = "Текущия %@ беше изтрит";
 "Current %@ already completed" = "Текущият %@ вече е завършен.";
-"Current %@ was completed" = "Текущият %@ беше завършен.";
 "Current Action Was Deleted" = "Текущото действие беше изтрито";
 "Current Page" = "Текуща страница";
 "Current Step Was Removed" = "Текущата стъпка беше премахната";
@@ -1090,7 +1099,6 @@
 "Dropdown List" = "Падащ списък";
 "Due" = "Срок";
 "Due %@ %@" = "Срок %1$@ %2$@";
-"Due (%@ after creation)" = "Краен срок - (%@ след създаване)";
 "Due (%@ after start)" = "Падеж (%@ след началото)";
 "Due Date" = "Крайна дата";
 "Due Today" = "Трябва да се изпълни днес";
@@ -1127,17 +1135,12 @@
 "EXPIRY DATE" = "ДАТА НА ИЗТИЧАНЕ";
 "Edit" = "Редактиране";
 "Edit %@" = "Редактиране на %@";
-"Edit Acknowledgement" = "Редактиране на потвърждение";
-"Edit Approval" = "Редактиране на одобрение";
 "Edit Availability" = "Редактиране на наличността";
 "Edit Clients" = "Редактиране на клиенти";
 "Edit Content" = "Редактиране на съдържанието";
 "Edit Email Address" = "Редактиране на имейл адрес";
-"Edit File Request" = "Редактиране на заявка за файл";
-"Edit Form" = "Редактиране на формуляр";
 "Edit General Availability" = "Редактиране на общата наличност";
 "Edit Group Assignment" = "Редактиране на назначение на група";
-"Edit Jumio" = "Редакция на Jumio";
 "Edit Jumio details" = "Редактирайте детайлите на Jumio";
 "Edit Label" = "Редактиране на етикет";
 "Edit Link Security" = "Редактиране на сигурността на връзката";
@@ -1147,14 +1150,12 @@
 "Edit Phone Number" = "Редактиране на телефонен номер";
 "Edit Portal" = "Редактирай Портала";
 "Edit Profile" = "Редактиране на профил";
-"Edit Properties" = "Редактирай свойствата";
 "Edit Recurring Meeting" = "Редактиране на повтаряща се среща";
 "Edit Reminder" = "Редактиране на напомняне";
 "Edit Status" = "Редактиране на състояние";
-"Edit Step" = "Стъпка за редактиране";
 "Edit Tags" = "Редактиране на етикети";
 "Edit Time Booking" = "Редактиране на резервация за време";
-"Edit To-Do" = "Редактиране на задача";
+"Edit Variables" = "Редактирай променливите";
 "Edit Welcome Message" = "Промяна на съобщение при влизане";
 "Edit Workspace" = "Редактирай работното пространство";
 "Edit distribution list" = "Редактиране на списък за разпространение";
@@ -1179,7 +1180,8 @@
 "Enable Touch ID for Login" = "Активирайте пръстов отпечатък за вход";
 "Enable Voice" = "Активиране на глас";
 "Enable Voice..." = "Активиране на глас...";
-"Enable Waiting Room" = "Активирайте чакалня";
+"Enable Waiting Room for All" = "Активирайте чакалнята за всички";
+"Enable Waiting Room for Guests" = "Активирайте чакалня за гости";
 "Enabled" = "Активирано";
 "End" = "Край";
 "End & Accept" = "Завършване и Одобряване";
@@ -1205,7 +1207,6 @@
 "Enter the email or phone number associated with your account to continue." = "Въведете имейла или телефонния номер свързан с вашия акаунт, за да продължите.";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "Въведете паролата, за да отключите файла. След отключване всички могат да го разгледат.";
 "Enter the question" = "Въведете въпроса";
-"Enter the question " = "Въведете въпроса";
 "Enter user details and send an invitation from the app." = "Въведете данните на потребителя и изпратете покана от приложението.";
 "Enter verification code" = "Въведете код за потвърждение";
 "Enter your name" = "Въведете вашето име";
@@ -1224,10 +1225,12 @@
 "Event" = "Събитие";
 "Every" = "Всеки";
 "Every %@ days." = "На всеки %1$@ дена.";
+"Every Weekend" = "Всеки уикенд";
 "Every day." = "Всеки ден.";
 "Exclude Weekends" = "Изключете уикендите";
 "Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "Изпълни клон 1, когато [color=%@][b]всички правила съвпадат[/b][/color]:";
 "Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "Изпълни клон 1, когато [color=%@][b]някое правило съвпада[/b][/color]:";
+"Execution Order" = "Ред на изпълнение";
 "Extension" = "Разширение";
 "External Calendar Meeting" = "Среща във външен календар";
 "Extra Participants" = "Допълнителни участници";
@@ -1358,7 +1361,7 @@
 "Get direct access to %@ and %@’s services on mobile." = "Насладете се на директен достъп до услугите на %1$@ и %2$@ на мобилно устройство.";
 "Get started" = "Стартиране";
 "Get started with 40+ industry templates used by thousands of businesses." = "Започнете с над 40 шаблона за различни индустрии, използвани от хиляди бизнеси.";
-"Give external users the option to add this person to your workspaces if they need support while you’re out of office." = "Дайте на външните потребители възможността да добавят този човек към вашите работни пространства, ако имат нужда от подкрепа, докато сте извън офиса.";
+"Give clients the option to add this person to your workspaces if they need support while you're out of the office." = "Дайте на клиентите възможността да добавят този човек към вашите работни пространства, ако имат нужда от подкрепа, докато сте извън офиса.";
 "Gmail" = "Gmail";
 "Go Back" = "Върнете се назад";
 "Go to Content Gallery" = "Отидете на Галерия със съдържание";
@@ -1375,6 +1378,7 @@
 "Group Workspace" = "Групово работно пространство";
 "Groups & Topics" = "Групи и теми";
 "Guest" = "Гость";
+"Guests joining via the meeting link must be admitted by the host" = "Гостите, които се присъединяват чрез връзката за срещата, трябва да бъдат допуснати от домакина.";
 "Have an account?" = "Имате ли акаунт?";
 "Heads up!" = "Внимание!";
 "Help & Support" = "Помощ и поддръжка";
@@ -1423,14 +1427,17 @@
 "Identity Verification due today" = "Проверката на самоличността предстои днес";
 "Identity Verification overdue (%@)" = "Просрочена верификация на идентичност (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "Проверката на самоличността е временно деактивирана от съображения за сигурност. Моля, опитайте отново по-късно.";
+"If an end date is selected, Out of Office will automatically turn off after that date." = "Ако е избрана крайна дата, функцията \"Извън офиса\" автоматично ще бъде изключена след тази дата.";
 "If enabled, a file reviewer will be required to review the files that are uploaded." = "Ако е активирано, рецензент на файлове ще трябва да прегледа качените файлове.";
 "If enabled, the assignee must open all attachments before acknowledging." = "Ако е активирано, присвоеният трябва да отвори всички прикачени файлове, преди да потвърди.";
+"If enabled, the assignee will have the option to decline this action. If declined, the action creator will be assigned as a reviewer to determine the next steps." = "Ако е активирано, присвоеният ще има възможност да откаже това действие. Ако бъде отказано, създателят на действието ще бъде назначен като рецензент, за да определи следващите стъпки.";
 "If enabled, the preparer will be required to edit this action at runtime before it is ready for other assignees to take action." = "Ако е активирано, подготвящият ще трябва да редактира това действие в реално време, преди то да бъде готово за други назначени да предприемат действия.";
 "If enabled, this action can be completed in parallel with the previous action in the flow." = "Ако е активирано, това действие може да бъде изпълнено паралелно с предишното действие в потока.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Ако е активирано, ще показваме заглавната страница на потока всеки път, когато отворите работно пространство на потока за първи път.";
 "If reopened, the assignee will need to resubmit the files." = "Ако бъде отворено отново, присвоеният ще трябва да представи файловете отново.";
 "If they don't have an account, they will be directed to sign up to start collaborating on your flow." = "Ако нямат акаунт, ще бъдат насочени да се регистрират, за да започнат сътрудничество по вашия поток.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be affected by this." = "Ако прекъснете връзката си с акаунта си в DocuSign, назначените лица няма да могат да получат достъп или да подпишат никакви чакащи документи, създадени с този акаунт. Завършените документи няма да бъдат засегнати от това.";
+"If you disconnect your Zoom account, meetings that were created through the account will not be editable or deletable." = "Ако прекъснете връзката си с акаунта си в Zoom, срещите, които са създадени чрез акаунта, няма да могат да бъдат редактирани или изтривани.";
 "If you disconnect, we will no longer be able to check your availability on this calendar." = "Ако прекъснете връзката, ние вече няма да можем да проверяваме вашата наличност в този календар.";
 "If you go back, any changes you’ve made on this page will be lost. Are you sure you want to go back?" = "Ако се върнете назад, всички промени, които сте направили на тази страница, ще бъдат загубени. Сигурни ли сте, че искате да се върнете?";
 "If you have any urgent issues, feel free to chat with %@." = "При възникнали неотложни проблеми, моля разговаряйте с %@.";
@@ -1468,7 +1475,6 @@
 "Insert Image" = "Вмъкване на изображение";
 "Insert Link" = "Вмъкване на линк";
 "Instant Flow" = "Незабавен поток";
-"Instant Flows" = "Незабавни потоци";
 "Instructions" = "Инструкции";
 "Integrations" = "Интеграции";
 "Internal" = "Вътрешни";
@@ -1535,6 +1541,7 @@
 "Last activity at %@" = "Последна дейност в %@";
 "Last activity on %@" = "Последна дейност на %@";
 "Last invitation sent %@" = "Последна изпратена покана %@";
+"Last modified" = "Последна промяна";
 "Last seen: %@" = "Последно видян на: %@";
 "Last seen: %@d ago" = "Последно видян на: %@ дена преди";
 "Last seen: %@h ago" = "Последно видян на: %@ часа преди";
@@ -1562,10 +1569,12 @@
 "Link Preview Removed" = "Показването на връзка е отменено успешно";
 "Link Refreshed" = "Връзката е обновена";
 "Load More" = "Заредете повече";
+"Loading Account" = "Зареждане на акаунт";
 "Loading address..." = "Зареждане на адрес...";
 "Loading your account..." = "Профилът ви се зарежда...";
 "Loading your content…" = "Зареждане на вашето съдържание...";
 "Loading..." = "Зареждане...";
+"Local computer" = "Локален компютър";
 "Location" = "Местоположение";
 "Lock Meeting Access" = "Заключване на достъп до среща";
 "Log In" = "Вход";
@@ -1574,7 +1583,6 @@
 "Log in here" = "Влезте тук";
 "Log in to %@" = "Влезте в %@";
 "Log in to connect" = "Влезте, за да се свържете";
-"Log in to connect to %@" = "Влезте, за да се свържете с %@";
 "Log in to connect to DocuSign" = "Влезте, за да се свържете с DocuSign.";
 "Log in to your portal" = "Влезте във вашия портал";
 "Log into %@" = "Влезете в %@";
@@ -1588,6 +1596,7 @@
 "MIA" = "Присъединяване";
 "MIM" = "%1$@: Обаждане за среща. Моля, присъединете се.";
 "MON" = "ПОН.";
+"MS Teams Meeting" = "Среща в MS Teams";
 "Make Host" = "Направи хост";
 "Make Presenter" = "Направи представящ";
 "Make your business flow with digital interaction workspaces" = "Осигурете потока на вашия бизнес с работни пространства за дигитална взаимодействие";
@@ -1619,6 +1628,7 @@
 "Meeting Invite" = "Покана за среща";
 "Meeting Link" = "Линк за среща";
 "Meeting Link Detected" = "Открита е връзка за среща";
+"Meeting Options" = "Опции за среща";
 "Meeting Password" = "Парола за срещата";
 "Meeting Password (Required)" = "Парола за срещата (Задължителна)";
 "Meeting Password:" = "Парола за срещата:";
@@ -1628,6 +1638,8 @@
 "Meeting Security" = "Безопасност на срещата";
 "Meeting Started" = "Започна среща";
 "Meeting Topic" = "Тема на среща";
+"Meeting Topic*" = "Тема на срещата*";
+"Meeting Type" = "Вид на срещата";
 "Meeting Update" = "Актуализиране на среща";
 "Meeting ended" = "Срещата е прекратена";
 "Meeting in Progress" = "Срещата се изпълнява";
@@ -1635,6 +1647,7 @@
 "Meeting start time" = "Начало на срещата";
 "Meeting successfully updated." = "Срещата е осъвременена успешно.";
 "Meeting transferred to you" = "Среща прехвърлена към вас";
+"Meeting via Zoom" = "Среща чрез Zoom";
 "Meetings" = "Срещи";
 "Meetings can only last up to %@ hours." = "Срещите могат да продължат максимум до %@ часа.";
 "Member Limit Reached" = "Лимитът за брой членове е достигнат";
@@ -1673,6 +1686,7 @@
 "Move to..." = "Преместване в...";
 "Moving..." = "Преместване...";
 "Moxo" = "Moxo";
+"Moxo Meeting" = "Среща в Moxo";
 "Must be invited and logged in to join" = "Трябва да е поканен и влязъл в системата, за да се присъедини";
 "Must enter the meeting password to join" = "Трябва да въведе паролата на срещата, за да се присъедини";
 "Mute" = "Спиране на звука";
@@ -1706,7 +1720,6 @@
 "New Group Workspace" = "Ново групово работно пространство";
 "New Jumio" = "Ново Jumio";
 "New Message" = "Ново съобщение";
-"New Message..." = "Ново съобщение";
 "New Messages" = "Нови съобщения";
 "New One-on-One Workspace" = "Ново работно пространство на „четири очи“";
 "New Password" = "Нова парола";
@@ -1728,6 +1741,7 @@
 "No Client Groups" = "Няма клиентски групи";
 "No Clients" = "Няма клиенти";
 "No Contacts" = "Няма контакти";
+"No Content Yet" = "Все още няма съдържание";
 "No Due Date" = "Няма краен срок";
 "No Internal Teams" = "Няма вътрешни екипи";
 "No Internet Connection" = "Няма интернет връзка";
@@ -1760,14 +1774,15 @@
 "No extra participants yet" = "Все още няма допълнителни участници";
 "No meeting" = "Няма среща";
 "No meetings" = "Няма срещи";
-"No members have joined" = "Няма присъединили се членове";
 "No new actions need to be added" = "Не е необходимо да се добавят нови действия";
+"No participants yet" = "Все още няма участници";
 "No pending approvals" = "Няма изчакващи одобрения";
 "No personalized message will be displayed" = "Няма да бъде показано персонализирано съобщение";
 "No reminder" = "Без напомняне";
 "No results on the current page" = "Няма резултати на текущата страница";
 "No transactions match this search" = "Няма трансакции, отговарящи на това търсене";
 "No viewers yet" = "Все още няма зрители";
+"Non-Templated Flows" = "Нетемплейтни потоци";
 "None" = "Никак";
 "Not Joined" = "Не се е присъединил";
 "Not Recognized" = "Не е разпознат";
@@ -1789,12 +1804,13 @@
 "Office Hours" = "Работно време";
 "Office hours shown in (%@) %@" = "Работното време се показва в (%1$@) %2$@";
 "Offline" = "Офлайн";
+"Offline Meeting" = "Офлайн среща";
+"Offline meeting started" = "Започна офлайн среща";
 "On" = "Включено";
 "On Date" = "На дата";
 "On the local computer" = "На местния компютър";
 "Onboarding for {Client Name}" = "Въвеждане за {Име на клиента}";
 "Once preparation is turned off in the workspace, it cannot be turned on again. Are you sure you want to continue?" = "След като подготовката в работното пространство бъде изключена, тя не може да бъде включена отново. Сигурни ли сте, че искате да продължите?";
-"Once removed, this user will not be able to join the meeting via the link." = "След като бъде премахнат, този потребител няма да може да се присъедини към срещата чрез връзката.";
 "Once the assignee has submitted files, this user will be asked to review and confirm them before completion." = "След като пълномощникът изпрати файлове, този потребител ще бъде помолен да ги прегледа и потвърди преди завършване.";
 "One file was not attached." = "Един файл не беше прикачен.";
 "One-on-One Workspace" = "Работно пространство на „четири очи“";
@@ -1832,6 +1848,7 @@
 "Other Activities" = "Други дейности";
 "Other SSO" = "Друг SSO";
 "Other Settings" = "Други настройки";
+"Others" = "Други";
 "Out of Office" = "Извън офиса";
 "Outlook Calendar" = "Календар на Outlook";
 "Oval" = "Овал";
@@ -1889,6 +1906,7 @@
 "Please click below to contact us and request an invitation." = "Моля, щракнете по-долу, за да се свържете с нас и да поискате покана.";
 "Please click below to create your account." = "Моля, щракнете по-долу, за да създадете своя акаунт.";
 "Please click the button below to finish creating your account." = "Моля, щракнете бутона по-долу, за да завършите създаването на вашия акаунт.";
+"Please connect your %@ account to continue" = "Моля, свържете вашия %@ профил, за да продължите.";
 "Please connect your DocuSign account to access templates." = "Моля, свържете своя профил в DocuSign, за да използвате шаблони.";
 "Please contact the administrator of your portal to continue." = "Моля, свържете се с администратора на портала ви, за да продължите.";
 "Please contact the host and request an invitation to join." = "Моля, свържете се с хоста и поискайте покана за присъединяване.";
@@ -1920,6 +1938,7 @@
 "Please update to the latest version of the app to view this message. Your version of the app doesn't support this message type." = "Моля, актуализирайте до последната версия на приложението, за да видите това съобщение. Вашата версия на приложението не поддържа този тип съобщение.";
 "Please verify your fingerprint" = "Моля, потвърдете своя пръстов отпечатък";
 "Please wait 60 seconds before requesting a new verification code" = "Моля, изчакайте 60 секунди преди да поискате нов код за потвърждение";
+"Please wait for your account to fully load." = "Моля, изчакайте вашият акаунт да се зареди изцяло.";
 "Please wait for your attachments to finish uploading before continuing." = "Моля, изчакайте прикачените ви файлове да се качат напълно, преди да продължите.";
 "Please wait, we're working on it..." = "Моля, изчакайте, работим върху това...";
 "Please wait. The host will let you in soon." = "Моля, изчакайте. Домакинът скоро ще ви пусне да влезете.";
@@ -1932,6 +1951,7 @@
 "Prepare" = "Подгответе";
 "Prepare %@" = "Подгответе %@";
 "Prepare to get your business in the flow." = "Подгответе се да въведете бизнеса си в ритъм.";
+"Preparer*" = "Подготвител";
 "Preparing..." = "Подготвяне...";
 "Presenter" = "Представящ";
 "Preview" = "Визуализация";
@@ -1986,6 +2006,7 @@
 "Recents" = "Скорошни";
 "Reconnect" = "Свържете отново";
 "Reconnecting..." = "Повторно свързване...";
+"Record Location" = "Запис на местоположение";
 "Record Meeting" = "Записване на среща";
 "Record Video Clip" = "Записване на видео клип";
 "Recording" = "Записване";
@@ -2014,7 +2035,7 @@
 "Reminder will occur %@ before." = "Напомнянето ще се случи %@ преди.";
 "Reminder: %@" = "Напомняне: %@";
 "Remove" = "изтриване";
-"Remove %@?" = "Премахвате ли %@?";
+"Remove %@ from the meeting waiting room?" = "Премахване на %@ от чакалнята на срещата?";
 "Remove Bookmark" = "Премахване на показалец";
 "Remove From Workspace" = "Премахни от работното пространство";
 "Remove Link Preview" = "Премахване на визуализацията връзката";
@@ -2034,7 +2055,6 @@
 "Reopen it to enable replies." = "Отворете го отново, за да активирате отговорите.";
 "Reopened at %@" = "Отворено отново на %@";
 "Reopened on %@" = "Отворено отново на %@";
-"Reopening this action will require assignees to review it again, while preserving previous data. Any associated automations will also run again." = "Повторното отваряне на това действие ще изисква от присвоените лица да го прегледат отново, като същевременно се запазят предишните данни. Всяка свързана автоматизация също ще бъде изпълнена отново.";
 "Reopening this action will require assignees to review it again." = "Повторното отваряне на това действие ще изисква от присвоените да го прегледат отново.";
 "Repeat" = "Повтаряемост";
 "Repeat every %@ days." = "Повтаряне на всеки %@ дена.";
@@ -2055,8 +2075,6 @@
 "Require Preparation" = "Изисква подготовка";
 "Required Update Available" = "Задължителната актуализация е достъпна";
 "Required field" = "Полето е задължително";
-"Requires Preparation before the Action Can Begin" = "Изисква подготовка преди да започне действието";
-"Reschedule" = "Пренасрочване";
 "Rescheduled %@" = "Повторно планирано %@";
 "Resend Invitation" = "Повторно изпращане на покана";
 "Resend Invite" = "Повторно изпращане на покана";
@@ -2064,6 +2082,8 @@
 "Reset" = "Нулиране";
 "Reset (%@)" = "Нулиране (%@)";
 "Reset Filters" = "Нулиране на филтри";
+"Resource Info" = "Информация за ресурсите";
+"Resources" = "Ресурси";
 "Response" = "Отговор";
 "Restart" = "Рестартиране";
 "Restart Meeting" = "Рестартирайте срещата";
@@ -2122,7 +2142,6 @@
 "Scan" = "Сканиране";
 "Scan QR Code" = "Сканиране на QR код";
 "Scanning..." = "Сканиране...";
-"Schedule" = "Планиране";
 "Schedule Meeting" = "Планирайте среща";
 "Scheduling Window" = "Прозорец от време за планиране";
 "Screen is being shared" = "Екранът се споделя";
@@ -2206,6 +2225,8 @@
 "Set Automatically" = "Задай автоматично";
 "Set Currency to Continue" = "Задайте валута, за да продължите";
 "Set Days" = "Задайте дни";
+"Set Variables" = "Задаване на променливи";
+"Set Workspace Variables" = "Задайте променливи на работното пространство";
 "Set a minimum amount of time between available time booking slots." = "Задайте минимално време между наличните слотове за резервация.";
 "Set a new password" = "Задайте нова парола";
 "Set date and time for reminder" = "Задайте дата и час за напомняне";
@@ -2283,6 +2304,8 @@
 "Sorry, you can't present now as another participant has become the presenter." = "За съжаление не можете да представяте сега, защото друг участник е станал представящ.";
 "Sort by" = "Подреждане по";
 "Sort by %@" = "Сортиране по %@";
+"Sort by Date" = "Сортиране по дата";
+"Sort by Name" = "Сортиране по име";
 "Sort by..." = "Сортиране по...";
 "Special Hours" = "Извънредни часове";
 "Speech Bubble" = "Балонче с текст";
@@ -2314,7 +2337,6 @@
 "Step Details (Step %@)" = "Детайли на стъпката (Стъпка %@)";
 "Step Removed" = "Стъпката е премахната";
 "Step edited" = "Стъпката е редактирана";
-"Step in Progress" = "Стъпка в ход";
 "Stop Co-Browsing" = "Край на съвместното навигиране";
 "Stop Recording" = "Спри записа";
 "Stop Sharing" = "Край на споделяне";
@@ -2390,6 +2412,7 @@
 "The account associated with this email address is no longer active." = "Акаунтът, който е свързан с този имейл адрес, вече не е активен.";
 "The account associated with this phone number is no longer active." = "Акаунтът свързан с този телефонен номер вече не е активен.";
 "The action is not ready" = "Действието не е готово";
+"The actions within this milestone will start only after the actions in %@ are completed. " = "Действията в рамките на този етап ще започнат само след като действията в %@ бъдат завършени.";
 "The assignee(s) will need to sign again if reopened." = "Изпълнителят(ите) ще трябва да изпрати(ят) отново файлове, ако бъдат отворени отново.";
 "The code is no longer valid. Please request a new code to continue." = "Кодът вече не е валиден. Моля, поискайте нов код, за да продължите.";
 "The date will be recorded in [%@] format" = "Датата ще бъде записана във формат [%@]";
@@ -2434,6 +2457,7 @@
 "The submitted response will be displayed here." = "Предоставеният отговор ще бъде показан тук.";
 "The system is busy. Please try again." = "Системата е заета. Моля, опитайте отново.";
 "The tag values entered here will apply to any workspace created from this template." = "Стойностите на етикетите, въведени тук, ще се прилагат за всяко работно пространство, създадено от този шаблон.";
+"The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "Въведените тук стойности на променливите ще бъдат приложени към създаденото работно пространство. Само вътрешни потребители ще могат да ги видят.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "Работното пространство ще бъде автоматично архивирано за всички членове, след като всички действия бъдат завършени и след като бъде достигнат следният период на неактивност.";
 "There are no active screen share sessions to join." = "Няма активни сесии за споделяне на екрана за присъединяване.";
 "There are no other members in this workspace." = "В това работно пространство няма други членове.";
@@ -2461,7 +2485,7 @@
 "This action cannot be reverted and all of your account data will be permanently deleted." = "Това действие не може да бъде отменено и всички данни за вашия профил ще бъдат изтрити за постоянно.";
 "This action cannot be undone" = "Това действие не може да бъде отменено";
 "This action cannot be undone." = "Това действие не може да бъде отменено.";
-"This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost." = "Това действие вече е започнало и изпълнителят(ите) могат да прегледат и действат по стъпката, докато редактирате. Всеки вече завършен напредък ще бъде загубен.";
+"This action has already started, and the assignee(s) can review and act on it while you are editing. Any progress already completed will be lost." = "Това действие вече е започнало и назначените лица могат да го прегледат и да действат по него, докато го редактирате. Всеки вече направен напредък ще бъде загубен.";
 "This action has been completed. You will be directed back to the workspace." = "Това действие е завършено. Ще бъдете насочени обратно към работното пространство.";
 "This action has been completed. You will be returned to the workspace." = "Това действие беше изпълнено. Ще бъдете върнати в работното пространство.";
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "Това действие е изтрито и вашето действие вече не е необходимо. Ще бъдете насочени обратно към работното пространство на потока.";
@@ -2502,7 +2526,7 @@
 "This reset password link is no longer valid" = "Съжаляваме, тази връзка за нулиране на парола вече не е валидна";
 "This role and any assigned fields will be hidden." = "Тази роля и всички зададени полета ще бъдат скрити.";
 "This role cannot be assigned to an integration action." = "Тази роля не може да бъде възложена за действие на интеграция.";
-"This step has already started and the assignee(s) can review and act on it while you are editing. Any progress on already completed steps will be lost." = "Тази стъпка вече е започната и изпълнителите могат да я прегледат и да действат по нея, докато вие редактирате. Всеки напредък по вече завършени стъпки ще бъде загубен.";
+"This section provides shared resources for easy use within workspaces." = "Тази секция предоставя споделени ресурси за лесна употреба в работните пространства.";
 "This step has been removed by the owner and your action is no longer required. You will be directed back to the flow workspace." = "Това действие е изтрито от собственика и вашето действие вече не е необходимо. Ще бъдете насочени обратно към работното пространство на потока.";
 "This step has been updated by the owner. Please review the details again before taking action. You will be directed back to the flow workspace." = "Тази стъпка е актуализирана от собственика. Моля, прегледайте отново подробностите, преди да предприемете действие. Ще бъдете насочени обратно към работното пространство на потока.";
 "This template has been deleted and is no longer available." = "Този шаблон е изтрит и вече не е наличен.";
@@ -2556,7 +2580,6 @@
 "To continue, please log in again." = "За да продължите, моля, влезте отново.";
 "To continue, select a signer for all roles and disable any that you don't need." = "За да продължите, изберете подписващ за всички роли и деактивирайте тези, които не ви трябват.";
 "To continue, select assignees for all fields." = "За да продължите, изберете изпълнители за всички роли.";
-"To continue, select assignees for all roles." = "За да продължите, изберете пълномощници за всички роли.";
 "To create a flow template, please access the Flow Template Library from your desktop." = "За да създадете шаблон за поток, моля, отворете библиотеката с шаблони за поток от вашия работен плот.";
 "To create new DocuSign envelopes, please use the desktop version." = "За да създадете нови пликове на DocuSign, моля, използвайте десктоп версията.";
 "To edit your submission, you’ll need to reopen this File Request. Do you want to continue?" = "За да редактирате подаването си, ще трябва да отворите отново тази заявка за файл. Желаете ли да продължите?";
@@ -2657,6 +2680,7 @@
 "Unable to co-browse while sharing files." = "Неуспешна съвместна навигация по време на споделяне на файлове.";
 "Unable to complete sign-up" = "Неуспешно завършване на регистрацията";
 "Unable to connect" = "Невъзможно свързване";
+"Unable to edit: Meeting not found or account mismatch." = "Не може да се редактира: Срещата не е намерена или несъответствие в акаунта.";
 "Unable to establish a connection." = "Неуспешно установяване на връзка.";
 "Unable to establish sharing connection. Please contact your network administrator." = "Неуспешно установяване на връзка за споделяне. Моля, свържете се с вашия администратор на мрежата.";
 "Unable to establish video connection. Please contact your network administrator." = "Неуспешно установяване на връзка за видео. Моля, свържете се с вашия администратор на мрежата.";
@@ -2683,8 +2707,9 @@
 "Unable to upload the file %@. Please try again." = "Неуспешно качване на файла %@. Моля, опитайте отново.";
 "Unarchive" = "Разархивирай";
 "Unarchive Workspace" = "Разархивирай работното пространство";
-"Unarchive workspace for everyone" = "Разархивирай работното пространство за всички";
-"Unarchive workspace for yourself" = "Разархивирай работното пространство за себе си";
+"Unarchive for All Internal Users" = "Разархивирай за всички вътрешни потребители";
+"Unarchive for All Members" = "Разархивирай за всички членове";
+"Unarchive for Yourself" = "Разархивирай за себе си";
 "Unassigned" = "Преназначено";
 "Unavailable" = "Недостъпен";
 "Uncheck" = "Премахване на отметка";
@@ -2886,6 +2911,7 @@
 "Whole File" = "Цял файл";
 "Will Be Added as an Individual Workspace Member" = "Ще бъде добавен като индивидуален член на работното пространство";
 "Will be prepared by" = "Ще бъде подготвен от";
+"Will be reviewed by" = "Ще бъде прегледано от";
 "Workflow Type" = "Тип на работния процес";
 "Workspace '%@' will be deactivated" = "Работното пространство '%@' ще бъде деактивирано";
 "Workspace Deactivated" = "Деактивирано работно пространство";
@@ -2897,14 +2923,16 @@
 "Workspace Name" = "Име на работно пространство";
 "Workspace Name (Required)" = "Име на работно пространство (задължително)";
 "Workspace Owner" = "Собственик на работно пространство";
-"Workspace Properties" = "Свойства на работното пространство";
 "Workspace Tags" = "Етикети за работно пространство";
 "Workspace Timed Out" = "Работното пространство изтече";
 "Workspace Type" = "Вид работно пространство";
 "Workspace Unarchived" = "Работното пространство е разархивирано";
+"Workspace Variables" = "Променливи на работното пространство";
 "Workspace archived" = "Работното пространство е архивирано";
 "Workspace has been deactivated" = "Работното пространство е деактивирано.";
+"Workspace tags saved." = "Таговете на работното пространство са запазени.";
 "Workspace transferred to you" = "Работното пространство е прехвърлено към вас";
+"Workspace variables saved." = "Променливите на работното пространство са запазени.";
 "Workspaces" = "Работни пространства";
 "Workspaces archived" = "Работните пространства са архивирани";
 "Workspaces you are a part of will appear here." = "Работните пространства, от които сте част, ще се появят тук.";
@@ -2930,7 +2958,6 @@
 "You are connected." = "Свързани сте.";
 "You are controlling the co-browsing session." = "Вие управлявате сесията за съвместно сърфиране.";
 "You are controlling the shared screen." = "Вие контролирате споделения екран.";
-"You are currently not a part of any workspaces." = "В момента не сте част от никакви работни пространства.";
 "You are currently not part of any workspaces." = "В момента не сте част от никакви работни пространства.";
 "You are logged in as %@" = "Вие сте вписани като %@";
 "You are now a manager" = "В момента сте управител";
@@ -3017,7 +3044,6 @@
 "You're all clear!" = "Готови сте!";
 "You're done" = "Готови сте";
 "You're done!" = "Готови сте!";
-"You're logged in as %@" = "Влезли сте като %@";
 "You've already added all of your contacts" = "Вече добавихте всичките си контакти";
 "You've already added the maximum number of actions. (%@/200)" = "Вече сте добавили максималния брой действия. (%@/200)";
 "You've exceeded the maximum file size of %@ for clips. You can still preview and save your file." = "Превишили сте максималния размер на файла от %@ за клипове. Все още можете да прегледате и запазите файла си.";
@@ -3052,6 +3078,7 @@
 "Your session has expired due to inactivity. Please log in again to continue." = "Вашата сесия е изтекла поради неактивност. Моля, влезте отново, за да продължите.";
 "Your session has expired due to inactivity. You'll need to verify your account again." = "Вашата сесия е изтекла поради неактивност. Ще трябва отново да верифицирате вашия акаунт.";
 "Your sharing has been stopped." = "Вашето споделяне е спряно.";
+"Your status will automatically update to Out of Office every weekend." = "Вашият статус автоматично ще се актуализира на \"Извън офиса\" всеки уикенд.";
 "Your turn to sign" = "Ваш ред е да подпишете";
 "You’ll be added as a viewer" = "Ще бъдете добавени като зрител";
 "You’ll be notified after each person signs." = "Ще бъдете уведомени след всяко подписване на човек.";
@@ -3071,6 +3098,7 @@
 "You’ve already attached the maximum number of files. (50/50)" = "Вече сте прикачили максималния брой файлове. (50/50)";
 "You’ve already invited the maximum number of members to this workspace." = "Вече сте поканили максималния брой членове в това работно пространство.";
 "Zoom" = "Zoom";
+"Zoom Meeting" = "Среща в Zoom";
 "[Audio]" = "[Аудио]";
 "[Deleted User]" = "[Изтрит потребител]";
 "all assignees" = "всички цесионери";

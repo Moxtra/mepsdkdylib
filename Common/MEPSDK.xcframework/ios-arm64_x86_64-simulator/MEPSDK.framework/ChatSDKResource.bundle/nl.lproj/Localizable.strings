@@ -9,7 +9,6 @@
 "%@ Action Items" = "%@ Actiepunten";
 "%@ Approver" = "%@ fiatteur";
 "%@ Approvers" = "%@ fiatteurs";
-"%@ Assignee" = "%@ Toegewezen persoon";
 "%@ Assignees" = "%@ Concessionarissen";
 "%@ Bots" = "%@ Bots";
 "%@ Client" = "%@ klant";
@@ -23,6 +22,8 @@
 "%@ File" = "%@ Bestand";
 "%@ File Size Reached" = "%1$@ Bestandsgrootte Bereikt";
 "%@ Guests" = "%@ gasten";
+"%@ Item" = "%@ Item";
+"%@ Items" = "%@ items";
 "%@ Meeting" = "%@ vergadering";
 "%@ Meetings Started" = "%@ vergaderingen gestart";
 "%@ Member" = "%@ Lid";
@@ -34,6 +35,7 @@
 "%@ More Workspace" = "%@ Meer werkruimte";
 "%@ More Workspaces" = "%@ Meer werkruimten";
 "%@ New" = "%@ nieuw";
+"%@ New Message" = "%@ Nieuw bericht";
 "%@ New Messages" = "%@ nieuwe berichten";
 "%@ Pages Remaining" = "%@ resterende pagina's";
 "%@ Participant" = "%@ deelnemer";
@@ -48,7 +50,6 @@
 "%@ Steps" = "%@ Stappen";
 "%@ Total" = "%@ totaal";
 "%@ Users" = "%@ Gebruikers";
-"%@ Viewer" = "%@ kijker";
 "%@ Viewers" = "%@ Kijkers";
 "%@ Week" = "%@ Week";
 "%@ Weeks" = "%@ weken";
@@ -89,6 +90,7 @@
 "%@ added this Time Booking." = "%@ heeft deze tijdboeking toegevoegd.";
 "%@ added this To-Do." = "%@ heeft deze uitstaande taak toegevoegd.";
 "%@ added this Wait action." = "%@ heeft deze wachtactie toegevoegd.";
+"%@ and %@" = "%1$@ en %2$@";
 "%@ and %@ have been added to your team." = "%1$@ en %2$@ zijn toegevoegd aan uw team.";
 "%@ and %@ others have been added to your team." = "%1$@ en %2$@ anderen zijn toegevoegd aan uw team.";
 "%@ and others are typing…" = "%@ en anderen zijn aan het typen...";
@@ -124,6 +126,12 @@
 "%@ assigned to %@." = "%1$@ toegewezen aan %2$@.";
 "%@ assigned to %@: %@" = "%1$@ toegewezen aan %2$@: %3$@";
 "%@ assigned to you" = "%@ toegewezen aan jou";
+"%@ awaiting review" = "%@ wacht op beoordeling";
+"%@ awaiting review." = "%@ wacht op beoordeling.";
+"%@ awaiting review: %@" = "%1$@ in afwachting van beoordeling: %2$@";
+"%@ awaiting your review" = "%@ wacht op uw beoordeling";
+"%@ awaiting your review." = "%@ wacht op uw beoordeling.";
+"%@ awaiting your review: %@" = "%1$@ wacht op uw beoordeling: %2$@";
 "%@ awaits preparation" = "%@ wacht op voorbereiding";
 "%@ awaits preparation." = "%@ wacht op voorbereiding.";
 "%@ awaits preparation: %@" = "%1$@ wacht op voorbereiding: %2$@";
@@ -466,6 +474,7 @@
 "Access denied" = "Toegang geweigerd";
 "Access your Portal URL by entering the verification code we just sent to %@" = "Ga naar uw Portal-URL door de verificatiecode in te voeren die we zojuist naar %@ hebben gestuurd";
 "Account" = "Account";
+"Account Connection" = "Accountverbinding";
 "Account Creation Failed" = "Aanmaken van account mislukt";
 "Account Deleted" = "Account verwijderd";
 "Account Settings" = "Account instellingen";
@@ -501,8 +510,9 @@
 "Action assigned to you" = "Actie aan jou toegewezen";
 "Action due soon" = "Actie binnenkort verschuldigd";
 "Action due today" = "Actie vervalt vandaatg";
-"Action in Progress" = "Actie in uitvoering";
+"Action in progress" = "Actie in uitvoering";
 "Action not started" = "Actie niet gestart";
+"Action not started; referenced data is being processed." = "Actie niet gestart; gerefereerde gegevens worden verwerkt.";
 "Action overdue (%@)" = "Actie te laat (%@)";
 "Action required from @%@" = "Actie vereist van @%1$@";
 "Action skipped" = "Actie overgeslagen";
@@ -544,7 +554,6 @@
 "Add Signers" = "Ondertekenaars toevoegen";
 "Add User" = "Voeg gebruiker toe";
 "Add Viewers" = "Voeg Kijkers toe";
-"Add Viewers (Optional)" = "Voeg Kijkers toe (Optioneel)";
 "Add Yourself" = "Voeg uzelf toe";
 "Add a Role" = "Voeg een Rol toe";
 "Add a To-Do" = "Voeg een uitstaande taak toe";
@@ -552,23 +561,25 @@
 "Add a brief description for all workspace members to see" = "Voeg een korte beschrijving toe die voor alle werkruimteleden zichtbaar is";
 "Add a role" = "Voeg een rol toe";
 "Add additional participants who will be part of the flow." = "Voeg extra deelnemers toe die deel zullen uitmaken van de stroom.";
+"Add agenda" = "Agenda toevoegen";
 "Add description" = "Voeg beschrijving toe";
 "Add distribution list" = "Distributielijst toevoegen";
 "Add files" = "Voeg bestanden toe";
 "Add information regarding the purpose of booking this time" = "Voeg deze keer informatie toe over het doel van de boeking";
+"Add location" = "Locatie toevoegen";
 "Add portals to resume working with your team" = "Voeg portalen toe om het werken met je team te hervatten";
 "Add roles that represent people who will need to take action in this flow." = "Voeg rollen toe die mensen vertegenwoordigen die actie moeten ondernemen in deze stroom.";
 "Add roles to this workspace" = "Voeg rollen toe aan deze werkruimte";
 "Add signers to continue" = "Ondertekenaars toevoegen om verder te gaan";
 "Add the information below to get started!" = "Voeg de onderstaande informatie toe om aan de slag te gaan!";
 "Add to Contacts" = "Voeg toe aan contactpersonen";
-"Add to calendar" = "Voeg toe aan agenda";
 "Add useful information about your DocuSign" = "Voeg nuttige informatie toe over uw DocuSign";
 "Add useful information about your decision" = "Voeg nuttige informatie toe over uw beslissing";
 "Add useful information about your e-sign" = "Voeg nuttige informatie toe over uw e-ondertekening";
 "Add useful information about your request" = "Voeg nuttige informatie toe over uw verzoek";
 "Add useful information regarding your conditional branch." = "Voeg nuttige informatie toe over uw conditionele vertakking.";
 "Add viewers to this workspace to include people who have not been assigned an action in this flow." = "Voeg kijkers toe aan deze werkruimte om mensen aan wie geen actie is toegewezen in deze flow op te nemen.";
+"Add your meeting topic" = "Voeg uw vergaderonderwerp toe";
 "Added" = "Toegevoegd";
 "Added Successfully" = "Toevoegen gelukt";
 "Added a checklist %@" = "Een checklist toegevoegd %@";
@@ -602,11 +613,13 @@
 "All comments and other activity on this file will also be deleted." = "Alle opmerkingen en andere activiteiten in dit bestand worden ook verwijderd";
 "All completed actions will appear here." = "Alle voltooide acties verschijnen hier.";
 "All participants have declined the invitation." = "Alle deelnemers hebben de uitnodiging afgewezen.";
+"All participants must be admitted by the host" = "Alle deelnemers moeten worden toegelaten door de gastheer";
 "All recurring meetings will be deleted." = "Alle terugkerende meetings worden verwijderd.";
 "All the replies to this comment will be deleted as well." = "Alle antwoorden op deze opmerking worden eveneens verwijderd.";
 "All updates on clients, actions, and other account info will appear here." = "Alle updates over cliënten, acties en andere accountgegevens verschijnen hier.";
 "All your tasks in one place" = "Al uw taken op één plek";
 "Allow" = "Toestaan";
+"Allow Decline Option" = "Weigeren-optie toestaan";
 "Allows anyone with the link to join as an internal user." = "Staat iedereen met de link toe om deel te nemen als een interne gebruiker.";
 "Allows you to email content directly into this workspace." = "Hiermee kunt u inhoud rechtstreeks naar deze werkruimte e-mailen.";
 "Alphabetically" = "Alfabetisch";
@@ -616,6 +629,8 @@
 "An Update Is Required" = "Er is een update vereist";
 "An agent will respond when one is available." = "Laat hieronder eventuele berichten achter.";
 "An alternate path has already been executed. This %@ has now been skipped, so your changes cannot be saved. You will be directed back to the workspace." = "Een alternatief pad is al uitgevoerd. Deze %@ is nu overgeslagen, dus uw wijzigingen kunnen niet worden opgeslagen. U wordt teruggeleid naar de werkruimte.";
+"An assignee is required for %@. Please select one for this role." = "Een toegewezen persoon is vereist voor %@. Selecteer alstublieft iemand voor deze rol.";
+"An assignee is required for DocuSign. Please select one for this role." = "Een toegewezen persoon is vereist voor DocuSign. Selecteer alstublieft iemand voor deze rol.";
 "An email is required to use DocuSign integration. An admin can add an email to their account." = "Een e-mail is vereist om de DocuSign-integratie te gebruiken. Een beheerder kan een e-mail toevoegen aan hun account.";
 "An external user with access to invited workspaces only." = "Een externe gebruiker die alleen toegang heeft tot de uitgenodigde werkruimtes.";
 "An internal user with the ability to create and manage new workspaces in your portal." = "Een interne gebruiker met de mogelijkheid om nieuwe werkruimtes te creëren en te beheren in uw portaal.";
@@ -635,7 +650,6 @@
 "Anyone with the link" = "Iedereen met de link";
 "Anyone with the meeting link can join" = "Iedereen met een vergaderingslink kan deelnemen";
 "Anyone with the meeting link can join all future recurring meetings from the same link without approval. We recommend enabling the waiting room for your security." = "Iedereen met de vergaderlink kan zonder goedkeuring deelnemen aan alle toekomstige terugkerende vergaderingen via dezelfde link. We raden aan de wachtkamer in te schakelen voor uw veiligheid.";
-"Anyone with the meeting link will need to be approved by the host to join" = "Iedereen met de vergaderlink moet door de gastheer worden goedgekeurd om deel te nemen.";
 "Anything assigned to you will appear here so you can easily stay on top of things." = "Alles wat aan u wordt toegewezen verschijnt hier, zodat u gemakkelijk van alles op de hoogte kunt blijven.";
 "App" = "App";
 "Apple login disabled" = "Apple-login uitgeschakeld";
@@ -667,8 +681,9 @@
 "Archive" = "Archiveren";
 "Archive %@ Workspaces?" = "%@ werkruimten archiveren?";
 "Archive Workspace" = "Werkruimte archiveren";
-"Archive workspace for everyone" = "Werkruimte voor iedereen archiveren";
-"Archive workspace for yourself" = "Archiveer werkruimte voor jezelf";
+"Archive for All Internal Users" = "Archief voor alle interne gebruikers";
+"Archive for All Members" = "Archief voor alle leden";
+"Archive for Yourself" = "Archiveer voor jezelf";
 "Archived" = "Gearchiveerd";
 "Archived Workspaces" = "Gearchiveerde werkruimten";
 "Archiving allows you to hide workspaces from your timeline. If any new activity occurs in the workspace, it will automatically unarchive." = "Archiveren stelt je in staat om werkruimtes te verbergen van je tijdlijn. Als er nieuwe activiteit plaatsvindt in de werkruimte, zal deze automatisch worden gedearchiveerd.";
@@ -686,6 +701,8 @@
 "Are you sure you want to remove “%@” from this workspace?" = "Weet je zeker dat je “%@” uit deze werkruimte wilt verwijderen?";
 "Are you sure you want to start the meeting before its scheduled time?" = "Weet u zeker dat u de vergadering wilt starten vóór de geplande tijd?";
 "Arrow" = "Pijl";
+"As the workspace owner, please select the range to archive:" = "Als eigenaar van de werkruimte, selecteer het bereik om te archiveren:";
+"As the workspace owner, please select the range to unarchive:" = "Als eigenaar van de werkruimte, selecteer het bereik om te dearchiveren:";
 "Asia Pacific" = "Azië Pacific";
 "Ask the client to send a message to reactivate this workspace." = "Vraag de klant om een bericht te sturen om deze werkruimte opnieuw te activeren.";
 "Assign" = "Toewijzen";
@@ -730,13 +747,7 @@
 "Background Color" = "Achtergrondkleur";
 "Backup User" = "Backupgebruiker";
 "Baidu Maps" = "Baidu-kaarten";
-"Because certain actions do not allow a client group to be assigned, you can’t reassign to this group." = "Omdat bepaalde acties het niet toestaan om een klantengroep toe te wijzen, kunt u niet opnieuw toewijzen aan deze groep.";
-"Because certain actions do not allow a client group to be assigned, you can’t select one for this role." = "Omdat bepaalde acties het niet toelaten om een klantengroep toe te wijzen, kunt u er geen selecteren voor deze rol.";
-"Because certain actions do not allow a team to be assigned, you can’t reassign to this team." = "Omdat bepaalde acties niet toestaan dat een team wordt toegewezen, kunt u niet opnieuw toewijzen aan dit team.";
-"Because certain actions do not allow a team to be assigned, you can’t select a team for this role." = "Omdat bepaalde acties niet toestaan dat een team wordt toegewezen, kunt u geen team selecteren voor deze rol.";
-"Before leaving, please reassign your pending actions to another person." = "Alvorens te vertrekken, gelieve uw lopende acties aan een andere persoon toe te wijzen.";
 "Before leaving, please reassign your pending actions to someone else." = "Wijs voordat u vertrekt uw openstaande acties toe aan iemand anders.";
-"Before removing, please reassign their pending actions to another person." = "Alvorens te verwijderen, gelieve hun lopende acties aan een andere persoon toe te wijzen.";
 "Before removing, please reassign their pending actions to someone else." = "Wijs hun hangende acties aan iemand anders toe voordat u ze verwijdert.";
 "Below are the previous invitations sent to this email address." = "Hieronder vindt u de eerdere uitnodigingen die naar dit e-mailadres zijn verzonden.";
 "Beneficiary" = "Begunstigde";
@@ -796,7 +807,7 @@
 "Cannot Delete Role" = "Kan Rol Niet Verwijderen";
 "Cannot Leave Workspace" = "Kan de werkruimte niet verlaten";
 "Cannot Remove Assignee" = "Kan de toegewezen persoon niet verwijderen";
-"Cannot delete this role. Please assign its pending actions to someone else." = "Kan deze rol niet verwijderen. Wijs de hangende acties alstublieft toe aan iemand anders.";
+"Cannot delete this role. Please assign its actions to someone else." = "Kan deze rol niet verwijderen. Wijs de acties alstublieft toe aan iemand anders.";
 "Cannot open this file" = "Kan dit bestand niet openen";
 "Cannot select this option while the current assignee is a client." = "Deze optie kan niet worden geselecteerd terwijl de huidige toegewezen persoon een klant is.";
 "Cannot select video." = "Kan video niet selecteren.";
@@ -823,7 +834,6 @@
 "Choose a data center" = "Kies een datacenter";
 "Choose a date..." = "Kies een datum...";
 "Choose a password that is unique and not easy to guess." = "Kies een wachtwoord dat uniek en niet gemakkelijk te raden is.";
-"Choose a time to reschedule" = "Kies een tijdstip om een nieuwe afspraak te maken";
 "Choose application" = "Kies applicatie";
 "Choose from Library" = "Kies uit bibliotheek";
 "Choose how many assignees are required to upload a file for completion." = "Kies hoeveel toegewezen personen een bestand moeten uploaden voor voltooiing.";
@@ -837,12 +847,12 @@
 "Click below to join the rest of your team on the %@ Portal" = "Klik hieronder om u bij de rest van uw team aan te sluiten op het %@ portaal";
 "Click the link below to join me on %@ for dedicated support and service" = "Klik op de link hieronder om u bij mij aan te sluiten op %@ voor speciale ondersteuning en service";
 "Click the link below to join me on the %@ Portal for dedicated support and service" = "Klik op de link hieronder om u bij mij aan te sluiten op het %@ portaal voor speciale ondersteuning en service";
+"Click to connect" = "Klik om te verbinden";
 "Client" = "Klant";
 "Client Assigned to You" = "Klant aan jou toegewezen";
 "Client Blocked Account" = "Klant heeft account geblokkeerd";
 "Client Group" = "Klantengroep";
 "Client Groups" = "Klantgroepen";
-"Client Groups (Optional)" = "Klantgroepen (optioneel)";
 "Client ID" = "Klant ID";
 "Client Left Workspace" = "Client Left Workspace";
 "Client Login" = "Client login";
@@ -861,6 +871,7 @@
 "Close and Sign Later" = "Afsluiten en later ondertekenen";
 "Closed" = "Afgesloten";
 "Closed (Special Hours)" = "Gesloten (Speciale uren)";
+"Cloud" = "Wolk";
 "Co-Browse" = "Co-browse";
 "Co-Browsing Session Ended" = "Co-browsingsessie beëindigd";
 "Co-browsing is already in progress." = "Co-browsen is al bezig.";
@@ -879,17 +890,16 @@
 "Confirm Deletion" = "Verwijdering bevestigen";
 "Confirm Details" = "Details bevestigen";
 "Confirm Disconnect" = "Bevestig Ontkoppeling";
+"Confirm Disconnection" = "Bevestig Verbinding Verbreken";
 "Confirm Invitation" = "Bevestig uitnodiging";
 "Confirm the following to permanently delete your account." = "Bevestig het volgende om uw account definitief te verwijderen.";
 "Confirm your current password to continue." = "Bevestig uw huidige wachtwoord om verder te gaan.";
 "Confirmed" = "Bevestigd";
 "Connect" = "Verbinden";
 "Connect with DocuSign" = "Maak verbinding met DocuSign";
-"Connect with Zoom" = "Maak verbinding met Zoom";
 "Connect with me on my app by clicking the link below:" = "Verbind met mij via mijn app door op de onderstaande link te klikken:";
 "Connect with people by using your QR code." = "Verbind met mensen door uw QR-code te gebruiken.";
 "Connect your DocuSign account to use templates." = "Maak verbinding met uw DocuSign-account om sjablonen te gebruiken.";
-"Connect your Zoom account to schedule meetings" = "Koppel je Zoom-account om vergaderingen te plannen";
 "Connected" = "Verbonden";
 "Connected Successfully" = "Succesvol verbonden";
 "Connecting you with our live support…" = "We verbinden u met onze live ondersteuning…";
@@ -956,7 +966,6 @@
 "Currency" = "Valuta";
 "Current %@ Was Deleted" = "Huidig %@ is verwijderd";
 "Current %@ already completed" = "Huidige %@ is al voltooid";
-"Current %@ was completed" = "Huidige %@ is voltooid";
 "Current Action Was Deleted" = "Huidige actie is verwijderd";
 "Current Page" = "Huidige pagina";
 "Current Step Was Removed" = "Huidige stap is verwijderd";
@@ -1093,7 +1102,6 @@
 "Dropdown List" = "Vervolgkeuzelijst";
 "Due" = "Vervallen";
 "Due %@ %@" = "Vervalt %1$@ %2$@";
-"Due (%@ after creation)" = "Vervalt (%@ na creatie)";
 "Due (%@ after start)" = "Vervaldatum (%@ na start)";
 "Due Date" = "Vervaldatum";
 "Due Today" = "Vervalt vandaag";
@@ -1130,17 +1138,12 @@
 "EXPIRY DATE" = "VERVALDATUM";
 "Edit" = "Bewerken";
 "Edit %@" = "Bewerk %@";
-"Edit Acknowledgement" = "Bewerk Bevestiging";
-"Edit Approval" = "Bewerk Goedkeuring";
 "Edit Availability" = "Beschikbaarheid bewerken";
 "Edit Clients" = "Klanten bewerken";
 "Edit Content" = "Content bewerken";
 "Edit Email Address" = "E-mailadres bewerken";
-"Edit File Request" = "Bewerk Bestandverzoek";
-"Edit Form" = "Formulier bewerken";
 "Edit General Availability" = "Algemene beschikbaarheid bewerken";
 "Edit Group Assignment" = "Groepsopdracht bewerken";
-"Edit Jumio" = "Jumio bewerken";
 "Edit Jumio details" = "Bewerk Jumio details";
 "Edit Label" = "Label bewerken";
 "Edit Link Security" = "Linkbeveiliging bewerken";
@@ -1150,14 +1153,12 @@
 "Edit Phone Number" = "Telefoonnummer bewerken";
 "Edit Portal" = "Portaal bewerken";
 "Edit Profile" = "Bewerk profiel";
-"Edit Properties" = "Eigenschappen bewerken";
 "Edit Recurring Meeting" = "Terugkerende vergadering bewerken";
 "Edit Reminder" = "Bewerk herinnering";
 "Edit Status" = "Bewerk status";
-"Edit Step" = "Stap bewerken";
 "Edit Tags" = "Tags bewerken";
 "Edit Time Booking" = "Tijdboeking bewerken";
-"Edit To-Do" = "Bewerk Te-doen";
+"Edit Variables" = "Variabelen bewerken";
 "Edit Welcome Message" = "Welkomstbericht bewerken";
 "Edit Workspace" = "Werkruimte bewerken";
 "Edit distribution list" = "Distributielijst bewerken";
@@ -1182,7 +1183,8 @@
 "Enable Touch ID for Login" = "Schakel aanraak-ID in voor inloggen";
 "Enable Voice" = "Schakel spraak in";
 "Enable Voice..." = "Schakel spraak in...";
-"Enable Waiting Room" = "Wachtruimte inschakelen";
+"Enable Waiting Room for All" = "Wachtkamer inschakelen voor iedereen";
+"Enable Waiting Room for Guests" = "Wachtruimte voor gasten inschakelen";
 "Enabled" = "Ingeschakeld";
 "End" = "Einde";
 "End & Accept" = "Beëindigen & accepteren";
@@ -1209,7 +1211,6 @@
 "Enter the email or phone number associated with your account to continue." = "Voer om door te gaan het e-mailadres of telefoonnummer in dat aan uw account is gekoppeld.";
 "Enter the password to unlock the file. Once unlocked, everyone can view it." = "Voer het wachtwoord in om het bestand te ontgrendelen. Eenmaal ontgrendeld kan iedereen het bekijken.";
 "Enter the question" = "Voer de vraag in";
-"Enter the question " = "Voer de vraag in";
 "Enter user details and send an invitation from the app." = "Voer de gebruikersgegevens in en verstuur een uitnodiging vanuit de app.";
 "Enter verification code" = "Voer verificatiecode in";
 "Enter your name" = "Voer uw naam in";
@@ -1228,10 +1229,12 @@
 "Event" = "Evenement";
 "Every" = "Elke";
 "Every %@ days." = "Alle %1$@ dagen.";
+"Every Weekend" = "Elk weekend";
 "Every day." = "Elke dag.";
 "Exclude Weekends" = "Weekenden Uitsluiten";
 "Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "Voer vertakking 1 uit wanneer [color=%@][b]alle regels overeenkomen[/b][/color]:";
 "Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "Voer vertakking 1 uit wanneer [color=%@][b]een regel overeenkomt[/b][/color]:";
+"Execution Order" = "Uitvoeringsvolgorde";
 "Extension" = "Extensie";
 "External Calendar Meeting" = "Externe Agenda Vergadering";
 "Extra Participants" = "Extra deelnemers";
@@ -1362,7 +1365,7 @@
 "Get direct access to %@ and %@’s services on mobile." = "Krijg direct toegang tot de diensten van %1$@ en %2$@ op mobiel.";
 "Get started" = "Aan de slag";
 "Get started with 40+ industry templates used by thousands of businesses." = "Begin met meer dan 40 branchespecifieke sjablonen die door duizenden bedrijven worden gebruikt.";
-"Give external users the option to add this person to your workspaces if they need support while you’re out of office." = "Geef externe gebruikers de mogelijkheid om deze persoon aan uw werkruimtes toe te voegen als ze ondersteuning nodig hebben terwijl u niet op kantoor bent.";
+"Give clients the option to add this person to your workspaces if they need support while you're out of the office." = "Geef klanten de mogelijkheid om deze persoon aan uw werkruimtes toe te voegen als ze ondersteuning nodig hebben terwijl u niet op kantoor bent.";
 "Gmail" = "Gmail";
 "Go Back" = "Ga terug";
 "Go to Content Gallery" = "Ga naar de inhoudsgalerij";
@@ -1379,6 +1382,7 @@
 "Group Workspace" = "Werkruimte voor groepen";
 "Groups & Topics" = "Groepen & Onderwerpen";
 "Guest" = "Gast";
+"Guests joining via the meeting link must be admitted by the host" = "Gasten die via de vergaderlink deelnemen, moeten door de gastheer worden toegelaten.";
 "Have an account?" = "Hebt u een account?";
 "Heads up!" = "Let op!";
 "Help & Support" = "Help & ondersteuning";
@@ -1427,14 +1431,17 @@
 "Identity Verification due today" = "Identiteitsverificatie moet vandaag worden ingediend";
 "Identity Verification overdue (%@)" = "Identiteitsverificatie te laat (%@)";
 "Identity verification has been temporarily disabled for security reasons. Please try again later." = "De identiteitscontrole is om veiligheidsredenen tijdelijk uitgeschakeld. Probeer het later nog eens.";
+"If an end date is selected, Out of Office will automatically turn off after that date." = "Als een einddatum is geselecteerd, wordt Afwezig automatisch uitgeschakeld na die datum.";
 "If enabled, a file reviewer will be required to review the files that are uploaded." = "Indien ingeschakeld, zal een bestandsbeoordelaar de geüploade bestanden moeten beoordelen.";
 "If enabled, the assignee must open all attachments before acknowledging." = "Indien ingeschakeld, moet de toegewezen persoon alle bijlagen openen voordat deze worden erkend.";
+"If enabled, the assignee will have the option to decline this action. If declined, the action creator will be assigned as a reviewer to determine the next steps." = "Indien ingeschakeld, heeft de toegewezen persoon de mogelijkheid om deze actie af te wijzen. Als het wordt afgewezen, wordt de maker van de actie toegewezen als beoordelaar om de volgende stappen te bepalen.";
 "If enabled, the preparer will be required to edit this action at runtime before it is ready for other assignees to take action." = "Indien ingeschakeld, is het vereist dat de voorbereider deze actie tijdens de uitvoering bewerkt voordat deze klaar is voor andere toegewezen personen om actie te ondernemen.";
 "If enabled, this action can be completed in parallel with the previous action in the flow." = "Indien ingeschakeld, kan deze actie parallel worden uitgevoerd met de vorige actie in de stroom.";
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Indien ingeschakeld, tonen we het voorblad van de flow wanneer je voor het eerst een flow workspace opent.";
 "If reopened, the assignee will need to resubmit the files." = "Als het opnieuw geopend wordt, moet de toegewezen persoon de bestanden opnieuw indienen.";
 "If they don't have an account, they will be directed to sign up to start collaborating on your flow." = "Als ze geen account hebben, worden ze doorverwezen om zich aan te melden en te beginnen met samenwerken aan uw stroom.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be affected by this." = "Als u uw DocuSign-account loskoppelt, kunnen toegewezen personen geen toegang krijgen tot of documenten ondertekenen die met dit account zijn aangemaakt. Voltooide documenten zullen hierdoor niet worden beïnvloed.";
+"If you disconnect your Zoom account, meetings that were created through the account will not be editable or deletable." = "Als u uw Zoom-account loskoppelt, kunnen vergaderingen die via het account zijn aangemaakt niet worden bewerkt of verwijderd.";
 "If you disconnect, we will no longer be able to check your availability on this calendar." = "Als u de verbinding verbreekt, kunnen we uw beschikbaarheid in deze agenda niet langer controleren.";
 "If you go back, any changes you’ve made on this page will be lost. Are you sure you want to go back?" = "Als je teruggaat, gaan alle wijzigingen die je op deze pagina hebt gemaakt verloren. Weet je zeker dat je terug wilt gaan?";
 "If you have any urgent issues, feel free to chat with %@." = "Als u dringende problemen hebt, dan kunt u chatten met %@.";
@@ -1472,7 +1479,6 @@
 "Insert Image" = "Afbeelding invoegen";
 "Insert Link" = "Link invoegen";
 "Instant Flow" = "Onmiddellijke stroom";
-"Instant Flows" = "Directe stromen";
 "Instructions" = "Instructies";
 "Integrations" = "Integraties";
 "Internal" = "Intern";
@@ -1539,6 +1545,7 @@
 "Last activity at %@" = "Laatste activiteit op %@";
 "Last activity on %@" = "Laatste activiteit op %@";
 "Last invitation sent %@" = "Laatste verstuurde uitnodiging %@";
+"Last modified" = "Laatst gewijzigd:";
 "Last seen: %@" = "Voor het laatst gezien: %@";
 "Last seen: %@d ago" = "Voor het laatst gezien: %@ dagen geleden";
 "Last seen: %@h ago" = "Voor het laatst gezien: %@ uur geleden";
@@ -1566,10 +1573,12 @@
 "Link Preview Removed" = "Koppelingsvoorbeeld verwijderd";
 "Link Refreshed" = "Link vernieuwd";
 "Load More" = "Meer Laden";
+"Loading Account" = "Account laden";
 "Loading address..." = "Adres laden...";
 "Loading your account..." = "Uw account wordt geladen...";
 "Loading your content…" = "Uw inhoud wordt geladen…";
 "Loading..." = "Laden...";
+"Local computer" = "Lokale computer";
 "Location" = "Locatie";
 "Lock Meeting Access" = "Blokkeer toegang tot vergadering";
 "Log In" = "Inloggen";
@@ -1578,7 +1587,6 @@
 "Log in here" = "Log hier in";
 "Log in to %@" = "Log in bij %@";
 "Log in to connect" = "Inloggen om verbinding te maken";
-"Log in to connect to %@" = "Log in om te verbinden met %@";
 "Log in to connect to DocuSign" = "Log in om te verbinden met DocuSign.";
 "Log in to your portal" = "Log in op uw portaal";
 "Log into %@" = "Log in bij %@";
@@ -1592,6 +1600,7 @@
 "MIA" = "Deelnemen aan";
 "MIM" = "%1$@: Oproepen voor vergadering. Doe mee s.v.p.";
 "MON" = "MA";
+"MS Teams Meeting" = "MS Teams-vergadering";
 "Make Host" = "Maak host";
 "Make Presenter" = "Maak presentator";
 "Make your business flow with digital interaction workspaces" = "Laat uw bedrijf stromen met digitale interactiewerkruimten";
@@ -1623,6 +1632,7 @@
 "Meeting Invite" = "Uitnodiging voor een Vergadering";
 "Meeting Link" = "Vergaderingslink";
 "Meeting Link Detected" = "Vergaderingslink gedetecteerd";
+"Meeting Options" = "Vergaderopties";
 "Meeting Password" = "Wachtwoord voor vergadering";
 "Meeting Password (Required)" = "Wachtwoord voor vergadering (vereist)";
 "Meeting Password:" = "Wachtwoord voor vergadering:";
@@ -1632,6 +1642,8 @@
 "Meeting Security" = "Vergaderingsveiligheid";
 "Meeting Started" = "Vergadering begonnen";
 "Meeting Topic" = "Vergaderingsonderwerp";
+"Meeting Topic*" = "Vergaderonderwerp*";
+"Meeting Type" = "Soort vergadering";
 "Meeting Update" = "Update Vergadering";
 "Meeting ended" = "Vergadering is beëindigd";
 "Meeting in Progress" = "Vergadering Bezig";
@@ -1639,6 +1651,7 @@
 "Meeting start time" = "Begintijd vergadering";
 "Meeting successfully updated." = "Vergadering updaten gelukt.";
 "Meeting transferred to you" = "Bijeenkomst is aan jou overgedragen";
+"Meeting via Zoom" = "Vergadering via Zoom";
 "Meetings" = "Vergaderingen";
 "Meetings can only last up to %@ hours." = "Vergaderingen kunnen maximaal %@ uur duren.";
 "Member Limit Reached" = "Limiet aantal leden bereikt";
@@ -1677,6 +1690,7 @@
 "Move to..." = "Verplaats naar...";
 "Moving..." = "Verplaatsen...";
 "Moxo" = "Moxo";
+"Moxo Meeting" = "Moxo Vergadering";
 "Must be invited and logged in to join" = "Moet uitgenodigd zijn en ingelogd om deel te nemen";
 "Must enter the meeting password to join" = "Moet het vergaderingswachtwoord invoeren om deel te nemen";
 "Mute" = "Geluid uit";
@@ -1710,7 +1724,6 @@
 "New Group Workspace" = "Nieuwe groepswerkruimte";
 "New Jumio" = "Nieuw Jumio";
 "New Message" = "Nieuw bericht";
-"New Message..." = "Nieuw bericht";
 "New Messages" = "Nieuwe berichten";
 "New One-on-One Workspace" = "Nieuwe één-op-één werkruimte";
 "New Password" = "Nieuw wachtwoord";
@@ -1732,6 +1745,7 @@
 "No Client Groups" = "Geen klantgroepen";
 "No Clients" = "Geen klanten";
 "No Contacts" = "Geen contactpersonen";
+"No Content Yet" = "Nog Geen Inhoud";
 "No Due Date" = "Geen Opleveringsdatum";
 "No Internal Teams" = "Geen interne teams";
 "No Internet Connection" = "Geen internetverbinding";
@@ -1764,14 +1778,15 @@
 "No extra participants yet" = "Nog geen extra deelnemers";
 "No meeting" = "Geen vergadering";
 "No meetings" = "Geen vergaderingen";
-"No members have joined" = "Geen leden zijn toegetreden";
 "No new actions need to be added" = "Er hoeven geen nieuwe acties toegevoegd te worden.";
+"No participants yet" = "Nog geen deelnemers";
 "No pending approvals" = "Geen openstaande goedkeuringen";
 "No personalized message will be displayed" = "Er wordt geen gepersonaliseerd bericht weergegeven";
 "No reminder" = "Geen herinnering";
 "No results on the current page" = "Geen resultaten op de huidige pagina";
 "No transactions match this search" = "Geen transacties komen overeen met deze zoekopdracht";
 "No viewers yet" = "Nog geen kijkers";
+"Non-Templated Flows" = "Niet-Sjabloonstromen";
 "None" = "Geen";
 "Not Joined" = "Niet aangesloten";
 "Not Recognized" = "Niet herkend";
@@ -1793,12 +1808,13 @@
 "Office Hours" = "Kantooruren";
 "Office hours shown in (%@) %@" = "De kantooruren weergegeven in (%1$@) %2$@";
 "Offline" = "Offline";
+"Offline Meeting" = "Offline vergadering";
+"Offline meeting started" = "Offline vergadering gestart";
 "On" = "Aan";
 "On Date" = "Aan datum";
 "On the local computer" = "Op de lokale computer";
 "Onboarding for {Client Name}" = "Onboarding voor {Klantnaam}";
 "Once preparation is turned off in the workspace, it cannot be turned on again. Are you sure you want to continue?" = "Zodra de voorbereiding in de werkruimte is uitgeschakeld, kan deze niet meer worden ingeschakeld. Weet je zeker dat je wilt doorgaan?";
-"Once removed, this user will not be able to join the meeting via the link." = "Eenmaal verwijderd, zal deze gebruiker niet meer via de link aan de vergadering kunnen deelnemen.";
 "Once the assignee has submitted files, this user will be asked to review and confirm them before completion." = "Zodra de cessionaris bestanden heeft ingediend, wordt deze gebruiker gevraagd deze te beoordelen en te bevestigen voordat ze worden voltooid.";
 "One file was not attached." = "Eén bestand werd niet bijgevoegd.";
 "One-on-One Workspace" = "Een-op-een werkruimte";
@@ -1836,6 +1852,7 @@
 "Other Activities" = "Overige activiteiten";
 "Other SSO" = "Andere SSO";
 "Other Settings" = "Andere instellingen";
+"Others" = "Anderen";
 "Out of Office" = "Buiten kantoor";
 "Outlook Calendar" = "Outlook-agenda";
 "Oval" = "Ovaal";
@@ -1893,6 +1910,7 @@
 "Please click below to contact us and request an invitation." = "Klik hieronder om contact met ons op te nemen en een uitnodiging aan te vragen.";
 "Please click below to create your account." = "Klik hieronder om uw account aan te maken.";
 "Please click the button below to finish creating your account." = "Klik op de knop hieronder om het aanmaken van uw account af te ronden.";
+"Please connect your %@ account to continue" = "Verbind alstublieft uw %@ account om verder te gaan.";
 "Please connect your DocuSign account to access templates." = "Maak verbinding met uw DocuSign-account om toegang te krijgen tot sjablonen.";
 "Please contact the administrator of your portal to continue." = "Neem contact op met de beheerder van uw portaal om door te gaan.";
 "Please contact the host and request an invitation to join." = "Neem contact op met de host en verzoek om een uitnodiging om aan te melden.";
@@ -1924,6 +1942,7 @@
 "Please update to the latest version of the app to view this message. Your version of the app doesn't support this message type." = "Update alstublieft naar de nieuwste versie van de app om dit bericht te bekijken. Uw versie van de app ondersteunt dit type bericht niet.";
 "Please verify your fingerprint" = "Verifieer uw vingerafdruk";
 "Please wait 60 seconds before requesting a new verification code" = "Wacht 60 seconden voordat u een nieuwe verificatiecode aanvraagt";
+"Please wait for your account to fully load." = "Wacht alstublieft tot uw account volledig is geladen.";
 "Please wait for your attachments to finish uploading before continuing." = "Wacht tot uw bijlagen klaar zijn met uploaden voordat u verder gaat.";
 "Please wait, we're working on it..." = "Even geduld, we zijn er mee bezig...";
 "Please wait. The host will let you in soon." = "Even geduld a.u.b. De gastheer zal u zo binnenlaten.";
@@ -1936,6 +1955,7 @@
 "Prepare" = "Voorbereiden";
 "Prepare %@" = "Bereid %@ voor";
 "Prepare to get your business in the flow." = "Bereid u voor om uw bedrijf in de flow te krijgen.";
+"Preparer*" = "Voorbereider";
 "Preparing..." = "Voorbereiden...";
 "Presenter" = "Presentator";
 "Preview" = "Voorbeeld";
@@ -1990,6 +2010,7 @@
 "Recents" = "Actuelen";
 "Reconnect" = "Opnieuw verbinding maken";
 "Reconnecting..." = "Opnieuw verbinding maken...";
+"Record Location" = "Locatie vastleggen";
 "Record Meeting" = "Vergadering opnemen";
 "Record Video Clip" = "Videoclip Opnemen";
 "Recording" = "Opnemen";
@@ -2018,7 +2039,7 @@
 "Reminder will occur %@ before." = "Herinnering zal %@ van tevoren plaatsvinden.";
 "Reminder: %@" = "Herinnering: %@";
 "Remove" = "Verwijderen";
-"Remove %@?" = "Verwijder %@?";
+"Remove %@ from the meeting waiting room?" = "%@ verwijderen uit de wachtruimte van de vergadering?";
 "Remove Bookmark" = "Verwijder bladwijzer";
 "Remove From Workspace" = "Verwijderen uit werkruimte";
 "Remove Link Preview" = "Voorbeeld van koppeling verwijderen";
@@ -2038,7 +2059,6 @@
 "Reopen it to enable replies." = "Heropen het om antwoorden mogelijk te maken.";
 "Reopened at %@" = "Heropend op %@";
 "Reopened on %@" = "Opnieuw openen op %@";
-"Reopening this action will require assignees to review it again, while preserving previous data. Any associated automations will also run again." = "Het heropenen van deze actie vereist dat de toegewezen personen deze opnieuw beoordelen, waarbij eerdere gegevens behouden blijven. Eventuele gekoppelde automatiseringen zullen ook opnieuw uitgevoerd worden.";
 "Reopening this action will require assignees to review it again." = "Het heropenen van deze actie vereist dat de toegewezen personen deze opnieuw beoordelen.";
 "Repeat" = "Herhalen";
 "Repeat every %@ days." = "Herhaal elke %@ dagen.";
@@ -2059,8 +2079,6 @@
 "Require Preparation" = "Voorbereiding Vereist";
 "Required Update Available" = "Vereiste update beschikbaar";
 "Required field" = "Verplicht veld";
-"Requires Preparation before the Action Can Begin" = "Vereist voorbereiding voordat de actie kan beginnen";
-"Reschedule" = "Verplaats een nieuwe afspraak";
 "Rescheduled %@" = "%@ opnieuw gepland";
 "Resend Invitation" = "Uitnodiging opnieuw verzenden";
 "Resend Invite" = "Uitnodiging opnieuw verzenden";
@@ -2068,6 +2086,8 @@
 "Reset" = "Reset";
 "Reset (%@)" = "Reset(%@)";
 "Reset Filters" = "Filters resetten";
+"Resource Info" = "Informatie over bronnen";
+"Resources" = "Bronnen";
 "Response" = "Antwoord";
 "Restart" = "Herstarten";
 "Restart Meeting" = "Vergadering herstarten";
@@ -2126,7 +2146,6 @@
 "Scan" = "Scannen";
 "Scan QR Code" = "QR-code scannen";
 "Scanning..." = "Scannen...";
-"Schedule" = "Plannen";
 "Schedule Meeting" = "Plan vergadering";
 "Scheduling Window" = "Planningsvenster";
 "Screen is being shared" = "Scherm wordt gedeeld";
@@ -2210,6 +2229,8 @@
 "Set Automatically" = "Automatisch instellen";
 "Set Currency to Continue" = "Stel valuta in om door te gaan";
 "Set Days" = "Dagen instellen";
+"Set Variables" = "Variabelen instellen";
+"Set Workspace Variables" = "Werkruimtevariabelen instellen";
 "Set a minimum amount of time between available time booking slots." = "Stel een minimale hoeveelheid tijd in tussen beschikbare tijdvakken voor het boeken van tijd.";
 "Set a new password" = "Stel een nieuw wachtwoord in";
 "Set date and time for reminder" = "Stel de datum en tijd in voor de herinnering";
@@ -2287,6 +2308,8 @@
 "Sorry, you can't present now as another participant has become the presenter." = "Sorry, u kunt nu niet presenteren omdat een andere deelnemer presentator is geworden.";
 "Sort by" = "Sorteer naar";
 "Sort by %@" = "Sorteer op %@";
+"Sort by Date" = "Sorteer op datum";
+"Sort by Name" = "Sorteer op naam";
 "Sort by..." = "Sorteer op...";
 "Special Hours" = "Speciale uren";
 "Speech Bubble" = "Tekstballon";
@@ -2318,7 +2341,6 @@
 "Step Details (Step %@)" = "Stapdetails (Step %@)";
 "Step Removed" = "Stap verwijderd";
 "Step edited" = "Stap bewerkt";
-"Step in Progress" = "Stap in uitvoering";
 "Stop Co-Browsing" = "Co-browsen stoppen";
 "Stop Recording" = "Opname stoppen";
 "Stop Sharing" = "Stop delen";
@@ -2394,6 +2416,7 @@
 "The account associated with this email address is no longer active." = "Het account gekoppeld aan dit e-mailadres is niet langer actief.";
 "The account associated with this phone number is no longer active." = "Het account dat is gekoppeld aan dit telefoonnummer is niet langer actief.";
 "The action is not ready" = "De actie is niet klaar";
+"The actions within this milestone will start only after the actions in %@ are completed. " = "De acties binnen deze mijlpaal starten pas nadat de acties in %@ zijn voltooid.";
 "The assignee(s) will need to sign again if reopened." = "De gevolmachtigde(n) moet(en) opnieuw tekenen indien opnieuw geopend.";
 "The code is no longer valid. Please request a new code to continue." = "De code is niet meer geldig. Vraag een nieuwe code aan om verder te gaan.";
 "The date will be recorded in [%@] format" = "De datum wordt vastgelegd in [%@] formaat";
@@ -2438,6 +2461,7 @@
 "The submitted response will be displayed here." = "De ingediende reactie wordt hier weergegeven.";
 "The system is busy. Please try again." = "Het systeem is bezet. Probeer het opnieuw.";
 "The tag values entered here will apply to any workspace created from this template." = "De ingevoerde tagwaarden hier zullen van toepassing zijn op elke werkruimte die vanuit dit sjabloon wordt gecreëerd.";
+"The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "De variabele waarden die hier worden ingevoerd, zullen worden toegepast op de gecreëerde werkruimte. Alleen interne gebruikers zullen ze kunnen zien.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "De werkruimte zal automatisch worden gearchiveerd voor alle leden zodra alle acties zijn voltooid en de volgende periode van inactiviteit is bereikt.";
 "There are no active screen share sessions to join." = "Er zijn geen actieve schermdeelsessies om aan deel te nemen.";
 "There are no other members in this workspace." = "Er zijn geen andere leden in deze werkruimte.";
@@ -2465,7 +2489,7 @@
 "This action cannot be reverted and all of your account data will be permanently deleted." = "Deze actie kan niet worden teruggedraaid en al uw accountgegevens zullen permanent worden verwijderd.";
 "This action cannot be undone" = "Deze actie kan niet ongedaan worden gemaakt";
 "This action cannot be undone." = "Deze actie kan niet ongedaan worden gemaakt.";
-"This action has already started and the assignee(s) can review and act on the step while you are editing. Any already completed progress will be lost." = "Deze actie is al begonnen en de gevolmachtigde(n) kunnen de stap beoordelen en uitvoeren terwijl u aan het bewerken bent. Alle reeds voltooide voortgang gaat verloren.";
+"This action has already started, and the assignee(s) can review and act on it while you are editing. Any progress already completed will be lost." = "Deze actie is al gestart, en de toegewezen personen kunnen deze bekijken en erop handelen terwijl u deze bewerkt. Alle reeds voltooide voortgang zal verloren gaan.";
 "This action has been completed. You will be directed back to the workspace." = "Deze actie is voltooid. U wordt teruggeleid naar de werkruimte.";
 "This action has been completed. You will be returned to the workspace." = "Deze actie is voltooid. U wordt teruggeleid naar de werkruimte.";
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "Deze actie is verwijderd en uw actie is niet langer vereist. Je wordt teruggeleid naar de werkruimte.";
@@ -2506,7 +2530,7 @@
 "This reset password link is no longer valid" = "Deze wachtwoordresetlink is niet langer geldig";
 "This role and any assigned fields will be hidden." = "Deze functie en eventueel toegewezen velden worden verborgen.";
 "This role cannot be assigned to an integration action." = "Deze rol kan niet worden toegewezen aan een integratieactie.";
-"This step has already started and the assignee(s) can review and act on it while you are editing. Any progress on already completed steps will be lost." = "Deze stap is al gestart en de toegewezen personen kunnen het bekijken en erop handelen terwijl u het bewerkt. Vooruitgang op reeds voltooide stappen zal verloren gaan.";
+"This section provides shared resources for easy use within workspaces." = "Deze sectie biedt gedeelde bronnen voor eenvoudig gebruik binnen werkruimtes.";
 "This step has been removed by the owner and your action is no longer required. You will be directed back to the flow workspace." = "Deze stap is verwijderd door de eigenaar en uw actie is niet langer vereist. Je wordt teruggeleid naar de Flow-werkruimte.";
 "This step has been updated by the owner. Please review the details again before taking action. You will be directed back to the flow workspace." = "Deze stap is bijgewerkt door de eigenaar. Controleer alstublieft de details nogmaals voordat u actie onderneemt. Je wordt teruggeleid naar de Flow-werkruimte.";
 "This template has been deleted and is no longer available." = "Dit sjabloon is verwijderd en is niet langer beschikbaar.";
@@ -2560,7 +2584,6 @@
 "To continue, please log in again." = "Om verder te gaan dient u in te loggen.";
 "To continue, select a signer for all roles and disable any that you don't need." = "Om door te gaan, selecteer een ondertekenaar voor alle rollen en schakel uit wat je niet nodig hebt.";
 "To continue, select assignees for all fields." = "Om verder te gaan, selecteert u de gevolmachtigden voor alle velden.";
-"To continue, select assignees for all roles." = "Om verder te gaan, gelieve cessionarissen te selecteren voor alle rollen.";
 "To create a flow template, please access the Flow Template Library from your desktop." = "Om een stroomsjabloon te creëren, opent u de bibliotheek van het stroomsjabloon vanaf uw bureaublad.";
 "To create new DocuSign envelopes, please use the desktop version." = "Om nieuwe DocuSign-enveloppen te maken, gebruikt u de desktopversie.";
 "To edit your submission, you’ll need to reopen this File Request. Do you want to continue?" = "Om uw inzending te bewerken, opent u deze bestandsaanvraag opnieuw. Wilt u doorgaan?";
@@ -2661,6 +2684,7 @@
 "Unable to co-browse while sharing files." = "Kan niet co-browsen tijdens bestanden delen.";
 "Unable to complete sign-up" = "Kan aanmelding niet voltooien";
 "Unable to connect" = "Kan geen verbinding maken";
+"Unable to edit: Meeting not found or account mismatch." = "Kan niet bewerken: Vergadering niet gevonden of account komt niet overeen.";
 "Unable to establish a connection." = "Kan geen verbinding maken.";
 "Unable to establish sharing connection. Please contact your network administrator." = "Kan geen gedeelde verbinding tot stand brengen. Neem contact op met uw netwerkbeheerder.";
 "Unable to establish video connection. Please contact your network administrator." = "Kan geen videoverbinding tot stand brengen. Neem contact op met uw netwerkbeheerder.";
@@ -2687,8 +2711,9 @@
 "Unable to upload the file %@. Please try again." = "Kan het bestand %@ niet uploaden. Probeer het opnieuw.";
 "Unarchive" = "Uit het archief halen";
 "Unarchive Workspace" = "Werkruimte uit het archief halen";
-"Unarchive workspace for everyone" = "Werkruimte voor iedereen uit het archief halen";
-"Unarchive workspace for yourself" = "Haal de werkruimte uit het archief voor jezelf";
+"Unarchive for All Internal Users" = "Haal uit het archief voor alle interne gebruikers";
+"Unarchive for All Members" = "Dearchiveer voor alle leden";
+"Unarchive for Yourself" = "Dearchiveer voor jezelf";
 "Unassigned" = "Toewijzing ongedaan gemaakt";
 "Unavailable" = "Niet beschikbaar";
 "Uncheck" = "Uitvinken";
@@ -2890,6 +2915,7 @@
 "Whole File" = "Het hele bestand";
 "Will Be Added as an Individual Workspace Member" = "Wordt toegevoegd als individueel werkruimtelid";
 "Will be prepared by" = "Zal worden voorbereid door";
+"Will be reviewed by" = "Wordt beoordeeld door";
 "Workflow Type" = "Workflow Type";
 "Workspace '%@' will be deactivated" = "Werkruimte '%@' wordt gedeactiveerd";
 "Workspace Deactivated" = "Workspace gedeactiveerd";
@@ -2901,14 +2927,16 @@
 "Workspace Name" = "Naam van de werkruimte";
 "Workspace Name (Required)" = "Naam van de werkruimte (vereist)";
 "Workspace Owner" = "Eigenaar van de werkruimte";
-"Workspace Properties" = "Eigenschappen van de werkruimte";
 "Workspace Tags" = "Tags voor werkruimte";
 "Workspace Timed Out" = "Er is een time-out opgetreden op de werkruimte";
 "Workspace Type" = "Soort werkruimte";
 "Workspace Unarchived" = "Werkruimte uit archief gehaald";
+"Workspace Variables" = "Variabelen van de werkruimte";
 "Workspace archived" = "Werkruimte gearchiveerd";
 "Workspace has been deactivated" = "Werkruimte is gedeactiveerd";
+"Workspace tags saved." = "Werkruimtetags opgeslagen.";
 "Workspace transferred to you" = "Werkruimte overgedragen aan jou";
+"Workspace variables saved." = "Werkruimtevariabelen opgeslagen.";
 "Workspaces" = "Werkruimten";
 "Workspaces archived" = "Werkruimten gearchiveerd";
 "Workspaces you are a part of will appear here." = "Werkruimtes waar je deel van uitmaakt, verschijnen hier.";
@@ -2934,7 +2962,6 @@
 "You are connected." = "U bent verbonden.";
 "You are controlling the co-browsing session." = "U heeft de controle over de co-browsingsessie.";
 "You are controlling the shared screen." = "U heeft de controle over het gedeelde scherm.";
-"You are currently not a part of any workspaces." = "U maakt momenteel geen deel uit van enige werkruimtes.";
 "You are currently not part of any workspaces." = "U maakt momenteel geen deel uit van enige werkruimtes.";
 "You are logged in as %@" = "U bent ingelogd als %@";
 "You are now a manager" = "U bent nu de leidinggevende";
@@ -3021,7 +3048,6 @@
 "You're all clear!" = "Jullie zijn allemaal goedgekeurd!";
 "You're done" = "U bent klaar";
 "You're done!" = "U bent klaar!";
-"You're logged in as %@" = "U bent ingelogd als %@";
 "You've already added all of your contacts" = "U hebt al uw contacten reeds toegevoegd";
 "You've already added the maximum number of actions. (%@/200)" = "Je hebt al het maximale aantal acties toegevoegd. (%@/200)";
 "You've exceeded the maximum file size of %@ for clips. You can still preview and save your file." = "Je hebt de maximale bestandsgrootte van %@ voor clips overschreden. Je kunt je bestand nog steeds bekijken en opslaan.";
@@ -3056,6 +3082,7 @@
 "Your session has expired due to inactivity. Please log in again to continue." = "Uw sessie is verlopen door inactiviteit. Log alstublieft opnieuw in om verder te gaan.";
 "Your session has expired due to inactivity. You'll need to verify your account again." = "Uw sessie is verlopen door inactiviteit. U moet uw account opnieuw verifiëren.";
 "Your sharing has been stopped." = "Uw delen is gestopt.";
+"Your status will automatically update to Out of Office every weekend." = "Uw status wordt elk weekend automatisch bijgewerkt naar Niet op kantoor.";
 "Your turn to sign" = "Uw beurt om te ondertekenen";
 "You’ll be added as a viewer" = "U wordt toegevoegd als kijker";
 "You’ll be notified after each person signs." = "U krijgt een melding nadat iedere persoon heeft getekend.";
@@ -3075,6 +3102,7 @@
 "You’ve already attached the maximum number of files. (50/50)" = "U hebt reeds het maximum aantal bestanden bijgevoegd. (50/50)";
 "You’ve already invited the maximum number of members to this workspace." = "Je hebt al het maximale aantal leden voor deze werkruimte uitgenodigd.";
 "Zoom" = "Zoom";
+"Zoom Meeting" = "Zoom-vergadering";
 "[Audio]" = "[Audio]";
 "[Deleted User]" = "[Verwijderde gebruiker]";
 "all assignees" = "alle rechtverkrijgenden";
