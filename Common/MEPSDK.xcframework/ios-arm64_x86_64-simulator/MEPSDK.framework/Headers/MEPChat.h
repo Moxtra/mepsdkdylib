@@ -88,7 +88,8 @@ typedef NS_ENUM(NSUInteger, MEPChatType) {
     MEPChatTypeWhatsApp,
     MEPChatTypeLiveChat,
     MEPChatTypeServiceRequest,
-    MEPChatTypeFlowChat
+    MEPChatTypeFlowChat,
+    MEPChatTypeInbox
 };
 
 typedef NS_OPTIONS(NSUInteger, MEPChatTab) {

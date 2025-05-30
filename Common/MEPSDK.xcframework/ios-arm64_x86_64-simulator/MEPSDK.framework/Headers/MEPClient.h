@@ -417,6 +417,14 @@ Open service request page, only for customer users.
 
 
 /**
+Open Inbox Workspace, only for customer users.
+
+@param completionHandler A block object to be executed when the action completes
+*/
+- (void)openInboxWorkspaceWithCompletion:(void (^ _Nullable)(NSError *_Nullable error))completionHandler;
+
+
+/**
 Open live support chat with specific channel ID
 
 @param channelId The channel ID
@@ -961,6 +969,15 @@ The default value is nil, which means SDK does not check file types.
  * Enable/disable chat archive feature. Default is NO.
  */
 @property (nonatomic, assign) BOOL disableArchiveChat;
+
+/**
+ * Enable/disable Timeline Summary feature. Default is YES.
+ */
+@property (nonatomic, assign) BOOL enableTimelineSummary;
+/**
+ * Enable/disable Timeline Summary feature. Default is NO.
+ */
+@property (nonatomic, assign) BOOL showTimelineSummaryOnly;
 
 /**
  * Replace with local action color.
