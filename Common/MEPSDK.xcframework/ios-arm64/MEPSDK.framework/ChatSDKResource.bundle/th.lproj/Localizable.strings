@@ -54,12 +54,14 @@
 "%@ Week" = "%@ สัปดาห์";
 "%@ Weeks" = "%@ สัปดาห์";
 "%@ Workspaces" = "%@ พื้นที่ทำงาน";
+"%@ account error. Please ask the meeting host (%@) to reconnect their account." = "เกิดข้อผิดพลาดกับบัญชี %1$@ กรุณาขอให้โฮสต์การประชุม (%2$@) เชื่อมต่อบัญชีของพวกเขาอีกครั้ง";
 "%@ acknowledged %@." = "%1$@ รับทราบ %2$@ แล้ว.";
 "%@ acknowledged an Acknowledgement" = "%@ รับทราบการตอบรับแล้ว";
 "%@ acknowledged an Acknowledgement: %@" = "%1$@ รับทราบการตอบรับแล้ว: %2$@";
 "%@ acknowledged this Acknowledgement." = "%@ รับทราบการตอบรับนี้แล้ว";
 "%@ actions" = "การดำเนินการ %@ ครั้ง";
 "%@ actions assigned to you" = "มอบหมาย %@ การดำเนินการให้กับคุณแล้ว";
+"%@ added %@ to this workspace." = "%1$@ ได้เพิ่ม %2$@ เข้าสู่พื้นที่ทำงานนี้";
 "%@ added %@." = "%1$@ ได้เพิ่ม %2$@.";
 "%@ added a To-Do" = "%@ เพิ่มสิ่งที่ต้องทำแล้ว";
 "%@ added a To-Do: %@" = "%1$@ เพิ่มสิ่งที่ต้องทำแล้ว: %2$@";
@@ -82,7 +84,6 @@
 "%@ added this Time Booking." = "%@ เพิ่มการจองเวลานี้แล้ว";
 "%@ added this To-Do." = "%@ เพิ่มแบบสิ่งที่ต้องทำนี้แล้ว";
 "%@ added this Wait action." = "%@ เพิ่มการกระทำการรอนี้แล้ว.";
-"%@ set the workspace due date to %@." = "%1$@ กำหนดวันครบกำหนดของพื้นที่ทำงานเป็น %2$@.";
 "%@ and %@" = "%1$@ และ %2$@";
 "%@ and %@ have been added to your team." = "%1$@ และ %2$@ ถูกเพิ่มในทีมของคุณแล้ว";
 "%@ and %@ others have been added to your team." = "เพิ่ม %1$@ และอีก %2$@ คนในทีมของคุณแล้ว";
@@ -249,7 +250,7 @@
 "%@ has started a %@ %@." = "%1$@ ได้เริ่มต้น %2$@ %3$@ แล้ว";
 "%@ has started a %@: %@" = "%1$@ ได้เริ่มต้น %2$@: %3$@";
 "%@ has started an Identity Verification" = "%@ ได้เริ่มการตรวจสอบยืนยันตัวตนแล้ว";
-"%@ has started an Identity Verification %@." = "%1$@ ได้เริ่มการยืนยันตัวตน %2$@ แล้ว";
+"%@ has started an Identity Verification for %@." = "%1$@ ได้เริ่มการยืนยันตัวตนสำหรับ %2$@.";
 "%@ has started an Identity Verification: %@" = "%1$@ ได้เริ่มการตรวจสอบยืนยันตัวตนแล้ว: %2$@";
 "%@ has started this %@." = "%1$@ ได้เริ่มต้น %2$@ นี้แล้ว.";
 "%@ has started this Identity Verification." = "%@ ได้เริ่มการตรวจสอบยืนยันตัวตนนี้แล้ว:";
@@ -327,7 +328,7 @@
 "%@ removed the due date" = "%@ ลบวันครบกำหนดออกแล้ว";
 "%@ removed the workspace due date." = "%@ ได้ลบวันครบกำหนดของพื้นที่ทำงานออกแล้ว";
 "%@ renamed a file" = "%@ ตั้งชื่อไฟล์ใหม่แล้ว";
-"%@ renamed a file to \"%@\"." = "%1$@ เปลี่ยนชื่อไฟล์เป็น \"%2$@\"";
+"%@ renamed a file to %@." = "%1$@ ได้เปลี่ยนชื่อไฟล์เป็น %2$@.";
 "%@ renamed a folder to \"%@\"." = "%1$@ ตั้งชื่อโฟลเดอร์ใหม่เป็น \"%2$@\" แล้ว";
 "%@ renamed the meeting." = "%@ ตั้งชื่อการประชุมใหม่แล้ว";
 "%@ renamed the workspace to %@." = "%1$@ ตั้งชื่อพื้นที่ทำงานใหม่เป็น %2$@";
@@ -362,6 +363,7 @@
 "%@ scheduled a meeting: %@" = "%1$@ ได้จัดตารางประชุม: %2$@";
 "%@ selected" = "%@ ถูกเลือก";
 "%@ set a due date: %@" = "%1$@ กำหนดวันที่ครบกำหนด: %2$@";
+"%@ set the workspace due date to %@." = "%1$@ กำหนดวันครบกำหนดของพื้นที่ทำงานเป็น %2$@.";
 "%@ shared a clip" = "%@ ได้แชร์คลิป";
 "%@ shared a file" = "%@ แบ่งปันไฟล์แล้ว";
 "%@ shared a location" = "%@ แบ่งปันตำแหน่งที่ตั้งแล้ว";
@@ -400,6 +402,7 @@
 "%@ submitted this Form." = "%@ ส่งแบบฟอร์มนี้แล้ว";
 "%@ submitted this PDF Form." = "%@ ได้ส่งแบบฟอร์ม PDF นี้.";
 "%@ uninstalled a bot" = "%1$@ ถอนการติดตั้งบอตแล้ว";
+"%@ updated %@." = "%1$@ ได้อัปเดต %2$@.";
 "%@ updated a To-Do" = "%@ อัปเดตสิ่งที่ต้องทำแล้ว";
 "%@ updated a To-Do." = "%@ อัปเดตสิ่งที่ต้องทำแล้ว";
 "%@ updated a note." = "%@ อัปเดตบันทึกแล้ว";
@@ -512,6 +515,7 @@
 "Action not started" = "การดำเนินการยังไม่เริ่มต้น";
 "Action not started — referenced data is being processed" = "การดำเนินการยังไม่เริ่มต้น — ข้อมูลที่อ้างถึงกำลังถูกประมวลผล";
 "Action overdue (%@)" = "การดำเนินการเกินกำหนด (%@)";
+"Action required from %@." = "ต้องการการดำเนินการจาก %@.";
 "Action skipped" = "ข้ามการดำเนินการ";
 "Action will be due in %@." = "การดำเนินการจะครบกำหนดใน %@";
 "Actions" = "การดำเนินการ";
@@ -547,6 +551,7 @@
 "Add New Stamp" = "เพิ่มตราประทับใหม่";
 "Add Password" = "เพิ่มรหัสผ่าน";
 "Add Reaction" = "เพิ่มการตอบสนอง";
+"Add Recipient" = "เพิ่มผู้รับ";
 "Add Role" = "เพิ่มบทบาท";
 "Add Roles" = "เพิ่มบทบาท";
 "Add Signers" = "เพิ่มผู้ลงนาม";
@@ -560,7 +565,6 @@
 "Add a role" = "เพิ่มบทบาท";
 "Add additional participants who will be part of the flow." = "เพิ่มผู้เข้าร่วมเพิ่มเติมที่จะเป็นส่วนหนึ่งของการไหล";
 "Add agenda" = "เพิ่มระเบียบวาระการประชุม";
-"Add anchor tags" = "เพิ่มแท็ก anchor";
 "Add description" = "เพิ่มคำอธิบาย";
 "Add distribution list" = "เพิ่มรายการจำหน่าย";
 "Add files" = "เพิ่มไฟล์";
@@ -594,8 +598,6 @@
 "Advanced Meeting Settings" = "การตั้งค่าการประชุมขั้นสูง";
 "After dialing into the meeting, please return to %@." = "หลังจากโทรเข้าร่วมการประชุมแล้ว กรุณากลับไปที่ %@";
 "After files are submitted, you’ll see them here." = "หลังจากส่งไฟล์แล้ว คุณจะเห็นไฟล์เหล่านั้นที่นี่";
-"After saving, the host must link their account." = "หลังจากบันทึกแล้ว โฮสต์ต้องเชื่อมต่อบัญชีของพวกเขา";
-"After the Time Booking is created, the host must link their account." = "หลังจากสร้างการจองเวลาแล้ว ผู้จัดต้องเชื่อมโยงบัญชีของตน";
 "After the roles are assigned, the date and time slots will be displayed here." = "หลังจากที่ได้มอบหมายบทบาทแล้ว ช่องวันที่และเวลาจะแสดงขึ้นที่นี่";
 "Agenda" = "ระเบียบวาระการประชุม";
 "Album" = "อัลบั้ม";
@@ -702,9 +704,11 @@
 "Are you sure you want to remove “%@” from this workspace?" = "คุณแน่ใจหรือไม่ว่าต้องการลบ “%@” ออกจากพื้นที่ทำงานนี้?";
 "Are you sure you want to start the meeting before its scheduled time?" = "คุณแน่ใจหรือว่าคุณต้องการเริ่มการประชุมก่อนกำหนดการ?";
 "Arrow" = "ลูกศร";
+"As the meeting host, please connect your %@ account to prepare this action:" = "ในฐานะเจ้าของการประชุม กรุณาเชื่อมต่อบัญชี %@ ของคุณเพื่อเตรียมการดำเนินการนี้:";
 "As the workspace owner, please select the range to archive:" = "ในฐานะเจ้าของพื้นที่ทำงาน กรุณาเลือกช่วงเวลาที่ต้องการเก็บถาวร:";
 "As the workspace owner, please select the range to unarchive:" = "ในฐานะเจ้าของพื้นที่ทำงาน กรุณาเลือกช่วงเวลาที่จะยกเลิกการเก็บถาวร:";
 "Asia Pacific" = "เอเชียแปซิฟิก";
+"Ask AI" = "ถาม AI";
 "Ask the client to send a message to reactivate this workspace." = "ขอให้ลูกค้าส่งข้อความเพื่อเปิดใช้งานพื้นที่ทำงานนี้อีกครั้ง";
 "Assign" = "กำหนด";
 "Assign Client Groups" = "มอบหมายกลุ่มลูกค้า";
@@ -771,6 +775,7 @@
 "By Email" = "ทางอีเมล";
 "By Phone" = "ทางโทรศัพท์";
 "By SMS" = "ทาง SMS";
+"By clicking Open Flow, you agree to our %@" = "โดยการคลิก \"เปิดโฟลว์\" คุณยอมรับ%@ของเรา";
 "By clicking Open Flow, you agree to our %@." = "โดยการคลิกเปิดการไหล คุณตกลงกับ%@ของเรา";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained in this acknowledgement request." = "โดยการคลิก \"ยืนยัน\" ฉันยืนยันว่าฉันได้อ่านและเข้าใจข้อมูลที่มีอยู่ในคำขอการตอบรับนี้แล้ว";
 "By continuing, you are giving consent to be recorded." = "โดยการดำเนินการต่อแสดงว่าคุณยินยอมให้ทำการบันทึก";
@@ -891,13 +896,13 @@
 "Confirm Deletion" = "ยืนยันการลบ";
 "Confirm Details" = "ยืนยันรายละเอียด";
 "Confirm Disconnect" = "ยืนยันการตัดการเชื่อมต่อ";
-"Confirm Disconnection" = "ยืนยันการตัดการเชื่อมต่อ";
 "Confirm Invitation" = "ยืนยันคำเชิญชวน";
 "Confirm the following to permanently delete your account." = "ยืนยันข้อมูลดังต่อไปนี้เพื่อลบบัญชีของคุณถาวร";
 "Confirm your current password to continue." = "ยืนยันรหัสผ่านปัจจุบันของคุณเพื่อดำเนินการต่อ";
 "Confirmed" = "ยืนยันแล้ว";
 "Connect" = "เชื่อมต่อ";
-"Connect Zoom Account" = "เชื่อมต่อบัญชี Zoom";
+"Connect Account" = "เชื่อมต่อบัญชี";
+"Connect Another Account" = "เชื่อมต่อบัญชีอื่น";
 "Connect with DocuSign" = "เชื่อมต่อกับ DocuSign";
 "Connect with me on my app by clicking the link below:" = "เชื่อมต่อกับฉันในแอปของฉันโดยคลิกลิงก์ด้านล่างนี้:";
 "Connect with people by using your QR code." = "เชื่อมต่อกับผู้คนโดยใช้รหัส QR ของคุณ";
@@ -907,7 +912,6 @@
 "Connecting you with our live support…" = "กำลังเชื่อมต่อคุณกับการสนับสนุนแบบสดของเรา...";
 "Connecting..." = "กำลังเชื่อมต่อ...";
 "Connection Error" = "ข้อผิดพลาดในการเชื่อมต่อ";
-"Connection Needed" = "ต้องการการเชื่อมต่อ";
 "Connection to DocuSign failed." = "การเชื่อมต่อกับ DocuSign ล้มเหลว";
 "Consulting Project for {Customer Name}" = "โครงการให้คำปรึกษาสำหรับ {ชื่อลูกค้า}";
 "Contact" = "รายชื่อผู้ติดต่อ";
@@ -983,6 +987,7 @@
 "Date" = "วันที่";
 "Date Created" = "วันที่สร้าง";
 "Date Sent" = "ส่งวันที่แล้ว";
+"Date Signed" = "วันที่ลงนาม";
 "Day" = "วัน";
 "Days" = "วัน";
 "Deactivate Workspace" = "ยกเลิกการใช้งานพื้นที่ทำงาน";
@@ -1109,10 +1114,10 @@
 "Due in %@" = "ครบกำหนดใน %@";
 "Due in 30 Days" = "ครบกำหนดใน 30 วัน";
 "Due in 7 Days" = "ครบกำหนดใน 7 วัน";
+"Due on" = "ครบกำหนดในวันที่";
 "Due on %@" = "ครบกำหนดในวันที่ %@";
 "Due today" = "ครบกำหนดวันนี้";
 "Due tomorrow" = "ครบกำหนดพรุ่งนี้";
-"Due on" = "ครบกำหนดในวันที่";
 "Duplicate Workspace" = "ทำสำเนาพื้นที่ทำงาน";
 "Duplicated" = "ทำสำเนาแล้ว";
 "Duration" = "ระยะเวลา";
@@ -1133,8 +1138,10 @@
 "E-Sign overdue (%@)" = "ลายเซ็นอิเล็กทรอนิกส์เกินกำหนด (%@)";
 "EXPIRED" = "หมดอายุแล้ว";
 "EXPIRY DATE" = "วันหมดอายุ";
+"Each recipient in the signing order must be unique." = "ผู้รับแต่ละรายในลำดับการเซ็นต้องไม่ซ้ำกัน";
 "Edit" = "แก้ไข";
 "Edit %@" = "แก้ไข %@";
+"Edit Anchor Tag" = "แก้ไขแท็ก Anchor";
 "Edit Availability" = "แก้ไขช่วงเวลาที่ว่าง";
 "Edit Clients" = "แก้ไขลูกค้า";
 "Edit Content" = "แก้ไขเนื้อหา";
@@ -1222,7 +1229,6 @@
 "Eraser" = "ยางลบ";
 "Error" = "ข้อผิดพลาด";
 "Error connecting with %@. Please ask the creator (%@) to reconnect their %@ account (%@)." = "เกิดข้อผิดพลาดในการเชื่อมต่อกับ %1$@ กรุณาขอให้ผู้สร้าง (%2$@) เชื่อมต่อบัญชี %3$@ ของพวกเขา (%4$@) อีกครั้ง";
-"Error connecting with %@. Please ask the host (%@) to reconnect their %@ account (%@)." = "เกิดข้อผิดพลาดในการเชื่อมต่อกับ %1$@ กรุณาขอให้เจ้าภาพ (%2$@) เชื่อมต่อบัญชี %1$@ ของพวกเขา (%4$@) อีกครั้ง";
 "Error connecting with %@. Please reconnect the linked account (%@) to enable the action." = "เกิดข้อผิดพลาดในการเชื่อมต่อกับ %1$@ กรุณาเชื่อมต่อบัญชีที่เชื่อมโยงแล้ว (%2$@) อีกครั้งเพื่อเปิดใช้งานการดำเนินการ";
 "Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@), then try again." = "เกิดข้อผิดพลาดในการเชื่อมต่อกับ DocuSign กรุณาขอให้ผู้สร้าง (%1$@) เชื่อมต่อบัญชี DocuSign ของพวกเขา (%2$@) อีกครั้ง แล้วลองใหม่";
 "Error connecting with DocuSign. Please contact the flow owner (%@)." = "เกิดข้อผิดพลาดในการเชื่อมต่อกับ DocuSign กรุณาติดต่อเจ้าของกระบวนการ (%@)";
@@ -1230,9 +1236,11 @@
 "Europe" = "ยุโรป";
 "Event" = "เหตุการณ์";
 "Every" = "ทุก";
-"Every %@ days." = "ทุก ๆ %1$@ วัน";
+"Every %@" = "ทุกๆ %@";
+"Every %@ days" = "ทุก ๆ %@ วัน";
 "Every Weekend" = "ทุกสุดสัปดาห์";
-"Every day." = "ทุก ๆ วัน";
+"Every day" = "ทุก ๆ วัน";
+"Every month on the %@" = "ทุกเดือนในวันที่ %@";
 "Exclude Weekends" = "ไม่รวมวันหยุดสุดสัปดาห์";
 "Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "ดำเนินการกับสาขา 1 เมื่อ [color=%@][b]ทุกกฎตรงกัน[/b][/color]:";
 "Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "เรียกใช้สาขา 1 เมื่อ [color=%@][b]กฎใดก็ตามตรงกัน[/b][/color]:";
@@ -1342,6 +1350,7 @@
 "Form due today" = "แบบฟอร์มจะครบกำหนดวันนี้";
 "Form overdue (%@)" = "แบบฟอร์มเกินกำหนด (%@)";
 "Forward content to your workspaces using the 'Copy To...' feature on each object." = "ส่งต่อเนื้อหาไปยังพื้นที่ทำงานของคุณโดยใช้คุณสมบัติ 'คัดลอกไปยัง...' บนแต่ละออบเจ็กต์";
+"Forward to Chat" = "ส่งต่อไปยังแชท";
 "Forwarding..." = "กำลังส่งต่อ...";
 "Frequency" = "ความถี่";
 "Friday" = "วันศุกร์";
@@ -1387,6 +1396,7 @@
 "Help Center" = "ศูนย์ช่วยเหลือ";
 "Here are the pending invites that have been sent to clients. " = "นี่คือคำเชิญที่กำลังรอการตอบรับซึ่งได้ส่งไปยังลูกค้าแล้ว";
 "Hi" = "หวัดดี";
+"Hi there!" = "สวัสดี!";
 "Hide" = "ซ่อน";
 "Highlight Pen" = "ปากกาเน้นข้อความ";
 "Hold to Talk" = "กดค้างเพื่อคุย";
@@ -1398,6 +1408,7 @@
 "Hosted by %@" = "จัดโดย %1$@";
 "I Agree" = "ฉันยอมรับ";
 "I agree that the above is the legally binding electronic representation of my signature and initials. By continuing, I am confirming my identity as stated above and my intention to sign this document electronically." = "ฉันยอมรับว่าข้างต้นเป็นการแสดงตัวแทนของลายเซ็นและตัวย่อของฉันที่มีผลผูกพันทางกฎหมายในรูปแบบอิเล็กทรอนิกส์ โดยการดำเนินการต่อ ฉันกำลังยืนยันตัวตนของฉันตามที่ระบุไว้ข้างต้นและความตั้งใจของฉันที่จะลงนามเอกสารนี้โดยวิธีอิเล็กทรอนิกส์";
+"I have started a Microsoft Teams meeting. Please click the link to join: %@" = "ฉันได้เริ่มการประชุม Microsoft Teams แล้ว กรุณาคลิกลิงก์เพื่อเข้าร่วม: %@";
 "I have started a Zoom meeting. Please click the link to join: %@" = "ฉันได้เริ่มการประชุมผ่าน Zoom แล้ว กรุณาคลิกที่ลิงก์เพื่อเข้าร่วม: %@";
 "I would like to invite you to join this flow workspace." = "ฉันอยากจะเชิญคุณเข้าร่วมพื้นที่ทำงานตามโฟลว์นี้";
 "I would like to share a meeting link with you. Meeting Password: %@ Meeting Link: %@" = "ฉันต้องการแบ่งปันลิงก์การประชุมกับคุณ รหัสผ่านการประชุม: %1$@ ลิงก์การประชุม: %2$@";
@@ -1437,8 +1448,8 @@
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "หากเปิดการใช้งาน เราจะแสดงหน้าปกโฟลว์ทุกครั้งที่คุณเปิดพื้นที่ทำงานตามโฟลว์ขึ้นครั้งแรก";
 "If reopened, the assignee will need to resubmit the files." = "หากเปิดใหม่อีกครั้ง, ผู้รับมอบหมายจะต้องส่งไฟล์ใหม่อีกครั้ง.";
 "If they don't have an account, they will be directed to sign up to start collaborating on your flow." = "หากพวกเขายังไม่มีบัญชี พวกเขาจะถูกนำไปยังหน้าสมัครสมาชิกเพื่อเริ่มการทำงานร่วมกันในฟลว์ของคุณ";
+"If you disconnect your %@ account, meetings that were created through the account will not be editable or deletable." = "หากคุณยกเลิกการเชื่อมต่อบัญชี %@ ของคุณ การประชุมที่ถูกสร้างผ่านบัญชีนี้จะไม่สามารถแก้ไขหรือลบได้";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be affected by this." = "หากคุณยกเลิกการเชื่อมต่อบัญชี DocuSign ของคุณ ผู้รับมอบหมายจะไม่สามารถเข้าถึงหรือลงนามในเอกสารที่รอดำเนินการที่สร้างด้วยบัญชีนี้ได้ เอกสารที่เสร็จสมบูรณ์จะไม่ได้รับผลกระทบจากสิ่งนี้";
-"If you disconnect your Zoom account, meetings that were created through the account will not be editable or deletable." = "หากคุณยกเลิกการเชื่อมต่อบัญชี Zoom ของคุณ การประชุมที่ถูกสร้างผ่านบัญชีนี้จะไม่สามารถแก้ไขหรือลบได้";
 "If you disconnect, we will no longer be able to check your availability on this calendar." = "หากคุณยกเลิกการเชื่อมต่อ เราจะไม่สามารถตรวจสอบความพร้อมของคุณในปฏิทินนี้ได้อีกต่อไป";
 "If you go back, any changes you’ve made on this page will be lost. Are you sure you want to go back?" = "หากคุณย้อนกลับ การเปลี่ยนแปลงใดๆ ที่คุณทำกับหน้านี้จะสูญหาย คุณแน่ใจหรือว่าต้องการย้อนกลับ?";
 "If you have any urgent issues, feel free to chat with %@." = "ถ้าหากว่าคุณมีปัญหาเร่งด่วนใดๆ โปรดพูดคุยกับ %@ ได้ทุกเมื่อ";
@@ -1471,6 +1482,7 @@
 "Incorrect verification code. Please try again." = "รหัสการตรวจสอบยืนยันไม่ถูกต้อง โปรดลองอีกครั้ง";
 "Info" = "ข้อมูล";
 "Init." = "ชื่อย่อ";
+"Initials" = "ชื่อย่อ";
 "Inputs" = "อินพุต";
 "Insert" = "แทรก";
 "Insert Image" = "แทรกรูปภาพ";
@@ -1491,6 +1503,7 @@
 "Invalid Weblink URL" = "URL ของเว็บลิงก์ไม่ถูกต้อง";
 "Invalid account type for this app. Please contact your administrator." = "ประเภทบัญชีสำหรับแอปนี้ไม่ถูกต้อง โปรดติดต่อผู้ดูแลระบบของคุณ";
 "Invalid address" = "ที่อยู่ไม่ถูกต้อง";
+"Invalid meeting host" = "โฮสต์การประชุมไม่ถูกต้อง";
 "Invalid offset, unable to proceed." = "ออฟเซ็ตไม่ถูกต้อง ไม่สามารถดำเนินการต่อได้";
 "Invisible" = "ไม่ปรากฎ";
 "Invitation Accepted" = "ยอมรับการเชิญชวนแล้ว";
@@ -1514,6 +1527,7 @@
 "Invited" = "เชิญแล้ว";
 "It's your turn!" = "ถึงทีคุณแล้ว!";
 "I’m currently out of the office. I will respond to any messages received once I return." = "ขณะนี้ฉันไม่อยู่ที่สำนักงาน ฉันจะตอบกลับข้อความใด ๆ ที่ได้รับตอนฉันกลับมา";
+"I’m here to assist you. What can I help you with today? " = "ฉันอยู่ที่นี่เพื่อช่วยเหลือคุณ วันนี้ฉันสามารถช่วยอะไรคุณได้บ้าง?";
 "I’m on my way." = "ฉันกำลังเดินทางไป";
 "I’m unavailable" = "ฉันไม่ว่าง";
 "Job Title" = "ชื่อตำแหน่งงาน";
@@ -1572,6 +1586,7 @@
 "Link Copied" = "คัดลอกลิงก์แล้ว";
 "Link Preview Removed" = "ลบการดูตัวอย่างลิงก์ออกแล้ว";
 "Link Refreshed" = "รีเฟรชลิงก์แล้ว";
+"Link sent" = "ส่งลิงก์แล้ว";
 "Load More" = "โหลดเพิ่มเติม";
 "Loading Account" = "กำลังโหลดบัญชี";
 "Loading address..." = "กำลังโหลดที่อยู่...";
@@ -1600,7 +1615,6 @@
 "MIA" = "เข้าร่วม";
 "MIM" = "%1$@: เรียกประชุม โปรดเข้าร่วม";
 "MON" = "จันทร์";
-"MS Teams Meeting" = "การประชุม MS Teams";
 "Make Host" = "สร้างเจ้าภาพ";
 "Make Presenter" = "สร้างผู้นำเสนอ";
 "Make your business flow with digital interaction workspaces" = "ทำให้ธุรกิจของคุณไหลลื่นด้วยพื้นที่ทำงานทางดิจิทัล";
@@ -1652,12 +1666,14 @@
 "Meeting start time" = "เวลาเริ่มการประชุม";
 "Meeting successfully updated." = "อัปเดตการประชุมสำเร็จแล้ว";
 "Meeting transferred to you" = "ถ่ายโอนการประชุมให้คุณแล้ว";
+"Meeting via Microsoft Teams" = "ประชุมผ่าน Microsoft Teams";
 "Meeting via Zoom" = "การประชุมผ่าน Zoom";
 "Meetings" = "การประชุม";
 "Meetings can only last up to %@ hours." = "การประชุมสามารถจัดได้ไม่เกิน %@ ชั่วโมงเท่านั้น";
 "Member Limit Reached" = "สมาชิกถึงขีดจำกัดแล้ว";
 "Member Requests" = "คำขอจากสมาชิก";
 "Member Type" = "ประเภทสมาชิก";
+"Member limit reached" = "ถึงขีดจำกัดจำนวนสมาชิกแล้ว";
 "Members" = "สมาชิก";
 "Members (%@)" = "สมาชิก (%@)";
 "Members only" = "สำหรับสมาชิกเท่านั้น";
@@ -1673,6 +1689,8 @@
 "Messaging Inactive" = "การส่งข้อความไม่ได้ใช้งาน";
 "Messaging temporarily inactive." = "การส่งข้อความไม่ได้ใช้งานชั่วคราว";
 "Microphone Access Denied" = "การเข้าถึงไมโครโฟนถูกปฏิเสธ";
+"Microsoft Teams" = "Microsoft Teams";
+"Microsoft Teams Meeting" = "การประชุม Microsoft Teams";
 "Min Amount" = "จำนวนขั้นต่ำ";
 "Missed Call at %@" = "สายที่ไม่ได้รับเมื่อ %@";
 "Missed call" = "สายที่ไม่ได้รับ";
@@ -1682,6 +1700,7 @@
 "Modified %@" = "แก้ไขแล้วเมื่อ %@";
 "Modify" = "เปลี่ยนแปลง";
 "Monday" = "วันจันทร์";
+"Month" = "เดือน";
 "Monthly" = "รายเดือน";
 "More" = "เพิ่มเติม";
 "More Options" = "ตัวเลือกเพิ่มเติม";
@@ -1811,6 +1830,7 @@
 "Notifications" = "การแจ้งเตือน";
 "Notifications Muted" = "ปิดเสียงการแจ้งเตือน";
 "Now" = "ตอนนี้";
+"Number" = "จำนวน";
 "OBJECTS" = "วัตถุ";
 "OK" = "ตกลง";
 "OR" = "หรือ";
@@ -1938,6 +1958,7 @@
 "Please click below to create your account." = "โปรดคลิกด้านล่างเพื่อสร้างบัญชีของคุณ";
 "Please click the button below to finish creating your account." = "โปรดคลิกปุ่มด้านล่างเพื่อสร้างบัญชีของคุณให้เสร็จสิ้น";
 "Please connect your %@ account to continue" = "กรุณาเชื่อมต่อบัญชี %@ ของคุณเพื่อดำเนินการต่อ";
+"Please connect your %@ account to continue." = "กรุณาเชื่อมต่อบัญชี %@ ของคุณเพื่อดำเนินการต่อ";
 "Please connect your DocuSign account to access templates." = "โปรดเชื่อมต่อบัญชี DocuSign ของคุณเพื่อเข้าถึงเทมเพลต";
 "Please contact the administrator of your portal to continue." = "กรุณาติดต่อผู้ดูแลระบบพอร์ทัลของคุณเพื่อดำเนินการต่อ";
 "Please contact the host and request an invitation to join." = "โปรดติดต่อเจ้าภาพและขอการเชิญชวนเพื่อเข้าร่วม";
@@ -1957,6 +1978,7 @@
 "Please reconnect your DocuSign account and try again." = "โปรดเชื่อมต่อบัญชี DocuSign ของคุณอีกครั้งและลองใหม่";
 "Please remove any inactive users to continue." = "โปรดลบผู้ใช้ที่ไม่ได้ใช้งานออกเพื่อดำเนินการต่อ";
 "Please review all pages to proceed" = "โปรดตรวจสอบทุกหน้าเพจเพื่อดำเนินการต่อ";
+"Please select a workspace member to assign as the meeting host." = "โปรดเลือกสมาชิกในพื้นที่ทำงานเพื่อมอบหมายให้เป็นโฮสต์ของการประชุม";
 "Please select from the portals below associated with %@." = "โปรดเลือกจากพอร์ทัลด้านล่างที่เกี่ยวข้องกับ %@.";
 "Please select the action type for the step you want to add to this flow." = "โปรดเลือกประเภทการดำเนินการสำหรับขั้นตอนที่คุณต้องการเพิ่มในโฟลว์นี้";
 "Please send any additional details you think will help the agent in completing your request." = "ตัวแทนจะตอบกลับเมื่อพร้อมให้บริการ หรือคุณสามารถยกเลิกคำขอของคุณด้านล่าง";
@@ -1996,6 +2018,7 @@
 "Preview Form" = "ดูตัวอย่างแบบฟอร์ม";
 "Preview PDF Form" = "ดูตัวอย่างฟอร์ม PDF";
 "Preview not available" = "การดูตัวอย่างไม่พร้อมใช้งาน";
+"Previous Interactions" = "การโต้ตอบก่อนหน้า";
 "Previously Shared Files" = "ไฟล์ที่แบ่งปันก่อนหน้านี้";
 "Print" = "พิมพ์";
 "Private" = "ส่วนตัว";
@@ -2052,6 +2075,7 @@
 "Recording will stop in %@s" = "การบันทึกจะหยุดใน %@ วินาที";
 "Recordings must be longer than 1 second" = "การบันทึกต้องมีระยะเวลามากกว่า 1 วินาที";
 "Rectangle" = "สี่เหลี่ยมผืนผ้า";
+"Recurrence settings have been reset due to incompatibility with Microsoft Teams. Please reconfigure." = "การตั้งค่าการเกิดซ้ำถูกรีเซ็ตเนื่องจากไม่สามารถใช้งานร่วมกับ Microsoft Teams ได้ กรุณาตั้งค่าใหม่อีกครั้ง";
 "Referenced event has been removed" = "เหตุการณ์ที่อ้างถึงได้ถูกลบออกแล้ว";
 "Refresh" = "รีเฟรช";
 "Refresh Invite Link?" = "รีเฟรชลิงก์คำเชิญชวน?";
@@ -2092,6 +2116,7 @@
 "Reopening this action will require assignees to review it again." = "การเปิดการดำเนินการนี้อีกครั้งจะต้องให้ผู้รับมอบหมายตรวจสอบอีกครั้ง";
 "Repeat" = "ทำซ้ำ";
 "Repeat every %@ days." = "ทำซ้ำทุก ๆ %@ วัน";
+"Repeat every %@ weeks on %@" = "ทำซ้ำทุก %1$@ สัปดาห์ในวัน%2$@";
 "Repeat every %@ weeks on %@." = "ทำซ้ำทุก ๆ %1$@ สัปดาห์ในวัน %2$@";
 "Repeat every day." = "ทำซ้ำทุกวัน";
 "Repeat every month on the %@." = "ทำซ้ำทุกเดือนในวันที่ %@";
@@ -2113,6 +2138,7 @@
 "Resend Invitation" = "ส่งการเชิญชวนซ้ำ";
 "Resend Invite" = "ส่งคำเชิญชวนซ้ำ";
 "Resend in %ds" = "ส่งซ้ำใน %ds";
+"Resend link" = "ส่งลิงก์อีกครั้ง";
 "Reset" = "ตั้งค่าใหม่";
 "Reset (%@)" = "ตั้งค่าใหม่ (%@)";
 "Reset Filters" = "รีเซ็ตตัวกรอง";
@@ -2163,12 +2189,12 @@
 "Save Changes" = "บันทึกการเปลี่ยนแปลง";
 "Save Contact" = "บันทึกรายชื่อผู้ติดต่อ";
 "Save Files" = "บันทึกไฟล์";
+"Save Uploaded Files to a Specific Folder" = "บันทึกไฟล์ที่อัปโหลดไว้ในโฟลเดอร์ที่ระบุ";
 "Save files" = "บันทึกไฟล์";
 "Save the Signed File to a Specific Folder" = "บันทึกไฟล์ที่ลงนามไว้ในโฟลเดอร์ที่ระบุ";
 "Save to" = "บันทึกไปที่";
 "Save to Album" = "บันทึกลงในอัลบั้ม";
 "Save to Files" = "บันทึกไปที่ไฟล์";
-"Save Uploaded Files to a Specific Folder" = "บันทึกไฟล์ที่อัปโหลดไว้ในโฟลเดอร์ที่ระบุ";
 "Saved" = "บันทึกแล้ว";
 "Saved successfully." = "บันทึกสำเร็จแล้ว";
 "Saving..." = "กำลังบันทึก...";
@@ -2213,6 +2239,7 @@
 "Select Items" = "เลือกรายการ";
 "Select Members" = "เลือกสมาชิก";
 "Select Preparer" = "เลือกผู้เตรียม";
+"Select Recipient" = "เลือกผู้รับ";
 "Select Signers" = "เลือกผู้ลงนาม";
 "Select Stamp" = "เลือกตราประทับ";
 "Select Template" = "เลือกแผ่นแบบโฟลว์";
@@ -2224,12 +2251,12 @@
 "Select Workspaces" = "เลือกพื้นที่ทำงาน";
 "Select a Date & Time" = "เลือกวันที่และเวลา";
 "Select a Sample Workspace" = "เลือกพื้นที่ทำงานตัวอย่าง";
+"Select a date for the monthly recurring Microsoft Teams meeting" = "เลือกวันที่สำหรับการประชุม Microsoft Teams ที่เกิดขึ้นประจำทุกเดือน";
 "Select a pre-built or shared template in DocuSign" = "เลือกแม่แบบที่สร้างไว้ล่วงหน้าหรือแม่แบบที่แชร์ใน DocuSign";
 "Select action type" = "เลือกประเภทการดำเนินการ";
 "Select an Option to Continue" = "เลือกตัวเลือกเพื่อดำเนินการต่อ";
 "Select an option to continue" = "เลือกตัวเลือกเพื่อดำเนินการต่อ";
 "Select the role assignment (optional):" = "เลือกการมอบหมายบทบาท (ไม่จำเป็น):";
-"Select the role that will receive a copy of the signed document" = "เลือกบทบาทที่จะได้รับสำเนาของเอกสารที่ลงนาม";
 "Select the user type:" = "เลือกประเภทผู้ใช้:";
 "Select “%@”" = "เลือก \"%@\"";
 "Selected" = "เลือกแล้ว";
@@ -2246,7 +2273,6 @@
 "Send To" = "ส่งถึง";
 "Send Verification Email" = "ส่งอีเมลการตรวจสอบยืนยัน";
 "Send Verification Request" = "ส่งคำขอการตรวจสอบยืนยัน";
-"Send a Copy To" = "ส่งสำเนาถึง";
 "Send a message to get connected with an agent." = "ส่งข้อความเพื่อเชื่อมต่อกับตัวแทน";
 "Send a new code" = "ส่งรหัสใหม่";
 "Send an invitation via email or phone number, which they can use to create their account." = "ส่งคำเชิญผ่านทางอีเมลหรือหมายเลขโทรศัพท์ ซึ่งพวกเขาสามารถใช้สร้างบัญชีของตนเองได้";
@@ -2263,6 +2289,7 @@
 "Set Automatically" = "ตั้งค่าอัตโนมัติ";
 "Set Currency to Continue" = "ตั้งค่าสกุลเงินเพื่อดำเนินการต่อ";
 "Set Days" = "ตั้งวัน";
+"Set Up Anchor Tags" = "ตั้งค่าแท็กแองเคอร์";
 "Set Up Envelope with Anchor Tags" = "ตั้งค่าซองจดหมายด้วยแท็กยึด";
 "Set Variables" = "ตั้งค่าตัวแปร";
 "Set Workspace Variables" = "ตั้งค่าตัวแปรของพื้นที่ทำงาน";
@@ -2315,6 +2342,7 @@
 "Signing Completed" = "การลงชื่อเสร็จสมบูรณ์แล้ว";
 "Signing Field Required" = "กำหนดให้ต้องมีฟิลด์สำหรับลงลายมือชื่อ";
 "Signing Fields Required" = "กำหนดให้ต้องมีฟิลด์สำหรับลงลายมือชื่อ";
+"Signing Order" = "การลงชื่อในคำสั่ง";
 "Signing Up..." = "กำลังลงทะเบียนเข้าใช้งาน...";
 "Signing completed." = "การลงชื่อเสร็จสมบูรณ์แล้ว";
 "Signing order" = "การลงชื่อในคำสั่ง";
@@ -2341,6 +2369,8 @@
 "Sorry, %@ is already being used by another app. Please close the app and try again." = "ขออภัย, %@ กำลังถูกใช้งานโดยแอปอื่น กรุณาปิดแอปและลองอีกครั้ง";
 "Sorry, I can’t talk right now." = "ต้องขอโทษด้วย ตอนนี้ฉันคุยด้วยไม่ได้";
 "Sorry, this item isn't available" = "ขออภัย รายการนี้ไม่พร้อมใช้งาน";
+"Sorry, this link has expired." = "ขออภัย ลิงก์นี้หมดอายุแล้ว";
+"Sorry, this link is no longer valid." = "ขออภัย ลิงก์นี้ไม่สามารถใช้งานได้อีกต่อไป";
 "Sorry, this meeting cannot be started as it is still not scheduled!" = "ขออภัย ไม่สามารถเริ่มการประชุมนี้ได้เนื่องจากยังไม่มีกำหนดการ!";
 "Sorry, this step was recently removed by the flow owner." = "ขออภัย เจ้าของโฟลว์เพิ่งลบขั้นตอนนี้ออก";
 "Sorry, you can't perform this action now as your audio device is being used by the current meeting. Please try again after the meeting." = "ขออภัย คุณไม่สามารถดำเนินการได้ในขณะนี้เนื่องจากการประชุมปัจจุบันกำลังใช้อุปกรณ์เสียงของคุณอยู่ โปรดลองอีกครั้งหลังจากเสร็จสิ้นการประชุม";
@@ -2380,6 +2410,7 @@
 "Step Details (Step %@)" = "รายละเอียดขั้นตอน (ขั้นตอนที่ %@)";
 "Step Removed" = "ลบขั้นตอนออกแล้ว";
 "Step edited" = "แก้ไขขั้นตอนแล้ว";
+"Still can’t find it?" = "ยังหาไม่พบ?";
 "Stop Co-Browsing" = "หยุดการเรียกดูร่วมกัน";
 "Stop Recording" = "หยุดการบันทึก";
 "Stop Sharing" = "หยุดการแบ่งปัน";
@@ -2408,6 +2439,7 @@
 "TUE" = "อังคาร";
 "Tabs" = "แท็บ";
 "Tag %@" = "แท็ก %@";
+"Tags (%@)" = "แท็ก (%@)";
 "Take Photo" = "ถ่ายภาพ";
 "Tap + to schedule a meeting." = "แตะ + เพื่อจัดกำหนดการประชุม";
 "Tap Continue to join the workspace." = "แตะที่ดำเนินการต่อเพื่อเข้าร่วมพื้นที่ทำงาน";
@@ -2436,6 +2468,7 @@
 "Terms of Service & Privacy Policy" = "เงื่อนไขและข้อตกลงในการใช้บริการและนโยบายความเป็นส่วนตัว";
 "Text" = "ข้อความ";
 "Text Color" = "สีข้อความ";
+"Text Field" = "ฟิลด์ข้อความ";
 "Text Outline" = "เค้าร่างข้อความ";
 "Text Tag" = "แท็กข้อความ";
 "Text not recognized" = "ไม่สามารถรู้จำข้อความได้";
@@ -2450,6 +2483,7 @@
 "The QR code must be from %@." = "QR code ต้องมาจาก %@.";
 "The QR code must be from this app." = "รหัส QR ต้องมาจากแอปนี้";
 "The URL you've entered is not valid. Please review the URL and try again." = "URL ที่คุณป้อนไม่ถูกต้อง กรุณาตรวจสอบ URL แล้วลองอีกครั้ง";
+"The account (%@) is not authorized to schedule Microsoft Teams meetings. Please connect a different account to continue." = "บัญชี (%@) ไม่มีสิทธิ์ในการกำหนดเวลาการประชุม Microsoft Teams กรุณาเชื่อมต่อบัญชีอื่นเพื่อดำเนินการต่อ";
 "The account associated with %@ is no longer active" = "บัญชีที่เชื่อมโยงกับ %@ ไม่ได้ใช้งานอีกต่อไป";
 "The account associated with %@ is no longer active. Please contact support to reactivate your account." = "บัญชีที่เชื่อมโยงกับ %@ ไม่ได้ใช้งานอีกต่อไป กรุณาติดต่อฝ่ายสนับสนุนเพื่อเปิดใช้งานบัญชีของคุณอีกครั้ง";
 "The account associated with the phone number is no longer active." = "บัญชีที่เชื่อมโยงกับหมายเลขโทรศัพท์ไม่สามารถใช้งานได้อีกต่อไป";
@@ -2482,12 +2516,18 @@
 "The meeting has been recorded. Please contact the host to get a copy of the recording." = "บันทึกการประชุมแล้ว โปรดติดต่อเจ้าภาพการประชุมเพื่อขอรับสำเนาบันทึกการประชุม";
 "The meeting has ended. Would you like to save the files shared during this meeting?" = "การประชุมได้สิ้นสุดลงแล้ว คุณต้องการบันทึกไฟล์ที่แชร์ระหว่างการประชุมนี้หรือไม่?";
 "The meeting has not yet started. Please try to join later." = "การประชุมยังไม่ได้เริ่มต้น กรุณาลองเข้าร่วมใหม่ในภายหลัง";
+"The meeting host needs to connect their Microsoft account." = "โฮสต์ของการประชุมจำเป็นต้องเชื่อมต่อบัญชี Microsoft ของตน";
+"The meeting host needs to connect their Zoom account." = "โฮสต์ของการประชุต้องเชื่อมต่อบัญชี Zoom ของตนเอง";
 "The meeting is being recorded." = "การประชุมกำลังถูกบันทึก";
 "The meeting recording is available." = "การบันทึกการประชุมพร้อมใช้งาน";
 "The meeting recording of \"%@\" is available." = "บันทึกการประชุมของ \"%@\" พร้อมให้ใช้งานแล้ว.";
 "The meeting start time cannot be in the past." = "เวลาเริ่มการประชุมไม่สามารถเป็นในอดีตได้";
-"The meeting type has changed, resulting in the previous host's permissions being reset. Please assign a new host to continue." = "ประเภทของการประชุมได้เปลี่ยนแปลง ส่งผลให้สิทธิ์ของโฮสต์เดิมถูกรีเซ็ต กรุณาแต่งตั้งโฮสต์ใหม่เพื่อดำเนินการต่อ";
 "The meeting will be recorded." = "การประชุมจะถูกบันทึก";
+"The meeting will repeat every %@ days." = "การประชุมนี้จะเกิดขึ้นซ้ำทุก ๆ %@ วัน";
+"The meeting will repeat every %@ weeks on %@." = "การประชุมนี้จะเกิดขึ้นซ้ำทุก ๆ %1$@ สัปดาห์ในวัน%2$@";
+"The meeting will repeat every day." = "การประชุมนี้จะเกิดขึ้นซ้ำทุกวัน";
+"The meeting will repeat every month on the %@." = "การประชุมนี้จะเกิดขึ้นซ้ำทุกเดือนในวันที่ %@";
+"The meeting will repeat every week on %@." = "การประชุมนี้จะเกิดขึ้นทุกสัปดาห์ในวัน%@";
 "The microphone is occupied and cannot be used" = "ไมโครโฟนกำลังถูกใช้งานและไม่สามารถใช้ได้";
 "The minimum amount cannot be higher than the maximum amount." = "จำนวนขั้นต่ำไม่สามารถสูงกว่าจำนวนสูงสุดได้";
 "The old password does not match." = "รหัสผ่านเก่าไม่ตรงกัน";
@@ -2515,7 +2555,6 @@
 "There are no users with the name, email, or phone number you’ve entered." = "ไม่มีผู้ใช้ที่มีชื่อ, อีเมล, หรือหมายเลขโทรศัพท์ที่คุณได้ป้อนไว้.";
 "There are no workspaces with the name you provided." = "ไม่มีพื้นที่ทำงานตามชื่อที่คุณระบุ";
 "There are no workspaces with the name you’ve provided." = "ไม่มีพื้นที่ทำงานตามชื่อที่คุณระบุ";
-"There is an error with this action. Please reach out to our team in the chat." = "มีข้อผิดพลาดกับการดำเนินการนี้ กรุณาติดต่อทีมงานของเราในแชท";
 "There is an error with this step. Please reach out to our team in the chat." = "เกิดข้อผิดพลาดในขั้นตอนนี้ โปรดติดต่อทีมของเราผ่านแชท";
 "There is no password set up for this account" = "ไม่มีการตั้งรหัสผ่านสำหรับบัญชีนี้";
 "There is no portal or invitation associated with %@." = "ไม่มีพอร์ทัลหรือคำเชิญที่เกี่ยวข้องกับ %@.";
@@ -2542,6 +2581,8 @@
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "การดำเนินการนี้ถูกลบไปแล้วและคุณไม่จำเป็นต้องดำเนินการๆ อีก คุณจะถูกนำกลับไปที่พื้นที่ทำงาน";
 "This action has been updated. Please review the details again before taking action. You will be directed back to the workspace." = "อัปเดตการดำเนินการนี้แล้ว โปรดตรวจทานรายละเอียดอีกครั้งก่อนที่จะดำเนินการต่อ คุณจะถูกนำกลับไปที่พื้นที่ทำงาน";
 "This action is already in progress. You will be returned to the workspace." = "การดำเนินการนี้กำลังดำเนินอยู่ คุณจะถูกนำกลับไปยังพื้นที่ทำงาน.";
+"This action requires a connected account to continue." = "การดำเนินการนี้ต้องใช้บัญชีที่เชื่อมต่อเพื่อดำเนินการต่อ";
+"This action requires you to sign up. Do you want to continue?" = "การดำเนินการนี้ต้องสมัครสมาชิกก่อน คุณต้องการดำเนินการต่อหรือไม่?";
 "This and Following Meetings" = "การประชุมครั้งนี้และหลังจากนั้น";
 "This configuration will apply to in-app push notifications, email, and SMS notifications where applicable." = "การตั้งค่านี้จะใช้กับการแจ้งเตือนแบบพุชในแอป อีเมล และ SMS ตามที่เกี่ยวข้อง";
 "This content may have been deleted or otherwise removed." = "เนื้อหานี้อาจถูกลบหรือถูกลบออก";
@@ -2550,10 +2591,12 @@
 "This email does not match the predefined email." = "อีเมลนี้ไม่ตรงกับอีเมลที่กำหนดไว้ล่วงหน้า";
 "This email is already associated with another account." = "อีเมลนี้ถูกใช้ไปกับบัญชีอื่นแล้ว";
 "This envelope is still being processed by DocuSign. Please try again in a moment." = "ซองจดหมายนี้ยังอยู่ระหว่างการดำเนินการโดย DocuSign กรุณาลองอีกครั้งในอีกสักครู่";
+"This field will be autofilled with the signer's information" = "ช่องนี้จะถูกกรอกอัตโนมัติด้วยข้อมูลของผู้ลงนาม";
 "This file exceeds the maximum size (%@MB)." = "ไฟล์นี้มีขนาดเกินสูงสุด (%@MB).";
 "This file has been deleted." = "ลบไฟล์นี้แล้ว";
 "This file has been deleted. It is no longer available." = "ไฟล์นี้ถูกลบแล้ว ไม่สามารถใช้งานได้อีกต่อไป";
 "This flow has been completed and you can no longer make modifications." = "การไหลนี้เสร็จสิ้นแล้วและคุณไม่สามารถทำการแก้ไขได้อีกต่อไป.";
+"This flow requires a connected account to continue." = "โฟลว์นี้ต้องการบัญชีที่เชื่อมต่อเพื่อดำเนินการต่อ";
 "This folder is empty" = "โฟลเดอร์นี้ว่างเปล่า";
 "This group already has the maximum number of clients allowed per group: %@." = "กลุ่มนี้มีจำนวนลูกค้าสูงสุดตามที่อนุญาตต่อกลุ่มแล้ว: %@.";
 "This group requires manager permissions to edit." = "กลุ่มนี้ต้องการสิทธิ์ผู้จัดการเพื่อทำการแก้ไข";
@@ -2579,10 +2622,12 @@
 "This role and any assigned fields will be hidden." = "บทบาทนี้และฟิลด์ที่ได้รับมอบหมายใดๆ จะถูกซ่อน";
 "This role cannot be assigned to an integration action." = "บทบาทนี้ไม่สามารถถูกมอบหมายให้กับการดำเนินการผสานรวม";
 "This section provides shared resources for easy use within workspaces." = "ส่วนนี้ให้ทรัพยากรร่วมที่สามารถใช้งานได้ง่ายภายในพื้นที่ทำงาน";
+"This signer has assigned tags. To delete the signer, remove the tags from the Anchor Tags screen." = "ผู้ลงนามรายนี้มีแท็กที่กำหนดไว้ หากต้องการลบผู้ลงนาม กรุณาลบแท็กออกจากหน้าจอ Anchor Tags ก่อน";
 "This step has been removed by the owner and your action is no longer required. You will be directed back to the flow workspace." = "การดำเนินการนี้ถูกลบออกแล้วโดยเจ้าของและคุณไม่จำเป็นต้องดำเนินการๆ อีก คุณจะถูกนำกลับไปที่พื้นที่ทำงานตามโฟลว์";
 "This step has been updated by the owner. Please review the details again before taking action. You will be directed back to the flow workspace." = "อัปเดตขั้นตอนนี้แล้วโดยเจ้าของ โปรดตรวจทานรายละเอียดอีกครั้งก่อนที่จะดำเนินการต่อ คุณจะถูกนำกลับไปที่พื้นที่ทำงานตามโฟลว์";
 "This template has been deleted and is no longer available." = "แม่แบบนี้ถูกลบไปแล้วและไม่สามารถใช้งานได้อีกต่อไป";
 "This time booking action will require preparation in the workspace. The host will need to link their account." = "การดำเนินการจองเวลาครั้งนี้จะต้องมีการเตรียมการในพื้นที่ทำงาน โฮสต์จะต้องทำการเชื่อมโยงบัญชีของตน";
+"This time overlaps with future occurrences. Please choose a new time to proceed." = "เวลานี้ทับซ้อนกับเหตุการณ์ในอนาคต กรุณาเลือกเวลาใหม่เพื่อดำเนินการต่อ";
 "This title is only visible to you." = "เฉพาะคุณที่มองเห็นชื่อนี้";
 "This to-do can only be completed by internal users." = "สิ่งที่ต้องทำสามารถทำได้โดยผู้ใช้ภายในเท่านั้น";
 "This transaction has been deleted." = "ลบการทำธุรกรรมนี้แล้ว";
@@ -2616,6 +2661,7 @@
 "Time Booking assigned to %@." = "การจองเวลาที่มอบหมายให้ %@";
 "Time Booking assigned to %@: %@" = "การจองเวลาที่มอบหมายให้ %1$@: %2$@";
 "Time Booking assigned to you" = "การจองเวลาที่มอบหมายให้คุณ";
+"Time Booking awaits your preparation" = "การจองเวลารอการเตรียมตัวของคุณ";
 "Time Booking completed." = "การจองเวลาเสร็จสมบูรณ์";
 "Time Booking completed: %@" = "การจองเวลาเสร็จสมบูรณ์: %@";
 "Time Booking due now" = "การจองเวลาที่ครบกำหนดตอนนี้";
@@ -2628,6 +2674,7 @@
 "To confirm this user’s identify, you may want to have them verify their email." = "หากต้องการยืนยันตัวตนของผู้ใช้รายนี้ คุณอาจแจ้งให้พวกเขาตรวจสอบยืนยันอีเมล";
 "To confirm your identity, we recommend verifying your email address." = "เพื่อยืนยันตัวตนของคุณ เราขอแนะนำให้ทำการตรวจสอบยืนยันที่อยู่อีเมลของคุณ";
 "To continue, add at least one role." = "หากต้องการดำเนินการต่อ ให้เพิ่มอย่างน้อยหนึ่งบทบาท";
+"To continue, please add at least one more participant." = "เพื่อดำเนินการต่อ กรุณาเพิ่มผู้เข้าร่วมอย่างน้อยอีกหนึ่งคน";
 "To continue, please log in again." = "หากต้องการดำเนินการต่อ โปรดเข้าสู่ระบบอีกครั้ง";
 "To continue, select a signer for all roles and disable any that you don't need." = "เพื่อดำเนินการต่อ โปรดเลือกผู้ลงนามสำหรับบทบาททั้งหมดและปิดการใช้งานบทบาทที่คุณไม่ต้องการ";
 "To continue, select assignees for all fields." = "หากต้องการดำเนินการต่อ ให้เลือกผู้โอนสำหรับทุกฟิลด์";
@@ -2636,6 +2683,7 @@
 "To edit your submission, you’ll need to reopen this File Request. Do you want to continue?" = "หากต้องการแก้ไขการส่ง คุณจะต้องเปิดคำขอไฟล์นี้อีกครั้ง คุณต้องการดำเนินการต่อหรือไม่?";
 "To ensure a secure connection, only websites that support HTTPS can be loaded." = "เพื่อให้มั่นใจว่าการเชื่อมต่อปลอดภัย เว็บไซต์ที่สามารถโหลดได้จะต้องเป็นเว็บไซต์ที่รองรับ HTTPS เท่านั้น";
 "To filter by amount, please select a currency." = "หากต้องการกรองตามจำนวน โปรดเลือกสกุลเงิน";
+"To keep your information secure, this link has expired. We’ve sent a new link via email or SMS. Please check your spam or junk folders if you don’t see it in your inbox." = "เพื่อความปลอดภัยของข้อมูลของคุณ ลิงก์นี้ได้หมดอายุแล้ว เราได้ส่งลิงก์ใหม่ให้ทางอีเมลหรือ SMS กรุณาตรวจสอบโฟลเดอร์สแปมหรือจดหมายขยะ หากคุณไม่พบในกล่องขาเข้า";
 "To reactivate the workspace, send this user a new invite asking them to follow our account." = "หากต้องการเปิดใช้งานพื้นที่ทำงานอีกครั้ง ให้ส่งคำเชิญใหม่ให้กับผู้ใช้รายนี้เพื่อขอให้พวกเขาติดตามบัญชีของเรา";
 "To reactivate the workspace, this user will need to unblock our account." = "หากต้องการเปิดใช้งานพื้นที่ทำงานอีกครั้ง ผู้ใช้รายนี้จำเป็นต้องยกเลิกการปิดกั้นบัญชีของเรา";
 "To reactivate, send an invitation with a link to rejoin the workspace." = "เพื่อเปิดใช้งานอีกครั้ง กรุณาส่งคำเชิญพร้อมลิงก์เพื่อเข้าร่วมพื้นที่ทำงานอีกครั้ง";
@@ -2697,6 +2745,7 @@
 "Type email to invite" = "พิมพ์อีเมลเพื่อเชิญ";
 "Type phone number to invite" = "พิมพ์หมายเลขโทรศัพท์เพื่อเชิญชวน";
 "Type your reason here." = "พิมพ์เหตุผลของคุณที่นี่";
+"Type*" = "ประเภท*";
 "Types" = "ชนิด";
 "URL (required)" = "URL (จำเป็น)";
 "US" = "สหรัฐอเมริกา";
@@ -2849,6 +2898,7 @@
 "Viewers" = "ผู้ชม";
 "Viewers (%@)" = "ผู้ดู (%@) คน";
 "Virtual Backgrounds" = "พื้นหลังเสมือน";
+"Visible to you only" = "มองเห็นได้เฉพาะคุณเท่านั้น";
 "Voice Message" = "ข้อความเสียง";
 "Voice Tag" = "แท็กเสียง";
 "WAITING FOR AGENT..." = "กำลังรอตัวแทน...";
@@ -2961,7 +3011,6 @@
 "Who needs to review this?" = "ใครต้องทบทวนสิ่งนี้?";
 "Who needs to sign?" = "ใครบ้างที่ต้องลงนาม?";
 "Who needs to upload this?" = "ใครต้องอัปโหลดสิ่งนี้?";
-"Who will receive a copy?" = "ใครจะได้รับสำเนา?";
 "Who will take action in the shadow flow?" = "ใครจะดำเนินการในกระแสเงา?";
 "Who will take action in this flow?" = "ใครจะเป็นผู้ลงมือดำเนินการในโฟลว์นี้?";
 "Whole File" = "ไฟล์ทั้งหมด";
@@ -3232,3 +3281,4 @@
 "“Can I call you later?”" = "“ฉันโทรถึงคุณหลังจากนี้ได้หรือไม่?”";
 "“I’m on my way.”" = "“ฉันกำลังเดินทางไป”";
 "“Sorry, I can’t talk right now.”" = "“ต้องขอโทษด้วย ตอนนี้ฉันคุยด้วยไม่ได้”";
+"🎉 Congratulations on your new position, and best wishes for your first day at Moxo!" = "🎉 ขอแสดงความยินดีกับตำแหน่งใหม่ของคุณ และขออวยพรให้คุณโชคดีในวันแรกที่ Moxo!";

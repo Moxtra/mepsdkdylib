@@ -54,12 +54,14 @@
 "%@ Week" = "%@ Tuần";
 "%@ Weeks" = "%@ Tuần";
 "%@ Workspaces" = "%@ Không Gian Làm Việc";
+"%@ account error. Please ask the meeting host (%@) to reconnect their account." = "Lỗi tài khoản %1$@. Vui lòng yêu cầu người tổ chức cuộc họp (%2$@) kết nối lại tài khoản của họ.";
 "%@ acknowledged %@." = "%1$@ đã xác nhận %2$@.";
 "%@ acknowledged an Acknowledgement" = "%@ đã xác nhận một Lời công nhận";
 "%@ acknowledged an Acknowledgement: %@" = "%1$@ đã xác nhận một Lời công nhận: %2$@";
 "%@ acknowledged this Acknowledgement." = "%@ đã xác nhận Lời công nhận này.";
 "%@ actions" = "%@ hành động";
 "%@ actions assigned to you" = "%@ hành động được chỉ định cho bạn";
+"%@ added %@ to this workspace." = "%1$@ đã thêm %2$@ vào không gian làm việc này.";
 "%@ added %@." = "%1$@ đã thêm %2$@.";
 "%@ added a To-Do" = "%@ đã thêm một nhiệm vụ";
 "%@ added a To-Do: %@" = "%1$@ đã thêm một nhiệm vụ: %2$@";
@@ -82,7 +84,6 @@
 "%@ added this Time Booking." = "%@ đã thêm Lịch Hẹn này.";
 "%@ added this To-Do." = "%@ đã thêm Việc cần làm này.";
 "%@ added this Wait action." = "%@ đã thêm hành động Chờ này.";
-"%@ set the workspace due date to %@." = "%1$@ đã đặt ngày hết hạn cho không gian làm việc là %2$@.";
 "%@ and %@" = "%1$@ và %2$@";
 "%@ and %@ have been added to your team." = "%1$@ và %2$@ vừa được thêm vào đội của bạn.";
 "%@ and %@ others have been added to your team." = "%1$@ và %2$@ người nữa vừa được thêm vào đội của bạn.";
@@ -249,7 +250,7 @@
 "%@ has started a %@ %@." = "%1$@ đã bắt đầu một %2$@ %3$@.";
 "%@ has started a %@: %@" = "%1$@ đã bắt đầu một %2$@: %3$@";
 "%@ has started an Identity Verification" = "%@ đã bắt đầu một Quy Trình Xác Minh Danh Tính";
-"%@ has started an Identity Verification %@." = "%1$@ đã bắt đầu một quy trình xác minh danh tính %2$@.";
+"%@ has started an Identity Verification for %@." = "%1$@ đã bắt đầu xác minh danh tính cho %2$@.";
 "%@ has started an Identity Verification: %@" = "%1$@ đã bắt đầu một Quy Trình Xác Minh Danh Tính: %2$@";
 "%@ has started this %@." = "%1$@ đã bắt đầu %2$@ này.";
 "%@ has started this Identity Verification." = "%@ đã bắt đầu Quy Trình Xác Minh Danh Tính này.";
@@ -327,7 +328,7 @@
 "%@ removed the due date" = "%@ đã gỡ ngày đến hạn";
 "%@ removed the workspace due date." = "%@ đã xóa ngày đến hạn của không gian làm việc.";
 "%@ renamed a file" = "%@ đã đổi tên một tệp tin";
-"%@ renamed a file to \"%@\"." = "%1$@ đã đổi tên một tệp thành \"%2$@\".";
+"%@ renamed a file to %@." = "%1$@ đã đổi tên tệp thành %2$@.";
 "%@ renamed a folder to \"%@\"." = "%1$@ đã đổi tên một thư mục thành \"%2$@\".";
 "%@ renamed the meeting." = "%@ đã đổi tên cuộc họp.";
 "%@ renamed the workspace to %@." = "%1$@ đã đổi tên không gian làm việc này thành %2$@.";
@@ -362,6 +363,7 @@
 "%@ scheduled a meeting: %@" = "%1$@ đã lên lịch một cuộc họp: %2$@";
 "%@ selected" = "Đã chọn %@";
 "%@ set a due date: %@" = "%1$@ đã cài đặt một ngày đến hạn: %2$@";
+"%@ set the workspace due date to %@." = "%1$@ đã đặt ngày hết hạn cho không gian làm việc là %2$@.";
 "%@ shared a clip" = "%@ đã chia sẻ một đoạn clip";
 "%@ shared a file" = "%@ đã chia sẻ một tệp tin";
 "%@ shared a location" = "%@ đã chia sẻ một địa điểm";
@@ -400,6 +402,7 @@
 "%@ submitted this Form." = "%@ đã gửi Biểu mẫu này.";
 "%@ submitted this PDF Form." = "%@ đã nộp biểu mẫu PDF này.";
 "%@ uninstalled a bot" = "%1$@ đã gỡ cài đặt một bot";
+"%@ updated %@." = "%1$@ đã cập nhật %2$@.";
 "%@ updated a To-Do" = "%@ đã cập nhật một Việc cần làm";
 "%@ updated a To-Do." = "%@ đã cập nhật một Việc cần làm.";
 "%@ updated a note." = "%@ đã cập nhật một ghi chú.";
@@ -512,6 +515,7 @@
 "Action not started" = "Hành động chưa bắt đầu";
 "Action not started — referenced data is being processed" = "Hành động chưa bắt đầu — dữ liệu tham chiếu đang được xử lý";
 "Action overdue (%@)" = "Hành động quá hạn (%@)";
+"Action required from %@." = "Cần hành động từ %@.";
 "Action skipped" = "Hành động đã bỏ qua";
 "Action will be due in %@." = "Hành động sẽ đến hạn vào %@.";
 "Actions" = "Hành động";
@@ -547,6 +551,7 @@
 "Add New Stamp" = "Thêm Dấu Mới";
 "Add Password" = "Thêm Mật khẩu";
 "Add Reaction" = "Thêm phản ứng";
+"Add Recipient" = "Thêm người nhận";
 "Add Role" = "Thêm vai trò";
 "Add Roles" = "Thêm Vai trò";
 "Add Signers" = "Thêm Người Ký";
@@ -560,7 +565,6 @@
 "Add a role" = "Thêm một vai trò";
 "Add additional participants who will be part of the flow." = "Thêm các thành viên tham gia khác sẽ là một phần của luồng.";
 "Add agenda" = "Thêm chương trình nghị sự";
-"Add anchor tags" = "Thêm thẻ neo";
 "Add description" = "Thêm mô tả";
 "Add distribution list" = "Thêm danh sách phân phối";
 "Add files" = "Thêm các tệp tin";
@@ -594,8 +598,6 @@
 "Advanced Meeting Settings" = "Cài Đặt Cuộc Họp Nâng Cao";
 "After dialing into the meeting, please return to %@." = "Sau khi gọi vào cuộc họp, vui lòng quay lại %@.";
 "After files are submitted, you’ll see them here." = "Sau khi đã gửi các tệp, bạn sẽ thấy chúng ở đây.";
-"After saving, the host must link their account." = "Sau khi lưu, chủ nhà phải liên kết tài khoản của họ.";
-"After the Time Booking is created, the host must link their account." = "Sau khi tạo Lịch hẹn, chủ nhà phải liên kết tài khoản của họ.";
 "After the roles are assigned, the date and time slots will be displayed here." = "Sau khi chỉ định vai trò, các khung giờ và ngày sẽ xuất hiện ở đây.";
 "Agenda" = "Nội dung họp";
 "Album" = "Album";
@@ -702,9 +704,11 @@
 "Are you sure you want to remove “%@” from this workspace?" = "Bạn có chắc chắn muốn xóa “%@” khỏi không gian làm việc này không?";
 "Are you sure you want to start the meeting before its scheduled time?" = "Bạn có chắc chắn muốn bắt đầu cuộc họp trước thời gian đã lên lịch không?";
 "Arrow" = "Mũi tên";
+"As the meeting host, please connect your %@ account to prepare this action:" = "Là người chủ trì cuộc họp, vui lòng kết nối tài khoản %@ của bạn để chuẩn bị cho hành động này:";
 "As the workspace owner, please select the range to archive:" = "Là chủ sở hữu không gian làm việc, vui lòng chọn phạm vi để lưu trữ:";
 "As the workspace owner, please select the range to unarchive:" = "Là chủ sở hữu không gian làm việc, vui lòng chọn phạm vi để giải nén:";
 "Asia Pacific" = "Châu Á Thái Bình Dương";
+"Ask AI" = "Hỏi AI";
 "Ask the client to send a message to reactivate this workspace." = "Yêu cầu khách hàng gửi tin nhắn để kích hoạt lại không gian làm việc này.";
 "Assign" = "Chỉ định";
 "Assign Client Groups" = "Phân Công Nhóm Khách Hàng";
@@ -771,6 +775,7 @@
 "By Email" = "Bằng Email";
 "By Phone" = "Bằng Điện thoại";
 "By SMS" = "Bằng SMS";
+"By clicking Open Flow, you agree to our %@" = "Bằng cách nhấp vào Mở Luồng, bạn đồng ý với %@ của chúng tôi";
 "By clicking Open Flow, you agree to our %@." = "Bằng cách nhấp vào Mở Luồng, bạn đồng ý với %@ của chúng tôi.";
 "By clicking “Confirm”, I am confirming that I have read and understood the information contained in this acknowledgement request." = "Bằng cách nhấp vào “Xác nhận”, tôi xác nhận rằng tôi đã đọc và hiểu thông tin có trong yêu cầu công nhận này.";
 "By continuing, you are giving consent to be recorded." = "Bằng cách tiếp tục, bạn đồng ý được ghi lại.";
@@ -891,13 +896,13 @@
 "Confirm Deletion" = "Xác nhận thao tác xóa";
 "Confirm Details" = "Xác nhận Chi tiết";
 "Confirm Disconnect" = "Xác nhận ngắt kết nối";
-"Confirm Disconnection" = "Xác nhận Ngắt Kết Nối";
 "Confirm Invitation" = "Xác nhận Thư mời";
 "Confirm the following to permanently delete your account." = "Xác nhận những điều sau để xóa vĩnh viễn tài khoản của bạn.";
 "Confirm your current password to continue." = "Xác nhận mật khẩu hiện tại của bạn để tiếp tục.";
 "Confirmed" = "Đã xác nhận";
 "Connect" = "Kết nối";
-"Connect Zoom Account" = "Kết nối tài khoản Zoom";
+"Connect Account" = "Kết nối Tài khoản";
+"Connect Another Account" = "Kết nối tài khoản khác";
 "Connect with DocuSign" = "Kết nối với DocuSign";
 "Connect with me on my app by clicking the link below:" = "Kết nối với tôi trên ứng dụng của tôi bằng cách nhấp vào liên kết bên dưới:";
 "Connect with people by using your QR code." = "Kết nối với mọi người bằng cách sử dụng mã QR của bạn.";
@@ -907,7 +912,6 @@
 "Connecting you with our live support…" = "Đang kết nối bạn với bộ phận hỗ trợ trực tiếp của chúng tôi…";
 "Connecting..." = "Đang kết nối...";
 "Connection Error" = "Lỗi Kết Nối";
-"Connection Needed" = "Cần kết nối";
 "Connection to DocuSign failed." = "Kết nối với DocuSign thất bại.";
 "Consulting Project for {Customer Name}" = "Dự án Tư vấn cho {Tên Khách hàng}";
 "Contact" = "Liên hệ";
@@ -983,6 +987,7 @@
 "Date" = "Ngày tháng";
 "Date Created" = "Ngày tháng Đã tạo";
 "Date Sent" = "Ngày tháng đã Gửi";
+"Date Signed" = "Ngày Ký";
 "Day" = "Ngày";
 "Days" = "Ngày";
 "Deactivate Workspace" = "Hủy kích hoạt Không gian làm việc";
@@ -1109,10 +1114,10 @@
 "Due in %@" = "Đến hạn sau %@";
 "Due in 30 Days" = "Đến hạn trong 30 ngày";
 "Due in 7 Days" = "Đáo hạn trong 7 ngày";
+"Due on" = "Đến hạn vào";
 "Due on %@" = "Đáo hạn vào %@";
 "Due today" = "Đến hạn hôm nay";
 "Due tomorrow" = "Đến hạn vào ngày mai";
-"Due on" = "Đến hạn vào";
 "Duplicate Workspace" = "Sao Chép Không Gian Làm Việc";
 "Duplicated" = "Đã nhân bản";
 "Duration" = "Thời lượng";
@@ -1133,8 +1138,10 @@
 "E-Sign overdue (%@)" = "Quá hạn ký điện tử (%@)";
 "EXPIRED" = "ĐÃ HẾT HẠN";
 "EXPIRY DATE" = "NGÀY HẾT HẠN";
+"Each recipient in the signing order must be unique." = "Mỗi người nhận trong thứ tự ký phải là duy nhất.";
 "Edit" = "Chỉnh sửa";
 "Edit %@" = "Chỉnh sửa %@";
+"Edit Anchor Tag" = "Chỉnh sửa Thẻ Neo";
 "Edit Availability" = "Chỉnh Sửa Lịch Trống";
 "Edit Clients" = "Chỉnh Sửa Khách Hàng";
 "Edit Content" = "Chỉnh sửa nội dung";
@@ -1222,7 +1229,6 @@
 "Eraser" = "Nút xóa";
 "Error" = "Lỗi";
 "Error connecting with %@. Please ask the creator (%@) to reconnect their %@ account (%@)." = "Lỗi kết nối với %1$@. Vui lòng yêu cầu người tạo (%2$@) kết nối lại tài khoản %3$@ của họ (%4$@).";
-"Error connecting with %@. Please ask the host (%@) to reconnect their %@ account (%@)." = "Lỗi kết nối với %1$@. Vui lòng yêu cầu chủ sở hữu (%2$@) kết nối lại tài khoản %1$@ của họ (%4$@).";
 "Error connecting with %@. Please reconnect the linked account (%@) to enable the action." = "Lỗi kết nối với %1$@. Vui lòng kết nối lại tài khoản đã liên kết (%2$@) để kích hoạt hành động.";
 "Error connecting with DocuSign. Please ask the creator (%@) to reconnect their DocuSign account (%@), then try again." = "Lỗi kết nối với DocuSign. Vui lòng yêu cầu người tạo (%1$@) kết nối lại tài khoản DocuSign của họ (%2$@), sau đó thử lại.";
 "Error connecting with DocuSign. Please contact the flow owner (%@)." = "Lỗi kết nối với DocuSign. Vui lòng liên hệ với chủ sở hữu quy trình (%@).";
@@ -1230,9 +1236,11 @@
 "Europe" = "Châu Âu";
 "Event" = "Sự kiện";
 "Every" = "Mỗi";
-"Every %@ days." = "Mỗi %1$@ ngày một lần.";
+"Every %@" = "Mỗi %@";
+"Every %@ days" = "Mỗi %@ ngày";
 "Every Weekend" = "Mỗi Cuối Tuần";
-"Every day." = "Mỗi ngày.";
+"Every day" = "Mỗi ngày";
+"Every month on the %@" = "Mỗi tháng vào ngày %@";
 "Exclude Weekends" = "Loại trừ Ngày Cuối Tuần";
 "Execute branch 1 when [color=%@][b]all rules match[/b][/color]:" = "Thực hiện nhánh 1 khi [color=%@][b]tất cả các quy tắc khớp[/b][/color]:";
 "Execute branch 1 when [color=%@][b]any rule matches[/b][/color]:" = "Thực thi nhánh 1 khi [color=%@][b]bất kỳ quy tắc nào khớp[/b][/color]:";
@@ -1342,6 +1350,7 @@
 "Form due today" = "Biểu mẫu đến hạn vào hôm nay";
 "Form overdue (%@)" = "Biểu mẫu quá hạn (%@)";
 "Forward content to your workspaces using the 'Copy To...' feature on each object." = "Chuyển nội dung đến không gian làm việc của bạn bằng cách sử dụng tính năng 'Sao chép đến...' trên từng đối tượng.";
+"Forward to Chat" = "Chuyển tiếp đến Chat";
 "Forwarding..." = "Đang chuyển tiếp...";
 "Frequency" = "Tần số";
 "Friday" = "Thứ Sáu";
@@ -1387,6 +1396,7 @@
 "Help Center" = "Trung tâm trợ giúp";
 "Here are the pending invites that have been sent to clients. " = "Dưới đây là những lời mời đang chờ đã được gửi đến khách hàng.";
 "Hi" = "Bạn ơi";
+"Hi there!" = "Xin chào!";
 "Hide" = "Ẩn";
 "Highlight Pen" = "Bút ghi nhớ";
 "Hold to Talk" = "Giữ để Nói chuyện";
@@ -1398,6 +1408,7 @@
 "Hosted by %@" = "Được chủ trì bởi %1$@";
 "I Agree" = "Tôi đồng ý";
 "I agree that the above is the legally binding electronic representation of my signature and initials. By continuing, I am confirming my identity as stated above and my intention to sign this document electronically." = "Tôi đồng ý rằng những gì trên đây là biểu diễn điện tử có giá trị pháp lý của chữ ký và chữ viết tắt của tôi. Bằng cách tiếp tục, tôi xác nhận danh tính của mình như đã nêu ở trên và ý định của tôi là ký vào tài liệu này một cách điện tử.";
+"I have started a Microsoft Teams meeting. Please click the link to join: %@" = "Tôi đã bắt đầu một cuộc họp Microsoft Teams. Vui lòng nhấp vào liên kết để tham gia: %@";
 "I have started a Zoom meeting. Please click the link to join: %@" = "Tôi đã bắt đầu một cuộc họp Zoom. Vui lòng nhấp vào liên kết để tham gia: %@";
 "I would like to invite you to join this flow workspace." = "Tôi muốn mời bạn tham gia không gian làm việc theo quy trình này.";
 "I would like to share a meeting link with you. Meeting Password: %@ Meeting Link: %@" = "Tôi muốn chia sẻ một liên kết cuộc họp cho bạn. Mật khẩu Cuộc họp: %1$@ Liên kết Cuộc họp: %2$@";
@@ -1437,8 +1448,8 @@
 "If enabled, we will display the flow cover page whenever you open a flow workspace for the first time." = "Nếu được bật, chúng tôi sẽ hiển thị trang bìa của quy trình mỗi lần đầu bạn mở không gian làm việc theo quy trình.";
 "If reopened, the assignee will need to resubmit the files." = "Nếu được mở lại, người được giao sẽ cần phải nộp lại các tệp.";
 "If they don't have an account, they will be directed to sign up to start collaborating on your flow." = "Nếu họ chưa có tài khoản, họ sẽ được hướng dẫn đăng ký để bắt đầu cộng tác trên luồng của bạn.";
+"If you disconnect your %@ account, meetings that were created through the account will not be editable or deletable." = "Nếu bạn ngắt kết nối tài khoản %@ của mình, các cuộc họp được tạo qua tài khoản này sẽ không thể chỉnh sửa hoặc xóa.";
 "If you disconnect your DocuSign account, assignees will not be able to access or sign any pending documents created with this account. Completed documents will not be affected by this." = "Nếu bạn ngắt kết nối tài khoản DocuSign của mình, người được giao sẽ không thể truy cập hoặc ký bất kỳ tài liệu đang chờ nào được tạo bằng tài khoản này. Các tài liệu đã hoàn thành sẽ không bị ảnh hưởng bởi điều này.";
-"If you disconnect your Zoom account, meetings that were created through the account will not be editable or deletable." = "Nếu bạn ngắt kết nối tài khoản Zoom của mình, các cuộc họp được tạo qua tài khoản này sẽ không thể chỉnh sửa hoặc xóa được.";
 "If you disconnect, we will no longer be able to check your availability on this calendar." = "Nếu bạn ngắt kết nối, chúng tôi sẽ không thể kiểm tra tình trạng sẵn có của bạn trên lịch này nữa.";
 "If you go back, any changes you’ve made on this page will be lost. Are you sure you want to go back?" = "Nếu bạn quay lại, mọi thay đổi đã thực hiện trên trang này sẽ bị mất. Bạn có chắc chắn muốn quay lại không?";
 "If you have any urgent issues, feel free to chat with %@." = "Nếu bạn có bất kỳ vấn đề khẩn cấp nào, vui lòng trò chuyện với %@.";
@@ -1471,6 +1482,7 @@
 "Incorrect verification code. Please try again." = "Mã xác minh không chính xác. Vui lòng thử lại lần nữa.";
 "Info" = "Thông tin";
 "Init." = "Tên viết tắt";
+"Initials" = "Tên viết tắt";
 "Inputs" = "Đầu vào";
 "Insert" = "Chèn";
 "Insert Image" = "Chèn Hình ảnh";
@@ -1491,6 +1503,7 @@
 "Invalid Weblink URL" = "URL siêu liên kết không hợp lệ";
 "Invalid account type for this app. Please contact your administrator." = "Loại tài khoản không hợp lệ cho ứng dụng này. Vui lòng liên hệ với quản trị viên của bạn.";
 "Invalid address" = "Địa chỉ không hợp lệ";
+"Invalid meeting host" = "Chủ trì cuộc họp không hợp lệ";
 "Invalid offset, unable to proceed." = "Độ lệch không hợp lệ, không thể tiếp tục.";
 "Invisible" = "Vô hình";
 "Invitation Accepted" = "Thư mời đã được Chấp nhận";
@@ -1514,6 +1527,7 @@
 "Invited" = "Đã Mời";
 "It's your turn!" = "Đến lượt bạn!";
 "I’m currently out of the office. I will respond to any messages received once I return." = "Hiện giờ tôi không có mặt tại văn phòng. Khi nào trở về tôi sẽ trả lời ngay tin nhắn nhận được.";
+"I’m here to assist you. What can I help you with today? " = "Tôi ở đây để hỗ trợ bạn. Hôm nay tôi có thể giúp gì cho bạn?";
 "I’m on my way." = "Tôi đang trên đường đến.";
 "I’m unavailable" = "Tôi không rảnh";
 "Job Title" = "Chức danh Công việc";
@@ -1572,6 +1586,7 @@
 "Link Copied" = "Liên kết đã được Sao chép";
 "Link Preview Removed" = "Bản Xem Trước Liên Kết Đã Xóa";
 "Link Refreshed" = "Liên kết đã được Làm mới";
+"Link sent" = "Liên kết đã được gửi";
 "Load More" = "Tải thêm";
 "Loading Account" = "Đang tải Tài khoản";
 "Loading address..." = "Đang tải địa chỉ...";
@@ -1600,7 +1615,6 @@
 "MIA" = "Tham gia";
 "MIM" = "%1$@: Đang Gọi vào Cuộc họp. Vui lòng tham gia.";
 "MON" = "T2";
-"MS Teams Meeting" = "Cuộc họp MS Teams";
 "Make Host" = "Lập Người Chủ trì";
 "Make Presenter" = "Lập Người Thuyết trình";
 "Make your business flow with digital interaction workspaces" = "Hãy làm cho doanh nghiệp của bạn trôi chảy với các không gian tương tác số hóa";
@@ -1652,12 +1666,14 @@
 "Meeting start time" = "Giờ cuộc họp bắt đầu";
 "Meeting successfully updated." = "Cuộc họp đã được cập nhật thành công.";
 "Meeting transferred to you" = "Đã chuyển giao cuộc họp cho bạn";
+"Meeting via Microsoft Teams" = "Cuộc họp qua Microsoft Teams";
 "Meeting via Zoom" = "Cuộc họp qua Zoom";
 "Meetings" = "Cuộc họp";
 "Meetings can only last up to %@ hours." = "Cuộc họp chỉ có thể kéo dài tối đa %@ giờ.";
 "Member Limit Reached" = "Đã đạt đến Giới hạn Thành viên";
 "Member Requests" = "Yêu cầu Thành viên";
 "Member Type" = "Kiểu Thành Viên";
+"Member limit reached" = "Đã đạt giới hạn thành viên";
 "Members" = "Thành viên";
 "Members (%@)" = "Thành viên (%@)";
 "Members only" = "Chỉ dành cho thành viên";
@@ -1673,6 +1689,8 @@
 "Messaging Inactive" = "Tính năng Nhắn tin không hoạt động";
 "Messaging temporarily inactive." = "Tính năng nhắn tin tạm thời không hoạt động.";
 "Microphone Access Denied" = "Không thể truy cập micrô";
+"Microsoft Teams" = "Microsoft Teams";
+"Microsoft Teams Meeting" = "Cuộc họp Microsoft Teams";
 "Min Amount" = "Số lượng Tối thiểu";
 "Missed Call at %@" = "Cuộc gọi Nhỡ lúc %@";
 "Missed call" = "Cuộc gọi nhỡ";
@@ -1682,6 +1700,7 @@
 "Modified %@" = "Đã sửa đổi %@";
 "Modify" = "Sửa đổi";
 "Monday" = "Thứ Hai";
+"Month" = "Tháng";
 "Monthly" = "Hàng tháng";
 "More" = "Xem thêm";
 "More Options" = "Tùy chọn khác";
@@ -1811,6 +1830,7 @@
 "Notifications" = "Thông báo";
 "Notifications Muted" = "Thông báo đã tắt";
 "Now" = "Ngay lúc này";
+"Number" = "TT";
 "OBJECTS" = "ĐỐI TƯỢNG";
 "OK" = "Đồng ý";
 "OR" = "HOẶC";
@@ -1938,6 +1958,7 @@
 "Please click below to create your account." = "Vui lòng nhấn vào bên dưới để tạo tài khoản của bạn.";
 "Please click the button below to finish creating your account." = "Vui lòng nhấn vào nút bên dưới để hoàn tất quá trình tạo tài khoản của bạn.";
 "Please connect your %@ account to continue" = "Vui lòng kết nối tài khoản %@ của bạn để tiếp tục.";
+"Please connect your %@ account to continue." = "Vui lòng kết nối tài khoản %@ của bạn để tiếp tục.";
 "Please connect your DocuSign account to access templates." = "Vui lòng kết nối tài khoản DocuSign của bạn để truy cập các mẫu.";
 "Please contact the administrator of your portal to continue." = "Vui lòng liên hệ với quản trị viên cổng thông tin của bạn để tiếp tục.";
 "Please contact the host and request an invitation to join." = "Vui lòng liên hệ người chủ trì và yêu cầu thư mời để tham gia.";
@@ -1957,6 +1978,7 @@
 "Please reconnect your DocuSign account and try again." = "Vui lòng kết nối lại tài khoản DocuSign của bạn và thử lại.";
 "Please remove any inactive users to continue." = "Vui lòng xóa những người dùng không hoạt động để tiếp tục.";
 "Please review all pages to proceed" = "Vui lòng xem lại tất cả các trang để tiếp tục";
+"Please select a workspace member to assign as the meeting host." = "Vui lòng chọn một thành viên không gian làm việc để chỉ định làm chủ cuộc họp.";
 "Please select from the portals below associated with %@." = "Vui lòng chọn từ các cổng thông tin dưới đây liên quan đến %@.";
 "Please select the action type for the step you want to add to this flow." = "Vui lòng chọn loại hành động cho bước bạn muốn thêm vào luồng này.";
 "Please send any additional details you think will help the agent in completing your request." = "Bạn sẽ được giải đáp khi có hỗ trợ viên sẵn sàng, hoặc bạn có thể hủy yêu cầu dưới đây.";
@@ -1996,6 +2018,7 @@
 "Preview Form" = "Xem Trước Biểu Mẫu";
 "Preview PDF Form" = "Xem trước Biểu mẫu PDF";
 "Preview not available" = "Tính năng xem trước không khả dụng";
+"Previous Interactions" = "Các tương tác trước";
 "Previously Shared Files" = "Các Tệp tin đã được Chia sẻ Trước đây";
 "Print" = "In";
 "Private" = "Riêng tư";
@@ -2052,6 +2075,7 @@
 "Recording will stop in %@s" = "Ghi âm sẽ dừng trong %@ giây";
 "Recordings must be longer than 1 second" = "Các bản ghi phải dài hơn 1 giây.";
 "Rectangle" = "Chữ nhật";
+"Recurrence settings have been reset due to incompatibility with Microsoft Teams. Please reconfigure." = "Cài đặt lặp lại đã được đặt lại do không tương thích với Microsoft Teams. Vui lòng cấu hình lại.";
 "Referenced event has been removed" = "Sự kiện được tham chiếu đã bị gỡ bỏ.";
 "Refresh" = "Làm mới";
 "Refresh Invite Link?" = "Làm mới Liên kết Lời mời?";
@@ -2092,6 +2116,7 @@
 "Reopening this action will require assignees to review it again." = "Việc mở lại hành động này sẽ yêu cầu người được giao xem xét lại nó.";
 "Repeat" = "Lặp lại";
 "Repeat every %@ days." = "Lặp lại mỗi %@ ngày một lần.";
+"Repeat every %@ weeks on %@" = "Lặp lại mỗi %1$@ tuần vào %2$@";
 "Repeat every %@ weeks on %@." = "Lặp lại mỗi %1$@ tuần vào %2$@.";
 "Repeat every day." = "Lặp lại mỗi ngày.";
 "Repeat every month on the %@." = "Lặp lại hàng tháng vào %@.";
@@ -2113,6 +2138,7 @@
 "Resend Invitation" = "Gửi lại Thư mời";
 "Resend Invite" = "Gửi lại Lời mời";
 "Resend in %ds" = "Gửi lại trong %ds";
+"Resend link" = "Gửi lại liên kết";
 "Reset" = "Cài đặt lại";
 "Reset (%@)" = "Cài đặt lại (%@)";
 "Reset Filters" = "Đặt lại bộ lọc";
@@ -2163,12 +2189,12 @@
 "Save Changes" = "Lưu các Thay đổi";
 "Save Contact" = "Lưu Liên hệ";
 "Save Files" = "Lưu các Tệp tin";
+"Save Uploaded Files to a Specific Folder" = "Lưu các tệp đã tải lên vào một thư mục cụ thể";
 "Save files" = "Lưu tệp";
 "Save the Signed File to a Specific Folder" = "Lưu tệp đã ký vào thư mục cụ thể";
 "Save to" = "Lưu vào";
 "Save to Album" = "Lưu vào Album";
 "Save to Files" = "Lưu vào Các tập tin";
-"Save Uploaded Files to a Specific Folder" = "Lưu các tệp đã tải lên vào một thư mục cụ thể";
 "Saved" = "Đã lưu";
 "Saved successfully." = "Đã lưu thành công.";
 "Saving..." = "Đang Lưu...";
@@ -2213,6 +2239,7 @@
 "Select Items" = "Chọn các Mục";
 "Select Members" = "Chọn nhiều Thành viên";
 "Select Preparer" = "Chọn Người Chuẩn Bị";
+"Select Recipient" = "Chọn người nhận";
 "Select Signers" = "Chọn những Người ký";
 "Select Stamp" = "Chọn Con Dấu";
 "Select Template" = "Chọn Bản Mẫu";
@@ -2224,12 +2251,12 @@
 "Select Workspaces" = "Chọn Không Gian Làm Việc";
 "Select a Date & Time" = "Chọn Ngày & Giờ";
 "Select a Sample Workspace" = "Chọn một Không gian làm việc mẫu";
+"Select a date for the monthly recurring Microsoft Teams meeting" = "Chọn ngày cho cuộc họp Microsoft Teams lặp lại hàng tháng";
 "Select a pre-built or shared template in DocuSign" = "Chọn một mẫu được xây dựng sẵn hoặc được chia sẻ trong DocuSign";
 "Select action type" = "Chọn loại hành động";
 "Select an Option to Continue" = "Chọn một tùy chọn để tiếp tục";
 "Select an option to continue" = "Chọn một tùy chọn để tiếp tục";
 "Select the role assignment (optional):" = "Chọn giao vai trò (tùy chọn):";
-"Select the role that will receive a copy of the signed document" = "Chọn vai trò sẽ nhận bản sao của tài liệu đã ký";
 "Select the user type:" = "Chọn loại người dùng:";
 "Select “%@”" = "Chọn “%@”";
 "Selected" = "Đã Chọn";
@@ -2246,7 +2273,6 @@
 "Send To" = "Gửi tới";
 "Send Verification Email" = "Gửi Email Xác minh";
 "Send Verification Request" = "Gửi Yêu cầu Xác minh";
-"Send a Copy To" = "Gửi bản sao đến";
 "Send a message to get connected with an agent." = "Gửi tin nhắn để được kết nối với một hỗ trợ viên.";
 "Send a new code" = "Gửi một mã mới";
 "Send an invitation via email or phone number, which they can use to create their account." = "Gửi lời mời qua email hoặc số điện thoại, mà họ có thể sử dụng để tạo tài khoản của mình.";
@@ -2263,6 +2289,7 @@
 "Set Automatically" = "Đặt tự động";
 "Set Currency to Continue" = "Đặt tiền tệ để tiếp tục";
 "Set Days" = "Đặt Ngày";
+"Set Up Anchor Tags" = "Thiết lập Thẻ Neo";
 "Set Up Envelope with Anchor Tags" = "Thiết lập Phong bì với Thẻ Neo";
 "Set Variables" = "Thiết lập Biến";
 "Set Workspace Variables" = "Thiết lập biến cho không gian làm việc";
@@ -2315,6 +2342,7 @@
 "Signing Completed" = "Đã hoàn tất thao tác ký";
 "Signing Field Required" = "Cần Có Trường Để Ký";
 "Signing Fields Required" = "Cần có các trường để ký";
+"Signing Order" = "Thứ tự Ký";
 "Signing Up..." = "Đăng ký...";
 "Signing completed." = "Đã hoàn tất thao tác ký.";
 "Signing order" = "Thứ tự ký";
@@ -2341,6 +2369,8 @@
 "Sorry, %@ is already being used by another app. Please close the app and try again." = "Xin lỗi, %@ đang được sử dụng bởi một ứng dụng khác. Vui lòng đóng ứng dụng và thử lại.";
 "Sorry, I can’t talk right now." = "Rất tiếc, hiện tại tôi không thể trò chuyện.";
 "Sorry, this item isn't available" = "Rất tiếc, mục này không khả dụng";
+"Sorry, this link has expired." = "Rất tiếc, liên kết này đã hết hạn.";
+"Sorry, this link is no longer valid." = "Xin lỗi, liên kết này không còn hợp lệ nữa.";
 "Sorry, this meeting cannot be started as it is still not scheduled!" = "Xin lỗi, không thể bắt đầu cuộc họp này vì vẫn chưa được lên lịch!";
 "Sorry, this step was recently removed by the flow owner." = "Rất tiếc, bước này gần đây đã bị xóa bởi chủ sở hữu luồng.";
 "Sorry, you can't perform this action now as your audio device is being used by the current meeting. Please try again after the meeting." = "Rất tiếc, bạn không thể thực hiện tác vụ này ngay bây giờ vì thiết bị âm thanh của bạn đang được sử dụng trong cuộc họp hiện tại. Vui lòng thử lại lần nữa sau cuộc họp.";
@@ -2380,6 +2410,7 @@
 "Step Details (Step %@)" = "Chi tiết Bước (Bước %@)";
 "Step Removed" = "Đã Xóa Bước";
 "Step edited" = "Đã chỉnh sửa bước";
+"Still can’t find it?" = "Vẫn không thể tìm thấy liên kết?";
 "Stop Co-Browsing" = "Ngừng Đồng duyệt";
 "Stop Recording" = "Dừng ghi âm";
 "Stop Sharing" = "Ngừng Chia sẻ";
@@ -2408,6 +2439,7 @@
 "TUE" = "T3";
 "Tabs" = "Tab";
 "Tag %@" = "Thẻ %@";
+"Tags (%@)" = "Thẻ (%@)";
 "Take Photo" = "Chụp Ảnh";
 "Tap + to schedule a meeting." = "Nhấn + để lên lịch một cuộc họp.";
 "Tap Continue to join the workspace." = "Chạm vào Tiếp tục để tham gia không gian làm việc.";
@@ -2436,6 +2468,7 @@
 "Terms of Service & Privacy Policy" = "Điều khoản Dịch vụ & Chính sách Bảo mật";
 "Text" = "Văn bản";
 "Text Color" = "Màu Văn bản";
+"Text Field" = "Trường Văn Bản";
 "Text Outline" = "Bố cục Văn bản";
 "Text Tag" = "Thẻ Văn bản";
 "Text not recognized" = "Văn bản không được nhận diện";
@@ -2450,6 +2483,7 @@
 "The QR code must be from %@." = "Mã QR phải từ %@.";
 "The QR code must be from this app." = "Mã QR phải được tạo từ ứng dụng này.";
 "The URL you've entered is not valid. Please review the URL and try again." = "URL bạn đã nhập không hợp lệ. Vui lòng xem lại URL và thử lại.";
+"The account (%@) is not authorized to schedule Microsoft Teams meetings. Please connect a different account to continue." = "Tài khoản (%@) không được phép lên lịch các cuộc họp Microsoft Teams. Vui lòng kết nối một tài khoản khác để tiếp tục.";
 "The account associated with %@ is no longer active" = "Tài khoản liên kết với %@ không còn hoạt động";
 "The account associated with %@ is no longer active. Please contact support to reactivate your account." = "Tài khoản liên kết với %@ không còn hoạt động. Vui lòng liên hệ hỗ trợ để kích hoạt lại tài khoản của bạn.";
 "The account associated with the phone number is no longer active." = "Tài khoản được liên kết với số điện thoại không còn hoạt động.";
@@ -2482,12 +2516,18 @@
 "The meeting has been recorded. Please contact the host to get a copy of the recording." = "Cuộc họp vừa được ghi. Vui lòng liên hệ với người chủ trì để nhận bản sao của bản ghi.";
 "The meeting has ended. Would you like to save the files shared during this meeting?" = "Cuộc họp đã kết thúc. Bạn có muốn lưu các tệp đã được chia sẻ trong cuộc họp này không?";
 "The meeting has not yet started. Please try to join later." = "Cuộc họp chưa bắt đầu. Vui lòng thử tham gia sau.";
+"The meeting host needs to connect their Microsoft account." = "Người chủ trì cuộc họp cần kết nối tài khoản Microsoft của họ.";
+"The meeting host needs to connect their Zoom account." = "Người chủ trì cuộc họp cần kết nối tài khoản Zoom của họ.";
 "The meeting is being recorded." = "Cuộc họp đang được ghi lại.";
 "The meeting recording is available." = "Tính năng ghi âm cuộc họp khả dụng.";
 "The meeting recording of \"%@\" is available." = "Bản ghi cuộc họp của \"%@\" đã sẵn sàng.";
 "The meeting start time cannot be in the past." = "Thời gian bắt đầu cuộc họp không thể là trong quá khứ.";
-"The meeting type has changed, resulting in the previous host's permissions being reset. Please assign a new host to continue." = "Loại cuộc họp đã thay đổi, dẫn đến việc quyền của chủ trì trước đó bị đặt lại. Vui lòng chỉ định một chủ trì mới để tiếp tục.";
 "The meeting will be recorded." = "Cuộc họp sẽ được ghi lại.";
+"The meeting will repeat every %@ days." = "Cuộc họp sẽ lặp lại mỗi %@ ngày.";
+"The meeting will repeat every %@ weeks on %@." = "Cuộc họp sẽ lặp lại mỗi %1$@ tuần vào %2$@.";
+"The meeting will repeat every day." = "Cuộc họp sẽ lặp lại hàng ngày.";
+"The meeting will repeat every month on the %@." = "Cuộc họp sẽ lặp lại mỗi tháng vào ngày %@.";
+"The meeting will repeat every week on %@." = "Cuộc họp sẽ lặp lại hàng tuần vào %@.";
 "The microphone is occupied and cannot be used" = "Microphone đang bị chiếm dụng và không thể sử dụng";
 "The minimum amount cannot be higher than the maximum amount." = "Số tiền tối thiểu không thể cao hơn số tiền tối đa.";
 "The old password does not match." = "Mật khẩu cũ không khớp.";
@@ -2515,7 +2555,6 @@
 "There are no users with the name, email, or phone number you’ve entered." = "Không có người dùng nào với tên, email hoặc số điện thoại bạn đã nhập.";
 "There are no workspaces with the name you provided." = "Không có không gian làm việc nào có tên bạn đã cung cấp.";
 "There are no workspaces with the name you’ve provided." = "Không có không gian làm việc nào có tên bạn đã cung cấp.";
-"There is an error with this action. Please reach out to our team in the chat." = "Có lỗi với hành động này. Vui lòng liên hệ với nhóm của chúng tôi trong cuộc trò chuyện.";
 "There is an error with this step. Please reach out to our team in the chat." = "Có sự cố ở bước này. Vui lòng liên hệ với đội ngũ của chúng tôi trong mục trò chuyện.";
 "There is no password set up for this account" = "Chưa có mật khẩu nào được thiết lập cho tài khoản này";
 "There is no portal or invitation associated with %@." = "Không có cổng thông tin hoặc lời mời nào liên quan đến %@.";
@@ -2542,6 +2581,8 @@
 "This action has been deleted and your action is no longer required. You will be directed back to the workspace." = "Hành động này đã bị xóa và bạn không cần hành động nữa. Bạn sẽ được chuyển hướng trở lại không gian làm việc.";
 "This action has been updated. Please review the details again before taking action. You will be directed back to the workspace." = "Hành động này đã được cập nhật. Vui lòng xem lại các thông tin chi tiết trước khi hành động. Bạn sẽ được chuyển hướng trở lại không gian làm việc.";
 "This action is already in progress. You will be returned to the workspace." = "Hành động này đã đang được tiến hành. Bạn sẽ được quay trở lại không gian làm việc.";
+"This action requires a connected account to continue." = "Hành động này yêu cầu một tài khoản đã kết nối để tiếp tục.";
+"This action requires you to sign up. Do you want to continue?" = "Hành động này yêu cầu bạn đăng ký. Bạn có muốn tiếp tục không?";
 "This and Following Meetings" = "Cuộc họp này và các Cuộc họp Sau đây";
 "This configuration will apply to in-app push notifications, email, and SMS notifications where applicable." = "Cấu hình này sẽ áp dụng cho thông báo đẩy trong ứng dụng, email và tin nhắn SMS nếu có.";
 "This content may have been deleted or otherwise removed." = "Nội dung này có thể đã bị xóa hoặc bị gỡ.";
@@ -2550,10 +2591,12 @@
 "This email does not match the predefined email." = "Email này không khớp với email được định sẵn.";
 "This email is already associated with another account." = "Email này đã được liên kết với một tài khoản khác.";
 "This envelope is still being processed by DocuSign. Please try again in a moment." = "Phong bì này vẫn đang được DocuSign xử lý. Vui lòng thử lại sau một lát.";
+"This field will be autofilled with the signer's information" = "Trường này sẽ được tự động điền với thông tin của người ký";
 "This file exceeds the maximum size (%@MB)." = "Tệp này vượt quá kích thước tối đa (%@MB).";
 "This file has been deleted." = "Tệp tin này vừa bị xóa.";
 "This file has been deleted. It is no longer available." = "Tệp này đã bị xóa. Nó không còn tồn tại nữa.";
 "This flow has been completed and you can no longer make modifications." = "Luồng này đã được hoàn thành và bạn không thể thực hiện thay đổi nữa.";
+"This flow requires a connected account to continue." = "Quy trình này yêu cầu một tài khoản đã được kết nối để tiếp tục.";
 "This folder is empty" = "Thư mục này trống rỗng";
 "This group already has the maximum number of clients allowed per group: %@." = "Nhóm này đã có số lượng khách hàng tối đa cho phép mỗi nhóm: %@.";
 "This group requires manager permissions to edit." = "Nhóm này yêu cầu quyền quản lý để chỉnh sửa.";
@@ -2579,10 +2622,12 @@
 "This role and any assigned fields will be hidden." = "Vai trò này và bất kỳ trường nào được chỉ định sẽ bị ẩn.";
 "This role cannot be assigned to an integration action." = "Vai trò này không thể được gán cho hành động tích hợp.";
 "This section provides shared resources for easy use within workspaces." = "Phần này cung cấp các nguồn lực chia sẻ để sử dụng dễ dàng trong các không gian làm việc.";
+"This signer has assigned tags. To delete the signer, remove the tags from the Anchor Tags screen." = "Người ký này đã được gán thẻ. Để xóa người ký, hãy xóa các thẻ khỏi màn hình Thẻ Neo.";
 "This step has been removed by the owner and your action is no longer required. You will be directed back to the flow workspace." = "Bước này đã bị người chủ nhiệm xóa và bạn không cần hành động nữa. Bạn sẽ được chuyển hướng trở lại không gian làm việc theo quy trình.";
 "This step has been updated by the owner. Please review the details again before taking action. You will be directed back to the flow workspace." = "Bước này đã được cập nhật bởi người chủ nhiệm. Vui lòng xem lại các thông tin chi tiết trước khi hành động. Bạn sẽ được chuyển hướng trở lại không gian làm việc theo quy trình.";
 "This template has been deleted and is no longer available." = "Mẫu này đã bị xóa và không còn tồn tại nữa.";
 "This time booking action will require preparation in the workspace. The host will need to link their account." = "Hành động đặt chỗ thời gian này sẽ yêu cầu chuẩn bị trong không gian làm việc. Người chủ sẽ cần liên kết tài khoản của họ.";
+"This time overlaps with future occurrences. Please choose a new time to proceed." = "Thời gian này bị trùng với các lần diễn ra trong tương lai. Vui lòng chọn thời gian mới để tiếp tục.";
 "This title is only visible to you." = "Tiêu đề này chỉ hiển thị cho bạn.";
 "This to-do can only be completed by internal users." = "Chỉ có người dùng nội bộ mới có thể hoàn tất việc cần làm này.";
 "This transaction has been deleted." = "Giao dịch này vừa bị xóa.";
@@ -2616,6 +2661,7 @@
 "Time Booking assigned to %@." = "Lịch Hẹn được chỉ định cho %@.";
 "Time Booking assigned to %@: %@" = "Lịch Hẹn được chỉ định cho %1$@: %2$@";
 "Time Booking assigned to you" = "Lịch Hẹn được chỉ định cho bạn";
+"Time Booking awaits your preparation" = "Thời gian đặt chỗ đang chờ bạn chuẩn bị";
 "Time Booking completed." = "Lịch Hẹn đã hoàn tất.";
 "Time Booking completed: %@" = "Lịch Hẹn đã hoàn tất: %@";
 "Time Booking due now" = "Lịch Hẹn hiện đến hạn";
@@ -2628,6 +2674,7 @@
 "To confirm this user’s identify, you may want to have them verify their email." = "Để xác nhận danh tính người dùng, bạn có thể yêu cầu họ xác minh email của họ.";
 "To confirm your identity, we recommend verifying your email address." = "Để xác nhận danh tính của bạn, chúng tôi khuyến nghị bạn xác minh địa chỉ email của mình.";
 "To continue, add at least one role." = "Để tiếp tục, vui lòng thêm ít nhất một vai trò.";
+"To continue, please add at least one more participant." = "Để tiếp tục, vui lòng thêm ít nhất một người tham gia nữa.";
 "To continue, please log in again." = "Để tiếp tục, vui lòng đăng nhập lại.";
 "To continue, select a signer for all roles and disable any that you don't need." = "Để tiếp tục, hãy chọn người ký cho tất cả các vai trò và vô hiệu hóa bất kỳ vai trò nào bạn không cần.";
 "To continue, select assignees for all fields." = "Để tiếp tục, chọn người phụ trách cho tất cả lĩnh vực.";
@@ -2636,6 +2683,7 @@
 "To edit your submission, you’ll need to reopen this File Request. Do you want to continue?" = "Để chỉnh sửa nội dung gửi, bạn sẽ cần mở lại Yêu cầu tệp này. Bạn có muốn tiếp tục không?";
 "To ensure a secure connection, only websites that support HTTPS can be loaded." = "Để đảm bảo kết nối an toàn, chỉ các trang web hỗ trợ HTTPS mới có thể được tải.";
 "To filter by amount, please select a currency." = "Để lọc theo số tiền, vui lòng chọn đơn vị tiền tệ.";
+"To keep your information secure, this link has expired. We’ve sent a new link via email or SMS. Please check your spam or junk folders if you don’t see it in your inbox." = "Để bảo vệ thông tin của bạn, liên kết này đã hết hạn. Chúng tôi đã gửi một liên kết mới qua email hoặc SMS. Nếu bạn không thấy trong hộp thư đến, vui lòng kiểm tra thư mục spam hoặc thư rác.";
 "To reactivate the workspace, send this user a new invite asking them to follow our account." = "Để kích hoạt lại không gian làm việc, hãy gửi cho người dùng này lời mời mới để yêu cầu họ theo dõi tài khoản của chúng ta.";
 "To reactivate the workspace, this user will need to unblock our account." = "Để kích hoạt lại không gian làm việc, người dùng này sẽ cần bỏ chặn tài khoản của chúng ta.";
 "To reactivate, send an invitation with a link to rejoin the workspace." = "Để kích hoạt lại, gửi lời mời kèm theo liên kết để tham gia lại không gian làm việc.";
@@ -2697,6 +2745,7 @@
 "Type email to invite" = "Nhập email để mời";
 "Type phone number to invite" = "Nhập số điện thoại để mời";
 "Type your reason here." = "Nhập lý do của bạn ở đây.";
+"Type*" = "Loại*";
 "Types" = "Thể loại";
 "URL (required)" = "URL (bắt buộc)";
 "US" = "Mỹ";
@@ -2849,6 +2898,7 @@
 "Viewers" = "Người xem";
 "Viewers (%@)" = "Người xem (%@)";
 "Virtual Backgrounds" = "Các Nền ảo";
+"Visible to you only" = "Chỉ hiển thị với bạn";
 "Voice Message" = "Tin nhắn Thoại";
 "Voice Tag" = "Thẻ Thoại";
 "WAITING FOR AGENT..." = "ĐANG CHỜ HỖ TRỢ VIÊN...";
@@ -2961,7 +3011,6 @@
 "Who needs to review this?" = "Ai cần xem xét điều này?";
 "Who needs to sign?" = "Ai cần ký?";
 "Who needs to upload this?" = "Ai cần tải cái này lên?";
-"Who will receive a copy?" = "Ai sẽ nhận được bản sao?";
 "Who will take action in the shadow flow?" = "Ai sẽ thực hiện hành động trong luồng ẩn?";
 "Who will take action in this flow?" = "Đối tượng sẽ hành động trong luồng này?";
 "Whole File" = "Toàn bộ Tệp tin";
@@ -3232,3 +3281,4 @@
 "“Can I call you later?”" = "“Tôi gọi lại sau nhé?”";
 "“I’m on my way.”" = "“Tôi đang trên đường đến.”";
 "“Sorry, I can’t talk right now.”" = "“Rất tiếc, hiện tại tôi không thể trò chuyện.”";
+"🎉 Congratulations on your new position, and best wishes for your first day at Moxo!" = "🎉 Chúc mừng bạn với vị trí mới, và chúc bạn có một ngày đầu tiên thật suôn sẻ tại Moxo!";
