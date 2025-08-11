@@ -558,11 +558,13 @@
 "Add Contacts" = "連絡先を追加";
 "Add Details" = "詳細を追加";
 "Add E-Sign Details" = "電子署名詳細を追加する";
+"Add Extension" = "拡張機能を追加";
 "Add File" = "ファイルを追加";
 "Add Files" = "ファイルを追加";
 "Add Guest" = "メンバーを追加";
 "Add Here" = "ここに追加します";
 "Add Jumio details" = "Jumioの詳細を追加";
+"Add Managers" = "マネージャーを追加";
 "Add Members" = "メンバーを追加";
 "Add New" = "新規追加";
 "Add New Action" = "新規アクションを追加";
@@ -654,6 +656,7 @@
 "An assignee is required for %@. Please select one for this role." = "%@には担当者が必要です。このロールの担当者を選択してください。";
 "An assignee is required for DocuSign. Please select one for this role." = "DocuSignには担当者が必要です。このロールの担当者を選択してください。";
 "An email is required to use DocuSign integration. An admin can add an email to their account." = "DocuSign統合を使用するにはメールアドレスが必要です。管理者がアカウントにメールアドレスを追加できます。";
+"An error occurred in this step. Please reach out to our team for assistance." = "このステップでエラーが発生しました。サポートが必要な場合は、チームまでご連絡ください。";
 "An external user with access to invited workspaces only." = "招待されたワークスペースのみにアクセスできる外部ユーザー。";
 "An internal user with the ability to create and manage new workspaces in your portal." = "ポータル内で新しいワークスペースを作成し管理する権限を持つ内部ユーザーです。";
 "An update is available for this application. You'll need to update once you're connected to WiFi." = "このアプリケーションの更新が利用可能です。WiFiに接続したら更新が必要です。";
@@ -718,6 +721,8 @@
 "Are you sure you want to discard your changes?" = "本当に変更を破棄しますか？";
 "Are you sure you want to disconnect?" = "切断してもよろしいですか?";
 "Are you sure you want to leave? All changes will be lost." = "終了しますか？すべての変更が破棄されます。";
+"Are you sure you want to remove %@ from the manager role in “%@”?" = "「%2$@」のマネージャーロールから%1$@を削除してもよろしいですか？";
+"Are you sure you want to remove %@ from “%@”?" = "「%2$@」から%1$@を削除してもよろしいですか？";
 "Are you sure you want to remove this attachment?" = "この添付ファイルを削除してよろしいですか？";
 "Are you sure you want to remove “%@” from this workspace?" = "このワークスペースから\"%@\"を削除してもよろしいですか？";
 "Are you sure you want to start the meeting before its scheduled time?" = "予定時刻より前にミーティングを開始してもよろしいですか？";
@@ -1168,6 +1173,7 @@
 "Edit Jumio details" = "Jumioの詳細を編集";
 "Edit Label" = "ラベルの編集";
 "Edit Link Security" = "リンクのセキュリティを編集";
+"Edit Managers" = "マネージャーを編集";
 "Edit Meeting" = "ミーティングを編集";
 "Edit Message" = "メッセージを編集";
 "Edit Name" = "名前を編集";
@@ -1221,6 +1227,7 @@
 "Enter Folder Name" = "フォルダ名を入力してください";
 "Enter Name or Email" = "名前かメールアドレスを入力してください";
 "Enter Password" = "パスワードを入力してください";
+"Enter Phone Number" = "電話番号を入力";
 "Enter a message that will be displayed in the workspace chat section when it starts" = "開始時にワークスペースのチャットに表示されるメッセージを入力";
 "Enter a role name" = "ロール名を入力";
 "Enter anchor string text (e.g. Sign Here)" = "アンカー文字列のテキストを入力してください（例：ここに署名）";
@@ -1263,6 +1270,7 @@
 "Execution Order" = "実行順序";
 "Extension" = "拡張機能";
 "External Calendar Meeting" = "外部カレンダーミーティング";
+"External URL" = "外部URL";
 "Extra Participants" = "追加の参加者";
 "FLAGS" = "フラグ";
 "FOOD & DRINK" = "食べ物と飲み物";
@@ -1406,6 +1414,7 @@
 "Groups & Topics" = "グループ＆トピック";
 "Guest" = "ゲスト";
 "Guests joining via the meeting link must be admitted by the host" = "ミーティングリンクを通じて参加するゲストは、ホストによって許可されなければなりません。";
+"HTTP Method" = "HTTPメソッド";
 "Have an account?" = "アカウントを既にお持ちですか？";
 "Heads up!" = "注意！";
 "Help & Support" = "ヘルプ＆サポート";
@@ -1519,6 +1528,7 @@
 "Invalid Weblink URL" = "ＷｅｂサイトURLが無効です";
 "Invalid account type for this app. Please contact your administrator." = "無効なアカウントタイプです。管理者に連絡してください。";
 "Invalid address" = "無効なアドレス";
+"Invalid data" = "無効なデータ";
 "Invalid meeting host" = "無効なミーティングホスト";
 "Invalid offset, unable to proceed." = "無効なオフセットで、処理を続行できません。";
 "Invisible" = "非表示";
@@ -1581,6 +1591,7 @@
 "Last seen: %@h ago" = "最後に確認したのは：%@時間前";
 "Last seen: %@m ago" = "最後に確認したのは：%@分前";
 "Last seen: %@w ago" = "最後に確認したのは：%@週前";
+"Last sent: %@" = "最終送信日時: %@";
 "Learn More" = "もっと詳しく知る";
 "Learn more about what assignees will see" = "担当者に表示される内容の詳細については、こちらをご覧ください";
 "Leave" = "終了する";
@@ -1955,6 +1966,7 @@
 "Phone Number" = "電話番号";
 "Phone number already in use" = "電話番号は既に使用されています";
 "Phone number successfully updated." = "電話番号が正常に更新されました。";
+"Phone number*" = "電話番号*";
 "Photos" = "写真";
 "Pick member" = "メンバーを選択";
 "Pin User" = "ピン留めユーザー";
@@ -1979,6 +1991,7 @@
 "Please contact us to receive a new link." = "新しいリンクを受け取るにはお問い合わせください。";
 "Please download the latest version of the app" = "最新のアプリをダウンロードしてください。";
 "Please drag and drop at least one field to continue." = "続行するには、少なくとも1つのフィールドをドラッグアンドドロップしてください。";
+"Please enter a valid phone number." = "有効な電話番号を入力してください。";
 "Please enter..." = "入力してください...";
 "Please join my meeting: %@" = "ミーティングに参加してください：%@";
 "Please join my meeting: %@/%@" = "ミーティングに参加してください：%1$@/%2$@";
@@ -2045,6 +2058,7 @@
 "Profile" = "プロフィール";
 "Progress" = "進行状況";
 "Progress Will Be Lost" = "進捗が失われます";
+"Properties" = "プロパティ";
 "Provide a service with clear actions and milestones, tailored to the needs of each project." = "各プロジェクトのニーズに合わせた明確なアクションとマイルストーンをもつサービスを提供します。";
 "Public Link" = "公開リンク";
 "QB2GO" = "QB2GO";
@@ -2104,6 +2118,8 @@
 "Remind me at the start time" = "開始時刻にリマインドしてください";
 "Remind me on %@" = "%@に通知";
 "Reminder" = "リマインダー";
+"Reminder sent" = "リマインダーを送信しました";
+"Reminder sent to %@." = "%@にリマインダーを送信しました。";
 "Reminder will occur %@ before." = "リマインダーは%@前に設定されます。";
 "Reminder: %@" = "リマインダー: %@";
 "Remove" = "削除";
@@ -2112,6 +2128,8 @@
 "Remove From Workspace" = "ワークスペースから削除";
 "Remove Link Preview" = "リンクプレビューを除去";
 "Remove Step" = "ステップを除去";
+"Remove User" = "ユーザーを削除";
+"Remove Yourself as Manager" = "自分を管理者から外す";
 "Removed" = "削除しました";
 "Removed by Host" = "ホストによって削除されました";
 "Removed the assignee %@" = "担当者%@を削除";
@@ -2148,10 +2166,13 @@
 "Required Update Available" = "利用可能な必須のアップデート";
 "Required field" = "必須フィールド";
 "Rescheduled %@" = "%@が変更されました";
+"Resend" = "再送する";
 "Resend Invitation" = "招待を再送します";
 "Resend Invite" = "招待を再送します";
 "Resend in %ds" = "%d 秒後に再送";
 "Resend link" = "リンクを再送信";
+"Resending..." = "再送中…";
+"Resent successfully" = "再送信が完了しました";
 "Reset" = "リセット";
 "Reset (%@)" = "リセット（%@）";
 "Reset Filters" = "フィルターをリセット";
@@ -2227,6 +2248,7 @@
 "Search Your Team" = "チームの検索";
 "Search for anything" = "すべてを検索";
 "Search for..." = "検索対象...";
+"Search in transcript" = "トランスクリプト内を検索";
 "Search or enter an address" = "アドレスを検索または入力する";
 "Secure Communication." = "安全なコミュニケーション。";
 "Security" = "セキュリティ";
@@ -2280,6 +2302,7 @@
 "Send Message" = "メッセージ送信";
 "Send New Verification Code" = "新しい認証コードを送信";
 "Send Notifications For" = "通知する";
+"Send Reminder" = "リマインダーを送信";
 "Send Request" = "リクエストを送信";
 "Send SMS" = "SMS送信";
 "Send To" = "送信先";
@@ -2374,6 +2397,7 @@
 "Snap Area" = "エリアを撮影";
 "Snap Page" = "ページを撮影";
 "Some members have not joined" = "一部のメンバーは参加していません";
+"Some signers require a phone number for DocuSign verification. Please complete the missing information." = "一部の署名者にはDocuSignの認証のために電話番号が必要です。不足している情報を入力してください。";
 "Something Went Wrong" = "何かが間違っています";
 "Something went wrong" = "問題が発生しました";
 "Something went wrong." = "何らかの問題が発生しました。";
@@ -2476,7 +2500,7 @@
 "Tell us what you need" = "必要なものを教えてください";
 "Tell us what you’re looking for so we can connect you with the right team." = "私たちがあなたを適切なチームとつなぐことができるように、探しているものを教えてください。";
 "Terms & Privacy" = "利用規約とプライバシー";
-"Terms of Agreement " = "合意条件";
+"Terms of Agreement" = "合意条件";
 "Terms of Service & Privacy Policy" = "利用規約とプライバシーポリシー";
 "Text" = "テキスト";
 "Text Color" = "テキスト色";
@@ -2506,11 +2530,14 @@
 "The assignee(s) will need to sign again if reopened." = "担当者は、再度開いた場合は再度署名する必要があります。";
 "The code is no longer valid. Please request a new code to continue." = "このコードはもう有効ではありません。続行するには新しいコードをリクエストしてください。";
 "The date will be recorded in [%@] format" = "日付は[%@]形式で記録されます";
+"The envelope is locked because the assignee couldn't verify their identity after several tries." = "担当者が複数回本人確認に失敗したため、エンベロープはロックされています。";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "セキュリティ要件を満たしていないため、ファイルをアップロードできません。 ファイルを確認して、もう一度お試しください。";
 "The file size exceeds the limit, unable to proceed." = "ファイルサイズが制限を超えているため、処理を続行できません。";
 "The flow workspace creator must be a member of the workspace. You will be automatically added to this workspace as a viewer." = "フローワークスペースの作成者はワークスペースのメンバーでなければなりません。あなたは自動的にこのワークスペースのビューアーとして追加されます。";
 "The following users are currently unavailable and will review your message as soon as they return: %@." = "次のユーザーは現在不在です。あなたのメッセージは戻り次第レビューされます: %@";
 "The group lists only flow workspaces." = "このグループにはフローワークスペースのみが表示されます。";
+"The identity verification method configured in this DocuSign action is no longer available. Please re-enable it in DocuSign, or create a new DocuSign account without identity verification." = "このDocuSignアクションで設定されている本人確認方法は、現在利用できません。DocuSignで再度有効にするか、本人確認なしの新しいDocuSignアカウントを作成してください。";
+"The identity workflow is deactivated and cannot be used." = "本人確認のワークフローは無効化されており、使用できません。";
 "The invitation link will not expire until you request a new one." = "招待リンクは、新しい招待リンクを要求するまで有効期限が切れません。";
 "The invitation link will not expire until you request a new one. Last refreshed on %@." = "招待リンクは、新しい招待リンクを要求するまで有効期限が切れません。最終リフレッシュ日時： %@。";
 "The link is not ready for sharing. Please try again later." = "リンク共有ができません。時間をおいてから、もう一度お試しください。";
@@ -2576,6 +2603,7 @@
 "Things like statements, reports, invoices, etc. created by the org are sent to these inboxes." = "組織で作成された明細書、レポート、請求書などが、これらの受信トレイに送信されます。";
 "This %@ has already been completed by the assignee and can no longer be deleted." = "この%@はすでに担当者によって完了されており、もう削除することはできません。";
 "This %@ has already been completed by the assignee and can no longer be removed. " = "この%@はすでに担当者によって完了されており、もはや削除することはできません。";
+"This %@ has been completed or deleted, so your changes cannot be saved. You'll be directed back to the workspace." = "この%@は完了済み、または削除されているため、変更内容を保存できません。ワークスペースに戻ります。";
 "This %@ has been completed or deleted, so your changes cannot be saved. You’ll be directed back to the workspace." = "この%@は完了または削除されたため、変更を保存することはできません。ワークスペースに戻ります。";
 "This %@ was already finished by the assignee, and the status can no longer be changed. You will be returned to the workspace." = "この%@はすでに担当者によって完了されており、ステータスを変更することはできません。ワークスペースに戻ります。";
 "This %@ was deleted. You will be returned to the workspace." = "この%@は削除されました。ワークスペースに戻ります。";
@@ -2612,6 +2640,7 @@
 "This flow requires you to connect to your account." = "このフローを利用するには、アカウントへの接続が必要です。";
 "This folder is empty" = "このフォルダーは空です";
 "This group already has the maximum number of clients allowed per group: %@." = "このグループはすでにグループごとに許可されている最大数のクライアントを持っています: %@。";
+"This group already has the maximum number of managers allowed per group: %@." = "このグループには、グループごとに許可されている最大数の管理者（%@人）がすでにいます。";
 "This group requires manager permissions to edit." = "このグループの編集にはマネージャー権限が必要です。";
 "This is due today" = "本日が期限です";
 "This is due today." = "本日が期限です。";
@@ -2739,6 +2768,7 @@
 "Transaction updated: %@" = "トランザクションが更新されました: %@";
 "Transaction updated: %@." = "トランザクションが更新されました: %@.";
 "Transactions" = "トランザクション";
+"Transcript" = "文字起こし";
 "Transfer Ownership" = "所有権を転送します";
 "Trial expired. Please contact your org administrator." = "試用期間が終了しました。組織の管理者に連絡してください。";
 "Trust" = "信頼する";
@@ -2760,6 +2790,7 @@
 "Type your reason here." = "辞退の理由を入力してください";
 "Type*" = "種類*";
 "Types" = "タイプ";
+"URL" = "URL";
 "URL (required)" = "URL（必須）";
 "US" = "米国";
 "Uh-oh, you aren’t currently online. To complete this task, please connect to the internet." = "現在、オフラインになっています。タスクを完了するにはインターネットに接続してください。";
@@ -2785,6 +2816,7 @@
 "Unable to Start" = "開始できません";
 "Unable to Upload" = "アップロードできません";
 "Unable to Use Face ID" = "Face IDは利用出来ません。";
+"Unable to Use the Template" = "テンプレートを使用できません";
 "Unable to access with account %@" = "アカウント %@ でアクセスできません";
 "Unable to add" = "追加できません";
 "Unable to assign" = "割り当てできません";
@@ -2805,6 +2837,7 @@
 "Unable to join video. Please exit and rejoin the meeting." = "ビデオに参加できません。退出して、再度ミーティングに参加してください。";
 "Unable to load." = "質問の読み込みが実行できません。";
 "Unable to mark as completed" = "完了としてマークできません";
+"Unable to resend invitation." = "招待を再送信できません。";
 "Unable to resume recording after the app went to sleep." = "アプリがスリープ状態から復帰後、録画を再開できません。";
 "Unable to save" = "保存できません";
 "Unable to save changes" = "変更を保存できません";
@@ -2882,6 +2915,7 @@
 "User Not in Workspace" = "ワークスペースにいないユーザー";
 "VOID" = "無効";
 "Validating password..." = "パスワードを確認中…";
+"Verification" = "確認";
 "Verification Email Sent" = "確認用Eメールを送信しました";
 "Verification Request Sent" = "確認のリクエストを送信しました";
 "Verify it's you" = "本人確認を行ってください";
@@ -2891,10 +2925,13 @@
 "View All" = "全て表示";
 "View All Thumbnails" = "すべてのサムネイルを表示";
 "View Archived Workspaces" = "アーカイブされたワークスペースを表示";
+"View Clients" = "クライアントを表示";
 "View Completed" = "完了したアクション";
+"View Detail" = "詳細を表示";
 "View Details" = "詳細を見る";
 "View File" = "ファイルを表示";
 "View Form" = "フォームを表示";
+"View Members" = "メンバーを参照する";
 "View More" = "もっと見る";
 "View Office Hours" = "営業時間を表示";
 "View Original Image" = "元の画像を表示";
@@ -3180,6 +3217,7 @@
 "You will be the shadow flow creator." = "あなたはシャドウフローの作成者になります。";
 "You will lose all the changes made to this document." = "このドキュメントに行った変更はすべて失われます。";
 "You will need to be invited by a member to join again." = "もう一度参加するには、メンバーから招待を受ける必要があります。";
+"You will no longer have access to manage this client group after saving changes." = "変更を保存すると、このクライアントグループを管理する権限がなくなります。";
 "You will not be able to make changes after that." = "これ以降変更できなくなります。";
 "You will receive a copy by email" = "メールでコピーを受け取ります。";
 "You will receive documents, reports, statements, and broadcast feeds from businesses here." = "ここで、企業からドキュメント、レポート、明細書、配信フィードを受け取ることができます。";
@@ -3254,6 +3292,7 @@
 "cm" = "CMS";
 "connected as" = "次のアカウントとして接続:";
 "connected live" = "接続しました";
+"contain" = "含む";
 "day" = "日";
 "days" = "日";
 "decline" = "辞退";
@@ -3261,6 +3300,8 @@
 "e.g. Due in 3 Days" = "例:3日後が期限";
 "e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "例: KYCの期限が近づいています、新しい投資機会、ポートフォリオのレビュー...";
 "got it" = "了解";
+"greater than" = "より大きい";
+"greater than or equal to" = "以上";
 "hour" = "時間";
 "hours" = "時間";
 "hr" = "時間";
@@ -3272,6 +3313,12 @@
 "in: " = "この中：";
 "in: %@" = "次のトークルーム: %@";
 "inch" = "MMS (マルチメディアメッセージングサービス)";
+"is after" = "以降";
+"is before" = "以前";
+"is on or after" = "以降または同日";
+"is on or before" = "期日またはそれ以前";
+"less than" = "未満";
+"less than or equal to" = "以下";
 "location" = "場所";
 "log in manually instead." = "代わりに手動でログインします。";
 "log in with a magic code instead." = "代わりにマジックコードでログインします。";
@@ -3285,6 +3332,7 @@
 "moved a file \"%@\"." = "ファイル \"%@\"を移動しました。";
 "moved a file." = "ファイルを移動しました。";
 "new" = "新規";
+"not contain" = "含まない";
 "offline" = "オフライン";
 "one assignee" = "1名の担当者";
 "out of office" = "不在設定";
