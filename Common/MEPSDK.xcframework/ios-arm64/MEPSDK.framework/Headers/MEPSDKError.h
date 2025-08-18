@@ -27,7 +27,6 @@ FOUNDATION_EXTERN NSErrorDomain _Nonnull const MEPSDKErrorDomain;
  - MEPIncorrectMeetPasswordError, password wrong
  - MEPAnotherMeetInProgressError, another meet inprogress
  - MEPInvalidParamError, invalid parameter.
- - MEPTokenExpiredError, integration token expired
  */
 typedef NS_ENUM(NSUInteger, MEPSDKErrorCode) {
     MEPUnkownError = 0,
@@ -45,8 +44,6 @@ typedef NS_ENUM(NSUInteger, MEPSDKErrorCode) {
     MEPAnotherMeetInProgressError,
     MEPInvalidParamError,
 	MEPFeedNoFoundInFlowError,
-    MEPMeetLockedError,
-    MEPTokenExpiredError,
-    MEPWorkflowDisabledError,
+    MEPMeetLockedError
 };
 
