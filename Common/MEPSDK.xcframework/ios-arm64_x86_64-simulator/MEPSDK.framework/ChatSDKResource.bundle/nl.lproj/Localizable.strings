@@ -133,7 +133,6 @@
 "%@ awaits your preparation." = "%@ wacht op jouw voorbereiding.";
 "%@ awaits your preparation: %@" = "%1$@ wacht op uw voorbereiding: %2$@";
 "%@ before" = "%@ voor";
-"%@ before workspace due" = "%@ vóór de deadline van de werkruimte";
 "%@ booked a meeting" = "%@ heeft een vergadering geboekt";
 "%@ canceled %@." = "%1$@ heeft %2$@ geannuleerd.";
 "%@ canceled a meeting: %@" = "%1$@ heeft een vergadering geannuleerd: %2$@";
@@ -456,7 +455,6 @@
 "(Disabled)" = "(Uitgeschakeld)";
 "(Host, Presenter)" = "(Host, Presentator)";
 "(Me)" = "(Mij)";
-"(optional)" = "(optioneel)";
 "+ Add" = "+Toevoegen";
 "+ Add Guest" = "+ Voeg gast toe";
 "+ INVITE" = "+ UITNODIGEN";
@@ -537,9 +535,7 @@
 "Action overdue (%@)" = "Actie te laat (%@)";
 "Action required from %@." = "Actie vereist van %@.";
 "Action skipped" = "Actie overgeslagen";
-"Action will be due %@ days before the workspace is due." = "Actie is verschuldigd %@ dagen voordat de werkruimte verschuldigd is.";
 "Action will be due in %@." = "Actie zal plaatsvinden over %@.";
-"Action will be due on %@." = "Actie is verschuldigd op %@.";
 "Actions" = "Acties";
 "Actions Reassigned" = "Opnieuw toegewezen acties";
 "Actions and flows will appear here" = "Acties en stromen verschijnen hier";
@@ -574,7 +570,6 @@
 "Add New Action" = "Nieuwe actie toevoegen";
 "Add New Stamp" = "Nieuwe stempel toevoegen";
 "Add Password" = "Wachtwoord toevoegen";
-"Add Phone Numbers for DocuSign Verification" = "Telefoonnummers toevoegen voor DocuSign-verificatie";
 "Add Reaction" = "Reactie toevoegen";
 "Add Recipient" = "Ontvanger toevoegen";
 "Add Role" = "Voeg Rol toe";
@@ -780,7 +775,6 @@
 "Background Color" = "Achtergrondkleur";
 "Backup User" = "Backupgebruiker";
 "Baidu Maps" = "Baidu-kaarten";
-"Before Workspace End Date" = "Voor de einddatum van de werkruimte";
 "Before leaving, please reassign your pending actions to someone else." = "Wijs voordat u vertrekt uw openstaande acties toe aan iemand anders.";
 "Before removing, please reassign their pending actions to someone else." = "Wijs hun hangende acties aan iemand anders toe voordat u ze verwijdert.";
 "Below are the previous invitations sent to this email address." = "Hieronder vindt u de eerdere uitnodigingen die naar dit e-mailadres zijn verzonden.";
@@ -867,6 +861,7 @@
 "Choose Image" = "Kies afbeelding";
 "Choose Type" = "Kies type";
 "Choose a data center" = "Kies een datacenter";
+"Choose a date..." = "Kies een datum...";
 "Choose a password that is unique and not easy to guess." = "Kies een wachtwoord dat uniek en niet gemakkelijk te raden is.";
 "Choose application" = "Kies applicatie";
 "Choose from Library" = "Kies uit bibliotheek";
@@ -930,7 +925,6 @@
 "Connect" = "Verbinden";
 "Connect Account" = "Account verbinden";
 "Connect Another Account" = "Verbind een ander account";
-"Connect Meeting Account" = "Vergaderaccount verbinden";
 "Connect with DocuSign" = "Maak verbinding met DocuSign";
 "Connect with me on my app by clicking the link below:" = "Verbind met mij via mijn app door op de onderstaande link te klikken:";
 "Connect with people by using your QR code." = "Verbind met mensen door uw QR-code te gebruiken.";
@@ -1007,6 +1001,7 @@
 "Current Page" = "Huidige pagina";
 "Current Step Was Removed" = "Huidige stap is verwijderd";
 "Custom" = "Aangepast";
+"Custom Due Date..." = "Aangepaste vervaldatum...";
 "Custom..." = "Aangepast...";
 "Daily" = "Dagelijks";
 "Dashboard" = "Dashboard";
@@ -1134,9 +1129,7 @@
 "Due" = "Vervallen";
 "Due %@ %@" = "Vervalt %1$@ %2$@";
 "Due (%@ after start)" = "Vervaldatum (%@ na start)";
-"Due (%@ before workspace due)" = "Vervalt (%@ vóór de vervaldatum van de werkruimte)";
 "Due Date" = "Vervaldatum";
-"Due Date Invalid" = "Ongeldige vervaldatum";
 "Due Today" = "Vervalt vandaag";
 "Due Tomorrow" = "Verloopt morgen";
 "Due date was removed %@" = "Vervaldatum werd verwijderd %@";
@@ -1387,7 +1380,6 @@
 "Frequency" = "Frequentie";
 "Friday" = "Vrijdag";
 "From %@" = "Vanaf %@";
-"From Action Start Date" = "Vanaf actiestartdatum";
 "Full Name" = "Volledige naam";
 "Full Name (Required)" = "Volledige naam (Vereist)";
 "GKImoveAndScale" = "GKIverplaatsenEnOpschalen";
@@ -1834,7 +1826,6 @@
 "No chat messages yet" = "Nog geen chatberichten";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Er zijn geen veelgebruikte tijdvakken gevonden. Overweeg om enkele deelnemers te verwijderen, de duur van de vergadering aan te passen of het planningsvenster te wijzigen.";
 "No description" = "Geen beschrijving";
-"No due date" = "Geen Opleveringsdatum";
 "No extra participants yet" = "Nog geen extra deelnemers";
 "No meeting" = "Geen vergadering";
 "No meetings" = "Geen vergaderingen";
@@ -2203,7 +2194,6 @@
 "Review Progress" = "Voortgang Beoordelen";
 "Review Submissions" = "Inzendingen beoordelen";
 "Review and Acknowledge" = "Beoordelen en erkennen";
-"Review and Confirm" = "Beoordelen en bevestigen";
 "Review the following attachments to confirm this acknowledgement." = "Beoordeel de volgende bijlagen om deze bevestiging te bevestigen.";
 "Role" = "Functie";
 "Role Disabled" = "Functie uitgeschakeld";
@@ -2349,8 +2339,6 @@
 "Set your availability for people to book a time with you." = "Stel je beschikbaarheid in zodat mensen een tijd bij je kunnen boeken.";
 "Settings" = "Instellingen";
 "Shadow Flow" = "Schaduwstroom";
-"Shadow Flow Workspaces" = "Schaduw-Flow-werkruimten";
-"Shadow Flows" = "Schaduwstromen";
 "Share" = "Delen";
 "Share Files" = "Deel bestanden";
 "Share Invite Link" = "Uitnodigingslink delen";
@@ -2409,7 +2397,6 @@
 "Slide up to cancel" = "Schuif omhoog om te annuleren";
 "Snap Area" = "Snap-gebied";
 "Snap Page" = "Snap-pagina";
-"Some actions in this flow require additional details before creating the workspace. Please update them." = "Sommige acties in deze stroom vereisen extra details voordat de werkruimte kan worden aangemaakt. Werk deze alstublieft bij.";
 "Some members have not joined" = "Sommige leden zijn niet toegetreden";
 "Some signers require a phone number for DocuSign verification. Please complete the missing information." = "Sommige ondertekenaars hebben een telefoonnummer nodig voor DocuSign-verificatie. Vul alstublieft de ontbrekende informatie in.";
 "Something Went Wrong" = "Er is iets fout gegaan";
@@ -2431,7 +2418,6 @@
 "Sort by Name" = "Sorteer op naam";
 "Sort by..." = "Sorteer op...";
 "Special Hours" = "Speciale uren";
-"Specific Date" = "Specifieke datum";
 "Speech Bubble" = "Tekstballon";
 "Speech Bubbles" = "Tekstballonnen";
 "Stamp" = "Stempel";
@@ -2544,7 +2530,6 @@
 "The actions within this milestone will start only after the actions in %@ are completed. " = "De acties binnen deze mijlpaal starten pas nadat de acties in %@ zijn voltooid.";
 "The assignee(s) will need to sign again if reopened." = "De gevolmachtigde(n) moet(en) opnieuw tekenen indien opnieuw geopend.";
 "The code is no longer valid. Please request a new code to continue." = "De code is niet meer geldig. Vraag een nieuwe code aan om verder te gaan.";
-"The date is no longer valid." = "De datum is niet meer geldig.";
 "The date will be recorded in [%@] format" = "De datum wordt vastgelegd in [%@] formaat";
 "The envelope is locked because the assignee couldn't verify their identity after several tries." = "De envelop is vergrendeld omdat de toegewezen persoon zijn identiteit na meerdere pogingen niet kon verifiëren.";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "Het bestand kan niet worden geüpload omdat het niet aan de beveiligingseisen voldoet. Controleer uw bestand en probeer het opnieuw.";
@@ -2603,7 +2588,6 @@
 "The system is busy. Please try again." = "Het systeem is bezet. Probeer het opnieuw.";
 "The tag values entered here will apply to any workspace created from this template." = "De ingevoerde tagwaarden hier zullen van toepassing zijn op elke werkruimte die vanuit dit sjabloon wordt gecreëerd.";
 "The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "De variabele waarden die hier worden ingevoerd, zullen worden toegepast op de gecreëerde werkruimte. Alleen interne gebruikers zullen ze kunnen zien.";
-"The workspace due date is no longer valid." = "De vervaldatum van de werkruimte is niet meer geldig.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "De werkruimte zal automatisch worden gearchiveerd voor alle leden zodra alle acties zijn voltooid en de volgende periode van inactiviteit is bereikt.";
 "There are no active screen share sessions to join." = "Er zijn geen actieve schermdeelsessies om aan deel te nemen.";
 "There are no other members in this workspace." = "Er zijn geen andere leden in deze werkruimte.";
@@ -2654,6 +2638,7 @@
 "This file has been deleted." = "Het bestand is verwijderd.";
 "This file has been deleted. It is no longer available." = "Dit bestand is verwijderd. Het is niet langer beschikbaar.";
 "This flow has been completed and you can no longer make modifications." = "Deze stroom is voltooid en je kunt geen wijzigingen meer aanbrengen.";
+"This flow requires you to connect to your account." = "Voor deze stroom moet u verbinding maken met uw account.";
 "This folder is empty" = "De map is leeg";
 "This group already has the maximum number of clients allowed per group: %@." = "Deze groep heeft al het maximale aantal klanten dat per groep is toegestaan: %@.";
 "This group already has the maximum number of managers allowed per group: %@." = "Deze groep heeft al het maximum aantal beheerders per groep bereikt: %@.";
@@ -2887,7 +2872,6 @@
 "Upcoming and ongoing" = "Komende en lopende";
 "Update" = "Bijwerken";
 "Update App" = "Update app";
-"Update Date" = "Bijwerkingsdatum";
 "Update app to view this message." = "Update app om dit bericht te bekijken.";
 "Update in progress…" = "Bezig met updaten...";
 "Update recurring meeting" = "Terugkerende vergadering updaten";
@@ -2948,7 +2932,6 @@
 "View Details" = "Bekijk details";
 "View File" = "Bekijk bestand";
 "View Form" = "Formulier bekijken";
-"View Main Flow" = "Hoofdstroom bekijken";
 "View Members" = "Leden bekijken";
 "View More" = "Bekijk Meer";
 "View Office Hours" = "Kantooruren weergeven";
@@ -3315,6 +3298,7 @@
 "days" = "dagen";
 "decline" = "afwijzen";
 "e.g. Acme" = "bijv. Acme";
+"e.g. Due in 3 Days" = "b.v. Vervalt over 3 dagen";
 "e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "bijv. KYC Binnenkort Verplicht, Nieuwe Investeringskans, Portefeuillebeoordeling,...";
 "got it" = "gekregen";
 "greater than" = "groter dan";
