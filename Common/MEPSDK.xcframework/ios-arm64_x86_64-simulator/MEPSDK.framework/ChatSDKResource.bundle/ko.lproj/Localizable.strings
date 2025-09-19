@@ -133,6 +133,7 @@
 "%@ awaits your preparation." = "%@이(가) 준비를 기다리고 있습니다.";
 "%@ awaits your preparation: %@" = "%1$@ 준비를 기다립니다: %2$@";
 "%@ before" = "%@ 전";
+"%@ before workspace due" = "작업 공간 마감 %@ 전";
 "%@ booked a meeting" = "%@님이 미팅을 예약했습니다";
 "%@ canceled %@." = "%1$@이(가) %2$@를 취소했습니다.";
 "%@ canceled a meeting: %@" = "%1$@가 회의를 취소했습니다: %2$@";
@@ -454,6 +455,7 @@
 "(Disabled)" = "(미작동됨)";
 "(Host, Presenter)" = "(주최자, 발표자)";
 "(Me)" = "(나)";
+"(optional)" = "(선택 사항)";
 "+ Add" = "+ 추가";
 "+ INVITE" = "+ 초대";
 "+ Invite" = "+ 초대하기";
@@ -533,7 +535,9 @@
 "Action overdue (%@)" = "행동 기한 초과 (%@)";
 "Action required from %@." = "%@의 조치가 필요합니다.";
 "Action skipped" = "작업 건너뛰기";
+"Action will be due %@ days before the workspace is due." = "작업 공간 마감 %@일 전에 조치가 마감됩니다.";
 "Action will be due in %@." = "조치는 %@에 마감됩니다.";
+"Action will be due on %@." = "조치 마감일: %@";
 "Actions" = "작업들";
 "Actions Reassigned" = "조치가 재할당되었습니다.";
 "Actions and flows will appear here" = "여기에 액션과 플로우가 표시됩니다";
@@ -568,6 +572,7 @@
 "Add New Action" = "새로운 액션 추가";
 "Add New Stamp" = "새로운 도장 추가";
 "Add Password" = "비밀번호 추가";
+"Add Phone Numbers for DocuSign Verification" = "DocuSign 인증을 위한 전화번호 추가";
 "Add Reaction" = "반응 추가";
 "Add Recipient" = "수신자 추가";
 "Add Role" = "직무 추가";
@@ -773,6 +778,7 @@
 "Background Color" = "배경 색상";
 "Backup User" = "사용자 백업";
 "Baidu Maps" = "바이두 맵";
+"Before Workspace End Date" = "작업 공간 종료일 이전";
 "Before leaving, please reassign your pending actions to someone else." = "떠나기 전에 보류 중인 작업을 다른 사람에게 재할당해 주세요.";
 "Before removing, please reassign their pending actions to someone else." = "제거하기 전에, 보류 중인 작업을 다른 사람에게 재할당해 주세요.";
 "Below are the previous invitations sent to this email address." = "이 이메일 주소로 보낸 이전 초대장들입니다.";
@@ -859,7 +865,6 @@
 "Choose Image" = "이미지 선택";
 "Choose Type" = "유형 추가";
 "Choose a data center" = "데이터 센터 선택";
-"Choose a date..." = "날짜를 선택하십시오...";
 "Choose a password that is unique and not easy to guess." = "고유하고 쉽게 추측할 수 없는 비밀번호를 선택하십시오.";
 "Choose application" = "애플리케이션 선택";
 "Choose from Library" = "라이브러리에서 선택하기";
@@ -923,6 +928,7 @@
 "Connect" = "연결하기";
 "Connect Account" = "계정 연결";
 "Connect Another Account" = "다른 계정 연결";
+"Connect Meeting Account" = "회의 계정 연결";
 "Connect with DocuSign" = "DocuSign에 연결하기";
 "Connect with me on my app by clicking the link below:" = "아래 링크를 클릭하여 내 앱에서 연결해 주세요:";
 "Connect with people by using your QR code." = "QR 코드를 사용하여 사람들과 연결하세요.";
@@ -996,7 +1002,6 @@
 "Current Page" = "현재 페이지";
 "Current Step Was Removed" = "현재 단계가 제거됨";
 "Custom" = "맞춤";
-"Custom Due Date..." = "사용자 지정 마감일...";
 "Custom..." = "맞춤...";
 "Daily" = "일일";
 "Dashboard" = "대시보드";
@@ -1124,7 +1129,9 @@
 "Due" = "기한";
 "Due %@ %@" = "기한 %1$@ %2$@";
 "Due (%@ after start)" = "시작 후 %@에 만료됩니다";
+"Due (%@ before workspace due)" = "마감 (작업 공간 마감 %@ 전)";
 "Due Date" = "만기일";
+"Due Date Invalid" = "만기일이 유효하지 않음";
 "Due Today" = "오늘 만기낮";
 "Due Tomorrow" = "내일 만기";
 "Due date was removed %@" = "만기일 %@이(가) 삭제되었습니다";
@@ -1374,6 +1381,7 @@
 "Frequency" = "빈도";
 "Friday" = "금요일";
 "From %@" = "%@ 부터";
+"From Action Start Date" = "작업 시작 날짜부터";
 "Full Name" = "성명";
 "Full Name (Required)" = "전체 이름(필수)";
 "GKImoveAndScale" = "GKImoveAndScale";
@@ -1820,6 +1828,7 @@
 "No chat messages yet" = "아직 채팅 메시지 없음";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "일반 시간대를 찾을 수 없습니다. 일부 참가자를 제외하거나, 회의 시간을 조정하거나, 일정 창을 변경하는 것을 고려하세요.";
 "No description" = "설명 없음";
+"No due date" = "만기일 없음";
 "No extra participants yet" = "아직 추가 참가자 없음";
 "No meeting" = "미팅 없음";
 "No meetings" = "미팅 없음";
@@ -2188,6 +2197,7 @@
 "Review Progress" = "진행 상황 검토";
 "Review Submissions" = "제출 검토";
 "Review and Acknowledge" = "검토 및 확인";
+"Review and Confirm" = "검토 및 확인";
 "Review the following attachments to confirm this acknowledgement." = "다음 첨부 자료를 검토하여 이 인정을 확인하십시오.";
 "Role" = "직무";
 "Role Disabled" = "역할 사용 안 함";
@@ -2333,6 +2343,8 @@
 "Set your availability for people to book a time with you." = "사람들이 사용자와 함께 시간을 예약할 수 있는 사용 가능 시간을 설정하십시오.";
 "Settings" = "설정";
 "Shadow Flow" = "섀도우 플로우";
+"Shadow Flow Workspaces" = "섀도우 플로우 작업 공간";
+"Shadow Flows" = "섀도우 플로우";
 "Share" = "공유";
 "Share Files" = "파일 공유";
 "Share Invite Link" = "초대 링크 공유";
@@ -2391,6 +2403,7 @@
 "Slide up to cancel" = "취소하려면 위로 슬라이드하십시오";
 "Snap Area" = "영역 스냅";
 "Snap Page" = "페이지 스냅";
+"Some actions in this flow require additional details before creating the workspace. Please update them." = "이 플로우의 일부 작업에는 작업 공간을 생성하기 전에 추가 정보가 필요합니다. 해당 작업들을 업데이트해 주세요.";
 "Some members have not joined" = "일부 멤버가 가입하지 않았습니다";
 "Some signers require a phone number for DocuSign verification. Please complete the missing information." = "일부 서명자는 DocuSign 인증을 위해 전화번호가 필요합니다. 누락된 정보를 입력해 주세요.";
 "Something Went Wrong" = "문제가 발생했습니다";
@@ -2412,6 +2425,7 @@
 "Sort by Name" = "이름별로 정렬";
 "Sort by..." = "다음으로 정렬...";
 "Special Hours" = "특별 시간";
+"Specific Date" = "특정 날짜";
 "Speech Bubble" = "스피치 버블";
 "Speech Bubbles" = "스피치 버블";
 "Stamp" = "스탬프";
@@ -2524,6 +2538,7 @@
 "The actions within this milestone will start only after the actions in %@ are completed. " = "이 마일스톤 내의 행동은 %@의 행동이 완료된 후에만 시작됩니다.";
 "The assignee(s) will need to sign again if reopened." = "다시 열면 담당자는 다시 서명해야 합니다.";
 "The code is no longer valid. Please request a new code to continue." = "코드가 더 이상 유효하지 않습니다. 계속하려면 새 코드를 요청해 주세요.";
+"The date is no longer valid." = "해당 날짜는 더 이상 유효하지 않습니다.";
 "The date will be recorded in [%@] format" = "날짜는 [%@] 형식으로 기록됩니다";
 "The envelope is locked because the assignee couldn't verify their identity after several tries." = "담당자가 여러 번 시도했음에도 신원을 확인하지 못해 봉투가 잠겼습니다.";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "보안 요구 사항을 충족하지 않아 파일을 업로드할 수 없습니다. 파일을 확인하고 다시 시도하십시오.";
@@ -2582,6 +2597,7 @@
 "The system is busy. Please try again." = "시스템이 바쁩니다. 다시 시도해 주세요.";
 "The tag values entered here will apply to any workspace created from this template." = "여기에 입력된 태그 값은 이 템플릿에서 생성된 모든 작업 공간에 적용됩니다.";
 "The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "여기에 입력된 변수 값은 생성된 작업 공간에 적용됩니다. 내부 사용자만이 이를 볼 수 있습니다.";
+"The workspace due date is no longer valid." = "작업 공간의 마감일이 더 이상 유효하지 않습니다.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "모든 조치가 완료되고 일정 기간 동안 활동이 없을 경우, 워크스페이스는 모든 멤버에 대해 자동으로 보관됩니다.";
 "There are no active screen share sessions to join." = "가입할 활성 화면 공유 세션이 없습니다.";
 "There are no other members in this workspace." = "이 작업 공간에는 다른 구성원이 없습니다.";
@@ -2632,7 +2648,6 @@
 "This file has been deleted." = "이 파일은 삭제되었습니다.";
 "This file has been deleted. It is no longer available." = "이 파일은 삭제되었습니다. 더 이상 사용할 수 없습니다.";
 "This flow has been completed and you can no longer make modifications." = "이 흐름은 완료되었으며 더 이상 수정할 수 없습니다.";
-"This flow requires you to connect to your account." = "이 흐름을 사용하려면 계정을 연결해야 합니다.";
 "This folder is empty" = "이 폴더는 비어 있습니다";
 "This group already has the maximum number of clients allowed per group: %@." = "이 그룹은 이미 그룹당 허용된 최대 클라이언트 수인 %@명을 보유하고 있습니다.";
 "This group already has the maximum number of managers allowed per group: %@." = "이 그룹에는 이미 그룹당 허용된 최대 관리자 수(%@)가 있습니다.";
@@ -2866,6 +2881,7 @@
 "Upcoming and ongoing" = "예정 및 진행 중";
 "Update" = "업데이트";
 "Update App" = "앱 업데이트";
+"Update Date" = "업데이트 날짜";
 "Update app to view this message." = "이 메시지를 보려면 앱을 업데이트하십시오.";
 "Update in progress…" = "업데이트 진행 중…";
 "Update recurring meeting" = "정기 미팅 업데이트";
@@ -2926,6 +2942,7 @@
 "View Details" = "상세 정보 보기";
 "View File" = "파일 보기";
 "View Form" = "양식 보기";
+"View Main Flow" = "메인 플로우 보기";
 "View Members" = "구성원 보기";
 "View More" = "더 보기";
 "View Office Hours" = "업무 시간 보기";
@@ -3292,7 +3309,6 @@
 "days" = "낮";
 "decline" = "거부";
 "e.g. Acme" = "예: Acme";
-"e.g. Due in 3 Days" = "예: 3낮 후 만기";
 "e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "예: 곧 KYC 필요, 새로운 투자 기회, 포트폴리오 리뷰,...";
 "got it" = "알겠습니다";
 "greater than" = "보다 큼";

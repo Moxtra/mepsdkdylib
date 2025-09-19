@@ -133,6 +133,7 @@
 "%@ awaits your preparation." = "%@ في انتظار تحضيرك.";
 "%@ awaits your preparation: %@" = "%1$@ في انتظار تحضيرك: %2$@";
 "%@ before" = "%@ قبل";
+"%@ before workspace due" = "%@ قبل موعد استحقاق مساحة العمل";
 "%@ booked a meeting" = "حجز %@ اجتماعًا";
 "%@ canceled %@." = "%1$@ ألغى %2$@.";
 "%@ canceled a meeting: %@" = "%1$@ ألغى اجتماعًا: %2$@";
@@ -454,6 +455,7 @@
 "(Disabled)" = "(تم التعطيل)";
 "(Host, Presenter)" = "(المضيف، العارض)";
 "(Me)" = "(أنا)";
+"(optional)" = "(اختياري)";
 "+ Add" = "+ إضافة";
 "+ INVITE" = "+ دعوة";
 "+ Invite" = "+ دعوة";
@@ -533,7 +535,9 @@
 "Action overdue (%@)" = "الإجراء متأخر (%@)";
 "Action required from %@." = "إجراء مطلوب من %@.";
 "Action skipped" = "تم تخطي الإجراء";
+"Action will be due %@ days before the workspace is due." = "سيكون الإجراء مستحقًا قبل %@ أيام من استحقاق مساحة العمل.";
 "Action will be due in %@." = "يحين موعد استحقاق الإجراء في %@.";
+"Action will be due on %@." = "سيكون الإجراء مستحقًا في %@.";
 "Actions" = "الإجراءات";
 "Actions Reassigned" = "تمت إعادة تعيين الإجراءات";
 "Actions and flows will appear here" = "ستظهر الإجراءات والتدفقات هنا";
@@ -568,6 +572,7 @@
 "Add New Action" = "إضافة اجراء جديد";
 "Add New Stamp" = "أضف طابعًا جديدًا";
 "Add Password" = "إضافة كلمة مرور";
+"Add Phone Numbers for DocuSign Verification" = "أضف أرقام الهواتف للتحقق من DocuSign";
 "Add Reaction" = "إضافة رد فعل";
 "Add Recipient" = "إضافة مستلم";
 "Add Role" = "إضافة دور";
@@ -773,6 +778,7 @@
 "Background Color" = "لون الخلفية";
 "Backup User" = "مستخدم دعم";
 "Baidu Maps" = "Baidu Maps";
+"Before Workspace End Date" = "قبل تاريخ انتهاء مساحة العمل";
 "Before leaving, please reassign your pending actions to someone else." = "قبل المغادرة، يرجى إعادة تعيين إجراءاتك المعلقة لشخص آخر.";
 "Before removing, please reassign their pending actions to someone else." = "قبل الإزالة، يرجى إعادة تعيين الإجراءات المعلقة لشخص آخر.";
 "Below are the previous invitations sent to this email address." = "فيما يلي الدعوات السابقة المرسلة إلى عنوان البريد الإلكتروني هذا.";
@@ -859,7 +865,6 @@
 "Choose Image" = "اختر صورة";
 "Choose Type" = "اختر النوع";
 "Choose a data center" = "اختر مركز بيانات";
-"Choose a date..." = "اختر تاريخ…";
 "Choose a password that is unique and not easy to guess." = "اختر كلمة مرور فريدة ويصعب تخمينها.";
 "Choose application" = "اختيار التطبيق";
 "Choose from Library" = "اختيار من المكتبة";
@@ -923,6 +928,7 @@
 "Connect" = "اتصال";
 "Connect Account" = "ربط الحساب";
 "Connect Another Account" = "ربط حساب آخر";
+"Connect Meeting Account" = "ربط حساب الاجتماع";
 "Connect with DocuSign" = "اتصل بـ DocuSign";
 "Connect with me on my app by clicking the link below:" = "تواصل معي عبر تطبيقي بالنقر على الرابط أدناه:";
 "Connect with people by using your QR code." = "تواصل مع الأشخاص باستخدام رمز الـ QR الخاص بك.";
@@ -996,7 +1002,6 @@
 "Current Page" = "الصفحه الحاليه";
 "Current Step Was Removed" = "تم إزالة الخطوة الحالية";
 "Custom" = "خاص";
-"Custom Due Date..." = "تاريخ الاستحقاق المخصص...";
 "Custom..." = "مخصص…";
 "Daily" = "يوميًا";
 "Dashboard" = "لوحة القيادة";
@@ -1124,7 +1129,9 @@
 "Due" = "الاستحقاق";
 "Due %@ %@" = "استحقاق %1$@ %2$@";
 "Due (%@ after start)" = "مستحق (%@ بعد البدء)";
+"Due (%@ before workspace due)" = "مستحق (%@ قبل استحقاق مساحة العمل)";
 "Due Date" = "تاريخ الاستحقاق";
+"Due Date Invalid" = "تاريخ الاستحقاق غير صالح";
 "Due Today" = "مستحق اليوم";
 "Due Tomorrow" = "مستحق غدًا";
 "Due date was removed %@" = "تمت إزالة تاريخ استحقاق %@";
@@ -1374,6 +1381,7 @@
 "Frequency" = "التردد";
 "Friday" = "الجمعة";
 "From %@" = "من %@";
+"From Action Start Date" = "من تاريخ بدء الإجراء";
 "Full Name" = "الاسم بالكامل";
 "Full Name (Required)" = "الاسم الكامل (مطلوب)";
 "GKImoveAndScale" = "GKImoveAndScale";
@@ -1820,6 +1828,7 @@
 "No chat messages yet" = "لا توجد رسائل دردشة حتى الآن";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "لم يتم العثور على فترات زمنية شائعة. فكر في إزالة بعض المشاركين أو تعديل مدة الاجتماع أو تغيير نافذة مدة الجدولة.";
 "No description" = "لا يوجد وصف";
+"No due date" = "لا يوجد تاريخ استحقاق";
 "No extra participants yet" = "لا يوجد مشاركون إضافيون بعد";
 "No meeting" = "لا يوجد اجتماع";
 "No meetings" = "لا توجد اجتماعات";
@@ -2188,6 +2197,7 @@
 "Review Progress" = "مراجعة التقدم";
 "Review Submissions" = "راجع عمليات الإرسال";
 "Review and Acknowledge" = "مراجعة وإقرار";
+"Review and Confirm" = "مراجعة وتأكيد";
 "Review the following attachments to confirm this acknowledgement." = "راجع المرفقات التالية لتأكيد هذا الإقرار.";
 "Role" = "دور";
 "Role Disabled" = "تم تعطيل الدور";
@@ -2333,6 +2343,8 @@
 "Set your availability for people to book a time with you." = "حدد إتاحتك للأشخاص لحجز وقت معك.";
 "Settings" = "الإعدادات";
 "Shadow Flow" = "تدفق الظل";
+"Shadow Flow Workspaces" = "مساحات عمل التدفق الظلي";
+"Shadow Flows" = "تدفقات الظل";
 "Share" = "مشاركة";
 "Share Files" = "مشاركة ملفات";
 "Share Invite Link" = "مشاركة رابط دعوة";
@@ -2391,6 +2403,7 @@
 "Slide up to cancel" = "اسحب للأعلى للإلغاء";
 "Snap Area" = "منطقة التصوير";
 "Snap Page" = "تصوير الصفحة";
+"Some actions in this flow require additional details before creating the workspace. Please update them." = "بعض الإجراءات في هذا التدفق تتطلب تفاصيل إضافية قبل إنشاء مساحة العمل. يرجى تحديثها.";
 "Some members have not joined" = "بعض الأعضاء لم ينضموا";
 "Some signers require a phone number for DocuSign verification. Please complete the missing information." = "بعض الموقّعين يحتاجون إلى رقم هاتف للتحقق عبر DocuSign. يرجى استكمال المعلومات الناقصة.";
 "Something Went Wrong" = "شيء ما خطأ";
@@ -2412,6 +2425,7 @@
 "Sort by Name" = "ترتيب حسب الاسم";
 "Sort by..." = "ترتيب حسب…";
 "Special Hours" = "ساعات خاصة";
+"Specific Date" = "تاريخ محدد";
 "Speech Bubble" = "فقاعة الحديث";
 "Speech Bubbles" = "فقاعات الحديث";
 "Stamp" = "طابع";
@@ -2524,6 +2538,7 @@
 "The actions within this milestone will start only after the actions in %@ are completed. " = "الإجراءات ضمن هذا المعلم الرئيسي ستبدأ فقط بعد اكتمال الإجراءات في %@.";
 "The assignee(s) will need to sign again if reopened." = "سيحتاج المسند إليه (المسند إليهم) إلى التوقيع مرة أخرى في حالة إعادة الفتح.";
 "The code is no longer valid. Please request a new code to continue." = "الرمز لم يعد صالحًا. يرجى طلب رمز جديد للمتابعة.";
+"The date is no longer valid." = "التاريخ لم يعد صالحًا.";
 "The date will be recorded in [%@] format" = "سيتم تسجيل التاريخ بتنسيق [%@]";
 "The envelope is locked because the assignee couldn't verify their identity after several tries." = "تم قفل الظرف لأن المكلف لم يتمكن من التحقق من هويته بعد عدة محاولات.";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "لا يمكن رفع الملف لأنه لا يفي بمتطلبات الأمان. الرجاء التحقق من الشبكة والمحاولة مرة أخرى.";
@@ -2582,6 +2597,7 @@
 "The system is busy. Please try again." = "النظام مشغول. يرجى المحاولة مرة أخرى.";
 "The tag values entered here will apply to any workspace created from this template." = "القيم المدخلة للوسوم هنا ستطبق على أي مساحة عمل تُنشأ من هذا النموذج.";
 "The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "القيم المتغيرة التي يتم إدخالها هنا ستُطبق على مساحة العمل المُنشأة. المستخدمون الداخليون فقط سيكونون قادرين على رؤيتها.";
+"The workspace due date is no longer valid." = "تاريخ استحقاق مساحة العمل لم يعد صالحًا.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "سيتم أرشفة مساحة العمل تلقائيًا لجميع الأعضاء بمجرد اكتمال جميع الإجراءات وبعد الوصول إلى فترة الخمول التالية.";
 "There are no active screen share sessions to join." = "لا توجد جلسات مشاركة شاشة نشطة للانضمام إليها.";
 "There are no other members in this workspace." = "لا يوجد أعضاء آخرون في مساحة العمل هذه.";
@@ -2632,7 +2648,6 @@
 "This file has been deleted." = "تم حذف هذا الملف.";
 "This file has been deleted. It is no longer available." = "تم حذف هذا الملف. لم يعد متاحًا.";
 "This flow has been completed and you can no longer make modifications." = "لقد تم إكمال هذا التدفق ولا يمكنك إجراء تعديلات بعد الآن.";
-"This flow requires you to connect to your account." = "يتطلب هذا التدفق منك ربط حسابك.";
 "This folder is empty" = "هذا المجلد فارغ";
 "This group already has the maximum number of clients allowed per group: %@." = "هذه المجموعة تحتوي بالفعل على العدد الأقصى المسموح به من العملاء لكل مجموعة: %@.";
 "This group already has the maximum number of managers allowed per group: %@." = "هذه المجموعة تحتوي بالفعل على الحد الأقصى لعدد المدراء المسموح به لكل مجموعة: %@.";
@@ -2866,6 +2881,7 @@
 "Upcoming and ongoing" = "القادم والمستمر";
 "Update" = "تحديث";
 "Update App" = "تحديث التطبيق";
+"Update Date" = "تاريخ التحديث";
 "Update app to view this message." = "قم بتحديث التطبيق لعرض هذه الرسالة.";
 "Update in progress…" = "التحديث قيد التقدم…";
 "Update recurring meeting" = "تحديث اجتماع جاري";
@@ -2926,6 +2942,7 @@
 "View Details" = "عرض التفاصيل";
 "View File" = "عرض ملف";
 "View Form" = "عرض النموذج";
+"View Main Flow" = "عرض التدفق الرئيسي";
 "View Members" = "عرض الأعضاء";
 "View More" = "اعرض المزيد";
 "View Office Hours" = "عرض ساعات العمل";
@@ -3292,7 +3309,6 @@
 "days" = "أيام";
 "decline" = "رفض";
 "e.g. Acme" = "على سبيل المثال، Acme";
-"e.g. Due in 3 Days" = "على سبيل المثال، مستحق خلال 3 أيام";
 "e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "على سبيل المثال، استحقاق KYC قريباً، فرصة استثمارية جديدة، مراجعة المحفظة،...";
 "got it" = "فهمت";
 "greater than" = "أكبر من";

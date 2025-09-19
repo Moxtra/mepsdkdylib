@@ -133,6 +133,7 @@
 "%@ awaits your preparation." = "%@ aguarda sua preparação.";
 "%@ awaits your preparation: %@" = "%1$@ aguarda sua preparação: %2$@";
 "%@ before" = "%@ antes";
+"%@ before workspace due" = "%@ antes do vencimento do espaço de trabalho";
 "%@ booked a meeting" = "%@ agendou uma reunião";
 "%@ canceled %@." = "%1$@ cancelou %2$@.";
 "%@ canceled a meeting: %@" = "%1$@ cancelou uma reunião: %2$@";
@@ -455,6 +456,7 @@
 "(Disabled)" = "(desabilitado)";
 "(Host, Presenter)" = "(Anfitrião, Apresentador)";
 "(Me)" = "(Eu)";
+"(optional)" = "(opcional)";
 "+ Add" = "+ Adicionar";
 "+ Add Guest" = "+ Adicionar Convidado";
 "+ INVITE" = "+ CONVIDAR";
@@ -535,7 +537,9 @@
 "Action overdue (%@)" = "Ação atrasada (%@)";
 "Action required from %@." = "Ação necessária de %@.";
 "Action skipped" = "Ação pulada";
+"Action will be due %@ days before the workspace is due." = "A ação vencerá %@ dias antes do vencimento do espaço de trabalho.";
 "Action will be due in %@." = "A ação deverá ser concluída em %@.";
+"Action will be due on %@." = "Ação vencerá em %@.";
 "Actions" = "Ações";
 "Actions Reassigned" = "Ações Reatribuídas";
 "Actions and flows will appear here" = "Ações e fluxos aparecerão aqui";
@@ -570,6 +574,7 @@
 "Add New Action" = "Adicionar Nova Ação";
 "Add New Stamp" = "Adicionar Novo Carimbo";
 "Add Password" = "Adicionar Senha";
+"Add Phone Numbers for DocuSign Verification" = "Adicione números de telefone para verificação do DocuSign";
 "Add Reaction" = "Adicionar Reação";
 "Add Recipient" = "Adicionar Destinatário";
 "Add Role" = "Adicionar função";
@@ -775,6 +780,7 @@
 "Background Color" = "Cor de Fundo";
 "Backup User" = "Usuário de backup";
 "Baidu Maps" = "Baidu Maps";
+"Before Workspace End Date" = "Antes da Data de Término do Espaço de Trabalho";
 "Before leaving, please reassign your pending actions to someone else." = "Antes de sair, por favor, reatribua suas ações pendentes para outra pessoa.";
 "Before removing, please reassign their pending actions to someone else." = "Antes de remover, por favor, reatribua as ações pendentes para outra pessoa.";
 "Below are the previous invitations sent to this email address." = "Abaixo estão os convites anteriores enviados para este endereço de email.";
@@ -861,7 +867,6 @@
 "Choose Image" = "Escolher Imagem";
 "Choose Type" = "Escolher Tipo";
 "Choose a data center" = "Escolha um centro de dados";
-"Choose a date..." = "Escolha uma data...";
 "Choose a password that is unique and not easy to guess." = "Escolha uma senha única e dificil de adivinhar.";
 "Choose application" = "Escolher aplicativo";
 "Choose from Library" = "Escolher de Biblioteca";
@@ -925,6 +930,7 @@
 "Connect" = "Conectar";
 "Connect Account" = "Conectar Conta";
 "Connect Another Account" = "Conectar outra conta";
+"Connect Meeting Account" = "Conectar Conta de Reunião";
 "Connect with DocuSign" = "Conecte-se com o DocuSign";
 "Connect with me on my app by clicking the link below:" = "Conecte-se comigo no meu aplicativo clicando no link abaixo:";
 "Connect with people by using your QR code." = "Conecte-se com pessoas usando seu código QR.";
@@ -1001,7 +1007,6 @@
 "Current Page" = "Página Atual";
 "Current Step Was Removed" = "A Etapa Atual Foi Removida";
 "Custom" = "Personalizar";
-"Custom Due Date..." = "Data de Vencimento Customizada...";
 "Custom..." = "Personalizar...";
 "Daily" = "Diariamente";
 "Dashboard" = "Painel do Inicial";
@@ -1129,7 +1134,9 @@
 "Due" = "Vencimento";
 "Due %@ %@" = "Vence em %1$@ %2$@";
 "Due (%@ after start)" = "Vencimento (%@ após o início)";
+"Due (%@ before workspace due)" = "Vencimento (%@ antes do vencimento do espaço de trabalho)";
 "Due Date" = "Data de vencimento";
+"Due Date Invalid" = "Data de vencimento inválida";
 "Due Today" = "Vencimento hoje";
 "Due Tomorrow" = "Para entregar amanhã";
 "Due date was removed %@" = "Data de vencimento foi removida %@";
@@ -1379,6 +1386,7 @@
 "Frequency" = "Frequência";
 "Friday" = "Sexta-feira";
 "From %@" = "De %@";
+"From Action Start Date" = "A partir da Data de Início da Ação";
 "Full Name" = "Nome Completo";
 "Full Name (Required)" = "Nome completo (obrigatório)";
 "GKImoveAndScale" = "GKImoveAndScale";
@@ -1825,6 +1833,7 @@
 "No chat messages yet" = "Sem mensagens ainda";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Não foram encontrados horários regulares. Considere a possibilidade de remover alguns participantes, ajustar a duração da reunião ou alterar a janela de agendamento.";
 "No description" = "Sem descrição";
+"No due date" = "Sem data de vencimento";
 "No extra participants yet" = "Ainda sem participantes extras";
 "No meeting" = "Sem reunião";
 "No meetings" = "Sem reuniões";
@@ -2193,6 +2202,7 @@
 "Review Progress" = "Revisar Progresso";
 "Review Submissions" = "Revisar os Envios";
 "Review and Acknowledge" = "Revisar e Reconhecer";
+"Review and Confirm" = "Revisar e Confirmar";
 "Review the following attachments to confirm this acknowledgement." = "Revise os anexos a seguir para garantir essa confirmação.";
 "Role" = "Função";
 "Role Disabled" = "Função Desativada";
@@ -2338,6 +2348,8 @@
 "Set your availability for people to book a time with you." = "Estabeleça sua disponibilidade para que as pessoas agendem um horário com você.";
 "Settings" = "Ajustes";
 "Shadow Flow" = "Fluxo Sombra";
+"Shadow Flow Workspaces" = "Espaços de Trabalho Flow Sombra";
+"Shadow Flows" = "Fluxos Sombra";
 "Share" = "Compartilhar";
 "Share Files" = "Compartilhar Arquivos";
 "Share Invite Link" = "Compartilhar link de convite";
@@ -2396,6 +2408,7 @@
 "Slide up to cancel" = "Deslize para cima e cancele";
 "Snap Area" = "Capturar Área";
 "Snap Page" = "Capturar Página";
+"Some actions in this flow require additional details before creating the workspace. Please update them." = "Algumas ações neste fluxo exigem detalhes adicionais antes de criar o espaço de trabalho. Por favor, atualize-as.";
 "Some members have not joined" = "Alguns membros não se juntaram";
 "Some signers require a phone number for DocuSign verification. Please complete the missing information." = "Alguns signatários precisam de um número de telefone para verificação no DocuSign. Por favor, preencha as informações que faltam.";
 "Something Went Wrong" = "Alguma coisa deu errado";
@@ -2417,6 +2430,7 @@
 "Sort by Name" = "Ordenar por nome";
 "Sort by..." = "Ordenar por...";
 "Special Hours" = "Horário Especial";
+"Specific Date" = "Data Específica";
 "Speech Bubble" = "Problemas na voz";
 "Speech Bubbles" = "Problemas na voz";
 "Stamp" = "Carimbo";
@@ -2529,6 +2543,7 @@
 "The actions within this milestone will start only after the actions in %@ are completed. " = "As ações dentro desta etapa só começarão após a conclusão das ações em %@.";
 "The assignee(s) will need to sign again if reopened." = "O(s) responsável(is) precisará(ão) assinar novamente caso sejam reaberta(s).";
 "The code is no longer valid. Please request a new code to continue." = "O código não é mais válido. Por favor, solicite um novo código para continuar.";
+"The date is no longer valid." = "A data não é mais válida.";
 "The date will be recorded in [%@] format" = "A data será registrada no formato [%@]";
 "The envelope is locked because the assignee couldn't verify their identity after several tries." = "O envelope está bloqueado porque o responsável não conseguiu verificar sua identidade após várias tentativas.";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "O arquivo não pode ser carregado, pois não atende aos requisitos de segurança. Verifique seu arquivo e tente novamente.";
@@ -2587,6 +2602,7 @@
 "The system is busy. Please try again." = "O sistema está ocupado. Por favor, tente novamente.";
 "The tag values entered here will apply to any workspace created from this template." = "Os valores de etiquetas inseridos aqui serão aplicados a qualquer espaço de trabalho criado a partir deste modelo.";
 "The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "Os valores das variáveis inseridos aqui serão aplicados ao espaço de trabalho criado. Apenas usuários internos poderão vê-los.";
+"The workspace due date is no longer valid." = "A data de vencimento do espaço de trabalho não é mais válida.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "O espaço de trabalho será arquivado automaticamente para todos os membros assim que todas as ações forem concluídas e o período subsequente de inatividade for atingido.";
 "There are no active screen share sessions to join." = "Não há sessões de compartilhamento de tela ativas para entrar.";
 "There are no other members in this workspace." = "Não há outros membros neste workspace.";
@@ -2637,7 +2653,6 @@
 "This file has been deleted." = "Esse arquivo foi excluído.";
 "This file has been deleted. It is no longer available." = "Este arquivo foi excluído. Ele não está mais disponível.";
 "This flow has been completed and you can no longer make modifications." = "Este fluxo foi concluído e você não pode mais fazer modificações.";
-"This flow requires you to connect to your account." = "Este fluxo requer que você conecte à sua conta.";
 "This folder is empty" = "Esta pasta está vazia";
 "This group already has the maximum number of clients allowed per group: %@." = "Este grupo já possui o número máximo de clientes permitidos por grupo: %@.";
 "This group already has the maximum number of managers allowed per group: %@." = "Este grupo já possui o número máximo de gerentes permitido por grupo: %@.";
@@ -2871,6 +2886,7 @@
 "Upcoming and ongoing" = "Próximas e Atuais";
 "Update" = "Atualizar";
 "Update App" = "Atualizar App";
+"Update Date" = "Data de Atualização";
 "Update app to view this message." = "Atualize o aplicativo para ver esta mensagem.";
 "Update in progress…" = "Atualização em andamento…";
 "Update recurring meeting" = "Atualizar reunião recorrente";
@@ -2931,6 +2947,7 @@
 "View Details" = "Ver detalhes";
 "View File" = "Exibir arquivo";
 "View Form" = "Visualizar Formulário";
+"View Main Flow" = "Ver Fluxo Principal";
 "View Members" = "Ver membros";
 "View More" = "Ver mais";
 "View Office Hours" = "Exibir horário comercial";
@@ -3297,7 +3314,6 @@
 "days" = "dias";
 "decline" = "recusar";
 "e.g. Acme" = "p.ex. Acme";
-"e.g. Due in 3 Days" = "por exemplo. Prazo de entrega em 3 Dias";
 "e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "p.ex. KYC com Prazo Próximo, Nova Oportunidade de Investimento, Revisão de Portfólio,...";
 "got it" = "recebi";
 "greater than" = "maior que";

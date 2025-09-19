@@ -133,6 +133,7 @@
 "%@ awaits your preparation." = "%@ đang chờ bạn chuẩn bị.";
 "%@ awaits your preparation: %@" = "%1$@ đang chờ bạn chuẩn bị: %2$@";
 "%@ before" = "Trước %@";
+"%@ before workspace due" = "%@ trước hạn của không gian làm việc";
 "%@ booked a meeting" = "%@ đã đặt một cuộc họp";
 "%@ canceled %@." = "%1$@ đã hủy %2$@.";
 "%@ canceled a meeting: %@" = "%1$@ đã hủy một cuộc họp: %2$@";
@@ -455,6 +456,7 @@
 "(Disabled)" = "(Bị vô hiệu hóa)";
 "(Host, Presenter)" = "(Người Chủ trì, Người thuyết trình)";
 "(Me)" = "(Tôi)";
+"(optional)" = "(tùy chọn)";
 "+ Add" = "+ Thêm";
 "+ Add Guest" = "+ Thêm Khách mời";
 "+ INVITE" = "+ MỜI";
@@ -535,7 +537,9 @@
 "Action overdue (%@)" = "Hành động quá hạn (%@)";
 "Action required from %@." = "Cần hành động từ %@.";
 "Action skipped" = "Hành động đã bỏ qua";
+"Action will be due %@ days before the workspace is due." = "Hành động sẽ đến hạn trước %@ ngày so với hạn của không gian làm việc.";
 "Action will be due in %@." = "Hành động sẽ đến hạn vào %@.";
+"Action will be due on %@." = "Hành động sẽ đến hạn vào %@.";
 "Actions" = "Hành động";
 "Actions Reassigned" = "Giao lại hành động";
 "Actions and flows will appear here" = "Các hành động và luồng sẽ xuất hiện ở đây";
@@ -570,6 +574,7 @@
 "Add New Action" = "Thêm Hành Động Mới";
 "Add New Stamp" = "Thêm Dấu Mới";
 "Add Password" = "Thêm Mật khẩu";
+"Add Phone Numbers for DocuSign Verification" = "Thêm số điện thoại để xác minh DocuSign";
 "Add Reaction" = "Thêm phản ứng";
 "Add Recipient" = "Thêm người nhận";
 "Add Role" = "Thêm vai trò";
@@ -775,6 +780,7 @@
 "Background Color" = "Màu nền";
 "Backup User" = "Người dùng dự phòng";
 "Baidu Maps" = "Bản đồ Baidu";
+"Before Workspace End Date" = "Trước Ngày Kết Thúc Không Gian Làm Việc";
 "Before leaving, please reassign your pending actions to someone else." = "Trước khi rời đi, vui lòng chuyển giao các hành động đang chờ của bạn cho người khác.";
 "Before removing, please reassign their pending actions to someone else." = "Trước khi xóa, vui lòng chuyển giao các hành động đang chờ của họ cho người khác.";
 "Below are the previous invitations sent to this email address." = "Dưới đây là những lời mời trước đây đã được gửi đến địa chỉ email này.";
@@ -861,7 +867,6 @@
 "Choose Image" = "Chọn hình ảnh";
 "Choose Type" = "Chọn Loại";
 "Choose a data center" = "Chọn trung tâm dữ liệu";
-"Choose a date..." = "Chọn một ngày...";
 "Choose a password that is unique and not easy to guess." = "Chọn một mật khẩu khó đoán và duy nhất.";
 "Choose application" = "Chọn ứng dụng";
 "Choose from Library" = "Chọn từ Thư viện";
@@ -925,6 +930,7 @@
 "Connect" = "Kết nối";
 "Connect Account" = "Kết nối Tài khoản";
 "Connect Another Account" = "Kết nối tài khoản khác";
+"Connect Meeting Account" = "Kết nối tài khoản họp";
 "Connect with DocuSign" = "Kết nối với DocuSign";
 "Connect with me on my app by clicking the link below:" = "Kết nối với tôi trên ứng dụng của tôi bằng cách nhấp vào liên kết bên dưới:";
 "Connect with people by using your QR code." = "Kết nối với mọi người bằng cách sử dụng mã QR của bạn.";
@@ -1001,7 +1007,6 @@
 "Current Page" = "Trang Hiện tại";
 "Current Step Was Removed" = "Bước Hiện Tại Đã Bị Xóa";
 "Custom" = "Tùy chỉnh";
-"Custom Due Date..." = "Tùy Chỉnh Ngày Đến Hạn...";
 "Custom..." = "Tùy chỉnh...";
 "Daily" = "Hàng ngày";
 "Dashboard" = "Bảng Điều khiển";
@@ -1129,7 +1134,9 @@
 "Due" = "Đến hạn";
 "Due %@ %@" = "Đến hạn %1$@ %2$@";
 "Due (%@ after start)" = "Đến hạn (%@ sau khi bắt đầu)";
+"Due (%@ before workspace due)" = "Đến hạn (%@ trước hạn của không gian làm việc)";
 "Due Date" = "Thời hạn";
+"Due Date Invalid" = "Ngày đáo hạn không hợp lệ";
 "Due Today" = "Đến hạn hôm nay";
 "Due Tomorrow" = "Đến hạn vào ngày mai";
 "Due date was removed %@" = "Thời hạn đã bị gỡ %@";
@@ -1380,6 +1387,7 @@
 "Frequency" = "Tần số";
 "Friday" = "Thứ Sáu";
 "From %@" = "Từ ngày %@";
+"From Action Start Date" = "Từ ngày bắt đầu hành động";
 "Full Name" = "Họ và tên";
 "Full Name (Required)" = "Họ tên (bắt buộc)";
 "GKImoveAndScale" = "GKImoveAndScale";
@@ -1826,6 +1834,7 @@
 "No chat messages yet" = "Chưa có tin nhắn trò chuyện";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Không tìm thấy khung giờ trống phổ biến nào. Hãy xóa một số người tham gia, điều chỉnh thời lượng cuộc họp hoặc thay đổi phạm vi lịch họp.";
 "No description" = "Chưa có mô tả";
+"No due date" = "Không có ngày hết hạn";
 "No extra participants yet" = "Chưa có thêm người tham gia";
 "No meeting" = "Không có cuộc họp";
 "No meetings" = "Không có cuộc họp";
@@ -2194,6 +2203,7 @@
 "Review Progress" = "Xem tiến độ";
 "Review Submissions" = "Xem xét Bài nộp";
 "Review and Acknowledge" = "Xem xét và xác nhận";
+"Review and Confirm" = "Xem lại và Xác nhận";
 "Review the following attachments to confirm this acknowledgement." = "Xem xét các tệp đính kèm sau để xác nhận lời công nhận này.";
 "Role" = "Vai trò";
 "Role Disabled" = "Vai trò Bị vô hiệu hóa";
@@ -2339,6 +2349,8 @@
 "Set your availability for people to book a time with you." = "Đặt lịch trống để mọi người đặt lịch hẹn với bạn.";
 "Settings" = "Cài đặt";
 "Shadow Flow" = "Luồng Ẩn";
+"Shadow Flow Workspaces" = "Không gian làm việc Luồng ẩn";
+"Shadow Flows" = "Luồng ẩn";
 "Share" = "Chia sẻ";
 "Share Files" = "Chia sẻ các Tệp tin";
 "Share Invite Link" = "Chia sẻ Liên kết Lời mời";
@@ -2397,6 +2409,7 @@
 "Slide up to cancel" = "Lướt lên để hủy";
 "Snap Area" = "Vùng chụp nhanh";
 "Snap Page" = "Chụp nhanh Trang";
+"Some actions in this flow require additional details before creating the workspace. Please update them." = "Một số hành động trong luồng này cần thêm thông tin chi tiết trước khi tạo không gian làm việc. Vui lòng cập nhật chúng.";
 "Some members have not joined" = "Một số thành viên chưa tham gia";
 "Some signers require a phone number for DocuSign verification. Please complete the missing information." = "Một số người ký cần số điện thoại để xác minh qua DocuSign. Vui lòng bổ sung thông tin còn thiếu.";
 "Something Went Wrong" = "Đã Xảy ra Lỗi";
@@ -2418,6 +2431,7 @@
 "Sort by Name" = "Sắp xếp theo Tên";
 "Sort by..." = "Sắp xếp theo...";
 "Special Hours" = "Giờ đặc biệt";
+"Specific Date" = "Ngày Cụ Thể";
 "Speech Bubble" = "Bong bóng Thoại";
 "Speech Bubbles" = "Bong bóng thoại";
 "Stamp" = "Con dấu";
@@ -2530,6 +2544,7 @@
 "The actions within this milestone will start only after the actions in %@ are completed. " = "Các hành động trong mốc thời gian này chỉ bắt đầu sau khi các hành động trong %@ hoàn thành.";
 "The assignee(s) will need to sign again if reopened." = "(Những ) Người phụ trách sẽ cần ký lại nếu tài liệu được mở lại.";
 "The code is no longer valid. Please request a new code to continue." = "Mã không còn hiệu lực. Vui lòng yêu cầu mã mới để tiếp tục.";
+"The date is no longer valid." = "Ngày này không còn hợp lệ.";
 "The date will be recorded in [%@] format" = "Ngày sẽ được ghi theo định dạng [%@]";
 "The envelope is locked because the assignee couldn't verify their identity after several tries." = "Phong bì đã bị khóa vì người được giao không thể xác minh danh tính sau nhiều lần thử.";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "Không thể tải lên tệp tin vì không đáp ứng các yêu cầu bảo mật. Vui lòng kiểm tra tệp tin của bạn và thử lại.";
@@ -2588,6 +2603,7 @@
 "The system is busy. Please try again." = "Hệ thống đang bận. Vui lòng thử lại.";
 "The tag values entered here will apply to any workspace created from this template." = "Các giá trị thẻ nhập vào đây sẽ được áp dụng cho bất kỳ không gian làm việc nào được tạo từ bản mẫu này.";
 "The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "Các giá trị biến được nhập ở đây sẽ được áp dụng cho không gian làm việc được tạo. Chỉ người dùng nội bộ mới có thể thấy chúng.";
+"The workspace due date is no longer valid." = "Ngày hết hạn của không gian làm việc không còn hợp lệ.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "Không gian làm việc sẽ tự động lưu trữ cho tất cả các thành viên sau khi tất cả các hành động đã hoàn thành và khoảng thời gian không hoạt động sau đó đã được đạt tới.";
 "There are no active screen share sessions to join." = "Không có phiên chia sẻ màn hình nào đang hoạt động để tham gia.";
 "There are no other members in this workspace." = "Không có thành viên nào khác trong không gian làm việc này.";
@@ -2638,7 +2654,6 @@
 "This file has been deleted." = "Tệp tin này vừa bị xóa.";
 "This file has been deleted. It is no longer available." = "Tệp này đã bị xóa. Nó không còn tồn tại nữa.";
 "This flow has been completed and you can no longer make modifications." = "Luồng này đã được hoàn thành và bạn không thể thực hiện thay đổi nữa.";
-"This flow requires you to connect to your account." = "Luồng này yêu cầu bạn kết nối với tài khoản của mình.";
 "This folder is empty" = "Thư mục này trống rỗng";
 "This group already has the maximum number of clients allowed per group: %@." = "Nhóm này đã có số lượng khách hàng tối đa cho phép mỗi nhóm: %@.";
 "This group already has the maximum number of managers allowed per group: %@." = "Nhóm này đã có số lượng quản lý tối đa cho phép cho mỗi nhóm: %@.";
@@ -2872,6 +2887,7 @@
 "Upcoming and ongoing" = "Sắp tới và đang diễn ra";
 "Update" = "Cập nhật";
 "Update App" = "Cập nhật Ứng dụng";
+"Update Date" = "Ngày Cập Nhật";
 "Update app to view this message." = "Cập nhật ứng dụng để xem tin nhắn này.";
 "Update in progress…" = "Đang tiến hành cập nhật…";
 "Update recurring meeting" = "Cập nhật cuộc họp định kỳ";
@@ -2932,6 +2948,7 @@
 "View Details" = "Xem Chi tiết";
 "View File" = "Xem Tệp tin";
 "View Form" = "Xem Biểu Mẫu";
+"View Main Flow" = "Xem Luồng Chính";
 "View Members" = "Xem Thành viên";
 "View More" = "Xem Thêm";
 "View Office Hours" = "Xem giờ làm việc";
@@ -3298,7 +3315,6 @@
 "days" = "ngày";
 "decline" = "từ chối";
 "e.g. Acme" = "ví dụ: Acme";
-"e.g. Due in 3 Days" = "ví dụ: Đến hạn sau 3 ngày";
 "e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "ví dụ: KYC Sắp Đến Hạn, Cơ Hội Đầu Tư Mới, Đánh Giá Danh Mục Đầu Tư,...";
 "got it" = "tôi đã hiểu";
 "greater than" = "lớn hơn";

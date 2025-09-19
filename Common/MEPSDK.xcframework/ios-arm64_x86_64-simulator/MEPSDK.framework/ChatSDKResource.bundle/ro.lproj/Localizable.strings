@@ -133,6 +133,7 @@
 "%@ awaits your preparation." = "%@ așteaptă pregătirea dumneavoastră.";
 "%@ awaits your preparation: %@" = "%1$@ așteaptă pregătirea ta: %2$@";
 "%@ before" = "%@ înainte";
+"%@ before workspace due" = "%@ înainte de termenul limită al spațiului de lucru";
 "%@ booked a meeting" = "%@ a rezervat o ședință";
 "%@ canceled %@." = "%1$@ a anulat %2$@.";
 "%@ canceled a meeting: %@" = "%1$@ a anulat o întâlnire: %2$@";
@@ -455,6 +456,7 @@
 "(Disabled)" = "(Oprit)";
 "(Host, Presenter)" = "(Gazdă, Prezentator)";
 "(Me)" = "(Eu)";
+"(optional)" = "(opțional)";
 "+ Add" = "+ Adăugare";
 "+ Add Guest" = "+ Adăugare oaspete";
 "+ INVITE" = "+ INVITAȚIE";
@@ -535,7 +537,9 @@
 "Action overdue (%@)" = "Acțiune întârziată (%@)";
 "Action required from %@." = "Acțiune necesară din partea lui %@.";
 "Action skipped" = "Acțiune omisă";
+"Action will be due %@ days before the workspace is due." = "Acțiunea va fi scadentă cu %@ zile înainte ca spațiul de lucru să fie scadent.";
 "Action will be due in %@." = "Acțiunea va fi scadentă în %@.";
+"Action will be due on %@." = "Acțiunea va fi scadentă pe %@.";
 "Actions" = "Acțiuni";
 "Actions Reassigned" = "Acțiuni reatribuite";
 "Actions and flows will appear here" = "Acțiunile și fluxurile vor apărea aici";
@@ -570,6 +574,7 @@
 "Add New Action" = "Adăugați o nouă acțiune";
 "Add New Stamp" = "Adaugă un nou timbru";
 "Add Password" = "Adăugați o parolă";
+"Add Phone Numbers for DocuSign Verification" = "Adăugați numere de telefon pentru verificarea DocuSign";
 "Add Reaction" = "Adăugați o reacție";
 "Add Recipient" = "Adaugă destinatar";
 "Add Role" = "Adăugați rol";
@@ -775,6 +780,7 @@
 "Background Color" = "Culoare de fundal";
 "Backup User" = "Utilizator de rezervă";
 "Baidu Maps" = "Hărți Baidu";
+"Before Workspace End Date" = "Înainte de data de încheiere a spațiului de lucru";
 "Before leaving, please reassign your pending actions to someone else." = "Înainte de a pleca, vă rugăm să reatribuiți acțiunile dvs. în așteptare altcuiva.";
 "Before removing, please reassign their pending actions to someone else." = "Înainte de a elimina, vă rugăm să reatribuiți acțiunile lor în așteptare altcuiva.";
 "Below are the previous invitations sent to this email address." = "Mai jos găsiți invitațiile anterioare trimise la această adresă de e-mail.";
@@ -861,7 +867,6 @@
 "Choose Image" = "Alegeți imaginea";
 "Choose Type" = "Alegere tip";
 "Choose a data center" = "Alegeți un centru de date";
-"Choose a date..." = "Alegeți o dată...";
 "Choose a password that is unique and not easy to guess." = "Alegeți o parolă care este unică și nu este ușor de ghicit.";
 "Choose application" = "Alegere aplicație";
 "Choose from Library" = "Alegere din bibliotecă";
@@ -925,6 +930,7 @@
 "Connect" = "Conectare";
 "Connect Account" = "Conectează contul";
 "Connect Another Account" = "Conectați un alt cont";
+"Connect Meeting Account" = "Conectați contul de ședințe";
 "Connect with DocuSign" = "Conectați-vă cu DocuSign";
 "Connect with me on my app by clicking the link below:" = "Conectați-vă cu mine pe aplicația mea făcând clic pe linkul de mai jos:";
 "Connect with people by using your QR code." = "Conectează-te cu oamenii folosind codul tău QR.";
@@ -1001,7 +1007,6 @@
 "Current Page" = "Pagină curentă";
 "Current Step Was Removed" = "Acest pas a fost șters";
 "Custom" = "Personalizat";
-"Custom Due Date..." = "Data limită personalizată...";
 "Custom..." = "Personalizat...";
 "Daily" = "Zilnic";
 "Dashboard" = "Panou de bord";
@@ -1129,7 +1134,9 @@
 "Due" = "Scadent";
 "Due %@ %@" = "Scadent %1$@ %2$@";
 "Due (%@ after start)" = "Scadență (%@ după începere)";
+"Due (%@ before workspace due)" = "Scadent (%@ înainte de termenul spațiului de lucru)";
 "Due Date" = "Dată scadentă";
+"Due Date Invalid" = "Data scadenței invalidă";
 "Due Today" = "Scadent astăzi";
 "Due Tomorrow" = "De mâine";
 "Due date was removed %@" = "Data scadentă a fost eliminată %@";
@@ -1380,6 +1387,7 @@
 "Frequency" = "Frecvență";
 "Friday" = "Vineri";
 "From %@" = "De la %@";
+"From Action Start Date" = "De la data de început a acțiunii";
 "Full Name" = "Nume complet";
 "Full Name (Required)" = "Nume Complet (Necesar)";
 "GKImoveAndScale" = "GKImoveAndScale";
@@ -1826,6 +1834,7 @@
 "No chat messages yet" = "Nu există mesaje de chat încă";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Nu s-au găsit intervale orare comune. Luați în considerare eliminarea unor participanți, ajustarea duratei întâlnirii sau modificarea ferestrei de programare.";
 "No description" = "Nicio descriere";
+"No due date" = "Nu există nicio dată limită încă";
 "No extra participants yet" = "Niciun participant suplimentar încă";
 "No meeting" = "Nu există nicio întâlnire";
 "No meetings" = "Nu există nicio întâlnire";
@@ -2194,6 +2203,7 @@
 "Review Progress" = "Revizuirea Progresului";
 "Review Submissions" = "Revizuirea propunerilor";
 "Review and Acknowledge" = "Revizuiește și recunoaște";
+"Review and Confirm" = "Revizuiește și confirmă";
 "Review the following attachments to confirm this acknowledgement." = "Examinați următoarele anexe pentru a confirma această recunoaștere.";
 "Role" = "Rol";
 "Role Disabled" = "Rol dezactivat";
@@ -2339,6 +2349,8 @@
 "Set your availability for people to book a time with you." = "Setează-ți disponibilitatea pentru ca oamenii să rezerve un timp cu tine.";
 "Settings" = "Setări";
 "Shadow Flow" = "Flux umbrit";
+"Shadow Flow Workspaces" = "Spații de lucru flux umbră";
+"Shadow Flows" = "Fluxuri de tip „Shadow”";
 "Share" = "Partajați";
 "Share Files" = "Partajați fișiere";
 "Share Invite Link" = "Partajare link invitație";
@@ -2397,6 +2409,7 @@
 "Slide up to cancel" = "Glisați în sus pentru a anula";
 "Snap Area" = "Zona de prindere";
 "Snap Page" = "Prindere pagină";
+"Some actions in this flow require additional details before creating the workspace. Please update them." = "Unele acțiuni din acest flux necesită detalii suplimentare înainte de a crea spațiul de lucru. Vă rugăm să le actualizați.";
 "Some members have not joined" = "Unii membri nu s-au alăturat";
 "Some signers require a phone number for DocuSign verification. Please complete the missing information." = "Unii semnatari necesită un număr de telefon pentru verificarea DocuSign. Vă rugăm să completați informațiile lipsă.";
 "Something Went Wrong" = "Ceva nu a mers bine.";
@@ -2418,6 +2431,7 @@
 "Sort by Name" = "Sortare după nume";
 "Sort by..." = "Sortare după...";
 "Special Hours" = "Ore Speciale";
+"Specific Date" = "Dată specifică";
 "Speech Bubble" = "Bulă de dialog";
 "Speech Bubbles" = "Bule de dialog";
 "Stamp" = "Ștampilă";
@@ -2530,6 +2544,7 @@
 "The actions within this milestone will start only after the actions in %@ are completed. " = "Acțiunile din acest jalon vor începe doar după ce acțiunile din %@ sunt finalizate.";
 "The assignee(s) will need to sign again if reopened." = "Persoanele cesionate vor trebui să semneze din nou dacă sunt redeschise.";
 "The code is no longer valid. Please request a new code to continue." = "Codul nu mai este valabil. Vă rugăm să solicitați un cod nou pentru a continua.";
+"The date is no longer valid." = "Data nu mai este valabilă.";
 "The date will be recorded in [%@] format" = "Data va fi înregistrată în formatul [%@]";
 "The envelope is locked because the assignee couldn't verify their identity after several tries." = "Plicul este blocat deoarece persoana desemnată nu a reușit să își verifice identitatea după mai multe încercări.";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "Fișierul nu poate fi încărcat deoarece nu corespunde cerințelor de securitate. Vă rugăm să verificați fișierul și încercați din nou.";
@@ -2588,6 +2603,7 @@
 "The system is busy. Please try again." = "Sistemul este ocupat. Vă rugăm să încercați din nou.";
 "The tag values entered here will apply to any workspace created from this template." = "Valorile etichetelor introduse aici se vor aplica oricărui spațiu de lucru creat din acest șablon.";
 "The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "Valorile variabilelor introduse aici vor fi aplicate spațiului de lucru creat. Numai utilizatorii interni le vor putea vedea.";
+"The workspace due date is no longer valid." = "Data limită a spațiului de lucru nu mai este valabilă.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "Spațiul de lucru va fi arhivat automat pentru toți membrii odată ce toate acțiunile sunt finalizate și perioada următoare de inactivitate a fost atinsă.";
 "There are no active screen share sessions to join." = "Nu există sesiuni cu partajare a ecranului active pentru a vă alătura.";
 "There are no other members in this workspace." = "Nu există alți membri în acest spațiu de lucru.";
@@ -2638,7 +2654,6 @@
 "This file has been deleted." = "Acest fișier a fost șters.";
 "This file has been deleted. It is no longer available." = "Acest fișier a fost șters. Nu mai este disponibil.";
 "This flow has been completed and you can no longer make modifications." = "Acest flux a fost finalizat și nu mai puteți face modificări.";
-"This flow requires you to connect to your account." = "Acest flux necesită conectarea la contul dvs.";
 "This folder is empty" = "Acest dosar este gol";
 "This group already has the maximum number of clients allowed per group: %@." = "Acest grup are deja numărul maxim de clienți permis per grup: %@.";
 "This group already has the maximum number of managers allowed per group: %@." = "Acest grup are deja numărul maxim de administratori permis per grup: %@.";
@@ -2872,6 +2887,7 @@
 "Upcoming and ongoing" = "Viitoare și în derulare";
 "Update" = "Actualizare";
 "Update App" = "Actualizați aplicația";
+"Update Date" = "Data actualizării";
 "Update app to view this message." = "Actualizați aplicația pentru a vizualiza acest mesaj.";
 "Update in progress…" = "Actualizare în curs…";
 "Update recurring meeting" = "Actualizați întâlnirea recurentă";
@@ -2932,6 +2948,7 @@
 "View Details" = "Vizualizați detalii";
 "View File" = "Vizualizați fișierul";
 "View Form" = "Vizualizați formularul";
+"View Main Flow" = "Vizualizați fluxul principal";
 "View Members" = "Vizualizați membri";
 "View More" = "Vizualizați mai mult";
 "View Office Hours" = "Vizualizați Programul de Lucru";
@@ -3298,7 +3315,6 @@
 "days" = "zile";
 "decline" = "refuzare";
 "e.g. Acme" = "de ex. Acme";
-"e.g. Due in 3 Days" = "e.g. Cu termen de predare în 3 zile";
 "e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "de ex. KYC datorat în curând, Oportunitate nouă de investiție, Revizuirea portofoliului,...";
 "got it" = "am înțeles";
 "greater than" = "mai mare decât";

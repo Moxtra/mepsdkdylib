@@ -133,6 +133,7 @@
 "%@ awaits your preparation." = "%@ attend votre préparation.";
 "%@ awaits your preparation: %@" = "%1$@ attend votre préparation : %2$@";
 "%@ before" = "%@ avant";
+"%@ before workspace due" = "%@ avant l'échéance de l'espace de travail";
 "%@ booked a meeting" = "%@ a réservé une réunion";
 "%@ canceled %@." = "%1$@ a annulé %2$@.";
 "%@ canceled a meeting: %@" = "%1$@ a annulé une réunion : %2$@";
@@ -455,6 +456,7 @@
 "(Disabled)" = "(Désactivé)";
 "(Host, Presenter)" = "(Hôte, Présentateur)";
 "(Me)" = "(Moi)";
+"(optional)" = "(facultatif)";
 "+ Add" = "+ Ajouter";
 "+ Add Guest" = "+ Ajouter un invité";
 "+ INVITE" = "+ INVITER";
@@ -535,7 +537,9 @@
 "Action overdue (%@)" = "Action en retard (%@)";
 "Action required from %@." = "Action requise de la part de %@.";
 "Action skipped" = "Action ignorée";
+"Action will be due %@ days before the workspace is due." = "L’action sera due %@ jours avant l’échéance de l’espace de travail.";
 "Action will be due in %@." = "L'action sera due dans %@.";
+"Action will be due on %@." = "L’action sera due le %@.";
 "Actions" = "Actions";
 "Actions Reassigned" = "Actions réaffectées";
 "Actions and flows will appear here" = "Les actions et les flux apparaîtront ici";
@@ -570,6 +574,7 @@
 "Add New Action" = "Ajouter une nouvelle action";
 "Add New Stamp" = "Ajouter un nouveau tampon";
 "Add Password" = "Ajouter un mot de passe";
+"Add Phone Numbers for DocuSign Verification" = "Ajoutez des numéros de téléphone pour la vérification DocuSign";
 "Add Reaction" = "Ajouter une réaction";
 "Add Recipient" = "Ajouter un destinataire";
 "Add Role" = "Ajouter un rôle";
@@ -775,6 +780,7 @@
 "Background Color" = "Couleur de l'arrière-plan";
 "Backup User" = "Utilisateur de secours";
 "Baidu Maps" = "Plans Baidu";
+"Before Workspace End Date" = "Avant la date de fin de l'espace de travail";
 "Before leaving, please reassign your pending actions to someone else." = "Avant de partir, veuillez réaffecter vos actions en attente à quelqu'un d'autre.";
 "Before removing, please reassign their pending actions to someone else." = "Avant de supprimer, veuillez réaffecter ses actions en attente à une autre personne.";
 "Below are the previous invitations sent to this email address." = "Voici les invitations précédentes envoyées à cette adresse e-mail.";
@@ -861,7 +867,6 @@
 "Choose Image" = "Choisir une image";
 "Choose Type" = "Choisir un type";
 "Choose a data center" = "Choisissez un centre de données";
-"Choose a date..." = "Choisissez une date...";
 "Choose a password that is unique and not easy to guess." = "Choisissez un mot de passe qui est unique et difficile à deviner.";
 "Choose application" = "Choisir une application";
 "Choose from Library" = "Choisir de la bibliothèque";
@@ -925,6 +930,7 @@
 "Connect" = "Connexion";
 "Connect Account" = "Connecter le compte";
 "Connect Another Account" = "Connecter un autre compte";
+"Connect Meeting Account" = "Connecter le compte de réunion";
 "Connect with DocuSign" = "Se connecter avec DocuSign";
 "Connect with me on my app by clicking the link below:" = "Connectez-vous avec moi sur mon application en cliquant sur le lien ci-dessous :";
 "Connect with people by using your QR code." = "Connectez-vous avec les personnes en utilisant votre code QR.";
@@ -1001,7 +1007,6 @@
 "Current Page" = "Page actuelle";
 "Current Step Was Removed" = "L'étape en cours a été supprimée";
 "Custom" = "Personnalisation";
-"Custom Due Date..." = "Date d'échéance personnalisée...";
 "Custom..." = "Personnalisation…";
 "Daily" = "Quotidien";
 "Dashboard" = "Tableau de bord";
@@ -1129,7 +1134,9 @@
 "Due" = "Échu";
 "Due %@ %@" = "Échu %1$@ %2$@";
 "Due (%@ after start)" = "Dû (%@ après le début)";
+"Due (%@ before workspace due)" = "À échéance (%@ avant l’échéance de l’espace de travail)";
 "Due Date" = "Date échue";
+"Due Date Invalid" = "Date d'échéance invalide";
 "Due Today" = "Échu aujourd’hui";
 "Due Tomorrow" = "Échéance demain";
 "Due date was removed %@" = "La date échue a été supprimée %@";
@@ -1379,6 +1386,7 @@
 "Frequency" = "Fréquence";
 "Friday" = "Vendredi";
 "From %@" = "De %@";
+"From Action Start Date" = "À partir de la date de début de l'action";
 "Full Name" = "Nom complet";
 "Full Name (Required)" = "Nom complet (Obligatoire)";
 "GKImoveAndScale" = "GKImoveAndScale";
@@ -1825,6 +1833,7 @@
 "No chat messages yet" = "Pas encore de messages de discussion";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Aucun créneau horaire commun n'a été trouvé. Envisagez de supprimer certains participants, d'ajuster la durée de la réunion ou de modifier la fenêtre de planification.";
 "No description" = "Pas de description";
+"No due date" = "Pas de date d'échéance";
 "No extra participants yet" = "Pas de participants supplémentaires pour le moment";
 "No meeting" = "Aucune réunion";
 "No meetings" = "Aucune réunion";
@@ -2193,6 +2202,7 @@
 "Review Progress" = "Examiner l'avancement";
 "Review Submissions" = "Examiner les soumissions";
 "Review and Acknowledge" = "Examiner et Accuser réception";
+"Review and Confirm" = "Vérifier et Confirmer";
 "Review the following attachments to confirm this acknowledgement." = "Examinez les pièces jointes suivantes pour confirmer cet accusé de réception.";
 "Role" = "Rôle";
 "Role Disabled" = "Rôle désactivé";
@@ -2338,6 +2348,8 @@
 "Set your availability for people to book a time with you." = "Définissez votre disponibilité pour que les personnes puissent réserver une heure avec vous.";
 "Settings" = "Paramètres";
 "Shadow Flow" = "Flux fantôme";
+"Shadow Flow Workspaces" = "Espaces de travail Flow fantômes";
+"Shadow Flows" = "Flux Fantômes";
 "Share" = "Partager";
 "Share Files" = "Partager des fichiers";
 "Share Invite Link" = "Partager le lien d'invitation";
@@ -2396,6 +2408,7 @@
 "Slide up to cancel" = "Coulisser vers le haut pour annuler";
 "Snap Area" = "Zone instantanée";
 "Snap Page" = "Page instantanée";
+"Some actions in this flow require additional details before creating the workspace. Please update them." = "Certaines actions dans ce flux nécessitent des informations supplémentaires avant de créer l’espace de travail. Veuillez les mettre à jour.";
 "Some members have not joined" = "Certains membres n'ont pas rejoint";
 "Some signers require a phone number for DocuSign verification. Please complete the missing information." = "Certains signataires nécessitent un numéro de téléphone pour la vérification DocuSign. Veuillez compléter les informations manquantes.";
 "Something Went Wrong" = "Une erreur s’est produite";
@@ -2417,6 +2430,7 @@
 "Sort by Name" = "Trier par nom";
 "Sort by..." = "Trier par...";
 "Special Hours" = "Heures spéciales";
+"Specific Date" = "Date spécifique";
 "Speech Bubble" = "Bulle de dialogue";
 "Speech Bubbles" = "Bulles de dialogue";
 "Stamp" = "Tampon";
@@ -2529,6 +2543,7 @@
 "The actions within this milestone will start only after the actions in %@ are completed. " = "Les actions au sein de ce jalon ne commenceront qu'après la fin des actions dans %@.";
 "The assignee(s) will need to sign again if reopened." = "Le(s) destinataire(s) devrai(en)t signer à nouveau si la demande est réouverte.";
 "The code is no longer valid. Please request a new code to continue." = "Le code n'est plus valide. Veuillez demander un nouveau code pour continuer.";
+"The date is no longer valid." = "La date n'est plus valide.";
 "The date will be recorded in [%@] format" = "La date sera enregistrée au format [%@]";
 "The envelope is locked because the assignee couldn't verify their identity after several tries." = "L’enveloppe est verrouillée car l’assigné n’a pas pu vérifier son identité après plusieurs tentatives.";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "Le fichier ne peut pas être téléchargé car il ne répond pas aux exigences de sécurité. Veuillez vérifier votre fichier et réessayez.";
@@ -2587,6 +2602,7 @@
 "The system is busy. Please try again." = "Le système est occupé. Veuillez réessayer.";
 "The tag values entered here will apply to any workspace created from this template." = "Les valeurs des étiquettes saisies ici s'appliqueront à tout espace de travail créé à partir de ce modèle.";
 "The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "Les valeurs des variables saisies ici seront appliquées à l'espace de travail créé. Seuls les utilisateurs internes pourront les voir.";
+"The workspace due date is no longer valid." = "La date d'échéance de l'espace de travail n'est plus valide.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "L'espace de travail sera automatiquement archivé pour tous les membres une fois que toutes les actions auront été complétées et que la période d'inactivité suivante aura été atteinte.";
 "There are no active screen share sessions to join." = "Il n’existe aucune session active de partage d’écran à rejoindre.";
 "There are no other members in this workspace." = "Il n'y a pas d'autres membres dans cet espace de travail.";
@@ -2637,7 +2653,6 @@
 "This file has been deleted." = "Ce fichier a été supprimé.";
 "This file has been deleted. It is no longer available." = "Ce fichier a été supprimé. Il n'est plus disponible.";
 "This flow has been completed and you can no longer make modifications." = "Ce flux a été complété et vous ne pouvez plus apporter de modifications.";
-"This flow requires you to connect to your account." = "Ce flux nécessite que vous connectiez votre compte.";
 "This folder is empty" = "Ce dossier est vide.";
 "This group already has the maximum number of clients allowed per group: %@." = "Ce groupe a déjà atteint le nombre maximum de clients autorisés par groupe : %@.";
 "This group already has the maximum number of managers allowed per group: %@." = "Ce groupe a déjà atteint le nombre maximal de gestionnaires autorisés par groupe : %@.";
@@ -2871,6 +2886,7 @@
 "Upcoming and ongoing" = "À venir et en cours";
 "Update" = "Mise à jour";
 "Update App" = "Mise à jour de l'application";
+"Update Date" = "Date de mise à jour";
 "Update app to view this message." = "Mettez l’application à jour afin d’afficher ce message.";
 "Update in progress…" = "Mise à jour en cours...";
 "Update recurring meeting" = "Mettre à jour la réunion récurrente";
@@ -2931,6 +2947,7 @@
 "View Details" = "Afficher les détails";
 "View File" = "Afficher un fichier";
 "View Form" = "Afficher le formulaire";
+"View Main Flow" = "Afficher le flux principal";
 "View Members" = "Afficher les membres";
 "View More" = "Afficher plus";
 "View Office Hours" = "Voir les heures ouvrables";
@@ -3297,7 +3314,6 @@
 "days" = "jours";
 "decline" = "décliner";
 "e.g. Acme" = "par exemple, Acme";
-"e.g. Due in 3 Days" = "Par exemple, échu dans 3 jours";
 "e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "e.g. KYC à renouveler bientôt, Nouvelle opportunité d'investissement, Révision de portefeuille,...";
 "got it" = "je l'ai";
 "greater than" = "plus grand que";

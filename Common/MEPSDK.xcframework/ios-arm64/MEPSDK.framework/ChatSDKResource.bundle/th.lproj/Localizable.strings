@@ -133,6 +133,7 @@
 "%@ awaits your preparation." = "%@ รอการเตรียมการของคุณ";
 "%@ awaits your preparation: %@" = "%1$@ รอการเตรียมของคุณ: %2$@";
 "%@ before" = "ล่วงหน้า %@";
+"%@ before workspace due" = "%@ ก่อนถึงกำหนดส่งพื้นที่ทำงาน";
 "%@ booked a meeting" = "%@ จองการประชุมแล้ว";
 "%@ canceled %@." = "%1$@ ได้ยกเลิก %2$@.";
 "%@ canceled a meeting: %@" = "%1$@ ได้ยกเลิกการประชุม: %2$@";
@@ -455,6 +456,7 @@
 "(Disabled)" = "(ปิดใช้งานแล้ว)";
 "(Host, Presenter)" = "(เจ้าภาพ, ผู้นำเสนอ)";
 "(Me)" = "(ฉัน)";
+"(optional)" = "(ไม่จำเป็น)";
 "+ Add" = "+ เพิ่ม";
 "+ Add Guest" = "+ เพิ่มผู้มาเยือน";
 "+ INVITE" = "+ เชิญชวน";
@@ -535,7 +537,9 @@
 "Action overdue (%@)" = "การดำเนินการเกินกำหนด (%@)";
 "Action required from %@." = "ต้องการการดำเนินการจาก %@.";
 "Action skipped" = "ข้ามการดำเนินการ";
+"Action will be due %@ days before the workspace is due." = "การดำเนินการจะครบกำหนด %@ วันก่อนที่พื้นที่ทำงานจะครบกำหนด";
 "Action will be due in %@." = "การดำเนินการจะครบกำหนดใน %@";
+"Action will be due on %@." = "การดำเนินการนี้จะครบกำหนดในวันที่ %@";
 "Actions" = "การดำเนินการ";
 "Actions Reassigned" = "มอบหมายการดำเนินการใหม่แล้ว";
 "Actions and flows will appear here" = "การดำเนินการและการไหลจะปรากฏที่นี่";
@@ -570,6 +574,7 @@
 "Add New Action" = "เพิ่มการดำเนินการใหม่";
 "Add New Stamp" = "เพิ่มตราประทับใหม่";
 "Add Password" = "เพิ่มรหัสผ่าน";
+"Add Phone Numbers for DocuSign Verification" = "เพิ่มหมายเลขโทรศัพท์สำหรับการยืนยันตัวตนของ DocuSign";
 "Add Reaction" = "เพิ่มการตอบสนอง";
 "Add Recipient" = "เพิ่มผู้รับ";
 "Add Role" = "เพิ่มบทบาท";
@@ -775,6 +780,7 @@
 "Background Color" = "สีพื้นหลัง";
 "Backup User" = "ผู้ใช้สำรอง";
 "Baidu Maps" = "แผนที่ Baidu";
+"Before Workspace End Date" = "ก่อนวันที่สิ้นสุดของพื้นที่ทำงาน";
 "Before leaving, please reassign your pending actions to someone else." = "ก่อนออกไป, โปรดมอบหมายการดำเนินการที่ค้างอยู่ของคุณให้กับบุคคลอื่น";
 "Before removing, please reassign their pending actions to someone else." = "ก่อนที่จะลบ โปรดมอบหมายการดำเนินการที่รอดำเนินการให้กับบุคคลอื่นก่อน.";
 "Below are the previous invitations sent to this email address." = "ด้านล่างนี้คือคำเชิญที่ส่งไปยังที่อยู่อีเมลนี้ก่อนหน้านี้";
@@ -861,7 +867,6 @@
 "Choose Image" = "เลือกรูปภาพ";
 "Choose Type" = "เลือกประเภท";
 "Choose a data center" = "เลือกศูนย์ข้อมูล";
-"Choose a date..." = "เลือกวันที่...";
 "Choose a password that is unique and not easy to guess." = "เลือกรหัสผ่านที่ไม่ซ้ำใครและคาดเดาได้ยาก";
 "Choose application" = "เลือกแอปพลิเคชัน";
 "Choose from Library" = "เลือกจากคลัง";
@@ -925,6 +930,7 @@
 "Connect" = "เชื่อมต่อ";
 "Connect Account" = "เชื่อมต่อบัญชี";
 "Connect Another Account" = "เชื่อมต่อบัญชีอื่น";
+"Connect Meeting Account" = "เชื่อมต่อบัญชีการประชุม";
 "Connect with DocuSign" = "เชื่อมต่อกับ DocuSign";
 "Connect with me on my app by clicking the link below:" = "เชื่อมต่อกับฉันในแอปของฉันโดยคลิกลิงก์ด้านล่างนี้:";
 "Connect with people by using your QR code." = "เชื่อมต่อกับผู้คนโดยใช้รหัส QR ของคุณ";
@@ -1001,7 +1007,6 @@
 "Current Page" = "หน้าปัจจุบัน";
 "Current Step Was Removed" = "ขั้นตอนปัจจุบันถูกลบออกแล้ว";
 "Custom" = "ปรับแต่ง";
-"Custom Due Date..." = "วันที่ครบกำหนดแบบกำหนดเอง...";
 "Custom..." = "ปรับแต่ง...";
 "Daily" = "ประจำวัน";
 "Dashboard" = "แดชบอร์ด";
@@ -1129,7 +1134,9 @@
 "Due" = "ครบกำหนด";
 "Due %@ %@" = "ครบกำหนด %1$@ %2$@";
 "Due (%@ after start)" = "กำหนดชำระ (%@ หลังจากเริ่ม)";
+"Due (%@ before workspace due)" = "ครบกำหนด (%@ ก่อนถึงกำหนดของพื้นที่ทำงาน)";
 "Due Date" = "วันที่ครบกำหนด";
+"Due Date Invalid" = "วันที่ครบกำหนดไม่ถูกต้อง";
 "Due Today" = "ครบกำหนดวันนี้";
 "Due Tomorrow" = "ครบกำหนดพรุ่งนี้";
 "Due date was removed %@" = "วันที่ครบกำหนดถูกลบออกโดย %@";
@@ -1380,6 +1387,7 @@
 "Frequency" = "ความถี่";
 "Friday" = "วันศุกร์";
 "From %@" = "จาก %@";
+"From Action Start Date" = "จากวันที่เริ่มต้นการดำเนินการ";
 "Full Name" = "ชื่อเต็ม";
 "Full Name (Required)" = "ชื่อเต็ม (บังคับ)";
 "GKImoveAndScale" = "GKImoveAndScale";
@@ -1826,6 +1834,7 @@
 "No chat messages yet" = "ยังไม่มีข้อความแชตเลย";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "ไม่พบช่วงเวลาทั่วไป พิจารณาลบผู้เข้าร่วมบางราย ปรับระยะเวลาการประชุม หรือเปลี่ยนกรอบเวลากำหนดการ";
 "No description" = "ไม่มีคำอธิบาย";
+"No due date" = "ไม่มีวันที่ครบกำหนด";
 "No extra participants yet" = "ยังไม่มีผู้เข้าร่วมเพิ่มเติม";
 "No meeting" = "ไม่มีการประชุม";
 "No meetings" = "ไม่มีการประชุม";
@@ -2194,6 +2203,7 @@
 "Review Progress" = "ตรวจสอบความคืบหน้า";
 "Review Submissions" = "ตรวจทานการส่ง";
 "Review and Acknowledge" = "ตรวจสอบและยืนยัน";
+"Review and Confirm" = "ตรวจสอบและยืนยัน";
 "Review the following attachments to confirm this acknowledgement." = "ตรวจสอบไฟล์แนบดังต่อไปนี้เพื่อยืนยันการตอบรับนี้";
 "Role" = "บทบาท";
 "Role Disabled" = "ปิดการใช้งานบทบาทแล้ว";
@@ -2339,6 +2349,8 @@
 "Set your availability for people to book a time with you." = "กำหนดความพร้อมทำงานของคุณเพื่อให้ผู้อื่นจองเวลากับคุณ";
 "Settings" = "การตั้งค่า";
 "Shadow Flow" = "ฟลวเงา";
+"Shadow Flow Workspaces" = "พื้นที่ทำงานเงาของ Flow";
+"Shadow Flows" = "โฟลว์เงา";
 "Share" = "แบ่งปัน";
 "Share Files" = "แบ่งปันไฟล์";
 "Share Invite Link" = "แบ่งปันลิงก์คำเชิญชวน";
@@ -2397,6 +2409,7 @@
 "Slide up to cancel" = "เลื่อนขึ้นเพื่อยกเลิก";
 "Snap Area" = "พื้นที่ Snap";
 "Snap Page" = "หน้า Snap";
+"Some actions in this flow require additional details before creating the workspace. Please update them." = "การดำเนินการบางอย่างในฟลว์นี้ต้องการรายละเอียดเพิ่มเติมก่อนที่จะสร้างพื้นที่ทำงาน กรุณาอัปเดตข้อมูลเหล่านั้น";
 "Some members have not joined" = "บางสมาชิกยังไม่ได้เข้าร่วม";
 "Some signers require a phone number for DocuSign verification. Please complete the missing information." = "ผู้ลงนามบางรายต้องใช้หมายเลขโทรศัพท์สำหรับการยืนยันตัวตนกับ DocuSign กรุณากรอกข้อมูลที่ขาดหายให้ครบถ้วน";
 "Something Went Wrong" = "เกิดข้อผิดพลาด";
@@ -2418,6 +2431,7 @@
 "Sort by Name" = "จัดเรียงตามชื่อ";
 "Sort by..." = "เรียงลำดับตาม...";
 "Special Hours" = "เวลาทำการพิเศษ";
+"Specific Date" = "วันที่เฉพาะเจาะจง";
 "Speech Bubble" = "ช่องคำพูด";
 "Speech Bubbles" = "ช่องคำพูด";
 "Stamp" = "ตราประทับ";
@@ -2530,6 +2544,7 @@
 "The actions within this milestone will start only after the actions in %@ are completed. " = "การดำเนินการภายในเหตุการณ์สำคัญนี้จะเริ่มต้นเมื่อการดำเนินการใน %@ เสร็จสิ้นแล้วเท่านั้น.";
 "The assignee(s) will need to sign again if reopened." = "ผู้โอนจะต้องลงนามอีกครั้งหากเปิดใหม่";
 "The code is no longer valid. Please request a new code to continue." = "รหัสนี้ไม่สามารถใช้งานได้อีกต่อไป กรุณาขอรหัสใหม่เพื่อดำเนินการต่อ";
+"The date is no longer valid." = "วันที่นี้ไม่สามารถใช้งานได้อีก";
 "The date will be recorded in [%@] format" = "วันที่จะถูกบันทึกในรูปแบบ [%@]";
 "The envelope is locked because the assignee couldn't verify their identity after several tries." = "ซองจดหมายถูกล็อกเนื่องจากผู้รับมอบหมายไม่สามารถยืนยันตัวตนได้หลังจากพยายามหลายครั้ง";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "ไม่สามารถอัปโหลดไฟล์ได้เนื่องจากไม่เป็นไปตามข้อกำหนดด้านการรักษาความปลอดภัย โปรดตรวจสอบไฟล์ของคุณแล้วลองอีกครั้ง";
@@ -2588,6 +2603,7 @@
 "The system is busy. Please try again." = "ระบบกำลังใช้งาน กรุณาลองอีกครั้ง";
 "The tag values entered here will apply to any workspace created from this template." = "ค่าแท็กที่ป้อนที่นี่จะใช้กับพื้นที่ทำงานใด ๆ ที่สร้างจากแม่แบบนี้";
 "The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "ค่าตัวแปรที่ป้อนที่นี่จะถูกนำไปใช้กับพื้นที่ทำงานที่สร้างขึ้น ผู้ใช้ภายในเท่านั้นที่จะสามารถเห็นได้";
+"The workspace due date is no longer valid." = "วันครบกำหนดของพื้นที่ทำงานไม่ถูกต้องอีกต่อไป";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "พื้นที่ทำงานจะถูกเก็บถาวรโดยอัตโนมัติสำหรับสมาชิกทุกคน เมื่อการดำเนินการทั้งหมดเสร็จสิ้นและช่วงเวลาที่ไม่มีการใช้งานต่อไปนี้ได้ถึงแล้ว.";
 "There are no active screen share sessions to join." = "ไม่มีเซสชันการแบ่งปันหน้าจอที่ใช้งานอยู่ให้เข้าร่วม";
 "There are no other members in this workspace." = "ไม่มีสมาชิกรายอื่นๆ ในพื้นที่ทำงานนี้";
@@ -2638,7 +2654,6 @@
 "This file has been deleted." = "ลบไฟล์นี้แล้ว";
 "This file has been deleted. It is no longer available." = "ไฟล์นี้ถูกลบแล้ว ไม่สามารถใช้งานได้อีกต่อไป";
 "This flow has been completed and you can no longer make modifications." = "การไหลนี้เสร็จสิ้นแล้วและคุณไม่สามารถทำการแก้ไขได้อีกต่อไป.";
-"This flow requires you to connect to your account." = "โฟลว์นี้ต้องการให้คุณเชื่อมต่อกับบัญชีของคุณ";
 "This folder is empty" = "โฟลเดอร์นี้ว่างเปล่า";
 "This group already has the maximum number of clients allowed per group: %@." = "กลุ่มนี้มีจำนวนลูกค้าสูงสุดตามที่อนุญาตต่อกลุ่มแล้ว: %@.";
 "This group already has the maximum number of managers allowed per group: %@." = "กลุ่มนี้มีจำนวนผู้จัดการสูงสุดต่อกลุ่มแล้ว: %@";
@@ -2872,6 +2887,7 @@
 "Upcoming and ongoing" = "กำลังจะเกิดขึ้นและต่อเนื่อง";
 "Update" = "อัปเดต";
 "Update App" = "อัปเดตแอป";
+"Update Date" = "วันที่อัปเดต";
 "Update app to view this message." = "อัปเดตแอปเพื่อดูข้อความนี้";
 "Update in progress…" = "การอัปเดตอยู่ระหว่างดำเนินการ...";
 "Update recurring meeting" = "อัปเดตการประชุมที่เกิดขึ้นประจำ";
@@ -2932,6 +2948,7 @@
 "View Details" = "ดูรายละเอียด";
 "View File" = "ดูไฟล์";
 "View Form" = "ดูแบบฟอร์ม";
+"View Main Flow" = "ดูโฟลว์หลัก";
 "View Members" = "ดูสมาชิก";
 "View More" = "ดูเพิ่มเติม";
 "View Office Hours" = "ดูเวลาทำการ";
@@ -3298,7 +3315,6 @@
 "days" = "วัน";
 "decline" = "ปฏิเสธ";
 "e.g. Acme" = "เช่น Acme";
-"e.g. Due in 3 Days" = "เช่น ครบกำหนดใน 3 วัน เป็นต้น";
 "e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "เช่น การตรวจสอบ KYC ใกล้ครบกำหนด, โอกาสการลงทุนใหม่, การทบทวนพอร์ตการลงทุน,...";
 "got it" = "เข้าใจแล้ว";
 "greater than" = "มากกว่า";

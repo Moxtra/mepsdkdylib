@@ -133,6 +133,7 @@
 "%@ awaits your preparation." = "%@ menunggu persiapan anda.";
 "%@ awaits your preparation: %@" = "%1$@ menunggu persiapan anda: %2$@";
 "%@ before" = "%@ sebelum";
+"%@ before workspace due" = "%@ sebelum tarikh akhir ruang kerja";
 "%@ booked a meeting" = "%@ telah menempah mesyuarat";
 "%@ canceled %@." = "%1$@ telah membatalkan %2$@.";
 "%@ canceled a meeting: %@" = "%1$@ telah membatalkan mesyuarat: %2$@";
@@ -455,6 +456,7 @@
 "(Disabled)" = "(Dinyahdayakan)";
 "(Host, Presenter)" = "(Hos, Penyampai)";
 "(Me)" = "(Saya)";
+"(optional)" = "(pilihan)";
 "+ Add" = "+ Tambah";
 "+ Add Guest" = "+ Tambah Tetamu";
 "+ INVITE" = "+ JEMPUTAN";
@@ -535,7 +537,9 @@
 "Action overdue (%@)" = "Tindakan lewat (%@)";
 "Action required from %@." = "Tindakan diperlukan daripada %@.";
 "Action skipped" = "Tindakan dilangkau";
+"Action will be due %@ days before the workspace is due." = "Tindakan akan jatuh tempo %@ hari sebelum ruang kerja jatuh tempo.";
 "Action will be due in %@." = "Tindakan akan dilakukan dalam %@.";
+"Action will be due on %@." = "Tindakan akan perlu dilakukan pada %@.";
 "Actions" = "Tindakan";
 "Actions Reassigned" = "Tindakan ditugaskan semula";
 "Actions and flows will appear here" = "Tindakan dan aliran akan muncul di sini";
@@ -570,6 +574,7 @@
 "Add New Action" = "Tambah Tindakan Baru";
 "Add New Stamp" = "Tambah Setem Baru";
 "Add Password" = "Tambah Kata Laluan";
+"Add Phone Numbers for DocuSign Verification" = "Tambah Nombor Telefon untuk Pengesahan DocuSign";
 "Add Reaction" = "Tambah Reaksi";
 "Add Recipient" = "Tambah Penerima";
 "Add Role" = "Tambah Peranan";
@@ -775,6 +780,7 @@
 "Background Color" = "Warna Latar Belakang";
 "Backup User" = "Pengguna Sandaran";
 "Baidu Maps" = "Peta Baidu";
+"Before Workspace End Date" = "Sebelum Tarikh Tamat Ruang Kerja";
 "Before leaving, please reassign your pending actions to someone else." = "Sebelum meninggalkan, sila tukar tugas tindakan yang belum selesai kepada orang lain.";
 "Before removing, please reassign their pending actions to someone else." = "Sebelum membuang, sila tukar semula tindakan yang tertangguh mereka kepada orang lain.";
 "Below are the previous invitations sent to this email address." = "Berikut adalah jemputan sebelumnya yang dihantar ke alamat emel ini.";
@@ -861,7 +867,6 @@
 "Choose Image" = "Pilih Imej";
 "Choose Type" = "Pilih Jenis";
 "Choose a data center" = "Pilih pusat data";
-"Choose a date..." = "Pilih satu tarikh...";
 "Choose a password that is unique and not easy to guess." = "Pilih kata laluan yang unik dan tidak mudah diteka.";
 "Choose application" = "Pilih aplikasi";
 "Choose from Library" = "Pilih dari Perpustakaan";
@@ -925,6 +930,7 @@
 "Connect" = "Sambung";
 "Connect Account" = "Sambungkan Akaun";
 "Connect Another Account" = "Sambungkan Akaun Lain";
+"Connect Meeting Account" = "Sambungkan Akaun Mesyuarat";
 "Connect with DocuSign" = "Sambungkan dengan DocuSign";
 "Connect with me on my app by clicking the link below:" = "Sambung dengan saya di aplikasi saya dengan mengklik pautan di bawah:";
 "Connect with people by using your QR code." = "Sambung dengan orang lain menggunakan kod QR anda.";
@@ -1001,7 +1007,6 @@
 "Current Page" = "Halaman Semasa";
 "Current Step Was Removed" = "Langkah Semasa Telah Dialih Keluar";
 "Custom" = "Tersuai";
-"Custom Due Date..." = "Tarikh Akhir Tersuai...";
 "Custom..." = "Tersuai...";
 "Daily" = "Setiap hari";
 "Dashboard" = "Papan Pemuka";
@@ -1129,7 +1134,9 @@
 "Due" = "Habis tempoh";
 "Due %@ %@" = "Habis tempoh %1$@ %2$@";
 "Due (%@ after start)" = "Tamat tempoh (%@ selepas mula)";
+"Due (%@ before workspace due)" = "Tempoh (%@ sebelum tarikh akhir ruang kerja)";
 "Due Date" = "Tarikh Akhir";
+"Due Date Invalid" = "Tarikh Jatuh Tempo Tidak Sah";
 "Due Today" = "Habis tempoh hari ini";
 "Due Tomorrow" = "Tamat tempoh esok";
 "Due date was removed %@" = "Tarikh akhir dikeluarkan %@";
@@ -1380,6 +1387,7 @@
 "Frequency" = "Kekerapan";
 "Friday" = "Jumaat";
 "From %@" = "Dari %@";
+"From Action Start Date" = "Dari Tarikh Mula Tindakan";
 "Full Name" = "Nama Penuh";
 "Full Name (Required)" = "Nama Penuh (Diperlukan)";
 "GKImoveAndScale" = "GKImoveAndScale";
@@ -1826,6 +1834,7 @@
 "No chat messages yet" = "Belum ada mesej sembang";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Tiada slot masa bersama ditemui. Pertimbangkan untuk mengalih keluar sesetengah peserta, melaraskan tempoh mesyuarat atau menukar tetingkap penjadualan.";
 "No description" = "Tiada keterangan";
+"No due date" = "Tiada Tarikh Akhir";
 "No extra participants yet" = "Tiada peserta tambahan lagi";
 "No meeting" = "Tiada mesyuarat";
 "No meetings" = "Tiada mesyuarat";
@@ -2194,6 +2203,7 @@
 "Review Progress" = "Semak Kemajuan";
 "Review Submissions" = "Semak Hantaran";
 "Review and Acknowledge" = "Semak dan Akui";
+"Review and Confirm" = "Semak dan Sahkan";
 "Review the following attachments to confirm this acknowledgement." = "Semak lampiran berikut untuk mengesahkan pengakuan ini.";
 "Role" = "Peranan";
 "Role Disabled" = "Peranan Dinyahdayakan";
@@ -2339,6 +2349,8 @@
 "Set your availability for people to book a time with you." = "Tetapkan ketersediaan anda untuk orang ramai menempah masa bersama anda.";
 "Settings" = "Tetapan";
 "Shadow Flow" = "Aliran Bayangan";
+"Shadow Flow Workspaces" = "Ruang Kerja Aliran Bayangan";
+"Shadow Flows" = "Aliran Bayangan";
 "Share" = "Kongsi";
 "Share Files" = "Kongsi Fail-fail";
 "Share Invite Link" = "Kongsi Pautan Jemputan";
@@ -2397,6 +2409,7 @@
 "Slide up to cancel" = "Slaid ke atas untuk membatalkan";
 "Snap Area" = "Kawasan Mengambil gambar";
 "Snap Page" = "Halaman Mengambil gambar";
+"Some actions in this flow require additional details before creating the workspace. Please update them." = "Beberapa tindakan dalam aliran ini memerlukan butiran tambahan sebelum mencipta ruang kerja. Sila kemas kini tindakan tersebut.";
 "Some members have not joined" = "Sesetengah ahli belum menyertai";
 "Some signers require a phone number for DocuSign verification. Please complete the missing information." = "Sesetengah penandatangan memerlukan nombor telefon untuk pengesahan DocuSign. Sila lengkapkan maklumat yang belum diisi.";
 "Something Went Wrong" = "Sesuatu Yang Tidak Kena";
@@ -2418,6 +2431,7 @@
 "Sort by Name" = "Susun mengikut Nama";
 "Sort by..." = "Isih mengikut...";
 "Special Hours" = "Waktu Khas";
+"Specific Date" = "Tarikh Tertentu";
 "Speech Bubble" = "Gelembung Ucapan";
 "Speech Bubbles" = "Gelembung-gelembung Ucapan";
 "Stamp" = "Setem";
@@ -2530,6 +2544,7 @@
 "The actions within this milestone will start only after the actions in %@ are completed. " = "Tindakan dalam batu peringkat ini hanya akan bermula selepas tindakan dalam %@ selesai.";
 "The assignee(s) will need to sign again if reopened." = "Penerima serah hak perlu menandatangani semula jika dibuka semula.";
 "The code is no longer valid. Please request a new code to continue." = "Kod ini tidak lagi sah. Sila minta kod baru untuk meneruskan.";
+"The date is no longer valid." = "Tarikh tersebut tidak lagi sah.";
 "The date will be recorded in [%@] format" = "Tarikh akan direkodkan dalam format [%@]";
 "The envelope is locked because the assignee couldn't verify their identity after several tries." = "Sampul ini dikunci kerana penerima tugas tidak dapat mengesahkan identiti mereka selepas beberapa percubaan.";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "Fail tidak dapat dimuat naik kerana tidak memenuhi syarat keselamatan. Sila periksa fail anda dan cuba lagi.";
@@ -2588,6 +2603,7 @@
 "The system is busy. Please try again." = "Sistem sedang sibuk. Sila cuba lagi.";
 "The tag values entered here will apply to any workspace created from this template." = "Nilai tag yang dimasukkan di sini akan digunakan pada ruang kerja mana pun yang diciptakan dari templat ini.";
 "The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "Nilai variabel yang dimasukkan di sini akan digunakan pada ruang kerja yang dicipta. Hanya pengguna dalaman yang akan dapat melihatnya.";
+"The workspace due date is no longer valid." = "Tarikh tamat ruang kerja tidak lagi sah.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "Ruang kerja akan diarkib secara automatik untuk semua ahli setelah semua tindakan selesai dan tempoh ketidakaktifan berikut telah dicapai.";
 "There are no active screen share sessions to join." = "Tidak ada sesi perkongsian skrin aktif untuk disertai.";
 "There are no other members in this workspace." = "Tiada ahli lain dalam ruang kerja ini.";
@@ -2638,7 +2654,6 @@
 "This file has been deleted." = "Fail ini telah dipadamkan.";
 "This file has been deleted. It is no longer available." = "Fail ini telah dipadam. Ia tidak lagi tersedia.";
 "This flow has been completed and you can no longer make modifications." = "Aliran ini telah selesai dan anda tidak lagi boleh membuat pengubahsuaian.";
-"This flow requires you to connect to your account." = "Aliran ini memerlukan anda untuk menyambung ke akaun anda.";
 "This folder is empty" = "Folder ini kosong";
 "This group already has the maximum number of clients allowed per group: %@." = "Kumpulan ini sudah mempunyai bilangan pelanggan maksimum yang dibenarkan bagi setiap kumpulan: %@.";
 "This group already has the maximum number of managers allowed per group: %@." = "Kumpulan ini sudah mempunyai bilangan pengurus maksimum yang dibenarkan bagi setiap kumpulan: %@.";
@@ -2872,6 +2887,7 @@
 "Upcoming and ongoing" = "Akan datang dan berterusan";
 "Update" = "Kemas kini";
 "Update App" = "Kemas Kini Aplikasi";
+"Update Date" = "Tarikh Kemas Kini";
 "Update app to view this message." = "Kemas kini aplikasi untuk melihat mesej ini.";
 "Update in progress…" = "Kemas kini sedang dijalankan...";
 "Update recurring meeting" = "Kemas kini mesyuarat berulang";
@@ -2932,6 +2948,7 @@
 "View Details" = "Lihat Butiran";
 "View File" = "Lihat Fail";
 "View Form" = "Papar Borang";
+"View Main Flow" = "Lihat Aliran Utama";
 "View Members" = "Lihat Ahli";
 "View More" = "Lihat Lebih banyak";
 "View Office Hours" = "Papar Waktu Pejabat";
@@ -3298,7 +3315,6 @@
 "days" = "hari-hari";
 "decline" = "menolak";
 "e.g. Acme" = "contoh: Acme";
-"e.g. Due in 3 Days" = "cth. Tamat tempoh dalam masa 3 Hari";
 "e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "e.g. KYC Perlu Segera, Peluang Pelaburan Baru, Ulasan Portfolio,...";
 "got it" = "faham";
 "greater than" = "lebih besar daripada";

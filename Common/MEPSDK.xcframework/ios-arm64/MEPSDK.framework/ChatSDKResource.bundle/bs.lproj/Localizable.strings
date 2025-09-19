@@ -133,6 +133,7 @@
 "%@ awaits your preparation." = "%@ čeka vašu pripremu.";
 "%@ awaits your preparation: %@" = "%1$@ čeka vašu pripremu: %2$@";
 "%@ before" = "Prije %@";
+"%@ before workspace due" = "%@ prije isteka roka radnog prostora";
 "%@ booked a meeting" = "%@ je rezervisao sastanak";
 "%@ canceled %@." = "%1$@ je otkazao %2$@.";
 "%@ canceled a meeting: %@" = "%1$@ je otkazao sastanak: %2$@";
@@ -455,6 +456,7 @@
 "(Disabled)" = "(Isključeno)";
 "(Host, Presenter)" = "(Domaćin, Izlagač)";
 "(Me)" = "(Ja)";
+"(optional)" = "(opcionalno)";
 "+ Add" = "+ Dodajte";
 "+ Add Guest" = "+ Dodajte Gost";
 "+ INVITE" = "+ POZOVITE";
@@ -534,7 +536,9 @@
 "Action overdue (%@)" = "Akcija kasni (%@)";
 "Action required from %@." = "Potrebna je radnja od %@.";
 "Action skipped" = "Akcija preskočena";
+"Action will be due %@ days before the workspace is due." = "Radnja će biti dospjela %@ dana prije nego što radni prostor dospije.";
 "Action will be due in %@." = "Radnja ima rok do %@.";
+"Action will be due on %@." = "Radnja će dospjeti %@.";
 "Actions" = "Akcije";
 "Actions Reassigned" = "Radnje ponovo dodijeljene";
 "Actions and flows will appear here" = "Ovdje će se pojaviti akcije i tokovi";
@@ -569,6 +573,7 @@
 "Add New Action" = "Dodaj novu akciju";
 "Add New Stamp" = "Dodaj novi pečat";
 "Add Password" = "Dodaj lozinku";
+"Add Phone Numbers for DocuSign Verification" = "Dodajte brojeve telefona za DocuSign verifikaciju";
 "Add Reaction" = "Dodaj reakciju";
 "Add Recipient" = "Dodaj primaoca";
 "Add Role" = "Dodaj ulogu";
@@ -774,6 +779,7 @@
 "Background Color" = "Boja pozadine";
 "Backup User" = "Rezervni korisnik";
 "Baidu Maps" = "Baidu Mape";
+"Before Workspace End Date" = "Prije datuma završetka radnog prostora";
 "Before leaving, please reassign your pending actions to someone else." = "Prije odlaska, molimo vas da svoje neriješene radnje dodijelite nekom drugom.";
 "Before removing, please reassign their pending actions to someone else." = "Prije uklanjanja, molimo dodijelite njihove tekuće radnje nekom drugom.";
 "Below are the previous invitations sent to this email address." = "Ispod su prethodne pozivnice poslane na ovu email adresu.";
@@ -860,7 +866,6 @@
 "Choose Image" = "Odaberi sliku";
 "Choose Type" = "Odaberite tip";
 "Choose a data center" = "Odaberi centar podataka";
-"Choose a date..." = "Odaberite datum...";
 "Choose a password that is unique and not easy to guess." = "Odaberite lozinku koja je jedinstvena i nije je lako pogoditi.";
 "Choose application" = "Odaberite aplikaciju";
 "Choose from Library" = "Odaberite iz biblioteke";
@@ -924,6 +929,7 @@
 "Connect" = "Povežite se";
 "Connect Account" = "Poveži račun";
 "Connect Another Account" = "Povežite drugi račun";
+"Connect Meeting Account" = "Povežite račun za sastanke";
 "Connect with DocuSign" = "Poveži sa DocuSign";
 "Connect with me on my app by clicking the link below:" = "Povežite se sa mnom na mojoj aplikaciji klikom na link ispod:";
 "Connect with people by using your QR code." = "Povežite se s ljudima koristeći svoj QR kod.";
@@ -998,7 +1004,6 @@
 "Current Page" = "Trenutna stranica";
 "Current Step Was Removed" = "Trenutni korak je uklonjen";
 "Custom" = "Preuređivanje";
-"Custom Due Date..." = "Prilagođeni datum roka...";
 "Custom..." = "Preuređivanje...";
 "Daily" = "Dnevno";
 "Dashboard" = "Kontrolna ploča";
@@ -1126,7 +1131,9 @@
 "Due" = "Rok";
 "Due %@ %@" = "Rok %1$@ %2$@";
 "Due (%@ after start)" = "Dospijeva (%@ nakon početka)";
+"Due (%@ before workspace due)" = "Rok (%@ prije roka radnog prostora)";
 "Due Date" = "Datum roka";
+"Due Date Invalid" = "Datum dospijeća nije ispravan";
 "Due Today" = "Rok je danas";
 "Due Tomorrow" = "Krajnji rok je sutra";
 "Due date was removed %@" = "Datum roka je uklonjen %@";
@@ -1376,6 +1383,7 @@
 "Frequency" = "Frekvencija";
 "Friday" = "Petak";
 "From %@" = "Od %@";
+"From Action Start Date" = "Od datuma početka akcije";
 "Full Name" = "Puno ime";
 "Full Name (Required)" = "Puno ime (obavezno)";
 "GKImoveAndScale" = "GKImoveAndScale";
@@ -1822,6 +1830,7 @@
 "No chat messages yet" = "Još uvijek nema poruka iz ćaskanja";
 "No common time slots found. Consider removing some participants, adjusting the meeting duration, or changing the scheduling window." = "Nema zajedničkih termina. Razmislite o uklanjanju neučesnika, prilagođavanju dužine sastanka ili promjeni vremena zakazivanja.";
 "No description" = "Bez opisa";
+"No due date" = "Nema datuma roka";
 "No extra participants yet" = "Još nema dodatnih učesnika";
 "No meeting" = "Nema sastanka";
 "No meetings" = "Nema sastanaka";
@@ -2190,6 +2199,7 @@
 "Review Progress" = "Pregledajte napredak";
 "Review Submissions" = "Pogledajte podneske";
 "Review and Acknowledge" = "Pregledajte i potvrdite";
+"Review and Confirm" = "Pregledajte i potvrdite";
 "Review the following attachments to confirm this acknowledgement." = "Pregledajte sljedeće priloge kako biste dovršili ovu potvrdu.";
 "Role" = "Uloga";
 "Role Disabled" = "Uloga je onemogućena";
@@ -2335,6 +2345,8 @@
 "Set your availability for people to book a time with you." = "Učinite svoju dostupnost dostupnom kako bi ljudi mogli rezervirati vrijeme s vama.";
 "Settings" = "Postavke";
 "Shadow Flow" = "Sjenoviti tok";
+"Shadow Flow Workspaces" = "Sjenčani radni prostori toka";
+"Shadow Flows" = "Sjenčani tokovi";
 "Share" = "Podijelite";
 "Share Files" = "Podijelite datoteke";
 "Share Invite Link" = "Podijelite link za poziv";
@@ -2393,6 +2405,7 @@
 "Slide up to cancel" = "Kliznite nagore za otkaz";
 "Snap Area" = "Presijecije Područje";
 "Snap Page" = "Presijecite Stranicu";
+"Some actions in this flow require additional details before creating the workspace. Please update them." = "Neke radnje u ovom toku zahtijevaju dodatne detalje prije kreiranja radnog prostora. Molimo vas da ih ažurirate.";
 "Some members have not joined" = "Neki članovi se nisu pridružili";
 "Some signers require a phone number for DocuSign verification. Please complete the missing information." = "Neki potpisnici zahtijevaju broj telefona za DocuSign verifikaciju. Molimo unesite nedostajuće informacije.";
 "Something Went Wrong" = "Došlo je do greške";
@@ -2414,6 +2427,7 @@
 "Sort by Name" = "Sortirajte po imenu";
 "Sort by..." = "Sortirajte po...";
 "Special Hours" = "Posebni sati";
+"Specific Date" = "Specifičan datum";
 "Speech Bubble" = "Govorni balon";
 "Speech Bubbles" = "Govorni baloni";
 "Stamp" = "Pečat";
@@ -2526,6 +2540,7 @@
 "The actions within this milestone will start only after the actions in %@ are completed. " = "Radnje unutar ove prekretnice će početi tek nakon što se radnje u %@ završe.";
 "The assignee(s) will need to sign again if reopened." = "Zastupnik(ci) će morati ponovo potpisati ako se ponovo otvore.";
 "The code is no longer valid. Please request a new code to continue." = "Kod više nije važeći. Molimo zatražite novi kod kako biste nastavili.";
+"The date is no longer valid." = "Datum više nije važeći.";
 "The date will be recorded in [%@] format" = "Datum će biti zabilježen u [%@] formatu";
 "The envelope is locked because the assignee couldn't verify their identity after several tries." = "Koverta je zaključana jer dodijeljena osoba nije uspjela potvrditi svoj identitet nakon nekoliko pokušaja.";
 "The file cannot be uploaded as it does not meet security requirements. Please check your file and try again." = "Datoteka ne može biti učitana jer ne ispunjava sigurnosne zahtjeve. Molimo provjerite svoju datoteku i pokušajte ponovo.";
@@ -2584,6 +2599,7 @@
 "The system is busy. Please try again." = "Sistem je zauzet. Molimo pokušajte ponovo.";
 "The tag values entered here will apply to any workspace created from this template." = "Vrijednosti oznaka unesene ovdje primijenit će se na bilo koji radni prostor koji je kreiran iz ovog predloška.";
 "The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "Vrijednosti varijabli unesene ovdje će biti primijenjene na kreirani radni prostor. Samo interni korisnici će ih moći vidjeti.";
+"The workspace due date is no longer valid." = "Rok za radni prostor više nije važeći.";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "Radni prostor će se automatski arhivirati za sve članove nakon što se sve radnje završe i nakon što nastupi sljedeće razdoblje neaktivnosti.";
 "There are no active screen share sessions to join." = "Nema aktivnih sesija dijeljenja ekrana za pridruživanje.";
 "There are no other members in this workspace." = "Nema drugih članova u ovom radnom prostoru.";
@@ -2634,7 +2650,6 @@
 "This file has been deleted." = "Ova datoteka je obrisana.";
 "This file has been deleted. It is no longer available." = "Ova datoteka je izbrisana. Više nije dostupna.";
 "This flow has been completed and you can no longer make modifications." = "Ovaj tok je završen i više ne možete vršiti izmjene.";
-"This flow requires you to connect to your account." = "Ovaj tok zahtijeva da se povežete sa svojim računom.";
 "This folder is empty" = "Ovaj direktorij je prazan";
 "This group already has the maximum number of clients allowed per group: %@." = "Ova grupa već ima maksimalan broj klijenata dozvoljen po grupi: %@.";
 "This group already has the maximum number of managers allowed per group: %@." = "Ova grupa već ima maksimalan broj menadžera dozvoljenih po grupi: %@.";
@@ -2868,6 +2883,7 @@
 "Upcoming and ongoing" = "Slijedeći i trenutni";
 "Update" = "Ažurirajte";
 "Update App" = "Ažurirajte aplikaciju";
+"Update Date" = "Datum ažuriranja";
 "Update app to view this message." = "Ažurirajte aplikaciju da biste pogledali ovu poruku.";
 "Update in progress…" = "Ažuriranje u toku…";
 "Update recurring meeting" = "Ažurirajte sastanak koji se ponavlja";
@@ -2928,6 +2944,7 @@
 "View Details" = "Pogledajte detalje";
 "View File" = "Pregledajte datoteku";
 "View Form" = "Prikaži obrazac";
+"View Main Flow" = "Prikaži glavni tok";
 "View Members" = "Pogledajte članove";
 "View More" = "Pregledajte još";
 "View Office Hours" = "Pregledajte radno vrijeme";
@@ -3294,7 +3311,6 @@
 "days" = "dani";
 "decline" = "odbijte";
 "e.g. Acme" = "npr. Acme";
-"e.g. Due in 3 Days" = "na primjer. rok je za 3 dana";
 "e.g. KYC Due Soon, New Investment Opportunity, Portfolio Review,..." = "npr. KYC uskoro dospijeva, Nova investicijska prilika, Pregled portfelja,...";
 "got it" = "razumijem";
 "greater than" = "veći nego";
