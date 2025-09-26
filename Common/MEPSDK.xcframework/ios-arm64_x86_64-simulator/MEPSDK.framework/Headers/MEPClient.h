@@ -19,7 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 @class MEPParticipant;
 @class MEPLiveChat;
 @class MEPLeaveMessageData;
-@class MEPAction;
 
 /**
  The MEPClientDelegate protocol defines methods that are called by the client object in response to important events in the lifetime of your client.
@@ -267,12 +266,6 @@ Use this delegate to set custom info for chat content.
  */
 - (void)client:(MEPClient *)client didDeclineScheduledMeet:(MEPMeet *)meet;
 
-/** It will be called when user tap an action button
-@param client The mep sdk client
-@param action  The action user triggered
- */
-- (void)client:(MEPClient *)client didTapActionButton:(MEPAction *)action;
-
 @end
 
 
@@ -421,14 +414,6 @@ Open service request page, only for customer users.
 @param completionHandler A block object to be executed when the action completes
 */
 - (void)openServiceReqeustWithCompletion:(void (^ _Nullable)(NSError *_Nullable error))completionHandler;
-
-
-/**
-Open Inbox Workspace, only for customer users.
-
-@param completionHandler A block object to be executed when the action completes
-*/
-- (void)openInboxWorkspaceWithCompletion:(void (^ _Nullable)(NSError *_Nullable error))completionHandler;
 
 
 /**
@@ -976,15 +961,6 @@ The default value is nil, which means SDK does not check file types.
  * Enable/disable chat archive feature. Default is NO.
  */
 @property (nonatomic, assign) BOOL disableArchiveChat;
-
-/**
- * Enable/disable Timeline Summary feature. Default is YES.
- */
-@property (nonatomic, assign) BOOL enableTimelineSummary;
-/**
- * Enable/disable Timeline Summary feature. Default is NO.
- */
-@property (nonatomic, assign) BOOL showTimelineSummaryOnly;
 
 /**
  * Replace with local action color.
