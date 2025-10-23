@@ -22,3 +22,6 @@
 #import <MEPSDK/MEPBroadcasting.h>
 #import <MEPSDK/MEPSDKError.h>
 #import <MEPSDK/MEPOutOfOfficeViewController.h>
+#import <MEPSDK/MEPActorUser.h>
+#import <MEPSDK/MEPAction.h>
+#import <MEPSDK/MEPActionOptions.h>

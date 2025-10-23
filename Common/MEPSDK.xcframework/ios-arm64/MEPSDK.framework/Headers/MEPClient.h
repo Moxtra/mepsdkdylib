@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class MEPParticipant;
 @class MEPLiveChat;
 @class MEPLeaveMessageData;
+@class MEPAction;
 
 /**
  The MEPClientDelegate protocol defines methods that are called by the client object in response to important events in the lifetime of your client.
@@ -265,6 +266,12 @@ Use this delegate to set custom info for chat content.
 @param meet  The declined meeting
  */
 - (void)client:(MEPClient *)client didDeclineScheduledMeet:(MEPMeet *)meet;
+
+/** It will be called when user tap an action button
+@param client The mep sdk client
+@param action  The action user triggered
+ */
+- (void)client:(MEPClient *)client didTapActionButton:(MEPAction *)action;
 
 @end
 
@@ -810,6 +817,13 @@ fetch meet with meetID
  */
 
 - (BOOL)handleCallKitUserActivity:(NSUserActivity *)callActivity;
+
+/**
+ End(If the current user is the host) or leave the meet.
+ 
+ @param completionHandler A block object to be executed when the action completes.
+ */
+- (void)leaveOrEndMeetWithCompletionHandler:(void (^ _Nullable)(NSError * _Nullable error))completionHandler;
 
 @end
 
