@@ -688,8 +688,8 @@
 "Anything assigned to you will appear here so you can easily stay on top of things." = "ทุกสิ่งทุกอย่างที่มอบหมายให้กับคุณจะปรากฏขึ้นที่นี่เพื่อให้คุณสามารถจัดการสิ่งต่าง ๆได้อย่างง่ายดาย";
 "App" = "แอป";
 "Apple login disabled" = "การเข้าสู่ระบบ Apple ถูกปิดใช้งาน";
-"Apply" = "ปรับใช้";
 "Applies to regular communications such as messages, replies, file sharing, and comments." = "ใช้กับการสื่อสารทั่วไป เช่น ข้อความ การตอบกลับ การแบ่งปันไฟล์ และความคิดเห็น";
+"Apply" = "ปรับใช้";
 "Approval" = "การอนุมัติ";
 "Approval assigned to %@ and %@ other users." = "การอนุมัติได้รับมอบหมายให้ %1$@ และอีก %2$@ ผู้ใช้.";
 "Approval assigned to %@ and %@ other users: %@" = "การอนุมัติได้รับมอบหมายให้ %1$@ และอีก %2$@ ผู้ใช้: %3$@";
@@ -1540,6 +1540,7 @@
 "Internal User" = "ผู้ใช้ภายใน";
 "Internal Users" = "ผู้ใช้ภายใน";
 "Internal user only" = "เฉพาะผู้ใช้ภายในเท่านั้น";
+"Invalid AI Prepare Agent. Please select another assignee." = "ตัวแทน AI Prepare ไม่ถูกต้อง กรุณาเลือกผู้รับมอบหมายคนอื่น";
 "Invalid Link" = "ลิงก์ไม่ถูกต้อง";
 "Invalid QR Code" = "รหัส QR ไม่ถูกต้อง";
 "Invalid Time" = "เวลาไม่ถูกต้อง";
@@ -2055,6 +2056,8 @@
 "Prepare" = "เตรียม";
 "Prepare %@" = "เตรียม %@";
 "Prepare to get your business in the flow." = "เตรียมตัวให้ธุรกิจของคุณเข้าสู่กระแส";
+"Prepared by %@." = "จัดทำโดย %@";
+"Prepared by %@ and %@." = "จัดทำโดย %@ และ %@.";
 "Preparer*" = "ผู้เตรียม";
 "Preparing..." = "กำลังจัดเตรียม...";
 "Presenter" = "ผู้นำเสนอ";
@@ -2250,9 +2253,9 @@
 "Save Changes" = "บันทึกการเปลี่ยนแปลง";
 "Save Contact" = "บันทึกรายชื่อผู้ติดต่อ";
 "Save Files" = "บันทึกไฟล์";
-"Save For Later" = "บันทึกไว้ใช้ภายหลัง";
 "Save Uploaded Files to a Specific Folder" = "บันทึกไฟล์ที่อัปโหลดไว้ในโฟลเดอร์ที่ระบุ";
 "Save files" = "บันทึกไฟล์";
+"Save for Later" = "บันทึกไว้ทีหลัง";
 "Save the Signed File to a Specific Folder" = "บันทึกไฟล์ที่ลงนามไว้ในโฟลเดอร์ที่ระบุ";
 "Save to" = "บันทึกไปที่";
 "Save to Album" = "บันทึกลงในอัลบั้ม";
@@ -3326,6 +3329,7 @@
 "[Audio]" = "[เสียง]";
 "[Deleted User]" = "[ผู้ใช้ที่ถูกลบ]";
 "all assignees" = "ผู้ได้รับมอบหมายทั้งหมด";
+"attaching files" = "กำลังแนบไฟล์";
 "audio" = "เสียง";
 "busy" = "ไม่ว่าง";
 "clip" = "คลิป";
@@ -3376,11 +3380,15 @@
 "one assignee" = "ผู้ได้รับมอบหมายคนหนึ่ง";
 "out of office" = "ไม่อยู่สำนักงาน";
 "pixel" = "พิกเซล";
+"pre-filling form fields" = "การกรอกฟิลด์ของแบบฟอร์มล่วงหน้า";
 "read by" = "อ่านแล้วโดย";
 "renamed the meeting to %@." = "ตั้งชื่อการประชุมใหม่เป็น %@ แล้ว";
+"replacing the e-sign document" = "กำลังแทนที่เอกสาร E‑Sign";
+"setting the action title" = "การตั้งชื่อการดำเนินการ";
 "start chat" = "เริ่มการแชต";
 "the majority of assignees" = "ผู้ได้รับมอบหมายส่วนใหญ่";
 "today" = "วันนี้";
+"updating the action description" = "กำลังอัปเดตคำอธิบายการดำเนินการ";
 "via Instant Flow" = "ดูอินสแตนซ์โฟลว์";
 "via template: %@" = "ผ่านเทมเพลต: %@";
 "video" = "วิดีโอ";
