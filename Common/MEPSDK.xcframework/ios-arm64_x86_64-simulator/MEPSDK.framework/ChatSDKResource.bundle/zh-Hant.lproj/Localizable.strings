@@ -537,7 +537,7 @@
 "Action overdue (%@)" = "操作逾期 (%@)";
 "Action required from %@." = "需要%@採取行動。";
 "Action skipped" = "跳過操作";
-"Action will be due %@ before the workspace is due." = "操作將在工作空間到期前%@天到期。";
+"Action will be due %@ days before the workspace is due." = "操作將在工作空間到期前%@天到期。";
 "Action will be due in %@." = "操作將於%@後到期。";
 "Action will be due on %@." = "操作將於%@到期。";
 "Actions" = "操作";
@@ -631,7 +631,6 @@
 "All Clients" = "所有客戶";
 "All Files" = "所有文件";
 "All Meetings" = "所有會議";
-"All New Messages" = "所有新消息";
 "All Templates" = "所有模板";
 "All Transactions" = "所有交易";
 "All actions awaiting others' responses will appear here." = "所有等待他人回應的操作將顯示在此處。";
@@ -688,7 +687,6 @@
 "Anything assigned to you will appear here so you can easily stay on top of things." = "分配給您的所有內容都會顯示在此處，因此您可以輕鬆掌握最新信息。";
 "App" = "應用程序";
 "Apple login disabled" = "Apple登錄已禁用";
-"Applies to regular communications such as messages, replies, file sharing, and comments." = "適用於常規通訊，例如消息、回覆、文件共享和評論。";
 "Apply" = "應用";
 "Approval" = "審批";
 "Approval assigned to %@ and %@ other users." = "審批已分配給%1$@和其他%2$@位用戶。";
@@ -766,7 +764,6 @@
 "Authentication Expired" = "身份驗證已過期";
 "Auto" = "自動";
 "Auto save..." = "自動保存...";
-"Auto-saved" = "已自動保存";
 "AutoNavi Maps" = "高德地圖";
 "Automatically Archive" = "自動存檔";
 "Automatically Record Meeting" = "自動錄製會議";
@@ -799,6 +796,7 @@
 "Bot Deactivated" = "機器人已停用";
 "Bots" = "机器人";
 "Bring to front" = "移到前面";
+"Bubbles & Tags" = "氣泡 & 標籤";
 "Buffer Time" = "緩衝時間";
 "Bulk Archive" = "批量存檔";
 "Busy" = "在忙";
@@ -859,7 +857,6 @@
 "Change your profile picture" = "更改頭像";
 "Character limit exceeded" = "超過字符限制";
 "Chat" = "聊天";
-"Chat Settings" = "聊天設定";
 "Check" = "勾選";
 "Check out this video clip I created: %@" = "請查看我創建的視頻片段：%@";
 "Check that you have the correct web address and try again." = "檢查您的網址是否正確並重試";
@@ -874,7 +871,6 @@
 "Choose application" = "選擇地圖應用";
 "Choose from Library" = "從相冊選擇";
 "Choose how many assignees are required to upload a file for completion." = "選擇需要多少經辦人上傳文件以完成任務。";
-"Choose how many assignees are required to verify and approve the submitted files." = "選擇需要多少位經辦人來驗證並核准提交的文件。";
 "Choose how many assignees must acknowledge this action to complete it." = "選擇需要多少經辦人確認此操作才能完成。";
 "Choose how many assignees must approve this action to complete it." = "選擇需要多少經辦人批准此操作才能完成。";
 "Choose how many assignees must finish this to-do to complete it." = "選擇需要完成此任務的經辦人數量。";
@@ -914,7 +910,6 @@
 "Co-Browsing Session Ended" = "協同瀏覽會議結束";
 "Co-browsing is already in progress." = "共同瀏覽已在進行中。";
 "Code Sent" = "驗證碼已發送";
-"Communication Notifications" = "通訊通知";
 "Company" = "公司";
 "Complete" = "完成";
 "Complete Step" = "完成步驟";
@@ -1219,8 +1214,6 @@
 "Email: %@" = "電子郵件: %@";
 "Emails" = "電子郵件";
 "Employee Login" = "員工登錄";
-"Enable AI Chat Assistant" = "啟用AI聊天助理";
-"Enable Chat" = "啟用聊天";
 "Enable Face ID for Login" = "使用面容ID登錄";
 "Enable Touch ID for Login" = "啟用指紋登錄";
 "Enable Voice" = "啟用語音";
@@ -1228,7 +1221,6 @@
 "Enable Waiting Room for All" = "為所有人啟用等候室";
 "Enable Waiting Room for Guests" = "為訪客啟用等候室";
 "Enabled" = "啟用";
-"Enables workspace members to chat with each other." = "讓工作空間成員可以彼此聊天。";
 "End" = "結束";
 "End & Accept" = "結束並接受";
 "End Chat" = "結束對話";
@@ -1238,7 +1230,6 @@
 "Ended %@" = "已結束%@";
 "Ending Meeting..." = "結束會議中...";
 "Ends" = "結束";
-"Engages with your clients to support them through the flow process. " = "與您的客戶互動，協助他們順利完成流程。";
 "Enter" = "進入";
 "Enter Current Password" = "輸入當前密碼";
 "Enter Folder Name" = "輸入文件夾名";
@@ -1364,7 +1355,6 @@
 "Flow initiated" = "流程啟動";
 "Flow initiated." = "流程已啟動。";
 "Flow updated" = "流程已更新";
-"Flows you’ve participated in will appear here" = "您參與過的流程將會顯示在這裡";
 "Folder" = "文件夾";
 "Folder Name" = "文件夾名";
 "Folder name" = "文件夾名稱";
@@ -1540,7 +1530,6 @@
 "Internal User" = "內部用戶";
 "Internal Users" = "內部用戶";
 "Internal user only" = "僅限內部用戶";
-"Invalid AI Prepare Agent. Please select another assignee." = "無效的AI準備代理。請選擇其他經辦人。";
 "Invalid Link" = "無效鏈接";
 "Invalid QR Code" = "無效二維碼";
 "Invalid Time" = "無效時間";
@@ -1725,7 +1714,6 @@
 "Members (%@)" = "成員（%@）";
 "Members only" = "僅限成員";
 "Mentions" = "提到我";
-"Mentions Only" = "僅限提及";
 "Mentions and Assigned Actions" = "提及及分配的操作";
 "Message" = "消息";
 "Message (Optional)" = "消息（可選）";
@@ -1770,7 +1758,6 @@
 "My Templates" = "我的模板";
 "NEW" = "新";
 "NO" = "否";
-"NSHumanReadableCopyright" = "版權所有 © 2020 Moxtra。保留所有權利。";
 "Name" = "名字";
 "Name or email" = "姓名或電子郵件";
 "Name your DocuSign" = "為您的DocuSign命名";
@@ -1818,7 +1805,6 @@
 "No Contacts" = "沒有聯繫人";
 "No Content Yet" = "還沒有內容";
 "No Due Date" = "沒有到期時間";
-"No Flow Workspaces" = "沒有流程工作空間";
 "No Internal Teams" = "沒有內部團隊";
 "No Internet Connection" = "沒有互聯網連接";
 "No Longer Exists" = "不再存在";
@@ -1850,7 +1836,6 @@
 "No description" = "沒有描述";
 "No due date" = "沒有到期時間";
 "No extra participants yet" = "尚無額外參與者";
-"No flows available yet" = "尚無可用的流程";
 "No meeting" = "沒有會議";
 "No meetings" = "沒有預定會議";
 "No new actions need to be added" = "沒有新操作被添加";
@@ -1913,7 +1898,7 @@
 "Only one assignee is required to approve this to complete it." = "只需要一個經辦人批准即可完成此事項。";
 "Only one assignee is required to complete this to-do." = "只需要一個經辦人來完成此任務。";
 "Only one assignee is required to upload files to complete the action." = "只需要一個經辦人上傳文件即可完成此操作。";
-"Only one reviewer is required to confirm completion." = "只需一位審查員確認完成即可。";
+"Only one reviewer is required to review the files to complete the action." = "只需一位審查員審查文件即可完成此操作。";
 "Only participants can view meeting details." = "只有參與者才能查看會議詳細信息。";
 "Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "僅可編輯%1$@操作中的標題、描述和截止日期。如果您需要修改經辦人或更新任何其他詳細信息，請創建新的%2$@操作。";
 "Only the title, description, and due date in DocuSign actions can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "在DocuSign操作中，只能編輯標題、描述和截止日期。如果您需要修改文件或指派人員，請創建一個新的DocuSign操作。";
@@ -2056,8 +2041,6 @@
 "Prepare" = "準備";
 "Prepare %@" = "準備%@";
 "Prepare to get your business in the flow." = "準備好讓您的業務順利進行。";
-"Prepared by %@." = "通過%@完成準備。";
-"Prepared by %@ and %@." = "通過%@與%@完成準備。";
 "Preparer*" = "準備人*";
 "Preparing..." = "準備中...";
 "Presenter" = "主講人";
@@ -2086,7 +2069,6 @@
 "Progress" = "進度";
 "Progress Will Be Lost" = "進度將會丟失";
 "Properties" = "屬性";
-"Provide Details" = "請提供詳情";
 "Provide a service with clear actions and milestones, tailored to the needs of each project." = "提供具有明確操作和里程碑的服務，根據每個項目的需求進行定制。";
 "Public Link" = "共享鏈接";
 "QB2GO" = "QB2GO";
@@ -2112,7 +2094,6 @@
 "Reassign Actions" = "重新分配操作";
 "Reassigned" = "已重新分配";
 "Receive emails about new activity when you’re not online and don’t have notifications enabled." = "當您不在線且未啟用通知時，會收到有關新動態的電子郵件。";
-"Receive reminders for workspaces you created and actions where you’re the creator or assignee." = "接收您所創建的工作空間以及您作為創建者或被指派者的操作的提醒。";
 "Received" = "已收到";
 "Receives a copy" = "接收副本";
 "Recent Shared Workspaces" = "最近共享的工作空間";
@@ -2151,7 +2132,6 @@
 "Reminder sent to %@." = "已向%@發送提醒。";
 "Reminder will occur %@ before." = "提醒將在%@之前發生。";
 "Reminder: %@" = "提醒：%@";
-"Reminders" = "提醒";
 "Remove" = "刪除";
 "Remove %@ from the meeting waiting room?" = "將%@從會議等候室中移除？";
 "Remove Bookmark" = "取消收藏";
@@ -2255,7 +2235,6 @@
 "Save Files" = "保存文件至";
 "Save Uploaded Files to a Specific Folder" = "將上傳的文件保存到指定資料夾";
 "Save files" = "保存文件";
-"Save for Later" = "稍後保存";
 "Save the Signed File to a Specific Folder" = "將簽名檔案保存到特定文件夾";
 "Save to" = "保存到";
 "Save to Album" = "保存到相冊";
@@ -2320,7 +2299,6 @@
 "Select a date for the monthly recurring Microsoft Teams meeting" = "選擇每月重複的Microsoft Teams會議日期";
 "Select a pre-built or shared template in DocuSign" = "在DocuSign中選擇一個預建或共享的模板";
 "Select action type" = "選擇操作類型";
-"Select an Option" = "選擇一個選項";
 "Select an Option to Continue" = "選擇一個選項以繼續";
 "Select an option to continue" = "選擇一個選項以繼續";
 "Select the role assignment (optional):" = "選擇角色分配（可選）：";
@@ -2345,7 +2323,6 @@
 "Send a new code" = "發送新驗證碼";
 "Send an invitation via email or phone number, which they can use to create their account." = "通過電子郵件或手機號碼發送邀請，他們可以使用該邀請創建自己的賬戶。";
 "Send at least one message in this workspace and try again." = "在此工作空間中至少發送一條消息，然後重試。";
-"Send message or @ to ask AI" = "發送訊息或@來詢問AI";
 "Send message..." = "發送消息...";
 "Send via email address" = "通過電子郵件發送";
 "Send via phone number" = "通過電話號碼發送";
@@ -2419,7 +2396,7 @@
 "Signing order" = "簽名順序";
 "Signing..." = "簽名";
 "Signup disabled" = "註冊禁用";
-"Silence general notifications and only receive alerts for assigned actions." = "靜音一般通知，只接收指派行動的提醒。";
+"Silence general notifications and receive alerts only for required actions." = "靜音一般通知，只接收需要採取行動的提醒。";
 "Since certain actions don’t support a client group as an assignee, you can only assign a user to this role." = "由於某些操作不支持將客戶組作為經辦人，因此您只能將用戶分配給此角色。";
 "Since certain actions don’t support a client group as an assignee, you can only reassign a user to this role." = "由於某些操作不支持將客戶組作為經辦人，因此您只能將用戶重新分配給此角色。";
 "Since certain actions don’t support a team as an assignee, you can only assign a user to this role." = "由於某些操作不支持將團隊作為經辦人，您只能將用戶指派給這個角色。";
@@ -2463,7 +2440,6 @@
 "Start" = "開始";
 "Start Co-Browsing" = "開始協同瀏覽";
 "Start Date" = "開始時間";
-"Start Flow" = "開始流程";
 "Start Meeting" = "啟動會議";
 "Start Meeting Early?" = "提前開始會議？";
 "Start New Search" = "開始新搜索";
@@ -2586,8 +2562,8 @@
 "The majority of assignees must acknowledge this action to complete it." = "大多數經辦人必須確認此操作才能完成它。";
 "The majority of assignees must approve this action to complete it." = "大多數經辦人必須批准此操作才能完成它。";
 "The majority of assignees must complete this to-do to finish it." = "大多數經辦人必須完成此任務才算完成。";
-"The majority of assignees must confirm this action to complete it." = "大多數經辦人必須確認此操作才能完成。";
 "The majority of assignees must upload files to complete the action." = "大多數經辦人必須上傳文件才能完成此操作。";
+"The majority of reviewers must review the files to complete the action." = "大多數審查員必須審查文件才能完成此操作。";
 "The maximum amount cannot be lower than the minimum amount." = "最大數不能小於最小數";
 "The maximum number of people have already been invited to the meeting." = "會議已邀請了最大人數。";
 "The maximum number of people have already been invited to the meeting. %@" = "會議已邀請到最大人數。%@";
@@ -2612,7 +2588,7 @@
 "The old password does not match." = "舊密碼不符。";
 "The operation did not complete successfully: %@" = "這個操作沒有完全成功： %@";
 "The person who will submit the required files." = "提交所需文件的人。";
-"The person who will verify and approve the submitted files." = "驗證和批准所提交文件的人。";
+"The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "負責驗證和批准提交文件的人。您可以邀請多位審查員。任何文件審查員確認後，操作即為完成。";
 "The preparer can only be assigned to an internal user or a team." = "準備人只能分配給內部用戶或團隊。";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "之前的鏈接將會失效。使用失效鏈接將無法成功加入平台。";
 "The recording could not be processed. Please check your internet connection." = "錄製無法處理。請檢查您的網際網路連接。";
@@ -2626,7 +2602,6 @@
 "The submitted response will be displayed here." = "提交的回應將在此顯示。";
 "The system is busy. Please try again." = "系統繁忙，請再試一次。";
 "The tag values entered here will apply to any workspace created from this template." = "在此輸入的標籤值將適用於從此模板創建的任何工作空間。";
-"The user will be removed from the workspace member list but will still have access through %@, unless they are also removed from that team or group." = "該用戶將會從工作空間成員列表中移除，但仍可透過%@存取，除非他們同時也從該團隊或群組中被移除。";
 "The variable values entered here will be applied to the created workspace. Only internal users will be able to see them." = "在此輸入的變數值將被應用到所創建的工作空間。只有內部用戶能夠看到它們。";
 "The workspace due date is no longer valid." = "工作空間的到期日已不再有效。";
 "The workspace will auto-archive for all members once all actions are completed and the following period of inactivity has been reached." = "一旦所有操作完成且達到以下不活動期後，工作空間將為所有成員自動存檔。";
@@ -2667,6 +2642,7 @@
 "This action requires you to connect to your account." = "此操作需要您連接您的賬戶。";
 "This action requires you to sign up. Do you want to continue?" = "此操作需要您註冊，您要繼續嗎？";
 "This and Following Meetings" = "這次及以後的會議";
+"This configuration will apply to in-app push notifications, email, and SMS notifications where applicable." = "此設定將適用於應用程式內推播通知、電子郵件及簡訊通知（如適用）。";
 "This content may have been deleted or otherwise removed." = "此內容可能已被刪除或以其他方式刪除。";
 "This decision includes actions and branches. Once you choose an option, the decision will be marked as complete, and its associated actions will proceed." = "此決策包含操作和分支。一旦您選擇了一個選項，決策將被標記為完成，並且相關的操作將會繼續進行。";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "此文檔包含字段。是否要自動添加這些字段並將其分配給某人？";
@@ -2898,7 +2874,6 @@
 "Unassigned" = "未分配";
 "Unavailable" = "不可用";
 "Uncheck" = "取消選中";
-"Unfortunately, this process cannot be started due to a configuration issue." = "很抱歉，因為配置問題，無法啟動此流程。";
 "Unique ID" = "唯一號";
 "Unknown" = "未知";
 "Unlock Meeting Access" = "解除會議的限制";
@@ -3134,7 +3109,6 @@
 "Workspace Name" = "工作空間名稱";
 "Workspace Name (Required)" = "工作空間名稱（必填）";
 "Workspace Owner" = "工作空間所有者";
-"Workspace Reminders" = "工作空間提醒";
 "Workspace Status" = "工作空間狀態";
 "Workspace Tags" = "工作空間標籤";
 "Workspace Timed Out" = "工作空間超時";
@@ -3159,10 +3133,8 @@
 "Would you like to automatically dial into the meeting?" = "您想要自動撥入會議嗎？";
 "Would you like to log out and try again with a different account?" = "您想要登出後再用另一個帳戶嘗試登錄嗎？";
 "Would you like to send log to our developer?" = "您願意發送日誌到我們的開發人員嗎？";
-"Write a comment or @ to ask AI" = "寫下評論或@來詢問AI";
 "Write a comment..." = "添加一條評論";
 "Write a message…" = "寫一個信息…";
-"Write a reply or @ to ask AI" = "寫回覆或@來詢問AI";
 "Write a reply..." = "回覆...";
 "X-Axis Offset" = "X軸偏移";
 "Y-Axis Offset" = "Y軸偏移";
@@ -3228,6 +3200,8 @@
 "You don’t have any contacts yet" = "您還沒有任何联係人";
 "You don’t have any documents to sign in this workspace." = "您在此工作空間中沒有任何需要簽名的文檔。";
 "You don’t have any transactions to act on in this workspace." = "您在此工作空間中沒有任何需要操作的業務。";
+"You have %@ items to fill in." = "您有%@項需要填寫。";
+"You have 1 item to fill in." = "你有1項需要填寫。";
 "You have [color=%@]%@ pending invites to approve.[/color]" = "您有[color=%1$@]%2$@個請求需要您的批准。 [/color]";
 "You have [color=%@]1 pending invite to approve.[/color]" = "您有[color=%1$@]1個請求需要您的批准。 [/color]";
 "You have already been invited by someone to join using a different type of account. Please contact us to update your account." = "您已被他人邀請以不同類型的帳戶加入。請聯繫我們更新您的帳戶。";
@@ -3264,6 +3238,7 @@
 "You will no longer have access to manage this client group after saving changes." = "儲存變更後，您將無法再管理此客戶組。";
 "You will not be able to make changes after that." = "之後無法修改。";
 "You will receive a copy by email" = "您將通過電子郵件收到一份副本";
+"You will receive documents, reports, statements, and broadcast feeds from businesses here." = "您將在這裡收到來自企業的文件、報告、報表和廣播訊息。";
 "You won't be able to recover it once confirmed." = "確認後將無法恢復。";
 "You won't be able to recover it once deleted." = "一旦刪除，您將無法恢復。";
 "You'll need to update this application before continuing." = "您需要升級應用才能繼續。";
@@ -3329,7 +3304,6 @@
 "[Audio]" = "【語音】";
 "[Deleted User]" = "[刪除用戶]";
 "all assignees" = "所有經辦人";
-"attaching files" = "附加文件";
 "audio" = "語音";
 "busy" = "忙碌";
 "clip" = "錄屏";
@@ -3380,15 +3354,12 @@
 "one assignee" = "一名經辦人";
 "out of office" = "不在辦公室";
 "pixel" = "像素";
-"pre-filling form fields" = "預填表單欄位";
 "read by" = "已讀";
 "renamed the meeting to %@." = "重命名會議：%@";
-"replacing the e-sign document" = "替換電子簽名文件";
-"setting the action title" = "設定操作標題";
 "start chat" = "開始對話";
 "the majority of assignees" = "大多數經辦人";
 "today" = "今天";
-"updating the action description" = "更新操作描述";
+"value" = "價值";
 "via Instant Flow" = "通過即時流程";
 "via template: %@" = "通過模板：%@";
 "video" = "影片";

@@ -818,13 +818,6 @@ fetch meet with meetID
 
 - (BOOL)handleCallKitUserActivity:(NSUserActivity *)callActivity;
 
-/**
- End(If the current user is the host) or leave the meet.
- 
- @param completionHandler A block object to be executed when the action completes.
- */
-- (void)leaveOrEndMeetWithCompletionHandler:(void (^ _Nullable)(NSError * _Nullable error))completionHandler;
-
 @end
 
 @interface MEPAddFileEntryOptions : NSObject
