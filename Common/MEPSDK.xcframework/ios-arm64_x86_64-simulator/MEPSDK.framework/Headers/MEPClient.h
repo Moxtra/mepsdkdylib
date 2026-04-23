@@ -273,25 +273,6 @@ Use this delegate to set custom info for chat content.
  */
 - (void)client:(MEPClient *)client didTapActionButton:(MEPAction *)action;
 
-
-/**
- * Specifies the supported interface orientations for SDK view controllers.
- *
- * Implement this delegate method to control which device orientations are allowed
- * when the SDK presents view controllers.
- *
- * @param client The MEP SDK client instance requesting orientation information
- * @param viewController The view controller for which orientations should be specified
- * @return UIInterfaceOrientationMask A bitmask of supported interface orientations
- *
- * @see UIInterfaceOrientationMask for available orientation values
- *
- * @note This method is called before presenting SDK view controllers. The returned
- *       orientation mask should match your app's supported orientations.
- */
-- (UIInterfaceOrientationMask)client:(MEPClient *)client
-    getSupportedInterfaceOrientationsForViewController:(UIViewController *)viewController; 
-
 @end
 
 

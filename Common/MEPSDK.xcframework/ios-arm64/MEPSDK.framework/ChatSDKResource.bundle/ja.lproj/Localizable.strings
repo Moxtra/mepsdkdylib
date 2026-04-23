@@ -537,7 +537,7 @@
 "Action overdue (%@)" = "アクションの期限を過ぎています (%@)";
 "Action required from %@." = "%@による対応が必要です。";
 "Action skipped" = "アクションがスキップされました";
-"Action will be due %@ before the workspace is due." = "アクションの期限はワークスペースの期限の%@日前です。";
+"Action will be due %@ before the workspace is due." = "アクションはワークスペースの期限の%@日前に期限となります。";
 "Action will be due in %@." = "アクションの期限は%@です。";
 "Action will be due on %@." = "アクションの期限は%@です。";
 "Actions" = "アクション";
@@ -631,7 +631,6 @@
 "All Clients" = "すべてのクライアント";
 "All Files" = "全てのファイル";
 "All Meetings" = "全てのミーティング";
-"All New Messages" = "すべての新しいメッセージ";
 "All Templates" = "すべてのテンプレート";
 "All Transactions" = "全てのトランザクション";
 "All actions awaiting others' responses will appear here." = "他者の返答を待っているすべてのアクションがここに表示されます。";
@@ -688,7 +687,6 @@
 "Anything assigned to you will appear here so you can easily stay on top of things." = "自分への割り当てがすべてここに表示されるので、簡単に状況を把握できます。";
 "App" = "アプリ";
 "Apple login disabled" = "Appleログインが無効化されました";
-"Applies to regular communications such as messages, replies, file sharing, and comments." = "メッセージ、返信、ファイル共有、コメントなどの通常のコミュニケーションに適用されます。";
 "Apply" = "適用";
 "Approval" = "承認";
 "Approval assigned to %@ and %@ other users." = "承認が%1$@と他%2$@名のユーザーに割り当てられました。";
@@ -766,10 +764,10 @@
 "Authentication Expired" = "認証が期限切れです";
 "Auto" = "自動";
 "Auto save..." = "自動保存中...";
-"Auto-saved" = "自動保存済み";
 "AutoNavi Maps" = "オートナビ地図";
 "Automatically Archive" = "自動的にアーカイブ";
 "Automatically Record Meeting" = "自動的にミーティングを記録する";
+"Automatically block off unavailable time when you have conflicts in your calendar(s)." = "カレンダーに競合がある場合は、空きのない時間を自動的にブロックします。";
 "Automations" = "自動化";
 "Availability" = "ステータス";
 "Availability time range needs to be at least 1hr" = "空き時間の枠は最低1時間必要です";
@@ -798,6 +796,7 @@
 "Bot Deactivated" = "ボットが無効化されました";
 "Bots" = "ボット";
 "Bring to front" = "前に移動";
+"Bubbles & Tags" = "バブル＆タグ";
 "Buffer Time" = "予備時間";
 "Bulk Archive" = "一括アーカイブ";
 "Busy" = "立て込み中";
@@ -817,8 +816,7 @@
 "CANCELED" = "キャンセル済み";
 "Calendar" = "カレンダー";
 "Calendar Connections" = "カレンダー接続";
-"Calendar List" = "カレンダーのリスト";
-"Calendar Type" = "カレンダーの種類";
+"Calendar type" = "カレンダータイプ";
 "Call" = "通話";
 "Call Topic" = "ミーティングトピック";
 "Call Using Internet Audio" = "インターネットオーディオを使用して通話する";
@@ -859,7 +857,6 @@
 "Change your profile picture" = "プロフィール写真を変更";
 "Character limit exceeded" = "文字数制限を超えました";
 "Chat" = "チャット";
-"Chat Settings" = "チャット設定";
 "Check" = "確認";
 "Check out this video clip I created: %@" = "作成したクリップを確認してください：%@";
 "Check that you have the correct web address and try again." = "正しいアドレスかどうか確認し、再試行してください。";
@@ -874,7 +871,6 @@
 "Choose application" = "アプリケーションを選択する";
 "Choose from Library" = "写真から選択";
 "Choose how many assignees are required to upload a file for completion." = "完了のためにファイルをアップロードする必要がある担当者の数を選択してください。";
-"Choose how many assignees are required to verify and approve the submitted files." = "提出されたファイルを確認・承認するために必要な担当者の人数を選択してください。";
 "Choose how many assignees must acknowledge this action to complete it." = "このアクションを完了するために、何名の担当者が認知する必要があるか選択してください。";
 "Choose how many assignees must approve this action to complete it." = "このアクションを完了するために、何名の担当者の承認が必要か選択してください。";
 "Choose how many assignees must finish this to-do to complete it." = "完了するために何名の担当者がこのタスクを終了する必要があるか選択してください。";
@@ -914,7 +910,6 @@
 "Co-Browsing Session Ended" = "画面同期セッションが終了しました";
 "Co-browsing is already in progress." = "画面同期はすでに進行中です。";
 "Code Sent" = "コードが送信されました";
-"Communication Notifications" = "コミュニケーション通知";
 "Company" = "会社";
 "Complete" = "完了";
 "Complete Step" = "ステップを完了";
@@ -936,7 +931,6 @@
 "Connect Account" = "アカウントを接続";
 "Connect Another Account" = "別のアカウントを接続";
 "Connect Meeting Account" = "ミーティングアカウントを接続";
-"Connect a calendar to align your booking availability with your existing schedule." = "既存のスケジュールに予約可能時間を合わせるために、カレンダーを連携してください。";
 "Connect with DocuSign" = "DocuSignと接続";
 "Connect with me on my app by clicking the link below:" = "以下のリンクをクリックして、私のアプリでつながりましょう:";
 "Connect with people by using your QR code." = "QRコードを使用して人々と繋がりましょう。";
@@ -1142,7 +1136,7 @@
 "Due (%@ after start)" = "開始後%@で期限です";
 "Due (%@ before workspace due)" = "期限（ワークスペースの期限の%@前）";
 "Due Date" = "期日";
-"Due Date Invalid" = "期限が無効です";
+"Due Date Invalid" = "期日が無効です";
 "Due Today" = "本日が期限です";
 "Due Tomorrow" = "期限予定は明日です";
 "Due date was removed %@" = "期日が削除されました %@";
@@ -1220,8 +1214,6 @@
 "Email: %@" = "メールアドレス: %@";
 "Emails" = "メールアドレス";
 "Employee Login" = "従業員ログイン";
-"Enable AI Chat Assistant" = "AIチャットアシスタントを有効にする";
-"Enable Chat" = "チャットを有効にする";
 "Enable Face ID for Login" = "ログインにフェイスIDを有効にする";
 "Enable Touch ID for Login" = "ログインにTouch IDを有効にする";
 "Enable Voice" = "音声を有効にする";
@@ -1229,7 +1221,6 @@
 "Enable Waiting Room for All" = "全員のために待機室を有効にする";
 "Enable Waiting Room for Guests" = "ゲスト用待機室を有効にする";
 "Enabled" = "有効化";
-"Enables workspace members to chat with each other." = "ワークスペースのメンバー同士でチャットできるようにします。";
 "End" = "終了";
 "End & Accept" = "終了 & 同意";
 "End Chat" = "チャットを終了する";
@@ -1238,7 +1229,6 @@
 "End Repeat %@." = "定期的な開催の終了 %@";
 "Ended %@" = "終了しました %@";
 "Ends" = "終了";
-"Engages with your clients to support them through the flow process. " = "フロープロセスを通じてクライアントをサポートし、積極的に関与します。";
 "Enter" = "入力";
 "Enter Current Password" = "現在のパスワードを入力してください";
 "Enter Folder Name" = "フォルダ名を入力してください";
@@ -1354,7 +1344,6 @@
 "Finish" = "終了";
 "Fix Perspective" = "範囲を固定";
 "Flow" = "フロー";
-"Flow Completed" = "フローが完了しました";
 "Flow Templates" = "フローテンプレート";
 "Flow Workspace" = "フローワークスペース";
 "Flow Workspace transferred to you" = "フローワークスペースがあなたに転送されました";
@@ -1365,7 +1354,6 @@
 "Flow initiated" = "フローが開始されました";
 "Flow initiated." = "フローが開始されました。";
 "Flow updated" = "フローが更新されました";
-"Flows you’ve participated in will appear here" = "あなたが参加したフローがここに表示されます";
 "Folder" = "フォルダ";
 "Folder Name" = "フォルダ名";
 "Folder name" = "フォルダ名";
@@ -1541,7 +1529,6 @@
 "Internal User" = "内部ユーザー";
 "Internal Users" = "内部ユーザー";
 "Internal user only" = "内部ユーザーのみ";
-"Invalid AI Prepare Agent. Please select another assignee." = "無効なAI準備エージェントです。別の担当者を選択してください。";
 "Invalid Link" = "無効なリンクです";
 "Invalid QR Code" = "無効なQRコードです";
 "Invalid Time" = "無効な時刻";
@@ -1635,7 +1622,6 @@
 "Link Preview Removed" = "リンクプレビューが正常に削除";
 "Link Refreshed" = "リンク更新";
 "Link sent" = "リンクが送信されました。";
-"Load Error" = "読み込みエラー";
 "Load More" = "もっと読み込む";
 "Loading Account" = "アカウントを読み込み中";
 "Loading address..." = "アドレスをロード中...";
@@ -1664,7 +1650,6 @@
 "MIA" = "参加";
 "MIM" = "%1$@: 呼び出し中です。ミーティングに参加してください。";
 "MON" = "月";
-"Main Flow" = "メインフロー";
 "Make Host" = "ホストに設定";
 "Make Presenter" = "プレゼンターに設定";
 "Make your business flow with digital interaction workspaces" = "デジタルインタラクションワークスペースでビジネスをスムーズに進めましょう";
@@ -1728,7 +1713,6 @@
 "Members (%@)" = "メンバー（%@）";
 "Members only" = "メンバーのみ";
 "Mentions" = "メンション";
-"Mentions Only" = "メンションのみ";
 "Mentions and Assigned Actions" = "メンションと割り当てられたアクション";
 "Message" = "メッセージ";
 "Message (Optional)" = "メッセージ（オプション）";
@@ -1770,11 +1754,9 @@
 "Mute Participants Upon Entry" = "入室時に参加者をミュート";
 "Mute Workspace" = "ワークスペースをミュート";
 "Muted Successfully" = "ミュートにしました";
-"My Calendar" = "マイカレンダー";
 "My Templates" = "マイテンプレート";
 "NEW" = "new";
 "NO" = "いいえ";
-"NSHumanReadableCopyright" = "Copyright © 2020 Moxtra. 無断転載を禁じます。";
 "Name" = "名前";
 "Name or email" = "名前またはメール";
 "Name your DocuSign" = "DocuSignに名前を付ける";
@@ -1822,7 +1804,6 @@
 "No Contacts" = "連絡先がありません";
 "No Content Yet" = "まだコンテンツがありません";
 "No Due Date" = "期限なし";
-"No Flow Workspaces" = "フローワークスペースなし";
 "No Internal Teams" = "内部チームなし";
 "No Internet Connection" = "インターネット接続がありません";
 "No Longer Exists" = "既に存在しません";
@@ -1854,7 +1835,6 @@
 "No description" = "説明なし";
 "No due date" = "期限なし";
 "No extra participants yet" = "まだ追加の参加者はいません";
-"No flows available yet" = "まだフローはありません";
 "No meeting" = "ミーティングはありません";
 "No meetings" = "ミーティングはありません";
 "No new actions need to be added" = "新しいアクションを追加する必要はありません";
@@ -1917,7 +1897,7 @@
 "Only one assignee is required to approve this to complete it." = "この作業を完了するためには、1名の承認者が必要です。";
 "Only one assignee is required to complete this to-do." = "このタスクを完了するには、担当者1名のみが必要です。";
 "Only one assignee is required to upload files to complete the action." = "アクションを完了するためには、ファイルをアップロードする担当者が1名必要です。";
-"Only one reviewer is required to confirm completion." = "完了の確認には、レビュワー1名のみが必要です。";
+"Only one reviewer is required to review the files to complete the action." = "このアクションを完了するためには、ファイルを確認するレビュアーが1人必要です。";
 "Only participants can view meeting details." = "参加者のみがミーティング詳細を表示できます。";
 "Only the title, description, and due date in %@ actions can be edited. If you need to modify assignees or update any other details, please create a new %@ action." = "%1$@アクションでは、タイトル、説明、期限のみを編集できます。割り当てられた人を変更する必要がある場合や、その他の詳細を更新する場合は、新しい%2$@アクションを作成してください。";
 "Only the title, description, and due date in DocuSign actions can be edited. If you need to modify the document or assignees, please create a new DocuSign action." = "DocuSignアクションでは、タイトル、説明、期限のみを編集できます。ドキュメントや担当者の変更が必要な場合は、新しいDocuSignアクションを作成してください。";
@@ -1941,9 +1921,7 @@
 "Other Settings" = "その他の設定";
 "Others" = "その他";
 "Out of Office" = "不在";
-"Outlook" = "Outlook";
 "Outlook Calendar" = "Outlookカレンダー";
-"Outputs" = "出力";
 "Oval" = "楕円";
 "Overdue" = "期限超過";
 "Overdue (%@)" = "期限超過%@";
@@ -2062,8 +2040,6 @@
 "Prepare" = "準備";
 "Prepare %@" = "%@ の準備";
 "Prepare to get your business in the flow." = "ビジネスをフローに乗せる準備をしましょう。";
-"Prepared by %@ and %@." = "作成者: %@ および %@";
-"Prepared by %@." = "作成者: %@";
 "Preparer*" = "準備者*";
 "Preparing..." = "準備中...";
 "Presenter" = "プレゼンター";
@@ -2079,7 +2055,6 @@
 "Preview not available" = "プレビューできません";
 "Previous Interactions" = "以前のやりとり";
 "Previously Shared Files" = "以前共有されたファイル";
-"Primary" = "主要";
 "Print" = "印刷";
 "Private" = "非公開";
 "Private meeting" = "プライベートミーティング";
@@ -2093,7 +2068,6 @@
 "Progress" = "進行状況";
 "Progress Will Be Lost" = "進捗が失われます";
 "Properties" = "プロパティ";
-"Provide Details" = "詳細を入力してください";
 "Provide a service with clear actions and milestones, tailored to the needs of each project." = "各プロジェクトのニーズに合わせた明確なアクションとマイルストーンをもつサービスを提供します。";
 "Public Link" = "公開リンク";
 "QB2GO" = "QB2GO";
@@ -2119,7 +2093,6 @@
 "Reassign Actions" = "アクションを再割り当て";
 "Reassigned" = "再割り当てられます";
 "Receive emails about new activity when you’re not online and don’t have notifications enabled." = "オンラインでないときおよび通知が有効になっていないときに、新しいアクティビティに関するメールを受信します。";
-"Receive reminders for workspaces you created and actions where you’re the creator or assignee." = "あなたが作成したワークスペースや、作成者または担当者であるアクションについてリマインダーを受け取ります。";
 "Received" = "受信済み";
 "Receives a copy" = "コピーを受け取る";
 "Recent Shared Workspaces" = "最近の共有ワークスペース";
@@ -2140,7 +2113,6 @@
 "Rectangle" = "長方形";
 "Recurrence settings were reset due to incompatibility with Microsoft Teams. Please select a single day for repeating meetings." = "Microsoft Teamsとの互換性の問題により、繰り返し設定がリセットされました。繰り返しミーティングの日付は1日を選択してください。";
 "Referenced event has been removed" = "参照されたイベントが削除されました";
-"Referenced flow has been removed" = "参照先のフローは削除されました";
 "Refresh" = "リフレッシュ";
 "Refresh Invite Link?" = "招待リンクを更新しますか？";
 "Refresh Link" = "リンクを更新";
@@ -2159,7 +2131,6 @@
 "Reminder sent to %@." = "%@にリマインダーを送信しました。";
 "Reminder will occur %@ before." = "リマインダーは%@前に設定されます。";
 "Reminder: %@" = "リマインダー: %@";
-"Reminders" = "リマインダー";
 "Remove" = "削除";
 "Remove %@ from the meeting waiting room?" = "ミーティングの待機室から%@を削除しますか？";
 "Remove Bookmark" = "ブックマークを削除";
@@ -2260,11 +2231,9 @@
 "Save" = "保存";
 "Save Changes" = "変更を保存";
 "Save Contact" = "連絡先を保存";
-"Save Error" = "保存エラー";
 "Save Files" = "ファイルを保存";
 "Save Uploaded Files to a Specific Folder" = "アップロードしたファイルを特定のフォルダーに保存";
 "Save files" = "ファイルを保存します";
-"Save for Later" = "後で保存";
 "Save the Signed File to a Specific Folder" = "署名されたファイルを特定のフォルダに保存する";
 "Save to" = "保存先";
 "Save to Album" = "アルバムに保存";
@@ -2329,7 +2298,6 @@
 "Select a date for the monthly recurring Microsoft Teams meeting" = "毎月繰り返し行われるMicrosoft Teams会議の日付を選択してください";
 "Select a pre-built or shared template in DocuSign" = "DocuSignで事前に作成されたテンプレートまたは共有テンプレートを選択してください。";
 "Select action type" = "アクションタイプを選択";
-"Select an Option" = "オプションを選択";
 "Select an Option to Continue" = "続行するオプションを選択してください";
 "Select an option to continue" = "続行するオプションを選択してください";
 "Select the role assignment (optional):" = "ロールの割り当て先を選択（オプション）:";
@@ -2354,7 +2322,6 @@
 "Send a new code" = "新しいコードを送信";
 "Send an invitation via email or phone number, which they can use to create their account." = "メールアドレスまたは電話番号を通じて招待を送信してください。それを使用してアカウントを作成することができます。";
 "Send at least one message in this workspace and try again." = "このワークスペースで少なくとも1つのメッセージを送信してから、再試行してください。";
-"Send message or @ to ask AI" = "AIに質問するにはメッセージまたは@を送信";
 "Send message..." = "メッセージ書き込み...";
 "Send via email address" = "メールアドレスに送信";
 "Send via phone number" = "電話番号に送信";
@@ -2428,7 +2395,7 @@
 "Signing order" = "署名順";
 "Signing..." = "署名";
 "Signup disabled" = "サインアップ無効";
-"Silence general notifications and only receive alerts for assigned actions." = "一般的な通知をミュートし、割り当てられたアクションのアラートのみを受け取ります。";
+"Silence general notifications and receive alerts only for required actions." = "一般的な通知をミュートし、必要なアクションのみのアラートを受け取ります。";
 "Since certain actions don’t support a client group as an assignee, you can only assign a user to this role." = "特定のアクションはクライアントグループを担当者としてサポートしていないため、このロールにはユーザーのみを割り当てることができます。";
 "Since certain actions don’t support a client group as an assignee, you can only reassign a user to this role." = "特定のアクションがクライアントグループを担当者としてサポートしていないため、このロールにはユーザーのみを再割り当てできます。";
 "Since certain actions don’t support a team as an assignee, you can only assign a user to this role." = "特定のアクションはチームを担当者としてサポートしていないため、このロールにはユーザーのみを割り当てることができます。";
@@ -2472,7 +2439,6 @@
 "Start" = "開始";
 "Start Co-Browsing" = "同期開始";
 "Start Date" = "開始日";
-"Start Flow" = "フローを開始";
 "Start Meeting" = "ミーティングを開始";
 "Start Meeting Early?" = "ミーティングを前倒しで開始しますか？";
 "Start New Search" = "新しい検索を開始";
@@ -2490,7 +2456,6 @@
 "Step %@" = "ステップ%@";
 "Step %@: %@" = "ステップ%1$@%2$@";
 "Step Added" = "ステップが追加されました";
-"Step Completed: %@" = "ステップが完了しました: %@";
 "Step Details" = "ステップの詳細";
 "Step Details (Step %@)" = "ステップの詳細（ステップ%@）";
 "Step Removed" = "ステップが削除されました";
@@ -2596,8 +2561,8 @@
 "The majority of assignees must acknowledge this action to complete it." = "担当者の過半数がこのアクションを認める必要があります。";
 "The majority of assignees must approve this action to complete it." = "このアクションを完了するには、担当者の過半数の承認が必要です。";
 "The majority of assignees must complete this to-do to finish it." = "担当者の過半数がこのタスクを完了する必要があります。";
-"The majority of assignees must confirm this action to complete it." = "担当者の過半数がこのアクションを確認する必要があります。";
 "The majority of assignees must upload files to complete the action." = "担当者の過半数がファイルをアップロードする必要があります。";
+"The majority of reviewers must review the files to complete the action." = "行動を完了するためには、レビュアーの過半数がファイルを確認する必要があります。";
 "The maximum amount cannot be lower than the minimum amount." = "最大金額を最小金額より小さくすることはできません。";
 "The maximum number of people have already been invited to the meeting." = "会議に招待できる最大人数に達しています。";
 "The maximum number of people have already been invited to the meeting. %@" = "会議に招待できる最大人数に達しました。%@";
@@ -2622,7 +2587,7 @@
 "The old password does not match." = "古いパスワードが一致しません。";
 "The operation did not complete successfully: %@" = "操作を完了出来ませんでした: %@";
 "The person who will submit the required files." = "必要なファイルを送信するユーザーです。";
-"The person who will verify and approve the submitted files." = "送信されたファイルを確認および承認するユーザーです。";
+"The person who will verify and approve the submitted files. You can invite multiple reviewers. The action will be completed once any file reviewer confirms." = "提出されたファイルを検証し承認する人。複数の確認者を招待することができます。いずれかのファイル確認者が確認すると、アクションが完了します。";
 "The preparer can only be assigned to an internal user or a team." = "作成者は内部ユーザーまたはチームにのみ割り当てることができます。";
 "The previous link will expire. People with the expired link will be unable to use it to join the platform." = "以前のリンクは期限切れです。期限切れのリンクを持つ方はプラットフォームに参加できなくなります。";
 "The recording could not be processed. Please check your internet connection." = "録画が処理できませんでした。インターネット接続を確認してください。";
@@ -2677,6 +2642,7 @@
 "This action requires you to connect to your account." = "このアクションを実行するには、アカウントへの接続が必要です。";
 "This action requires you to sign up. Do you want to continue?" = "この操作を行うにはサインアップが必要です。続行しますか？";
 "This and Following Meetings" = "こちらと以下のミーティング";
+"This configuration will apply to in-app push notifications, email, and SMS notifications where applicable." = "この設定は、アプリ内プッシュ通知、メール、およびSMS通知（該当する場合）に適用されます。";
 "This content may have been deleted or otherwise removed." = "このコンテンツは削除されたか、解除された可能性があります。";
 "This decision includes actions and branches. Once you choose an option, the decision will be marked as complete, and its associated actions will proceed." = "この決定にはアクションと分岐が含まれています。オプションを選択すると、決定は完了とマークされ、関連するアクションが進行します。";
 "This document contains fields. Would you like to automatically add and assign these fields to someone?" = "このドキュメントにはフィールドが含まれています。これらのフィールドを自動的に追加して他のユーザーに割り当てますか?";
@@ -2908,7 +2874,6 @@
 "Unassigned" = "未割り当て";
 "Unavailable" = "利用不可";
 "Uncheck" = "チェックを外す";
-"Unfortunately, this process cannot be started due to a configuration issue." = "残念ながら、設定上の問題によりこのプロセスを開始できません。";
 "Unique ID" = "ユニークID";
 "Unknown" = "不明";
 "Unlock Meeting Access" = "ミーティングアクセスのロック解除";
@@ -2927,7 +2892,6 @@
 "Update in progress…" = "更新中…";
 "Update recurring meeting" = "定期的なミーティングの編集";
 "Updated %@" = "%@ 更新しました";
-"Updated Successfully" = "更新に成功しました";
 "Updated description %@" = "%@ 詳細を更新しました";
 "Updated note %@" = "更新されたノート %@";
 "Updated title %@" = "%@ タイトルを更新しました";
@@ -3054,14 +3018,12 @@
 "We were unable to complete your search." = "検索を完了できませんでした。";
 "We were unable to connect to your %@." = "%@に接続できませんでした。";
 "We were unable to disconnect from your %@." = "%@からの切断ができませんでした。";
-"We were unable to load your %@." = "あなたの%@を読み込めませんでした。";
 "We were unable to process your request." = "リクエストを処理できませんでした。";
 "We were unable to process your request. Please double-check your DocuSign account and try again." = "リクエストを処理できませんでした。DocuSignアカウントを再確認して、再度お試しください。";
 "We were unable to process your request. Please double-check your Zoom account and try again." = "リクエストを処理できませんでした。Zoomアカウントを再確認して、再度お試しください。";
 "We were unable to read or recognize this QR code. Please try again." = "このQRコードが読み取れないか、認識できませんでした。もう一度お試し下さい。";
 "We were unable to recognize the QR code, but you can still create an account to join our platform." = "QRコードを認識できませんでしたが、アカウントを作成することで参加可能です。";
 "We were unable to recognize the link, but you can still create an account to join our platform." = "リンクを認識できませんでしたが、アカウントを作成することで参加可能です。";
-"We were unable to save your %@ settings." = "%@の設定を保存できませんでした。";
 "We will duplicate this file to keep the original safe." = "元ファイルの安全性を確保するため、ファイルをコピーします。";
 "We will get back to you as soon as possible." = "こちらから、できるだけ早くご連絡します。";
 "We will get back to you via email." = "メールでご連絡いたします。";
@@ -3147,7 +3109,6 @@
 "Workspace Name" = "ワークスペース名";
 "Workspace Name (Required)" = "ワークスペース名 (必須)";
 "Workspace Owner" = "ワークスペースの所有者";
-"Workspace Reminders" = "ワークスペースのリマインダー";
 "Workspace Status" = "ワークスペースのステータス";
 "Workspace Tags" = "ワークスペースのタグ";
 "Workspace Timed Out" = "ワークスペースがタイムアウトしました";
@@ -3172,10 +3133,8 @@
 "Would you like to automatically dial into the meeting?" = "ミーティングに自動的にダイヤルインしますか？";
 "Would you like to log out and try again with a different account?" = "ログアウトして別のアカウントで再試行しますか？";
 "Would you like to send log to our developer?" = "ログを開発者に送信しますか？";
-"Write a comment or @ to ask AI" = "コメントを書くか「@」でAIに質問してください";
 "Write a comment..." = "コメントを記入してください…";
 "Write a message…" = "メッセージを書く…";
-"Write a reply or @ to ask AI" = "返信を書くか、@でAIに質問してください";
 "Write a reply..." = "返信する…";
 "X-Axis Offset" = "X軸オフセット";
 "Y-Axis Offset" = "Y軸オフセット";
@@ -3241,6 +3200,8 @@
 "You don’t have any contacts yet" = "あなたにはまだ連絡先がありません";
 "You don’t have any documents to sign in this workspace." = "このワークスペースにサインインするためのドキュメントがありません。";
 "You don’t have any transactions to act on in this workspace." = "このワークスペースで実行するトランザクションはありません。";
+"You have %@ items to fill in." = "%@個の項目を入力する必要があります。";
+"You have 1 item to fill in." = "1 項目記入してください。";
 "You have [color=%@]%@ pending invites to approve.[/color]" = "[color=%1$@]承認を保留している招待が %2$@ 件あります。[/color]";
 "You have [color=%@]1 pending invite to approve.[/color]" = "[color=%1$@]承認を保留している招待が 1 件あります。[/color]";
 "You have already been invited by someone to join using a different type of account. Please contact us to update your account." = "あなたはすでに別のタイプのアカウントを使用して参加するように誰かから招待されています。アカウントを更新するために、私たちに連絡してください。";
@@ -3277,6 +3238,7 @@
 "You will no longer have access to manage this client group after saving changes." = "変更を保存すると、このクライアントグループを管理する権限がなくなります。";
 "You will not be able to make changes after that." = "これ以降変更できなくなります。";
 "You will receive a copy by email" = "メールでコピーを受け取ります。";
+"You will receive documents, reports, statements, and broadcast feeds from businesses here." = "ここで、企業からドキュメント、レポート、明細書、配信フィードを受け取ることができます。";
 "You won't be able to recover it once confirmed." = "一度実施すると元に戻せません。";
 "You won't be able to recover it once deleted." = "削除すると、復元することはできません。";
 "You'll need to update this application before continuing." = "続行する前に、このアプリケーションを更新する必要があります。";
@@ -3342,7 +3304,6 @@
 "[Audio]" = "[音声]";
 "[Deleted User]" = "[ユーザーを削除]";
 "all assignees" = "すべての担当者";
-"attaching files" = "ファイルの添付";
 "audio" = "音声";
 "busy" = "立て込み中";
 "clip" = "クリップ";
@@ -3393,15 +3354,12 @@
 "one assignee" = "1名の担当者";
 "out of office" = "不在設定";
 "pixel" = "ピクセル";
-"pre-filling form fields" = "フォームフィールドの事前入力";
 "read by" = "読者";
 "renamed the meeting to %@." = "ミーティング名を%@に変更しました。";
-"replacing the e-sign document" = "署名用文書を差し替えています";
-"setting the action title" = "アクションのタイトルの設定";
 "start chat" = "チャット開始";
 "the majority of assignees" = "担当者の過半数";
 "today" = "今日";
-"updating the action description" = "アクションの説明を更新中";
+"value" = "値";
 "via Instant Flow" = "インスタントフロー経由で";
 "via template: %@" = "テンプレートを使用します。 %@";
 "video" = "ビデオ";
