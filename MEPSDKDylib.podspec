@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  MEP(Moxtra Engagement Platform) is a SDK or platform for partners to intergrate Moxtra service more easily.
+  MEP(Moxo Engagement Platform) is a SDK or platform for partners to intergrate Moxo service more easily.
                    DESC
 
-  s.homepage     = "https://www.moxtra.com"
+  s.homepage     = "https://www.moxo.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "john.hu" => "john.hu@moxtra.com" }
+  s.author             = { "john.hu" => "john.hu@moxo.com" }
   # Or just: s.author    = "john.hu"
   # s.authors            = { "john.hu" => "johnhu456@163.com" }
   # s.social_media_url   = "http://twitter.com/john.hu"
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "13.0"
+  s.platform     = :ios, "15.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
